@@ -1,6 +1,6 @@
-domain: "https://kawaiibot.xyz"
+domain: "https://botlist.alexflipnote.xyz"
 baseurl: ""
-url: "https://kawaiibot.xyz"
+url: "https://botlist.alexflipnote.xyz"
 encoding: utf-8
 
 include: ['_pages']
