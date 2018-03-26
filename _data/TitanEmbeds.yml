@@ -1,5 +1,5 @@
 name: Titan
-description: Embed your Discord server on your website! Improve your Discord widgets by being able to chat as a guest or with your Discord account.
+description: Embed your Discord server on your website!
 avatar: https://images.discordapp.net/avatars/299403260031139840/74ddb2dc7aea181b59056a2231b03d04.png
-link: https://titanembeds.com/
+link: https://discordapp.com/oauth2/authorize?&client_id=299403260031139840&scope=bot&permissions=641195117
 nsfw: false
