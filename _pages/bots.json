@@ -1,0 +1,14 @@
+---
+permalink: "/bots.json"
+---
+[
+    {% for bot in site.data %}
+    {
+      "name" : "{{ bot[1].name }}",
+      "description" : "{{ bot[1].description | strip_html | truncate:60 }}",
+      "avatar" : "{{ bot[1].avatar }}",
+      "link" : "{{ bot[1].link }}"
+    }
+    {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+]
