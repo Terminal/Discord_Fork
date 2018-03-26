@@ -2,3 +2,4 @@ name: ToR Genius
 description: IT'S NOT A PORN BOT OK???
 avatar: https://cdn.discordapp.com/avatars/401477146511409183/a8dc2f403b80a444b14c52c3dc2d621d.png
 link: https://discordapp.com/api/oauth2/authorize?client_id=401477146511409183&permissions=8192&scope=bot
+nsfw: false

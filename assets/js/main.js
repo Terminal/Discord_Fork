@@ -28,9 +28,16 @@ window.addEventListener('load', function() {
         .text(json[i].description)
         .addClass("description")
 
+			// Check NSFW
+			var nsfwfilter = "avatar";
+			if (json[i].nsfw == true) {
+				nsfwfilter = "avatar nsfw";
+				$(name).append('<span class="nsfw-tag">NSFW</span>')
+			}
+
       $(logo)
-        .addClass("avatar")
-        .append('<img class="avatar" src="'+json[i].avatar+'">')
+				.addClass("avatar")
+        .append('<img class="'+nsfwfilter+'" src="'+json[i].avatar+'">')
 
       $(link)
         .addClass("link buttons")
