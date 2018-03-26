@@ -1,27 +1,14 @@
-function shuffle(array) {
-  var currentIndex = array.length, temporaryValue, randomIndex;
-
-  // While there remain elements to shuffle
-  while (0 !== currentIndex) {
-
-    // Pick a remaining element
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex -= 1;
-
-    // And swap it with the current element.
-    temporaryValue = array[currentIndex];
-    array[currentIndex] = array[randomIndex];
-    array[randomIndex] = temporaryValue;
-  }
-
-  return array;
-}
+function shuffle(o) {
+	for(var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
+	return o;
+};
 
 window.addEventListener('load', function() {
   var target = document.getElementById("allbots");
 
   $.getJSON("/bots.json", function(json) {
-    for (var i = 0; i < shuffle(json).length; i++) {
+    var randomlist = shuffle(json);
+    for (var i = 0; i < randomlist.length; i++) {
       // Elements
       var card = document.createElement("div");
 
