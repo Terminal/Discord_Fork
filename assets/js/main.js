@@ -6,7 +6,7 @@ function shuffle(o) {
 function createList(target, input) {
 	for (var i = 0; i < input.length; i++) {
 		// Elements
-		var card = document.createElement("div");
+		var card = document.createElement("section");
 
 		var name = document.createElement("h2");
 		var logo = document.createElement("div");
@@ -67,6 +67,14 @@ window.addEventListener('load', function() {
 
 		createList(target, shuffle(verified));
 		createList(target, shuffle(therest));
+
+		/* NOTE: Unlock this when it's needed
+		$('#allbots').easyPaginate({
+			paginateElement: 'section',
+			elementsPerPage: 5,
+			effect: 'default'
+		});
+		*/
 
   });
 });
