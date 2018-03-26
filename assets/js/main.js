@@ -32,7 +32,7 @@ window.addEventListener('load', function() {
 			var nsfwfilter = "avatar";
 			if (json[i].nsfw == true) {
 				nsfwfilter = "avatar nsfw";
-				$(name).append('<span class="nsfw-tag">NSFW</span>')
+				$(name).append('<span class="nsfw-tag">NSFW</span>');
 			}
 
       $(logo)
