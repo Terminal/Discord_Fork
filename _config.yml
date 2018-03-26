@@ -1,6 +1,6 @@
-domain: "https://bots.alexflipnote.xyz"
+domain: "https://botlist.alexflipnote.xyz"
 baseurl: ""
-url: "https://bots.alexflipnote.xyz"
+url: "https://botlist.alexflipnote.xyz"
 encoding: utf-8
 
 include: ['_pages']
