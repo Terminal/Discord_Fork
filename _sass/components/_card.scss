@@ -13,7 +13,7 @@
               0 0 0 1px rgba(32, 34, 37, .6);
   display: block;
   font-family: arial;
-  height: 265px;
+  // height: 290px;
   margin: 0 .05em;
   margin-top: 2em;
   text-align: center;
@@ -45,14 +45,12 @@
     background-color: #303030;
     border-radius: 0 0 6px 6px;
     display: block;
-    margin-top: .25em;
     padding: .6em 0;
+    padding-bottom: 1em;
 
     a {
       color: #fff;
       font-size: 14px;
-      margin: 0 .15em;
-      margin-bottom: .3em;
       text-decoration: none;
     }
   }
