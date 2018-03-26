@@ -1,5 +1,6 @@
 # Discord_Bots
-Basically a stupid botlist made because of memes.
+Basically a stupid botlist made because of memes.<br>
+Website URL: https://botlist.alexflipnote.xyz/
 
 ## Adding your bot to the site
 - Fork the project
