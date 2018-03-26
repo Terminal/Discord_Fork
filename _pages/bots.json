@@ -8,6 +8,7 @@ permalink: "/bots.json"
       "description" : "{{ bot[1].description | strip_html | truncate:60 }}",
       "avatar" : "{{ bot[1].avatar }}",
       "link" : "{{ bot[1].link }}",
+      "verified" : {% if bot[1].verified %}{{ bot[1].verified }}{% else %}false{% endif %},
       "nsfw" : {{ bot[1].nsfw }}
     }
     {% unless forloop.last %},{% endunless %}

@@ -6,6 +6,22 @@
   justify-content: space-around;
 }
 
+.nsfw { filter: blur(4px); }
+.nsfw-tag {
+  background: #e74c3c;
+  border-radius: 3px;
+  color: #fff;
+  flex-shrink: 0;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 28px;
+  margin-left: 6px;
+  padding: 2px 3px;
+  text-transform: uppercase;
+  vertical-align: bottom;
+}
+
 .card {
   background-color: #282828;
   border-radius: 6px;
@@ -33,6 +49,11 @@
   .name {
     font-size: 26px;
     margin-top: .2em;
+  }
+
+  .verified {
+    color: #2ecc71;
+    text-shadow: 0 0 10px #2ecc71;
   }
 
   .description {
