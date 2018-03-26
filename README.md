@@ -10,6 +10,7 @@ name: BOT NAME
 description: DESCRIPTION (limited to 60 characters)
 avatar: URL, must be HTTPS
 link: URL to invite bot, must be HTTPS
+nsfw: true | false
 ```
 - make a PR and wait for answers
 
