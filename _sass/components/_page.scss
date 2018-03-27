@@ -26,12 +26,19 @@
     width: 100%;
     z-index: 10;
 
-    .image-title { border-radius: 100%; width: 9em; }
+    .image-title { border-radius: 100%; width: 7em; }
+
+    .text-content { margin-left: 1em; }
+    .content {
+      align-items: center;
+      display: flex;
+      img { flex-grow: 0; flex-shrink: 0; }
+    }
+
     .title {
       filter: drop-shadow(3px 3px 0 rgba(0, 0, 0, .4));
       font-size: 4rem;
       letter-spacing: 1px;
-      margin: .25em;
     }
 
     .undertitle {

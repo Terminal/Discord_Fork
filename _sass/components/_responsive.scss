@@ -1,11 +1,23 @@
 @media (max-width: 500px) {
   .center-object {
     .me {
-      .image-title { width: 9em; }
+      .image-title { width: 5em; }
       .title {
         font-size: 3rem;
         letter-spacing: 1px;
         margin: -.3em 0;
+      }
+
+      .text-content {
+        margin-left: 0;
+        margin-top: .6em;
+      }
+
+      .content {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
       }
 
       .undertitle {
