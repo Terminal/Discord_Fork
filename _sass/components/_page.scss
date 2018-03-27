@@ -57,13 +57,18 @@
   width: 90%;
 }
 
-footer {
-  background: #282828;
-  margin-top: 5rem;
-  padding-bottom: 1.5rem;
-  padding-top: 1.5rem;
-  text-align: center;
-  width: 100%;
+input#search {
+  background: #ddd;
+  border: 0;
+  border-radius: 10px;
+  color: #63717f;
+  float: left;
+  font-size: 10pt;
+  height: 50px;
+  margin-top: .6em;
+  width: 300px;
+
+  &::-webkit-input-placeholder { color: #65737e; }
 }
 
 .easyPaginateNav {

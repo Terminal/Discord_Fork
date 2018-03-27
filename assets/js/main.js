@@ -47,7 +47,8 @@ function createList(target, input) {
 	}
 }
 
-window.addEventListener('load', function() {
+
+$(document).ready(function(){
   var target = document.getElementById("allbots");
 
   $.getJSON("/bots.json", function(json) {
@@ -76,5 +77,15 @@ window.addEventListener('load', function() {
 		});
 		*/
 
+		// Search function
+		$("#search").on("keyup", function() {
+	    var value = $(this).val().toLowerCase();
+	    $(".card").filter(function() {
+	      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+	    });
+	  });
   });
+
+	$(".spinner").hide();
+
 });

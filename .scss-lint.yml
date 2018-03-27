@@ -24,3 +24,6 @@ linters:
 
   VendorPrefix:
     enabled: false
+
+  QualifyingElement:
+    enabled: false
