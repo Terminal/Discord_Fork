@@ -99,14 +99,19 @@ $(document).ready(function() {
 			$(".card").addClass("profile");
 			$(".name").replaceWith('<h2 class="name">'+botpage.name+'</h2>');
 
-			if (botpage.verified == true) $(".name").addClass("verified");
-			if (botpage.long_description) $(".description").text(botpage.long_description);
-
 			// Change META data to bot
+			$("title").text(botpage.name);
 			$("meta[property='og\\:title']").attr("content", botpage.name);
 			$("meta[property='og\\:description']").attr("content", botpage.description);
 			$("meta[property='og\\:image']").attr("content", botpage.avatar);
 			$("link[type='image/x-icon']").attr("href", botpage.avatar);
+
+			// IF checker
+			if (botpage.verified == true) $(".name").addClass("verified");
+			if (botpage.long_description) {
+				$(".description").text(botpage.long_description);
+				$("meta[property='og\\:description']").attr("content", botpage.long_description);
+			}
 		} else {
 			createList(target, shuffle(verified));
 			createList(target, shuffle(therest));
