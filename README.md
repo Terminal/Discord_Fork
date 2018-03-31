@@ -11,6 +11,7 @@ way to be more unique and prove that a botlist can possibly be made with Jekyll.
 ```yml
 name: BOT NAME
 description: DESCRIPTION (limited to 60 characters)
+long_description: LONG_DESCRIPTION (only viewable at bot page)
 avatar: URL, must be the Discord avatar in PNG format and no ?size query
 link: URL to invite bot, must be HTTPS
 nsfw: true | false

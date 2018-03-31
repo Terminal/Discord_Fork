@@ -70,25 +70,3 @@ input#search {
 
   &::-webkit-input-placeholder { color: #65737e; }
 }
-
-.easyPaginateNav {
-  display: none;
-  margin-top: 3em;
-  text-align: center;
-  text-decoration: none;
-
-  .first, .prev, .next, .last {
-    background: #181818;
-    border-radius: 5px;
-    margin: 0 .3em;
-    padding: .4em;
-  }
-
-  .current { color: #2ecc71 !important; }
-  .page {
-    background: #181818;
-    border-radius: 5px;
-    margin: 0 .2em;
-    padding: .4em;
-  }
-}

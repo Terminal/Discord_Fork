@@ -18,7 +18,7 @@ function createList(target, input) {
 		// Elements
 		var card = document.createElement("section");
 
-		var name = document.createElement("h2");
+		var name = document.createElement("a");
 		var logo = document.createElement("div");
 		var desc = document.createElement("span");
 		var link = document.createElement("div");
@@ -28,6 +28,7 @@ function createList(target, input) {
 
 		$(name)
 			.text(input[i].name)
+			.attr("href", "?bot="+input[i].url_safe)
 			.addClass("name")
 
 		if (input[i].verified == true) $(name).addClass("verified")
@@ -81,7 +82,7 @@ $(document).ready(function() {
 		if (getQueryVariable("bot")) {
 			var search = getQueryVariable("bot");
 			for (var i = 0; i < json.length; i++) {
-				if (json[i].name == search) {
+				if (json[i].url_safe == search) {
 					filtersearch.push(json[i]);
 				}
 			}
@@ -89,20 +90,30 @@ $(document).ready(function() {
 
 		if (filtersearch.length != 0) {
 			createList(target, filtersearch);
+			var botpage = filtersearch[0];
+
+			// Changes to match only one bot
+			$(".background").height("30%");
+			$(".center-object").css("top", "15%");
+			$("#search").remove();
+			$(".card").addClass("profile");
+			$(".name").replaceWith('<h2 class="name">'+botpage.name+'</h2>');
+
+			if (botpage.verified == true) $(".name").addClass("verified");
+			if (botpage.long_description) $(".description").text(botpage.long_description);
+
+			// Change META data to bot
+			$("meta[property='og\\:title']").attr("content", botpage.name);
+			$("meta[property='og\\:description']").attr("content", botpage.description);
+			$("meta[property='og\\:image']").attr("content", botpage.avatar);
+			$("link[type='image/x-icon']").attr("href", botpage.avatar);
 		} else {
 			createList(target, shuffle(verified));
 			createList(target, shuffle(therest));
 		}
-
-		/* NOTE: Unlock this when it's needed
-		$('#allbots').easyPaginate({
-			paginateElement: 'section',
-			elementsPerPage: 5,
-			effect: 'default'
-		});*/
   });
 
-	$(".spinner").hide();
+	$(".spinner").remove();
 
 	// Search function
 	$("#search").on("keyup", function() {

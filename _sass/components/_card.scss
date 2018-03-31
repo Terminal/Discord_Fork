@@ -47,6 +47,7 @@
   }
 
   .name {
+    display: block;
     font-size: 26px;
     margin-top: .2em;
   }
@@ -74,5 +75,28 @@
       font-size: 14px;
       text-decoration: none;
     }
+  }
+}
+
+
+// Bot profile
+.profile {
+  background: transparent;
+  box-shadow: none;
+  margin-top: 2.5em;
+  width: 100%;
+
+  .avatar, .link { background: transparent; }
+
+  .avatar {
+    padding: 0;
+    img { width: 10em; }
+  }
+
+  .name { font-size: 3em; margin-top: 0; }
+
+  .description {
+    color: #eee;
+    font-size: 1.5em;
   }
 }

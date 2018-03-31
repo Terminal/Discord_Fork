@@ -6,6 +6,8 @@ permalink: "/bots.json"
     {
       "name" : "{{ bot[1].name }}",
       "description" : "{{ bot[1].description | strip_html | truncate:60 }}",
+      "long_description" : "{% if bot[1].long_description %}{{ bot[1].long_description }}{% else %}{% endif %}",
+      "url_safe": "{{ bot[1].name | replace:' ', '+' }}",
       "avatar" : "{{ bot[1].avatar }}",
       "link" : "{{ bot[1].link }}",
       "verified" : {% if bot[1].verified %}{{ bot[1].verified }}{% else %}false{% endif %},
