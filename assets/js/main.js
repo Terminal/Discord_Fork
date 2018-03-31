@@ -3,6 +3,16 @@ function shuffle(o) {
 	return o;
 };
 
+function getQueryVariable(variable) {
+  var query = window.location.search.substring(1);
+  var vars = query.split("&");
+  for (var i=0;i<vars.length;i++) {
+    var pair = vars[i].split("=");
+    if(pair[0] == variable){return pair[1];}
+  }
+  return(false);
+}
+
 function createList(target, input) {
 	for (var i = 0; i < input.length; i++) {
 		// Elements
@@ -48,7 +58,7 @@ function createList(target, input) {
 }
 
 
-$(document).ready(function(){
+$(document).ready(function() {
   var target = document.getElementById("allbots");
 
   $.getJSON("/bots.json", function(json) {
@@ -56,6 +66,7 @@ $(document).ready(function(){
 		var verified = [];
 		var therest = [];
 		var collected = [];
+		var filtersearch = [];
 
 		// Split between verified and not verified
 		for (var i = 0; i < json.length; i++) {
@@ -66,26 +77,38 @@ $(document).ready(function(){
 			}
 		}
 
-		createList(target, shuffle(verified));
-		createList(target, shuffle(therest));
+		// If URL contains bot, stop trying to get rest
+		if (getQueryVariable("bot")) {
+			var search = getQueryVariable("bot");
+			for (var i = 0; i < json.length; i++) {
+				if (json[i].name == search) {
+					filtersearch.push(json[i]);
+				}
+			}
+		}
+
+		if (filtersearch.length != 0) {
+			createList(target, filtersearch);
+		} else {
+			createList(target, shuffle(verified));
+			createList(target, shuffle(therest));
+		}
 
 		/* NOTE: Unlock this when it's needed
 		$('#allbots').easyPaginate({
 			paginateElement: 'section',
 			elementsPerPage: 5,
 			effect: 'default'
-		});
-		*/
-
-		// Search function
-		$("#search").on("keyup", function() {
-	    var value = $(this).val().toLowerCase();
-	    $(".card").filter(function() {
-	      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-	    });
-	  });
+		});*/
   });
 
 	$(".spinner").hide();
 
+	// Search function
+	$("#search").on("keyup", function() {
+		var value = $(this).val().toLowerCase();
+		$(".card").filter(function() {
+			$(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+		});
+	});
 });
