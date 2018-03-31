@@ -1,0 +1,37 @@
+<head>
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    {% include intro.html %}
+    <script>
+      $(".background").height("35%");
+      $(".center-object").css("top", "17.5%");
+      $("#search").remove();
+    </script>
+
+    <section class="container">
+      <div class="rowcard center-text">
+        <section class="card profile">
+          <div class="avatar">
+            <img class="avatar {% if page.nsfw == true %}nsfw{% endif %}" src="{{ page.avatar }}">
+          </div>
+          <h2 class="name {% if page.verified == true %}verified{% endif %}">
+            {{ page.botname }}
+            {% if page.nsfw == true %}<span class="nsfw-tag">NSFW</span>{% endif %}
+          </h2>
+          <span class="description">
+            {% if page.long_description %}
+              {{ page.long_description }}
+            {% else %}
+              {{ page.description }}
+            {% endif %}
+          </span>
+          <div class="link buttons">
+            <a class="btn green" href="{{ page.link }}" target="_blank">Add this bot</a>
+          </div>
+        </section>
+      </div>
+    </section>
+  </body>
+</head>

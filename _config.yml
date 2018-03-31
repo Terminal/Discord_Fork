@@ -8,3 +8,15 @@ include: ['_pages']
 sass:
   sass_dir: _sass
   style: compressed
+
+collections:
+  bots:
+    output: true
+    permalink: /:collection/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "bots"
+    values:
+      layout: "botpage"

@@ -1,5 +1,7 @@
-name: voidbot
+---
+botname: voidbot
 description: Multipurpose Python bot
 avatar: https://cdn.discordapp.com/avatars/395548989149413386/9d160feee6f342fcbf96dc05e3fb7c28.png
 link: https://discordapp.com/oauth2/authorize/?permissions=8&scope=bot&client_id=395548989149413386
-nsfw: false 
+nsfw: false
+---

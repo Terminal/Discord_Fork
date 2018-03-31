@@ -1,5 +1,7 @@
-name: MusicalBot
+---
+botname: MusicalBot
 description: A simple to operate musical streaming bot!
 avatar: https://cdn.discordapp.com/avatars/298754678936698880/41155af78c265dbbf9bb231e60c86a78.png
 link: https://botz.mattcowley.co.uk/musicalbot/invite
 nsfw: false
+---

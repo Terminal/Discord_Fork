@@ -1,5 +1,7 @@
-name: BotBoy
+---
+botname: BotBoy
 description: A random service that provides information on various things
 avatar: https://images.discordapp.net/avatars/168238624775602176/49d33043901ac93ef15e144d2713bc32.png
 link: https://bot.discord.io/botboy
 nsfw: false
+---
