@@ -1,6 +1,6 @@
-domain: "https://botlist.alexflipnote.xyz"
+domain: "https://discordfork.info"
 baseurl: ""
-url: "https://botlist.alexflipnote.xyz"
+url: "https://discordfork.info"
 encoding: utf-8
 
 include: ['_pages']
