@@ -1,7 +1,7 @@
 ---
 botname: Chihiro
 description: Chihiro is a useful discord.js bot to moderate your server!
-long_description: Chihiro is a ~~un~~useful discord.js bot to moderate your server with a variety of moderation and fun commands!
+long_description: Chihiro is a useful discord.js bot to moderate your server with a variety of moderation and fun commands!
 avatar: https://cdn.discordapp.com/app-icons/421734614042804234/e55db2360898782429c282bf5cc05a35.png
 link: https://discordapp.com/oauth2/authorize?client_id=421734614042804234&permissions=262152&scope=bot
 nsfw: false
