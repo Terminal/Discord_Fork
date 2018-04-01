@@ -17,6 +17,7 @@ avatar: URL, must be the Discord avatar in PNG format and no ?size query
 link: URL to invite bot, must be HTTPS
 nsfw: true | false
 ---
+After this line, you can do any markdown code you want for custom page!
 ```
 - make a PR and wait for answers
 
