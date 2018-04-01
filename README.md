@@ -1,9 +1,9 @@
 # Discord_Bots
 The public Discord lists you fork to add your content to or find something you desire.<br>
-Website URL: https://botlist.alexflipnote.xyz/
+Website URL: https://discordfork.info/
 
 NOTE: Please do not complain over how *bad* the site is made, this is mostly made as a
-way to be more unique and prove that a botlist can possibly be made with Jekyll.
+way to be more unique and prove that a list site can possibly be made with Jekyll.
 
 ## Adding your bot to the site
 - Fork the project
