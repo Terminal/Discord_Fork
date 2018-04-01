@@ -1,4 +1,4 @@
-# Discord_Bots
+# Discord_Fork
 The public Discord lists you fork to add your content to or find something you desire.<br>
 Website URL: https://discordfork.info/
 
