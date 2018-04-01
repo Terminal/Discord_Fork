@@ -1,0 +1,25 @@
+<head>
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    <div data-jarallax data-speed="0.25" class="jarallax background" style="background-image: url('{{ site.url }}/assets/images/background_landing.jpg');"></div>
+
+    <div class="center-object">
+      <section class="me">
+        <img class="image-title" src="{{ site.url }}/assets/images/logo.png">
+        <h1 class="title">Discord Lists</h1>
+        <p class="undertitle" style="width: 50%;">The public Discord lists you fork to add your content to or find something you desire.</p>
+        <div class="buttons">
+          <a class="btn blue" href="bots">Bot list</a>
+          <a class="btn red" href="#">Coming soon...</a>
+        </div>
+      </section>
+    </div>
+    {{ content }}
+    <script>
+      $(".background").css("height", "100%");
+      $(".center-object").css("top", "50%");
+    </script>
+  </body>
+</head>

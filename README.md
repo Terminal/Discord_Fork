@@ -1,5 +1,5 @@
 # Discord_Bots
-The list you fork to add your bot to.<br>
+The public Discord lists you fork to add your content to or find something you desire.<br>
 Website URL: https://botlist.alexflipnote.xyz/
 
 NOTE: Please do not complain over how *bad* the site is made, this is mostly made as a

@@ -18,7 +18,7 @@ function createList(target, input) {
 
 		$(name)
 			.text(input[i].name)
-			.attr("href", "bots/"+input[i].url_safe)
+			.attr("href", input[i].url_safe)
 			.addClass("name")
 
 		if (input[i].verified == true) $(name).addClass("verified")
