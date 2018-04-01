@@ -7,7 +7,7 @@ permalink: "/bots.json"
       "name" : "{{ bot.botname }}",
       "description" : "{{ bot.description | strip_html | truncate:60 }}",
       "long_description" : "{% if bot.long_description %}{{ bot.long_description }}{% else %}{% endif %}",
-      "url_safe": "{{ bot.botname | replace:' ', '' }}",
+      "url_safe": "{{ bot.botname | downcase | replace:' ', '' }}",
       "avatar" : "{{ bot.avatar }}",
       "link" : "{{ bot.link }}",
       "verified" : {% if bot.verified %}{{ bot.verified }}{% else %}false{% endif %},
