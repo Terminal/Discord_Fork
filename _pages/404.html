@@ -1,0 +1,32 @@
+---
+permalink: "/404"
+---
+
+<!-- This was only done because memes -->
+<style>
+  body { background: #181818; margin: 0; color: #fff; font-family: 'Montserrat', sans-serif; font-size: 15px; }
+  body { width: 100%; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; }
+  h1 { font-size: 4em; }
+  a { color: lightgreen; font-size: 1.5em; text-decoration: none; }
+  .button, .button:hover { transition: all 300ms ease; }
+  .button { background: #e74c3c; color: #fff; padding: 0.2em 0.5em; border-radius: 5px; }
+  .button:hover { background: #c0392b; padding: 0.5em 1em; }
+  .cursor { animation: 1s blink step-end infinite; font-weight: bolder; }
+  .image-logo { width: 7em; border-radius: 100%; margin-bottom: -1em; }
+  @keyframes blink {
+    from, to { color: transparent; }
+    50% { color: #fff; }
+  }
+</style>
+
+<html>
+<head>
+  <title>404: Page not found</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+<body>
+  <img class="image-logo" src="{{ site.url }}/assets/images/logo.png">
+  <h1>404<br>Page not found<span class="cursor">_</span></h1>
+  <a href="/" class="button">Back to home</a>
+</body>
+</html>
