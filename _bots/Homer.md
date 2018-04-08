@@ -15,7 +15,7 @@ The bot uses [discord.js](https://discord.js.org) as API wrapper and runs on the
 - Utility commands (getting information about content, searching for stuff on Google, ...).
 - Easy-to-use profile to share your social networks and a personnal reminder because you must not forget what you wanted to do a minute ago!
 - An advanced poll system with customizable choices, emotes and duration.
-- Translated into multiple languages : English and French. Yes ok it's not a lot but if you wanna get it in your language you can start translating ^_^ (see GitHub).
+- Translated into multiple languages : English and French. Yes ok it's not a lot but if you wanna get it in your language you can start translating (see GitHub).
 - A telephone, yes, get your number and start calling people around Discord (*note: they must have the bot and set-up the telephone, of course*). *Notice: we transmit your calls to the NSA by the way... no jk*
 - A dashboard where you can check the latest news about the bot and soon make some cool stuff from here (still in development).
   
