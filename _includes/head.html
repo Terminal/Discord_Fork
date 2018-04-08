@@ -1,8 +1,13 @@
 <!-- Main content to SEO -->
-<title>{{ page.botname }}</title>
+{% if page.botname %}
+  <title>{{ page.botname }}</title>
+  <meta property="og:title" content="{{ page.botname }}" />
+{% else %}
+  <title>{{ page.servername }}</title>
+  <meta property="og:title" content="{{ page.servername }}" />
+{% endif %}
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-<meta property="og:title" content="{{ page.botname }}" />
 <meta property="og:description" content="{{ page.description }}" />
 
 {% if page.avatar %}
