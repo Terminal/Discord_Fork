@@ -1,7 +1,0 @@
----
-botname: Akari
-description: A weeb bot for all your weeb needs and whatnot
-avatar: https://images.discordapp.net/avatars/401578727584301066/fcb18e2f568b9bb38eae504fd4073f45.png
-link: https://discordapp.com/oauth2/authorize?client_id=401578727584301066&permissions=8&scope=bot
-nsfw: false
----
