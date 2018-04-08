@@ -58,7 +58,7 @@ $fonts: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-se
     line-height: inherit;
   }
   a {
-    color: #0366d6;
+    color: #3498db;
     text-decoration: none;
     &:hover {
       text-decoration: underline;
@@ -89,7 +89,7 @@ $fonts: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-se
     border-collapse: collapse;
   }
   td, th {
-    padding: 0;
+    padding: 0 15px;
   }
   h1, h2, h3, h4, h5, h6 {
     margin-top: 1em;
