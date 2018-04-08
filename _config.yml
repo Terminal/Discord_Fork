@@ -13,6 +13,9 @@ collections:
   bots:
     output: true
     permalink: /:collection/:name/
+  guilds:
+    output: true
+    permalink: /servers/:name/
 
 defaults:
   - scope:
@@ -20,3 +23,8 @@ defaults:
       type: "bots"
     values:
       layout: "botpage"
+  - scope:
+      path: ""
+      type: "guilds"
+    values:
+      layout: "serverpage"

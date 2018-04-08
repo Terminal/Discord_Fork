@@ -21,6 +21,22 @@ After this line, you can do any markdown code you want for custom page!
 ```
 - make a PR and wait for answers
 
+## Adding your server to the list
+- Fork the project
+- Add a new file in **\_guilds** with `your_server_name.md` and add the following:
+```md
+---
+servername: SERVER NAME
+description: DESCRIPTION (limited to 60 characters)
+long_description: LONG_DESCRIPTION (only viewable at bot page)
+avatar: URL, must be the Discord Server icon in PNG format and no ?size query
+link: URL to discord.gg invite only
+nsfw: false
+---
+After this line, you can do any markdown code you want for custom page!
+```
+- make a PR and wait for answers
+
 ## Requirements
 - Ruby 2.4 or above - https://rubyinstaller.org/downloads/
 - jekyll & bundle - https://jekyllrb.com/

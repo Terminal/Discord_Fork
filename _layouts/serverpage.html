@@ -3,7 +3,7 @@
     {% include head.html %}
   </head>
   <body>
-    {% include botintro.html %}
+    {% include serverintro.html %}
     <script>
       $(".background").height("32%");
       $(".center-object").css("top", "16%");
@@ -17,7 +17,7 @@
             <img class="avatar {% if page.nsfw == true %}nsfw{% endif %}" src="{{ page.avatar }}">
           </div>
           <h2 class="name {% if page.verified == true %}verified{% endif %}">
-            {{ page.botname }}
+            {{ page.servername }}
             {% if page.nsfw == true %}<span class="nsfw-tag">NSFW</span>{% endif %}
           </h2>
           <span class="description">
@@ -28,7 +28,7 @@
             {% endif %}
           </span>
           <div class="link buttons">
-            <a class="btn green" href="{{ page.link }}" target="_blank">Add this bot</a>
+            <a class="btn green" href="{{ page.link }}" target="_blank">Join server</a>
           </div>
         </section>
       </div>
