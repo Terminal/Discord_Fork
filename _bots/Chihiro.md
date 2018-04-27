@@ -7,7 +7,7 @@ link: https://discordapp.com/oauth2/authorize?client_id=421734614042804234&permi
 nsfw: false
 ---
 
-[![github](https://tonkku.hosts-a-good.party/bC1MtpTS.png)](https://github.com/snarkyllama/chihiro)
+[![github](https://i.imgur.com/RvF79vd.png)](https://github.com/snarkyllama/chihiro)
 [![invite](https://oof.is-my-life.style/cmxFT89a.png)](https://discordapp.com/oauth2/authorize?client_id=421734614042804234&permissions=262152&scope=bot)  
   
 ------------------------------------------------------------------
