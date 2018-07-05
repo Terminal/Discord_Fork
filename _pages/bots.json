@@ -2,17 +2,14 @@
 permalink: "/bots.json"
 ---
 [
-    {% for bot in site.bots %}
-    {
-      "name" : "{{ bot.botname }}",
-      "description" : "{{ bot.description | strip_html | truncate:60 }}",
-      "long_description" : "{% if bot.long_description %}{{ bot.long_description }}{% else %}{% endif %}",
-      "url_safe": "{{ bot.botname | downcase | replace:' ', '' }}",
-      "avatar" : "{{ bot.avatar }}",
-      "link" : "{{ bot.link }}",
-      "verified" : {% if bot.verified %}{{ bot.verified }}{% else %}false{% endif %},
-      "nsfw" : {{ bot.nsfw }}
-    }
-    {% unless forloop.last %},{% endunless %}
-    {% endfor %}
+  {% for bot in site.bots %}{
+    "name" : "{{ bot.botname }}",
+    "description" : "{{ bot.description | strip_html | truncate:60 }}",
+    "long_description" : "{% if bot.long_description %}{{ bot.long_description }}{% else %}{% endif %}",
+    "url_safe": "{{ bot.botname | downcase | replace:' ', '' }}",
+    "avatar" : "{{ bot.avatar }}",
+    "link" : "{{ bot.link }}",
+    "verified" : {% if bot.verified %}{{ bot.verified }}{% else %}false{% endif %},
+    "nsfw" : {{ bot.nsfw }}
+  }{% unless forloop.last %},{% endunless %}{% endfor %}
 ]
