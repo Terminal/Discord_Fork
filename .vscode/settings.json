@@ -1,5 +1,6 @@
 {
   "files.associations": {
-    "**/_pages/api/bots/all.json": "markdown"
+    "**/_pages/api/bots/all.json": "markdown",
+    "**/_includes/bot.json": "markdown"
   }
 }
