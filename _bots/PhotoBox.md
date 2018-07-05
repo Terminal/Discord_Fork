@@ -1,7 +1,0 @@
----
-botname: PhotoBox
-description: A bot that manipulates photos
-avatar: https://images.discordapp.net/avatars/284134563381248000/8c22911fba3e16081c0c36e8d0089248.png
-link: https://bot.discord.io/photobox
-nsfw: false
----

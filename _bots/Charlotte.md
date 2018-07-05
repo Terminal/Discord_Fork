@@ -1,7 +1,0 @@
----
-botname: Charlotte
-description: Charlotte - A kawaii discord bot for your specific needs
-avatar:  https://i.imgur.com/U8DKcMK.jpg
-link: https://charlotte.torque.ink
-nsfw: false
----
