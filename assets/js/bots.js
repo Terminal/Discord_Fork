@@ -18,7 +18,7 @@ function createList(target, input) {
 
 		$(name)
 			.text(input[i].name)
-			.attr("href", input[i].url_safe)
+			.attr("href", `/bots/${input[i].client_id}`)
 			.addClass("name")
 
 		if (input[i].verified == true) $(name).addClass("verified")
@@ -52,7 +52,7 @@ function createList(target, input) {
 $(document).ready(function() {
   var target = document.getElementById("allbots");
 
-  $.getJSON("/bots.json", function(json) {
+  $.getJSON("/api/bots/all.json", function(json) {
 		var verified = [];
 		var therest = [];
 
