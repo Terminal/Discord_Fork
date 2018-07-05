@@ -1,6 +1,6 @@
-domain: "https://discordfork.info"
+domain: "https://discordbots.co.uk"
 baseurl: ""
-url: "https://discordfork.info"
+url: "https://discordbots.co.uk"
 encoding: utf-8
 
 include: ['_pages']
