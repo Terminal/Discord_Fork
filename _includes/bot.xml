@@ -1,0 +1,12 @@
+<bot id="{{ bot.client_id | xml_escape }}">
+  <client_id>{{ bot.client_id | xml_escape }}</client_id>
+  <application_id>{% if bot.application_id %}{{ bot.application_id | xml_escape }}{% else %}{{ bot.client_id | xml_escape }}{% endif %}</application_id>
+  <name>{{ bot.botname | xml_escape }}</name>
+  <description>{{ bot.description | strip_html | xml_escape | truncate:60 }}</description>
+  <long_description>{% if bot.long_description %}{{ bot.long_description | xml_escape }}{% else %}{% endif %}</long_description>
+  <url_safe>{{ bot.botname | xml_escape | downcase | replace:' ', '' }}</url_safe>
+  <avatar>{{ bot.avatar | xml_escape }}</avatar>
+  <link>{{ bot.link | xml_escape }}</link>
+  <verified>{% if bot.verified %}{{ bot.verified }}{% else %}false{% endif %}</verified>
+  <nsfw>{{ bot.nsfw }}</nsfw>
+</bot>
