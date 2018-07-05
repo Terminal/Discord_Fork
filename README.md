@@ -1,6 +1,7 @@
 # Discord_Fork
-The public Discord lists you fork to add your content to or find something you desire.<br>
-Website URL: https://discordfork.info/
+A fork of Discord_Fork by AlexFlipnote
+
+An in progress version of a potentially new Discord Bots.
 
 NOTE: Please do not complain over how *bad* the site is made, this is mostly made as a
 way to be more unique and prove that a list site can possibly be made with Jekyll.
