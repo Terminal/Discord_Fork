@@ -1,5 +1,5 @@
     "client_id" : "{{ bot.client_id }}",
-    "application_id" : "{% if bot.application_id %}{{ bot.application_id }}{% else %}{{ bot.client_id }}{% endif %}"
+    "application_id" : "{% if bot.application_id %}{{ bot.application_id }}{% else %}{{ bot.client_id }}{% endif %}",
     "name" : "{{ bot.botname }}",
     "description" : "{{ bot.description | strip_html | truncate:60 }}",
     "long_description" : "{% if bot.long_description %}{{ bot.long_description }}{% else %}{% endif %}",
