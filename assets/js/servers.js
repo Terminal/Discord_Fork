@@ -18,7 +18,7 @@ function createList(target, input) {
 
 		$(name)
 			.text(input[i].name)
-			.attr("href", `/servers/${input[i].guild_id}`)
+			.attr("href", `/guilds/${input[i].guild_id}`)
 			.addClass("name")
 
 		if (input[i].verified == true) $(name).addClass("verified")
