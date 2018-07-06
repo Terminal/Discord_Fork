@@ -1,3 +1,5 @@
+**not accepting any items yet**
+
 # Discord_Fork
 A fork of Discord_Fork by AlexFlipnote
 
