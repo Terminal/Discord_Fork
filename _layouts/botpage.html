@@ -19,7 +19,7 @@
           </h2>
           <div class="link buttons">
             <a class="btn green" href="{{ page.link }}" target="_blank">Add this bot</a>
-            {% if page.github %}<a class="btn blue" href="{{ page.github }}" target="_blank">View on GitHub</a>{% endif %}
+            {% if page.github %}<a id="github" class="btn blue" href="https://github.com/{{ page.github }}" target="_blank">View on GitHub</a>{% endif %}
           </div>
           <span class="description">
             {% if page.long_description %}
@@ -34,6 +34,21 @@
         {{ content }}
       </div>
     </section>
+    {% if page.github %}
+    <script>
+      fetch('https://api.github.com/repos/{{ page.github }}')
+        .then(data => data.json())
+        .then(repo => {
+          const githubButton = document.getElementById('github');
+          if (repo.stargazers_count && repo.stargazers_count === 1) {
+            githubButton.innerText = '1 star on GitHub';
+          } else {
+            githubButton.innerText = `${repo.stargazers_count} stars on GitHub`
+          }
+          
+        });
+    </script>
+    {% endif %}
 
     {% include footer.html %}
   </body>
