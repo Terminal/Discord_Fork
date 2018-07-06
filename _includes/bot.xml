@@ -2,6 +2,7 @@
   <client_id>{{ bot.client_id | xml_escape | replace: site.data.strings.newline, '\n' }}</client_id>
   <application_id>{% if bot.application_id %}{{ bot.application_id | xml_escape | replace: site.data.strings.newline, '\n' }}{% else %}{{ bot.client_id | xml_escape | replace: site.data.strings.newline, '\n' }}{% endif %}</application_id>
   <name>{{ bot.botname | xml_escape | replace: site.data.strings.newline, '\n' }}</name>
+  <prefix>{{ bot.prefix | xml_escape | replace: site.data.strings.newlinem '\n' }}</name>
   <description>{{ bot.description | strip_html | xml_escape | truncate:60 | replace: site.data.strings.newline, '\n' }}</description>
   <long_description>{% if bot.long_description %}{{ bot.long_description | xml_escape | replace: site.data.strings.newline, '\n' }}{% else %}{% endif %}</long_description>
   <url_safe>{{ bot.botname | xml_escape | downcase | replace:' ', '' | replace: site.data.strings.newline, '\n' }}</url_safe>

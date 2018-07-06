@@ -22,11 +22,16 @@
             {% if page.github %}<a id="github" class="btn blue" href="https://github.com/{{ page.github }}" target="_blank">View on GitHub</a>{% endif %}
           </div>
           <span class="description">
-            {% if page.long_description %}
-              {{ page.long_description }}
-            {% else %}
-              {{ page.description }}
+            {% if page.prefix %}
+              <p><small>Prefix: {{ page.prefix }}</small></p>
             {% endif %}
+            <p>
+              {% if page.long_description %}
+                {{ page.long_description }}
+              {% else %}
+                {{ page.description }}
+              {% endif %}
+            </p>
           </span>
         </section>
       </div>
