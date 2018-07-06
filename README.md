@@ -55,3 +55,13 @@ bundle exec jekyll serve
 scss-lint
     Check if your source code is linter friendly (SCSS only)
 ```
+
+## First Setup
+You will require some kind of Linux. I prefer Ubuntu 18.04.
+Windows users may wish to use the Windows Subsystem for Linux.
+
+### Ubuntu 18.04, 16.04, WSL Ubuntu
+```
+sudo apt install build-essential ruby-full ruby-bundler
+bundler exec jekyll serve
+```
