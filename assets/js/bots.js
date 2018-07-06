@@ -42,14 +42,9 @@ function createList(target, input) {
 			.addClass("link buttons")
 			.append('<a target="_blank" href="'+input[i].link+'" class="btn green">Add this bot</a>')
 
-
 		$(card).append(logo, name, desc, link); // Append content
 		$(target).append(card); // Append result
 	}
-}
-
-function botImageError(image) {
-	image.src = '/assets/images/logo.png';
 }
 
 $(document).ready(function() {
@@ -82,3 +77,7 @@ $(document).ready(function() {
 		});
 	});
 });
+
+function botImageError(image) {
+	image.src = '/assets/images/logo.png';
+}

@@ -7,6 +7,7 @@
   <url_safe>{{ bot.botname | xml_escape | downcase | replace:' ', '' | replace: site.data.strings.newline, '\n' }}</url_safe>
   <avatar>{{ bot.avatar | xml_escape | replace: site.data.strings.newline, '\n' }}</avatar>
   <link>{{ bot.link | xml_escape | replace: site.data.strings.newline, '\n' }}</link>
+  <github>{{ bot.github | xml_escape | replace: site.data.strings.newlinem '\n' }}</github>
   <verified>{% if bot.verified %}{{ bot.verified | replace: site.data.strings.newline, '\n' }}{% else %}false{% endif %}</verified>
   <nsfw>{{ bot.nsfw | replace: site.data.strings.newline, '\n' }}</nsfw>
 </bot>

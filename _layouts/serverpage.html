@@ -14,6 +14,9 @@
             {{ page.servername }}
             {% if page.nsfw == true %}<span class="nsfw-tag">NSFW</span>{% endif %}
           </h2>
+          <div class="link buttons">
+            <a class="btn green" href="{{ page.link }}" target="_blank">Join server</a>
+          </div>
           <span class="description">
             {% if page.long_description %}
               {{ page.long_description }}
@@ -21,9 +24,6 @@
               {{ page.description }}
             {% endif %}
           </span>
-          <div class="link buttons">
-            <a class="btn green" href="{{ page.link }}" target="_blank">Join server</a>
-          </div>
         </section>
       </div>
       <div class="custom-content">
