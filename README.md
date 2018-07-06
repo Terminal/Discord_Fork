@@ -1,16 +1,46 @@
-# Discord_Bots
-Basically a stupid botlist made because of memes.
+**not accepting any items yet**
+
+# Discord_Fork
+A fork of Discord_Fork by AlexFlipnote
+
+An in progress version of a potentially new Discord Bots.
+
+NOTE: Please do not complain over how *bad* the site is made, this is mostly made as a
+way to be more unique and prove that a list site can possibly be made with Jekyll.
 
 ## Adding your bot to the site
 - Fork the project
-- Add a new file in **\_data** with `your_bot_name.yml` and add the following:
-```yml
-name: BOT NAME
+- Add a new file in **\_bots** with `your_bot_name.md` and add the following:
+```md
+---
+client_id: The client ID of your bot
+application_id: The application ID of your bot. For pre-2016 bots only
+botname: BOT NAME
 description: DESCRIPTION (limited to 60 characters)
-avatar: URL, must be HTTPS
+long_description: LONG_DESCRIPTION (only viewable at bot page)
+avatar: URL, must be the Discord avatar in PNG format and no ?size query
 link: URL to invite bot, must be HTTPS
+nsfw: true | false
+---
+After this line, you can do any markdown code you want for custom page!
 ```
 - make a PR and wait for answers
+
+<!-- ## Adding your server to the list
+- Fork the project
+- Add a new file in **\_guilds** with `your_server_name.md` and add the following:
+```md
+---
+servername: SERVER NAME
+description: DESCRIPTION (limited to 60 characters)
+long_description: LONG_DESCRIPTION (only viewable at bot page)
+avatar: URL, must be the Discord Server icon in PNG format and no ?size query
+link: URL to discord.gg invite only
+nsfw: false
+---
+After this line, you can do any markdown code you want for custom page!
+```
+- make a PR and wait for answers -->
 
 ## Requirements
 - Ruby 2.4 or above - https://rubyinstaller.org/downloads/
@@ -24,4 +54,14 @@ bundle exec jekyll serve
 
 scss-lint
     Check if your source code is linter friendly (SCSS only)
+```
+
+## First Setup
+You will require some kind of Linux. I prefer Ubuntu 18.04.
+Windows users may wish to use the Windows Subsystem for Linux.
+
+### Ubuntu 18.04, 16.04, WSL Ubuntu
+```
+sudo apt install build-essential ruby-full ruby-bundler
+bundler exec jekyll serve
 ```

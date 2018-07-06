@@ -1,0 +1,14 @@
+<head>
+  <head>
+    <title>{{ page.botname }}</title>
+    <meta property="og:title" content="{{ page.botname }}" />
+    {% include head.html %}
+    <script src="{{ site.url }}/assets/js/bots.js" type="text/javascript" charset="utf-8"></script>
+  </head>
+  <body>
+    {% include botintro.html %}
+    {% include spinner.html %}
+    {{ content }}
+    {% include footer.html %}
+  </body>
+</head>

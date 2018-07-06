@@ -1,0 +1,31 @@
+<!-- Main content to SEO -->
+{% if page.botname %}
+  <title>{{ page.botname }}</title>
+  <meta property="og:title" content="{{ page.botname }}" />
+{% else %}
+  <title>{{ page.servername }}</title>
+  <meta property="og:title" content="{{ page.servername }}" />
+{% endif %}
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+<meta property="og:description" content="{{ page.description }}" />
+
+{% if page.avatar %}
+<meta property="og:image" content="{{ page.avatar }}" />
+<link rel="icon" type="image/x-icon" href="{{ page.avatar }}">
+{% else %}
+<meta property="og:image" content="{{ site.url }}/assets/images/logo.png" />
+<link rel="icon" type="image/x-icon" href="{{ site.url }}/assets/images/logo.png">
+{% endif %}
+
+<meta name="revisit-after" content="2 days">
+<meta name="keywords" content="discord, bots, botlist">
+<meta name="theme-color" content="#3498db">
+
+<!-- Style and JS stuff -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link rel="stylesheet" href="{{ site.url }}/assets/css/main.css">
+
+<script src="{{ site.url }}/assets/js/smoothscroll.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="{{ site.url }}/assets/js/jarallax.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>

@@ -36,7 +36,11 @@
   white-space: nowrap;
 
   &.green { @include dropshadow(#2ecc71); }
+  &.orange { @include dropshadow(#e67e22); }
   &.blue { @include dropshadow(#3498db); }
+  &.red { @include dropshadow(#e74c3c); }
+  &.white { @include dropshadow(#fff); color: #111; }
+  &.black { @include dropshadow(#000); }
 
   &:hover {
     color: #fff;

@@ -1,0 +1,15 @@
+<head>
+  <head>
+    <title>{{ page.botname }}</title>
+    <meta property="og:title" content="{{ page.botname }}" />
+    {% include head.html %}
+  </head>
+  <body>
+    {% include botintro.html %}
+    {% include spinner.html %}
+    <section class="container center-text">
+      {{ content }}
+    </section>
+    {% include footer.html %}
+  </body>
+</head>
