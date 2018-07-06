@@ -1,9 +1,9 @@
-    "guild_id" : "{{ site.guild_id }}",
-    "name" : "{{ site.servername }}",
-    "description" : "{{ site.description | strip_html | truncate:60 }}",
-    "long_description" : "{% if site.long_description %}{{ site.long_description }}{% else %}{% endif %}",
-    "url_safe": "{{ site.servername | downcase | replace:' ', '' }}",
-    "avatar" : "{{ site.avatar }}",
-    "link" : "{{ site.link }}",
-    "verified" : {% if site.verified %}{{ site.verified }}{% else %}false{% endif %},
-    "nsfw" : {{ site.nsfw }}
+    "guild_id" : "{{ site.guild_id | replace: site.data.strings.newline, '\n' }}",
+    "name" : "{{ site.servername | replace: site.data.strings.newline, '\n' }}",
+    "description" : "{{ site.description | strip_html | truncate:60 | replace: site.data.strings.newline, '\n' }}",
+    "long_description" : "{% if site.long_description %}{{ site.long_description | replace: site.data.strings.newline, '\n' }}{% else %}{% endif %}",
+    "url_safe": "{{ site.servername | downcase | replace:' ', '' | replace: site.data.strings.newline, '\n' }}",
+    "avatar" : "{{ site.avatar | replace: site.data.strings.newline, '\n' }}",
+    "link" : "{{ site.link | replace: site.data.strings.newline, '\n' }}",
+    "verified" : {% if site.verified %}{{ site.verified | replace: site.data.strings.newline, '\n' }}{% else %}false{% endif %},
+    "nsfw" : {{ site.nsfw | replace: site.data.strings.newline, '\n' }}
