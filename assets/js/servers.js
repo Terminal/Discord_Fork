@@ -18,7 +18,7 @@ function createList(target, input) {
 
 		$(name)
 			.text(input[i].name)
-			.attr("href", `/guilds/${input[i].guild_id}`)
+			.attr("href", `/servers/${input[i].guild_id}`)
 			.addClass("name")
 
 		if (input[i].verified == true) $(name).addClass("verified")
@@ -52,7 +52,7 @@ function createList(target, input) {
 $(document).ready(function() {
   var target = document.getElementById("allservers");
 
-  $.getJSON("/api/servers/all.json", function(json) {
+  $.getJSON("/api/guilds/all.json", function(json) {
 		var verified = [];
 		var therest = [];
 
