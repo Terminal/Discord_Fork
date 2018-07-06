@@ -1,0 +1,11 @@
+<guild id="{{ site.guild_id }}">
+    <guild_id>{{ site.guild_id }}></guild_id>
+    <name>{{ site.servername }}</name>
+    <description>{{ site.description | strip_html | truncate:60}}</description>
+    <long_description>{% if site.long_description %}{{ site.long_description }}{% else %}{% endif %}</long_description>
+    <url_safe>{{ site.servername | downcase | replace:' ', '' }}</url_safe>
+    <avatar>{{ site.avatar }}</avatar>
+    <link>{{ site.link }}</link>
+    <verified>{% if site.verified %}{{ site.verified }}{% else %}false{% endif %}</verified>
+    <nsfw>{{ site.nsfw }}</nsfw>
+</guild>
