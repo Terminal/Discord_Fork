@@ -1,25 +1,16 @@
 <head>
   <head>
+    <title>{{ page.botname }}</title>
+    <meta property="og:title" content="{{ page.botname }}" />
     {% include head.html %}
+    <script src="{{ site.url }}/assets/js/bots.js" type="text/javascript" charset="utf-8"></script>
   </head>
   <body>
-    <div data-jarallax data-speed="0.25" class="jarallax background" style="background-image: url('{{ site.url }}/assets/images/background_landing.jpg');"></div>
-
-    <div class="center-object">
-      <section class="me">
-        <img class="image-title" src="{{ site.url }}/assets/images/logo.png">
-        <h1 class="title">{{ page.botname }}</h1>
-        <p class="undertitle" style="width: 50%;">{{ page.description }}</p>
-        <div class="buttons">
-          <a class="btn blue" href="javascript:window.history.back();">Back</a>
-          <a class="btn red" href="/">Home</a>
-        </div>
-      </section>
-    </div>
-    {{ content }}
-    <script>
-      $(".background").css("height", "100%");
-      $(".center-object").css("top", "50%");
-    </script>
+    {% include botintro.html %}
+    {% include spinner.html %}
+    <section class="container center-text">
+      {{ content }}
+    </section>
+    {% include footer.html %}
   </body>
 </head>

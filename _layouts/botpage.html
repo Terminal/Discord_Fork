@@ -6,11 +6,6 @@
   </head>
   <body>
     {% include botintro.html %}
-    <script>
-      $(".background").height("32%");
-      $(".center-object").css("top", "16%");
-      $("#search").remove();
-    </script>
 
     <section class="container">
       <div class="rowcard center-text">
@@ -38,5 +33,7 @@
         {{ content }}
       </div>
     </section>
+
+    {% include footer.html %}
   </body>
 </head>

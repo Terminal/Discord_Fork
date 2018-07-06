@@ -1,5 +1,9 @@
 html { margin: 0; }
-body { background: #303030; }
+body {
+  background: #303030;
+  display: flex;
+  flex-direction: column;
+}
 b, a { color: #14bae4; }
 b, p, a { font-size: 1.1em; }
 a { text-decoration: none; }
