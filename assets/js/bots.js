@@ -36,7 +36,7 @@ function createList(target, input) {
 
 		$(logo)
 			.addClass("avatar")
-			.append('<img class="'+nsfwfilter+'" src="'+input[i].avatar+'">')
+			.append('<img class="'+nsfwfilter+'" src="'+input[i].avatar+'" onError="botImageError(this)">')
 
 		$(link)
 			.addClass("link buttons")
@@ -48,6 +48,9 @@ function createList(target, input) {
 	}
 }
 
+function botImageError(image) {
+	image.src = '/assets/images/logo.png';
+}
 
 $(document).ready(function() {
   var target = document.getElementById("allbots");
