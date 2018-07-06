@@ -1,6 +1,6 @@
 ---
-botname: Error
-description: The page was not found
+botname: API Reference
+description: The basic API documentation for getting information from this website.
 permalink: "/api"
 layout: blank
 ---
