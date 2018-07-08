@@ -7,7 +7,7 @@ include:
   - '_pages'
   - '_pages/api'
   - '_pages/api/bots'
-  - '_pages/api/guilds'
+  - '_pages/api/servers'
 
 sass:
   sass_dir: _sass
@@ -17,7 +17,7 @@ collections:
   bots:
     output: true
     permalink: /:collection/:name/
-  guilds:
+  servers:
     output: true
     permalink: /servers/:name/
 
@@ -29,6 +29,6 @@ defaults:
       layout: "botpage"
   - scope:
       path: ""
-      type: "guilds"
+      type: "servers"
     values:
       layout: "serverpage"

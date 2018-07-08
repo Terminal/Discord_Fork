@@ -17,3 +17,14 @@ a, html, body, h1, h2, h3, h4, p {
 }
 
 .center-text { text-align: center; }
+
+.hidden {
+  display: none;
+  visibility: hidden;
+  height: 0;
+  width: 0;
+  margin: 0;
+  padding: 0;
+  color: transparent;
+  background-color: transparent;
+}

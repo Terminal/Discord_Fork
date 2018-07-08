@@ -1,83 +1,97 @@
-function shuffle(o) {
-	for(var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
-	return o;
-};
+window.addEventListener('load', () => {
+	const list = document.getElementById('list');
+	const spinner = document.getElementsByClassName('spinner');
+	const search = document.getElementById('search');
 
-function createList(target, input) {
-	for (var i = 0; i < input.length; i++) {
-		// Elements
-		var card = document.createElement("section");
-
-		var name = document.createElement("a");
-		var logo = document.createElement("div");
-		var desc = document.createElement("span");
-		var link = document.createElement("div");
-
-		// Load the content
-		$(card).addClass("card")
-
-		$(name)
-			.text(input[i].name)
-			.attr("href", `/bots/${input[i].client_id}`)
-			.addClass("name")
-
-		if (input[i].verified == true) $(name).addClass("verified")
-
-		$(desc)
-			.text(input[i].description)
-			.addClass("description")
-
-		// Check NSFW
-		var nsfwfilter = "avatar";
-		if (input[i].nsfw == true) {
-			nsfwfilter = "avatar nsfw";
-			$(name).append('<span class="nsfw-tag">NSFW</span>');
-		}
-
-		$(logo)
-			.addClass("avatar")
-			.append('<img class="'+nsfwfilter+'" src="'+input[i].avatar+'" onError="botImageError(this)">')
-
-		$(link)
-			.addClass("link buttons")
-			.append('<a target="_blank" href="'+input[i].link+'" class="btn green">Add this bot</a>')
-
-		$(card).append(logo, name, desc, link); // Append content
-		$(target).append(card); // Append result
+	// If a list exists on the page, detect the type of list to display
+	if (list) {
+		const listType = list.dataset.listType || 'bots';
+		const listCategory = list.dataset.listCategory || 'all';
+		createList(list, listType, listCategory);
 	}
-}
 
-$(document).ready(function() {
-  var target = document.getElementById("allbots");
+	// Delete the spinner after loading
+	if (spinner && spinner[0]) {
+		spinner[0].parentNode.removeChild(spinner[0]);
+	}
 
-  $.getJSON("/api/bots/all.json", function(json) {
-		var verified = [];
-		var therest = [];
+	if (search && list) {
+		search.addEventListener('keyup', () => {
+			const query = search.value.toLowerCase().trim();
+			const cards = [...list.childNodes];
 
-		// Split between verified and not verified
-		for (var i = 0; i < json.length; i++) {
-			if (json[i].verified == true) {
-				verified.push(json[i]);
-			} else {
-				therest.push(json[i]);
+			cards
+			.filter(card => card.nodeName === 'SECTION')
+			.forEach((card) => {
+				// If can't find the card
+				if (card.innerText.toLowerCase().indexOf(query) === -1) {
+					card.classList.add('hidden');
+				} else {
+					// otherwise, allow it to be seen
+					card.classList.remove('hidden');
+				}
+			})
+		})
+	}
+})
+
+const createList = async (target, type = 'bots', category = 'all') => {
+	const items = await fetch(`/api/${type}/${category}.json`)
+		.then(data => data.json());
+
+	items
+		.sort(() => Math.random() - .5)
+		.forEach((item) => {
+			const itemCard = document.createElement('section');
+			const itemName = document.createElement('a');
+			const itemLogoBox = document.createElement('div');
+			const itemLogo = document.createElement('img')
+			const itemDesc = document.createElement('span');
+			const itemButtons = document.createElement('div');
+
+			itemCard.classList.add('card');
+
+			itemName.innerText = item.name;
+			itemName.setAttribute('href', `/${type}/${item.id}`)
+			itemName.classList.add('name');
+
+			itemLogo.classList.add('avatar');
+			itemLogo.src = item.avatar;
+
+			if (item.nsfw) {
+				// Append a "nsfw" tag
+				const itemNSFW = document.createElement('span');
+				itemNSFW.classList.add('nsfw-tag');
+				itemNSFW.innerText = 'NSFW';
+				itemName.appendChild(itemNSFW);
+
+				// Add a blur to the NSFW logo
+				itemLogo.classList.add('nsfw');
 			}
-		}
+			itemLogoBox.classList.add('avatar');
+			itemLogoBox.appendChild(itemLogo);
 
-		createList(target, shuffle(verified));
-		createList(target, shuffle(therest));
-  });
+			itemLogo.addEventListener('error', () => {
+				itemLogo.src = '/assets/images/logo.png';
+			})
 
-	$(".spinner").remove();
+			itemDesc.innerText = item.description;
+			itemDesc.classList.add('description');
 
-	// Search function
-	$("#search").on("keyup", function() {
-		var value = $(this).val().toLowerCase();
-		$(".card").filter(function() {
-			$(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+			if (item.link) {
+				const itemInvite = document.createElement('a');
+				itemInvite.classList.add('btn', 'green');
+				itemInvite.innerText = 'Invite';
+				itemInvite.href = item.link;
+				itemButtons.appendChild(itemInvite);
+			}
+
+			itemButtons.classList.add('link', 'buttons');
+			
+			itemCard.appendChild(itemLogoBox);
+			itemCard.appendChild(itemName);
+			itemCard.appendChild(itemDesc);
+			itemCard.appendChild(itemButtons);
+			target.appendChild(itemCard);
 		});
-	});
-});
-
-function botImageError(image) {
-	image.src = '/assets/images/logo.png';
 }

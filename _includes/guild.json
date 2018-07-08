@@ -1,9 +1,0 @@
-    "guild_id" : "{{ guild.guild_id | replace: site.data.strings.newline, '\n' }}",
-    "name" : "{{ guild.servername | replace: site.data.strings.newline, '\n' }}",
-    "description" : "{{ guild.description | strip_html | truncate:60 | replace: site.data.strings.newline, '\n' }}",
-    "long_description" : "{% if guild.long_description %}{{ guild.long_description | replace: site.data.strings.newline, '\n' }}{% else %}{% endif %}",
-    "url_safe": "{{ guild.servername | downcase | replace:' ', '' | replace: site.data.strings.newline, '\n' }}",
-    "avatar" : "{{ guild.avatar | replace: site.data.strings.newline, '\n' }}",
-    "link" : "{{ guild.link | replace: site.data.strings.newline, '\n' }}",
-    "verified" : {% if guild.verified %}{{ guild.verified | replace: site.data.strings.newline, '\n' }}{% else %}false{% endif %},
-    "nsfw" : {{ guild.nsfw | replace: site.data.strings.newline, '\n' }}

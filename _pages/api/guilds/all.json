@@ -1,8 +1,0 @@
----
-permalink: "/api/guilds/all.json"
----
-[
-  {% for guild in site.guilds %}{
-{% include guild.json %}
-  }{% unless forloop.last %},{% endunless %}{% endfor %}
-]

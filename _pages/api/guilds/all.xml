@@ -1,9 +1,0 @@
----
-permalink: "/api/guilds/all.xml"
----
-<?xml version="1.0" encoding="UTF-8"?>
-<guilds>
-{% for guild in site.guilds %}
-{% include guild.xml %}
-{% endfor %}
-</guilds>

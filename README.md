@@ -28,7 +28,7 @@ After this line, you can do any markdown code you want for custom page!
 
 <!-- ## Adding your server to the list
 - Fork the project
-- Add a new file in **\_guilds** with `your_server_name.md` and add the following:
+- Add a new file in **\_servers** with `your_server_name.md` and add the following:
 ```md
 ---
 servername: SERVER NAME

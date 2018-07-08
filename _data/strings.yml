@@ -2,4 +2,5 @@ copyright: >
   Copyright 2017 - 2018, Terminal.ink<br>
   Original concept by AlexFlipnote
 name: Discord Botlist
+description: The botlist with built-in GitHub integration
 newline: "\n"
