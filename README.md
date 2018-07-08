@@ -1,9 +1,7 @@
-**not accepting any items yet**
 
 # Discord_Fork
-A fork of Discord_Fork by AlexFlipnote
-
-An in progress version of a potentially new Discord Bots.
+A fork of Discord_Bots by `perryprog`, a fork of Discord_Fork by `AlexFlipnote`.  
+[Add your bot like this](CONTRIBUTING.md)
 
 NOTE: Please do not complain over how *bad* the site is made, this is mostly made as a
 way to be more unique and prove that a list site can possibly be made with Jekyll.
