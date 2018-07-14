@@ -33,7 +33,7 @@ window.addEventListener('load', () => {
 			})
 		})
 	}
-})
+});
 
 const createList = async (target, type = 'bots', category = 'all') => {
 	const items = await fetch(`/api/${type}/${category}.json`)
@@ -43,7 +43,8 @@ const createList = async (target, type = 'bots', category = 'all') => {
 		.sort(() => Math.random() - .5)
 		.forEach((item) => {
 			const itemCard = document.createElement('section');
-			const itemName = document.createElement('a');
+			const itemLink = document.createElement('a');
+			const itemName = document.createElement('h4'); // New ModestaCSS uses h1
 			const itemLogoBox = document.createElement('div');
 			const itemLogo = document.createElement('img')
 			const itemDesc = document.createElement('span');
@@ -51,9 +52,10 @@ const createList = async (target, type = 'bots', category = 'all') => {
 
 			itemCard.classList.add('card');
 
+			itemLink.setAttribute('href', `/${type}/${item.id}`)
+
 			itemName.innerText = item.name;
-			itemName.setAttribute('href', `/${type}/${item.id}`)
-			itemName.classList.add('name');
+			itemName.classList.add('title');
 
 			itemLogo.classList.add('avatar');
 			itemLogo.src = item.avatar;
@@ -82,16 +84,39 @@ const createList = async (target, type = 'bots', category = 'all') => {
 				const itemInvite = document.createElement('a');
 				itemInvite.classList.add('btn', 'green');
 				itemInvite.innerText = 'Invite';
-				itemInvite.href = item.link;
+				// if (type === 'bots') {
+				// 	itemInvite.addEventListener('click', (e) => {
+				// 		const discordWindow = window.open(item.link, '_blank', `toolbar=0,width=500,height=700,top=${Math.floor(screen.height / 2) - 250},left=${Math.floor(screen.width / 2) - 350}}`);
+				// 		showModal(discordWindow);
+				// 	});
+				// } else {
+					itemInvite.href = item.link;
+				// }
 				itemButtons.appendChild(itemInvite);
 			}
 
-			itemButtons.classList.add('link', 'buttons');
+			itemButtons.classList.add('footer');
 			
+			itemLink.appendChild(itemName);
 			itemCard.appendChild(itemLogoBox);
-			itemCard.appendChild(itemName);
+			itemCard.appendChild(itemLink);
 			itemCard.appendChild(itemDesc);
 			itemCard.appendChild(itemButtons);
 			target.appendChild(itemCard);
 		});
+};
+
+const showModal = (discordWindow) => {
+	const modal = document.createElement('div');
+	const closeModal = () => {
+
+	}
+
+	const timer = setInterval(() => {
+		if (discordWindow.closed) {
+			clearInterval(timer);
+			closeModal();
+			console.log('Window closed!');
+		}
+	}, 20);
 }
