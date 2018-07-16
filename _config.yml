@@ -3,6 +3,9 @@ baseurl: ""
 url: "https://discordbots.co.uk"
 encoding: utf-8
 
+plugins:
+  - jekyll-sitemap
+
 include: 
   - '_pages'
   - '_pages/api'

@@ -6,8 +6,6 @@ layout: blank
 ---
 
 # API Reference
-
-GET `/api/bots/all.json`  
 GET `/api/bots/all.xml`  
 Obtain information on all bots
 
