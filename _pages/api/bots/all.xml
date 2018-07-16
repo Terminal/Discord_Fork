@@ -1,9 +1,0 @@
----
-permalink: "/api/bots/all.xml"
----
-<?xml version="1.0" encoding="UTF-8"?>
-<bots>
-{% for bot in site.bots %}
-{% include bot.xml %}
-{% endfor %}
-</bots>

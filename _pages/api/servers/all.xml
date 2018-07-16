@@ -1,9 +1,0 @@
----
-permalink: "/api/servers/all.xml"
----
-<?xml version="1.0" encoding="UTF-8"?>
-<servers>
-{% for server in site.servers %}
-{% include server.xml %}
-{% endfor %}
-</servers>

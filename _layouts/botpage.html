@@ -20,6 +20,7 @@
           <div class="link buttons">
             <a class="btn green" href="{{ page.link }}" target="_blank">Add this bot</a>
             {% if page.github %}<a id="github" class="btn blue" href="https://github.com/{{ page.github }}" target="_blank">View on GitHub</a>{% endif %}
+            {% if page.support %}<a class="btn orange" href="{{ page.support | replace: site.data.strings.newline, '\n' | replace: site.data.strings.quote_mark, '%22'}}" target="_blank">{{ page.botname }} Discord Server</a>{% endif %}
           </div>
           <span class="description">
             {% if page.prefix %}
