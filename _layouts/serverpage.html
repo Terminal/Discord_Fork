@@ -5,7 +5,7 @@
   <body>
     {% include serverintro.html %}
     <section class="container">
-      <div class="rowcard center-text">
+      <div class="center-text card-container">
         <section class="card profile">
           <div class="avatar">
             <img class="avatar {% if page.nsfw == true %}nsfw{% endif %}" src="{{ page.avatar }}">
@@ -15,7 +15,7 @@
             {% if page.nsfw == true %}<span class="nsfw-tag">NSFW</span>{% endif %}
           </h2>
           <div class="link buttons">
-            <a class="btn green" href="{{ page.link }}" target="_blank">Join server</a>
+            <a class="btn emerald" href="{{ page.link }}" target="_blank">Join server</a>
           </div>
           <span class="description">
             {% if page.long_description %}

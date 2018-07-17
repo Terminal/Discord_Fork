@@ -1,6 +1,6 @@
 window.addEventListener('load', () => {
 	const list = document.getElementById('list');
-	const spinner = document.getElementsByClassName('spinner');
+	const spinner = document.getElementsByClassName('loader');
 	const search = document.getElementById('search');
 
 	// If a list exists on the page, detect the type of list to display
@@ -82,7 +82,7 @@ const createList = async (target, type = 'bots', category = 'all') => {
 
 			if (item.link) {
 				const itemInvite = document.createElement('a');
-				itemInvite.classList.add('btn', 'green');
+				itemInvite.classList.add('btn', 'emerald', 'white-text', 'bold');
 				itemInvite.innerText = 'Invite';
 				// if (type === 'bots') {
 				// 	itemInvite.addEventListener('click', (e) => {
@@ -96,7 +96,7 @@ const createList = async (target, type = 'bots', category = 'all') => {
 			}
 
 			itemButtons.classList.add('footer');
-			
+
 			itemLink.appendChild(itemName);
 			itemCard.appendChild(itemLogoBox);
 			itemCard.appendChild(itemLink);
