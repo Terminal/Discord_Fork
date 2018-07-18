@@ -1,3 +1,13 @@
+body {
+  background: #101010;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex-grow: 1;
+}
+
 // Front page + inside
 .nsfw { filter: blur(5px); }
 .nsfw-tag {
@@ -23,7 +33,7 @@
 
 
 // Profile card
-.card.profile {
+.card .profile {
   background: transparent;
   box-shadow: none;
   margin-top: 2.5em;
@@ -69,6 +79,12 @@ input#search {
 
 .card-container .card {
   width: 310px;
+  font-family: 'Montserrat', sans-serif;
+
+  &.profile {
+    width: 90%;
+    margin-bottom: 1em;
+  }
 
   &.hidden {
     background-color: transparent;
