@@ -7,7 +7,7 @@ type: bots
 ---
 
 # API Reference
-GET `/api/bots/all.xml`  
+GET `/api/bots/all.json`  
 Obtain information on all bots
 
 GET `/api/servers/all.json`  
