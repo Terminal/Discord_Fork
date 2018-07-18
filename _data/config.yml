@@ -1,13 +1,31 @@
 categories:
   servers:
+    display: true
     pagename: Discord Serverlist
+    shortname: Servers
     add: Add your own server
     invite: Join this server
     parallax: /assets/images/background_servers.jpg
     description: The server list with built-in GitHub integration
+    path: /servers
+    contribute: https://github.com/Terminal/Discord_Fork/blob/master/README.md
   bots:
+    display: true
     pagename: Discord Botlist
+    shortname: Bots
     add: Add your own bot
     invite: Add this bot
-    parallax: /assets/images/background_hongkong.jpg
+    parallax: /assets/images/background_bots.jpg
     description: The botlist with built-in GitHub integration
+    path: /
+    contribute: https://github.com/Terminal/Discord_Fork/blob/master/CONTRIBUTING/bots.md
+  bans:
+    display: false
+    pagename: Discord Banlist
+    shortname: Bans
+    add: Report a user
+    parallax: /assets/images/background_hongkong.jpg
+    description: The list you fork to throw your hammer.
+    path: /bans
+    contribute: https://github.com/Terminal/Discord_Fork/blob/master/README.md
+

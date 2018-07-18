@@ -1,8 +1,12 @@
+# Text
 copyright: >
   Copyright 2017 - 2018, Terminal.ink<br>
   Original concept by AlexFlipnote
 pagename: Discord Bots
 seo_description: Discord Bots is an open source website where you can obtain bots for your server, with GitHub integration
+
+# Buttons
+edit_page: Edit page on GitHub
 
 # These are for when you are trying to replace characters you cannot escape in jekyll front matter.
 newline: "\n"

@@ -23,6 +23,9 @@ collections:
   servers:
     output: true
     permalink: /:collection/:name/
+  bans:
+    output: true
+    permalink: /:collection/:name/
 
 defaults:
   - scope:
@@ -37,3 +40,9 @@ defaults:
     values:
       layout: item
       type: servers
+  - scope:
+      path: ""
+      type: bans
+    values:
+      layout: item
+      type: bans

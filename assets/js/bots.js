@@ -80,18 +80,26 @@ const createList = async (target, type = 'bots', category = 'all') => {
 			itemDesc.innerText = item.description;
 			itemDesc.classList.add('description');
 
-			if (item.link) {
+			if (item.link || type === 'bans') {
 				const itemInvite = document.createElement('a');
 				itemInvite.classList.add('btn', 'emerald', 'white-text', 'bold');
-				itemInvite.innerText = 'Invite';
+				
 				// if (type === 'bots') {
 				// 	itemInvite.addEventListener('click', (e) => {
 				// 		const discordWindow = window.open(item.link, '_blank', `toolbar=0,width=500,height=700,top=${Math.floor(screen.height / 2) - 250},left=${Math.floor(screen.width / 2) - 350}}`);
 				// 		showModal(discordWindow);
 				// 	});
 				// } else {
-					itemInvite.href = item.link;
-				// }
+			  //   itemInvite.href = item.link;
+        // }
+        if (type === 'bans') {
+          itemInvite.innerText = 'View';
+          itemInvite.href = `/${type}/${item.id}`;
+        } else {
+          itemInvite.innerText = 'Invite';
+          itemInvite.href = item.link;
+        }
+
 				itemButtons.appendChild(itemInvite);
 			}
 

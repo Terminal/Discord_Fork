@@ -1,7 +1,7 @@
 <section class="fullscreen half">
   <div data-jarallax data-speed="0.25" class="background" style="background-image: url('{{ site.data.config.categories[page.type].parallax }}');"></div>
   <div class="center-object">
-    <a href="/">
+    <a href="{{ site.data.config.categories[page.type].path }}">
       <section class="me unset">
         <img draggable="false" src="{{ site.url }}/assets/images/logo.png" class="image-title" style="margin-right: .5em;">
         <div>
@@ -11,8 +11,8 @@
       </section>
     </a>
     <div class="buttons">
-      <a class="btn peter-river" href="{{ site.data.links.contribute }}">{{ site.data.config.categories[page.type].add }}</a>
-      <a class="btn orange" href="{{ site.data.links.discord }}">Terminal.ink Discord</a>
+      <a class="btn peter-river" target="_blank" href="{{ site.data.config.categories[page.type].contribute }}">{{ site.data.config.categories[page.type].add }}</a>
+      <a class="btn orange" target="_blank" href="{{ site.data.links.discord }}">Terminal.ink Discord</a>
     </div>
     {% if page.search == true %}
       <div class="center">

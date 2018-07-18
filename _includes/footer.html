@@ -9,8 +9,15 @@
   <div class="center">
     <a class="btn white" href="{{ site.data.links.github }}/blob/master/{{ page.path }}">
       <img class="github-logo" src="/assets/images/GitHub-Mark-32px.png">
-      <span class="black-text bold">Edit page on GitHub</span>
+      <span class="black-text bold">{{ site.data.strings.edit_page }}</span>
     </a>
+    {% for category in site.data.config.categories %}
+      {% if category[1].display %}
+        <a class="btn white" href="{{ category[1].path }}">
+          <span class="black-text bold">{{ category[1].shortname }}</span>
+        </a>
+      {% endif %}
+    {% endfor %}
     <hr>
     <p>{{ site.data.strings.copyright }}</p>
   </div>

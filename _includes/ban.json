@@ -1,0 +1,9 @@
+    "id" : "{{ ban.user_id | replace: site.data.strings.newline, '\n' }}",
+    "ban_id" : "{{ ban.user_id | replace: site.data.strings.newline, '\n' }}",
+    "name" : "{{ ban.pagename | replace: site.data.strings.newline, '\n' }}",
+    "description" : "{{ ban.description | strip_html | truncate:60 | replace: site.data.strings.newline, '\n' }}",
+    "long_description" : "{% if ban.long_description %}{{ ban.long_description | replace: site.data.strings.newline, '\n' }}{% else %}{% endif %}",
+    "url_safe": "{{ ban.pagename | downcase | replace:' ', '' | replace: site.data.strings.newline, '\n' }}",
+    "avatar" : "{{ ban.avatar | replace: site.data.strings.newline, '\n' }}",
+    "verified" : {% if ban.verified %}{{ ban.verified | replace: site.data.strings.newline, '\n' }}{% else %}false{% endif %},
+    "nsfw" : {{ ban.nsfw | replace: site.data.strings.newline, '\n' }}
