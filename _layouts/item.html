@@ -20,7 +20,7 @@
             <a class="btn emerald" href="{{ page.link }}" target="_blank">{{ site.data.config.categories[page.type].invite }}</a>
             {% if page.github and page.github.owner and page.github.repo %}
                 <a id="github" class="btn peter-river" href="https://github.com/{{ page.github.owner }}/{{ page.github.repo }}" target="_blank">View on GitHub</a>
-            {% else page.github and page.github.owner %}
+            {% elsif page.github and page.github.owner %}
                 <a class="btn peter-river" href="https://github.com/{{ page.github.owner }}" target="_blank">View on GitHub</a>
             {% endif %}
             {% if page.support %}<a class="btn orange" href="{{ page.support | replace: site.data.strings.newline, '\n' | replace: site.data.strings.quote_mark, '%22'}}" target="_blank">{{ page.name }} Discord Server</a>{% endif %}
