@@ -13,13 +13,15 @@ You will require some knowledge on `git` in order to add your bot.
 ---
 client_id: [The client ID of your bot]
 application_id: [OPTIONAL / The application ID of your bot. Delete this line, unless you have a pre-2016 bot]
-botname: [The name of your bot]
+name: [The name of your bot]
 prefix: [The prefix of your bot]
 description: [The description of your bot, limited to 60 characters]
 long_description: [OPTIONAL / A longer description which displays on your bot page]
 avatar: [An avatar URL to a Discord website]
 link: [A link to invite your bot - HTTPS only]
-github: username/projectName [OPTIONAL / The location of the source for this bot]
+github: [OPTIONAL / The location of the source for this bot]
+  owner: username
+  repo: projectName
 nsfw: true | false [If your bot is "Not Safe For Work"]
 ---
 
@@ -43,7 +45,7 @@ _thanks_ **alex**
 - Add a new file in **\_servers** with `your_server_name.md` and add the following:
 ```md
 ---
-servername: SERVER NAME
+name: SERVER NAME
 description: DESCRIPTION (limited to 60 characters)
 long_description: LONG_DESCRIPTION (only viewable at bot page)
 avatar: URL, must be the Discord Server icon in PNG format and no ?size query
