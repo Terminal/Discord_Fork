@@ -1,12 +1,10 @@
 <head>
   <head>
-    <title>{{ page.botname }}</title>
-    <meta property="og:title" content="{{ page.botname }}" />
     {% include head.html %}
     <script src="{{ site.url }}/assets/js/bots.js" type="text/javascript" charset="utf-8"></script>
   </head>
-  <body style="background: #101010;">
-    {% include botintro.html %}
+  <body>
+    {% include intro.html %}
     {% include spinner.html %}
     {{ content }}
     {% include footer.html %}

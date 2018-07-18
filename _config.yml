@@ -1,16 +1,16 @@
-domain: "https://discordbots.co.uk"
+domain: https://discordbots.co.uk
 baseurl: ""
-url: "https://discordbots.co.uk"
+url: https://discordbots.co.uk
 encoding: utf-8
 
 plugins:
   - jekyll-sitemap
 
 include: 
-  - '_pages'
-  - '_pages/api'
-  - '_pages/api/bots'
-  - '_pages/api/servers'
+  - _pages
+  - _pages/api
+  - _pages/api/bots
+  - _pages/api/servers
 
 sass:
   sass_dir: _sass
@@ -22,16 +22,18 @@ collections:
     permalink: /:collection/:name/
   servers:
     output: true
-    permalink: /servers/:name/
+    permalink: /:collection/:name/
 
 defaults:
   - scope:
       path: ""
-      type: "bots"
+      type: bots
     values:
-      layout: "botpage"
+      layout: item
+      type: bots
   - scope:
       path: ""
-      type: "servers"
+      type: servers
     values:
-      layout: "serverpage"
+      layout: item
+      type: servers

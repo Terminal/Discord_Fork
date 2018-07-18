@@ -1,8 +1,9 @@
 ---
-botname: API Reference
+name: API Reference
 description: The basic API documentation for getting information from this website.
 permalink: "/api"
 layout: blank
+type: bots
 ---
 
 # API Reference

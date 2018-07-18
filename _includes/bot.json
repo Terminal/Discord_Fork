@@ -8,7 +8,10 @@
     "url_safe": "{{ bot.name | downcase | replace: ' ', '' | replace: '\', '\\' | replace: site.data.strings.newline, '\n' | replace: '"', '\"'}}",
     "avatar" : "{{ bot.avatar | replace: '\', '\\' | replace: site.data.strings.newline, '\n' | replace: '"', '\"'}}",
     "link" : "{{ bot.link | replace: '\', '\\' | replace: site.data.strings.newline, '\n' | replace: '"', '\"'}}",
-    "support" : "{{ bot.support | replace: '\', '\\' | replace: site.data.strings.newline, '\n' | replace: '"', '\"'}}",
-    "github" : "{{ bot.github | replace: '\', '\\' | replace: site.data.strings.newline, '\n' | replace: '"', '\"'}}",
+    "support" : "{{ bot.support | replace: '\', '\\' | replace: site.data.strings.newline, '\n' | replace: '"', '\"'}}",{% if bot.github %}
+    "github" : { {% if bot.github.owner %}
+        "owner" : "{{ bot.github.owner | replace: '\', '\\' | replace: site.data.strings.newline, '\n' | replace: '"', '\"'}}"{% if bot.github.repo %},{% endif %}{% endif %}{% if bot.github.repo %}
+        "repo" : "{{ bot.github.repo | replace: '\', '\\' | replace: site.data.strings.newline, '\n' | replace: '"', '\"'}}"{% endif %}
+    },{% endif %}
     "verified" : {% if bot.verified %}{{ bot.verified | | replace: '\', '\\' | replace: site.data.strings.newline, '\n' | replace: '"', '\"' }}{% else %}false{% endif %},
     "nsfw" : {{ bot.nsfw | replace: site.data.strings.newline, '\n' }}

@@ -1,11 +1,10 @@
 <head>
   <head>
-    <title>{{ page.botname }}</title>
-    <meta property="og:title" content="{{ page.botname }}" />
+    <title>{{ page.name }}</title>
     {% include head.html %}
   </head>
   <body>
-    {% include botintro.html %}
+    {% include intro.html %}
 
     <section class="container">
       <div class="center-text card-container">
@@ -14,13 +13,17 @@
             <img class="avatar {% if page.nsfw == true %}nsfw{% endif %}" src="{{ page.avatar }}">
           </div>
           <h2 class="name {% if page.verified == true %}verified{% endif %}">
-            {{ page.botname }}
+            {{ page.name }}
             {% if page.nsfw == true %}<span class="nsfw-tag">NSFW</span>{% endif %}
           </h2>
           <div class="link buttons">
-            <a class="btn emerald" href="{{ page.link }}" target="_blank">Add this bot</a>
-            {% if page.github %}<a id="github" class="btn peter-river" href="https://github.com/{{ page.github }}" target="_blank">View on GitHub</a>{% endif %}
-            {% if page.support %}<a class="btn orange" href="{{ page.support | replace: site.data.strings.newline, '\n' | replace: site.data.strings.quote_mark, '%22'}}" target="_blank">{{ page.botname }} Discord Server</a>{% endif %}
+            <a class="btn emerald" href="{{ page.link }}" target="_blank">{{ site.data.config.categories[page.type].invite }}</a>
+            {% if page.github and page.github.owner and page.github.repo %}
+                <a id="github" class="btn peter-river" href="https://github.com/{{ page.github.owner }}/{{ page.github.repo }}" target="_blank">View on GitHub</a>
+            {% else page.github and page.github.owner %}
+                <a class="btn peter-river" href="https://github.com/{{ page.github.owner }}" target="_blank">View on GitHub</a>
+            {% endif %}
+            {% if page.support %}<a class="btn orange" href="{{ page.support | replace: site.data.strings.newline, '\n' | replace: site.data.strings.quote_mark, '%22'}}" target="_blank">{{ page.name }} Discord Server</a>{% endif %}
           </div>
           <span class="description">
             {% if page.prefix %}
@@ -40,9 +43,9 @@
         {{ content }}
       </div>
     </section>
-    {% if page.github %}
+    {% if page.github and page.github.owner and page.github.repo %}
     <script>
-      fetch('https://api.github.com/repos/{{ page.github }}')
+      fetch('https://api.github.com/repos/{{ page.github.owner }}/{{ page.github.repo }}')
         .then(data => data.json())
         .then(repo => {
           const githubButton = document.getElementById('github');
