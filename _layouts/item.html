@@ -1,6 +1,6 @@
 <head>
   <head>
-    <title>{{ page.name }}</title>
+    <title>{{ page.pagename }}</title>
     {% include head.html %}
   </head>
   <body>
@@ -13,7 +13,7 @@
             <img class="avatar {% if page.nsfw == true %}nsfw{% endif %}" src="{{ page.avatar }}">
           </div>
           <h2 class="name {% if page.verified == true %}verified{% endif %}">
-            {{ page.name }}
+            {{ page.pagename }}
             {% if page.nsfw == true %}<span class="nsfw-tag">NSFW</span>{% endif %}
           </h2>
           <div class="link buttons">
