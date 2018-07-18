@@ -1,5 +1,5 @@
 ---
-name: API Reference
+pagename: API Reference
 description: The basic API documentation for getting information from this website.
 permalink: "/api"
 layout: blank

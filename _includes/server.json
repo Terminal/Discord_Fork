@@ -1,9 +1,9 @@
     "id" : "{{ server.server_id | replace: site.data.strings.newline, '\n' }}",
     "server_id" : "{{ server.server_id | replace: site.data.strings.newline, '\n' }}",
-    "name" : "{{ server.name | replace: site.data.strings.newline, '\n' }}",
+    "name" : "{{ server.pagename | replace: site.data.strings.newline, '\n' }}",
     "description" : "{{ server.description | strip_html | truncate:60 | replace: site.data.strings.newline, '\n' }}",
     "long_description" : "{% if server.long_description %}{{ server.long_description | replace: site.data.strings.newline, '\n' }}{% else %}{% endif %}",
-    "url_safe": "{{ server.name | downcase | replace:' ', '' | replace: site.data.strings.newline, '\n' }}",
+    "url_safe": "{{ server.pagename | downcase | replace:' ', '' | replace: site.data.strings.newline, '\n' }}",
     "avatar" : "{{ server.avatar | replace: site.data.strings.newline, '\n' }}",
     "link" : "{{ server.link | replace: site.data.strings.newline, '\n' }}",{% if server.github %}
     "github" : { {% if server.github.owner %}
