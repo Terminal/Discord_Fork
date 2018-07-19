@@ -26,14 +26,14 @@ The user with the crown is the actual owner.
 
 The server administrator will need to follow the following steps:
 
-1. Enable the "Manage Server" permission
-![A video toggling the "Manage Server" permission](/assets/images/invite/enabling-manage-server.gif)
+1. Enable the "Manage Server" permission  
+  - ![A video toggling the "Manage Server" permission](/assets/images/invite/enabling-manage-server.gif)
 2. Give a user the role which you enabled "Manage Server" on
-![A video giving a role to a user](/assets/images/invite/giving-a-role.gif)
+  - ![A video giving a role to a user](/assets/images/invite/giving-a-role.gif)
 
 ## Switching accounts
 1. Log out, by navigating to [https://discordapp.com](https://discordapp.com)
 2. Open Discord
 3. Click user settings, and log out
 4. Log back in, and go back to the bot you were trying to add
-![A video of a user logging off](/assets/images/invite/logging-off.gif)
+  - ![A video of a user logging off](/assets/images/invite/logging-off.gif)
