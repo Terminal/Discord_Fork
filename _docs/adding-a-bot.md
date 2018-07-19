@@ -13,6 +13,7 @@ You will require some knowledge on `git` in order to add your bot.
 
 - Inside the `_bots` folder, create a file called `[CLIENT_ID].md`, where `[CLIENT_ID]` is the ID of your bot.
 - Copy the code below, and replace with your own details
+
 ```ini
 ---
 client_id: [The client ID of your bot]
@@ -33,8 +34,8 @@ nsfw: true | false [If your bot is "Not Safe For Work"]
 This is an example of Markdown. [Here is a tutorial](https://guides.github.com/features/mastering-markdown/)
 
 _thanks_ **alex**
-
 ```
+
 - Create a commit
 ![Creating and editing a file](https://its-not-advertising-if-the-website-doesnt-exist-anymore.moustacheminer.com/1531012665.07.png)
 - Go the pull requests page
@@ -43,19 +44,3 @@ _thanks_ **alex**
 ![Creating a PR](https://its-not-advertising-if-the-website-doesnt-exist-anymore.moustacheminer.com/1531012827.26.png)
 ![Pressing the button to create a PR](https://its-not-advertising-if-the-website-doesnt-exist-anymore.moustacheminer.com/1531012912.81.png)
 - Now wait from 3 to 10 business days.
-
-<!-- ## Adding your server to the list
-- Fork the project
-- Add a new file in **\_servers** with `your_server_name.md` and add the following:
-```md
----
-pagename: SERVER NAME
-description: DESCRIPTION (limited to 60 characters)
-long_description: LONG_DESCRIPTION (only viewable at bot page)
-avatar: URL, must be the Discord Server icon in PNG format and no ?size query
-link: URL to discord.gg invite only
-nsfw: false
----
-After this line, you can do any markdown code you want for custom page!
-```
-- make a PR and wait for answers -->
