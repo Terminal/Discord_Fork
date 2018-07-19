@@ -115,3 +115,17 @@ input#search {
     list-style: none;
   }
 }
+
+// Docs page
+.nav-container {
+  .nav-content {
+    padding-left: 62px;
+    width: calc(100% - 62px); // The width of the nav button
+    a {
+      color: #FFFFFF;
+    } 
+  }
+  .sidenav {
+    width: 250px;
+  }
+}

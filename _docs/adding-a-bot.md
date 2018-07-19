@@ -1,5 +1,6 @@
 ---
 pagename: Adding your bot to Discord Fork
+description: Instructions on how to add your own bot to the Discord Fork botlist.
 ---
 
 # Adding your bot to the website

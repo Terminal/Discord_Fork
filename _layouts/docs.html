@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>{{ page.pagename }}</title>
+    {% include head.html %}
+  </head>
+  <body>
+    <div class="nav-container">
+      <span id="menu-icon"></span>
+    
+      <div class="nav-content">
+        <h4 class="center">
+          <a href="{{ site.data.config.categories[page.type].path }}">
+            {{ site.data.config.categories[page.type].pagename }}
+          </a>
+        </h4>
+      </div>
+    
+      <div id="navside" class="sidenav" style="transform: translateX(-250px);">
+        <a href="/">Back to Forklist</a>
+        <a href="/docs/">Docs Homepage</a>
+      </div>
+    </div>
+    <section class="container">
+      {{ content }}
+    </section>
+    {% include footer.html %}
+    <script src="/assets/js/sidebar.js"></script>
+  </body>
+</html>

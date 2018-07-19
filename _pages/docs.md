@@ -2,14 +2,14 @@
 pagename: Discord Fork Documentation
 description: Documentation for the Discord Fork list, the open source bot listing website.
 permalink: "/docs/"
-layout: blank
+layout: docs
 type: docs
 ---
 
 # Documentation for Discord Fork
+- [Available API endpoints](api-reference)
 
 ## Bots
-
 - [Adding a bot](adding-a-bot)
 
 ### Errors

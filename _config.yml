@@ -37,7 +37,7 @@ defaults:
     values:
       layout: item
       type: docs
-      layout: blank
+      layout: docs
   - scope:
       path: ""
       type: bots

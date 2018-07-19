@@ -1,5 +1,6 @@
 ---
 pagename: "No servers on dropdown when inviting Discord bots."
+description: How to fix problems when there are no servers on the Discord Bot invite dropdown - When inviting a bot, you may need permissions, or you are logged into the wrong user account.
 ---
 
 # No servers when inviting Bots
