@@ -1,7 +1,7 @@
 ---
 pagename: Discord Fork Documentation
 description: Documentation for the Discord Fork list, the open source bot listing website.
-permalink: "/docs"
+permalink: "/docs/"
 layout: blank
 type: docs
 ---
@@ -10,10 +10,10 @@ type: docs
 
 ## Bots
 
-- [Adding a bot](/docs/adding-a-bot)
+- [Adding a bot](adding-a-bot)
 
 ### Errors
-- ["The bot is private. Only the bot owner can add it."](/docs/bot-private-error)
-- [There's nothing to select in the "Select a server" dropdown](/docs/bot-no-servers)
-- ["Bot requires code grant"](/docs/bot-requires-code-grant)
-- ["UNKNOWN_ERROR"](/docs/bot-unknown-error)
+- ["The bot is private. Only the bot owner can add it."](bot-private-error)
+- [There's nothing to select in the "Select a server" dropdown](bot-no-servers)
+- ["Bot requires code grant"](bot-requires-code-grant)
+- ["UNKNOWN_ERROR"](bot-unknown-error)
