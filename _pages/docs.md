@@ -10,10 +10,10 @@ type: docs
 
 ## Bots
 
-- [Adding a bot](adding-a-bot)
+- [Adding a bot](/docs/adding-a-bot)
 
 ### Errors
-- ["The bot is private. Only the bot owner can add it."](bot-private-error)
-- [There's nothing to select in the "Select a server" dropdown](bot-no-servers)
-- ["Bot requires code grant"](bot-requires-code-grant)
-- ["UNKNOWN_ERROR"](bot-unknown-error)
+- ["The bot is private. Only the bot owner can add it."](/docs/bot-private-error)
+- [There's nothing to select in the "Select a server" dropdown](/docs/bot-no-servers)
+- ["Bot requires code grant"](/docs/bot-requires-code-grant)
+- ["UNKNOWN_ERROR"](/docs/bot-unknown-error)
