@@ -1,6 +1,10 @@
 
 # Discord_Fork
-A fork of Discord_Bots by `perryprog`, a fork of Discord_Fork by `AlexFlipnote`.  
+A fork of a fork of a fork
+- `AlexFlipnote`/`Discord_Fork`
+  - `perryprog`/`Discord_Fork`
+    - `Terminal`/`Discord_Fork`
+
 [Add your bot like this](https://discordbots.co.uk/docs/adding-a-bot/)
 
 NOTE: Please do not complain over how *bad* the site is made, this is mostly made as a
