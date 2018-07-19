@@ -1,6 +1,6 @@
 ---
-pagename: This is a test
-description: This is a test of the Discord Banlist
+pagename: Discord Fork Documentation
+description: Documentation for the Discord Fork list, the open source bot listing website.
 permalink: "/docs"
 layout: blank
 type: docs
@@ -13,7 +13,7 @@ type: docs
 - [Adding a bot](adding-a-bot)
 
 ### Errors
-- "The bot is private. Only the bot owner can add it."
-- There's nothing to select in the "Select a server" dropdown
-- "Bot requires code grant"
-- "UNKNOWN_ERROR"
+- ["The bot is private. Only the bot owner can add it."](bot-private-error)
+- [There's nothing to select in the "Select a server" dropdown](bot-no-servers)
+- ["Bot requires code grant"](bot-requires-code-grant)
+- ["UNKNOWN_ERROR"](bot-unknown-error)

@@ -1,4 +1,5 @@
 ---
+pagename: '"Bot requires code grant" error when inviting Discord Bots'
 ---
 
 # "Bot requires code grant" when inviting Bots

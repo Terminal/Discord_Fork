@@ -1,4 +1,5 @@
 ---
+pagename: '"This bot is private" error when inviting Discord Bots'
 ---
 
 # "This bot is private" when inviting Bots

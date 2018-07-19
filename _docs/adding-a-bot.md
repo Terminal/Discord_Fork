@@ -1,4 +1,5 @@
 ---
+pagename: Adding your bot to Discord Fork
 ---
 
 # Adding your bot to the website

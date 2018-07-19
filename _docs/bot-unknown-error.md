@@ -1,4 +1,5 @@
 ---
+pagename: '"UNKNOWN_ERROR" error when inviting Discord Bots'
 ---
 
 # UNKNOWN_ERROR when inviting Bots
