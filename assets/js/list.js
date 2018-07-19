@@ -2,8 +2,6 @@ window.addEventListener('load', () => {
 	const list = document.getElementById('list');
 	const spinner = document.getElementsByClassName('loader');
   const search = document.getElementById('search');
-  const modal = document.getElementById('modal');
-  const exit = document.getElementById('closeModal');
 
 	// If a list exists on the page, detect the type of list to display
 	if (list) {
@@ -34,11 +32,6 @@ window.addEventListener('load', () => {
 				}
 			})
 		})
-  }
-  
-  if (exit && modal) {
-    exit.addEventListener('click', closeModal);
-    modal.addEventListener('click', closeModal);
   }
 });
 
@@ -82,7 +75,7 @@ const createList = async (target, type = 'bots', category = 'all') => {
 
 			itemLogo.addEventListener('error', () => {
 				itemLogo.src = '/assets/images/logo.png';
-			})
+			});
 
 			itemDesc.innerText = item.description;
 			itemDesc.classList.add('description');
@@ -118,32 +111,3 @@ const createList = async (target, type = 'bots', category = 'all') => {
 			target.appendChild(itemCard);
 		});
 };
-
-const showModal = (discordWindow) => {
-  const modal = document.getElementById('modal');
-  
-  modal.classList.remove('modal--close');
-  modal.style.display = 'block';
-
-	const timer = setInterval(() => {
-		if (discordWindow.closed) {
-			clearInterval(timer);
-			closeModal();
-			console.log('Window closed!');
-		}
-	}, 20);
-}
-
-const closeModal = (event) => {
-  const modal = document.getElementById('modal');
-  const exit = document.getElementById('closeModal');
-
-  if (!event || modal === event.target || exit === event.target) {
-    modal.classList.add('modal--close');
-    setTimeout(() => {
-      if (modal.classList.contains('modal--close')) {
-        modal.style.display = null;
-      }
-    }, 575);
-  }
-}
