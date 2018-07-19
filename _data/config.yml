@@ -8,7 +8,7 @@ categories:
     parallax: /assets/images/background_bots.jpg
     description: The botlist with built-in GitHub integration
     path: /
-    contribute: https://github.com/Terminal/Discord_Fork/blob/master/CONTRIBUTING/bots.md
+    contribute: /docs/adding-a-bot
   servers:
     display: true
     pagename: Discord Serverlist
@@ -28,4 +28,12 @@ categories:
     description: The list you fork to throw your hammer.
     path: /bans
     contribute: https://github.com/Terminal/Discord_Fork/blob/master/README.md
-
+  docs:
+    display: true
+    pagename: Discord Fork Documentation
+    shortname: Documentation
+    add: View source code on GitHub
+    parallax: /assets/images/background_bots.jpg
+    description: It's because nobody knows what they're doing
+    path: /docs
+    contribute: https://github.com/terminal/discord_fork

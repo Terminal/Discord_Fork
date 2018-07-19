@@ -6,6 +6,9 @@ body {
 
 .container {
   flex-grow: 1;
+  img {
+    max-width: 100%;
+  }
 }
 
 // Front page + inside
@@ -95,5 +98,20 @@ input#search {
     padding: 0;
     visibility: hidden;
     width: 0;
+  }
+}
+
+// Modal
+.modal-content {
+  h2 {
+    font-size: 16pt;
+  }
+
+  a {
+    color: #1EAEDB;
+  }
+
+  li {
+    list-style: none;
   }
 }

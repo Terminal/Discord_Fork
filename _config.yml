@@ -17,6 +17,9 @@ sass:
   style: compressed
 
 collections:
+  docs:
+    output: true
+    permalink: /:collection/:name/
   bots:
     output: true
     permalink: /:collection/:name/
@@ -28,6 +31,13 @@ collections:
     permalink: /:collection/:name/
 
 defaults:
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: item
+      type: docs
+      layout: blank
   - scope:
       path: ""
       type: bots

@@ -1,3 +1,6 @@
+---
+---
+
 # Adding your bot to the website
 Thanks for choosing Discord_Fork for your preffered Discord Bots Service Provider (DBSP)
 

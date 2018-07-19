@@ -17,8 +17,10 @@
             {% if page.nsfw == true %}<span class="nsfw-tag">NSFW</span>{% endif %}
           </h2>
           <div class="link buttons">
-            {% if page.link %}
-              <a class="btn emerald" href="{{ page.link }}" target="_blank">{{ site.data.config.categories[page.type].invite }}</a>
+            {% if page.link and page.type == 'bots' %}
+              <a id="invite" class="btn emerald" href="#" >{{ site.data.config.categories[page.type].invite }}</a>
+            {% elsif page.link %}
+              <a id="invite" class="btn emerald" href="{{ page.link }}" target="_blank">{{ site.data.config.categories[page.type].invite }}</a>
             {% endif %}
             {% if page.github and page.github.owner and page.github.repo %}
               <a id="github" class="btn peter-river" href="https://github.com/{{ page.github.owner }}/{{ page.github.repo }}" target="_blank">View on GitHub</a>
@@ -58,6 +60,17 @@
           }
 
         });
+    </script>
+    {% endif %}
+    {% if page.type == 'bots' and page.link %}
+    {% include botmodal.html %}
+    <script src="{{ site.url }}/assets/js/bots.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      const button = document.getElementById('invite');
+      button.addEventListener('click', (e) => {
+        const discordWindow = window.open("{{ page.link }}", '_blank', `toolbar=0,width=500,height=700,top=${Math.floor(screen.height / 2) - 250},left=${Math.floor(screen.width / 2) - 350}}`);
+        showModal(discordWindow);
+      });
     </script>
     {% endif %}
 
