@@ -4,6 +4,10 @@ body {
   flex-direction: column;
 }
 
+.fullscreen.half .background {
+  height: 50vh;
+}
+
 .container {
   flex-grow: 1;
   img {
