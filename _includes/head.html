@@ -1,5 +1,10 @@
 <!-- Main content to SEO -->
-<title>{{ page.pagename }}</title>
+{% if page.pagename %}
+  <title>{{ page.pagename }} - {{ site.data.config.categories[page.type].pagename }}</title>
+{% else %}
+  <title>{{ site.data.config.categories[page.type].pagename }}</title>
+{% endif %}
+
 <meta property="og:title" content="{{ page.pagename }}" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
