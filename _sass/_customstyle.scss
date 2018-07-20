@@ -122,6 +122,9 @@ input#search {
 
 // Docs page
 .nav-container {
+  #menu-icon {
+    z-index: 100;
+  }
   .nav-content {
     padding-left: 62px;
     width: calc(100% - 62px); // The width of the nav button
