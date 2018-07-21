@@ -12,6 +12,9 @@ include:
   - _pages/api/bots
   - _pages/api/servers
 
+exclude:
+  - assets/css/ModestaCSS/_pages
+
 sass:
   sass_dir: _sass
   style: compressed
