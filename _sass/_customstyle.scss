@@ -145,3 +145,22 @@ input#search {
   vertical-align: text-bottom;
   height: 21px;
 }
+
+.toast-container {
+  position: fixed;
+  display: flex;
+  flex-direction: column-reverse;
+  bottom: 0;
+  width: 100vw;
+  max-width: 100%;
+  .toast-btn {
+    margin-left: auto;
+    float: right;
+    max-width: 100%;
+    text-overflow: unset;
+    white-space: initial;
+    height: unset;
+    line-height: unset;
+    padding: 10px;
+  }
+}

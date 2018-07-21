@@ -46,13 +46,17 @@
         {{ content }}
       </div>
     </section>
+
+    {% include footer.html %}
     {% if page.github and page.github.owner and page.github.repo %}
     <script>
       fetch('https://api.github.com/repos/{{ page.github.owner }}/{{ page.github.repo }}')
         .then(data => data.json())
         .then(repo => {
           const githubButton = document.getElementById('github');
-          if (repo.stargazers_count && repo.stargazers_count === 1) {
+          if (repo.message) {
+            showToast(repo.message);
+          } else if (repo.stargazers_count && repo.stargazers_count === 1) {
             githubButton.innerText = '1 star on GitHub';
           } else {
             githubButton.innerText = `${repo.stargazers_count} stars on GitHub`
@@ -64,9 +68,6 @@
     {% if page.type == 'bots' and page.link %}
     {% include botmodal.html %}
     <script src="/assets/js/item.js" type="text/javascript" charset="utf-8"></script>
-    <script src="/assets/js/modal.js" type="text/javascript" charset="utf-8"></script>
     {% endif %}
-
-    {% include footer.html %}
   </body>
 </html>
