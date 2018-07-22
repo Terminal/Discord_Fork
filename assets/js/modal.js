@@ -1,16 +1,7 @@
-window.addEventListener('load', () => {
-  const modal = document.getElementById('modal');
-  const exit = document.getElementById('closeModal');
+const showModal = (discordWindow, modalName) => {
+  const modal = document.getElementById(modalName || 'modal');
+  const exit = modal.getElementsByClassName('close')[0];
 
-  if (exit && modal) {
-    exit.addEventListener('click', closeModal);
-    modal.addEventListener('click', closeModal);
-  }
-});
-
-const showModal = (discordWindow) => {
-  const modal = document.getElementById('modal');
-  
   modal.classList.remove('modal--close');
   modal.style.display = 'block';
 
@@ -20,12 +11,17 @@ const showModal = (discordWindow) => {
 			closeModal();
 			console.log('Window closed!');
 		}
-	}, 20);
+  }, 20);
+
+  if (exit && modal) {
+    exit.addEventListener('click', closeModal);
+    modal.addEventListener('click', closeModal);
+  }
 }
 
-const closeModal = (event) => {
-  const modal = document.getElementById('modal');
-  const exit = document.getElementById('closeModal');
+const closeModal = (event, modalName) => {
+  const modal = document.getElementById(modalName || 'modal');
+  const exit = modal.getElementsByClassName('close')[0];
 
   if (!event || modal === event.target || exit === event.target) {
     modal.classList.add('modal--close');
