@@ -3,7 +3,8 @@
     {% include head.html %}
     <script>
       // No stealing people's GitHub tokens please
-      delete localStorage;
+      if (localStorage) delete localStorage;
+      if (github) github = undefined;
     </script>
   </head>
   <body>

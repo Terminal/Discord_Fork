@@ -39,9 +39,52 @@ const createList = async (target, type = 'bots', category = 'all') => {
 	const items = await fetch(`/api/${type}/${category}.json`)
 		.then(data => data.json());
 
-	items
-		.sort(() => Math.random() - .5)
-		.forEach((item) => {
+  items
+    .map((item) => { // Get the number of stars for each item
+      if (item.github && item.github.repo && item.github.owner) {
+        // Check if the "local cache" object exists
+        if (!localStorage.getItem('repos')) {
+          // If it doesn't exist, create it.
+          localStorage.setItem('repos', "{}");
+        }
+
+        // Get information about the current bot
+        const cachedInfo = JSON.parse(localStorage.getItem('repos'))[`${item.github.owner}/${item.github.repo}`];
+
+        // If the GitHub information doesn't exist, or it has expired, refetch the data
+        if (!cachedInfo || (cachedInfo && cachedInfo.time < Date.now())) {
+          repository
+            .getDetails()
+            .then((data) => {
+              // If GitHub returned a message, show a toast
+              if (data.message) {
+                showToast(data.message);
+              } else if (data.data) {
+                // If there is data, insert the data into the local cache, and set expiry to 12 hours.
+                localStorage.setItem('repos', JSON.stringify(Object.assign(JSON.parse(localStorage.getItem('repos')), {
+                  [`${item.github.owner}/${item.github.repo}`]: {
+                    data: data.data,
+                    time: Date.now() + (12 * 60 * 60 * 1000) // 12 hours
+                  }
+                })));
+                item.stars = data.data.stargazers_count; // Set the label to the number of stars the project has at this precise moment
+              }
+            });
+        } else {
+          item.stars = cachedInfo.data.stargazers_count; // Set the label to the number of stars in the cache
+        }
+      }
+      return item;
+    })
+    .map((item) => { // Calculate the score for each item
+      item.score = Math.random();
+      if (item.stars) {
+        item.score += Math.log10(item.stars * 10) * 0.1;
+      }
+      return item;
+    })
+		.sort((a, b) => b.score - a.score) // Sort the cards based on the score
+		.forEach((item) => { // Display each card in order
 			const itemCard = document.createElement('section');
 			const itemLink = document.createElement('a');
 			const itemName = document.createElement('h4'); // New ModestaCSS uses h1
@@ -99,9 +142,43 @@ const createList = async (target, type = 'bots', category = 'all') => {
         }
 
 				itemButtons.appendChild(itemInvite);
-			}
+      }
+      
+      if (github && item.github && item.github.repo && item.github.owner) {
+        const githubButton = document.createElement('a');
+        const countText = document.createElement('span');
+        const githubLabel = document.createElement('span');
+        const githubDash = document.createElement('span');
+        let count = null;
+        githubButton.classList.add('btn', 'peter-river', 'white-text', 'bold');
+        githubLabel.innerText = 'Star';
+        githubButton.href = `https://github.com/${encodeURIComponent(item.github.owner)}/${encodeURIComponent(item.github.repo)}`;
+        githubDash.innerText = ' | ';
+
+        const repository = github.getRepo(item.github.owner, item.github.repo)
+        
+        repository
+          .isStarred()
+          .then((starred) => {
+            if (starred) {
+              githubLabel.innerText = 'Unstar';
+            }
+          });
+        
+        if (item.stars) {
+          countText.innerHTML = item.stars;
+          githubButton.appendChild(countText);
+          githubButton.appendChild(githubDash);
+          itemCard.dataset.stars = item.stars;
+        }
+
+        githubButton.appendChild(githubLabel);
+        itemButtons.appendChild(githubButton);
+      }
 
 			itemButtons.classList.add('footer');
+
+      itemCard.dataset.score = item.score;
 
 			itemLink.appendChild(itemName);
 			itemCard.appendChild(itemLogoBox);
