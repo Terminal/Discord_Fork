@@ -1,0 +1,36 @@
+---
+pagename: Login
+description: Login to Discord_Fork with GitHub
+permalink: "/oauth/callback/"
+layout: blank
+type: bots
+---
+
+<div class="center-text">
+  <h1>
+    Welcome back...
+  </h1>
+  <a href="/" class="button">Not being redirected? Click here</a>
+</div>
+<script>
+  const code = window.location.href.match(/\?code=(.*)/);
+  const redirect = localStorage.getItem('return');
+  if (code && code[1]) {
+    fetch(`{{ site.data.links.gatekeeper }}/${code[1]}`)
+      .then(data => data.json())
+      .then(data => {
+        if (data.token) localStorage.setItem('github', data.token);
+        next();
+      })
+  } else {
+    next();
+  }
+  
+  const next = () => {
+    if (redirect === '') {
+      window.location.href = '/';
+    } else {
+      window.location.href = redirect;
+    }
+  }
+</script>
