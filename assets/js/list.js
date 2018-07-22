@@ -41,7 +41,7 @@ const createList = async (target, type = 'bots', category = 'all') => {
 
   items
     .map((item) => { // Get the number of stars for each item
-      if (item.github && item.github.repo && item.github.owner) {
+      if (github && item.github && item.github.repo && item.github.owner) {
         // Check if the "local cache" object exists
         if (!localStorage.getItem('repos')) {
           // If it doesn't exist, create it.
@@ -50,6 +50,7 @@ const createList = async (target, type = 'bots', category = 'all') => {
 
         // Get information about the current bot
         const cachedInfo = JSON.parse(localStorage.getItem('repos'))[`${item.github.owner}/${item.github.repo}`];
+        const repository = github.getRepo(item.github.owner, item.github.repo)
 
         // If the GitHub information doesn't exist, or it has expired, refetch the data
         if (!cachedInfo || (cachedInfo && cachedInfo.time < Date.now())) {
