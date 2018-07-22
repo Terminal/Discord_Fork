@@ -10,7 +10,7 @@ You will require some knowledge on `git` in order to add your bot.
 
 - Fork the project
 
-![How to fork](https://its-not-advertising-if-the-website-doesnt-exist-anymore.moustacheminer.com/1531011733.77.png)
+![How to fork](/assets/images/adding-a-bot/1531011733.77.png)
 
 - Inside the `_bots` folder, create a file called `[CLIENT_ID].md`, where `[CLIENT_ID]` is the ID of your bot.
 - Copy the code below, and replace with your own details
@@ -38,10 +38,10 @@ _thanks_ **alex**
 ```
 
 - Create a commit
-  - ![Creating and editing a file](https://its-not-advertising-if-the-website-doesnt-exist-anymore.moustacheminer.com/1531012665.07.png)
+  - ![Creating and editing a file](/assets/images/adding-a-bot/1531012665.07.png)
 - Go the pull requests page
-  - ![Going to the correct PR place](https://its-not-advertising-if-the-website-doesnt-exist-anymore.moustacheminer.com/1531012768.53.png)
+  - ![Going to the correct PR place](/assets/images/adding-a-bot/1531012768.53.png)
 - Create a pull request
-  - ![Creating a PR](https://its-not-advertising-if-the-website-doesnt-exist-anymore.moustacheminer.com/1531012827.26.png)
-  - ![Pressing the button to create a PR](https://its-not-advertising-if-the-website-doesnt-exist-anymore.moustacheminer.com/1531012912.81.png)
+  - ![Creating a PR](/assets/images/adding-a-bot/1531012827.26.png)
+  - ![Pressing the button to create a PR](/assets/images/adding-a-bot/1531012912.81.png)
 - Now wait from 3 to 10 business days.
