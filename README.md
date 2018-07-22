@@ -1,6 +1,13 @@
+---
+pagename: Discord_Fork README.md file
+description: Information about the Discord_Fork application and software
+layout: docs
+type: docs
+permalink: /docs/readme/
+---
 
 # Discord_Fork
-A fork of a fork of a fork
+Fork the fork from the fork which was forked from a fork.
 - `AlexFlipnote`/`Discord_Fork`
   - `perryprog`/`Discord_Fork`
     - `Terminal`/`Discord_Fork`
@@ -33,3 +40,11 @@ Windows users may wish to use the Windows Subsystem for Linux.
 sudo apt install build-essential ruby-full ruby-bundler
 bundler exec jekyll serve
 ```
+
+## Thanks
+- [alicelieutier](https://github.com/alicelieutier)/[**smoothScroll**](https://github.com/alicelieutier/smoothScroll)
+- [nk-o](https://github.com/nk-o)/[**jarallax**](https://github.com/nk-o/jarallax)
+- [AlexFlipnote](https://github.com/AlexFlipnote)/[**ModestaCSS**](https://github.com/AlexFlipnote/ModestaCSS)
+- [AlexFlipnote](https://github.com/AlexFlipnote)/**Discord_Fork** (no longer exists)
+- [github-tools](https://github.com/github-tools)/[**github**](https://github.com/github-tools/github)
+- [prose](https://github.com/prose/gatekeeper)/[**gatekeeper**](https://github.com/prose/gatekeeper)

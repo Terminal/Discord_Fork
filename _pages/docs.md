@@ -8,6 +8,7 @@ type: docs
 
 # Documentation for Discord Fork
 - [Available API endpoints](api-reference)
+- [README.md](readme)
 
 ## Bots
 - [Adding a bot](adding-a-bot)
