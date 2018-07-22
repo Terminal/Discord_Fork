@@ -7,10 +7,7 @@ permalink: /docs/readme/
 ---
 
 # Discord_Fork
-Fork the fork from the fork which was forked from a fork.
-- `AlexFlipnote`/`Discord_Fork`
-  - `perryprog`/`Discord_Fork`
-    - `Terminal`/`Discord_Fork`
+The serverless (except for OAuth flow) Discord Bot list.
 
 [Add your bot like this](https://discordbots.co.uk/docs/adding-a-bot/)
 
