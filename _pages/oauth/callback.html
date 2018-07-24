@@ -10,7 +10,7 @@ type: bots
   <h1>
     Welcome back...
   </h1>
-  <a href="/" class="button">Not being redirected? Click here</a>
+  <a href="/" class="button">Not being redirected? Click here to cancel logging in.</a>
 </div>
 <script>
   const code = window.location.href.match(/\?code=(.*)/);
@@ -18,9 +18,12 @@ type: bots
   if (code && code[1]) {
     fetch(`{{ site.data.links.gatekeeper }}/${code[1]}`)
       .then(data => data.json())
-      .then(data => {
+      .then((data) => {
         if (data.token) localStorage.setItem('github', data.token);
         next();
+      })
+      .catch((error) => {
+        showToast(error);
       })
   } else {
     next();
