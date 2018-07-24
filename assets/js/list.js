@@ -104,6 +104,7 @@ const createList = async (target, type = 'bots', category = 'all') => {
 			itemLogo.classList.add('avatar');
 			itemLogo.src = item.avatar;
 
+      // If the bot is Not Safe For Work, add the NSFW key
 			if (item.nsfw) {
 				// Append a "nsfw" tag
 				const itemNSFW = document.createElement('span');
@@ -113,7 +114,9 @@ const createList = async (target, type = 'bots', category = 'all') => {
 
 				// Add a blur to the NSFW logo
 				itemLogo.classList.add('nsfw');
-			}
+      }
+      
+
 			itemLogoBox.classList.add('avatar');
 			itemLogoBox.appendChild(itemLogo);
 
@@ -124,53 +127,83 @@ const createList = async (target, type = 'bots', category = 'all') => {
 			itemDesc.innerText = item.description;
 			itemDesc.classList.add('description');
 
+      // If there is a link, or the type is bans, create an "invite button"
 			if (item.link || type === 'bans') {
 				const itemInvite = document.createElement('a');
 				itemInvite.classList.add('btn', 'emerald', 'white-text', 'bold');
 
+        // Bans redirects to the ban page
         if (type === 'bans') {
           itemInvite.innerText = 'View';
           itemInvite.href = `/${type}/${item.id}`;
         } else if (type === 'bots') {
+          // Invites for bots creates a modal box
           itemInvite.innerText = 'Invite';
           itemInvite.addEventListener('click', (e) => {
 						const discordWindow = window.open(item.link, '_blank', `toolbar=0,width=500,height=700,top=${Math.floor(screen.height / 2) - 250},left=${Math.floor(screen.width / 2) - 350}}`);
 						showModal(discordWindow);
 					});
         } else {
+          // Invites for other items redirects the user in a new window
           itemInvite.innerText = 'Invite';
+          itemInvite.target = '_blank';
           itemInvite.href = item.link;
         }
 
 				itemButtons.appendChild(itemInvite);
       }
       
-      if (github && item.github && item.github.repo && item.github.owner) {
+      if (item.github && item.github.repo && item.github.owner) {
         const githubButton = document.createElement('a');
         const countText = document.createElement('span');
         const githubLabel = document.createElement('span');
         const githubDash = document.createElement('span');
-        let count = null;
+
         githubButton.classList.add('btn', 'peter-river', 'white-text', 'bold');
         githubLabel.innerText = 'Star';
-        githubButton.href = `https://github.com/${encodeURIComponent(item.github.owner)}/${encodeURIComponent(item.github.repo)}`;
         githubDash.innerText = ' | ';
 
-        const repository = github.getRepo(item.github.owner, item.github.repo)
-        
-        repository
-          .isStarred()
-          .then((starred) => {
-            if (starred) {
-              githubLabel.innerText = 'Unstar';
-            }
-          });
-        
         if (item.stars) {
           countText.innerHTML = item.stars;
           githubButton.appendChild(countText);
           githubButton.appendChild(githubDash);
           itemCard.dataset.stars = item.stars;
+        }
+
+        if (github) {
+          const repository = github.getRepo(item.github.owner, item.github.repo)
+        
+          repository
+            .isStarred()
+            .then((starred) => {
+              let starStatus = starred;
+              if (starred) {
+                githubLabel.innerText = 'Unstar';
+              }
+
+              githubButton.addEventListener('click', () => {
+                if (starStatus) {
+                  repository
+                    .unstar()
+                    .then(() => {
+                      starStatus = false;
+                      githubLabel.innerText = 'Star';
+                      countText.innerText = parseInt(countText.innerText) - 1;
+                    });
+                } else {
+                  repository
+                    .star()
+                    .then(() => {
+                      starStatus = true;
+                      githubLabel.innerText = 'Unstar';
+                      countText.innerText = parseInt(countText.innerText) + 1;
+                    });
+                }
+              });
+            });
+        } else {
+          githubButton.target = '_blank';
+          githubButton.href = `https://github.com/${encodeURIComponent(item.github.owner)}/${encodeURIComponent(item.github.repo)}`;
         }
 
         githubButton.appendChild(githubLabel);
