@@ -1,26 +1,25 @@
-const showModal = (discordWindow, modalName) => {
-  const modal = document.getElementById(modalName || 'modal');
-  const exit = modal.getElementsByClassName('close')[0];
+const showModal = (modalName) => {
+  const modal = document.getElementById(modalName);
 
-  modal.classList.remove('modal--close');
-  modal.style.display = 'block';
+  const close = (event) => {
+    closeModal(event, modalName);
+  }
 
-	const timer = setInterval(() => {
-		if (discordWindow.closed) {
-			clearInterval(timer);
-			closeModal();
-			console.log('Window closed!');
-		}
-  }, 20);
+  if (modal) {
+    const exit = modal.getElementsByClassName('close')[0];
 
-  if (exit && modal) {
-    exit.addEventListener('click', closeModal);
-    modal.addEventListener('click', closeModal);
+    modal.classList.remove('modal--close');
+    modal.style.display = 'block';
+
+    if (exit && modal) {
+      exit.addEventListener('click', close);
+      modal.addEventListener('click', close);
+    }
   }
 }
 
 const closeModal = (event, modalName) => {
-  const modal = document.getElementById(modalName || 'modal');
+  const modal = document.getElementById(modalName);
   const exit = modal.getElementsByClassName('close')[0];
 
   if (!event || modal === event.target || exit === event.target) {

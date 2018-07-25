@@ -37,7 +37,7 @@ let github = null;
       loginButton.href = '#';
       loginButton.addEventListener('click', () => {
         localStorageCopy.clear();
-        window.location.href = window.location.href;
+        window.location.reload(true);
       })
     }
   }

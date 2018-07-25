@@ -1,3 +1,6 @@
+const GITHUB_URL = 'https://github.com';
+const POINTS_PER_STAR = 0.02;
+
 window.addEventListener('load', () => {
 	const list = document.getElementById('list');
 	const spinner = document.getElementsByClassName('loader');
@@ -35,190 +38,270 @@ window.addEventListener('load', () => {
   }
 });
 
-const createList = async (target, type = 'bots', category = 'all') => {
+const createList = async (target, type = 'bots', category = 'all', sort = 'score') => {
 	const items = await fetch(`/api/${type}/${category}.json`)
 		.then(data => data.json());
 
   items
     .map((item) => { // Get the number of stars for each item
+      // If logged in, and a repo and owner exists, get the number of stars
       if (github && item.github && item.github.repo && item.github.owner) {
-        // Check if the "local cache" object exists
-        if (!localStorage.getItem('repos')) {
-          // If it doesn't exist, create it.
-          localStorage.setItem('repos', "{}");
-        }
-
-        // Get information about the current bot
-        const cachedInfo = JSON.parse(localStorage.getItem('repos'))[`${item.github.owner}/${item.github.repo}`];
-        const repository = github.getRepo(item.github.owner, item.github.repo)
-
-        // If the GitHub information doesn't exist, or it has expired, refetch the data
-        if (!cachedInfo || (cachedInfo && cachedInfo.time < Date.now())) {
-          repository
-            .getDetails()
-            .then((data) => {
-              // If GitHub returned a message, show a toast
-              if (data.message) {
-                showToast(data.message);
-              } else if (data.data) {
-                // If there is data, insert the data into the local cache, and set expiry to 12 hours.
-                localStorage.setItem('repos', JSON.stringify(Object.assign(JSON.parse(localStorage.getItem('repos')), {
-                  [`${item.github.owner}/${item.github.repo}`]: {
-                    data: data.data,
-                    time: Date.now() + (12 * 60 * 60 * 1000) // 12 hours
-                  }
-                })));
-                item.stars = data.data.stargazers_count; // Set the label to the number of stars the project has at this precise moment
-              }
-            });
-        } else {
-          item.stars = cachedInfo.data.stargazers_count; // Set the label to the number of stars in the cache
-        }
+        item.stars = getStars(item.github.owner, item.github.repo);
       }
       return item;
     })
-    .map((item) => { // Calculate the score for each item
+    .map((item) => {
+      // Create a random score
       item.score = Math.random();
-      if (item.stars) {
-        item.score += Math.log10(item.stars * 10) * 0.1;
+
+      switch(sort) {
+        case 'score':
+          // Even HAVING a GitHub repository is worth 1 point
+          if (item.github && item.github.repo && item.github.owner) item.score += 1;
+          // Each star is worth 0.02 points
+          if (item.stars) item.score += item.stars * POINTS_PER_STAR;
+          break;
+        case 'stars':
+          // Each star IS a point. No stars is no points.
+          if (item.stars) item.score = item.stars || 0;
+          break;
+        case 'random':
+          // Do not rely on stars
+          break;
       }
       return item;
     })
 		.sort((a, b) => b.score - a.score) // Sort the cards based on the score
-		.forEach((item) => { // Display each card in order
-			const itemCard = document.createElement('section');
-			const itemLink = document.createElement('a');
-			const itemName = document.createElement('h4'); // New ModestaCSS uses h1
-			const itemLogoBox = document.createElement('div');
-			const itemLogo = document.createElement('img')
-			const itemDesc = document.createElement('span');
-			const itemButtons = document.createElement('div');
-
-			itemCard.classList.add('card');
-
-			itemLink.setAttribute('href', `/${type}/${item.id}`)
-
-			itemName.innerText = item.name;
-			itemName.classList.add('title');
-
-			itemLogo.classList.add('avatar');
-			itemLogo.src = item.avatar;
-
-      // If the bot is Not Safe For Work, add the NSFW key
-			if (item.nsfw) {
-				// Append a "nsfw" tag
-				const itemNSFW = document.createElement('span');
-				itemNSFW.classList.add('nsfw-tag');
-				itemNSFW.innerText = 'NSFW';
-				itemName.appendChild(itemNSFW);
-
-				// Add a blur to the NSFW logo
-				itemLogo.classList.add('nsfw');
-      }
+    .forEach((item) => { // Display each card in order
+      const itemCard = document.createElement('section');
+      itemCard.classList.add('card');
       
+      const createAvatarBox = (link, nsfw) => {
+        const avatarBox = document.createElement('div');
+        const avatar = document.createElement('img');
 
-			itemLogoBox.classList.add('avatar');
-			itemLogoBox.appendChild(itemLogo);
+        avatarBox.classList.add('avatar');
+        avatar.classList.add('avatar');
 
-			itemLogo.addEventListener('error', () => {
-				itemLogo.src = '/assets/images/logo.png';
-			});
+        avatar.src = link;
 
-			itemDesc.innerText = item.description;
-			itemDesc.classList.add('description');
-
-      // If there is a link, or the type is bans, create an "invite button"
-			if (item.link || type === 'bans') {
-				const itemInvite = document.createElement('a');
-				itemInvite.classList.add('btn', 'emerald', 'white-text', 'bold');
-
-        // Bans redirects to the ban page
-        if (type === 'bans') {
-          itemInvite.innerText = 'View';
-          itemInvite.href = `/${type}/${item.id}`;
-        } else if (type === 'bots') {
-          // Invites for bots creates a modal box
-          itemInvite.innerText = 'Invite';
-          itemInvite.addEventListener('click', (e) => {
-						const discordWindow = window.open(item.link, '_blank', `toolbar=0,width=500,height=700,top=${Math.floor(screen.height / 2) - 250},left=${Math.floor(screen.width / 2) - 350}}`);
-						showModal(discordWindow);
-					});
-        } else {
-          // Invites for other items redirects the user in a new window
-          itemInvite.innerText = 'Invite';
-          itemInvite.target = '_blank';
-          itemInvite.href = item.link;
+        if (nsfw) {
+          avatar.classList.add('nsfw');
         }
 
-				itemButtons.appendChild(itemInvite);
-      }
-      
-      if (item.github && item.github.repo && item.github.owner) {
-        const githubButton = document.createElement('a');
-        const countText = document.createElement('span');
-        const githubLabel = document.createElement('span');
-        const githubDash = document.createElement('span');
-
-        githubButton.classList.add('btn', 'peter-river', 'white-text', 'bold');
-        githubLabel.innerText = 'Star';
-        githubDash.innerText = ' | ';
-
-        if (item.stars) {
-          countText.innerHTML = item.stars;
-          githubButton.appendChild(countText);
-          githubButton.appendChild(githubDash);
-          itemCard.dataset.stars = item.stars;
-        }
-
-        if (github) {
-          const repository = github.getRepo(item.github.owner, item.github.repo)
+        avatar.addEventListener('error', () => {
+          avatar.src = '/assets/images/logo.png';
+        });
         
+        avatarBox.appendChild(avatar);
+        return avatarBox;
+      };
+
+      const createContentBox = (name, desc, nsfw) => {
+        const contentBox = document.createElement('div');
+        const titleLink = document.createElement('a');
+        const title = document.createElement('h4');
+        const description = document.createElement('span');
+        
+        title.classList.add('title');
+        description.classList.add('description');
+
+        titleLink.setAttribute('href', `/${type}/${item.id}`);
+        title.innerText = name;
+        description.innerText = desc;
+
+        if (nsfw) {
+          const nsfwBadge = document.createElement('span');
+          title.appendChild(nsfwBadge);
+        }
+
+        titleLink.appendChild(title);
+        contentBox.appendChild(titleLink);
+        contentBox.appendChild(description);
+
+        return contentBox;
+      }
+
+      const createBotInviteModalButton = (link) => {
+        const itemInvite = document.createElement('a');
+
+        itemInvite.innerText = 'Invite';
+        itemInvite.setAttribute('href', '#');
+        itemInvite.addEventListener('click', (e) => {
+          const discordWindow = window.open(link, '_blank', `toolbar=0,width=500,height=700,top=${Math.floor(screen.height / 2) - 250},left=${Math.floor(screen.width / 2) - 350}}`);
+          // Show a modal, which closes when discordWindow closes
+          showModal('invite-modal');
+
+          const timer = setInterval(() => {
+            if (discordWindow.closed) {
+              clearInterval(timer);
+              closeModal(null, 'invite-modal');
+            }
+          }, 20);
+        });
+
+        return itemInvite;
+      }
+      
+      const createBansInviteButton = (id) => {
+        const itemInvite = document.createElement('a');
+
+        itemInvite.innerText = 'View Ban';
+        itemInvite.setAttribute('href', `/${type}/${id}`);
+
+        return itemInvite;
+      }
+
+      const createGenericInviteButton = (link) => {
+        const itemInvite = document.createElement('a');
+
+        itemInvite.innerText = 'Open';
+        itemInvite.setAttribute('href', link);
+
+        return itemInvite;
+      }
+
+      const createViewGitHubButton = (owner, repo) => {
+        const githubButton = document.createElement('a');
+
+        githubButton.innerText = 'GitHub';
+        githubButton.setAttribute('href' ,`${GITHUB_URL}/${owner}/${repo}`);
+        githubButton.setAttribute('target', '_blank');
+
+        return githubButton;
+      }
+
+      const createToggleStarButton = (owner, repo) => {
+        if (github) {
+          const starButton = document.createElement('a');
+          const repository = github.getRepo(owner, repo);
+        
+          // Check if the repository is starred yet
           repository
             .isStarred()
             .then((starred) => {
               let starStatus = starred;
+
               if (starred) {
-                githubLabel.innerText = 'Unstar';
+                starButton.innerText = 'Unstar';
+              } else {
+                starButton.innerText = 'Star';
               }
 
-              githubButton.addEventListener('click', () => {
+              // Make the button toggle between states
+              starButton.addEventListener('click', () => {
                 if (starStatus) {
                   repository
                     .unstar()
                     .then(() => {
                       starStatus = false;
-                      githubLabel.innerText = 'Star';
-                      countText.innerText = parseInt(countText.innerText) - 1;
+                      starButton.innerText = 'Star';
                     });
                 } else {
                   repository
                     .star()
                     .then(() => {
                       starStatus = true;
-                      githubLabel.innerText = 'Unstar';
-                      countText.innerText = parseInt(countText.innerText) + 1;
+                      starButton.innerText = 'Unstar';
                     });
                 }
               });
             });
+          return starButton;
         } else {
-          githubButton.target = '_blank';
-          githubButton.href = `https://github.com/${encodeURIComponent(item.github.owner)}/${encodeURIComponent(item.github.repo)}`;
+          // Cannot create a button without being logged in.
+          throw new Error('Cannot create a toggleable GitHub button without authentication');
         }
-
-        githubButton.appendChild(githubLabel);
-        itemButtons.appendChild(githubButton);
       }
 
-			itemButtons.classList.add('footer');
+      const createLoginThenStarButton = (owner, repo) => {
+        const githubButton = document.createElement('a');
+
+        githubButton.innerText = 'Star';
+        githubButton.setAttribute('href', '#');
+
+        githubButton.addEventListener('click', () => {
+          showModal('login-modal');
+        });
+
+        return githubButton;
+      }
+
+      const createButtonsBox = () => {
+        const buttonsBox = document.createElement('div');
+        
+        buttonsBox.classList.add('footer');
+
+        if (item.link) {
+          if (type === 'bots') {
+            buttonsBox.appendChild(createBotInviteModalButton(item.link));
+          } else if (type === 'bans') {
+            buttonsBox.appendChild(createBansInviteButton(item.id));
+          } else {
+            buttonsBox.appendChild(createGenericInviteButton(item.link));
+          }
+        }
+
+        if (item.github && item.github.repo && item.github.owner) {
+          buttonsBox.appendChild(createViewGitHubButton(item.github.owner, item.github.repo));
+          // If authenticated, show the toggling button
+          // Otherwise, show the "please login via GitHub" button
+          if (github) {
+            buttonsBox.appendChild(createToggleStarButton(item.github.owner, item.github.repo));
+          } else {
+            buttonsBox.appendChild(createLoginThenStarButton());
+          }
+        }
+
+        return buttonsBox;
+      }
 
       itemCard.dataset.score = item.score;
 
-			itemLink.appendChild(itemName);
-			itemCard.appendChild(itemLogoBox);
-			itemCard.appendChild(itemLink);
-			itemCard.appendChild(itemDesc);
-			itemCard.appendChild(itemButtons);
+      itemCard.appendChild(createAvatarBox(item.avatar, item.nsfw))
+      itemCard.appendChild(createContentBox(item.name, item.description, item.nsfw));
+			itemCard.appendChild(createButtonsBox());
 			target.appendChild(itemCard);
 		});
 };
+
+const checkStorage = () => {
+  if (!localStorage.getItem('repos')) {
+    // If it doesn't exist, create it.
+    localStorage.setItem('repos', "{}");
+  }
+}
+
+const getStars = (owner, repo) => {
+  checkStorage();
+  owner = owner.toLowerCase();
+  repo = repo.toLowerCase();
+
+  // Get information about the current bot
+  const cachedInfo = JSON.parse(localStorage.getItem('repos'))[`${owner}/${repo}`];
+  const repository = github.getRepo(owner, repo)
+
+  // If the GitHub information doesn't exist, or it has expired, refetch the data
+  if (!cachedInfo || (cachedInfo && cachedInfo.time < Date.now())) {
+    repository
+      .getDetails()
+      .then((data) => {
+        // If GitHub returned a message, show a toast
+        if (data.message) {
+          showToast(data.message);
+        } else if (data.data) {
+          // If there is data, insert the data into the local cache, and set expiry to 12 hours.
+          localStorage.setItem('repos', JSON.stringify(Object.assign(JSON.parse(localStorage.getItem('repos')), {
+            [`${owner}/${repo}`]: {
+              data: data.data,
+              time: Date.now() + (12 * 60 * 60 * 1000) // 12 hours
+            }
+          })));
+          return data.data.stargazers_count; // the number of stars the project has at this precise moment
+        }
+      });
+  } else {
+    // Use the cached data
+    return cachedInfo.data.stargazers_count; // the number of stars in the cache
+  }
+}
