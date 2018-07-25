@@ -176,6 +176,9 @@ const createList = async (target, type = 'bots', category = 'all', sort = 'score
       const createToggleStarButton = (owner, repo) => {
         if (github) {
           const starButton = document.createElement('a');
+          const starLabel = document.createElement('span');
+          const starDivider = document.createElement('span');
+          const starCount = document.createElement('span');
           const repository = github.getRepo(owner, repo);
         
           // Check if the repository is starred yet
@@ -185,10 +188,13 @@ const createList = async (target, type = 'bots', category = 'all', sort = 'score
               let starStatus = starred;
 
               if (starred) {
-                starButton.innerText = 'Unstar';
+                starLabel.innerText = 'Unstar';
               } else {
-                starButton.innerText = 'Star';
+                starLabel.innerText = 'Star';
               }
+
+              starDivider.innerText = ' | ';
+              starCount.innerText = item.stars;
 
               // Make the button toggle between states
               starButton.addEventListener('click', () => {
@@ -197,18 +203,25 @@ const createList = async (target, type = 'bots', category = 'all', sort = 'score
                     .unstar()
                     .then(() => {
                       starStatus = false;
-                      starButton.innerText = 'Star';
+                      starLabel.innerText = 'Star';
+                      starCount.innerText = parseInt(starCount.innerText, 10) - 1;
                     });
                 } else {
                   repository
                     .star()
                     .then(() => {
                       starStatus = true;
-                      starButton.innerText = 'Unstar';
+                      starLabel.innerText = 'Unstar';
+                      starCount.innerText = parseInt(starCount.innerText, 10) + 1;
                     });
                 }
               });
+
+              starButton.appendChild(starLabel);
+              starButton.appendChild(starDivider);
+              starButton.appendChild(starCount);
             });
+
           return starButton;
         } else {
           // Cannot create a button without being logged in.
@@ -265,45 +278,4 @@ const createList = async (target, type = 'bots', category = 'all', sort = 'score
 			itemCard.appendChild(createButtonsBox());
 			target.appendChild(itemCard);
 		});
-};
-
-const checkStorage = () => {
-  if (!localStorage.getItem('repos')) {
-    // If it doesn't exist, create it.
-    localStorage.setItem('repos', "{}");
-  }
-};
-
-const getStars = (owner, repo) => {
-  checkStorage();
-  owner = owner.toLowerCase();
-  repo = repo.toLowerCase();
-
-  // Get information about the current bot
-  const cachedInfo = JSON.parse(localStorage.getItem('repos'))[`${owner}/${repo}`];
-  const repository = github.getRepo(owner, repo);
-
-  // If the GitHub information doesn't exist, or it has expired, refetch the data
-  if (!cachedInfo || (cachedInfo && cachedInfo.time < Date.now())) {
-    repository
-      .getDetails()
-      .then((data) => {
-        // If GitHub returned a message, show a toast
-        if (data.message) {
-          showToast(data.message);
-        } else if (data.data) {
-          // If there is data, insert the data into the local cache, and set expiry to 12 hours.
-          localStorage.setItem('repos', JSON.stringify(Object.assign(JSON.parse(localStorage.getItem('repos')), {
-            [`${owner}/${repo}`]: {
-              data: data.data,
-              time: Date.now() + (12 * 60 * 60 * 1000) // 12 hours
-            }
-          })));
-          return data.data.stargazers_count; // the number of stars the project has at this precise moment
-        }
-      });
-  } else {
-    // Use the cached data
-    return cachedInfo.data.stargazers_count; // the number of stars in the cache
-  }
 };
