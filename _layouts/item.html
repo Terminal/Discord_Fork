@@ -7,7 +7,7 @@
       });
 
       let starCount = null;
-      if (data.github && data.github.repo && data.github.owner) {
+      if (github && data.github && data.github.repo && data.github.owner) {
         starCount = getStars(data.github.owner, data.github.repo);
         const starButton = createToggleStarButton(data.github.owner, data.github.repo, starCount, ['btn', 'wisteria']);
 
