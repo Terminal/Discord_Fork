@@ -33,8 +33,8 @@ window.addEventListener('load', () => {
 					// otherwise, allow it to be seen
 					card.classList.remove('hidden');
 				}
-			})
-		})
+			});
+		});
   }
 });
 
@@ -122,7 +122,7 @@ const createList = async (target, type = 'bots', category = 'all', sort = 'score
         contentBox.appendChild(description);
 
         return contentBox;
-      }
+      };
 
       const createBotInviteModalButton = (link) => {
         const itemInvite = document.createElement('a');
@@ -143,7 +143,7 @@ const createList = async (target, type = 'bots', category = 'all', sort = 'score
         });
 
         return itemInvite;
-      }
+      };
       
       const createBansInviteButton = (id) => {
         const itemInvite = document.createElement('a');
@@ -152,7 +152,7 @@ const createList = async (target, type = 'bots', category = 'all', sort = 'score
         itemInvite.setAttribute('href', `/${type}/${id}`);
 
         return itemInvite;
-      }
+      };
 
       const createGenericInviteButton = (link) => {
         const itemInvite = document.createElement('a');
@@ -161,7 +161,7 @@ const createList = async (target, type = 'bots', category = 'all', sort = 'score
         itemInvite.setAttribute('href', link);
 
         return itemInvite;
-      }
+      };
 
       const createViewGitHubButton = (owner, repo) => {
         const githubButton = document.createElement('a');
@@ -171,7 +171,7 @@ const createList = async (target, type = 'bots', category = 'all', sort = 'score
         githubButton.setAttribute('target', '_blank');
 
         return githubButton;
-      }
+      };
 
       const createToggleStarButton = (owner, repo) => {
         if (github) {
@@ -214,7 +214,7 @@ const createList = async (target, type = 'bots', category = 'all', sort = 'score
           // Cannot create a button without being logged in.
           throw new Error('Cannot create a toggleable GitHub button without authentication');
         }
-      }
+      };
 
       const createLoginThenStarButton = (owner, repo) => {
         const githubButton = document.createElement('a');
@@ -227,7 +227,7 @@ const createList = async (target, type = 'bots', category = 'all', sort = 'score
         });
 
         return githubButton;
-      }
+      };
 
       const createButtonsBox = () => {
         const buttonsBox = document.createElement('div');
@@ -256,11 +256,11 @@ const createList = async (target, type = 'bots', category = 'all', sort = 'score
         }
 
         return buttonsBox;
-      }
+      };
 
       itemCard.dataset.score = item.score;
 
-      itemCard.appendChild(createAvatarBox(item.avatar, item.nsfw))
+      itemCard.appendChild(createAvatarBox(item.avatar, item.nsfw));
       itemCard.appendChild(createContentBox(item.name, item.description, item.nsfw));
 			itemCard.appendChild(createButtonsBox());
 			target.appendChild(itemCard);
@@ -272,7 +272,7 @@ const checkStorage = () => {
     // If it doesn't exist, create it.
     localStorage.setItem('repos', "{}");
   }
-}
+};
 
 const getStars = (owner, repo) => {
   checkStorage();
@@ -281,7 +281,7 @@ const getStars = (owner, repo) => {
 
   // Get information about the current bot
   const cachedInfo = JSON.parse(localStorage.getItem('repos'))[`${owner}/${repo}`];
-  const repository = github.getRepo(owner, repo)
+  const repository = github.getRepo(owner, repo);
 
   // If the GitHub information doesn't exist, or it has expired, refetch the data
   if (!cachedInfo || (cachedInfo && cachedInfo.time < Date.now())) {
@@ -306,4 +306,4 @@ const getStars = (owner, repo) => {
     // Use the cached data
     return cachedInfo.data.stargazers_count; // the number of stars in the cache
   }
-}
+};
