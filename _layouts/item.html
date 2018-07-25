@@ -9,6 +9,12 @@
       let starCount = null;
       if (data.github && data.github.repo && data.github.owner) {
         starCount = getStars(data.github.owner, data.github.repo);
+        const starButton = createToggleStarButton(data.github.owner, data.github.repo, starCount, ['btn', 'wisteria']);
+
+        window.addEventListener('load', () => {
+          const buttons = document.getElementById('buttons');
+          buttons.appendChild(starButton);
+        })
       }
 
       if (localStorage) delete localStorage;
@@ -28,7 +34,7 @@
             {{ page.pagename | xml_escape }}
             {% if page.nsfw == true %}<span class="nsfw-tag">NSFW</span>{% endif %}
           </h2>
-          <div class="link buttons">
+          <div class="link buttons" id="buttons">
             {% if page.link and page.type == 'bots' %}
               <a id="invite" class="btn emerald" href="#" >{{ site.data.config.categories[page.type].invite }}</a>
             {% elsif page.link %}
