@@ -11,6 +11,7 @@ include:
   - _pages/api
   - _pages/api/bots
   - _pages/api/servers
+  - _pages/oauth
 
 exclude:
   - assets/css/ModestaCSS/_pages

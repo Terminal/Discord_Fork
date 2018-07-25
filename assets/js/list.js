@@ -1,3 +1,6 @@
+const GITHUB_URL = 'https://github.com';
+const POINTS_PER_STAR = 0.02;
+
 window.addEventListener('load', () => {
 	const list = document.getElementById('list');
 	const spinner = document.getElementsByClassName('loader');
@@ -30,84 +33,83 @@ window.addEventListener('load', () => {
 					// otherwise, allow it to be seen
 					card.classList.remove('hidden');
 				}
-			})
-		})
+			});
+		});
   }
 });
 
-const createList = async (target, type = 'bots', category = 'all') => {
+const createList = async (target, type = 'bots', category = 'all', sort = 'score') => {
 	const items = await fetch(`/api/${type}/${category}.json`)
 		.then(data => data.json());
 
-	items
-		.sort(() => Math.random() - .5)
-		.forEach((item) => {
-			const itemCard = document.createElement('section');
-			const itemLink = document.createElement('a');
-			const itemName = document.createElement('h4'); // New ModestaCSS uses h1
-			const itemLogoBox = document.createElement('div');
-			const itemLogo = document.createElement('img')
-			const itemDesc = document.createElement('span');
-			const itemButtons = document.createElement('div');
+  items
+    .map((item) => { // Get the number of stars for each item
+      // If logged in, and a repo and owner exists, get the number of stars
+      if (github && item.github && item.github.repo && item.github.owner) {
+        item.stars = getStars(item.github.owner, item.github.repo);
+      }
+      return item;
+    })
+    .map((item) => {
+      // Create a random score
+      item.score = Math.random();
 
-			itemCard.classList.add('card');
+      switch(sort) {
+        case 'score':
+          // Even HAVING a GitHub repository is worth 1 point
+          if (item.github && item.github.repo && item.github.owner) item.score += 1;
+          // Each star is worth 0.02 points
+          if (item.stars) item.score += item.stars * POINTS_PER_STAR;
+          break;
+        case 'stars':
+          // Each star IS a point. No stars is no points.
+          if (item.stars) item.score = item.stars || 0;
+          break;
+        case 'random':
+          // Do not rely on stars
+          break;
+      }
+      return item;
+    })
+		.sort((a, b) => b.score - a.score) // Sort the cards based on the score
+    .forEach((item) => { // Display each card in order
+      const itemCard = document.createElement('section');
+      itemCard.classList.add('card');
 
-			itemLink.setAttribute('href', `/${type}/${item.id}`)
+      const createButtonsBox = () => {
+        const buttonsBox = document.createElement('div');
+        
+        buttonsBox.classList.add('footer');
 
-			itemName.innerText = item.name;
-			itemName.classList.add('title');
-
-			itemLogo.classList.add('avatar');
-			itemLogo.src = item.avatar;
-
-			if (item.nsfw) {
-				// Append a "nsfw" tag
-				const itemNSFW = document.createElement('span');
-				itemNSFW.classList.add('nsfw-tag');
-				itemNSFW.innerText = 'NSFW';
-				itemName.appendChild(itemNSFW);
-
-				// Add a blur to the NSFW logo
-				itemLogo.classList.add('nsfw');
-			}
-			itemLogoBox.classList.add('avatar');
-			itemLogoBox.appendChild(itemLogo);
-
-			itemLogo.addEventListener('error', () => {
-				itemLogo.src = '/assets/images/logo.png';
-			});
-
-			itemDesc.innerText = item.description;
-			itemDesc.classList.add('description');
-
-			if (item.link || type === 'bans') {
-				const itemInvite = document.createElement('a');
-				itemInvite.classList.add('btn', 'emerald', 'white-text', 'bold');
-
-        if (type === 'bans') {
-          itemInvite.innerText = 'View';
-          itemInvite.href = `/${type}/${item.id}`;
-        } else if (type === 'bots') {
-          itemInvite.innerText = 'Invite';
-          itemInvite.addEventListener('click', (e) => {
-						const discordWindow = window.open(item.link, '_blank', `toolbar=0,width=500,height=700,top=${Math.floor(screen.height / 2) - 250},left=${Math.floor(screen.width / 2) - 350}}`);
-						showModal(discordWindow);
-					});
-        } else {
-          itemInvite.innerText = 'Invite';
-          itemInvite.href = item.link;
+        if (item.link) {
+          if (type === 'bots') {
+            buttonsBox.appendChild(createBotInviteModalButton(item.link));
+          } else if (type === 'bans') {
+            buttonsBox.appendChild(createBansInviteButton(item.id));
+          } else {
+            buttonsBox.appendChild(createGenericInviteButton(item.link));
+          }
         }
 
-				itemButtons.appendChild(itemInvite);
-			}
+        if (item.github && item.github.repo && item.github.owner) {
+          buttonsBox.appendChild(createViewGitHubButton(item.github.owner, item.github.repo));
+          // If authenticated, show the toggling button
+          // Otherwise, show the "please login via GitHub" button
+          if (github) {
+            buttonsBox.appendChild(createToggleStarButton(item.github.owner, item.github.repo, item.stars));
+          } else {
+            buttonsBox.appendChild(createLoginThenStarButton());
+          }
+        }
 
-			itemButtons.classList.add('footer');
+        return buttonsBox;
+      };
 
-			itemLink.appendChild(itemName);
-			itemCard.appendChild(itemLogoBox);
-			itemCard.appendChild(itemLink);
-			itemCard.appendChild(itemDesc);
-			itemCard.appendChild(itemButtons);
+      itemCard.dataset.score = item.score;
+
+      itemCard.appendChild(createAvatarBox(item.avatar, item.nsfw));
+      itemCard.appendChild(createContentBox(item.name, item.description, type, item.id, item.nsfw));
+			itemCard.appendChild(createButtonsBox());
 			target.appendChild(itemCard);
 		});
 };
