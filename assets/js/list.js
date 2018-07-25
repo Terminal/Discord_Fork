@@ -112,6 +112,8 @@ const createList = async (target, type = 'bots', category = 'all', sort = 'score
 
         if (nsfw) {
           const nsfwBadge = document.createElement('span');
+          nsfwBadge.innerText = 'NSFW';
+          nsfwBadge.classList.add('nsfw-tag');
           title.appendChild(nsfwBadge);
         }
 
