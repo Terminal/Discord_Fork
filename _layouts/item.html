@@ -1,51 +1,16 @@
 <html>
   <head>
     {% include head.html %}
-    {% if page.github and page.github.owner and page.github.repo %}
     <script>
-      (() => {
-        if (github) {
-          const localStorageCopy = localStorage;
-          const githubCopy = github;
-          window.addEventListener('load', () => {
-            const githubButton = document.getElementById('github');
-            const cachedInfo = JSON.parse(localStorageCopy.getItem('repos'))["{{ page.github.owner | xml_escape| replace: "'", "\'" }}/{{ page.github.repo | xml_escape | replace: "'", "\'" }}"];
-            
-            if (!cachedInfo || (cachedInfo && cachedInfo.time < Date.now())) {
-              githubCopy.getRepo("{{ page.github.owner | xml_escape| replace: "'", "\'" }}", "{{ page.github.repo | xml_escape | replace: "'", "\'" }}")
-                .getDetails()
-                .then((data) => {
-                  if (data.data) {
-                    if (!localStorageCopy.getItem('repos')) {
-                      // If it doesn't exist, create it.
-                      localStorageCopy.setItem('repos', "{}");
-                    }
-                    
-                    localStorageCopy.setItem('repos', JSON.stringify(Object.assign(JSON.parse(localStorageCopy.getItem('repos')), {
-                      "{{ page.github.owner | xml_escape| replace: "'", "\'" }}/{{ page.github.repo | xml_escape | replace: "'", "\'" }}": {
-                        data: data.data,
-                        time: Date.now() + (12 * 60 * 60 * 1000) // 12 hours
-                      }
-                    })));
+      const data = ({
+        {% assign bot = page %}{% include bot.json %}
+      });
 
-                    if (data.data.stargazers_count && data.data.stargazers_count === 1) {
-                      githubButton.innerText = '1 star on GitHub';
-                    } else {
-                      githubButton.innerText = `${data.data.stargazers_count} stars on GitHub`;
-                    }
-                    
-                  }
-              });
-            } else {
-              githubButton.innerText = `${cachedInfo.data.stargazers_count} stars on GitHub`;
-            }
-          });
-        }
-      })();
-    </script>
-    {% endif %}
-    <script>
-      // No stealing people's GitHub tokens please
+      let starCount = null;
+      if (data.github && data.github.repo && data.github.owner) {
+        starCount = getStars(data.github.owner, data.github.repo);
+      }
+
       if (localStorage) delete localStorage;
       if (github) github = undefined;
     </script>
