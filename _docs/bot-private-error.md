@@ -1,6 +1,5 @@
 ---
-pagename: '"The bot is private. Only the bot owner can add it" error when inviting Discord Bots'
-description: Information on the "The bot is private. Only the bot owner can add it" error, and how bot owners can fix the error for their clients
+pagename: '"This bot is private" error when inviting Discord Bots'
 ---
 
 # "This bot is private" when inviting Bots
