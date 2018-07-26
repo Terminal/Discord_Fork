@@ -13,5 +13,5 @@
         "owner" : "{{ bot.github.owner | replace: '\', '\\' | replace: site.data.strings.newline, '\n' | replace: '"', '\"'}}"{% if bot.github.repo %},{% endif %}{% endif %}{% if bot.github.repo %}
         "repo" : "{{ bot.github.repo | replace: '\', '\\' | replace: site.data.strings.newline, '\n' | replace: '"', '\"'}}"{% endif %}
     },{% endif %}
-    "verified" : {% if bot.verified %}true{% else %}false{% endif %},
-    "nsfw" : {% if bot.nsfw %}true{% else %}false{% endif %}
+    "verified" : {% if bot.verified %}{{ bot.verified | | replace: '\', '\\' | replace: site.data.strings.newline, '\n' | replace: '"', '\"' }}{% else %}false{% endif %},
+    "nsfw" : {{ bot.nsfw | replace: site.data.strings.newline, '\n' }}

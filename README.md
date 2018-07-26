@@ -1,13 +1,9 @@
----
-pagename: Discord_Fork README.md file
-description: Information about the Discord_Fork application and software
-layout: docs
-type: docs
-permalink: /docs/readme/
----
 
 # Discord_Fork
-The serverless (except for OAuth flow) Discord Bot list.
+A fork of a fork of a fork
+- `AlexFlipnote`/`Discord_Fork`
+  - `perryprog`/`Discord_Fork`
+    - `Terminal`/`Discord_Fork`
 
 [Add your bot like this](https://discordbots.co.uk/docs/adding-a-bot/)
 
@@ -37,11 +33,3 @@ Windows users may wish to use the Windows Subsystem for Linux.
 sudo apt install build-essential ruby-full ruby-bundler
 bundler exec jekyll serve
 ```
-
-## Thanks
-- [alicelieutier](https://github.com/alicelieutier)/[**smoothScroll**](https://github.com/alicelieutier/smoothScroll)
-- [nk-o](https://github.com/nk-o)/[**jarallax**](https://github.com/nk-o/jarallax)
-- [AlexFlipnote](https://github.com/AlexFlipnote)/[**ModestaCSS**](https://github.com/AlexFlipnote/ModestaCSS)
-- [AlexFlipnote](https://github.com/AlexFlipnote)/**Discord_Fork** (no longer exists)
-- [github-tools](https://github.com/github-tools)/[**github**](https://github.com/github-tools/github)
-- [prose](https://github.com/prose/gatekeeper)/[**gatekeeper**](https://github.com/prose/gatekeeper)
