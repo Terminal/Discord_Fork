@@ -14,7 +14,7 @@ type: bots
 </div>
 <script>
   const code = window.location.href.match(/\?code=(.*)/);
-  const redirect = localStorage.getItem('return');
+  const redirect = localStorage.getItem('return') || '/';
   if (code && code[1]) {
     fetch(`{{ site.data.links.gatekeeper }}/${code[1]}`)
       .then(data => data.json())

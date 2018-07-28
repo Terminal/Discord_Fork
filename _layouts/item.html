@@ -5,17 +5,21 @@
       const data = ({
         {% assign bot = page %}{% include bot.json %}
       });
-
-      let starCount = null;
-      if (github && data.github && data.github.repo && data.github.owner) {
-        starCount = getStars(data.github.owner, data.github.repo);
-        const starButton = createToggleStarButton(data.github.owner, data.github.repo, starCount, ['btn', 'wisteria']);
-
+      
+      (() => {
+        const githubClone = github;
+        const localStorageClone = localStorage;
         window.addEventListener('load', () => {
-          const buttons = document.getElementById('buttons');
-          buttons.appendChild(starButton);
-        })
-      }
+        if (githubClone && data.github && data.github.repo && data.github.owner) {
+          getStars(data.github.owner, data.github.repo, githubClone, localStorageClone)
+            .then((stars) => {
+              const starButton = createToggleStarButton(data.github.owner, data.github.repo, stars, ['btn', 'wisteria'], githubClone);
+              const buttons = document.getElementById('buttons');
+              buttons.appendChild(starButton);
+            });
+          }
+        });
+      })();
 
       if (localStorage) delete localStorage;
       if (github) github = undefined;

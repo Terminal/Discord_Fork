@@ -95,13 +95,13 @@ const createViewGitHubButton = (owner, repo) => {
   return githubButton;
 };
 
-const createToggleStarButton = (owner, repo, stars, classItems) => {
-  if (github) {
+const createToggleStarButton = (owner, repo, stars, classItems, githubClone) => {
+  if (githubClone || github) {
     const starButton = document.createElement('a');
     const starLabel = document.createElement('span');
     const starDivider = document.createElement('span');
     const starCount = document.createElement('span');
-    const repository = github.getRepo(owner, repo);
+    const repository = (githubClone || github).getRepo(owner, repo);
 
     if (classItems) {
       starButton.classList.add(...classItems);

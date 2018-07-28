@@ -40,17 +40,21 @@ window.addEventListener('load', () => {
 
 const createList = async (target, type = 'bots', category = 'all', sort = 'score') => {
 	const items = await fetch(`/api/${type}/${category}.json`)
-		.then(data => data.json());
-
-  items
-    .map((item) => { // Get the number of stars for each item
-      // If logged in, and a repo and owner exists, get the number of stars
-      if (github && item.github && item.github.repo && item.github.owner) {
-        item.stars = getStars(item.github.owner, item.github.repo);
-      }
-      return item;
-    })
-    .map((item) => {
+    .then(data => data.json());
+    
+  Promise.all(items.map((item) => new Promise((resolve, reject) => {
+    if (github && item.github && item.github.repo && item.github.owner) {
+      getStars(item.github.owner, item.github.repo)
+        .then((stars) => {
+          item.stars = stars;
+          resolve(item);
+        });
+    } else {
+      resolve(item);
+    }
+  }))).then((list) => {
+    console.log(list);
+    list.map((item) => {
       // Create a random score
       item.score = Math.random();
 
@@ -98,7 +102,7 @@ const createList = async (target, type = 'bots', category = 'all', sort = 'score
           if (github) {
             buttonsBox.appendChild(createToggleStarButton(item.github.owner, item.github.repo, item.stars));
           } else {
-            // buttonsBox.appendChild(createLoginThenStarButton());
+            buttonsBox.appendChild(createLoginThenStarButton());
           }
         }
 
@@ -112,4 +116,5 @@ const createList = async (target, type = 'bots', category = 'all', sort = 'score
 			itemCard.appendChild(createButtonsBox());
 			target.appendChild(itemCard);
 		});
+  });
 };
