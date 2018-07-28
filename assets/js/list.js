@@ -44,9 +44,10 @@ const createList = async (target, type = 'bots', category = 'all', sort = 'score
     
   Promise.all(items.map((item) => new Promise((resolve, reject) => {
     if (github && item.github && item.github.repo && item.github.owner) {
-      getStars(item.github.owner, item.github.repo)
-        .then((stars) => {
-          item.stars = stars;
+      getInfo(item.github.owner, item.github.repo)
+        .then((data) => {
+          item.stars = data.data.stargazers_count;
+          item.licence = data.data.license;
           resolve(item);
         });
     } else {
@@ -64,6 +65,8 @@ const createList = async (target, type = 'bots', category = 'all', sort = 'score
           if (item.github && item.github.repo && item.github.owner) item.score += 1;
           // Each star is worth 0.02 points
           if (item.stars) item.score += item.stars * POINTS_PER_STAR;
+          // If there's a licence, that's worth 0.1 points.
+          if (item.licence) item.score += 0.2;
           break;
         case 'stars':
           // Each star IS a point. No stars is no points.
@@ -110,6 +113,8 @@ const createList = async (target, type = 'bots', category = 'all', sort = 'score
       };
 
       itemCard.dataset.score = item.score;
+      if (item.stars) itemCard.dataset.stars = item.stars;
+      if (item.licence && item.licence.spdx_id) itemCard.dataset.licence = item.licence.spdx_id;
 
       itemCard.appendChild(createAvatarBox(item.avatar, item.nsfw));
       itemCard.appendChild(createContentBox(item.name, item.description, type, item.id, item.nsfw));

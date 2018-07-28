@@ -50,7 +50,7 @@ const checkStorage = (localStorageClone) => {
   }
 };
 
-const getStars = (owner, repo, githubClone, localStorageClone) => new Promise((resolve, reject) => {
+const getInfo = (owner, repo, githubClone, localStorageClone) => new Promise((resolve, reject) => {
   checkStorage(localStorageClone);
   owner = owner.toLowerCase();
   repo = repo.toLowerCase();
@@ -75,11 +75,19 @@ const getStars = (owner, repo, githubClone, localStorageClone) => new Promise((r
               time: Date.now() + (12 * 60 * 60 * 1000) // 12 hours
             }
           })));
-          resolve(data.data.stargazers_count); // the number of stars the project has at this precise moment
+          resolve(data); // the number of stars the project has at this precise moment
         }
       });
   } else {
     // Use the cached data
-    resolve(cachedInfo.data.stargazers_count); // the number of stars in the cache
+    resolve(cachedInfo); // the number of stars in the cache
   }
+});
+
+const getStars = (owner, repo, githubClone, localStorageClone) => new Promise((resolve, reject) => {
+  getInfo(owner, repo, githubClone, localStorageClone)
+    .then((data) => {
+      resolve(data.data.stargazers_count);
+    })
+    .catch(reject);
 });
