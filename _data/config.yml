@@ -30,7 +30,7 @@ categories:
     contribute: https://github.com/Terminal/Discord_Fork/blob/master/README.md
   docs:
     display: true
-    pagename: Discord Fork
+    pagename: Discord Fork Documentation
     shortname: Documentation
     add: View source code on GitHub
     parallax: /assets/images/background_bots.jpg

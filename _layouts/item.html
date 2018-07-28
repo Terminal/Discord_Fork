@@ -1,25 +1,6 @@
 <html>
   <head>
     {% include head.html %}
-    <script>
-      const data = ({
-        {% assign bot = page %}{% include bot.json %}
-      });
-
-      let starCount = null;
-      if (github && data.github && data.github.repo && data.github.owner) {
-        starCount = getStars(data.github.owner, data.github.repo);
-        const starButton = createToggleStarButton(data.github.owner, data.github.repo, starCount, ['btn', 'wisteria']);
-
-        window.addEventListener('load', () => {
-          const buttons = document.getElementById('buttons');
-          buttons.appendChild(starButton);
-        })
-      }
-
-      if (localStorage) delete localStorage;
-      if (github) github = undefined;
-    </script>
   </head>
   <body>
     {% include intro.html %}
@@ -31,10 +12,10 @@
             <img id="avatar" class="avatar{% if page.nsfw == true %} nsfw{% endif %}" src="{{ page.avatar }}">
           </div>
           <h2 class="name {% if page.verified == true %}verified{% endif %}">
-            {{ page.pagename | xml_escape }}
+            {{ page.pagename }}
             {% if page.nsfw == true %}<span class="nsfw-tag">NSFW</span>{% endif %}
           </h2>
-          <div class="link buttons" id="buttons">
+          <div class="link buttons">
             {% if page.link and page.type == 'bots' %}
               <a id="invite" class="btn emerald" href="#" >{{ site.data.config.categories[page.type].invite }}</a>
             {% elsif page.link %}
@@ -45,17 +26,17 @@
             {% elsif page.github and page.github.owner %}
               <a class="btn peter-river" href="https://github.com/{{ page.github.owner }}" target="_blank">View on GitHub</a>
             {% endif %}
-            {% if page.support %}<a class="btn orange" href="{{ page.support | replace: site.data.strings.newline, '\n' | replace: site.data.strings.quote_mark, '%22'}}" target="_blank">{{ page.name | xml_escape }} Discord Server</a>{% endif %}
+            {% if page.support %}<a class="btn orange" href="{{ page.support | replace: site.data.strings.newline, '\n' | replace: site.data.strings.quote_mark, '%22'}}" target="_blank">{{ page.name }} Discord Server</a>{% endif %}
           </div>
           <span class="description">
             {% if page.prefix %}
-              <p><small>Prefix: {{ page.prefix | xml_escape }}</small></p>
+              <p><small>Prefix: {{ page.prefix }}</small></p>
             {% endif %}
             <p>
               {% if page.long_description %}
-                {{ page.long_description | xml_escape }}
+                {{ page.long_description }}
               {% else %}
-                {{ page.description | xml_escape }}
+                {{ page.description }}
               {% endif %}
             </p>
           </span>
@@ -67,6 +48,23 @@
     </section>
 
     {% include footer.html %}
+    {% if page.github and page.github.owner and page.github.repo %}
+    <script>
+      fetch('https://api.github.com/repos/{{ page.github.owner }}/{{ page.github.repo }}')
+        .then(data => data.json())
+        .then(repo => {
+          const githubButton = document.getElementById('github');
+          if (repo.message) {
+            showToast(repo.message);
+          } else if (repo.stargazers_count && repo.stargazers_count === 1) {
+            githubButton.innerText = '1 star on GitHub';
+          } else {
+            githubButton.innerText = `${repo.stargazers_count} stars on GitHub`
+          }
+
+        });
+    </script>
+    {% endif %}
     {% if page.type == 'bots' and page.link %}
     {% include botmodal.html %}
     <script src="/assets/js/item.js" type="text/javascript" charset="utf-8"></script>
