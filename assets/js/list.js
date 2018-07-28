@@ -98,7 +98,7 @@ const createList = async (target, type = 'bots', category = 'all', sort = 'score
           if (github) {
             buttonsBox.appendChild(createToggleStarButton(item.github.owner, item.github.repo, item.stars));
           } else {
-            buttonsBox.appendChild(createLoginThenStarButton());
+            // buttonsBox.appendChild(createLoginThenStarButton());
           }
         }
 
