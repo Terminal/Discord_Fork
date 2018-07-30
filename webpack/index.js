@@ -1,6 +1,22 @@
-const GitHub = require('github-api');
+((localStorage) => {
+  const GitHub = require('github-api');
+  let github = null;
+  const token = localStorage.getItem('github');
 
-require('smoothscroll');
-require('jarallax');
+  if (token) {
+    github = new GitHub({
+      token: localStorage.getItem('github')
+    });
+  }
 
-delete GitHub;
+  require('smoothscroll');
+  require('jarallax');
+  require('./helpers/random');
+  require('./helpers/user')(github, localStorage);
+  if (document.body.dataset.lsType === 'docs') require('./pages/documentation');
+  if (document.body.dataset.lsType === 'list') require('./pages/list')(github, localStorage);
+  if (document.body.dataset.lsType === 'item') require('./pages/item.js')();
+  if (window.location.pathname === '/oauth/callback/') require('./pages/callback')(localStorage);
+})(localStorage);
+
+delete localStorage;

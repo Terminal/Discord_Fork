@@ -777,6 +777,61 @@ eval("module.exports = function(module) {\n\tif (!module.webpackPolyfill) {\n\t\
 
 /***/ }),
 
+/***/ "./webpack/helpers/elements.js":
+/*!*************************************!*\
+  !*** ./webpack/helpers/elements.js ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("const { showModal, closeModal } = __webpack_require__(/*! ./modals */ \"./webpack/helpers/modals.js\");\n\nconst createAvatarBox = (link, nsfw) => {\n  const avatarBox = document.createElement('div');\n  const avatar = document.createElement('img');\n\n  avatarBox.classList.add('avatar');\n  avatar.classList.add('avatar');\n\n  avatar.src = link;\n\n  if (nsfw) {\n    avatar.classList.add('nsfw');\n  }\n\n  avatar.addEventListener('error', () => {\n    avatar.src = '/assets/images/logo.png';\n  });\n  \n  avatarBox.appendChild(avatar);\n  return avatarBox;\n};\n\nconst createContentBox = (name, desc, type, id, nsfw) => {\n  const contentBox = document.createElement('div');\n  const titleLink = document.createElement('a');\n  const title = document.createElement('h4');\n  const description = document.createElement('span');\n  \n  title.classList.add('title');\n  description.classList.add('description');\n\n  titleLink.setAttribute('href', `/${type}/${id}`);\n  title.innerText = name;\n  description.innerText = desc;\n\n  if (nsfw) {\n    const nsfwBadge = document.createElement('span');\n    nsfwBadge.innerText = 'NSFW';\n    nsfwBadge.classList.add('nsfw-tag');\n    title.appendChild(nsfwBadge);\n  }\n\n  titleLink.appendChild(title);\n  contentBox.appendChild(titleLink);\n  contentBox.appendChild(description);\n\n  return contentBox;\n};\n\nconst createBotInviteModalButton = (link) => {\n  const itemInvite = document.createElement('a');\n\n  itemInvite.innerText = 'Invite';\n  itemInvite.setAttribute('href', '#');\n  itemInvite.addEventListener('click', (e) => {\n    const discordWindow = window.open(link, '_blank', `toolbar=0,width=500,height=700,top=${Math.floor(screen.height / 2) - 250},left=${Math.floor(screen.width / 2) - 350}}`);\n    // Show a modal, which closes when discordWindow closes\n    showModal('invite-modal');\n\n    const timer = setInterval(() => {\n      if (discordWindow.closed) {\n        clearInterval(timer);\n        closeModal(null, 'invite-modal');\n      }\n    }, 20);\n  });\n\n  return itemInvite;\n};\n\nconst createBansInviteButton = (id) => {\n  const itemInvite = document.createElement('a');\n\n  itemInvite.innerText = 'View Ban';\n  itemInvite.setAttribute('href', `/${type}/${id}`);\n\n  return itemInvite;\n};\n\nconst createGenericInviteButton = (link) => {\n  const itemInvite = document.createElement('a');\n\n  itemInvite.innerText = 'Open';\n  itemInvite.setAttribute('href', link);\n\n  return itemInvite;\n};\n\nconst createViewGitHubButton = (owner, repo) => {\n  const githubButton = document.createElement('a');\n\n  githubButton.innerText = 'GitHub';\n  githubButton.setAttribute('href' ,`https://github.com/${owner}/${repo}`);\n  githubButton.setAttribute('target', '_blank');\n\n  return githubButton;\n};\n\nconst createToggleStarButton = (owner, repo, stars, classItems, github) => {\n  if (github) {\n    const starButton = document.createElement('a');\n    const starLabel = document.createElement('span');\n    const starDivider = document.createElement('span');\n    const starCount = document.createElement('span');\n    const repository = github.getRepo(owner, repo);\n\n    if (classItems) {\n      starButton.classList.add(...classItems);\n    }\n  \n    // Check if the repository is starred yet\n    repository\n      .isStarred()\n      .then((starred) => {\n        let starStatus = starred;\n\n        if (starred) {\n          starLabel.innerText = 'Unstar';\n        } else {\n          starLabel.innerText = 'Star';\n        }\n\n        starDivider.innerText = '｜';\n        starCount.innerText = stars;\n\n        // Make the button toggle between states\n        starButton.addEventListener('click', () => {\n          if (starStatus) {\n            repository\n              .unstar()\n              .then(() => {\n                starStatus = false;\n                starLabel.innerText = 'Star';\n                starCount.innerText = parseInt(starCount.innerText, 10) - 1;\n              });\n          } else {\n            repository\n              .star()\n              .then(() => {\n                starStatus = true;\n                starLabel.innerText = 'Unstar';\n                starCount.innerText = parseInt(starCount.innerText, 10) + 1;\n              });\n          }\n        });\n\n        starButton.appendChild(starLabel);\n        starButton.appendChild(starDivider);\n        starButton.appendChild(starCount);\n      });\n\n    return starButton;\n  } else {\n    // Cannot create a button without being logged in.\n    throw new Error('Cannot create a toggleable GitHub button without authentication');\n  }\n};\n\nconst createLoginThenStarButton = (owner, repo) => {\n  const githubButton = document.createElement('a');\n\n  githubButton.innerText = 'Star';\n  githubButton.setAttribute('href', '#');\n\n  githubButton.addEventListener('click', () => {\n    showModal('login-modal');\n  });\n\n  return githubButton;\n};\n\nmodule.exports = {\n  createAvatarBox,\n  createContentBox,\n  createBotInviteModalButton,\n  createBansInviteButton,\n  createGenericInviteButton,\n  createViewGitHubButton,\n  createToggleStarButton,\n  createLoginThenStarButton\n};\n\n\n//# sourceURL=webpack:///./webpack/helpers/elements.js?");
+
+/***/ }),
+
+/***/ "./webpack/helpers/info.js":
+/*!*********************************!*\
+  !*** ./webpack/helpers/info.js ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("const checkStorage = (localStorageClone) => {\r\n  if (!(localStorageClone || localStorage).getItem('repos')) {\r\n    // If it doesn't exist, create it.\r\n    (localStorageClone || localStorage).setItem('repos', \"{}\");\r\n  }\r\n};\r\n\r\nconst getInfo = (github, localStorage, owner, repo) => new Promise((resolve, reject) => {\r\n  checkStorage(localStorage);\r\n  owner = owner.toLowerCase();\r\n  repo = repo.toLowerCase();\r\n\r\n  // Get information about the current bot\r\n  const cachedInfo = JSON.parse(localStorage.getItem('repos'))[`${owner}/${repo}`];\r\n  const repository = github.getRepo(owner, repo);\r\n\r\n  // If the GitHub information doesn't exist, or it has expired, refetch the data\r\n  if (!cachedInfo || (cachedInfo && cachedInfo.time < Date.now())) {\r\n    repository\r\n      .getDetails()\r\n      .then((data) => {\r\n        // If GitHub returned a message, throw the error\r\n        if (data.message) {\r\n          reject(data.message);\r\n        } else if (data.data) {\r\n          // If there is data, insert the data into the local cache, and set expiry to 12 hours.\r\n          localStorage.setItem('repos', JSON.stringify(Object.assign(JSON.parse(localStorage.getItem('repos')), {\r\n            [`${owner}/${repo}`]: {\r\n              data: data.data,\r\n              time: Date.now() + (12 * 60 * 60 * 1000) // 12 hours\r\n            }\r\n          })));\r\n          resolve(data.data); // the information passed by GitHub\r\n        }\r\n      });\r\n  } else {\r\n    // Use the cached data\r\n    resolve(cachedInfo); // the number of stars in the cache\r\n  }\r\n});\r\n\r\nconst getStars = (owner, repo, githubClone, localStorageClone) => new Promise((resolve, reject) => {\r\n  getInfo(owner, repo, githubClone, localStorageClone)\r\n    .then((data) => {\r\n      resolve(data.data.stargazers_count);\r\n    })\r\n    .catch(reject);\r\n});\r\n\r\nmodule.exports = {\r\n  checkStorage,\r\n  getInfo,\r\n  getStars\r\n};\r\n\n\n//# sourceURL=webpack:///./webpack/helpers/info.js?");
+
+/***/ }),
+
+/***/ "./webpack/helpers/modals.js":
+/*!***********************************!*\
+  !*** ./webpack/helpers/modals.js ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("const showModal = (modalName) => {\r\n  const modal = document.getElementById(modalName);\r\n\r\n  const close = (event) => {\r\n    closeModal(event, modalName);\r\n  }\r\n\r\n  if (modal) {\r\n    const exit = modal.getElementsByClassName('close')[0];\r\n\r\n    modal.classList.remove('modal--close');\r\n    modal.style.display = 'block';\r\n\r\n    if (exit && modal) {\r\n      exit.addEventListener('click', close);\r\n      modal.addEventListener('click', close);\r\n    }\r\n  }\r\n}\r\n\r\nconst closeModal = (event, modalName) => {\r\n  const modal = document.getElementById(modalName);\r\n  const exit = modal.getElementsByClassName('close')[0];\r\n\r\n  if (!event || modal === event.target || exit === event.target) {\r\n    modal.classList.add('modal--close');\r\n    setTimeout(() => {\r\n      if (modal.classList.contains('modal--close')) {\r\n        modal.style.display = null;\r\n      }\r\n    }, 575);\r\n  }\r\n}\r\n\r\nmodule.exports = {\r\n  showModal,\r\n  closeModal\r\n}\r\n\n\n//# sourceURL=webpack:///./webpack/helpers/modals.js?");
+
+/***/ }),
+
+/***/ "./webpack/helpers/random.js":
+/*!***********************************!*\
+  !*** ./webpack/helpers/random.js ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("(() => {\r\n  const messages = [\r\n    \"One, two, three, let’s go\\n저 우주 위로\\n날아갈 듯 춤추러 가 Hey\\nLet's dance the night away\",\r\n    \"jQuery free - Yes it's possible!\",\r\n    \"Compatible with Microsoft Internet Explorer 6 and Netscape Navigator 5.0 and above\",\r\n    \"Built for Windows XP - Compatible with Windows Vista\",\r\n    \"jyp\",\r\n    \"<blockquote>{{ random.message }}</blockquote> - {{ random.author }}\",\r\n    \"Made entirely of Document.createElement('div')\"\r\n  ];\r\n\r\n  const randomMessages = document.getElementById('randomMessages');\r\n  if (randomMessages) {\r\n    randomMessages.innerText = messages[Math.floor(messages.length * Math.random())]\r\n  }\r\n})();\r\n\n\n//# sourceURL=webpack:///./webpack/helpers/random.js?");
+
+/***/ }),
+
+/***/ "./webpack/helpers/user.js":
+/*!*********************************!*\
+  !*** ./webpack/helpers/user.js ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("const updateButton = (localStorage) => {\r\n  const loginButton = document.getElementById('loginButton');\r\n  const data = JSON.parse(localStorage.getItem('userinfo'));\r\n  if (loginButton) {\r\n    loginButton.innerText = `Logout from ${data.name || data.login}`;\r\n    loginButton.href = null;\r\n    loginButton.addEventListener('click', () => {\r\n      localStorage.clear();\r\n      window.location.reload(true);\r\n    })\r\n  }\r\n}\r\n\r\nmodule.exports = (github, localStorage) => {\r\n  if (github && !localStorage.getItem('user')) {\r\n    github\r\n      .getUser()\r\n      .getProfile()\r\n      .then((data) => {\r\n        if (data.message) {\r\n          console.error(data.message);\r\n        } else if (data.data) {\r\n          localStorage.setItem('userinfo', JSON.stringify(data.data));\r\n          updateButton(localStorage);\r\n        }\r\n      });\r\n  } else if (github && localStorage.getItem('user')) {\r\n    updateButton(localStorage);\r\n  }\r\n};\r\n\n\n//# sourceURL=webpack:///./webpack/helpers/user.js?");
+
+/***/ }),
+
 /***/ "./webpack/index.js":
 /*!**************************!*\
   !*** ./webpack/index.js ***!
@@ -784,7 +839,51 @@ eval("module.exports = function(module) {\n\tif (!module.webpackPolyfill) {\n\t\
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("const GitHub = __webpack_require__(/*! github-api */ \"./node_modules/github-api/dist/components/GitHub.js\");\r\n\r\n__webpack_require__(/*! smoothscroll */ \"./node_modules/smoothscroll/smoothscroll.js\");\r\n__webpack_require__(/*! jarallax */ \"./node_modules/jarallax/index.js\");\r\n\r\ndelete GitHub;\r\n\n\n//# sourceURL=webpack:///./webpack/index.js?");
+eval("((localStorage) => {\r\n  const GitHub = __webpack_require__(/*! github-api */ \"./node_modules/github-api/dist/components/GitHub.js\");\r\n  let github = null;\r\n  const token = localStorage.getItem('github');\r\n\r\n  if (token) {\r\n    github = new GitHub({\r\n      token: localStorage.getItem('github')\r\n    });\r\n  }\r\n\r\n  __webpack_require__(/*! smoothscroll */ \"./node_modules/smoothscroll/smoothscroll.js\");\r\n  __webpack_require__(/*! jarallax */ \"./node_modules/jarallax/index.js\");\r\n  __webpack_require__(/*! ./helpers/random */ \"./webpack/helpers/random.js\");\r\n  __webpack_require__(/*! ./helpers/user */ \"./webpack/helpers/user.js\")(github, localStorage);\r\n  if (document.body.dataset.lsType === 'docs') __webpack_require__(/*! ./pages/documentation */ \"./webpack/pages/documentation.js\");\r\n  if (document.body.dataset.lsType === 'list') __webpack_require__(/*! ./pages/list */ \"./webpack/pages/list.js\")(github, localStorage);\r\n  if (document.body.dataset.lsType === 'item') __webpack_require__(/*! ./pages/item.js */ \"./webpack/pages/item.js\")();\r\n  if (window.location.pathname === '/oauth/callback/') __webpack_require__(/*! ./pages/callback */ \"./webpack/pages/callback.js\")(localStorage);\r\n})(localStorage);\r\n\r\ndelete localStorage;\r\n\n\n//# sourceURL=webpack:///./webpack/index.js?");
+
+/***/ }),
+
+/***/ "./webpack/pages/callback.js":
+/*!***********************************!*\
+  !*** ./webpack/pages/callback.js ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = (localStorage) => {\r\n  const code = window.location.href.match(/\\?code=(.*)/);\r\n  const redirect = localStorage.getItem('return') || '/';\r\n  const gatekeeper = document.getElementById('gatekeeper').innerText;\r\n\r\n  if (code && code[1]) {\r\n    fetch(`${gatekeeper}/${code[1]}`)\r\n      .then(data => data.json())\r\n      .then((data) => {\r\n        if (data.token) localStorage.setItem('github', data.token);\r\n        next();\r\n      })\r\n      .catch((error) => {\r\n        throw error;\r\n      });\r\n  } else {\r\n    next();\r\n  }\r\n\r\n  console.log(localStorage);\r\n\r\n  const next = () => {\r\n    if (redirect === '') {\r\n      window.location.href = '/';\r\n    } else {\r\n      window.location.href = redirect;\r\n    }\r\n  }\r\n};\r\n\n\n//# sourceURL=webpack:///./webpack/pages/callback.js?");
+
+/***/ }),
+
+/***/ "./webpack/pages/documentation.js":
+/*!****************************************!*\
+  !*** ./webpack/pages/documentation.js ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("const navside = document.getElementById('navside');\r\nconst menuIcon = document.getElementById(\"menu-icon\");\r\n\r\nif (navside && menuIcon) {\r\n  menuIcon.addEventListener('click', () => {\r\n    navside.style.transform = 'translateX(0px)';\r\n  });\r\n  \r\n  document.addEventListener(\"click\", (event) => {\r\n    if (!event.target.closest(\".nav-container\")) {\r\n      navside.style.transform = 'translateX(-250px)';\r\n    }\r\n  });  \r\n}\r\n\n\n//# sourceURL=webpack:///./webpack/pages/documentation.js?");
+
+/***/ }),
+
+/***/ "./webpack/pages/item.js":
+/*!*******************************!*\
+  !*** ./webpack/pages/item.js ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("const { showModal, closeModal } = __webpack_require__(/*! ./../helpers/modals */ \"./webpack/helpers/modals.js\");\r\n\r\nmodule.exports = () => {\r\n  const avatar = document.getElementById('avatar');\r\n  const button = document.getElementById('invite');\r\n\r\n  if (avatar.naturalHeight === 0) {\r\n    avatar.src = '/assets/images/logo.png';\r\n  }\r\n\r\n  button.addEventListener('click', (e) => {\r\n    const discordWindow = window.open(data.link, '_blank', `toolbar=0,width=500,height=700,top=${Math.floor(screen.height / 2) - 250},left=${Math.floor(screen.width / 2) - 350}}`);\r\n    showModal('invite-modal');\r\n\r\n    const timer = setInterval(() => {\r\n      if (discordWindow.closed) {\r\n        clearInterval(timer);\r\n        closeModal(null, 'invite-modal');\r\n      }\r\n    }, 20);\r\n  });\r\n};\r\n\n\n//# sourceURL=webpack:///./webpack/pages/item.js?");
+
+/***/ }),
+
+/***/ "./webpack/pages/list.js":
+/*!*******************************!*\
+  !*** ./webpack/pages/list.js ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("const elements = __webpack_require__(/*! ./../helpers/elements */ \"./webpack/helpers/elements.js\");\nconst info = __webpack_require__(/*! ./../helpers/info */ \"./webpack/helpers/info.js\");\n\nconst createCard = (github, localStorage, item, data, type) => {\n  const itemCard = document.createElement('section');\n  let calculatedScore = Math.random();\n\n  itemCard.classList.add('card');\n  const createButtonsBox = () => {\n    const buttonsBox = document.createElement('div');\n    \n    buttonsBox.classList.add('footer');\n\n    if (item.link) {\n      if (type === 'bots') {\n        buttonsBox.appendChild(elements.createBotInviteModalButton(item.link));\n      } else if (type === 'bans') {\n        buttonsBox.appendChild(elements.createBansInviteButton(item.id));\n      } else {\n        buttonsBox.appendChild(elements.createGenericInviteButton(item.link));\n      }\n    }\n\n    if (item.github && item.github.repo && item.github.owner) {\n      buttonsBox.appendChild(elements.createViewGitHubButton(item.github.owner, item.github.repo));\n      // If authenticated, show the toggling button\n      // Otherwise, show the \"please login via GitHub\" button\n      if (github) {\n        buttonsBox.appendChild(elements.createToggleStarButton(item.github.owner, item.github.repo, data.data.stargazers_count, [], github));\n      } else {\n        buttonsBox.appendChild(elements.createLoginThenStarButton());\n      }\n    }\n\n    return buttonsBox;\n  };\n\n  if (data && data.data) {\n    // If there is GitHub data, add 1 to the score.\n    calculatedScore += 1;\n\n    // For each star, add 0.05 points.\n    if (data.data.stargazers_count) {\n      itemCard.dataset.stars = data.data.stargazers_count;\n      calculatedScore += data.data.stargazers_count * 0.05;\n    }\n\n    // For any licence, add 0.2 points.\n    if (data.data.license && data.data.license.spdx_id) {\n      itemCard.dataset.licence = data.data.license.spdx_id;\n      calculatedScore += 0.2;\n    }\n  }\n  \n  itemCard.dataset.randomScore = Math.random();\n  itemCard.dataset.calculatedScore = calculatedScore;\n\n  itemCard.appendChild(elements.createAvatarBox(item.avatar, item.nsfw));\n  itemCard.appendChild(elements.createContentBox(item.name, item.description, type, item.id, item.nsfw));\n  itemCard.appendChild(createButtonsBox());\n  return itemCard;\n};\n\nconst sortCards = (ordering = 'calculatedScore') => {\n  const list = document.getElementById('list');\n  [...list.childNodes]\n    .filter(card => card.nodeName === 'SECTION')\n    .sort((a, b) => b.dataset[ordering] - a.dataset[ordering])\n    .forEach(card => list.appendChild(card));\n};\n\nconst createAppendSort = (github, localStorage, item, data, type) => {\n  const list = document.getElementById('list');\n  const card = createCard(github, localStorage, item, data, type);\n  list.appendChild(card);\n  sortCards();\n}\n\nmodule.exports = (github, localStorage) => {\n  const list = document.getElementById('list');\n  const search = document.getElementById('search');\n\n  if (search && list) {\n    search.addEventListener('keyup', () => {\n      const query = search.value.toLowerCase().trim();\n      const cards = [...list.childNodes];\n\n      cards\n        .filter(card => card.nodeName === 'SECTION')\n        .forEach((card) => {\n          // If can't find the card\n          if (card.innerText.toLowerCase().indexOf(query) === -1) {\n            card.classList.add('hidden');\n          } else {\n            // otherwise, allow it to be seen\n            card.classList.remove('hidden');\n          }\n        });\n    });\n  }\n\n  if (list) {\n    const type = list.dataset.listType;\n    fetch(`/api/${type}/all.json`)\n      .then(data => data.json())\n      .then((items) => {\n        items.forEach((item) => {\n          if (github && item.github && item.github.repo && item.github.owner) {\n            info.getInfo(github, localStorage, item.github.owner, item.github.repo)\n              .then((data) => {\n                createAppendSort(github, localStorage, item, data, type);\n              })\n              .catch((error) => {\n                console.error(error);\n                createAppendSort(github, localStorage, item, data, type);\n              });\n          } else {\n            createAppendSort(github, localStorage, item, {}, type);\n          }\n        });\n      });\n  }\n};\n\n\n//# sourceURL=webpack:///./webpack/pages/list.js?");
 
 /***/ })
 

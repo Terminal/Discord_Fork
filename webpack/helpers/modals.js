@@ -31,3 +31,8 @@ const closeModal = (event, modalName) => {
     }, 575);
   }
 }
+
+module.exports = {
+  showModal,
+  closeModal
+}

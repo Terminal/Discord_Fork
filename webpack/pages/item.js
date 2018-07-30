@@ -1,11 +1,11 @@
-window.addEventListener('load', () => {
+const { showModal, closeModal } = require('./../helpers/modals');
+
+module.exports = () => {
   const avatar = document.getElementById('avatar');
   const button = document.getElementById('invite');
 
-  if (avatar) {
-    avatar.addEventListener('error', () => {
-      avatar.src = '/assets/images/logo.png';
-    });
+  if (avatar.naturalHeight === 0) {
+    avatar.src = '/assets/images/logo.png';
   }
 
   button.addEventListener('click', (e) => {
@@ -19,4 +19,4 @@ window.addEventListener('load', () => {
       }
     }, 20);
   });
-});
+};

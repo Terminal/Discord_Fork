@@ -1,3 +1,5 @@
+const { showModal, closeModal } = require('./modals');
+
 const createAvatarBox = (link, nsfw) => {
   const avatarBox = document.createElement('div');
   const avatar = document.createElement('img');
@@ -89,19 +91,19 @@ const createViewGitHubButton = (owner, repo) => {
   const githubButton = document.createElement('a');
 
   githubButton.innerText = 'GitHub';
-  githubButton.setAttribute('href' ,`${GITHUB_URL}/${owner}/${repo}`);
+  githubButton.setAttribute('href' ,`https://github.com/${owner}/${repo}`);
   githubButton.setAttribute('target', '_blank');
 
   return githubButton;
 };
 
-const createToggleStarButton = (owner, repo, stars, classItems, githubClone) => {
-  if (githubClone || github) {
+const createToggleStarButton = (owner, repo, stars, classItems, github) => {
+  if (github) {
     const starButton = document.createElement('a');
     const starLabel = document.createElement('span');
     const starDivider = document.createElement('span');
     const starCount = document.createElement('span');
-    const repository = (githubClone || github).getRepo(owner, repo);
+    const repository = github.getRepo(owner, repo);
 
     if (classItems) {
       starButton.classList.add(...classItems);
@@ -166,4 +168,15 @@ const createLoginThenStarButton = (owner, repo) => {
   });
 
   return githubButton;
+};
+
+module.exports = {
+  createAvatarBox,
+  createContentBox,
+  createBotInviteModalButton,
+  createBansInviteButton,
+  createGenericInviteButton,
+  createViewGitHubButton,
+  createToggleStarButton,
+  createLoginThenStarButton
 };
