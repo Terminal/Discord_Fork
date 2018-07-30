@@ -24,9 +24,10 @@ const closeModal = (event, modalName) => {
 
   if (!event || modal === event.target || exit === event.target) {
     modal.classList.add('modal--close');
+    modal.classList.remove('hidden');
     setTimeout(() => {
       if (modal.classList.contains('modal--close')) {
-        modal.style.display = null;
+        modal.classList.add('hidden');
       }
     }, 575);
   }

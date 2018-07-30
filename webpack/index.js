@@ -1,3 +1,5 @@
+require('babel-polyfill');
+
 ((localStorage) => {
   const GitHub = require('github-api');
   let github = null;
@@ -10,7 +12,6 @@
   }
 
   require('smoothscroll');
-  require('jarallax');
   require('./helpers/random');
   require('./helpers/user')(github, localStorage);
   if (document.body.dataset.lsType === 'docs') require('./pages/documentation');
@@ -18,5 +19,3 @@
   if (document.body.dataset.lsType === 'item') require('./pages/item.js')();
   if (window.location.pathname === '/oauth/callback/') require('./pages/callback')(localStorage);
 })(localStorage);
-
-delete localStorage;

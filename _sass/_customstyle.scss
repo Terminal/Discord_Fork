@@ -96,17 +96,6 @@ input#search {
     margin-bottom: 1em;
   }
 
-  &.hidden {
-    background-color: transparent;
-    color: transparent;
-    display: none;
-    height: 0;
-    margin: 0;
-    padding: 0;
-    visibility: hidden;
-    width: 0;
-  }
-
   .footer {
     padding: .6em;
   }
@@ -167,4 +156,15 @@ input#search {
     line-height: unset;
     padding: 10px;
   }
+}
+
+.hidden {
+  background-color: transparent;
+  color: transparent;
+  display: none;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  visibility: hidden;
+  width: 0;
 }

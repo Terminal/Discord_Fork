@@ -40,7 +40,6 @@ bundler exec jekyll serve
 
 ## Thanks
 - [alicelieutier](https://github.com/alicelieutier)/[**smoothScroll**](https://github.com/alicelieutier/smoothScroll)
-- [nk-o](https://github.com/nk-o)/[**jarallax**](https://github.com/nk-o/jarallax)
 - [AlexFlipnote](https://github.com/AlexFlipnote)/[**ModestaCSS**](https://github.com/AlexFlipnote/ModestaCSS)
 - [AlexFlipnote](https://github.com/AlexFlipnote)/**Discord_Fork** (no longer exists)
 - [github-tools](https://github.com/github-tools)/[**github**](https://github.com/github-tools/github)
