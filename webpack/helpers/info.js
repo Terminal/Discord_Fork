@@ -1,7 +1,7 @@
-const checkStorage = (localStorageClone) => {
-  if (!(localStorageClone || localStorage).getItem('repos')) {
+const checkStorage = (localStorage) => {
+  if (localStorage.getItem('repos')) {
     // If it doesn't exist, create it.
-    (localStorageClone || localStorage).setItem('repos', "{}");
+    localStorage.setItem('repos', "{}");
   }
 };
 
@@ -30,7 +30,10 @@ const getInfo = (github, localStorage, owner, repo) => new Promise((resolve, rej
               time: Date.now() + (12 * 60 * 60 * 1000) // 12 hours
             }
           })));
-          resolve(data.data); // the information passed by GitHub
+          resolve({
+            data: data.data,
+            time: Date.now() + (12 * 60 * 60 * 1000) // 12 hours
+          }); // the information passed by GitHub
         }
       });
   } else {

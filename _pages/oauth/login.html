@@ -10,9 +10,6 @@ type: bots
   <h1>
     Redirecting to GitHub...
   </h1>
-  <a href="{{ site.data.links.authenticate }}" class="button">Not being redirected? Click here</a>
+  <a href="{{ site.data.links.authenticate }}" class="button" id="redirect">Not being redirected? Click here</a>
 </div>
-<script>
-  localStorage.setItem('return', document.referrer);
-  window.location.href = "{{ site.data.links.authenticate }}";
-</script>
+

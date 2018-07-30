@@ -3,7 +3,7 @@ const updateButton = (localStorage) => {
   const data = JSON.parse(localStorage.getItem('userinfo'));
   if (loginButton) {
     loginButton.innerText = `Logout from ${data.name || data.login}`;
-    loginButton.href = null;
+    loginButton.href = '#';
     loginButton.addEventListener('click', () => {
       localStorage.clear();
       window.location.reload(true);

@@ -1,7 +1,7 @@
 const elements = require('./../helpers/elements');
 const info = require('./../helpers/info');
 
-const createCard = (github, localStorage, item, data, type) => {
+const createCard = (github, localStorage, listItem, data = {}, type) => {
   const itemCard = document.createElement('section');
   let calculatedScore = Math.random();
 
@@ -11,22 +11,22 @@ const createCard = (github, localStorage, item, data, type) => {
     
     buttonsBox.classList.add('footer');
 
-    if (item.link) {
+    if (listItem.link) {
       if (type === 'bots') {
-        buttonsBox.appendChild(elements.createBotInviteModalButton(item.link));
+        buttonsBox.appendChild(elements.createBotInviteModalButton(listItem.link));
       } else if (type === 'bans') {
-        buttonsBox.appendChild(elements.createBansInviteButton(item.id));
+        buttonsBox.appendChild(elements.createBansInviteButton(listItem.id));
       } else {
-        buttonsBox.appendChild(elements.createGenericInviteButton(item.link));
+        buttonsBox.appendChild(elements.createGenericInviteButton(listItem.link));
       }
     }
 
-    if (item.github && item.github.repo && item.github.owner) {
-      buttonsBox.appendChild(elements.createViewGitHubButton(item.github.owner, item.github.repo));
+    if (listItem.github && listItem.github.repo && listItem.github.owner) {
+      buttonsBox.appendChild(elements.createViewGitHubButton(listItem.github.owner, listItem.github.repo));
       // If authenticated, show the toggling button
       // Otherwise, show the "please login via GitHub" button
       if (github) {
-        buttonsBox.appendChild(elements.createToggleStarButton(item.github.owner, item.github.repo, data.data.stargazers_count, [], github));
+        buttonsBox.appendChild(elements.createToggleStarButton(listItem.github.owner, listItem.github.repo, data.data.stargazers_count, [], github));
       } else {
         buttonsBox.appendChild(elements.createLoginThenStarButton());
       }
@@ -35,10 +35,12 @@ const createCard = (github, localStorage, item, data, type) => {
     return buttonsBox;
   };
 
-  if (data && data.data) {
-    // If there is GitHub data, add 1 to the score.
+  if (listItem.github && listItem.github.repo && listItem.github.owner) {
+    // If there's a GitHub repo, add 1 point.
     calculatedScore += 1;
+  }
 
+  if (data && data.data) {
     // For each star, add 0.05 points.
     if (data.data.stargazers_count) {
       itemCard.dataset.stars = data.data.stargazers_count;
@@ -55,8 +57,8 @@ const createCard = (github, localStorage, item, data, type) => {
   itemCard.dataset.randomScore = Math.random();
   itemCard.dataset.calculatedScore = calculatedScore;
 
-  itemCard.appendChild(elements.createAvatarBox(item.avatar, item.nsfw));
-  itemCard.appendChild(elements.createContentBox(item.name, item.description, type, item.id, item.nsfw));
+  itemCard.appendChild(elements.createAvatarBox(listItem.avatar, listItem.nsfw));
+  itemCard.appendChild(elements.createContentBox(listItem.name, listItem.description, type, listItem.id, listItem.nsfw));
   itemCard.appendChild(createButtonsBox());
   return itemCard;
 };
@@ -104,18 +106,18 @@ module.exports = (github, localStorage) => {
     fetch(`/api/${type}/all.json`)
       .then(data => data.json())
       .then((items) => {
-        items.forEach((item) => {
-          if (github && item.github && item.github.repo && item.github.owner) {
-            info.getInfo(github, localStorage, item.github.owner, item.github.repo)
+        items.forEach((listItem) => {
+          if (github && listItem.github && listItem.github.repo && listItem.github.owner) {
+            info.getInfo(github, localStorage, listItem.github.owner, listItem.github.repo)
               .then((data) => {
-                createAppendSort(github, localStorage, item, data, type);
+                createAppendSort(github, localStorage, listItem, data, type);
               })
               .catch((error) => {
                 console.error(error);
-                createAppendSort(github, localStorage, item, data, type);
+                createAppendSort(github, localStorage, listItem, {}, type);
               });
           } else {
-            createAppendSort(github, localStorage, item, {}, type);
+            createAppendSort(github, localStorage, listItem, {}, type);
           }
         });
       });
