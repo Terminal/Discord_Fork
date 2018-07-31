@@ -1,5 +1,11 @@
+const GitHub = require('github-api');
 const { showModal, closeModal } = require('./modals');
 
+/**
+ * Create a box for a card with the avatar
+ * @param {String} link The location of the avatar image
+ * @param {Boolean} nsfw Whether or not the bot is NSFW or not
+ */
 const createAvatarBox = (link, nsfw) => {
   const avatarBox = document.createElement('div');
   const avatar = document.createElement('img');
@@ -21,6 +27,14 @@ const createAvatarBox = (link, nsfw) => {
   return avatarBox;
 };
 
+/**
+ * Create the content section of a card.
+ * @param {String} name 
+ * @param {String} desc 
+ * @param {String} type 
+ * @param {String} id 
+ * @param {Boolean} nsfw 
+ */
 const createContentBox = (name, desc, type, id, nsfw) => {
   const contentBox = document.createElement('div');
   const titleLink = document.createElement('a');
@@ -48,6 +62,11 @@ const createContentBox = (name, desc, type, id, nsfw) => {
   return contentBox;
 };
 
+/**
+ * Create a button which will bring up the bot modal
+ * and a Discord invite popup
+ * @param {String} link The link in which to pop up
+ */
 const createBotInviteModalButton = (link) => {
   const itemInvite = document.createElement('a');
 
@@ -69,6 +88,10 @@ const createBotInviteModalButton = (link) => {
   return itemInvite;
 };
 
+/**
+ * Create a button which links to the ban page
+ * @param {String} id The ID of the ban ID
+ */
 const createBansInviteButton = (id) => {
   const itemInvite = document.createElement('a');
 
@@ -78,6 +101,10 @@ const createBansInviteButton = (id) => {
   return itemInvite;
 };
 
+/**
+ * Link to a generic link
+ * @param {String} link The link to link to
+ */
 const createGenericInviteButton = (link) => {
   const itemInvite = document.createElement('a');
 
@@ -87,16 +114,32 @@ const createGenericInviteButton = (link) => {
   return itemInvite;
 };
 
-const createViewGitHubButton = (owner, repo) => {
+/**
+ * Create a button which links to GitHub.
+ * Opens in a new window.
+ * @param {String} owner Owner of the GitHub repository
+ * @param {String} repo The repository in the owner's GitHub
+ * @param {String} text The text to display
+ */
+const createViewGitHubButton = (owner, repo, text) => {
   const githubButton = document.createElement('a');
 
-  githubButton.innerText = 'GitHub';
+  githubButton.innerText = text || 'GitHub';
   githubButton.setAttribute('href' ,`https://github.com/${owner}/${repo}`);
   githubButton.setAttribute('target', '_blank');
 
   return githubButton;
 };
 
+/**
+ * Create a button which a user can interact with.
+ * Can accept extra classes to change it into a ModestaCSS Button
+ * @param {String} owner Owner of the GitHub repository
+ * @param {String} repo The repository in the owner's GitHub
+ * @param {Number} stars The number of stars at the moment
+ * @param {String} classItems Things to add to the class of the link
+ * @param {GitHub} github The GitHub object
+ */
 const createToggleStarButton = (owner, repo, stars, classItems, github) => {
   if (github) {
     const starButton = document.createElement('a');
@@ -157,7 +200,12 @@ const createToggleStarButton = (owner, repo, stars, classItems, github) => {
   }
 };
 
-const createLoginThenStarButton = (owner, repo) => {
+/**
+ * Create a button that looks like it would star, but
+ * it actually just shows a modal to login...
+ * Because the user may need to login.
+ */
+const createLoginThenStarButton = () => {
   const githubButton = document.createElement('a');
 
   githubButton.innerText = 'Star';
@@ -170,6 +218,9 @@ const createLoginThenStarButton = (owner, repo) => {
   return githubButton;
 };
 
+/**
+ * Export it all
+ */
 module.exports = {
   createAvatarBox,
   createContentBox,
