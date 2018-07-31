@@ -91,6 +91,11 @@ input#search {
   width: 310px;
   font-family: 'Montserrat', sans-serif;
 
+  img.avatar {
+    padding: 0;
+    margin: 1.1em 0;
+  }
+
   &.profile {
     width: 90%;
     margin-bottom: 1em;
