@@ -1,3 +1,9 @@
+const GitHub = require('github-api');
+
+/**
+ * Set the login button to show a name
+ * @param {localStorage} localStorage The localStorage object
+ */
 const updateButton = (localStorage) => {
   const loginButton = document.getElementById('loginButton');
   const data = JSON.parse(localStorage.getItem('userinfo'));
@@ -11,6 +17,11 @@ const updateButton = (localStorage) => {
   }
 }
 
+/**
+ * Grab information about the user in cache, or load and save to cache
+ * @param {GitHub} github The GitHub object
+ * @param {localStorage} localStorage The localStorage object
+ */
 module.exports = (github, localStorage) => {
   if (github && !localStorage.getItem('user')) {
     github
