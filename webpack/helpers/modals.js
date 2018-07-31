@@ -1,3 +1,7 @@
+/**
+ * Open a modal
+ * @param {String} modalName The ID of the modal
+ */
 const showModal = (modalName) => {
   const modal = document.getElementById(modalName);
 
@@ -18,16 +22,27 @@ const showModal = (modalName) => {
   }
 }
 
+/**
+ * Close a modal
+ * @param {?Event} event An optional event for clicks
+ * @param {String} modalName The ID of the modal
+ */
 const closeModal = (event, modalName) => {
   const modal = document.getElementById(modalName);
   const exit = modal.getElementsByClassName('close')[0];
 
   if (!event || modal === event.target || exit === event.target) {
     modal.classList.add('modal--close');
+    modal.classList.remove('hidden');
     setTimeout(() => {
       if (modal.classList.contains('modal--close')) {
-        modal.style.display = null;
+        modal.classList.add('hidden');
       }
     }, 575);
   }
+}
+
+module.exports = {
+  showModal,
+  closeModal
 }

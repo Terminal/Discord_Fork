@@ -28,14 +28,13 @@ You will require some knowledge on `git` in order to add your bot.
 - Optional fields are OPTIONAL. **DO NOT** insert `N/A` when you have nothing to insert.
   - This is also not allowed, and is grounds for deletion.
 
-```ini
+```
 ---
 client_id: [The client ID of your bot]
 application_id: [OPTIONAL / The application ID of your bot. Delete this line, unless you have a pre-2016 bot]
 pagename: [The name of your bot]
 prefix: [The prefix of your bot]
 description: [The description of your bot, limited to 60 characters]
-long_description: [OPTIONAL / A longer description which displays on your bot page]
 avatar: [An avatar URL to a Discord website]
 link: [A link to invite your bot - HTTPS only]
 github: [OPTIONAL / The location of the source for this bot]
@@ -44,8 +43,13 @@ github: [OPTIONAL / The location of the source for this bot]
 nsfw: true | false [If your bot is "Not Safe For Work"]
 ---
 
-# Markdown
-This is an example of Markdown. [Here is a tutorial](https://guides.github.com/features/mastering-markdown/)
+# My Bot
+You can place MARKDOWN inside this box.
+[Here is a tutorial](https://guides.github.com/features/mastering-markdown/)
+
+## Secondary Heading
+Place information about your bot below the three dashes above (---).
+It can be HTML, or Kramdown compatible Markdown.
 
 _thanks_ **alex**
 ```

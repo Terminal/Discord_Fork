@@ -91,20 +91,14 @@ input#search {
   width: 310px;
   font-family: 'Montserrat', sans-serif;
 
+  img.avatar {
+    padding: 0;
+    margin: 1.1em 0;
+  }
+
   &.profile {
     width: 90%;
     margin-bottom: 1em;
-  }
-
-  &.hidden {
-    background-color: transparent;
-    color: transparent;
-    display: none;
-    height: 0;
-    margin: 0;
-    padding: 0;
-    visibility: hidden;
-    width: 0;
   }
 
   .footer {
@@ -167,4 +161,8 @@ input#search {
     line-height: unset;
     padding: 10px;
   }
+}
+
+.hidden {
+  display: none !important;
 }

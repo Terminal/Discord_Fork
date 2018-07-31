@@ -1,0 +1,31 @@
+{
+  "name": "discord_fork",
+  "version": "1.1.0",
+  "description": "The Discord Bot List with GitHub integration",
+  "main": "webpack/index.js",
+  "dependencies": {
+    "@babel/core": "^7.0.0-beta.55",
+    "@babel/preset-env": "^7.0.0-beta.55",
+    "babel-loader": "^8.0.0-beta.4",
+    "babel-polyfill": "^6.26.0",
+    "github-api": "^3.0.0",
+    "smoothscroll": "^0.4.0",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0",
+    "whatwg-fetch": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Terminal/Discord_Fork.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Terminal/Discord_Fork/issues"
+  },
+  "homepage": "https://github.com/Terminal/Discord_Fork#readme"
+}
