@@ -1,3 +1,9 @@
+const GitHub = require('github-api');
+
+/**
+ * Check if `repos` exists in the localStorage
+ * @param {localStorage} localStorage The localStorage object
+ */
 const checkStorage = (localStorage) => {
   if (!localStorage.getItem('repos')) {
     // If it doesn't exist, create it.
@@ -5,6 +11,14 @@ const checkStorage = (localStorage) => {
   }
 };
 
+/**
+ * Get all data about a repository
+ * Uses the local cache
+ * @param {GitHub} github The GitHub object
+ * @param {localStorage} localStorage The localStorage object
+ * @param {*} owner The owner of the GitHub repository
+ * @param {*} repo The GitHub repository owned by the owner
+ */
 const getInfo = (github, localStorage, owner, repo) => new Promise((resolve, reject) => {
   checkStorage(localStorage);
   owner = owner.toLowerCase();
@@ -42,6 +56,14 @@ const getInfo = (github, localStorage, owner, repo) => new Promise((resolve, rej
   }
 });
 
+/**
+ * Get the number of stars in a repository.
+ * Uses the local cache
+ * @param {GitHub} github The GitHub object
+ * @param {localStorage} localStorage The localStorage object
+ * @param {*} owner The owner of the GitHub repository
+ * @param {*} repo The GitHub repository owned by the owner
+ */
 const getStars = (github, localStorage, owner, repo) => new Promise((resolve, reject) => {
   getInfo(github, localStorage, owner, repo)
     .then((data) => {
