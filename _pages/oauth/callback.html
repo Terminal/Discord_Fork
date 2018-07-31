@@ -12,28 +12,4 @@ type: bots
   </h1>
   <a href="/" class="button">Not being redirected? Click here to cancel logging in.</a>
 </div>
-<script>
-  const code = window.location.href.match(/\?code=(.*)/);
-  const redirect = localStorage.getItem('return') || '/';
-  if (code && code[1]) {
-    fetch(`{{ site.data.links.gatekeeper }}/${code[1]}`)
-      .then(data => data.json())
-      .then((data) => {
-        if (data.token) localStorage.setItem('github', data.token);
-        next();
-      })
-      .catch((error) => {
-        showToast(error);
-      })
-  } else {
-    next();
-  }
-  
-  const next = () => {
-    if (redirect === '') {
-      window.location.href = '/';
-    } else {
-      window.location.href = redirect;
-    }
-  }
-</script>
+<span id="gatekeeper" style="display: none;">{{ site.data.links.gatekeeper }}</span>

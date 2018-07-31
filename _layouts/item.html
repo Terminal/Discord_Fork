@@ -1,31 +1,8 @@
 <html>
   <head>
     {% include head.html %}
-    <script>
-      const data = ({
-        {% assign bot = page %}{% include bot.json %}
-      });
-      
-      (() => {
-        const githubClone = github;
-        const localStorageClone = localStorage;
-        window.addEventListener('load', () => {
-        if (githubClone && data.github && data.github.repo && data.github.owner) {
-          getStars(data.github.owner, data.github.repo, githubClone, localStorageClone)
-            .then((stars) => {
-              const starButton = createToggleStarButton(data.github.owner, data.github.repo, stars, ['btn', 'wisteria'], githubClone);
-              const buttons = document.getElementById('buttons');
-              buttons.appendChild(starButton);
-            });
-          }
-        });
-      })();
-
-      if (localStorage) delete localStorage;
-      if (github) github = undefined;
-    </script>
   </head>
-  <body>
+  <body data-ls-type="item">
     {% include intro.html %}
 
     <section class="container">
@@ -69,11 +46,14 @@
         {{ content }}
       </div>
     </section>
-
-    {% include footer.html %}
     {% if page.type == 'bots' and page.link %}
     {% include botmodal.html %}
-    <script src="/assets/js/item.js" type="text/javascript" charset="utf-8"></script>
     {% endif %}
+    <script>
+      const data = ({
+        {% assign bot = page %}{% include bot.json %}
+      });
+    </script>
+    {% include footer.html %}
   </body>
 </html>

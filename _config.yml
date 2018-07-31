@@ -15,6 +15,9 @@ include:
 
 exclude:
   - assets/css/ModestaCSS/_pages
+  - webpack/
+  - .sass-cache/
+  - node_modules/
 
 sass:
   sass_dir: _sass
