@@ -26,7 +26,7 @@ const createCard = (github, localStorage, listItem, data = {}, type) => {
       // If authenticated, show the toggling button
       // Otherwise, show the "please login via GitHub" button
       if (github) {
-        if (data && data.data && data.data.stargazers_count) {
+        if (data && data.data && typeof data.data.stargazers_count === 'number') {
           buttonsBox.appendChild(elements.createToggleStarButton(listItem.github.owner, listItem.github.repo, data.data.stargazers_count, [], github));
         } else {
           // Can't find data - just link to the GitHub
