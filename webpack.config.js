@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  mode: 'development',
+  mode: 'production',
   entry: ['babel-polyfill', 'whatwg-fetch', './webpack/index.js'],
   output: {
     path: path.resolve(__dirname, 'assets', 'js'),
