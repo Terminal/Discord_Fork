@@ -1,6 +1,8 @@
 const { showModal, closeModal } = require('./../helpers/modals');
+const { getStars } = require('./../helpers/info');
+const { createToggleStarButton } = require('./../helpers/elements');
 
-module.exports = () => {
+module.exports = (github, localStorage) => {
   const avatar = document.getElementById('avatar');
   const button = document.getElementById('invite');
 
@@ -19,4 +21,13 @@ module.exports = () => {
       }
     }, 20);
   });
+
+  if (github && data.github && data.github.owner && data.github.repo) {
+    getStars(github, localStorage, data.github.owner, data.github.repo)
+      .then((stars) => {
+        const starButton = createToggleStarButton(data.github.owner, data.github.repo, stars, ['btn', 'wisteria'], github);
+        const buttons = document.getElementById('buttons');
+        buttons.appendChild(starButton);
+      });
+  }
 };

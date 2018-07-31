@@ -1,5 +1,5 @@
 const checkStorage = (localStorage) => {
-  if (localStorage.getItem('repos')) {
+  if (!localStorage.getItem('repos')) {
     // If it doesn't exist, create it.
     localStorage.setItem('repos', "{}");
   }
@@ -42,8 +42,8 @@ const getInfo = (github, localStorage, owner, repo) => new Promise((resolve, rej
   }
 });
 
-const getStars = (owner, repo, githubClone, localStorageClone) => new Promise((resolve, reject) => {
-  getInfo(owner, repo, githubClone, localStorageClone)
+const getStars = (github, localStorage, owner, repo) => new Promise((resolve, reject) => {
+  getInfo(github, localStorage, owner, repo)
     .then((data) => {
       resolve(data.data.stargazers_count);
     })
