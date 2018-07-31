@@ -4480,7 +4480,7 @@ eval("\n\nfunction _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nmodule.exports = function (localStorage) {\n  var ua = navigator.userAgent;\n  var msie = ua.indexOf(\"MSIE \"); // if (/Trident.*rv\\:11\\./.test(ua)) {\n  //   window.location.pathname = '/docs/iexplore/';\n  // } else {\n\n  var redirectButton = document.getElementById('redirect');\n  localStorage.setItem('return', document.referrer);\n  window.location.href = redirectButton.getAttribute('href'); // }\n};\n\n//# sourceURL=webpack:///./webpack/pages/login.js?");
+eval("\n\nmodule.exports = function (localStorage) {\n  var ua = navigator.userAgent;\n  var msie = ua.indexOf(\"MSIE \");\n\n  if (/Trident.*rv\\:11\\./.test(ua)) {\n    window.location.pathname = '/docs/iexplore/';\n  } else {\n    var redirectButton = document.getElementById('redirect');\n    localStorage.setItem('return', document.referrer);\n    window.location.href = redirectButton.getAttribute('href');\n  }\n};\n\n//# sourceURL=webpack:///./webpack/pages/login.js?");
 
 /***/ }),
 
