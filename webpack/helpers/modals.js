@@ -13,6 +13,7 @@ const showModal = (modalName) => {
     const exit = modal.getElementsByClassName('close')[0];
 
     modal.classList.remove('modal--close');
+    modal.classList.remove('hidden');
     modal.style.display = 'block';
 
     if (exit && modal) {
@@ -33,7 +34,6 @@ const closeModal = (event, modalName) => {
 
   if (!event || modal === event.target || exit === event.target) {
     modal.classList.add('modal--close');
-    modal.classList.remove('hidden');
     setTimeout(() => {
       if (modal.classList.contains('modal--close')) {
         modal.classList.add('hidden');
