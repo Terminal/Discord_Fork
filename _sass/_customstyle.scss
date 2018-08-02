@@ -141,6 +141,14 @@ input#search {
   }
 }
 
+.buttons .btn {
+  @media (max-width: 750px) {
+    padding: 10px 20px !important;
+    width: unset;
+    height: unset;
+  }
+}
+
 .btn .github-logo {
   vertical-align: text-bottom;
   height: 21px;
