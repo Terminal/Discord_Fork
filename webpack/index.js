@@ -14,7 +14,7 @@ require('babel-polyfill');
 
     require('./helpers/random');
     require('./helpers/user')(github, localStorage);
-    if (document.body.dataset.lsType === 'docs') require('./pages/documentation');
+    if (document.body.dataset.lsType === 'docs') require('./pages/documentation')();
     if (document.body.dataset.lsType === 'list') require('./pages/list')(github, localStorage);
     if (document.body.dataset.lsType === 'item') require('./pages/item.js')(github, localStorage);
     if (window.location.pathname === '/oauth/login/') require('./pages/login')(localStorage);
