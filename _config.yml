@@ -57,9 +57,3 @@ defaults:
     values:
       layout: item
       type: servers
-  - scope:
-      path: ""
-      type: bans
-    values:
-      layout: item
-      type: bans

@@ -61,6 +61,7 @@ const createCard = (github, localStorage, listItem, data = {}, type) => {
   
   itemCard.dataset.randomScore = Math.random();
   itemCard.dataset.calculatedScore = calculatedScore;
+  itemCard.dataset.id = listItem.id;
 
   itemCard.appendChild(elements.createAvatarBox(listItem.avatar, listItem.nsfw));
   itemCard.appendChild(elements.createContentBox(listItem.name, listItem.description, type, listItem.id, listItem.nsfw));
@@ -95,8 +96,14 @@ module.exports = (github, localStorage) => {
       cards
         .filter(card => card.nodeName === 'SECTION')
         .forEach((card) => {
+          let text = '';
+
+          text += card.innerText;
+          text += card.dataset.id;
+          if (card.dataset.licence) text += card.dataset.licence;
+
           // If can't find the card
-          if (card.innerText.toLowerCase().indexOf(query) === -1) {
+          if (text.toLowerCase().indexOf(query) === -1) {
             card.classList.add('hidden');
           } else {
             // otherwise, allow it to be seen

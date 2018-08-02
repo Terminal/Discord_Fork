@@ -1,8 +1,8 @@
     "id" : "{{ server.server_id | replace: site.data.strings.newline, '\n' }}",
     "server_id" : "{{ server.server_id | replace: site.data.strings.newline, '\n' }}",
     "name" : "{{ server.pagename | replace: site.data.strings.newline, '\n' }}",
-    "description" : "{{ server.description | strip_html | truncate:60 | replace: site.data.strings.newline, '\n' }}",
-    "long_description" : "{% if server.long_description %}{{ server.long_description | replace: site.data.strings.newline, '\n' }}{% else %}{% endif %}",
+    "description" : "{{ server.description | replace: site.data.strings.newline, '\n' | replace: '"', '\"' | truncate: 60 }}",
+    "long_description" : "{% if server.long_description %}{{ server.long_description | replace: site.data.strings.newline, '\n' | replace: '"', '\"' }}{% else %}{{ server.description | replace: '\', '\\' | replace: site.data.strings.newline, '\n' | replace: '"', '\"' }}{% endif %}",
     "url_safe": "{{ server.pagename | downcase | replace:' ', '' | replace: site.data.strings.newline, '\n' }}",
     "avatar" : "{{ server.avatar | replace: site.data.strings.newline, '\n' }}",
     "link" : "{{ server.link | replace: site.data.strings.newline, '\n' }}",{% if server.github %}
