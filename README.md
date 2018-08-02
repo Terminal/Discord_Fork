@@ -18,6 +18,7 @@ way to be more unique and prove that a list site can possibly be made with Jekyl
 - Ruby 2.4 or above - https://rubyinstaller.org/downloads/
 - jekyll & bundle - https://jekyllrb.com/
 - sass & scss_lint - Ruby Packages (gem install)
+- Node.js 10.x
 
 ## Commands
 ```
@@ -26,6 +27,9 @@ bundle exec jekyll serve
 
 scss-lint
     Check if your source code is linter friendly (SCSS only)
+
+webpack --watch
+    Build all JavaScript files into a single file
 ```
 
 ## First Setup
@@ -34,9 +38,18 @@ Windows users may wish to use the Windows Subsystem for Linux.
 
 ### Ubuntu 18.04, 16.04, WSL Ubuntu
 ```
-sudo apt install build-essential ruby-full ruby-bundler
+curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+sudo apt install -y build-essential ruby-full ruby-bundler nodejs
+npm i
+
+# run both simultaneously
 bundler exec jekyll serve
+webpack --watch
 ```
+
+### Authentication Server
+[Follow me](https://github.com/prose/gatekeeper#setup-your-gatekeeper)
+Edit `_data/links.yml` to point to the auth server.
 
 ## Thanks
 - [alicelieutier](https://github.com/alicelieutier)/[**smoothScroll**](https://github.com/alicelieutier/smoothScroll)
