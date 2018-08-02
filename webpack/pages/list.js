@@ -46,10 +46,10 @@ const createCard = (github, localStorage, listItem, data = {}, type) => {
   }
 
   if (data && data.data) {
-    // For each star, add 0.05 points.
+    // For every magnitude of 10 stars, add 0.5 points
     if (data.data.stargazers_count) {
       itemCard.dataset.stars = data.data.stargazers_count;
-      calculatedScore += data.data.stargazers_count * 0.05;
+      calculatedScore += Math.log10(data.data.stargazers_count || 1) * 0.5;
     }
 
     // For any licence, add 0.2 points.
