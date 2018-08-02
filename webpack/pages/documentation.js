@@ -11,6 +11,6 @@ module.exports = () => {
       if (!event.target.closest(".nav-container")) {
         navside.style.transform = 'translateX(-250px)';
       }
-    });  
+    });
   }
 };
