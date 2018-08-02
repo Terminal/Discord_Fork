@@ -3,29 +3,33 @@ pagename: Bot card order calculations
 description: The algorithm which determines the rank on Discord_Fork
 ---
 
-As of the 25th July 2018, Discord_Fork operates on a "score" based system.  
+As of the 2nd August 2018, Discord_Fork operates on a "score" based system.  
 The order is calculated via this piece of JavaScript.
 
 ```js
-// Create a random score
-item.score = Math.random();
+// Create a random score between 0 and 1 point
+let calculatedScore = Math.random();
 
-switch(sort) {
-  case 'score':
-    // Even HAVING a GitHub repository is worth 1 point
-    if (item.github && item.github.repo && item.github.owner) item.score += 1;
-    // Each star is worth 0.02 points
-    if (item.stars) item.score += item.stars * POINTS_PER_STAR;
-    break;
-  case 'stars':
-    // Each star IS a point. No stars is no points.
-    if (item.stars) item.score = item.stars || 0;
-    break;
-  case 'random':
-    // Do not rely on stars
-    break;
+if (listItem.github && listItem.github.repo && listItem.github.owner) {
+  // If there's a GitHub repo, add 1 point.
+  calculatedScore += 1;
 }
-return item;
+
+// For every magnitude of 10 stars, add 0.5 points
+// 1 star = 0 points
+// 10 stars = 0.5 points
+// 100 stars = 1 point
+// 1000 stars = 1.5 points
+if (data.data.stargazers_count) {
+  itemCard.dataset.stars = data.data.stargazers_count;
+  calculatedScore += Math.log10(data.data.stargazers_count || 1) * 0.5;
+}
+
+// For any licence, add 0.2 points.
+if (data.data.license && data.data.license.spdx_id) {
+  itemCard.dataset.licence = data.data.license.spdx_id;
+  calculatedScore += 0.2;
+}
 ```
 
 ## Explaination
