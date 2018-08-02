@@ -1,4 +1,5 @@
 @import 'ModestaCSS/css/modesta.min.css';
+@import 'highlight';
 
 body {
   background: #101010;
@@ -165,4 +166,8 @@ input#search {
 
 .hidden {
   display: none !important;
+}
+
+pre.highlight {
+  overflow-x: auto;
 }
