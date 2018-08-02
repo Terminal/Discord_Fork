@@ -40,6 +40,8 @@ const createContentBox = (name, desc, type, id, nsfw) => {
   const titleLink = document.createElement('a');
   const title = document.createElement('h4');
   const description = document.createElement('span');
+
+  contentBox.classList.add('card-content')
   
   title.classList.add('title');
   description.classList.add('description');
