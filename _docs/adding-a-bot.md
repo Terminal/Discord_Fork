@@ -37,6 +37,7 @@ prefix: [The prefix of your bot]
 description: [The description of your bot, limited to 60 characters]
 avatar: [An avatar URL to a Discord website]
 link: [A link to invite your bot - HTTPS only]
+support: [OPTIONAL / A link to the Discord server for the bot]
 github: [OPTIONAL / The location of the source for this bot]
   owner: username
   repo: projectName
