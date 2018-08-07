@@ -9,8 +9,21 @@ body {
   flex-direction: column;
 }
 
-.fullscreen.half .background {
-  height: 50vh;
+.fullscreen.half {
+  .center-object {
+    transform: unset;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+  }
+  .background {
+    height: 50vh;
+  }
 }
 
 .container {
