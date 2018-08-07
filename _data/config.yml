@@ -1,7 +1,7 @@
 categories:
   bots:
     display: true
-    pagename: Discord Fork Bot list
+    pagename: Discord Fork Botlist
     shortname: Bots
     add: Add your own bot
     invite: Add this bot
@@ -11,7 +11,7 @@ categories:
     contribute: /docs/adding-a-bot
   servers:
     display: true
-    pagename: Discord Fork Server list
+    pagename: Discord Fork Serverlist
     shortname: Servers
     add: Add your own server
     invite: Join this server
@@ -21,7 +21,7 @@ categories:
     contribute: https://github.com/Terminal/Discord_Fork/blob/master/README.md
   bans:
     display: false
-    pagename: Discord Fork Ban list
+    pagename: Discord Fork Banlist
     shortname: Bans
     add: Report a user
     parallax: /assets/images/background_hongkong.jpg
