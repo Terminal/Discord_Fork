@@ -1,0 +1,52 @@
+---
+pagename: Add a bot
+description: Generate Markdown and Jekyll frontmatter for the Discord_Fork website.
+permalink: "/edit"
+layout: docs
+type: docs
+---
+
+<h1>Add a bot</h1>
+<div class="form-container">
+  <form>
+    <div class="row">
+      <div class="one-half column">
+        <label for="client-id">Your Client ID</label>
+        <input class="full-width" placeholder="Something like: 255114091360681986" id="client-id">
+      </div>
+      <div class="one-half column" id="application-id-before">
+        <label>Your Application ID</label>
+        <a class="btn emerald" style="margin: 0 5px 0 0" id="application-id-display">I would like to insert one</a>
+        <a class="btn snapchat black-text" style="margin: 0" id="application-id-info">?</a>
+      </div>
+      <div class="one-half column hidden" id="application-id-box">
+        <label for="application-id">Your Application ID</label>
+        <input class="full-width" placeholder="Something like: 255114091360681986" id="application-id">
+        <small>Leave empty if you do not need one</small>
+      </div>
+    </div>
+    <label for="name">Bot Name</label>
+    <textarea class="full-width" placeholder="Text..." id="name"></textarea>
+    <label for="short-description">Short Description</label>
+    <textarea class="full-width" placeholder="Text..." id="short-description"></textarea>
+    <label for="monaco-editor">Bot Page</label>
+    <div id="monaco-editor"></div>
+    <input class="btn" type="submit" value="Submit">
+  </form>
+</div>
+<div id="whatis-application-id" class="modal modal--close">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h1>Application ID</h1>
+    <h2>What is it?</h2>
+    <p>
+      The application ID of a bot is the ID which is used to invite the bot, and is found on the Discord OAuth invite link button.
+      You most likely do not require to insert one, as it is usually the same as the Client ID, except for bots made before 2016.
+    </p>
+    <p>
+      Leave this empty if you are unsure
+    </p>
+    <img src="/assets/images/edit/application_id.png">
+    <p><small>An example of a bot which does have an application_id</small></p>
+  </div>
+</div>

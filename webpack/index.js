@@ -19,6 +19,7 @@ require('babel-polyfill');
     if (document.body.dataset.lsType === 'item') require('./pages/item.js')(github, localStorage);
     if (window.location.pathname === '/oauth/login/') require('./pages/login')(localStorage);
     if (window.location.pathname === '/oauth/callback/') require('./pages/callback')(localStorage);
+    if (window.location.pathname === '/edit') require('./pages/edit')(github, localStorage);
   };
 
   document.addEventListener('DOMContentLoaded', run);
