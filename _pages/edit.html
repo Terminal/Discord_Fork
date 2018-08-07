@@ -16,7 +16,7 @@ type: docs
       </div>
       <div class="one-half column" id="application-id-before">
         <label>Your Application ID</label>
-        <a class="btn emerald" style="margin: 0 5px 0 0" id="application-id-display">I would like to insert one</a>
+        <a class="btn emerald" style="margin: 0 5px 0 0" id="application-id-display">Insert ID</a>
         <a class="btn snapchat black-text" style="margin: 0" id="application-id-info">?</a>
       </div>
       <div class="one-half column hidden" id="application-id-box">
@@ -25,10 +25,48 @@ type: docs
         <small>Leave empty if you do not need one</small>
       </div>
     </div>
-    <label for="name">Bot Name</label>
-    <textarea class="full-width" placeholder="Text..." id="name"></textarea>
-    <label for="short-description">Short Description</label>
-    <textarea class="full-width" placeholder="Text..." id="short-description"></textarea>
+    <div class="row">
+      <div class="one-half column">
+        <label for="name">Bot Name</label>
+        <input class="full-width" placeholder="Discord Bot Name" id="name">
+      </div>
+      <div class="one-half column">
+        <label for="prefix">Prefix</label>
+        <input class="full-width" placeholder="Prefix" id="prefix">
+      </div>
+    </div>
+    <div class="row">
+      <div class="one-half column">
+        <label for="invite">Invite URL</label>
+        <input class="full-width" placeholder="https://discordapp.com/oauth/" id="invite">
+      </div>
+      <div class="one-half column">
+        <label for="avatar">Avatar URL</label>
+        <input class="full-width" placeholder="https://assets.discordapp.com/" id="avatar">
+      </div>
+    </div>
+    <div class="row">
+      <div class="none column">
+        <label for="short-description">Short Description</label>
+        <input class="full-width" placeholder="The bot that allows you to xyz" id="short-description">
+      </div>
+    </div>
+    <div class="row">
+      <div class="none column" id="github-before">
+        <label>GitHub Repository</label>
+        <a class="btn emerald" style="margin: 0 5px 1.5rem 0" id="github-display">I have a GitHub repository</a>
+        <a class="btn snapchat black-text" style="margin: 0" id="github-info">?</a>
+      </div>
+      <div class="one-half column hidden" id="github-owner-box">
+        <label for="github-owner">GitHub User / Organisation</label>
+        <input class="full-width" placeholder="ry00001" id="github-owner">
+      </div>
+      <div class="one-half column hidden" id="github-repo-box">
+        <label for="github-repo">GitHub Repository</label>
+        <input class="full-width" placeholder="Tuxedo" id="github-repo">
+      </div>
+    </div>
+    
     <label for="monaco-editor">Bot Page</label>
     <div id="monaco-editor"></div>
     <input class="btn" type="submit" value="Submit">
@@ -48,5 +86,20 @@ type: docs
     </p>
     <img src="/assets/images/edit/application_id.png">
     <p><small>An example of a bot which does have an application_id</small></p>
+  </div>
+</div>
+<div id="whatis-github" class="modal modal--close">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h1>GitHub</h1>
+    <h2>What is it?</h2>
+    <a href="https://github.com/" target="_blank">Visit GitHub</a>
+    <p>
+      GitHub is a website where you can collaborate and share programming code with people all over the world, using the Git versioning software.
+      In order to be ranked higher in the Discord_Fork website, you should put your code into the GitHub repository, and add a relevant open source licence.
+    </p>
+    <p>
+      Leave this empty if you do not have one.
+    </p>
   </div>
 </div>

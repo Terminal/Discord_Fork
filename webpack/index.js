@@ -20,6 +20,7 @@ require('babel-polyfill');
     if (window.location.pathname === '/oauth/login/') require('./pages/login')(localStorage);
     if (window.location.pathname === '/oauth/callback/') require('./pages/callback')(localStorage);
     if (window.location.pathname === '/edit') require('./pages/edit')(github, localStorage);
+    if (window.location.pathname === '/preview') require('./pages/preview')();
   };
 
   document.addEventListener('DOMContentLoaded', run);
