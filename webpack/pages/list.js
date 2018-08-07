@@ -13,7 +13,7 @@ const createCard = (github, localStorage, listItem, data = {}, type) => {
 
     if (listItem.link) {
       if (type === 'bots') {
-        buttonsBox.appendChild(elements.createBotInviteModalModalButton(listItem.link));
+        buttonsBox.appendChild(elements.createBotInviteModalButton(listItem.link));
       } else if (type === 'bans') {
         buttonsBox.appendChild(elements.createBansInviteButton(listItem.id));
       } else {
