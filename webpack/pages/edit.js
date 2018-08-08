@@ -34,7 +34,7 @@ module.exports = (github, localStorage) => {
   const githubOwnerBox = document.getElementById('github-owner-box');
   const githubInfo = document.getElementById('github-info');
 
-  const monacoEditor = document.getElementById('monaco-editor');
+  const contents = document.getElementById('contents');
 
   applicationIdDisplay.addEventListener('click', () => {
     applicationIdBefore.classList.add('hidden');
@@ -58,7 +58,7 @@ module.exports = (github, localStorage) => {
     showModal('whatis-github');
   });
 
-  const editor = monaco.editor.create(monacoEditor, {
+  const editor = monaco.editor.create(contents, {
     value: defaultText,
     language: 'markdown',
     automaticLayout: true
