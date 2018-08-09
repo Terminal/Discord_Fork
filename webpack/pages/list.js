@@ -40,22 +40,15 @@ const createCard = (github, localStorage, listItem, data = {}, type) => {
     return buttonsBox;
   };
 
-  if (listItem.github && listItem.github.repo && listItem.github.owner) {
-    // If there's a GitHub repo, add 1 point.
-    calculatedScore += 1;
-  }
-
   if (data && data.data) {
-    // For every magnitude of 10 stars, add 0.5 points
-    if (data.data.stargazers_count) {
-      itemCard.dataset.stars = data.data.stargazers_count;
-      calculatedScore += Math.log10(data.data.stargazers_count || 1) * 0.5;
-    }
+    // If a GitHub repository exists, add 1 point.
+    calculatedScore += 1;
 
-    // For any licence, add 0.2 points.
+    // For any licence, add 1 point.
     if (data.data.license && data.data.license.spdx_id) {
+      // licence is spelled right, deal with the .co.uk
       itemCard.dataset.licence = data.data.license.spdx_id;
-      calculatedScore += 0.2;
+      calculatedScore += 1;
     }
   }
   

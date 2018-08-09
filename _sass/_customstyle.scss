@@ -11,10 +11,12 @@ body {
 
 .fullscreen.half {
   .center-object {
-    transform: unset;
+    transform: none;
     top: 0;
     left: 0;
+    width: 100%;
     width: 100vw;
+    height: 50%;
     height: 50vh;
     display: flex;
     vertical-align: middle;
@@ -188,4 +190,10 @@ input#search {
 
 pre.highlight {
   overflow-x: auto;
+}
+
+.monaco-editor {
+  width: 100%;
+  height: 500px;
+  color: unset;
 }
