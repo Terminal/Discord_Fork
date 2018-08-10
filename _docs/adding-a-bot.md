@@ -1,18 +1,16 @@
 ---
 pagename: Adding your bot to Discord Fork via GitHub
-description: Instructions on how to add your own bot to the Discord Fork botlist.
+description: Instructions on how to add your own bot to the Discord Fork botlist via manually forking and creating a pull request via GitHub.
 ---
 
 # Adding your bot to the website via GitHub
 Thanks for choosing Discord_Fork for your preffered Discord Bots Service Provider (DBSP)
 
-You will require some knowledge on `git` in order to add your bot.
-
-### 1. Fork the project
+## 1. Fork the project
 
 ![How to fork](/assets/images/adding-a-bot/1531011733.77.png)
 
-### 2. Create a file
+## 2. Create a file
 - Inside the `_bots` folder, create a file called `[CLIENT_ID].md`, where `[CLIENT_ID]` is the ID of your bot.
 - Copy the code below, and replace with your own details
 - If you do not have a GitHub repository, **DO NOT** insert the following
@@ -57,7 +55,7 @@ _thanks_ **alex**
 - Create a commit
   - ![Creating and editing a file](/assets/images/adding-a-bot/1531012665.07.png)
 
-### 3. Create a pull request
+## 3. Create a pull request
 - Go the pull requests page
   - ![Going to the correct PR place](/assets/images/adding-a-bot/1531012768.53.png)
 - Create a pull request
