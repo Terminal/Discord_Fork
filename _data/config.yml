@@ -8,7 +8,7 @@ categories:
     parallax: /assets/images/background_bots.jpg
     description: The botlist with built-in GitHub integration
     path: /
-    contribute: /docs/adding-a-bot
+    contribute: /edit
   servers:
     display: true
     pagename: Discord Fork Serverlist
