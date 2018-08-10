@@ -9,7 +9,7 @@ permalink: /docs/readme/
 # Discord_Fork
 The serverless (except for OAuth flow) Discord Bot list.
 
-Add your bot [via the E-Zed editor]((https://discordbots.co.uk/edit) or [via GitHub](https://discordbots.co.uk/docs/adding-a-bot/)
+Add your bot [via the E-Zed editor](https://discordbots.co.uk/edit) or [via GitHub](https://discordbots.co.uk/docs/adding-a-bot/)
 
 NOTE: Please do not complain over how *bad* the site is made, this is mostly made as a
 way to be more unique and prove that a list site can possibly be made with Jekyll.
