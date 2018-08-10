@@ -120,17 +120,21 @@ input#search {
 }
 
 // Modal
-.modal-content {
-  h2 {
-    font-size: 16pt;
-  }
-
-  a {
-    color: #1EAEDB;
-  }
-
-  li {
-    list-style: none;
+.modal {
+  z-index: 102;
+  .modal-content {
+    z-index: 103;
+    h2 {
+      font-size: 16pt;
+    }
+  
+    a {
+      color: #1EAEDB;
+    }
+  
+    li {
+      list-style: none;
+    }
   }
 }
 

@@ -4,7 +4,7 @@
   </head>
   <body data-ls-type="list">
     {% include intro.html %}
-    {% include spinner.html %}
+    {% if page.spinner %}{% include spinner.html %}{% endif %}
     {{ content }}
     {% include footer.html %}
   </body>
