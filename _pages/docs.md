@@ -6,15 +6,16 @@ layout: docs
 type: docs
 ---
 
-# Documentation for Discord Fork
+# Discord Fork Developer Portal
 Discord_Fork is the (nearly) entirely clientside bot list, relying on a server only for GitHub OAuth to fetch the client token for the user.
 
 - [Available API endpoints](api-reference)
 - [README.md](readme)
-- [Front page scoring system](rank)
 
 ## Bots
-- [Adding a bot via GitHub](adding-a-bot)
+- [Add a new bot](/edit)
+- [How to add a bot](adding-a-bot-via-website) **(recommended)**
+- [How to add a bot via GitHub](adding-a-bot)
 
 ### Invite errors
 - ["The bot is private. Only the bot owner can add it."](bot-private-error)

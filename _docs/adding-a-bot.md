@@ -1,12 +1,11 @@
 ---
-pagename: Adding your bot to Discord Fork
+pagename: Adding your bot to Discord Fork via GitHub
 description: Instructions on how to add your own bot to the Discord Fork botlist.
 ---
 
-# Adding your bot to the website
+# Adding your bot to the website via GitHub
 Thanks for choosing Discord_Fork for your preffered Discord Bots Service Provider (DBSP)
 
-## From GitHub
 You will require some knowledge on `git` in order to add your bot.
 
 ### 1. Fork the project
