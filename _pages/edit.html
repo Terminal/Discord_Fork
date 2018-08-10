@@ -91,6 +91,7 @@ type: docs
   <label for="contents">Bot Page</label>
   <div id="contents" class="monaco-editor"></div>
   <a class="btn emerald" id="export-button">Export</a>
+  <a class="btn white black-text" id="merge-button">Create a pull request</a>
 </div>
 <div id="whatis-application-id" class="modal modal--close">
   <div class="modal-content">
@@ -133,5 +134,19 @@ type: docs
     <h1>Export</h1>
     <p>Copy the contents into GitHub to continue</p>
     <div id="export-editor" class="monaco-editor"></div>
+  </div>
+</div>
+<div id="merge-modal" class="modal modal--close" data-owner="{{ site.data.links.owner }}" data-repo="{{ site.data.links.repo }}">
+  <div class="modal-content" id="merge-modal-content">
+    <span class="close">&times;</span>
+    <h1>Create a pull request</h1>
+    <p>Please enter any comments you would like to make</p>
+    <div id="merge-editor" class="monaco-editor"></div>
+    <a class="btn white black-text" id="merge-modal-submit-button">Submit</a>
+  </div>
+  <div class="modal-content center hidden" id="merge-modal-loading-content">
+    <h1>Please wait</h1>
+    {% include spinner.html %}
+    <pre id="merge-modal-logs"></pre>
   </div>
 </div>

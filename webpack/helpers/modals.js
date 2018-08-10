@@ -32,7 +32,7 @@ const closeModal = (event, modalName) => {
   const modal = document.getElementById(modalName);
   const exit = modal.getElementsByClassName('close')[0];
 
-  if (!event || modal === event.target || exit === event.target) {
+  if ((!event || modal === event.target || exit === event.target) && modal.dataset.noclose !== 'true') {
     modal.classList.add('modal--close');
     setTimeout(() => {
       if (modal.classList.contains('modal--close')) {
