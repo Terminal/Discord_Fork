@@ -11,6 +11,7 @@ Discord_Fork is the (nearly) entirely clientside bot list, relying on a server o
 
 - [Available API endpoints](api-reference)
 - [README.md](readme)
+- [Attributions](attribution)
 
 ## Bots
 - [Add a new bot](/edit)

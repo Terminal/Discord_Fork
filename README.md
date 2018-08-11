@@ -52,9 +52,7 @@ webpack --watch
 Edit `_data/links.yml` to point to the auth server.
 
 ## Thanks
-- [alicelieutier](https://github.com/alicelieutier)/[**smoothScroll**](https://github.com/alicelieutier/smoothScroll)
-- [nk-o](https://github.com/nk-o)/[**jarallax**](https://github.com/nk-o/jarallax)
-- [AlexFlipnote](https://github.com/AlexFlipnote)/[**ModestaCSS**](https://github.com/AlexFlipnote/ModestaCSS)
-- [AlexFlipnote](https://github.com/AlexFlipnote)/**Discord_Fork** (no longer exists)
-- [github-tools](https://github.com/github-tools)/[**github**](https://github.com/github-tools/github)
-- [prose](https://github.com/prose/gatekeeper)/[**gatekeeper**](https://github.com/prose/gatekeeper)
+[We love you all](https://discordbots.co.uk/docs/attribution)
+
+## Technical Support
+[discordapp](https://discord.gg/8uC6aKZ)
