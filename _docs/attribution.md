@@ -32,6 +32,18 @@ Link to Licence | GitHub Owner | Repository Name
 --------------- | ------------ | ---------------
 [LICENSE](https://github.com/github-tools/github/blob/master/LICENSE) | [github-tools](https://github.com/github-tools) | [**github**](https://github.com/github-tools/github)
 
+## Apache-2.0
+
+Link to Licence | GitHub Owner | Repository Name
+--------------- | ------------ | ---------------
+[LICENSE](https://github.com/google/roboto/blob/master/LICENSE) | [Google](https://github.com/google) | [**roboto**](https://github.com/google/roboto/)
+
+## SIL Open Font License 1.1
+
+Link to Licence | GitHub Owner | Repository Name
+--------------- | ------------ | ---------------
+[OFL.txt](https://github.com/JulietaUla/Montserrat/blob/master/OFL.txt) | [JulietaUla](https://github.com/JulietaUla) | [**Montserrat**](https://github.com/JulietaUla/Montserrat)
+
 ## GNU GPLv3
 
 Link to Licence | GitHub Owner | Repository Name
