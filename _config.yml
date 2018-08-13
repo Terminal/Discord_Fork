@@ -18,6 +18,10 @@ exclude:
   - webpack/
   - .sass-cache/
   - node_modules/
+  - webpack.config.js
+  - package.json
+  - package-lock.json
+  - Gemfile.lock
 
 sass:
   sass_dir: _sass
