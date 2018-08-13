@@ -6,7 +6,7 @@ type: docs
 permalink: /docs/readme/
 ---
 
-<a href='https://jenkins.moustacheminer.com/job/Discord_Fork Builder'><img src='https://jenkins.moustacheminer.com/buildStatus/icon?job=Discord_Fork Builder'></a>
+<a href='https://jenkins.moustacheminer.com/job/Discord_Fork%20Builder'><img src='https://jenkins.moustacheminer.com/buildStatus/icon?job=Discord_Fork%20Builder'></a>
 
 # Discord_Fork
 The serverless (except for OAuth flow) Discord Bot list.
