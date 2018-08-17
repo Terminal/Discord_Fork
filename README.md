@@ -6,10 +6,7 @@ type: docs
 permalink: /docs/readme/
 ---
 
-<a href='https://jenkins.moustacheminer.com/job/Discord_Fork%20Builder'><img src='https://jenkins.moustacheminer.com/buildStatus/icon?job=Discord_Fork%20Builder'></a>
-
-# Discord_Fork
-The serverless (except for OAuth flow) Discord Bot list.
+![Discord Fork Botlist, The botlist with built in GitHub integration](/assets/images/readme-header.png)
 
 Add your bot [via the E-Zed editor](https://discordbots.co.uk/edit) or [via GitHub](https://discordbots.co.uk/docs/adding-a-bot/)
 
@@ -50,11 +47,18 @@ webpack --watch
 ```
 
 ### Authentication Server
-[Follow me](https://github.com/prose/gatekeeper#setup-your-gatekeeper)
+[Follow me](https://github.com/prose/gatekeeper#setup-your-gatekeeper)  
 Edit `_data/links.yml` to point to the auth server.
 
 ## Thanks
-[We love you all](https://discordbots.co.uk/docs/attribution)
+[Attribution to dependencies](https://discordbots.co.uk/docs/attribution)
 
 ## Technical Support
 [discordapp](https://discord.gg/8uC6aKZ)
+
+## Continuous Integration
+
+Item                              | Status
+--------------------------------- | ------
+Jekyll and Webpack Build and Test | <a href='https://jenkins.moustacheminer.com/job/Discord_Fork%20Builder'><img src='https://jenkins.moustacheminer.com/buildStatus/icon?job=Discord_Fork%20Builder'></a>
+GitHub deployment                 | <a href='https://jenkins.moustacheminer.com/job/Discord_Fork%20Publisher/'><img src='https://jenkins.moustacheminer.com/buildStatus/icon?job=Discord_Fork Publisher'></a>
