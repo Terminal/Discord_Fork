@@ -7,6 +7,29 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  overflow-x: hidden;
+}
+
+body[data-ls-type="docs"] {
+  table {
+    background-color: #ffffff;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    padding: 0;
+    tr {
+      border-collapse: collapse;
+      padding: 5px;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 5px;
+      margin: 0px;
+    }
+    th {
+      font-weight: 700;
+      color: #000;
+    }
+  }
 }
 
 .fullscreen.half {
