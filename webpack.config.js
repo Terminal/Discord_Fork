@@ -5,7 +5,7 @@ module.exports = {
   mode: 'production',
   entry: ['babel-polyfill', 'whatwg-fetch', './webpack/index.js'],
   output: {
-    path: path.resolve(__dirname, 'assets', 'js'),
+    path: path.resolve(__dirname, 'assets', 'bundler'),
     publicPath: '/assets/js/',
     filename: "bundle.js"
   },
