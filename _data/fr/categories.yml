@@ -3,13 +3,13 @@ bots:
   shortname: Bots
   add: Ajouter un bot
   invite: Inviter
-  description: Baguette baguette
+  description: La liste des bots est trouvable sur GitHub.
 servers:
   pagename: Un répertoire de serveurs Discord
   shortname: Serveurs
   add: Add your own server
   invite: Join this server
-  description: The server list with built-in GitHub integration
+  description: La liste des bots est trouvable sur GitHub.
 docs:
   pagename: Documentation de développement
   shortname: Développement
