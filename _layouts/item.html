@@ -1,4 +1,4 @@
-<html>
+<html lang="{{ site.active_lang }}">
   <head>
     {% include head.html %}
   </head>
@@ -17,16 +17,16 @@
           </h2>
           <div class="link buttons" id="buttons">
             {% if page.link and page.type == 'bots' %}
-              <a id="invite" class="btn emerald" href="#" >{{ site.data.config.categories[page.type].invite }}</a>
+              <a id="invite" class="btn emerald" href="#" >{{ site.data.categories[page.type].invite }}</a>
             {% elsif page.link %}
-              <a id="invite" class="btn emerald" href="{{ page.link }}" target="_blank">{{ site.data.config.categories[page.type].invite }}</a>
+              <a id="invite" class="btn emerald" href="{{ page.link }}" target="_blank">{{ site.data.categories[page.type].invite }}</a>
             {% endif %}
             {% if page.github and page.github.owner and page.github.repo %}
               <a id="github" class="btn peter-river" href="https://github.com/{{ page.github.owner }}/{{ page.github.repo }}" target="_blank">View on GitHub</a>
             {% elsif page.github and page.github.owner %}
               <a class="btn peter-river" href="https://github.com/{{ page.github.owner }}" target="_blank">View on GitHub</a>
             {% endif %}
-            {% if page.support %}<a class="btn orange" href="{{ page.support | replace: site.data.strings.newline, '\n' | replace: site.data.strings.quote_mark, '%22'}}" target="_blank">{{ page.name | xml_escape }} Discord Server</a>{% endif %}
+            {% if page.support %}<a class="btn orange" href="{{ page.support | replace: site.data.chars.newline, '\n' | replace: site.data.chars.quote_mark, '%22'}}" target="_blank">{{ page.name | xml_escape }} Discord Server</a>{% endif %}
           </div>
           <span class="description">
             {% if page.prefix %}

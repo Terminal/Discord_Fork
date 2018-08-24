@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:700');
 @import 'ModestaCSS/css/modesta.min.css';
+@import 'ModestaCSS/css/twemoji.min.css';
+@import 'ModestaCSS/css/blobcat.min.css';
 @import 'highlight';
 
 body {
@@ -39,15 +41,18 @@ body[data-ls-type="docs"] {
     left: 0;
     width: 100%;
     width: 100vw;
-    height: 50%;
-    height: 50vh;
     display: flex;
     vertical-align: middle;
     align-items: center;
     justify-content: center;
   }
-  .background {
+  .background, .center-object {
+    height: 50%;
     height: 50vh;
+    @media (max-width: 750px) {
+      height: 75%;
+      height: 75vh;
+    }
   }
 }
 
@@ -185,6 +190,14 @@ input#search {
     width: unset;
     height: unset;
   }
+}
+
+.emoji-button {
+  padding: 10px 20px !important;
+}
+
+.lang-select {
+  font-size: 10em;
 }
 
 .btn .github-logo {

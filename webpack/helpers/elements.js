@@ -35,7 +35,7 @@ const createAvatarBox = (link, nsfw) => {
  * @param {String} id 
  * @param {Boolean} nsfw 
  */
-const createContentBox = (name, desc, type, id, nsfw) => {
+const createContentBox = (name, desc, type, id, nsfw, lang) => {
   const contentBox = document.createElement('div');
   const titleLink = document.createElement('a');
   const title = document.createElement('h4');
@@ -46,7 +46,12 @@ const createContentBox = (name, desc, type, id, nsfw) => {
   title.classList.add('title');
   description.classList.add('description');
 
-  titleLink.setAttribute('href', `/${type}/${id}`);
+  if (lang !== 'en') {
+    titleLink.setAttribute('href', `/${lang}/${type}/${id}`);
+  } else {
+    titleLink.setAttribute('href', `/${type}/${id}`);
+  }
+  
   title.innerText = name;
   description.innerText = desc;
 

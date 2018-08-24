@@ -4,7 +4,7 @@
       <img class="github-logo" src="/assets/images/GitHub-Mark-32px.png">
       <span class="black-text bold">{{ site.data.strings.edit_page }}</span>
     </a>
-    {% for category in site.data.config.categories %}
+    {% for category in site.data.categories %}
       {% if category[1].display %}
         <a class="btn white" href="{{ category[1].path }}">
           <span class="black-text bold">{{ category[1].shortname }}</span>
