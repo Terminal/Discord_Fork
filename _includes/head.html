@@ -26,6 +26,12 @@
 
 <!-- Style and JS stuff -->
 <link rel="stylesheet" href="{{ site.url }}/assets/css/custom.css">
+{% if site.active_lang == site.default_lang %}
+<script src="/api/languages.js"></script>
+{% else %}
+<script src="/{{ site.active_lang }}/api/languages.js"></script>
+{% endif %}
+
 <script src="{{ site.url }}/assets/bundler/bundle.js" type="text/javascript" charset="utf-8"></script>
 <script>
   delete localStorage;

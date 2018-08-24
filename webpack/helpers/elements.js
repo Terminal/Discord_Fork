@@ -35,7 +35,8 @@ const createAvatarBox = (link, nsfw) => {
  * @param {String} id 
  * @param {Boolean} nsfw 
  */
-const createContentBox = (name, desc, type, id, nsfw, lang) => {
+const createContentBox = (name, desc, type, id, nsfw) => {
+  const siteLang = document.documentElement.getAttribute('lang');
   const contentBox = document.createElement('div');
   const titleLink = document.createElement('a');
   const title = document.createElement('h4');
@@ -46,8 +47,8 @@ const createContentBox = (name, desc, type, id, nsfw, lang) => {
   title.classList.add('title');
   description.classList.add('description');
 
-  if (lang !== 'en') {
-    titleLink.setAttribute('href', `/${lang}/${type}/${id}`);
+  if (siteLang !== 'en') {
+    titleLink.setAttribute('href', `/${siteLang}/${type}/${id}`);
   } else {
     titleLink.setAttribute('href', `/${type}/${id}`);
   }
@@ -57,7 +58,7 @@ const createContentBox = (name, desc, type, id, nsfw, lang) => {
 
   if (nsfw) {
     const nsfwBadge = document.createElement('span');
-    nsfwBadge.innerText = 'NSFW';
+    nsfwBadge.innerText = appdata.strings.list.nsfw;
     nsfwBadge.classList.add('nsfw-tag');
     title.appendChild(nsfwBadge);
   }
@@ -77,7 +78,7 @@ const createContentBox = (name, desc, type, id, nsfw, lang) => {
 const createBotInviteModalButton = (link) => {
   const itemInvite = document.createElement('a');
 
-  itemInvite.innerText = 'Invite';
+  itemInvite.innerText = appdata.strings.list.invite;
   itemInvite.setAttribute('href', '#');
   itemInvite.addEventListener('click', (e) => {
     const discordWindow = window.open(link, '_blank', `toolbar=0,width=500,height=700,top=${Math.floor(screen.height / 2) - 250},left=${Math.floor(screen.width / 2) - 350}}`);
@@ -115,7 +116,7 @@ const createBansInviteButton = (id) => {
 const createGenericInviteButton = (link) => {
   const itemInvite = document.createElement('a');
 
-  itemInvite.innerText = 'Open';
+  itemInvite.innerText = appdata.strings.list.visit;
   itemInvite.setAttribute('href', link);
 
   return itemInvite;
@@ -131,7 +132,7 @@ const createGenericInviteButton = (link) => {
 const createViewGitHubButton = (owner, repo, text) => {
   const githubButton = document.createElement('a');
 
-  githubButton.innerText = text || 'GitHub';
+  githubButton.innerText = text || appdata.strings.list.github;
   githubButton.setAttribute('href' ,`https://github.com/${owner}/${repo}`);
   githubButton.setAttribute('target', '_blank');
 
@@ -166,9 +167,9 @@ const createToggleStarButton = (owner, repo, stars, classItems, github) => {
         let starStatus = starred;
 
         if (starred) {
-          starLabel.innerText = 'Unstar';
+          starLabel.innerText = appdata.strings.list.unstar;
         } else {
-          starLabel.innerText = 'Star';
+          starLabel.innerText = appdata.strings.list.star;
         }
 
         starDivider.innerText = '｜';
@@ -181,7 +182,7 @@ const createToggleStarButton = (owner, repo, stars, classItems, github) => {
               .unstar()
               .then(() => {
                 starStatus = false;
-                starLabel.innerText = 'Star';
+                starLabel.innerText = appdata.strings.list.star;
                 starCount.innerText = parseInt(starCount.innerText, 10) - 1;
               });
           } else {
@@ -189,7 +190,7 @@ const createToggleStarButton = (owner, repo, stars, classItems, github) => {
               .star()
               .then(() => {
                 starStatus = true;
-                starLabel.innerText = 'Unstar';
+                starLabel.innerText = appdata.strings.list.unstar;
                 starCount.innerText = parseInt(starCount.innerText, 10) + 1;
               });
           }
@@ -215,7 +216,7 @@ const createToggleStarButton = (owner, repo, stars, classItems, github) => {
 const createLoginThenStarButton = () => {
   const githubButton = document.createElement('a');
 
-  githubButton.innerText = 'Star';
+  githubButton.innerText = appdata.strings.list.star;
   githubButton.setAttribute('href', '#');
 
   githubButton.addEventListener('click', () => {

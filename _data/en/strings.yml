@@ -11,6 +11,95 @@ intro:
   terminal: Join Terminal.ink on Discord
   search: Search...
 
+list:
+  invite: 'Invite'
+  github: 'GitHub'
+  star: 'Star'
+  unstar: 'Unstar'
+  nsfw: 'NSFW'
+  visit: Visit Discord Server
+
+item:
+  prefix: 'Prefix: '
+  github: 'View on GitHub'
+  discord: 'Support Server'
+
+edit:
+  title: Add a bot
+  info: This editor is in beta.
+  notice: When you are finished, click the "Create a pull request" button to publish to GitHub, or click "Export" to see the file you are about to create.
+  default: |
+    # Title
+
+    This is a cool bot that you should accept.
+    Reasons include:
+
+    - Being awesome
+    - Not being un-awesome
+    - The prefix can be changed to !
+
+    <!--
+      Stan LOONA
+      Stan Talent
+    -->
+  client_id:
+    title: Your Client ID
+    placeholder: 'Something like: 255114091360681986'
+  application_id:
+    title: Your Application ID
+    placeholder: 'Something like: 255114091360681986'
+    button: Insert ID
+    help: '?'
+    small: Leave empty if you do not need one
+  name:
+    title: Bot Name
+    placeholder: Discord Bot Name
+  prefix:
+    title: Prefix
+    placeholder: Prefix
+  invite:
+    title: Invite URL
+    placeholder: https://discordapp.com/oauth/ or other suitable link
+  avatar:
+    title: Avatar URL
+    placeholder: https://assets.discordapp.com/ or other suitable link
+  support:
+    title: Support URL
+    placeholder: https://discord.gg/8uC6aKZ
+    small: Leave this field empty if you don't like helping people
+  nsfw:
+    title: NSFW
+    isnt: NSFW commands are not a major part of this bot
+    is: The bot avatar is NSFW, and/or the bot is NSFW orientated
+  desc:
+    title: Description
+    placeholder: This bot allows you to do magic.
+    small: The front page only allows 60 characters to be displayed.
+  github:
+    title: GitHub Repository
+    button: I have a GitHub repository
+    help: '?'
+    small: Leave empty if you do not have a GitHub repository for your bot
+  org:
+    title: GitHub User / Organisation
+    placeholder: ry00001
+  repo:
+    title: GitHub Repository
+    placeholder: Tuxedo
+  page: Bot Page
+  create_pr:
+    button: Create a pull request
+    modal:
+      title: Create a pull request
+      description: Please enter any comments you would like to make
+      wait: Please wait...
+  export:
+    button: Export
+    modal:
+      title: Export
+      description: Enter the contents into GitHub manually to continue
+  submit: Submit
+
 # Buttons
 footer:
   view: View this page in GitHub

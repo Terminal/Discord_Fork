@@ -2,21 +2,6 @@ const { showModal, closeModal } = require('./../helpers/modals');
 
 import * as monaco from 'monaco-editor';
 
-const defaultText = `# Title
-
-This is a cool bot that you should accept.
-Reasons include:
-
-- Being awesome
-- Not being un-awesome
-- The prefix can be changed to !
-
-<!--
-  Stan LOONA
-  Stan Talent
--->
-`;
-
 const EDITOR_NOTE = `
 ---
 This pull request was created using the https://discordbots.co.uk/edit menu.
@@ -88,13 +73,12 @@ module.exports = (github, localStorage) => {
   });
 
   const editor = monaco.editor.create(contents, {
-    value: defaultText,
+    value: appdata.strings.edit.default,
     language: 'markdown',
     automaticLayout: true
   });
 
   const exportEditor = monaco.editor.create(exportBox, {
-    value: defaultText,
     language: 'markdown',
     automaticLayout: true,
     readOnly: true

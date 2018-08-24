@@ -6,100 +6,95 @@ layout: docs
 type: docs
 ---
 
-<h1>Add a bot</h1>
-<p>
-  This editor is in beta.
-  Although the greatest care has been taken to prevent invalid Jekyll front matter from being escaped, it is not foolproof.
-  Please self-validate the output to prevent delays in verification.
-</p>
+<h1>{{ site.data.strings.edit.title }}</h1>
+<p>{{ site.data.strings.edit.info }}</p>
 <div class="form-container">
   <div class="row">
     <div class="one-half column">
-      <label for="client-id">Your Client ID</label>
-      <input class="full-width" placeholder="Something like: 255114091360681986" id="client-id">
+      <label for="client-id">{{ site.data.strings.edit.client_id.title }}</label>
+      <input class="full-width" placeholder="{{ site.data.strings.edit.client_id.placeholder }}" id="client-id">
     </div>
     <div class="one-half column" id="application-id-before">
-      <label>Your Application ID</label>
-      <a class="btn emerald" style="margin: 0 5px 5px 0" id="application-id-display">Insert ID</a>
-      <a class="btn snapchat black-text" style="margin: 0" id="application-id-info">?</a>
-      <p><small>Leave empty if you do not need one</small></p>
+      <label>{{ site.data.strings.edit.application_id.title }}</label>
+      <a class="btn emerald" style="margin: 0 5px 5px 0" id="application-id-display">{{ site.data.strings.edit.application_id.button }}</a>
+      <a class="btn snapchat black-text" style="margin: 0" id="application-id-info">{{ site.data.strings.edit.application_id.help }}</a>
+      <p><small>{{ site.data.strings.edit.application_id.small }}</small></p>
     </div>
     <div class="one-half column hidden" id="application-id-box">
-      <label for="application-id">Your Application ID</label>
-      <input class="full-width" placeholder="Something like: 255114091360681986" id="application-id">
-      <p><small>Leave empty if you do not need one</small></p>
+      <label for="application-id">{{ site.data.strings.edit.application_id.title }}</label>
+      <input class="full-width" placeholder="{{ site.data.strings.edit.application_id.placeholder }}" id="application-id">
+      <p><small>{{ site.data.strings.edit.application_id.small }}</small></p>
     </div>
   </div>
   <div class="row">
     <div class="one-half column">
-      <label for="name">Bot Name</label>
-      <input class="full-width" placeholder="Discord Bot Name" id="name">
+      <label for="name">{{ site.data.strings.edit.name.title }}</label>
+      <input class="full-width" placeholder="{{ site.data.strings.edit.name.placeholder }}" id="name">
     </div>
     <div class="one-half column">
-      <label for="prefix">Prefix</label>
-      <input class="full-width" placeholder="Prefix" id="prefix">
-    </div>
-  </div>
-  <div class="row">
-    <div class="one-half column">
-      <label for="invite">Invite URL</label>
-      <input class="full-width" placeholder="https://discordapp.com/oauth/" id="invite">
-    </div>
-    <div class="one-half column">
-      <label for="avatar">Avatar URL</label>
-      <input class="full-width" placeholder="https://assets.discordapp.com/" id="avatar">
+      <label for="prefix">{{ site.data.strings.edit.prefix.title }}</label>
+      <input class="full-width" placeholder="{{ site.data.strings.edit.prefix.placeholder }}" id="prefix">
     </div>
   </div>
   <div class="row">
     <div class="one-half column">
-      <label for="support">Support URL</label>
-      <input class="full-width" placeholder="https://discord.gg/8uC6aKZ" id="support">
-      <p><small>Leave empty if you want your users to not get help from you &gt;:|</small></p>
+      <label for="invite">{{ site.data.strings.edit.invite.title }}</label>
+      <input class="full-width" placeholder="{{ site.data.strings.edit.invite.placeholder }}" id="invite">
     </div>
     <div class="one-half column">
-      <label for="nsfw">NSFW</label>
+      <label for="avatar">{{ site.data.strings.edit.avatar.title }}</label>
+      <input class="full-width" placeholder="{{ site.data.strings.edit.avatar.placeholder }}" id="avatar">
+    </div>
+  </div>
+  <div class="row">
+    <div class="one-half column">
+      <label for="support">{{ site.data.strings.edit.support.title }}</label>
+      <input class="full-width" placeholder="{{ site.data.strings.edit.support.placeholder }}" id="support">
+      <p><small>{{ site.data.strings.edit.support.small }}</small></p>
+    </div>
+    <div class="one-half column">
+      <label for="nsfw">{{ site.data.strings.edit.nsfw.title }}</label>
       <select class="full-width" id="nsfw">
-        <option value="false">NSFW commands are not a major part of this bot</option>
-        <option value="true">The bot avatar is NSFW, and/or the bot is NSFW orientated</option>
+        <option value="false">{{ site.data.strings.edit.nsfw.isnt }}</option>
+        <option value="true">{{ site.data.strings.edit.nsfw.is }}</option>
       </select>
     </div>
   </div>
   <div class="row">
     <div class="none column">
-      <label for="short-description">Short Description</label>
-      <input class="full-width" placeholder="The bot that allows you to xyz" id="short-description">
-      <p><small>Limited to 60 characters, will be trucated</small></p>
+      <label for="short-description">{{ site.data.strings.edit.desc.title }}</label>
+      <input class="full-width" placeholder="{{ site.data.strings.edit.desc.placeholder }}" id="short-description">
+      <p><small>{{ site.data.strings.edit.desc.small }}</small></p>
     </div>
   </div>
   <div class="row">
     <div class="none column" id="github-before">
-      <label>GitHub Repository</label>
-      <a class="btn emerald" style="margin: 0 5px 1.5rem 0" id="github-display">I have a GitHub repository</a>
-      <a class="btn snapchat black-text" style="margin: 0" id="github-info">?</a>
-      <p><small>Leave empty if you do have a GitHub repository for your bot</small></p>
+      <label>{{ site.data.strings.edit.github.title }}</label>
+      <a class="btn emerald" style="margin: 0 5px 1.5rem 0" id="github-display">{{ site.data.strings.edit.github.button }}</a>
+      <a class="btn snapchat black-text" style="margin: 0" id="github-info">{{ site.data.strings.edit.github.help }}</a>
+      <p><small>{{ site.data.strings.edit.github.small }}</small></p>
     </div>
     <div class="one-half column hidden" id="github-owner-box">
-      <label for="github-owner">GitHub User / Organisation</label>
-      <input class="full-width" placeholder="ry00001" id="github-owner">
+      <label for="github-owner">{{ site.data.strings.edit.org.title }}</label>
+      <input class="full-width" placeholder="{{ site.data.strings.edit.org.placeholder }}" id="github-owner">
     </div>
     <div class="one-half column hidden" id="github-repo-box">
-      <label for="github-repo">GitHub Repository</label>
-      <input class="full-width" placeholder="Tuxedo" id="github-repo">
+      <label for="github-repo">{{ site.data.strings.edit.repo.title }}</label>
+      <input class="full-width" placeholder="{{ site.data.strings.edit.repo.placeholder }}" id="github-repo">
     </div>
   </div>
   
-  <label for="contents">Bot Page</label>
+  <label for="contents">{{ site.data.strings.edit.page }}</label>
   <div id="contents" class="monaco-editor"></div>
   <br>
-  <p>
-    When you are finished, click "Create a pull request" to publish to GitHub,
-    or click Export to see the file you are about to create.
-  </p>
+  <p>{{ site.data.strings.edit.notice }}</p>
   <a class="btn white black-text" id="merge-button">
     <img class="github-logo" src="/assets/images/GitHub-Mark-32px.png">
-    Create a pull request
+    {{ site.data.strings.edit.create_pr.button }}
   </a>
-  <a class="btn emerald" id="export-button">Export</a>
+  <a class="btn emerald" id="export-button">
+    {{ site.data.strings.edit.export.button }}
+  </a>
 </div>
 <div id="whatis-application-id" class="modal modal--close">
   <div class="modal-content">
@@ -139,21 +134,21 @@ type: docs
 <div id="export-modal" class="modal modal--close">
   <div class="modal-content">
     <span class="close">&times;</span>
-    <h1>Export</h1>
-    <p>Copy the contents into GitHub to continue</p>
+    <h1>{{ site.data.strings.edit.export.modal.title }}</h1>
+    <p>{{ site.data.strings.edit.export.modal.description }}</p>
     <div id="export-editor" class="monaco-editor"></div>
   </div>
 </div>
 <div id="merge-modal" class="modal modal--close" data-owner="{{ site.data.links.owner }}" data-repo="{{ site.data.links.repo }}">
   <div class="modal-content" id="merge-modal-content">
     <span class="close">&times;</span>
-    <h1>Create a pull request</h1>
-    <p>Please enter any comments you would like to make</p>
+    <h1>{{ site.data.strings.edit.create_pr.modal.title }}</h1>
+    <p>{{ site.data.strings.edit.create_pr.modal.description }}</p>
     <div id="merge-editor" class="monaco-editor"></div>
-    <a class="btn white black-text" id="merge-modal-submit-button">Submit</a>
+    <a class="btn white black-text" id="merge-modal-submit-button">{{ site.data.strings.edit.submit }}</a>
   </div>
   <div class="modal-content center hidden" id="merge-modal-loading-content">
-    <h1>Please wait</h1>
+    <h1>{{ site.data.strings.edit.create_pr.modal.wait }}</h1>
     {% include spinner.html %}
     <pre id="merge-modal-logs"></pre>
   </div>
