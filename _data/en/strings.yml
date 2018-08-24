@@ -106,3 +106,7 @@ footer:
   licence: Licence
   attribution: Attribution
   source: Source Code
+
+notfound:
+  message: Page not found
+  gohome: Go Home

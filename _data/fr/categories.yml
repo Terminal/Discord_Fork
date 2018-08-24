@@ -7,9 +7,9 @@ bots:
 servers:
   pagename: Un répertoire de serveurs Discord
   shortname: Serveurs
-  add: Add your own server but in French
-  invite: Join this server but in French
-  description: La liste des bots est trouvable sur GitHub.
+  add: Ajouter un servur
+  invite: Inviter
+  description: La liste des serveurs est trouvable sur GitHub.
 docs:
   pagename: Documentation de développement
   shortname: Développement

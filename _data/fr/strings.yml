@@ -92,8 +92,8 @@ intro:
 list:
   invite: Inviter
   github: GitHub
-  star: Star but in French
-  unstar: Unstar but in French
+  star: Star
+  unstar: Unstar
   nsfw: NSFW
   visit: Visiter le serveur Discord
 
@@ -108,3 +108,7 @@ footer:
   licence: Licence
   attribution: Attribution
   source: Code Source
+
+notfound:
+  message: La page est introuvable
+  gohome: Retourner à l'accueil
