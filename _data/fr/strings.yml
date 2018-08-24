@@ -7,8 +7,10 @@ copyright: >
   Translation by HIHIGH
 
 intro:
-  login: Login via GitHub
+  login: Connexion via GitHub
+  logout: Déconnexion
   terminal: Join Terminal.ink on Discord
+  search: Rechercher...
 
 # Buttons
 footer:

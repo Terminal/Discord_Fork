@@ -7,7 +7,9 @@ copyright: >
 
 intro:
   login: Login via GitHub
+  logout: Logout
   terminal: Join Terminal.ink on Discord
+  search: Search...
 
 # Buttons
 footer:
