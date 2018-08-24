@@ -8,8 +8,15 @@
 <meta property="og:title" content="{{ page.pagename }}" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+
+{% if page.desc_code %}
+<meta property="og:description" content="{{ site.data.descriptions[page.desc_code] }} - discordbots.co.uk" />
+<meta name="description" content="{{ site.data.descriptions[page.desc_code] }} - discordbots.co.uk" />
+{% else %}
 <meta property="og:description" content="{{ page.description }} - discordbots.co.uk" />
 <meta name="description" content="{{ page.description }} - discordbots.co.uk" />
+{% endif %}
+
 {% I18n_Headers %}
 
 {% if page.avatar %}

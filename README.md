@@ -62,3 +62,28 @@ Item                              | Status
 --------------------------------- | ------
 Jekyll and Webpack Build and Test | <a href='https://jenkins.moustacheminer.com/job/Discord_Fork%20Builder'><img src='https://jenkins.moustacheminer.com/buildStatus/icon?job=Discord_Fork%20Builder'></a>
 GitHub deployment                 | <a href='https://jenkins.moustacheminer.com/job/Discord_Fork%20Publisher/'><img src='https://jenkins.moustacheminer.com/buildStatus/icon?job=Discord_Fork%20Publisher'></a>
+
+# Developer Notes
+```
+Pages within the _pages folder should not have a "French" copy.
+  These need to use the `desc_code` front matter to use a new description within the `_data/:lang/descriptions.yml` file
+Pages within the _bots, _docs and _servers folder can have a subfolder with the language
+  The language of the page needs to be placed in the front matter, like
+
+  ---
+  pagename: wow
+  github:
+    owner: Terminal
+    repo: Discord_Fork
+  lang: fr
+  ---
+
+  Copies of the same language do not pass information between each other.
+  For example, if you have an English file, the front matter needs to be copied into the French file, with changes to the description and page name for language differences
+
+All translations for the website itself, and not user generated content (and documentation) should be in the _data/:lang folder.
+  Translators need to go through all .yml files.
+
+Am I a terrible person?
+  Yes
+```
