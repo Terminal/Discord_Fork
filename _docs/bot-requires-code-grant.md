@@ -1,5 +1,6 @@
 ---
 pagename: '"Bot requires code grant" error when inviting Discord Bots'
+description: Information on the "Bot requires code grant" error, and how bot owners can fix the error for their clients
 ---
 
 # "Bot requires code grant" when inviting Bots
