@@ -5,7 +5,13 @@ copyright: >
   GitHub® is a trademark of GitHub, Inc.<br>
   Discord is a trademark of Discord Inc.
 
+intro:
+  login: Login via GitHub
+  terminal: Join Terminal.ink on Discord
+
 # Buttons
-edit_page: View this page on GitHub
-
-
+footer:
+  view: View this page in GitHub
+  licence: Licence
+  attribution: Attribution
+  source: Source Code

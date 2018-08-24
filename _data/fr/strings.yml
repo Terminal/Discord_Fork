@@ -6,7 +6,13 @@ copyright: >
   Discord is a trademark of Discord Inc.<br>
   Translation by HIHIGH
 
+intro:
+  login: Login via GitHub
+  terminal: Join Terminal.ink on Discord
+
 # Buttons
-edit_page: View this page on GitHub
-
-
+footer:
+  view: View this page in GitHub
+  licence: Licence
+  attribution: Attribution
+  source: Source Code
