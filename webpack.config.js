@@ -2,7 +2,7 @@ const path = require('path');
 const MonacoWebpackPlugin = require('monaco-editor-webpack-plugin');
 
 module.exports = {
-  mode: 'development',
+  mode: 'production',
   entry: ['babel-polyfill', 'whatwg-fetch', './webpack/index.js'],
   output: {
     path: path.resolve(__dirname, 'assets', 'bundler'),
