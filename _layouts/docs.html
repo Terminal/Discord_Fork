@@ -1,4 +1,4 @@
-<html>
+<html lang="{{ site.active_lang }}">
   <head>
     {% include head.html %}
   </head>
@@ -8,8 +8,8 @@
     
       <div class="nav-content">
         <h4 class="center">
-          <a href="{{ site.data.config.categories[page.type].path }}">
-            {{ site.data.config.categories[page.type].pagename }}
+          <a href="{{ site.data.categories[page.type].path }}">
+            {{ site.data.categories[page.type].pagename }}
           </a>
         </h4>
       </div>

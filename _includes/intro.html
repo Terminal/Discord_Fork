@@ -1,24 +1,27 @@
 <section class="fullscreen half">
-  <div data-jarallax data-speed="0.25" class="background" style="background-image: url('{{ site.data.config.categories[page.type].parallax }}');"></div>
+  <div data-jarallax data-speed="0.25" class="background" style="background-image: url('{{ site.data.categories[page.type].parallax }}');"></div>
   <div class="center-object">
     <div class="center-items">
-      <a href="{{ site.data.config.categories[page.type].path }}">
+      <a href="{{ site.data.categories[page.type].path }}">
         <section class="me unset">
           <img draggable="false" src="{{ site.url }}/assets/images/logo.png" class="image-title" style="margin-right: .5em;">
           <div>
-            <h1 class="title no-margin white-text">{{ site.data.config.categories[page.type].pagename }}</h1>
-            <span class="undertitle white-text">{{ site.data.config.categories[page.type].description }}</span>
+            <h1 class="title no-margin white-text">{{ site.data.categories[page.type].pagename }}</h1>
+            <span class="undertitle white-text">{{ site.data.categories[page.type].description }}</span>
           </div>
         </section>
       </a>
       <div class="buttons">
-        <a class="btn peter-river" target="_blank" href="{{ site.data.config.categories[page.type].contribute }}">{{ site.data.config.categories[page.type].add }}</a>
-        <a class="btn orange" target="_blank" href="{{ site.data.links.discord }}">Terminal.ink Discord</a>
-        <a class="btn wisteria" id="loginButton" href="/oauth/login">Login to GitHub</a>
+        <a class="btn peter-river" target="_blank" href="{{ site.data.categories[page.type].contribute }}">{{ site.data.categories[page.type].add }}</a>
+        <a class="btn orange" target="_blank" href="{{ site.data.links.discord }}">{{ site.data.strings.intro.terminal }}</a>
+        <a class="btn wisteria" id="loginButton" href="/oauth/login" data-logout="{{ site.data.strings.intro.logout }}">{{ site.data.strings.intro.login }}</a>
+        <a class="btn white emoji-button" href="/lang">
+          <span class="emoji twa-globe-showing-europe-africa"></span>
+        </a>
       </div>
       {% if page.search == true %}
         <div class="center">
-          <input id="search" type="text" placeholder="Search.." autocomplete="off">
+          <input id="search" type="text" placeholder="{{ site.data.strings.intro.search }}" autocomplete="off">
         </div>
       {% endif %}
     </div>

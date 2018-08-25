@@ -8,7 +8,7 @@ const updateButton = (localStorage) => {
   const loginButton = document.getElementById('loginButton');
   const data = JSON.parse(localStorage.getItem('userinfo'));
   if (loginButton) {
-    loginButton.innerText = `Logout from ${data.name || data.login}`;
+    loginButton.innerText = `${loginButton.dataset.logout} (${data.name || data.login})`;
     loginButton.href = '#';
     loginButton.addEventListener('click', () => {
       localStorage.clear();

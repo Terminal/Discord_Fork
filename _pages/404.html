@@ -1,15 +1,16 @@
 ---
 pagename: Error
-description: The page was not found
+desc_code: notfound
 permalink: "/404"
 layout: blank
 type: bots
+sitemap: false
 ---
 
 <div class="center-text">
   <h1>
     404<br>
-    Page not found<span class="cursor">_</span>
+    {{ site.data.strings.notfound.message }}<span class="cursor">_</span>
   </h1>
-  <a href="/" class="button">Back to home</a>
+  <a href="/" class="button">{{ site.data.strings.notfound.gohome }}</a>
 </div>

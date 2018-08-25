@@ -3,6 +3,7 @@ const info = require('./../helpers/info');
 
 const createCard = (github, localStorage, listItem, data = {}, type) => {
   const itemCard = document.createElement('section');
+  const siteLang = document.documentElement.getAttribute('lang');
   let calculatedScore = Math.random();
 
   itemCard.classList.add('card');
@@ -50,14 +51,20 @@ const createCard = (github, localStorage, listItem, data = {}, type) => {
       itemCard.dataset.licence = data.data.license.spdx_id;
       calculatedScore += 1;
     }
+  } else if (listItem.github) {
+    // If the user isn't logged in and GitHub data exists, add 1 point.
+    calculatedScore += 1;
   }
+
+  // If the user's language is the same as the language of the bot, add 10 points
+  if (siteLang === listItem.lang) calculatedScore += 10;
   
   itemCard.dataset.randomScore = Math.random();
   itemCard.dataset.calculatedScore = calculatedScore;
   itemCard.dataset.id = listItem.id;
 
   itemCard.appendChild(elements.createAvatarBox(listItem.avatar, listItem.nsfw));
-  itemCard.appendChild(elements.createContentBox(listItem.name, listItem.description, type, listItem.id, listItem.nsfw));
+  itemCard.appendChild(elements.createContentBox(listItem.name, listItem.description, type, listItem.id, listItem.nsfw, listItem.lang));
   itemCard.appendChild(createButtonsBox());
   return itemCard;
 };
@@ -108,7 +115,15 @@ module.exports = (github, localStorage) => {
 
   if (list) {
     const type = list.dataset.listType;
-    fetch(`/api/${type}/all.json`)
+    const siteLang = document.documentElement.getAttribute('lang');
+    let path = `/api/${type}/all.json`;
+
+    if (siteLang !== 'en') {
+      path = `/${siteLang}${path}`;
+    }
+
+    // If the language is English, do not add the language path
+    fetch(path)
       .then(data => data.json())
       .then((items) => {
         items.forEach((listItem) => {

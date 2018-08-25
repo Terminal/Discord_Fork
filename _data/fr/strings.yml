@@ -1,0 +1,114 @@
+# Text
+copyright: >
+  Copyright 2017 - 2018, Terminal.ink<br>
+  Concept original par AlexFlipnote<br>
+  GitHub® est une marque de GitHub, Inc.<br>
+  Discord est une marque de Discord Inc.<br>
+  Traduction par Bowser65
+
+edit:
+  title: Ajouter un bot
+  info: Cet éditeur est en bêta.
+  notice: Lorsque vous avez fini, cliquez sur le bouton "Créer une pull request" pour publier sur GitHub, ou cliquez sur "Exporter" pour voir le fichier que vous êtes sur le point de créer.
+  default: |
+    # Titre
+
+    C'est un bot cool que vous devriez accepter.
+    Les raisons incluent:
+
+    - Être génial
+    - Ne pas être pas génial
+    - Le préfixe peut être changé en !
+
+    <!--
+      Stan LOONA
+      Stan Talent
+    -->
+  client_id:
+    title: Votre ID Client
+    placeholder: 'Quelque chose comme: 255114091360681986'
+  application_id:
+    title: Votre ID d'Application
+    placeholder: 'Quelque chose comme: 255114091360681986'
+    button: Insérer un ID
+    help: '?'
+    small: Laissez vide si vous n'en avez pas besoin
+  name:
+    title: Nom du bot
+    placeholder: Nom du bot Discord
+  prefix:
+    title: Préfixe
+    placeholder: Préfixe
+  invite:
+    title: URL d'invitation
+    placeholder: https://discordapp.com/oauth/ ou autre lien adapté
+  avatar:
+    title: URL de l'avatar
+    placeholder: https://assets.discordapp.com/ ou autre lien adapté
+  support:
+    title: URL du support
+    placeholder: https://discord.gg/8uC6aKZ
+    small: Laissez ce champ vide si vous n'aimez pas aider les gens
+  nsfw:
+    title: NSFW
+    isnt: Les commandes NSFW ne sont pas une partie majeure du bot
+    is: L'avatar du bot est NSFW, et/ou le bot est orienté NSFW
+  desc:
+    title: Description
+    placeholder: Ce bot vous permet de faire de la magie.
+    small: La page d'accueil n'autorise que 60 caractères à être affichés.
+  github:
+    title: Dépôt GitHub
+    button: J'ai un dépôt GitHub
+    help: '?'
+    small: Laissez vide si vous n'avez pas de dépôt GitHub pour votre bot
+  org:
+    title: Utilisateur / Organisation GitHub
+    placeholder: ry00001
+  repo:
+    title: Dépôt GitHub
+    placeholder: Tuxedo
+  page: Page du Bot
+  create_pr:
+    button: Créer une pull request
+    modal:
+      title: Créer une pull request
+      description: Veuillez entrer tout commentaire que vous souhaitez mettre
+      wait: Veuillez patienter...
+  export:
+    button: Exporter
+    modal:
+      title: Exporter
+      description: Entrez le contenu manuellement sur GitHub afin de continuer
+  submit: Envoyer
+
+
+intro:
+  login: Connexion via GitHub
+  logout: Déconnexion
+  terminal: Rejoindre le Discord Terminal.ink
+  search: Rechercher...
+
+list:
+  invite: Inviter
+  github: GitHub
+  star: Star
+  unstar: Unstar
+  nsfw: NSFW
+  visit: Visiter le serveur Discord
+
+item:
+  prefix: 'Préfixe: '
+  github: GitHub
+  discord: Aide
+
+# Buttons
+footer:
+  view: Voir cette page sur GitHub
+  licence: Licence
+  attribution: Attribution
+  source: Code Source
+
+notfound:
+  message: La page est introuvable
+  gohome: Retourner à l'accueil

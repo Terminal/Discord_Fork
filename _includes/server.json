@@ -1,14 +1,14 @@
-    "id" : "{{ server.server_id | replace: site.data.strings.newline, '\n' }}",
-    "server_id" : "{{ server.server_id | replace: site.data.strings.newline, '\n' }}",
-    "name" : "{{ server.pagename | replace: site.data.strings.newline, '\n' }}",
-    "description" : "{{ server.description | replace: site.data.strings.newline, '\n' | replace: '"', '\"' | truncate: 60 }}",
-    "long_description" : "{% if server.long_description %}{{ server.long_description | replace: site.data.strings.newline, '\n' | replace: '"', '\"' }}{% else %}{{ server.description | replace: '\', '\\' | replace: site.data.strings.newline, '\n' | replace: '"', '\"' }}{% endif %}",
-    "url_safe": "{{ server.pagename | downcase | replace:' ', '' | replace: site.data.strings.newline, '\n' }}",
-    "avatar" : "{{ server.avatar | replace: site.data.strings.newline, '\n' }}",
-    "link" : "{{ server.link | replace: site.data.strings.newline, '\n' }}",{% if server.github %}
+    "id" : "{{ server.server_id | replace: site.data.chars.newline, '\n' }}",
+    "server_id" : "{{ server.server_id | replace: site.data.chars.newline, '\n' }}",
+    "name" : "{{ server.pagename | replace: site.data.chars.newline, '\n' }}",
+    "description" : "{{ server.description | replace: site.data.chars.newline, '\n' | replace: '"', '\"' | truncate: 60 }}",
+    "long_description" : "{% if server.long_description %}{{ server.long_description | replace: site.data.chars.newline, '\n' | replace: '"', '\"' }}{% else %}{{ server.description | replace: '\', '\\' | replace: site.data.chars.newline, '\n' | replace: '"', '\"' }}{% endif %}",
+    "url_safe": "{{ server.pagename | downcase | replace:' ', '' | replace: site.data.chars.newline, '\n' }}",
+    "avatar" : "{{ server.avatar | replace: site.data.chars.newline, '\n' }}",
+    "link" : "{{ server.link | replace: site.data.chars.newline, '\n' }}",{% if server.github %}
     "github" : { {% if server.github.owner %}
-        "owner" : "{{ server.github.owner | replace: '\', '\\' | replace: site.data.strings.newline, '\n' | replace: '"', '\"'}}"{% if server.github.repo %},{% endif %}{% endif %}{% if server.github.repo %}
-        "repo" : "{{ server.github.repo | replace: '\', '\\' | replace: site.data.strings.newline, '\n' | replace: '"', '\"'}}"{% endif %}
+        "owner" : "{{ server.github.owner | replace: '\', '\\' | replace: site.data.chars.newline, '\n' | replace: '"', '\"'}}"{% if server.github.repo %},{% endif %}{% endif %}{% if server.github.repo %}
+        "repo" : "{{ server.github.repo | replace: '\', '\\' | replace: site.data.chars.newline, '\n' | replace: '"', '\"'}}"{% endif %}
     },{% endif %}
-    "verified" : {% if server.verified %}{{ server.verified | replace: site.data.strings.newline, '\n' }}{% else %}false{% endif %},
-    "nsfw" : {{ server.nsfw | replace: site.data.strings.newline, '\n' }}
+    "verified" : {% if server.verified %}{{ server.verified | replace: site.data.chars.newline, '\n' }}{% else %}false{% endif %},
+    "nsfw" : {{ server.nsfw | replace: site.data.chars.newline, '\n' }}

@@ -4,6 +4,7 @@ url: https://discordbots.co.uk
 encoding: utf-8
 
 plugins:
+  - jekyll-polyglot
   - jekyll-sitemap
 
 include: 
@@ -22,6 +23,15 @@ exclude:
   - package.json
   - package-lock.json
   - Gemfile.lock
+
+languages:
+  - en
+  - fr
+
+default_lang: en
+exclude_from_localization:
+  - assets
+parallel_localization: true
 
 sass:
   sass_dir: _sass
@@ -55,6 +65,7 @@ defaults:
     values:
       layout: item
       type: bots
+      lang: en
   - scope:
       path: ""
       type: servers
