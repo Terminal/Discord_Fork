@@ -193,7 +193,9 @@ module.exports = (github, localStorage) => {
 
         const writeToFork = () => {
           pullLog('Writing file to GitHub');
-          userRepo.writeFile(forkData.default_branch, `_bots/${clientId.value.replace(/[^0-9]/g, '')}.md`, getContents(), `Adding ${name.value} via Discord_Fork Editor`, {}, (error2) => {
+          const siteLang = document.documentElement.getAttribute('lang');
+          const folder = siteLang === 'en' ? '' : `${siteLang}/`;
+          userRepo.writeFile(forkData.default_branch, `_bots/${folder}${clientId.value.replace(/[^0-9]/g, '')}.md`, getContents(), `Adding ${name.value} via Discord_Fork Editor`, {}, (error2) => {
             if (error2) {
               pullLog(error2);
             } else {
