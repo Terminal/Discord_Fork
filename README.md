@@ -35,6 +35,9 @@ webpack --watch
 You will require some kind of Linux. I prefer Ubuntu 18.04.
 Windows users may wish to use the Windows Subsystem for Linux.
 
+### Translating
+[click me](https://discordbots.co.uk/docs/locale)
+
 ### Ubuntu 18.04, 16.04, WSL Ubuntu
 ```
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
