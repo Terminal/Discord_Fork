@@ -178,11 +178,9 @@ module.exports = (github, localStorage) => {
     mergeModalContent.classList.add('hidden');
     mergeModalLoadingContent.classList.remove('hidden');
 
-    const terminalOwner = mergeModal.dataset.owner;
-    const terminalRepoName = mergeModal.dataset.repo;
-    const terminalRepo = github.getRepo(terminalOwner, terminalRepoName);
+    const terminalRepo = github.getRepo(appdata.links.owner, appdata.links.repo);
 
-    pullLog(`Forking ${terminalOwner}/${terminalRepoName} on GitHub`);
+    pullLog(`Forking ${appdata.links.owner}/${appdata.links.repo} on GitHub`);
     terminalRepo.fork((error1, forkData) => {
       if (error1) {
         pullLog(error1);
