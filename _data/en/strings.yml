@@ -43,10 +43,10 @@ edit:
       Stan Talent
     -->
   client_id:
-    title: Your Client ID
+    title: Bot User ID
     placeholder: 'Something like: 255114091360681986'
   application_id:
-    title: Your Application ID
+    title: Bot OAuth ID
     placeholder: 'Something like: 255114091360681986'
     button: Insert ID
     help: '?'
