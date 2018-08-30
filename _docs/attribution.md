@@ -12,7 +12,7 @@ These modules may also have extra dependencies which are not listed here.
 
 Language | GitHub User
 -------- | -----------
-fr       | [Borwser65](https://github.com/Bowser65)
+fr       | [Bowser65](https://github.com/Bowser65)
 
 ## Dependencies
 
