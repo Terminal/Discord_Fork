@@ -10,6 +10,7 @@ intro:
   logout: Logout
   terminal: Join Terminal.ink on Discord
   search: Search...
+  netlify: Fork (using netlify)
 
 list:
   invite: 'Invite'
