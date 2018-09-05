@@ -10,12 +10,17 @@ type: docs
 Discord_Fork is the (nearly) entirely clientside bot list, relying on a server only for GitHub OAuth to fetch the client token for the user.
 
 - [Available API endpoints](api-reference)
+
+## Useful Links
+- [Deploy this website with Netlify]({{ site.data.links.netlify }})
+- [Add a new bot](/edit)
+
+## Discord Fork Development
 - [README.md](readme)
 - [Attributions](attribution)
 - [How to Translate](locale)
 
 ## Bots
-- [Add a new bot](/edit)
 - [How to add a bot](adding-a-bot-via-website) **(recommended)**
 - [How to add a bot via GitHub](adding-a-bot)
 
