@@ -59,13 +59,6 @@ Edit `_data/links.yml` to point to the auth server.
 ## Technical Support
 [discordapp](https://discord.gg/8uC6aKZ)
 
-## Continuous Integration
-
-Item                              | Status
---------------------------------- | ------
-Jekyll and Webpack Build and Test | <a href='https://jenkins.moustacheminer.com/job/Discord_Fork%20Builder'><img src='https://jenkins.moustacheminer.com/buildStatus/icon?job=Discord_Fork%20Builder'></a>
-GitHub deployment                 | <a href='https://jenkins.moustacheminer.com/job/Discord_Fork%20Publisher/'><img src='https://jenkins.moustacheminer.com/buildStatus/icon?job=Discord_Fork%20Publisher'></a>
-
 # Developer Notes
 ```
 Pages within the _pages folder should not have a "French" copy.
