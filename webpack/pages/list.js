@@ -108,7 +108,6 @@ module.exports = (github, localStorage) => {
             return b.score - a.score;
           });
         const displayItems = (subset) => {
-          console.log(subset);
           subset.forEach((listItem) => {
             if (github && listItem.github && listItem.github.repo && listItem.github.owner) {
               info.getInfo(github, localStorage, listItem.github.owner, listItem.github.repo)
@@ -124,8 +123,6 @@ module.exports = (github, localStorage) => {
             }
           });
         };
-
-        console.log(displayOrder);
         
         displayItems(displayOrder.splice(0, 10));
 
