@@ -3,8 +3,6 @@ const info = require('./../helpers/info');
 
 const createCard = (github, localStorage, listItem, data = {}, type) => {
   const itemCard = document.createElement('section');
-  const siteLang = document.documentElement.getAttribute('lang');
-  let calculatedScore = Math.random();
 
   itemCard.classList.add('card');
   const createButtonsBox = () => {
@@ -41,26 +39,7 @@ const createCard = (github, localStorage, listItem, data = {}, type) => {
     return buttonsBox;
   };
 
-  if (data && data.data) {
-    // If a GitHub repository exists, add 1 point.
-    calculatedScore += 1;
-
-    // For any licence, add 1 point.
-    if (data.data.license && data.data.license.spdx_id) {
-      // licence is spelled right, deal with the .co.uk
-      itemCard.dataset.licence = data.data.license.spdx_id;
-      calculatedScore += 1;
-    }
-  } else if (listItem.github) {
-    // If the user isn't logged in and GitHub data exists, add 1 point.
-    calculatedScore += 1;
-  }
-
-  // If the user's language is the same as the language of the bot, add 10 points
-  if (siteLang === listItem.lang) calculatedScore += 10;
-  
   itemCard.dataset.randomScore = Math.random();
-  itemCard.dataset.calculatedScore = calculatedScore;
   itemCard.dataset.id = listItem.id;
 
   itemCard.appendChild(elements.createAvatarBox(listItem.avatar, listItem.nsfw));
@@ -69,19 +48,10 @@ const createCard = (github, localStorage, listItem, data = {}, type) => {
   return itemCard;
 };
 
-const sortCards = (ordering = 'calculatedScore') => {
-  const list = document.getElementById('list');
-  [...list.childNodes]
-    .filter(card => card.nodeName === 'SECTION')
-    .sort((a, b) => b.dataset[ordering] - a.dataset[ordering])
-    .forEach(card => list.appendChild(card));
-};
-
-const createAppendSort = (github, localStorage, item, data, type) => {
+const appendCard = (github, localStorage, item, data, type) => {
   const list = document.getElementById('list');
   const card = createCard(github, localStorage, item, data, type);
   list.appendChild(card);
-  sortCards();
 }
 
 module.exports = (github, localStorage) => {
@@ -126,18 +96,42 @@ module.exports = (github, localStorage) => {
     fetch(path)
       .then(data => data.json())
       .then((items) => {
-        items.forEach((listItem) => {
-          if (github && listItem.github && listItem.github.repo && listItem.github.owner) {
-            info.getInfo(github, localStorage, listItem.github.owner, listItem.github.repo)
-              .then((data) => {
-                createAppendSort(github, localStorage, listItem, data, type);
-              })
-              .catch((error) => {
-                console.error(error);
-                createAppendSort(github, localStorage, listItem, {}, type);
-              });
-          } else {
-            createAppendSort(github, localStorage, listItem, {}, type);
+        const displayOrder = items
+          .map((item) => {
+            let score = Math.random();
+            if (item.github) score += 2;
+            if (siteLang === item.lang) score += 10;
+            item.score = score;
+            return item;
+          })
+          .sort((a, b) => {
+            return b.score - a.score;
+          });
+        const displayItems = (subset) => {
+          console.log(subset);
+          subset.forEach((listItem) => {
+            if (github && listItem.github && listItem.github.repo && listItem.github.owner) {
+              info.getInfo(github, localStorage, listItem.github.owner, listItem.github.repo)
+                .then((data) => {
+                  appendCard(github, localStorage, listItem, data, type);
+                })
+                .catch((error) => {
+                  console.error(error);
+                  appendCard(github, localStorage, listItem, {}, type);
+                });
+            } else {
+              appendCard(github, localStorage, listItem, {}, type);
+            }
+          });
+        };
+
+        console.log(displayOrder);
+        
+        displayItems(displayOrder.splice(0, 10));
+
+        document.addEventListener('scroll', (event) => {
+          if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight - 100 && items.length) {
+            displayItems(displayOrder.splice(0, 10));
           }
         });
       });
