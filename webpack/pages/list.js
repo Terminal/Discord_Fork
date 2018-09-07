@@ -40,7 +40,7 @@ const createCard = (github, localStorage, listItem, data = {}, type) => {
   };
 
   itemCard.dataset.randomScore = Math.random();
-  itemCard.dataset.id = listItem.id;
+  itemCard.id = listItem[listItem.primary_key];
 
   itemCard.appendChild(elements.createAvatarBox(listItem.avatar, listItem.nsfw));
   itemCard.appendChild(elements.createContentBox(listItem.pagename, listItem.description, type, listItem.permalink, listItem.nsfw, listItem.lang));
@@ -57,31 +57,6 @@ const appendCard = (github, localStorage, item, data, type) => {
 module.exports = (github, localStorage) => {
   const list = document.getElementById('list');
   const search = document.getElementById('search');
-
-  if (search && list) {
-    search.addEventListener('keyup', () => {
-      const query = search.value.toLowerCase().trim();
-      const cards = [...list.childNodes];
-
-      cards
-        .filter(card => card.nodeName === 'SECTION')
-        .forEach((card) => {
-          let text = '';
-
-          text += card.innerText;
-          text += card.dataset.id;
-          if (card.dataset.licence) text += card.dataset.licence;
-
-          // If can't find the card
-          if (text.toLowerCase().indexOf(query) === -1) {
-            card.classList.add('hidden');
-          } else {
-            // otherwise, allow it to be seen
-            card.classList.remove('hidden');
-          }
-        });
-    });
-  }
 
   if (list) {
     const type = list.dataset.listType;
@@ -107,21 +82,24 @@ module.exports = (github, localStorage) => {
           .sort((a, b) => {
             return b.score - a.score;
           });
+
+        const displayItem = (listItem) => {
+          if (github && listItem.github && listItem.github.repo && listItem.github.owner) {
+            info.getInfo(github, localStorage, listItem.github.owner, listItem.github.repo)
+              .then((data) => {
+                appendCard(github, localStorage, listItem, data, type);
+              })
+              .catch((error) => {
+                console.error(error);
+                appendCard(github, localStorage, listItem, {}, type);
+              });
+          } else {
+            appendCard(github, localStorage, listItem, {}, type);
+          }
+        }
+
         const displayItems = (subset) => {
-          subset.forEach((listItem) => {
-            if (github && listItem.github && listItem.github.repo && listItem.github.owner) {
-              info.getInfo(github, localStorage, listItem.github.owner, listItem.github.repo)
-                .then((data) => {
-                  appendCard(github, localStorage, listItem, data, type);
-                })
-                .catch((error) => {
-                  console.error(error);
-                  appendCard(github, localStorage, listItem, {}, type);
-                });
-            } else {
-              appendCard(github, localStorage, listItem, {}, type);
-            }
-          });
+          subset.forEach(listItem => displayItem(listItem));
         };
         
         displayItems(displayOrder.splice(0, 10));
@@ -131,6 +109,33 @@ module.exports = (github, localStorage) => {
             displayItems(displayOrder.splice(0, 10));
           }
         });
+
+        if (search && list) {
+          search.addEventListener('keyup', () => {
+            const query = search.value.toLowerCase().trim();
+            displayItems(displayOrder.splice(0, displayOrder.length));
+      
+            items
+              .forEach((listItem) => {
+                const card = document.getElementById(listItem[listItem['primary_key']]);
+                let text = listItem.description
+                  + listItem.pagename;
+
+                if (text.toLowerCase().indexOf(query) === -1) {
+                  // If it doesn't match, hide cards with that ID
+                  if (card) {
+                    card.classList.add('hidden');
+                  }
+                } else {
+                  // If it does match, show cards with that ID
+                  // If the card matches, but isn't in the DOM, render it
+                  if (card) {
+                    card.classList.remove('hidden');
+                  }
+                }
+              });
+          });
+        }
       });
   }
 };
