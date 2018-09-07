@@ -198,6 +198,16 @@ input#search {
 
 .lang-select {
   font-size: 10em;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  div {
+    margin: 0.3em;
+    a, i {
+      margin: 0;
+    }
+  }
 }
 
 .btn .github-logo {
