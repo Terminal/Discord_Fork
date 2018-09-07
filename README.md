@@ -19,6 +19,11 @@ way to be more unique and prove that a list site can possibly be made with Jekyl
 - sass & scss_lint - Ruby Packages (gem install)
 - Node.js 10.x
 
+OR
+
+- Netlify
+  - [Click here to deploy](https://app.netlify.com/start/deploy?repository=https://github.com/Terminal/Discord_Fork)
+
 ## Commands
 ```
 bundle exec jekyll serve
