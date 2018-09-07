@@ -23,8 +23,8 @@
 <meta property="og:image" content="{{ page.avatar }}" />
 <link rel="icon" type="image/x-icon" href="{{ page.avatar }}">
 {% else %}
-<meta property="og:image" content="{{ site.url }}/assets/images/logo.png" />
-<link rel="icon" type="image/x-icon" href="{{ site.url }}/assets/images/logo.png">
+<meta property="og:image" content="/assets/images/logo.png" />
+<link rel="icon" type="image/x-icon" href="/assets/images/logo.png">
 {% endif %}
 
 <meta name="revisit-after" content="2 days">
@@ -32,14 +32,14 @@
 <meta name="theme-color" content="#3498db">
 
 <!-- Style and JS stuff -->
-<link rel="stylesheet" href="{{ site.url }}/assets/css/custom.css">
+<link rel="stylesheet" href="/assets/css/custom.css">
 {% if site.active_lang == site.default_lang %}
 <script src="/api/languages.js"></script>
 {% else %}
 <script src="/{{ site.active_lang }}/api/languages.js"></script>
 {% endif %}
 
-<script src="{{ site.url }}/assets/bundler/bundle.js" type="text/javascript" charset="utf-8"></script>
+<script src="/assets/bundler/bundle.js" type="text/javascript" charset="utf-8"></script>
 <script>
   delete localStorage;
 </script>
