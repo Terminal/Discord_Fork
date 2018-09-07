@@ -2,7 +2,7 @@
   <head>
     {% include head.html %}
   </head>
-  <body data-ls-type="item">
+  <body data-ls-type="item" data-item-category="{{ page.type }}" data-item-id="{{ page[page.primary_key] }}">
     {% include intro.html %}
 
     <section class="container">
@@ -49,11 +49,6 @@
     {% if page.type == 'bots' and page.link %}
     {% include botmodal.html %}
     {% endif %}
-    <script>
-      const data = ({
-        {% assign bot = page %}{% include bot.json %}
-      });
-    </script>
     {% include footer.html %}
   </body>
 </html>
