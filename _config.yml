@@ -59,6 +59,7 @@ defaults:
       layout: item
       type: docs
       layout: docs
+      primary_key: slug
   - scope:
       path: ""
       type: bots
@@ -66,9 +67,11 @@ defaults:
       layout: item
       type: bots
       lang: en
+      primary_key: client_id
   - scope:
       path: ""
       type: servers
     values:
       layout: item
       type: servers
+      primary_key: server_id
