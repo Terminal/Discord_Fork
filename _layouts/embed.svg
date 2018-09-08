@@ -1,0 +1,21 @@
+<!DOCTYPE XML>
+
+<!--
+  Ported with love from ls.terminal.ink
+  discordbots.co.uk
+-->
+
+<svg width="300" height="150" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <style>
+    text {
+      font-family: "Noto Sans", "Noto-Sans", "Arial", sans-serif;
+    }
+  </style>
+  <rect rx="5" ry="5" width="300" height="150" fill="#181818"/>
+  <rect y="31" width="300" height="93" fill="#333333"/>
+  <text x="10" y="22" font-size="16" fill="#FFFFFF">{{ page.data.pagename | xml_escape | truncate:40 }}</text>
+  {% for line in page.wrapped %}
+    <text x="10" y="{{ forloop.index | times:18 | plus:35 }}" font-size="16" fill="#FFFFFF">{{ line }}</text>
+  {% endfor %}
+  <text x="10" y="140" font-size="10" fill="#FFFFFF">{{ site.data.categories[page.data.type].pagename }}</text>
+</svg>
