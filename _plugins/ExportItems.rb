@@ -1,4 +1,6 @@
 require 'json/ext'
+require 'word_wrap'
+require 'word_wrap/core_ext'
 
 STRINGKEYS = [
   'client_id',
@@ -36,6 +38,13 @@ module Jekyll
             # Export the file, naming based on the primary key
             file = PageWithoutFile.new(site, __dir__, "/api/#{name}", "#{output[output['primary_key']]}.json")
             file.content = JSON.pretty_generate(output)
+            site.pages << file
+
+            # Export a fancy SVG
+            file = PageWithoutFile.new(site, __dir__, "/api/#{name}", "#{output[output['primary_key']]}.svg")
+            file.data['layout'] = 'embed'
+            file.data['data'] = output
+            file.data['wrapped'] = (output['description'] || "").fit(38).split("\n")
             site.pages << file
 
             # Push the key-value object to the "all objects" array
