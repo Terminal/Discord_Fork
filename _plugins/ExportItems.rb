@@ -44,7 +44,7 @@ module Jekyll
             file = PageWithoutFile.new(site, __dir__, "/api/#{name}", "#{output[output['primary_key']]}.svg")
             file.data['layout'] = 'embed'
             file.data['data'] = output
-            file.data['wrapped'] = (output['description'] || "").fit(38).split("\n")
+            file.data['wrapped'] = (output['description'] || "").fit(30).split("\n")
             site.pages << file
 
             # Push the key-value object to the "all objects" array
