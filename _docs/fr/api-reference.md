@@ -7,7 +7,7 @@ description: Information on available API interfaces to connect to the Fork list
 Discord Fork is built on top of GitHub using GitHub pages and Jekyll, which means it is limited by GET requests only.
 Please interface with the GitHub API in order to automate actions with the bot list.
 
-**For other languages, prefix the link with `/:language`; For example: `/fr/api/bots/305277118105911296.svg`
+**For other languages, prefix the link with `/:language`; For example: `/fr/api/bots/305277118105911296.svg`**
 
 GET `/fr/api/:type/all.json`  
 Obtain information on all `bots`, `servers` or `docs`
