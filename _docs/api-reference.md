@@ -61,13 +61,13 @@ GET `/api/:type/:id.svg`
 Grab a fancy embed
 
 `/api/bots/267941509272174592.svg`  
-![An example embed, containing information about the Xela bot, with an image of the bot inside](https://discordbots.co.uk/api/bots/267941509272174592.svg)
+![An example embed, containing information about the Xela bot, with an image of the bot inside](/api/bots/267941509272174592.svg)
 
 `/api/docs/api-reference.svg`  
-![An embed containing a self-description of this current page](https://discordbots.co.uk/api/docs/api-reference.svg)
+![An embed containing a self-description of this current page](/api/docs/api-reference.svg)
 
 `/api/servers/330777295952543744.svg`  
-![An embed for the Terminal.ink Discord Server](https://discordbots.co.uk/api/servers/330777295952543744.svg)
+![An embed for the Terminal.ink Discord Server](/api/servers/330777295952543744.svg)
 
 GET `/api/:type/keys.json`  
 Get all primary keys for the category.
