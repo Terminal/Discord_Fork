@@ -29,6 +29,7 @@ fr       | [Bowser65](https://github.com/Bowser65)
 | [LICENSE](https://github.com/jekyll/jekyll/blob/master/LICENSE) | [jekyll](https://github.com/jekyll) | [**jekyll**](https://github.com/jekyll/jekyll) |
 | no file | [GSI](https://github.com/GSI) | [**jekyll_image_encode**](https://github.com/GSI/jekyll_image_encode) | [We forked it.](https://github.com/Terminal/jekyll_image_encode)
 | [LICENSE.md](https://github.com/jekyll/jekyll-sitemap/blob/master/LICENSE.md) | [jekyll](https://github.com/jekyll) | [**jekyll-sitemap**](https://github.com/jekyll/jekyll-sitemap) |
+| [LICENSE](https://github.com/minad/mimemagic/blob/master/LICENSE) | [minad](https://github.com/minad) | [**mimemagic**](https://github.com/minad/mimemagic) |
 | [LICENSE.md](https://github.com/Microsoft/monaco-editor/blob/master/LICENSE.md) | [Microsoft](https://github.com/Microsoft) | [**monaco-editor**](https://github.com/Microsoft/monaco-editor) |
 | [LICENSE](https://github.com/Microsoft/monaco-editor-webpack-plugin/blob/master/LICENSE) | [Microsoft](https://github.com/Microsoft) | [**monaco-editor-webpack-plugin**](https://github.com/Microsoft/monaco-editor-webpack-plugin) |
 | [LICENSE](https://github.com/untra/polyglot/blob/master/LICENSE) | [untra](https://github.com/untra) | [**polyglot**](https://github.com/untra/polyglot) |
