@@ -59,7 +59,6 @@ module Jekyll
 
           # If the userlink is HTTP or HTTPS, set the URL to that link
           if ['http', 'https'].include?URI.parse(userlink).scheme
-            puts userlink
             url = userlink
           end
 
@@ -67,11 +66,9 @@ module Jekyll
           fetch(url)
         rescue OpenURI::HTTPError => e
           # If an error occured, return the default
-          puts e.message
           fetch(@default)
         rescue URI::InvalidURIError => e
           # If the URI was invalid, return the default
-          puts e.message
           fetch(@default)
         end
       end
