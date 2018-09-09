@@ -1,6 +1,7 @@
 ---
-pagename: API Reference
-description: Information on available API interfaces to connect to the Fork list.
+pagename: Des informations sur API
+description: Des informations sur API de "Discord Fork"
+lang: fr
 ---
 
 # API Reference
