@@ -9,10 +9,10 @@ Please interface with the GitHub API in order to automate actions with the bot l
 
 **For other languages, prefix the link with `/:language`; For example: `/fr/api/bots/305277118105911296.svg`
 
-GET `/api/:type/all.json`  
+GET `/fr/api/:type/all.json`  
 Obtain information on all `bots`, `servers` or `docs`
 
-GET `/api/:type/:id.json`  
+GET `/fr/api/:type/:id.json`  
 Obtain information on a specific ID
 
 The following is an example of `/api/bots/195244363339530240.json`.
@@ -26,7 +26,7 @@ The following is an example of `/api/bots/195244363339530240.json`.
   ],
   "layout": "item",
   "type": "bots",
-  "lang": "en",
+  "lang": "fr",
   "primary_key": "client_id",
   "client_id": "195244363339530240",
   "application_id": "195244341038546948",
@@ -59,17 +59,17 @@ lang                   | false     | The language of the page
 primary_key            | false     | A reference to the actual key with the primary data.<br>For example, if `primary_key="client_id"`, the unique data is `client_id`
 permalink              | false     | A link to the English version of the graphical page.<br>Prepend with `/:language` for other languages.
 
-GET `/api/:type/:id.svg`
+GET `/fr/api/:type/:id.svg`
 Grab a fancy embed
 
-`/api/bots/267941509272174592.svg`  
-![An example embed, containing information about the Xela bot, with an image of the bot inside](/api/bots/267941509272174592.svg)
+`/fr/api/bots/305277118105911296.svg`  
+![Un exemple avec le français de Homer](/fr/api/bots/305277118105911296.svg)
 
-`/api/docs/api-reference.svg`  
-![An embed containing a self-description of this current page](/api/docs/api-reference.svg)
+`/fr/api/docs/api-reference.svg`  
+![An embed containing a self-description of this current page](/fr/api/docs/api-reference.svg)
 
-`/api/servers/330777295952543744.svg`  
-![An embed for the Terminal.ink Discord Server](/api/servers/330777295952543744.svg)
+`/fr/api/servers/330777295952543744.svg`  
+![An embed for the Terminal.ink Discord Server](/fr/api/servers/330777295952543744.svg)
 
-GET `/api/:type/keys.json`  
+GET `/fr/api/:type/keys.json`  
 Get all primary keys for the category.
