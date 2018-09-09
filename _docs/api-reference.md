@@ -57,5 +57,17 @@ lang                   | false     | The language of the page
 primary_key            | false     | A reference to the actual key with the primary data.<br>For example, if `primary_key="client_id"`, the unique data is `client_id`
 permalink              | false     | A link to the English version of the graphical page.<br>Prepend with `/:language` for other languages.
 
+GET `/api/:type/:id.svg`
+Grab a fancy embed
+
+`/api/bots/267941509272174592.svg`  
+![An example embed, containing information about the Xela bot, with an image of the bot inside](https://discordbots.co.uk/api/bots/267941509272174592.svg)
+
+`/api/docs/api-reference.svg`  
+![An embed containing a self-description of this current page](https://discordbots.co.uk/api/docs/api-reference.svg)
+
+`/api/servers/330777295952543744.svg`  
+![An embed for the Terminal.ink Discord Server](https://discordbots.co.uk/api/servers/330777295952543744.svg)
+
 GET `/api/:type/keys.json`  
 Get all primary keys for the category.
