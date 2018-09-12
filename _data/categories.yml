@@ -2,17 +2,17 @@ bots:
   display: true
   parallax: /assets/images/background_bots.jpg
   path: /
-  contribute: /edit
+  contribute: /cms
 servers:
   display: true
   parallax: /assets/images/background_servers.jpg
   path: /servers
-  contribute: https://github.com/Terminal/Discord_Fork/blob/master/README.md
+  contribute: /cms
 docs:
   display: true
   parallax: /assets/images/background_bots.jpg
   path: /docs
-  contribute: https://github.com/Terminal/Discord_Fork
+  contribute: /cms
 cms:
   display: true
   path: /cms
