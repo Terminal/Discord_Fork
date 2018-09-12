@@ -17,7 +17,7 @@
           </h2>
           <div class="link buttons" id="buttons">
             {% if page.link and page.type == 'bots' %}
-              <a id="invite" class="btn emerald" href="#" >{{ site.data.categories[page.type].invite }}</a>
+              <a id="invite" class="btn emerald" href="{{ page.link }}" >{{ site.data.categories[page.type].invite }}</a>
             {% elsif page.link %}
               <a id="invite" class="btn emerald" href="{{ page.link }}" target="_blank">{{ site.data.categories[page.type].invite }}</a>
             {% endif %}

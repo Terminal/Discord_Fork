@@ -98,19 +98,6 @@ const createBotInviteModalButton = (link) => {
 };
 
 /**
- * Create a button which links to the ban page
- * @param {String} id The ID of the ban ID
- */
-const createBansInviteButton = (id) => {
-  const itemInvite = document.createElement('a');
-
-  itemInvite.innerText = 'View Ban';
-  itemInvite.setAttribute('href', `/${type}/${id}`);
-
-  return itemInvite;
-};
-
-/**
  * Link to a generic link
  * @param {String} link The link to link to
  */
@@ -233,7 +220,6 @@ module.exports = {
   createAvatarBox,
   createContentBox,
   createBotInviteModalButton,
-  createBansInviteButton,
   createGenericInviteButton,
   createViewGitHubButton,
   createToggleStarButton,
