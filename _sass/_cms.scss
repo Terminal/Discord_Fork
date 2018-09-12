@@ -1,0 +1,31 @@
+.cms-tab {
+  margin-bottom: -15px;
+  @media (max-width: 750px) {
+    margin-bottom: unset;
+  }
+}
+
+.cms-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cms-item {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  box-sizing: border-box;
+  text-align: left;
+  cursor: unset;
+  .cms-item-right {
+    margin-left: auto;
+  }
+  p {
+    padding: 0;
+    margin: 0;
+  }
+  * {
+    align-self: center;
+  }
+}
