@@ -79,9 +79,10 @@ const createBotInviteModalButton = (link) => {
   const itemInvite = document.createElement('a');
 
   itemInvite.innerText = appdata.strings.list.invite;
-  itemInvite.setAttribute('href', '#');
+  itemInvite.setAttribute('href', link);
   itemInvite.addEventListener('click', (e) => {
-    const discordWindow = window.open(link, '_blank', `toolbar=0,width=500,height=700,top=${Math.floor(screen.height / 2) - 250},left=${Math.floor(screen.width / 2) - 350}}`);
+    e.preventDefault();
+    const discordWindow = window.open(link, '_blank', `toolbar=0,width=500,height=700,top=${Math.floor(window.screen.height / 2) - 250},left=${Math.floor(window.screen.width / 2) - 350}}`);
     // Show a modal, which closes when discordWindow closes
     showModal('invite-modal');
 
