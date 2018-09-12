@@ -1,7 +1,6 @@
 ---
 name: Bot Issue
-about: Describe this issue template's purpose here.
-
+about: Bring up an issue on bots listed on Discord_Fork
 ---
 
 <!--
