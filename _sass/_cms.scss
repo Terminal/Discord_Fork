@@ -19,7 +19,14 @@
   text-align: left;
   cursor: unset;
   .cms-item-right {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
     margin-left: auto;
+  }
+  .cms-item-action {
+    margin-left: 15px;
+    padding: 5px;
   }
   p {
     padding: 0;
