@@ -7,7 +7,7 @@ const showModal = (modalName) => {
 
   const close = (event) => {
     closeModal(event, modalName);
-  }
+  };
 
   if (modal) {
     const exit = modal.getElementsByClassName('close')[0];
@@ -21,7 +21,7 @@ const showModal = (modalName) => {
       modal.addEventListener('click', close);
     }
   }
-}
+};
 
 /**
  * Close a modal
@@ -40,9 +40,9 @@ const closeModal = (event, modalName) => {
       }
     }, 575);
   }
-}
+};
 
 module.exports = {
   showModal,
-  closeModal
-}
+  closeModal,
+};

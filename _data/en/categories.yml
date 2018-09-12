@@ -13,3 +13,6 @@ servers:
 docs:
   pagename: Discord Fork Developer Portal
   shortname: Documentation
+cms:
+  pagename: Discord Fork Content Management System
+  shortname: CMS

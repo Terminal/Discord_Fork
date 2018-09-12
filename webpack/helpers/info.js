@@ -7,7 +7,7 @@ const GitHub = require('github-api');
 const checkStorage = (localStorage) => {
   if (!localStorage.getItem('repos')) {
     // If it doesn't exist, create it.
-    localStorage.setItem('repos', "{}");
+    localStorage.setItem('repos', '{}');
   }
 };
 
@@ -41,12 +41,12 @@ const getInfo = (github, localStorage, owner, repo) => new Promise((resolve, rej
           localStorage.setItem('repos', JSON.stringify(Object.assign(JSON.parse(localStorage.getItem('repos')), {
             [`${owner}/${repo}`]: {
               data: data.data,
-              time: Date.now() + (12 * 60 * 60 * 1000) // 12 hours
-            }
+              time: Date.now() + (12 * 60 * 60 * 1000), // 12 hours
+            },
           })));
           resolve({
             data: data.data,
-            time: Date.now() + (12 * 60 * 60 * 1000) // 12 hours
+            time: Date.now() + (12 * 60 * 60 * 1000), // 12 hours
           }); // the information passed by GitHub
         }
       });
@@ -75,5 +75,5 @@ const getStars = (github, localStorage, owner, repo) => new Promise((resolve, re
 module.exports = {
   checkStorage,
   getInfo,
-  getStars
+  getStars,
 };

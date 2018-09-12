@@ -25,7 +25,7 @@ module.exports = (github, localStorage) => {
       button.addEventListener('click', (e) => {
         const discordWindow = window.open(data.link, '_blank', `toolbar=0,width=500,height=700,top=${Math.floor(screen.height / 2) - 250},left=${Math.floor(screen.width / 2) - 350}}`);
         showModal('invite-modal');
-    
+
         const timer = setInterval(() => {
           if (discordWindow.closed) {
             clearInterval(timer);
@@ -33,7 +33,7 @@ module.exports = (github, localStorage) => {
           }
         }, 20);
       });
-    
+
       if (github && data.github && data.github.owner && data.github.repo) {
         getStars(github, localStorage, data.github.owner, data.github.repo)
           .then((stars) => {

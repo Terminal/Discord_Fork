@@ -7,7 +7,7 @@ const createCard = (github, localStorage, listItem, data = {}, type) => {
   itemCard.classList.add('card');
   const createButtonsBox = () => {
     const buttonsBox = document.createElement('div');
-    
+
     buttonsBox.classList.add('footer');
 
     if (listItem.link) {
@@ -29,7 +29,7 @@ const createCard = (github, localStorage, listItem, data = {}, type) => {
           buttonsBox.appendChild(elements.createToggleStarButton(listItem.github.owner, listItem.github.repo, data.data.stargazers_count, [], github));
         } else {
           // Can't find data - just link to the GitHub
-          buttonsBox.appendChild(elements.createViewGitHubButton(listItem.github.owner, listItem.github.repo, 'Star'))
+          buttonsBox.appendChild(elements.createViewGitHubButton(listItem.github.owner, listItem.github.repo, 'Star'));
         }
       } else {
         buttonsBox.appendChild(elements.createLoginThenStarButton());
@@ -52,7 +52,7 @@ const appendCard = (github, localStorage, item, data, type) => {
   const list = document.getElementById('list');
   const card = createCard(github, localStorage, item, data, type);
   list.appendChild(card);
-}
+};
 
 module.exports = (github, localStorage) => {
   const list = document.getElementById('list');
@@ -79,9 +79,7 @@ module.exports = (github, localStorage) => {
             item.score = score;
             return item;
           })
-          .sort((a, b) => {
-            return b.score - a.score;
-          });
+          .sort((a, b) => b.score - a.score);
 
         const displayItem = (listItem) => {
           if (github && listItem.github && listItem.github.repo && listItem.github.owner) {
@@ -96,12 +94,12 @@ module.exports = (github, localStorage) => {
           } else {
             appendCard(github, localStorage, listItem, {}, type);
           }
-        }
+        };
 
         const displayItems = (subset) => {
           subset.forEach(listItem => displayItem(listItem));
         };
-        
+
         displayItems(displayOrder.splice(0, 10));
 
         document.addEventListener('scroll', (event) => {
@@ -114,11 +112,11 @@ module.exports = (github, localStorage) => {
           search.addEventListener('keyup', () => {
             const query = search.value.toLowerCase().trim();
             displayItems(displayOrder.splice(0, displayOrder.length));
-      
+
             items
               .forEach((listItem) => {
-                const card = document.getElementById(listItem[listItem['primary_key']]);
-                let text = listItem.description
+                const card = document.getElementById(listItem[listItem.primary_key]);
+                const text = listItem.description
                   + listItem.pagename;
 
                 if (text.toLowerCase().indexOf(query) === -1) {

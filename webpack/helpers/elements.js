@@ -22,18 +22,18 @@ const createAvatarBox = (link, nsfw) => {
   avatar.addEventListener('error', () => {
     avatar.src = '/assets/images/logo.png';
   });
-  
+
   avatarBox.appendChild(avatar);
   return avatarBox;
 };
 
 /**
  * Create the content section of a card.
- * @param {String} name 
- * @param {String} desc 
- * @param {String} type 
- * @param {String} id 
- * @param {Boolean} nsfw 
+ * @param {String} name
+ * @param {String} desc
+ * @param {String} type
+ * @param {String} id
+ * @param {Boolean} nsfw
  */
 const createContentBox = (name, desc, type, permalink, nsfw) => {
   const siteLang = document.documentElement.getAttribute('lang');
@@ -42,8 +42,8 @@ const createContentBox = (name, desc, type, permalink, nsfw) => {
   const title = document.createElement('h4');
   const description = document.createElement('span');
 
-  contentBox.classList.add('card-content')
-  
+  contentBox.classList.add('card-content');
+
   title.classList.add('title');
   description.classList.add('description');
 
@@ -52,7 +52,7 @@ const createContentBox = (name, desc, type, permalink, nsfw) => {
   } else {
     titleLink.setAttribute('href', permalink);
   }
-  
+
   title.innerText = name;
   description.innerText = desc;
 
@@ -133,7 +133,7 @@ const createViewGitHubButton = (owner, repo, text) => {
   const githubButton = document.createElement('a');
 
   githubButton.innerText = text || appdata.strings.list.github;
-  githubButton.setAttribute('href' ,`https://github.com/${owner}/${repo}`);
+  githubButton.setAttribute('href', `https://github.com/${owner}/${repo}`);
   githubButton.setAttribute('target', '_blank');
 
   return githubButton;
@@ -159,7 +159,7 @@ const createToggleStarButton = (owner, repo, stars, classItems, github) => {
     if (classItems) {
       starButton.classList.add(...classItems);
     }
-  
+
     // Check if the repository is starred yet
     repository
       .isStarred()
@@ -202,10 +202,9 @@ const createToggleStarButton = (owner, repo, stars, classItems, github) => {
       });
 
     return starButton;
-  } else {
-    // Cannot create a button without being logged in.
-    throw new Error('Cannot create a toggleable GitHub button without authentication');
   }
+  // Cannot create a button without being logged in.
+  throw new Error('Cannot create a toggleable GitHub button without authentication');
 };
 
 /**
@@ -237,5 +236,5 @@ module.exports = {
   createGenericInviteButton,
   createViewGitHubButton,
   createToggleStarButton,
-  createLoginThenStarButton
+  createLoginThenStarButton,
 };

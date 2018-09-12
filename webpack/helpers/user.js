@@ -13,9 +13,9 @@ const updateButton = (localStorage) => {
     loginButton.addEventListener('click', () => {
       localStorage.clear();
       window.location.reload(true);
-    })
+    });
   }
-}
+};
 
 /**
  * Grab information about the user in cache, or load and save to cache
