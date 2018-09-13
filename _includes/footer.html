@@ -1,14 +1,16 @@
 <div class="box-container primary-flat no-border-radius no-margin">
   <div class="center">
-    <a class="btn white" href="{{ site.data.links.github }}/blob/master/{{ page.path }}">
-      <img class="github-logo" src="/assets/images/GitHub-Mark-32px.png">
-      <span class="black-text bold">{{ site.data.strings.footer.view }}</span>
-    </a>
     {% for category in site.data.categories %}
       {% if category[1].display %}
-        <a class="btn white" href="{{ category[1].path }}">
-          <span class="black-text bold">{{ category[1].shortname }}</span>
-        </a>
+        {% if page.type == category[0] %}
+          <a class="btn white" href="{{ category[1].path }}">
+            <span class="black-text bold">{{ category[1].shortname }}</span>
+          </a>
+        {% else %}
+          <a class="btn primary" href="{{ category[1].path }}">
+            <span class="bold">{{ category[1].shortname }}</span>
+          </a>
+        {% endif %}
       {% endif %}
     {% endfor %}
     <hr>
@@ -17,7 +19,8 @@
     <p>
       <a href="https://github.com/Terminal/Discord_Fork/blob/master/LICENCE">{{ site.data.strings.footer.licence }}</a> |
       <a href="/docs/attribution">{{ site.data.strings.footer.attribution }}</a> |
-      <a href="https://github.com/Terminal/Discord_Fork">{{ site.data.strings.footer.source }}</a>
+      <a href="https://github.com/Terminal/Discord_Fork">{{ site.data.strings.footer.source }}</a> |
+      <a href="{{ site.data.links.github }}/blob/master/{{ page.path }}">{{ site.data.strings.footer.view }}</a>
     </p>
   </div>
 </div>

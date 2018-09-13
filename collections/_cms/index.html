@@ -5,31 +5,45 @@ permalink: /cms/
 ---
 
 <div>
-  <div class="cms-tab">
-    <button class="btn white-flat black-text">Bots</button>
-    <button class="btn primary-flat">Servers</button>
-    <button class="btn primary-flat">Documentation</button>
+  <div class="cms-tab" id="cms-tab">
+    <button id="cms-tab-button-changes" class="btn white-flat black-text" data-cms-tab-category="changes">
+      <i class="cms-item-action emoji twa-pencil"></i>
+      Changes
+    </button>
+    <button id="cms-tab-button-bots" class="btn primary-flat" data-cms-tab-category="bots">Bots</button>
+    <button id="cms-tab-button-servers" class="btn primary-flat" data-cms-tab-category="servers">Servers</button>
+    <button id="cms-tab-button-docs" class="btn primary-flat" data-cms-tab-category="docs">Documentation</button>
   </div>
 </div>
-<div class="cms-items box-container github">
-  <div class="cms-item btn highlight">
-    <p>Add a bot</p>
-    <div class="cms-item-right">
-      <i class="cms-item-action emoji twa-pencil"></i>
-      <i class="cms-item-action emoji twa-x"></i>
+<div id="cms-windows" class="cms-windows">
+  <div id="cms-window-changes" class="cms-window box-container github" data-cms-window-category="changes">
+    <h5>Welcome to the Discord Fork Content Management System</h5>
+    <p>Changes you make will be displayed in this box.</p>
+    <button class="btn white black-text">
+      <img class="github-logo" src="/assets/images/GitHub-Mark-32px.png">
+      Create Pull Request
+    </button>
+  </div>
+  <div id="cms-window-bots" class="cms-window box-container github hidden" data-cms-window-category="bots">
+    <div class="cms-item btn highlight">
+      <p>Add a bot</p>
+      <div class="cms-item-right">
+        <i class="cms-item-action emoji twa-pencil"></i>
+      </div>
+    </div>
+    <div class="cms-item btn highlight">
+      <p>123456789</p>
+      <div class="cms-item-right">
+        <i class="cms-item-action emoji twa-mag"></i>
+        <i class="cms-item-action emoji twa-pencil"></i>
+        <i class="cms-item-action emoji twa-x"></i>
+      </div>
     </div>
   </div>
-  <div class="cms-item btn highlight">
-    <p>123456789</p>
-    <div class="cms-item-right">
-      <i class="cms-item-action emoji twa-pencil"></i>
-      <i class="cms-item-action emoji twa-x"></i>
-    </div>
+  <div id="cms-window-servers" class="cms-window box-container github hidden" data-cms-window-category="servers">
+    <h3>Welcome to the Discord Fork Content Management System</h3>
   </div>
-</div>
-<div>
-  <button class="btn white black-text">
-    <img class="github-logo" src="/assets/images/GitHub-Mark-32px.png">
-    Create Pull Request
-  </button>
+  <div id="cms-window-docs" class="cms-window box-container github hidden" data-cms-window-category="docs">
+    <h3>Welcome to the Discord Fork Content Management System</h3>
+  </div>
 </div>

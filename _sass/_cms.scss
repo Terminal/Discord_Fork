@@ -5,16 +5,20 @@
   }
 }
 
-.cms-items {
+.cms-window {
+  width: 100%;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .cms-item {
+  width: 90%;
+  height: unset;
   display: flex;
   flex-direction: row;
-  width: 90%;
+  flex-wrap: wrap;
   box-sizing: border-box;
   text-align: left;
   cursor: unset;
