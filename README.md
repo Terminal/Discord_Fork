@@ -68,7 +68,7 @@ Edit `_data/links.yml` to point to the auth server.
 No it is not, and it does not use any similar software such as Express and other middleware. The site was originally a fork of `AlexFlipnote`/**`Discord_Fork`**, but the original has since been deleted, and Alex has given permission for this site to continue.
 
 ## Can I host my own?
-Yes you can. We would like to encourage people to help contribute (_cough_ Mayo's Boy List _cough_). With the source being open, it'll make this site better than others, and bring more variety of bots.
+Yes you can. We would like to encourage people to help contribute (_cough_ Mayo's Bot List _cough_). With the source being open, it'll make this site better than others, and bring more variety of bots.
 
 [Click here to deploy this website with Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/Terminal/Discord_Fork)
 
