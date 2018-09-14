@@ -240,6 +240,10 @@ input#search {
   display: none !important;
 }
 
+.hide {
+  visibility: hidden !important;
+}
+
 pre.highlight {
   overflow-x: auto;
 }
