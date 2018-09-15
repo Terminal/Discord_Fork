@@ -14,6 +14,7 @@ const createAvatarBox = (link, nsfw) => {
   avatar.classList.add('avatar');
 
   avatar.src = link;
+  avatar.setAttribute('draggable', 'false');
 
   if (nsfw) {
     avatar.classList.add('nsfw');
