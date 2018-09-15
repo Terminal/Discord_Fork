@@ -9,7 +9,7 @@
       <div class="center-text card-container">
         <section class="card profile">
           <div class="avatar">
-            <img id="avatar" class="avatar{% if page.nsfw == true %} nsfw{% endif %}" src="{{ page.avatar }}">
+            <img id="avatar" class="avatar{% if page.nsfw == true %} nsfw{% endif %}" src="{% base64 avatar;/assets/images/logo.png %}">
           </div>
           <h2 class="name {% if page.verified == true %}verified{% endif %}">
             {{ page.pagename | xml_escape }}

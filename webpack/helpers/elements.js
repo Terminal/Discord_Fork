@@ -13,7 +13,11 @@ const createAvatarBox = (link, nsfw) => {
   avatarBox.classList.add('avatar');
   avatar.classList.add('avatar');
 
-  avatar.src = link;
+  avatar.src = '/assets/images/logo.png';
+
+  fetch(link)
+    .then(data => data.text())
+    .then((data) => { avatar.src = data; });
 
   if (nsfw) {
     avatar.classList.add('nsfw');

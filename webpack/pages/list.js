@@ -42,7 +42,7 @@ const createCard = (github, localStorage, listItem, data = {}, type) => {
   itemCard.dataset.randomScore = Math.random();
   itemCard.id = listItem[listItem.primary_key];
 
-  itemCard.appendChild(elements.createAvatarBox(listItem.avatar, listItem.nsfw));
+  itemCard.appendChild(elements.createAvatarBox(`/api/${listItem.type}/${listItem[listItem.primary_key]}.image.txt`, listItem.nsfw));
   itemCard.appendChild(elements.createContentBox(listItem.pagename, listItem.description, type, listItem.permalink, listItem.nsfw, listItem.lang));
   itemCard.appendChild(createButtonsBox());
   return itemCard;

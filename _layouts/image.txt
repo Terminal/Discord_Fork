@@ -1,0 +1,1 @@
+{% base64 data.avatar;/assets/images/logo.png %}
