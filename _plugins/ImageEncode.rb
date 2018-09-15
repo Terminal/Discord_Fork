@@ -55,7 +55,13 @@ module Jekyll
         begin
           # https://stackoverflow.com/questions/6672007/how-do-you-access-nested-elements-of-a-hash-with-a-single-string-key
           # Splat and dig, is the answer
-          userlink = context.registers[:page].dig(*@var.split('.')) || ''
+          userlink = ''
+
+          if !@var.include? '.'
+            userlink = context.registers[:page][@var] || ''
+          else
+            userlink = context.registers[:page].dig(*@var.split('.')) || ''
+          end
 
           # If the userlink is HTTP or HTTPS, set the URL to that link
           if ['http', 'https'].include?URI.parse(userlink).scheme

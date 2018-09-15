@@ -13,8 +13,12 @@ const createAvatarBox = (link, nsfw) => {
   avatarBox.classList.add('avatar');
   avatar.classList.add('avatar');
 
-  avatar.src = link;
+  avatar.src = '/assets/images/logo.png';
   avatar.setAttribute('draggable', 'false');
+
+  fetch(link)
+    .then(data => data.text())
+    .then((data) => { avatar.src = data; });
 
   if (nsfw) {
     avatar.classList.add('nsfw');
@@ -23,18 +27,18 @@ const createAvatarBox = (link, nsfw) => {
   avatar.addEventListener('error', () => {
     avatar.src = '/assets/images/logo.png';
   });
-  
+
   avatarBox.appendChild(avatar);
   return avatarBox;
 };
 
 /**
  * Create the content section of a card.
- * @param {String} name 
- * @param {String} desc 
- * @param {String} type 
- * @param {String} id 
- * @param {Boolean} nsfw 
+ * @param {String} name
+ * @param {String} desc
+ * @param {String} type
+ * @param {String} id
+ * @param {Boolean} nsfw
  */
 const createContentBox = (name, desc, type, permalink, nsfw) => {
   const siteLang = document.documentElement.getAttribute('lang');
@@ -43,8 +47,8 @@ const createContentBox = (name, desc, type, permalink, nsfw) => {
   const title = document.createElement('h4');
   const description = document.createElement('span');
 
-  contentBox.classList.add('card-content')
-  
+  contentBox.classList.add('card-content');
+
   title.classList.add('title');
   description.classList.add('description');
 
@@ -53,7 +57,7 @@ const createContentBox = (name, desc, type, permalink, nsfw) => {
   } else {
     titleLink.setAttribute('href', permalink);
   }
-  
+
   title.innerText = name;
   description.innerText = desc;
 
@@ -80,9 +84,10 @@ const createBotInviteModalButton = (link) => {
   const itemInvite = document.createElement('a');
 
   itemInvite.innerText = appdata.strings.list.invite;
-  itemInvite.setAttribute('href', '#');
+  itemInvite.setAttribute('href', link);
   itemInvite.addEventListener('click', (e) => {
-    const discordWindow = window.open(link, '_blank', `toolbar=0,width=500,height=700,top=${Math.floor(screen.height / 2) - 250},left=${Math.floor(screen.width / 2) - 350}}`);
+    e.preventDefault();
+    const discordWindow = window.open(link, '_blank', `toolbar=0,width=500,height=700,top=${Math.floor(window.screen.height / 2) - 250},left=${Math.floor(window.screen.width / 2) - 350}}`);
     // Show a modal, which closes when discordWindow closes
     showModal('invite-modal');
 
@@ -93,19 +98,6 @@ const createBotInviteModalButton = (link) => {
       }
     }, 20);
   });
-
-  return itemInvite;
-};
-
-/**
- * Create a button which links to the ban page
- * @param {String} id The ID of the ban ID
- */
-const createBansInviteButton = (id) => {
-  const itemInvite = document.createElement('a');
-
-  itemInvite.innerText = 'View Ban';
-  itemInvite.setAttribute('href', `/${type}/${id}`);
 
   return itemInvite;
 };
@@ -134,7 +126,7 @@ const createViewGitHubButton = (owner, repo, text) => {
   const githubButton = document.createElement('a');
 
   githubButton.innerText = text || appdata.strings.list.github;
-  githubButton.setAttribute('href' ,`https://github.com/${owner}/${repo}`);
+  githubButton.setAttribute('href', `https://github.com/${owner}/${repo}`);
   githubButton.setAttribute('target', '_blank');
 
   return githubButton;
@@ -160,7 +152,7 @@ const createToggleStarButton = (owner, repo, stars, classItems, github) => {
     if (classItems) {
       starButton.classList.add(...classItems);
     }
-  
+
     // Check if the repository is starred yet
     repository
       .isStarred()
@@ -203,10 +195,9 @@ const createToggleStarButton = (owner, repo, stars, classItems, github) => {
       });
 
     return starButton;
-  } else {
-    // Cannot create a button without being logged in.
-    throw new Error('Cannot create a toggleable GitHub button without authentication');
   }
+  // Cannot create a button without being logged in.
+  throw new Error('Cannot create a toggleable GitHub button without authentication');
 };
 
 /**
@@ -234,9 +225,8 @@ module.exports = {
   createAvatarBox,
   createContentBox,
   createBotInviteModalButton,
-  createBansInviteButton,
   createGenericInviteButton,
   createViewGitHubButton,
   createToggleStarButton,
-  createLoginThenStarButton
+  createLoginThenStarButton,
 };

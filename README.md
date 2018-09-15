@@ -1,12 +1,12 @@
----
-pagename: Discord_Fork README.md file
-description: Information about the Discord_Fork application and software
-layout: docs
-type: docs
-permalink: /docs/readme/
----
-
+# Discord_Fork
 ![Discord Fork Botlist, The botlist with built in GitHub integration](/assets/images/readme-header.png)
+
+Welcome to the CMS branch of discordbots.co.uk  
+
+- [Preview this branch](http://cms--discordbots.netlify.com/)
+- [Goals](https://github.com/Terminal/Discord_Fork/projects/1)
+
+---
 
 Add your bot [via the E-Zed editor](https://discordbots.co.uk/edit) or [via GitHub](https://discordbots.co.uk/docs/adding-a-bot/)
 

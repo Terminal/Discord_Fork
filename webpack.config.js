@@ -7,7 +7,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'assets', 'bundler'),
     publicPath: '/assets/bundler/',
-    filename: "bundle.js"
+    filename: 'bundle.js',
   },
   module: {
     rules: [
@@ -18,27 +18,39 @@ module.exports = {
           loader: 'babel-loader',
           options: {
             presets: [
-              '@babel/preset-env'
-            ]
-          }
-        }
+              '@babel/preset-env',
+            ],
+          },
+        },
       },
       {
         test: /\.css$/,
         use: [
           'style-loader',
-          'css-loader'
-        ]
-      }
-    ]
+          'css-loader',
+        ],
+      },
+    ],
   },
   plugins: [
     new MonacoWebpackPlugin({
       languages: [
         'markdown',
         'javascript',
-        'html'
-      ]
-    })
-  ]
+        'html',
+      ],
+    }),
+  ],
+  optimization: {
+    runtimeChunk: 'single',
+    splitChunks: {
+      cacheGroups: {
+        vendor: {
+          test: /[\\/]node_modules[\\/]/,
+          name: 'vendors',
+          chunks: 'all',
+        },
+      },
+    },
+  },
 };

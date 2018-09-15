@@ -38,6 +38,8 @@ sass:
   sass_dir: _sass
   style: compressed
 
+
+collections_dir: collections
 collections:
   docs:
     output: true
@@ -48,7 +50,7 @@ collections:
   servers:
     output: true
     permalink: /:collection/:name/
-  bans:
+  cms:
     output: true
     permalink: /:collection/:name/
 
@@ -57,7 +59,6 @@ defaults:
       path: ""
       type: docs
     values:
-      layout: item
       type: docs
       layout: docs
       primary_key: slug
@@ -76,3 +77,11 @@ defaults:
       layout: item
       type: servers
       primary_key: server_id
+  - scope:
+      path: ""
+      type: cms
+    values:
+      layout: docs
+      type: cms
+      lang: en
+      primary_key: slug

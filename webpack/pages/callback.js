@@ -18,10 +18,10 @@ module.exports = (localStorage) => {
   }
 
   const next = () => {
-    if (!redirect || redirect === "null") {
+    if (!redirect || redirect === 'null') {
       window.location.href = '/';
     } else {
       window.location.href = redirect;
     }
-  }
+  };
 };

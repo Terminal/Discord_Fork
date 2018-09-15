@@ -1,16 +1,16 @@
-const { showModal, closeModal } = require('./../helpers/modals');
-
 import * as monaco from 'monaco-editor';
+
+const { showModal, closeModal } = require('./../helpers/modals');
 
 const EDITOR_NOTE = `
 ---
 This pull request was created using the https://discordbots.co.uk/edit menu.
-`
+`;
 
 module.exports = (github, localStorage) => {
   if (!github) {
     localStorage.setItem('return', '/edit');
-    window.location.pathname = '/oauth/login'
+    window.location.pathname = '/oauth/login';
   }
 
   const clientId = document.getElementById('client-id');
@@ -75,20 +75,20 @@ module.exports = (github, localStorage) => {
   const editor = monaco.editor.create(contents, {
     value: appdata.strings.edit.default,
     language: 'markdown',
-    automaticLayout: true
+    automaticLayout: true,
   });
 
   const exportEditor = monaco.editor.create(exportBox, {
     language: 'markdown',
     automaticLayout: true,
-    readOnly: true
+    readOnly: true,
   });
 
   const mergeEditor = monaco.editor.create(mergeBox, {
     language: 'markdown',
-    automaticLayout: true
+    automaticLayout: true,
   });
-  
+
   const getContents = () => {
     let output = '---\n';
     if (clientId.value) {
@@ -113,7 +113,7 @@ module.exports = (github, localStorage) => {
     }
 
     if (invite.value) {
-      output += `link: '${invite.value.replace(/'/g, "''")}'\n`
+      output += `link: '${invite.value.replace(/'/g, "''")}'\n`;
     }
 
     if (githubOwner.value && githubRepo.value) {
@@ -129,11 +129,11 @@ module.exports = (github, localStorage) => {
     }
 
     if (nsfw.value === 'false') {
-      output += `nsfw: false\n`;
+      output += 'nsfw: false\n';
     } else {
-      output += `nsfw: true\n`;
+      output += 'nsfw: true\n';
     }
-    
+
     output += '---\n';
     output += editor.getValue();
     return output;
@@ -153,7 +153,7 @@ module.exports = (github, localStorage) => {
     label: 'Export Bot Page',
     run: () => {
       exportPage(exportEditor);
-    }
+    },
   });
 
   editor.addAction({
@@ -161,7 +161,7 @@ module.exports = (github, localStorage) => {
     label: 'Create a pull request',
     run: () => {
       showModal('merge-modal');
-    }
+    },
   });
 
   exportButton.addEventListener('click', () => {
@@ -193,7 +193,7 @@ module.exports = (github, localStorage) => {
           pullLog('Writing file to GitHub');
           const siteLang = document.documentElement.getAttribute('lang');
           const folder = siteLang === 'en' ? '' : `${siteLang}/`;
-          userRepo.writeFile(forkData.default_branch, `_bots/${folder}${clientId.value.replace(/[^0-9]/g, '')}.md`, getContents(), `Adding ${name.value} via Discord_Fork Editor`, {}, (error2) => {
+          userRepo.writeFile(forkData.default_branch, `collections/_bots/${folder}${clientId.value.replace(/[^0-9]/g, '')}.md`, getContents(), `Adding ${name.value} via Discord_Fork Editor`, {}, (error2) => {
             if (error2) {
               pullLog(error2);
             } else {
@@ -203,7 +203,7 @@ module.exports = (github, localStorage) => {
                 head: `${userOwner}:master`,
                 base: 'master',
                 body: mergeEditor.getValue() + EDITOR_NOTE,
-                maintainer_can_modify: true
+                maintainer_can_modify: true,
               }, (error3, pullRequestData) => {
                 if (error3) {
                   pullLog(error3);
@@ -211,10 +211,10 @@ module.exports = (github, localStorage) => {
                   pullLog('Successfully created pull request!');
                   window.location.href = pullRequestData.html_url;
                 }
-              })
+              });
             }
           });
-        }
+        };
 
         terminalRepo.listCommits({}, (error2, terminalCommits) => {
           if (error2) {
@@ -227,14 +227,14 @@ module.exports = (github, localStorage) => {
                 // There is a difference in SHA commits.
                 // Update the head of our fork
                 if (terminalCommits[0].sha !== userCommits[0].sha) {
-                  pullLog(`Latest Terminal commit ${terminalCommits[0].sha} differs from fork commit ${userCommits[0].sha} - Updating head.`)
+                  pullLog(`Latest Terminal commit ${terminalCommits[0].sha} differs from fork commit ${userCommits[0].sha} - Updating head.`);
                   userRepo.updateHead('heads/master', terminalCommits[0].sha, true, (error4) => {
                     if (error4) {
                       pullLog(error4);
                     } else {
                       writeToFork();
                     }
-                  })
+                  });
                 } else {
                   writeToFork();
                 }
@@ -245,4 +245,4 @@ module.exports = (github, localStorage) => {
       }
     });
   });
-}
+};

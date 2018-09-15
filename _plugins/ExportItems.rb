@@ -40,6 +40,12 @@ module Jekyll
             file.content = JSON.pretty_generate(output)
             site.pages << file
 
+            # Export the bot's avatar
+            file = PageWithoutFile.new(site, __dir__, "/api/#{name}", "#{output[output['primary_key']]}.image.txt")
+            file.data['layout'] = 'image'
+            file.data['data'] = output
+            site.pages << file
+
             # Export a fancy SVG
             file = PageWithoutFile.new(site, __dir__, "/api/#{name}", "#{output[output['primary_key']]}.svg")
             file.data['layout'] = 'embed'

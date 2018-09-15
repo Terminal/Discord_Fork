@@ -3,6 +3,7 @@
 @import 'ModestaCSS/css/twemoji.min.css';
 @import 'ModestaCSS/css/blobcat.min.css';
 @import 'highlight';
+@import 'cms';
 
 body {
   background: #101010;
@@ -239,6 +240,10 @@ input#search {
   display: none !important;
 }
 
+.hide {
+  visibility: hidden !important;
+}
+
 pre.highlight {
   overflow-x: auto;
 }
@@ -253,4 +258,8 @@ pre.highlight {
   width: 100%;
   height: 500px;
   background-color: #FFFFFF;
+}
+
+button {
+  box-shadow: unset !important;
 }
