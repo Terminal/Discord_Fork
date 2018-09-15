@@ -87,7 +87,7 @@ const createBotInviteModalButton = (link) => {
   itemInvite.setAttribute('href', link);
   itemInvite.addEventListener('click', (e) => {
     e.preventDefault();
-    const discordWindow = window.open(link, '_blank', `toolbar=0,width=500,height=700,top=${Math.floor(window.screen.height / 2) - 250},left=${Math.floor(window.screen.width / 2) - 350}}`);
+    const discordWindow = window.open(link, '_blank', `noopener,toolbar=0,width=500,height=700,top=${Math.floor(window.screen.height / 2) - 250},left=${Math.floor(window.screen.width / 2) - 350}}`);
     // Show a modal, which closes when discordWindow closes
     showModal('invite-modal');
 
@@ -127,6 +127,7 @@ const createViewGitHubButton = (owner, repo, text) => {
 
   githubButton.innerText = text || appdata.strings.list.github;
   githubButton.setAttribute('href', `https://github.com/${owner}/${repo}`);
+  githubButton.setAttribute('rel', 'noopener')
   githubButton.setAttribute('target', '_blank');
 
   return githubButton;
