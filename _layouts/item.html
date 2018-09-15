@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="{{ site.active_lang }}">
   <head>
     {% include head.html %}
@@ -19,14 +20,14 @@
             {% if page.link and page.type == 'bots' %}
               <a id="invite" class="btn emerald" href="{{ page.link }}" >{{ site.data.categories[page.type].invite }}</a>
             {% elsif page.link %}
-              <a id="invite" class="btn emerald" href="{{ page.link }}" target="_blank">{{ site.data.categories[page.type].invite }}</a>
+              <a id="invite" class="btn emerald" href="{{ page.link }}" target="_blank" rel="noopener">{{ site.data.categories[page.type].invite }}</a>
             {% endif %}
             {% if page.github and page.github.owner and page.github.repo %}
-              <a id="github" class="btn peter-river" href="https://github.com/{{ page.github.owner }}/{{ page.github.repo }}" target="_blank">{{ site.data.strings.item.github }}</a>
+              <a id="github" class="btn peter-river" href="https://github.com/{{ page.github.owner }}/{{ page.github.repo }}" target="_blank" rel="noopener">{{ site.data.strings.item.github }}</a>
             {% elsif page.github and page.github.owner %}
-              <a class="btn peter-river" href="https://github.com/{{ page.github.owner }}" target="_blank">{{ site.data.strings.item.github }}</a>
+              <a class="btn peter-river" href="https://github.com/{{ page.github.owner }}" target="_blank" rel="noopener">{{ site.data.strings.item.github }}</a>
             {% endif %}
-            {% if page.support %}<a class="btn orange" href="{{ page.support | replace: site.data.chars.newline, '\n' | replace: site.data.chars.quote_mark, '%22'}}" target="_blank">{{ site.data.strings.item.discord }}</a>{% endif %}
+            {% if page.support %}<a class="btn orange" href="{{ page.support | replace: site.data.chars.newline, '\n' | replace: site.data.chars.quote_mark, '%22'}}" target="_blank" rel="noopener">{{ site.data.strings.item.discord }}</a>{% endif %}
           </div>
           <span class="description">
             {% if page.prefix %}

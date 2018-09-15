@@ -26,6 +26,7 @@
   },
   "scripts": {
     "test": "mocha",
+    "webpack": "node node_modules/webpack/bin/webpack.js",
     "build": "webpack && bundler exec jekyll build"
   },
   "repository": {
