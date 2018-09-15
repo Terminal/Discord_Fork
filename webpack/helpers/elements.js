@@ -14,6 +14,7 @@ const createAvatarBox = (link, nsfw) => {
   avatar.classList.add('avatar');
 
   avatar.src = '/assets/images/logo.png';
+  avatar.setAttribute('draggable', 'false');
 
   fetch(link)
     .then(data => data.text())

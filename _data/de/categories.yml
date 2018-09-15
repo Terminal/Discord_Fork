@@ -1,0 +1,15 @@
+bots:
+  pagename: Discord Fork Botliste
+  shortname: Bots
+  add: Eigenen Bot hinzufügen
+  invite: Diesen Bot hinzufügen
+  description: Die Botliste mit eingebauter GitHub-Integration
+servers:
+  pagename: Discord Fork Serverliste
+  shortname: Server
+  add: Eigenen Server hinzufügen
+  invite: Diesem Server beitreten
+  description: Die Serverliste mit eingebauter GitHub-Integration
+docs:
+  pagename: Discord Fork Developer Portal
+  shortname: Dokumentation
