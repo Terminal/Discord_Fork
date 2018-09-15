@@ -27,6 +27,7 @@ exclude:
 languages:
   - en
   - fr
+  - de
 
 default_lang: en
 exclude_from_localization:
