@@ -90,13 +90,6 @@ const createBotInviteModalButton = (link) => {
     const discordWindow = window.open(link, '_blank', `noopener,toolbar=0,width=500,height=700,top=${Math.floor(window.screen.height / 2) - 250},left=${Math.floor(window.screen.width / 2) - 350}}`);
     // Show a modal, which closes when discordWindow closes
     showModal('invite-modal');
-
-    const timer = setInterval(() => {
-      if (discordWindow.closed) {
-        clearInterval(timer);
-        closeModal(null, 'invite-modal');
-      }
-    }, 20);
   });
 
   return itemInvite;
