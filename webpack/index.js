@@ -1,3 +1,5 @@
+import edit from './pages/edit';
+
 require('babel-polyfill');
 
 ((localStorage) => {
@@ -19,7 +21,7 @@ require('babel-polyfill');
     if (document.body.dataset.lsType === 'item') require('./pages/item.js')(github, localStorage);
     if (/\/oauth\/login\//.test(window.location.pathname)) require('./pages/login')(localStorage);
     if (/\/oauth\/callback\//.test(window.location.pathname)) require('./pages/callback')(localStorage);
-    if (/\/edit/.test(window.location.pathname)) require('./pages/edit')(github, localStorage);
+    if (/\/edit/.test(window.location.pathname)) edit(github, localStorage);
     if (/\/cms/.test(window.location.pathname)) require('./cms/')(github, localStorage);
   };
 

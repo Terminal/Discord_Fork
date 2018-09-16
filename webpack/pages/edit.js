@@ -1,13 +1,14 @@
 import * as monaco from 'monaco-editor';
 
-const { showModal, closeModal } = require('./../helpers/modals');
+const { showModal } = require('./../helpers/modals');
 
 const EDITOR_NOTE = `
 ---
+
 This pull request was created using the https://discordbots.co.uk/edit menu.
 `;
 
-export default (github, localStorage) => {
+const editFunction = (github, localStorage) => {
   if (!github) {
     localStorage.setItem('return', '/edit');
     window.location.pathname = '/oauth/login';
@@ -242,3 +243,5 @@ export default (github, localStorage) => {
     });
   });
 };
+
+export default editFunction;

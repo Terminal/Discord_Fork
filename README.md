@@ -1,16 +1,14 @@
-# Discord_Fork
-![Discord Fork Botlist, The botlist with built in GitHub integration](/assets/images/readme-header.png)
-
-Welcome to the CMS branch of discordbots.co.uk  
-
-- [Preview this branch](http://cms--discordbots.netlify.com/)
-- [Goals](https://github.com/Terminal/Discord_Fork/projects/1)
-
+---
+pagename: Discord_Fork README.md file
+description: Information about the Discord_Fork application and software
+layout: docs
+type: docs
+permalink: /docs/readme/
 ---
 
-Add your bot [via the E-Zed editor](https://discordbots.co.uk/edit) or [via GitHub](https://discordbots.co.uk/docs/adding-a-bot/)
+![Discord Fork Botlist, The botlist with built in GitHub integration](/assets/images/readme-header.png)
 
-[Visit us on Discord!](https://discord.gg/8uC6aKZ)
+Add your bot [via the E-Zed editor](https://discordbots.co.uk/edit) or [via GitHub](https://discordbots.co.uk/docs/adding-a-bot/)
 
 NOTE: Please do not complain over how *bad* the site is made, this is mostly made as a
 way to be more unique and prove that a list site can possibly be made with Jekyll.
@@ -60,17 +58,33 @@ webpack --watch
 [Follow me](https://github.com/prose/gatekeeper#setup-your-gatekeeper)  
 Edit `_data/links.yml` to point to the auth server.
 
-# Licence
-- [Licence](https://github.com/Terminal/Discord_Fork/blob/master/LICENCE)
-- [Attribution to dependencies](https://discordbots.co.uk/docs/attribution)
+## Thanks
+[Attribution to dependencies](https://discordbots.co.uk/docs/attribution)
 
-## Is this site a clone of `ls.terminal.ink`?
-No it is not, and it does not use any similar software such as Express and other middleware. The site was originally a fork of `AlexFlipnote`/**`Discord_Fork`**, but the original has since been deleted, and Alex has given permission for this site to continue.
+## Technical Support
+[discordapp](https://discord.gg/8uC6aKZ)
 
-## Can I host my own?
-Yes you can. We would like to encourage people to help contribute (_cough_ Mayo's Bot List _cough_). With the source being open, it'll make this site better than others, and bring more variety of bots.
+# Developer Notes
+```
+Pages within the _pages folder should not have a "French" copy.
+  These need to use the `desc_code` front matter to use a new description within the `_data/:lang/descriptions.yml` file
+Pages within the _bots, _docs and _servers folder can have a subfolder with the language
+  The language of the page needs to be placed in the front matter, like
 
-[Click here to deploy this website with Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/Terminal/Discord_Fork)
+  ---
+  pagename: wow
+  github:
+    owner: Terminal
+    repo: Discord_Fork
+  lang: fr
+  ---
 
-## Can I become a developer?
-[Contribute here!](https://github.com/Terminal/Discord_Fork)
+  Copies of the same language do not pass information between each other.
+  For example, if you have an English file, the front matter needs to be copied into the French file, with changes to the description and page name for language differences
+
+All translations for the website itself, and not user generated content (and documentation) should be in the _data/:lang folder.
+  Translators need to go through all .yml files.
+
+Am I a terrible person?
+  Yes
+```
