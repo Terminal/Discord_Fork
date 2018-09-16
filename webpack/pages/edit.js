@@ -7,7 +7,7 @@ const EDITOR_NOTE = `
 This pull request was created using the https://discordbots.co.uk/edit menu.
 `;
 
-module.exports = (github, localStorage) => {
+export default (github, localStorage) => {
   if (!github) {
     localStorage.setItem('return', '/edit');
     window.location.pathname = '/oauth/login';
@@ -223,21 +223,17 @@ module.exports = (github, localStorage) => {
             userRepo.listCommits({}, (error3, userCommits) => {
               if (error3) {
                 pullLog(error3);
+              } else if (terminalCommits[0].sha !== userCommits[0].sha) {
+                pullLog(`Latest Terminal commit ${terminalCommits[0].sha} differs from fork commit ${userCommits[0].sha} - Updating head.`);
+                userRepo.updateHead('heads/master', terminalCommits[0].sha, true, (error4) => {
+                  if (error4) {
+                    pullLog(error4);
+                  } else {
+                    writeToFork();
+                  }
+                });
               } else {
-                // There is a difference in SHA commits.
-                // Update the head of our fork
-                if (terminalCommits[0].sha !== userCommits[0].sha) {
-                  pullLog(`Latest Terminal commit ${terminalCommits[0].sha} differs from fork commit ${userCommits[0].sha} - Updating head.`);
-                  userRepo.updateHead('heads/master', terminalCommits[0].sha, true, (error4) => {
-                    if (error4) {
-                      pullLog(error4);
-                    } else {
-                      writeToFork();
-                    }
-                  });
-                } else {
-                  writeToFork();
-                }
+                writeToFork();
               }
             });
           }
