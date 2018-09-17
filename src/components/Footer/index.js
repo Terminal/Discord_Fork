@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'gatsby-link'
+// import Link from 'gatsby-link'
 
 export default () => (
   <footer className="box-container primary-flat no-border-radius no-margin">

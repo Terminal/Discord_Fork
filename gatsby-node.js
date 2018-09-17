@@ -48,7 +48,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
 
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       createPage({
-        path: `/${node.fields.template}/${node.fields.filename}`,
+        path: `/${node.fields.template}/${node.fields.filename === 'index' ? '' : node.fields.filename}`,
         component: templates[node.fields.template],
         context: {
           filename: node.fields.filename

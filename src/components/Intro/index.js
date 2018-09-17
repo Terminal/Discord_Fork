@@ -11,7 +11,7 @@ export default () => (
       <div className="center-items">
         <Link to="/">
           <section className="me unset">
-            <img draggable="false" className="image-title" src={mainLogo} style={({width: '7em', height: '7em'})}></img>
+            <img alt="The logo for Discord_Fork" draggable="false" className="image-title" src={mainLogo} style={({width: '7em', height: '7em'})}></img>
             <div>
               <h1 className="title no-margin white-text">
                 Discord Fork Bot List

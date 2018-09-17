@@ -1,18 +1,24 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+import SiteLayout from './../components/SiteLayout'
+import ProfileCard from './../components/ProfileCard'
+import Cards from './../components/Cards'
+
+import './bots.scss'
 
 export default function Template({data}) {
   const { markdownRemark } = data;
-  const { frontmatter, html } = markdownRemark;
+  const { frontmatter, fields, html } = markdownRemark;
   return (
-    <div>
+    <SiteLayout>
       <Helmet>
         <title>{frontmatter.pagename}</title>
       </Helmet>
-      <h1>{frontmatter.pagename}</h1>
-      <img src={frontmatter.avatar}></img>
-      <div dangerouslySetInnerHTML={{ __html: html }}></div>
-    </div>
+      <Cards>
+        <ProfileCard post={{ frontmatter, fields }}></ProfileCard>
+      </Cards>
+      <div className="custom-content" dangerouslySetInnerHTML={{ __html: html }}></div>
+    </SiteLayout>
   )
 };
 
@@ -21,8 +27,18 @@ export const pageQuery = graphql`
     markdownRemark(fields: { filename: { eq: $filename }}) {
       html
       frontmatter {
-        pagename,
+        pagename
         avatar
+        description
+        nsfw
+        github {
+          owner
+          repo
+        }
+      }
+      fields {
+        filename
+        template
       }
     }
   }

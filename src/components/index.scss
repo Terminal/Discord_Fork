@@ -1,0 +1,35 @@
+body, .main-window, [data-reactroot], #___gatsby {
+  height: 100vh;
+}
+
+body, .card-container .card {
+  font-family: 'Montserrat', 'Noto Sans', 'Calibri', 'Arial', 'Helvetica', sans-serif;
+}
+
+.main-window {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content-container {
+  flex-grow: 1;
+}
+
+.nsfw {
+  filter: blur(5px);
+}
+
+.nsfw-tag {
+  background: #e74c3c;
+  border-radius: 3px;
+  color: #fff;
+  flex-shrink: 0;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 38px;
+  margin-left: 6px;
+  padding: 2px 3px;
+  text-transform: uppercase;
+  vertical-align: bottom;
+}

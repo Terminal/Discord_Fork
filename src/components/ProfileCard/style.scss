@@ -1,0 +1,30 @@
+.card.profile {
+  background: transparent;
+  box-shadow: none;
+  margin-top: 2.5em;
+  width: 100%;
+
+  .avatar, .link { background: transparent; }
+
+  .avatar {
+    padding: 0;
+    img { width: 10em; }
+  }
+
+  .name {
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+
+    .nsfw-tag {
+      font-size: 16px;
+      line-height: 50px;
+      margin-left: 0;
+    }
+  }
+
+  .description {
+    color: #eee;
+    font-size: 1.5em;
+  }
+}
