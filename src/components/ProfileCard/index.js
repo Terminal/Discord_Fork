@@ -8,7 +8,7 @@ export default ({ post }) => {
   return (
     <section className="card profile">
       <div className="avatar">
-        <img className="avatar nsfw" alt={`Avatar for ${post.fields.pagename}`} src={post.frontmatter.avatar || mainLogo} onError={e => e.target.src = mainLogo}></img>
+      <img className={`avatar ${post.frontmatter.nsfw ? 'nsfw' : '' }`} alt={`Avatar for ${post.frontmatter.pagename}`} src={post.frontmatter.avatar || mainLogo} onError={e => e.target.src = mainLogo}></img>
       </div>
       <div className="card-content">
         <h1 className="name">
