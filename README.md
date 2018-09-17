@@ -1,4 +1,4 @@
-![Discord Fork Botlist, The botlist with built in GitHub integration](/assets/images/readme-header.png)
+![Discord Fork Botlist, The botlist with built in GitHub integration](/.github/header.png)
 
 Add your bot [via the E-Zed editor](https://discordbots.co.uk/edit) or [via GitHub](https://discordbots.co.uk/docs/adding-a-bot/)
 
