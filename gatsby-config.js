@@ -5,6 +5,7 @@ module.exports = {
     title: 'Gatsby Default Starter',
   },
   plugins: [
+    'gatsby-plugin-sass',
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-filesystem',
@@ -13,6 +14,8 @@ module.exports = {
         name: 'bots',
       },
     },
-    'gatsby-transformer-remark'
+    'gatsby-transformer-remark',
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp'
   ],
 }

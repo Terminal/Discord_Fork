@@ -1,0 +1,12 @@
+body, [data-reactroot], __gatsby {
+  height: 100vh;
+}
+
+[data-reactroot], __gatsby {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content-container {
+  flex-grow: 1;
+}
