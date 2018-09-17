@@ -12,7 +12,6 @@ Discord_Fork is the (nearly) entirely clientside bot list, relying on a server o
 - [Available API endpoints](api-reference)
 
 ## Useful Links
-- [Deploy this website with Netlify]({{ site.data.links.netlify }})
 - [Add a new bot](/edit)
 
 ## Discord Fork Development
@@ -29,3 +28,6 @@ Discord_Fork is the (nearly) entirely clientside bot list, relying on a server o
 - [There's nothing to select in the "Select a server" dropdown](bot-no-servers)
 - ["Bot requires code grant"](bot-requires-code-grant)
 - ["UNKNOWN_ERROR"](bot-unknown-error)
+
+<!-- Markdown snippet -->
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Terminal/Discord_Fork)

@@ -7,6 +7,7 @@ import Footer from '../Footer'
 
 import './../ModestaCSS/css/modesta.min.css'
 import './../index.scss'
+import './index.scss'
 
 export default ({ children }) => (
   <StaticQuery
