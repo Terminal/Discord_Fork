@@ -4,24 +4,29 @@ const { createFilePath } = require(`gatsby-source-filesystem`);
 exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
   const { createNodeField } = boundActionCreators;
   if (node.internal.type === 'MarkdownRemark') {
-    const filename = createFilePath({
-      node,
-      getNode,
-      basePath: 'bots'
-    });
+    const parent = getNode(node.parent);
 
     createNodeField({
       node,
       name: 'filename',
-      value: filename
-    })
+      value: parent.name
+    });
+
+    createNodeField({
+      node,
+      name: 'template',
+      value: parent.sourceInstanceName
+    });
   }
 }
 
 exports.createPages = ({ boundActionCreators, graphql }) => {
   const { createPage } = boundActionCreators;
 
-  const blogPostTemplate = path.resolve(`./src/templates/botList.js`);
+  const templates = {
+    bots: path.resolve(`./src/templates/bots.js`),
+    docs: path.resolve('./src/templates/docs.js')
+  }
 
   return graphql(`
     {
@@ -29,10 +34,8 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
         edges {
           node {
             fields {
-              filename
-            }
-            frontmatter {
-              pagename
+              filename,
+              template
             }
           }
         }
@@ -45,8 +48,8 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
 
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       createPage({
-        path: `/bots${node.fields.filename}`,
-        component: blogPostTemplate,
+        path: `/${node.fields.template}/${node.fields.filename}`,
+        component: templates[node.fields.template],
         context: {
           filename: node.fields.filename
         }, // additional data can be passed via context

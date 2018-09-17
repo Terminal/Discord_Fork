@@ -14,6 +14,13 @@ module.exports = {
         name: 'bots',
       },
     },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: path.join(__dirname, 'data', 'docs'),
+        name: 'docs',
+      },
+    },
     'gatsby-transformer-remark',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp'
