@@ -1,0 +1,17 @@
+# HTTP rules
+http://ls.terminal.ink/*          https://discordbots.co.uk/:splat 301!
+http://discordbots.uk/*           https://discordbots.co.uk/:splat 301!
+http://www.discordbots.uk/*       https://discordbots.co.uk/:splat 301!
+http://discordbots.netlify.com/*  https://discordbots.co.uk/:splat 301!
+https://ls.terminal.ink/*         https://discordbots.co.uk/:splat 301!
+https://discordbots.uk/*          https://discordbots.co.uk/:splat 301!
+https://www.discordbots.uk/*      https://discordbots.co.uk/:splat 301!
+https://discordbots.netlify.com/* https://discordbots.co.uk/:splat 301!
+
+/bot/*                            /bots/:splat                     301!
+/server/*                         /servers/:splat                  301!
+/api/bot/*                        /api/bots/:splat                 301!
+/api/server/*                     /api/servers/:splat              301!
+/api/v1/*                         /api/:splat                      301!
+/api/:type/:id/embed              /api/:type/:id.svg               301!
+
