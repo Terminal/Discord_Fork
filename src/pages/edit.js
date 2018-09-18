@@ -4,6 +4,25 @@ import EditorInput from './../components/EditorInput'
 import MonacoEditor from 'react-monaco-editor'
 
 export default class Homepage extends React.Component {
+  constructor() {
+    super()
+
+    this.state = {
+      monaco: null
+    }
+  }
+  componentDidMount() {
+    this.setState({
+      monaco: (<MonacoEditor
+        language="markdown"
+        theme="vs-dark"
+        height="400"
+        options={{
+          automaticLayout: true
+        }}
+        editorDidMount={this.editorDidMount} />)
+    })
+  }
   editorDidMount(editor, monaco) {
     console.log('haha');
     // editor.focus();
@@ -38,14 +57,7 @@ export default class Homepage extends React.Component {
           </div>
           <div className="row">
             <label>Bot Page</label>
-            <MonacoEditor
-              language="markdown"
-              theme="vs-dark"
-              height="400"
-              options={{
-                automaticLayout: true
-              }}
-              editorDidMount={this.editorDidMount} />
+            { this.state.monaco }
             <small>Markdown and some HTML allowed</small>
           </div>
         </div>
