@@ -5,6 +5,7 @@ export default () => (
   <footer className="box-container primary-flat no-border-radius no-margin">
     <div className="center">
       <Link className="btn white black-text bold" to="/">Bots</Link>
+      <Link className="btn white black-text bold" to="/docs">Docs</Link>
       <hr />
       <p>
         {/* Use a full width Vertical pipe: `｜` */}

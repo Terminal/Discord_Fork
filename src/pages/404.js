@@ -1,10 +1,16 @@
 import React from 'react'
 import SiteLayout from './../components/SiteLayout'
+import Link from 'gatsby-link'
 
 const NotFoundPage = () => (
   <SiteLayout>
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <div className="center">
+      <h1>
+        404<br />
+        Page not found
+      </h1>
+      <Link to="/">Go home</Link>
+    </div>
   </SiteLayout>
 )
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.scss'
-
+import Link from 'gatsby-link'
 
 export default class Navigation extends React.Component {
   componentDidMount() {
@@ -22,16 +22,15 @@ export default class Navigation extends React.Component {
       
         <div className="nav-content">
           <h4 className="center">
-            <a href="/docs/">
-              Documentation
-            </a>
+            <Link to="/docs/">
+              { this.props.title || 'Documentation' }
+            </Link>
           </h4>
         </div>
       
         <div ref={elem => this.navside = elem} className="sidenav" style={({transform: 'translateX(-250px)'})}>
-          <a href="/">Back to Forklist</a>
-          <a href="/docs/">Documentation</a>
-          <a href="/cms/">CMS</a>
+          <Link to="/">Back to Forklist</Link>
+          <Link to="/docs/">Documentation</Link>
         </div>
       </div>
     )

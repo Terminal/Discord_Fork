@@ -9,32 +9,36 @@ import './../ModestaCSS/css/modesta.min.css'
 import './../index.scss'
 import './index.scss'
 
-export default ({ children }) => (
-  <StaticQuery
-    query={graphql`
-      query DocsLayoutQuery {
-        site {
-          siteMetadata {
-            title
+export default class DocsLayout extends React.Component {
+  render() {
+    return (
+      <StaticQuery
+        query={graphql`
+          query DocsLayoutQuery {
+            site {
+              siteMetadata {
+                title
+              }
+            }
           }
-        }
-      }
-    `}
-    render={data => (
-      <div className="main-window">
-        <Helmet
-          title={data.site.siteMetadata.title}
-          meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
-          ]}
-        />
-        <Navigation />
-        <div className="main-content-container container">
-          {children}
-        </div>
-        <Footer />
-      </div>
-    )}
-  />
-)
+        `}
+        render={data => (
+          <div className="main-window">
+            <Helmet
+              title={data.site.siteMetadata.title}
+              meta={[
+                { name: 'description', content: 'Sample' },
+                { name: 'keywords', content: 'sample, something' },
+              ]}
+            />
+            <Navigation title={this.props.title}/>
+            <div className="main-content-container container">
+              {this.props.children}
+            </div>
+            <Footer />
+          </div>
+        )}
+      />
+    )
+  }
+}
