@@ -4,9 +4,9 @@ import Link from 'gatsby-link'
 export default () => (
   <footer className="box-container primary-flat no-border-radius no-margin">
     <div className="center">
-      <a className="btn white" href="/">
+      <Link className="btn white" to="/">
         <span className="black-text bold">Bots</span>
-      </a>
+      </Link>
       <hr />
       <p>
         <a href="https://github.com/Terminal/Discord_Fork/blob/master/LICENCE">Licence</a> |
