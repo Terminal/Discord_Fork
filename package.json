@@ -7,18 +7,21 @@
     "gatsby": "next",
     "gatsby-image": "next",
     "gatsby-link": "next",
+    "gatsby-plugin-catch-links": "^2.0.2",
     "gatsby-plugin-manifest": "^2.0.2",
     "gatsby-plugin-offline": "^2.0.5",
     "gatsby-plugin-react-helmet": "next",
     "gatsby-plugin-sass": "next",
     "gatsby-plugin-sharp": "next",
+    "gatsby-remark-external-links": "0.0.4",
     "gatsby-source-filesystem": "next",
     "gatsby-transformer-remark": "next",
     "gatsby-transformer-sharp": "next",
     "node-sass": "^4.9.3",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "react-monaco-editor": "^0.18.0"
   },
   "keywords": [
     "gatsby"
