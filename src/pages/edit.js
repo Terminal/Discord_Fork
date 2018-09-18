@@ -12,16 +12,18 @@ export default class Homepage extends React.Component {
     }
   }
   componentDidMount() {
-    this.setState({
-      monaco: (<MonacoEditor
-        language="markdown"
-        theme="vs-dark"
-        height="400"
-        options={{
-          automaticLayout: true
-        }}
-        editorDidMount={this.editorDidMount} />)
-    })
+    if (typeof window !== 'undefined') {
+      this.setState({
+        monaco: (<MonacoEditor
+          language="markdown"
+          theme="vs-dark"
+          height="400"
+          options={{
+            automaticLayout: true
+          }}
+          editorDidMount={this.editorDidMount} />)
+      })
+    }
   }
   editorDidMount(editor, monaco) {
     console.log('haha');
