@@ -10,7 +10,7 @@ export default () => (
         <a href="https://github.com/Terminal/Discord_Fork/blob/master/LICENCE">Licence</a> |
         <Link to="/docs/attribution">Attribution</Link> |
         <a href="https://github.com/Terminal/Discord_Fork">Source Code</a> |
-        <a href="https://discord.gg/8uC6aKZ" target="_blank" rel="noopener">Terminal.ink Discord</a>
+        <a href="https://discord.gg/8uC6aKZ" target="_blank" rel="noopener noreferrer">Terminal.ink Discord</a>
       </p>
     </div>
   </footer>
