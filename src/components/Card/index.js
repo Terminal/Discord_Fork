@@ -1,5 +1,4 @@
 import React from 'react';
-import mainLogo from './../logo.png'
 import Link from 'gatsby-link'
 
 export default ({ post }) => {
@@ -8,7 +7,7 @@ export default ({ post }) => {
   return (
   <section className="card">
     <div className="avatar">
-      <img className={`avatar ${post.frontmatter.nsfw ? 'nsfw' : '' }`} alt={`Avatar for ${post.frontmatter.pagename}`} src={post.frontmatter.avatar || mainLogo} onError={e => e.target.src = mainLogo}></img>
+      <img className={`avatar ${post.frontmatter.nsfw ? 'nsfw' : '' }`} alt={`Avatar for ${post.frontmatter.pagename}`} src={post.frontmatter.avatar || '/assets/images/logo/logo.svg'} onError={e => e.target.src = '/assets/images/logo/logo.svg'}></img>
     </div>
     <div className="card-content">
       <Link to={`/${post.fields.template}/${post.fields.filename}`}>
