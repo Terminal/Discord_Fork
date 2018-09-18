@@ -21,9 +21,23 @@ module.exports = {
         name: 'docs',
       },
     },
-    'gatsby-transformer-remark',
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          {
+            resolve: "gatsby-remark-external-links",
+            options: {
+              target: "_blank",
+              rel: "noopener noreferrer"
+            }
+          }
+        ]
+      }
+    },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
+    'gatsby-plugin-catch-links',
     'gatsby-plugin-offline',
     {
       resolve: 'gatsby-plugin-manifest',
