@@ -27,7 +27,9 @@ export default ({ children }) => (
             { name: 'description', content: 'Sample' },
             { name: 'keywords', content: 'sample, something' },
           ]}
-        />
+        >
+          <link rel="manifest" href="/manifest.json"></link>
+        </Helmet>
         <Intro />
         <div className="main-content-container container">
           {children}

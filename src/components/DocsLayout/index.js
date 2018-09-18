@@ -30,7 +30,9 @@ export default class DocsLayout extends React.Component {
                 { name: 'description', content: 'Sample' },
                 { name: 'keywords', content: 'sample, something' },
               ]}
-            />
+            >
+              <link rel="manifest" href="/manifest.json"></link>
+            </Helmet>
             <Navigation title={this.props.title}/>
             <div className="main-content-container container">
               {this.props.children}
