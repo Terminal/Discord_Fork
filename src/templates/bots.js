@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet';
 import SiteLayout from './../components/SiteLayout'
 import ProfileCard from './../components/ProfileCard'
 import Cards from './../components/Cards'
+import { graphql } from "gatsby"
 
 import './bots.scss'
 
