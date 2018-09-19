@@ -4,6 +4,7 @@ import { StaticQuery, graphql } from "gatsby"
 
 import Intro from '../Intro'
 import Footer from '../Footer'
+import config from '../config.json'
 
 import './../ModestaCSS/css/modesta.min.css'
 import './../index.scss'
@@ -29,6 +30,7 @@ export default ({ children }) => (
           ]}
         >
           <link rel="manifest" href="/manifest.json"></link>
+          <meta name="theme-color" content={config.colour}></meta>
         </Helmet>
         <Intro />
         <div className="main-content-container container">

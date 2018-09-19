@@ -4,6 +4,7 @@ import { StaticQuery, graphql } from "gatsby"
 
 import Navigation from '../Navigation'
 import Footer from '../Footer'
+import config from '../config.json'
 
 import './../ModestaCSS/css/modesta.min.css'
 import './../index.scss'
@@ -32,6 +33,7 @@ export default class DocsLayout extends React.Component {
               ]}
             >
               <link rel="manifest" href="/manifest.json"></link>
+              <meta name="theme-color" content={config.colour}></meta>
             </Helmet>
             <Navigation title={this.props.title}/>
             <div className="main-content-container container">
