@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link'
+import Avatar from './../Avatar'
 
 export default ({ post }) => {
   const githubButton = post.frontmatter.github && post.frontmatter.github.owner && post.frontmatter.github.repo ? <a href={`https://github.com/${post.frontmatter.github.owner}/${post.frontmatter.github.repo}`} rel="noopener noreferrer" target="_blank">GitHub</a> : null;
@@ -7,7 +8,7 @@ export default ({ post }) => {
   return (
   <section className="card">
     <div className="avatar">
-      <img className={`avatar ${post.frontmatter.nsfw ? 'nsfw' : '' }`} alt={`Avatar for ${post.frontmatter.pagename}`} src={post.frontmatter.avatar || '/assets/images/logo/logo.svg'} onError={e => e.target.src = '/assets/images/logo/logo.svg'}></img>
+      <Avatar post={post}></Avatar>
     </div>
     <div className="card-content">
       <Link to={`/${post.fields.template}/${post.fields.filename}`}>
