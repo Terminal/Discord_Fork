@@ -14,20 +14,14 @@ Discord_Fork is the (nearly) entirely clientside bot list, relying on a server o
 ## Useful Links
 - [Add a new bot](/edit)
 
-## Discord Fork Development
-- [README.md](readme)
-- [Attributions](attribution)
-- [How to Translate](locale)
+## Invite errors
+- ["The bot is private. Only the bot owner can add it."](/docs/bot-private-error)
+- [There's nothing to select in the "Select a server" dropdown](/docs/bot-no-servers)
+- ["Bot requires code grant"](/docs/bot-requires-code-grant)
+- ["UNKNOWN_ERROR"](/docs/bot-unknown-error)
 
-## Bots
-- [How to add a bot](adding-a-bot-via-website) **(recommended)**
-- [How to add a bot via GitHub](adding-a-bot)
-
-### Invite errors
-- ["The bot is private. Only the bot owner can add it."](bot-private-error)
-- [There's nothing to select in the "Select a server" dropdown](bot-no-servers)
-- ["Bot requires code grant"](bot-requires-code-grant)
-- ["UNKNOWN_ERROR"](bot-unknown-error)
-
-<!-- Markdown snippet -->
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Terminal/Discord_Fork)
+
+## Message of the year
+Discord Bot Lists made for the modern web should not take 5 seconds to load a page
+
