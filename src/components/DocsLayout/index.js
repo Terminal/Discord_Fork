@@ -8,12 +8,12 @@ import './../ModestaCSS/css/modesta.min.css'
 import './../index.scss'
 import './index.scss'
 
-export default () => (
+export default ({ children }) => (
   <div className="main-window">
     <Global />
-    <Navigation title={this.props.title}/>
+    <Navigation />
     <div className="main-content-container container">
-      {this.props.children}
+      {children}
     </div>
     <Footer />
   </div>

@@ -1,20 +1,19 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
+import Global from './../components/Global'
 import DocsLayout from './../components/DocsLayout'
 import { graphql } from "gatsby"
 
 export default ({data}) => {
   const { markdownRemark } = data;
   const { frontmatter, html } = markdownRemark;
+
   return (
     <DocsLayout>
-      <Helmet>
-        <title>{frontmatter.pagename}</title>
-      </Helmet>
+      <Global title={frontmatter.pagename}/>
       <div dangerouslySetInnerHTML={{ __html: html }}></div>
     </DocsLayout>
   )
-};
+}
 
 export const pageQuery = graphql`
   query docsPages($filename: String!) {
@@ -22,6 +21,9 @@ export const pageQuery = graphql`
       html
       frontmatter {
         pagename
+      }
+      fields {
+        filename
       }
     }
   }

@@ -1,33 +1,52 @@
-const path = require("path");
+const path = require('path')
+const fs = require('fs')
+const rimraf = require('rimraf')
+
+// Destroy existing folders before starting
+exports.onPreBootstrap = () => {
+  const apiPath = path.resolve('public', 'api')
+  const apiBotsPath = path.resolve('public', 'api', 'bots')
+  const apiDocsPath = path.resolve('public', 'api', 'docs')
+
+  if (fs.existsSync(apiPath)) rimraf.sync(apiPath)
+  if (fs.existsSync(apiBotsPath)) rimraf.sync(apiBotsPath)
+  if (fs.existsSync(apiDocsPath)) rimraf.sync(apiDocsPath)
+
+  fs.mkdirSync(apiPath)
+  fs.mkdirSync(apiBotsPath)
+  fs.mkdirSync(apiDocsPath)
+  return;
+}
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
-  const { createNodeField } = actions;
+  const { createNodeField } = actions
   if (node.internal.type === 'MarkdownRemark') {
-    const parent = getNode(node.parent);
+    const parent = getNode(node.parent)
 
     createNodeField({
       node,
       name: 'filename',
       value: parent.name
-    });
+    })
 
     createNodeField({
       node,
       name: 'template',
       value: parent.sourceInstanceName
-    });
+    })
   }
 }
 
 exports.createPages = ({ actions, graphql }) => {
-  const { createPage } = actions;
+  const { createPage } = actions
 
   const templates = {
     bots: path.resolve(`./src/templates/bots.js`),
     docs: path.resolve('./src/templates/docs.js')
   }
 
-  return graphql(`
+  // Render all pages in React
+  graphql(`
     {
       allMarkdownRemark {
         edges {
@@ -42,7 +61,7 @@ exports.createPages = ({ actions, graphql }) => {
     }
   `).then(result => {
     if (result.errors) {
-      return Promise.reject(result.errors);
+      return Promise.reject(result.errors)
     }
 
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
@@ -52,10 +71,45 @@ exports.createPages = ({ actions, graphql }) => {
         context: {
           filename: node.fields.filename
         }, // additional data can be passed via context
-      });
-    });
-  });
-};
+      })
+    })
+  })
+  
+  graphql(`
+    query BotsApiQuery {
+      allMarkdownRemark(filter: {fields: {template: { eq: "bots" }}}) {
+        edges {
+          node {
+            fields {
+              filename
+              template
+            }
+            frontmatter {
+              application_id
+              avatar
+              pagename
+              description
+              link
+              support
+              nsfw
+              github {
+                owner
+                repo
+              }
+            }
+            html
+          }
+        }
+      }
+    }
+  `).then(result => {
+    result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+      fs.writeFileSync(path.join(__dirname, 'public', 'api', 'bots', `${node.fields.filename}.json`), JSON.stringify(node, null, 2));
+    })
+  })
+
+  return
+}
 
 exports.onCreateWebpackConfig = ({stage, loaders, actions}) => {
   if (stage === 'build-html') {
