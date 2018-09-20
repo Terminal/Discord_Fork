@@ -38,6 +38,12 @@ module.exports = {
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     'gatsby-plugin-catch-links',
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://discordbots.co.uk`,
+      },
+    },
     'gatsby-plugin-offline',
     'gatsby-plugin-netlify'
   ],
