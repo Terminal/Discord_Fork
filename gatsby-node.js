@@ -1,8 +1,7 @@
 const path = require("path");
-const { createFilePath } = require(`gatsby-source-filesystem`);
 
-exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
-  const { createNodeField } = boundActionCreators;
+exports.onCreateNode = ({ node, getNode, actions }) => {
+  const { createNodeField } = actions;
   if (node.internal.type === 'MarkdownRemark') {
     const parent = getNode(node.parent);
 
@@ -20,8 +19,8 @@ exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
   }
 }
 
-exports.createPages = ({ boundActionCreators, graphql }) => {
-  const { createPage } = boundActionCreators;
+exports.createPages = ({ actions, graphql }) => {
+  const { createPage } = actions;
 
   const templates = {
     bots: path.resolve(`./src/templates/bots.js`),
