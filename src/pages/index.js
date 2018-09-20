@@ -30,7 +30,7 @@ export default class Homepage extends React.Component {
               return edge
             })
             .sort((a, b) => b.score - a.score)
-            .map(edge => <Card key={edge.node.id} post={edge.node}/>)}
+            .map(edge => <Card key={edge.node.fields.filename} post={edge.node}/>)}
         </Cards>
       </SiteLayout>
     )
