@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
-  "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "name": "discord-fork",
+  "description": "A JAM Stack Discord Bot List, built with Gatsby",
+  "version": "2.0.0",
+  "author": "7coil <admin@moustacheminer.com>",
   "dependencies": {
     "gatsby": "next",
     "gatsby-image": "next",
@@ -27,11 +27,10 @@
   "keywords": [
     "gatsby"
   ],
-  "license": "MIT",
+  "license": "AGPL-3.0-only",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {

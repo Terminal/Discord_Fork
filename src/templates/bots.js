@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
+import Global from './../components/Global'
 import SiteLayout from './../components/SiteLayout'
 import ProfileCard from './../components/ProfileCard'
 import Cards from './../components/Cards'
@@ -12,9 +12,7 @@ export default function Template({data}) {
   const { frontmatter, fields, html } = markdownRemark;
   return (
     <SiteLayout>
-      <Helmet>
-        <title>{frontmatter.pagename}</title>
-      </Helmet>
+      <Global title={frontmatter.pagename}/>
       <Cards>
         <ProfileCard post={{ frontmatter, fields }}></ProfileCard>
       </Cards>

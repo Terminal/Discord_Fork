@@ -17,13 +17,8 @@ export default class Global extends React.Component {
           }
         `}
         render={data => (
-          <Helmet
-            title={data.site.siteMetadata.title}
-            meta={[
-              { name: 'description', content: 'Sample' },
-              { name: 'keywords', content: 'sample, something' },
-            ]}
-          >
+          <Helmet>
+            { this.props.title ? <title>{this.props.title} - {data.site.siteMetadata.title}</title> : <title>{data.site.siteMetadata.title}</title>}
             <link rel="manifest" href="/manifest.json"></link>
             <meta name="theme-color" content={config.colour}></meta>
           </Helmet>
