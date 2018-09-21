@@ -18,12 +18,14 @@
     "gatsby-source-filesystem": "next",
     "gatsby-transformer-remark": "next",
     "gatsby-transformer-sharp": "next",
+    "mustache": "^3.0.0",
     "node-sass": "^4.9.3",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0",
     "react-monaco-editor": "^0.18.0",
-    "rimraf": "^2.6.2"
+    "rimraf": "^2.6.2",
+    "word-wrap": "^1.2.3"
   },
   "keywords": [
     "gatsby"

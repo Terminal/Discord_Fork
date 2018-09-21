@@ -1,6 +1,10 @@
 const path = require('path')
 const fs = require('fs')
 const rimraf = require('rimraf')
+const mustache = require('mustache')
+const wrap = require('word-wrap');
+
+const embedTemplate = fs.readFileSync(path.join(__dirname, 'embed.svg'), 'utf8');
 
 // Destroy existing folders before starting
 exports.onPreBootstrap = () => {
@@ -105,6 +109,9 @@ exports.createPages = ({ actions, graphql }) => {
   `).then(result => {
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       fs.writeFileSync(path.join(__dirname, 'public', 'api', 'bots', `${node.fields.filename}.json`), JSON.stringify(node, null, 2));
+      fs.writeFileSync(path.join(__dirname, 'public', 'api', 'bots', `${node.fields.filename}.svg`), mustache.render(embedTemplate, Object.assign(node, {
+        wrapped: wrap(node.frontmatter.description || '', { width: 35 }).split('\n')
+      })));
     })
   })
 
