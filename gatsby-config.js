@@ -3,6 +3,7 @@ const path = require('path')
 module.exports = {
   siteMetadata: {
     title: 'Discord_Fork',
+    colour: "#3498db",
   },
   plugins: [
     'gatsby-plugin-sass',
