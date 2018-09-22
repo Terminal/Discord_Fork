@@ -1,9 +1,6 @@
 ![Discord Fork Botlist, The botlist with built in GitHub integration](/.github/header.png)
 
-Add your bot [via the E-Zed editor](https://discordbots.co.uk/edit) or [via GitHub](https://discordbots.co.uk/docs/adding-a-bot/)
-
-NOTE: Please do not complain over how *bad* the site is made, this is mostly made as a
-way to be more unique and prove that a list site can possibly be made with Gatsby.
+Try it out! [http://gatsby--discordbots.netlify.com](http://gatsby--discordbots.netlify.com)
 
 ## Requirements
 - Node.js 10.x
