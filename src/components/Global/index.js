@@ -3,27 +3,39 @@ import Helmet from 'react-helmet'
 import config from '../config.json'
 import { StaticQuery, graphql } from "gatsby"
 
-export default class Global extends React.Component {
-  render() {
-    return (
-      <StaticQuery
-        query={graphql`
-          query SiteLayoutQuery {
-            site {
-              siteMetadata {
-                title
-              }
-            }
+export default ({ children, title, description, image }) => (
+  <StaticQuery
+    query={graphql`
+      query SiteLayoutQuery {
+        site {
+          siteMetadata {
+            title
           }
-        `}
-        render={data => (
-          <Helmet>
-            { this.props.title ? <title>{this.props.title} - {data.site.siteMetadata.title}</title> : <title>{data.site.siteMetadata.title}</title>}
-            <link rel="manifest" href="/manifest.json"></link>
-            <meta name="theme-color" content={config.colour}></meta>
-          </Helmet>
-        )}
-      />
-    )
-  }
-}
+        }
+      }
+    `}
+    render={data => (
+      <Helmet>
+        { title ? <title>{title} - {data.site.siteMetadata.title}</title> : <title>{data.site.siteMetadata.title}</title>}
+        { description
+          ? <meta property="og:description" content={`${description} - ${data.site.siteMetadata.title}`}></meta>
+          : <meta property="og:description" content={`Discord Bots is an open source website where you can obtain bots for your server, with GitHub integration - ${data.site.siteMetadata.title}`}></meta>
+        }
+        { description
+          ? <meta name="description" content={`${description} - ${data.site.siteMetadata.title}`}></meta>
+          : <meta name="description" content={`Discord Bots is an open source website where you can obtain bots for your server, with GitHub integration - ${data.site.siteMetadata.title}`}></meta>
+        }
+        { image
+          ? <meta property="og:image" content={image}></meta>
+          : <meta property="og:image" content="/assets/images/logo/logo128.png"></meta>
+        }
+        <link rel="manifest" href="/manifest.json"></link>
+        <link rel="icon" type="image/x-icon" href="/assets/images/logo/logo64.png"></link>
+        <meta name="revisit-after" content="2 days"></meta>
+        <meta name="keywords" content="discord, bots, botlist"></meta>
+        <meta name="theme-color" content={config.colour}></meta>
+        { children }
+      </Helmet>
+    )}
+  />
+)

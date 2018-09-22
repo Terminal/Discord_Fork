@@ -12,7 +12,7 @@ export default function Template({data}) {
   const { frontmatter, fields, html } = markdownRemark;
   return (
     <SiteLayout>
-      <Global title={frontmatter.pagename}/>
+      <Global title={frontmatter.pagename} description={frontmatter.description} image={`/assets/${fields.template}/${fields.filename}-128.png`} />
       <Cards>
         <ProfileCard post={{ frontmatter, fields }}></ProfileCard>
       </Cards>

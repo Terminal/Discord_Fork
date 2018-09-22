@@ -9,7 +9,7 @@ export default ({data}) => {
 
   return (
     <DocsLayout>
-      <Global title={frontmatter.pagename}/>
+      <Global title={frontmatter.pagename} description={frontmatter.description}/>
       <div dangerouslySetInnerHTML={{ __html: html }}></div>
     </DocsLayout>
   )
