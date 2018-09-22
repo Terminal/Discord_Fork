@@ -2,23 +2,28 @@ const path = require('path')
 const fs = require('fs')
 const rimraf = require('rimraf')
 const mustache = require('mustache')
-const wrap = require('word-wrap');
+const wrap = require('word-wrap')
+
+const downloadImages = require('./node/downloadImages');
 
 const embedTemplate = fs.readFileSync(path.join(__dirname, 'embed.svg'), 'utf8');
 
 // Destroy existing folders before starting
 exports.onPreBootstrap = () => {
-  const apiPath = path.resolve('public', 'api')
-  const apiBotsPath = path.resolve('public', 'api', 'bots')
-  const apiDocsPath = path.resolve('public', 'api', 'docs')
+  [
+    path.resolve('public', 'api'),
+    path.resolve('public', 'api', 'bots'),
+    path.resolve('public', 'api', 'docs'),
+    path.resolve('public', 'assets', 'bots'),
+    path.resolve('public', 'assets', 'docs')
+  ]
+    .forEach((path) => {
+      if (fs.existsSync(path)) {
+        rimraf.sync(path);
+      }
 
-  if (fs.existsSync(apiPath)) rimraf.sync(apiPath)
-  if (fs.existsSync(apiBotsPath)) rimraf.sync(apiBotsPath)
-  if (fs.existsSync(apiDocsPath)) rimraf.sync(apiDocsPath)
-
-  fs.mkdirSync(apiPath)
-  fs.mkdirSync(apiBotsPath)
-  fs.mkdirSync(apiDocsPath)
+      fs.mkdirSync(path);
+    })
   return;
 }
 
@@ -80,8 +85,8 @@ exports.createPages = ({ actions, graphql }) => {
   })
   
   graphql(`
-    query BotsApiQuery {
-      allMarkdownRemark(filter: {fields: {template: { eq: "bots" }}}) {
+    {
+      allMarkdownRemark {
         edges {
           node {
             fields {
@@ -108,10 +113,11 @@ exports.createPages = ({ actions, graphql }) => {
     }
   `).then(result => {
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-      fs.writeFileSync(path.join(__dirname, 'public', 'api', 'bots', `${node.fields.filename}.json`), JSON.stringify(node, null, 2));
-      fs.writeFileSync(path.join(__dirname, 'public', 'api', 'bots', `${node.fields.filename}.svg`), mustache.render(embedTemplate, Object.assign(node, {
+      downloadImages(node)
+      fs.writeFileSync(path.join(__dirname, 'public', 'api', node.fields.template, `${node.fields.filename}.json`), JSON.stringify(node, null, 2));
+      fs.writeFileSync(path.join(__dirname, 'public', 'api', node.fields.template, `${node.fields.filename}.svg`), mustache.render(embedTemplate, Object.assign(node, {
         wrapped: wrap(node.frontmatter.description || '', { width: 35 }).split('\n').map(line => line.trim())
-      })));
+      })))
     })
   })
 

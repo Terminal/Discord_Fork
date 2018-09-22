@@ -24,7 +24,9 @@
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0",
     "react-monaco-editor": "^0.18.0",
+    "request": "^2.88.0",
     "rimraf": "^2.6.2",
+    "sharp": "^0.20.8",
     "word-wrap": "^1.2.3"
   },
   "keywords": [
