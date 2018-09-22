@@ -15,7 +15,7 @@ export default class Homepage extends React.Component {
 
   componentDidMount() {
     this.setState({
-      render: true
+      render: !this.state.render
     });
   }
 
