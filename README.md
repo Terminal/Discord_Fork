@@ -28,6 +28,7 @@ I prefer Microsoft Windows 10, but this will totally work in Ubuntu 18.04 or eve
 ### Ubuntu 18.04, 16.04, WSL Ubuntu, Other
 1. `url -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -`
 2. `sudo apt install -y nodejs`
+3. `npm i -g gatsby-cli`
 
 ## Licence
 This project is licenced under the AGPL-3.0 only.
