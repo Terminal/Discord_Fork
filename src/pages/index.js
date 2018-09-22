@@ -4,22 +4,35 @@ import Cards from './../components/Cards'
 import SiteLayout from './../components/SiteLayout'
 import { graphql } from "gatsby"
 
-export default ({ data }) => {
-  const shuffle = data.allMarkdownRemark.edges.map((edge) => {
-    edge.card = (<Card key={edge.node.fields.filename} post={edge.node}/>)
-    edge.score = Math.random()
-    if (edge.node.frontmatter.github) edge.score += 1;
-    return edge
-  })
-  .sort((a, b) => b.score - a.score)
+export default class Homepage extends React.Component {
+  constructor() {
+    super();
 
-  return (
-    <SiteLayout>
-      <Cards>
-        {shuffle.map(edge => edge.card)}
-      </Cards>
-    </SiteLayout>
-  )
+    this.state = {
+      shuffle: []
+    }
+  }
+
+  componentDidMount() {
+    this.setState({
+      shuffle: this.props.data.allMarkdownRemark.edges.map((edge) => {
+        edge.score = Math.random()
+        if (edge.node.frontmatter.github) edge.score += 1;
+        return edge
+      })
+      .sort((a, b) => b.score - a.score)
+    });
+  }
+
+  render() {
+    return (
+      <SiteLayout>
+        <Cards>
+          {this.state.shuffle.map(edge => <Card key={edge.node.fields.filename} post={edge.node}/>)}
+        </Cards>
+      </SiteLayout>
+    )
+  }
 }
 
 export const pageQuery = graphql`
