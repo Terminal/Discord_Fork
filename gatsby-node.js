@@ -110,7 +110,7 @@ exports.createPages = ({ actions, graphql }) => {
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       fs.writeFileSync(path.join(__dirname, 'public', 'api', 'bots', `${node.fields.filename}.json`), JSON.stringify(node, null, 2));
       fs.writeFileSync(path.join(__dirname, 'public', 'api', 'bots', `${node.fields.filename}.svg`), mustache.render(embedTemplate, Object.assign(node, {
-        wrapped: wrap(node.frontmatter.description || '', { width: 35 }).split('\n')
+        wrapped: wrap(node.frontmatter.description || '', { width: 35 }).split('\n').map(line => line.trim())
       })));
     })
   })
