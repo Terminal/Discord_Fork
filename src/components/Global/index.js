@@ -1,6 +1,5 @@
 import React from 'react';
 import Helmet from 'react-helmet'
-import config from '../config.json'
 import { StaticQuery, graphql } from "gatsby"
 
 export default ({ children, title, description, image }) => (
@@ -10,6 +9,7 @@ export default ({ children, title, description, image }) => (
         site {
           siteMetadata {
             title
+            colour
           }
         }
       }
@@ -33,7 +33,7 @@ export default ({ children, title, description, image }) => (
         <link rel="icon" type="image/x-icon" href="/assets/images/logo/logo64.png"></link>
         <meta name="revisit-after" content="2 days"></meta>
         <meta name="keywords" content="discord, bots, botlist"></meta>
-        <meta name="theme-color" content={config.colour}></meta>
+        <meta name="theme-color" content={data.site.siteMetadata.colour}></meta>
         { children }
       </Helmet>
     )}
