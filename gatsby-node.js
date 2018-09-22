@@ -14,6 +14,7 @@ exports.onPreBootstrap = () => {
     path.resolve('public', 'api'),
     path.resolve('public', 'api', 'bots'),
     path.resolve('public', 'api', 'docs'),
+    path.resolve('public', 'assets'),
     path.resolve('public', 'assets', 'bots'),
     path.resolve('public', 'assets', 'docs')
   ]
