@@ -6,6 +6,7 @@ import { graphql } from "gatsby"
 
 export default ({ data }) => {
   const shuffle = data.allMarkdownRemark.edges.map((edge) => {
+    edge.card = (<Card key={edge.node.fields.filename} post={edge.node}/>)
     edge.score = Math.random()
     if (edge.node.frontmatter.github) edge.score += 1;
     return edge
@@ -15,7 +16,7 @@ export default ({ data }) => {
   return (
     <SiteLayout>
       <Cards>
-        {shuffle.map(edge => <Card key={edge.node.fields.filename} post={edge.node}/>)}
+        {shuffle.map(edge => edge.card)}
       </Cards>
     </SiteLayout>
   )
