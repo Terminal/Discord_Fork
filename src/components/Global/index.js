@@ -15,7 +15,7 @@ export default ({ children, title, description, image }) => (
       }
     `}
     render={data => (
-      <Helmet>
+      <Helmet htmlAttributes={{ lang : 'en' }}>
         { title ? <title>{title} - {data.site.siteMetadata.title}</title> : <title>{data.site.siteMetadata.title}</title>}
         { description
           ? <meta property="og:description" content={`${description} - ${data.site.siteMetadata.title}`}></meta>
