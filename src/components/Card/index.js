@@ -2,6 +2,8 @@ import React from 'react';
 import Link from 'gatsby-link'
 import Avatar from './../Avatar'
 
+import './index.scss'
+
 export default ({ post }) => {
   const githubButton = post.frontmatter.github
     && post.frontmatter.github.owner
