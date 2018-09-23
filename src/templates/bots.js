@@ -12,7 +12,7 @@ export default function Template({data}) {
   const { frontmatter, fields, html } = markdownRemark;
   return (
     <SiteLayout>
-      <Global title={frontmatter.pagename} description={frontmatter.description} image={`/userassets/${fields.template}/${fields.filename}-128.png`} />
+      <Global title={frontmatter.pagename} description={frontmatter.description} image={`/userassets/${fields.template}/${fields.filename}-256.png`} />
       <Cards>
         <ProfileCard post={{ frontmatter, fields }}></ProfileCard>
       </Cards>
@@ -38,6 +38,7 @@ export const pageQuery = graphql`
       fields {
         filename
         template
+        filelink
       }
     }
   }
