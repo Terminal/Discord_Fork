@@ -59,6 +59,7 @@ export const pageQuery = graphql`
             template
             locale
             permalink
+            filelink
           }
           frontmatter {
             avatar
