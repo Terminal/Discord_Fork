@@ -137,7 +137,7 @@ exports.createPages = ({ actions, graphql }) => {
       makeSureTheFoldersExistBeforeWritingYourFiles(node)
       downloadImages(node)
       fs.writeFileSync(path.join(__dirname, 'public', 'api', `${node.fields.filelink}.json`), JSON.stringify(node, null, 2));
-      fs.writeFileSync(path.join(__dirname, 'public', 'api', `${node.fields.filelink}.json`), mustache.render(embedTemplate, Object.assign(node, {
+      fs.writeFileSync(path.join(__dirname, 'public', 'api', `${node.fields.filelink}.svg`), mustache.render(embedTemplate, Object.assign(node, {
         wrapped: wrap(node.frontmatter.description || '', { width: 35 }).split('\n').map(line => line.trim())
       })))
     })
