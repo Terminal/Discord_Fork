@@ -5,26 +5,20 @@ const mustache = require('mustache')
 const wrap = require('word-wrap')
 
 const downloadImages = require('./node/downloadImages')
+const makeSureTheFoldersExistBeforeWritingYourFiles = require('./node/makeSureTheFoldersExistBeforeWritingYourFiles')
+
 const locales = require('./src/locales/index')
+const config = require('./gatsby-config')
 
 const embedTemplate = fs.readFileSync(path.join(__dirname, 'embed.svg'), 'utf8');
 
 // Destroy existing folders before starting
 exports.onPreBootstrap = () => {
-  [
-    path.resolve('public', 'api'),
-    path.resolve('public', 'api', 'bots'),
-    path.resolve('public', 'api', 'docs'),
-    path.resolve('public', 'userassets'),
-    path.resolve('public', 'userassets', 'bots'),
-    path.resolve('public', 'userassets', 'docs')
-  ]
-    .forEach((path) => {
-      if (fs.existsSync(path)) {
-        rimraf.sync(path);
+  config.siteMetadata.foldersToClear
+    .forEach((location) => {
+      if (fs.existsSync(path.resolve('public', location))) {
+        rimraf.sync(path.resolve('public', location))
       }
-
-      fs.mkdirSync(path);
     })
   return;
 }
@@ -63,6 +57,12 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       name: 'permalink',
       value: `${localizedPath}/${parts[parts.length - 1]}/${parent.name === 'index' ? '' : parent.name}`
     })
+
+    createNodeField({
+      node,
+      name: 'filelink',
+      value: `${localizedPath}/${parts[parts.length - 1]}/${parent.name}`
+    })
   }
 }
 
@@ -85,6 +85,7 @@ exports.createPages = ({ actions, graphql }) => {
               template
               locale
               permalink
+              filelink
             }
           }
         }
@@ -110,8 +111,8 @@ exports.createPages = ({ actions, graphql }) => {
         edges {
           node {
             fields {
-              filename
-              template
+              permalink
+              filelink
             }
             frontmatter {
               application_id
@@ -133,9 +134,10 @@ exports.createPages = ({ actions, graphql }) => {
     }
   `).then(result => {
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+      makeSureTheFoldersExistBeforeWritingYourFiles(node)
       downloadImages(node)
-      fs.writeFileSync(path.join(__dirname, 'public', 'api', node.fields.template, `${node.fields.filename}.json`), JSON.stringify(node, null, 2));
-      fs.writeFileSync(path.join(__dirname, 'public', 'api', node.fields.template, `${node.fields.filename}.svg`), mustache.render(embedTemplate, Object.assign(node, {
+      fs.writeFileSync(path.join(__dirname, 'public', 'api', `${node.fields.filelink}.json`), JSON.stringify(node, null, 2));
+      fs.writeFileSync(path.join(__dirname, 'public', 'api', `${node.fields.filelink}.json`), mustache.render(embedTemplate, Object.assign(node, {
         wrapped: wrap(node.frontmatter.description || '', { width: 35 }).split('\n').map(line => line.trim())
       })))
     })

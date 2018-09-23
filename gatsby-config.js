@@ -8,6 +8,11 @@ const types = [
   'docs'
 ]
 
+const foldersToClear = [
+  'api',
+  'userassets'
+]
+
 Object.keys(locales).forEach((lang) => {
   types.forEach((type) => {
     filesystems.push({
@@ -24,6 +29,8 @@ module.exports = {
   siteMetadata: {
     title: 'Discord_Fork',
     colour: "#3498db",
+    types,
+    foldersToClear
   },
   plugins: [
     'gatsby-plugin-sass',
