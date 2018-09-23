@@ -3,6 +3,8 @@ import Global from './../components/Global'
 import DocsLayout from './../components/DocsLayout'
 import { graphql } from "gatsby"
 
+import './docs.scss'
+
 export default ({data}) => {
   const { markdownRemark } = data;
   const { frontmatter, html } = markdownRemark;
