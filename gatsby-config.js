@@ -1,4 +1,24 @@
 const path = require('path')
+const locales = require('./src/locales/index')
+
+const filesystems = [];
+
+const types = [
+  'bots',
+  'docs'
+]
+
+Object.keys(locales).forEach((lang) => {
+  types.forEach((type) => {
+    filesystems.push({
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: path.join(__dirname, 'data', lang, type),
+        name: `${type}.${lang}`,
+      },
+    })
+  })
+})
 
 module.exports = {
   siteMetadata: {
@@ -8,20 +28,7 @@ module.exports = {
   plugins: [
     'gatsby-plugin-sass',
     'gatsby-plugin-react-helmet',
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        path: path.join(__dirname, 'data', 'bots'),
-        name: 'bots',
-      },
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        path: path.join(__dirname, 'data', 'docs'),
-        name: 'docs',
-      },
-    },
+    ...filesystems,
     {
       resolve: 'gatsby-transformer-remark',
       options: {

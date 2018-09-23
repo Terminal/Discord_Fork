@@ -17,7 +17,7 @@ export default ({ post }) => {
         <Avatar post={post}></Avatar>
       </div>
       <div className="card-content">
-        <Link to={`/${post.fields.template}/${post.fields.filename}`}>
+        <Link to={post.fields.permalink}>
           <h4 className="title">
             {post.frontmatter.pagename}
             {post.frontmatter.nsfw ? <span className="nsfw-tag">NSFW</span> : null }

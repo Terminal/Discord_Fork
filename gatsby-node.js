@@ -4,7 +4,8 @@ const rimraf = require('rimraf')
 const mustache = require('mustache')
 const wrap = require('word-wrap')
 
-const downloadImages = require('./node/downloadImages');
+const downloadImages = require('./node/downloadImages')
+const locales = require('./src/locales/index')
 
 const embedTemplate = fs.readFileSync(path.join(__dirname, 'embed.svg'), 'utf8');
 
@@ -14,9 +15,9 @@ exports.onPreBootstrap = () => {
     path.resolve('public', 'api'),
     path.resolve('public', 'api', 'bots'),
     path.resolve('public', 'api', 'docs'),
-    path.resolve('public', 'assets'),
-    path.resolve('public', 'assets', 'bots'),
-    path.resolve('public', 'assets', 'docs')
+    path.resolve('public', 'userassets'),
+    path.resolve('public', 'userassets', 'bots'),
+    path.resolve('public', 'userassets', 'docs')
   ]
     .forEach((path) => {
       if (fs.existsSync(path)) {
@@ -39,10 +40,28 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       value: parent.name
     })
 
+    const parts = parent.dir.split('/')
+
+    const localizedPath = locales[parts[parts.length - 2]].default
+      ? ''
+      : '/' + locales[parts[parts.length - 2]].path
+
+    createNodeField({
+      node,
+      name: 'locale',
+      value: parts[parts.length - 2]
+    })
+
     createNodeField({
       node,
       name: 'template',
-      value: parent.sourceInstanceName
+      value: parts[parts.length - 1]
+    })
+
+    createNodeField({
+      node,
+      name: 'permalink',
+      value: `${localizedPath}/${parts[parts.length - 1]}/${parent.name === 'index' ? '' : parent.name}`
     })
   }
 }
@@ -62,8 +81,10 @@ exports.createPages = ({ actions, graphql }) => {
         edges {
           node {
             fields {
-              filename,
+              filename
               template
+              locale
+              permalink
             }
           }
         }
@@ -76,11 +97,9 @@ exports.createPages = ({ actions, graphql }) => {
 
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       createPage({
-        path: `/${node.fields.template}/${node.fields.filename === 'index' ? '' : node.fields.filename}`,
+        path: node.fields.permalink,
         component: templates[node.fields.template],
-        context: {
-          filename: node.fields.filename
-        }, // additional data can be passed via context
+        context: node.fields
       })
     })
   })
@@ -123,6 +142,30 @@ exports.createPages = ({ actions, graphql }) => {
   })
 
   return
+}
+
+exports.onCreatePage = ({ page, actions }) => {
+  const { createPage, deletePage } = actions
+
+  return new Promise(resolve => {
+    deletePage(page)
+
+    Object.keys(locales).map(lang => {
+      const localizedPath = locales[lang].default
+        ? page.path
+        : locales[lang].path + page.path
+
+      return createPage({
+        ...page,
+        path: localizedPath,
+        context: {
+          locale: lang
+        }
+      })
+    })
+
+    resolve()
+  })
 }
 
 exports.onCreateWebpackConfig = ({stage, loaders, actions}) => {

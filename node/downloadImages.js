@@ -18,7 +18,7 @@ module.exports = (node) => {
     )
       .pipe(
         fs.createWriteStream(
-          path.join(__dirname, '..', 'public', 'assets', node.fields.template, `${node.fields.filename}-${size}.png`)
+          path.join(__dirname, '..', 'public', 'userassets', node.fields.template, `${node.fields.filename}-${size}.png`)
         )
       )
   }
@@ -30,7 +30,7 @@ module.exports = (node) => {
       sharpreader
         .clone()
         .resize(size, size)
-        .toFile(path.join(__dirname, '..', 'public', 'assets', node.fields.template, `${node.fields.filename}-${size}.png`))
+        .toFile(path.join(__dirname, '..', 'public', 'userassets', node.fields.template, `${node.fields.filename}-${size}.png`))
         .catch(() => {
           // If there is an error resizing a specific image, copy the default image for every size
           imageError(size)

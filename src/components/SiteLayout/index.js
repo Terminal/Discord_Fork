@@ -2,18 +2,17 @@ import React from 'react'
 
 import Intro from '../Intro'
 import Footer from '../Footer'
-import Global from '../Global'
+import GlobalLayout from '../GlobalLayout'
 
 import './../ModestaCSS/css/modesta.min.css'
 import './../index.scss'
 
-export default ({ children }) => (
-  <div className="main-window">
-    <Global />
+export default ({ locale, children }) => (
+  <GlobalLayout locale={locale}>
     <Intro />
     <div className="main-content-container container">
       {children}
     </div>
     <Footer />
-  </div>
+  </GlobalLayout>
 )
