@@ -18,7 +18,7 @@ module.exports = (node) => {
     )
       .pipe(
         fs.createWriteStream(
-          path.join(__dirname, '..', 'public', 'userassets', `${node.fields.permalink}-${size}.png`)
+          path.join(__dirname, '..', 'public', 'userassets', `${node.fields.filelink}-${size}.png`)
         )
       )
   }
