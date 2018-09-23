@@ -22,8 +22,8 @@ export default function Template({data}) {
 };
 
 export const pageQuery = graphql`
-  query BotPages($filename: String!) {
-    markdownRemark(fields: { filename: { eq: $filename }}) {
+  query BotPages($filelink: String!) {
+    markdownRemark(fields: { filelink: { eq: $filelink }}) {
       html
       frontmatter {
         pagename

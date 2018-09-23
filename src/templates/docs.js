@@ -18,8 +18,8 @@ export default ({data}) => {
 }
 
 export const pageQuery = graphql`
-  query docsPages($filename: String!) {
-    markdownRemark(fields: { filename: { eq: $filename }}) {
+  query docsPages($filelink: String!) {
+    markdownRemark(fields: { filelink: { eq: $filelink }}) {
       html
       frontmatter {
         pagename
