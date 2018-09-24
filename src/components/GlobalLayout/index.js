@@ -6,17 +6,14 @@ import './../ModestaCSS/css/modesta.min.css'
 import './../index.scss'
 
 import enData from 'react-intl/locale-data/en'
-import ptData from 'react-intl/locale-data/pt'
+import frData from 'react-intl/locale-data/fr'
 
-import en from '../../locales/en.json'
-import pt from '../../locales/pt.json'
+import locales from '../../locales'
 
-const messages = {
-  en,
-  pt
-}
+const messages = {};
+Object.keys(locales).map((key) => messages[key] = locales[key].data)
 
-addLocaleData([...enData, ...ptData])
+addLocaleData([...enData, ...frData])
 
 export default ({ locale, children }) => (
   <IntlProvider locale={locale} messages={messages[locale]}>

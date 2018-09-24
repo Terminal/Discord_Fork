@@ -5,12 +5,12 @@ import { graphql } from "gatsby"
 
 import './docs.scss'
 
-export default ({data}) => {
+export default ({data, pageContext}) => {
   const { markdownRemark } = data;
   const { frontmatter, html } = markdownRemark;
 
   return (
-    <DocsLayout>
+    <DocsLayout locale={pageContext.locale}>
       <Global title={frontmatter.pagename} description={frontmatter.description}/>
       <div dangerouslySetInnerHTML={{ __html: html }}></div>
     </DocsLayout>

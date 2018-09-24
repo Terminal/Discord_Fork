@@ -1,6 +1,7 @@
 import React from 'react';
 import background from './background.jpg'
 import Link from 'gatsby-link'
+import { FormattedMessage } from 'react-intl'
 
 export default () => (
   <section className="fullscreen half">
@@ -13,9 +14,11 @@ export default () => (
             <img alt="The logo for Discord_Fork" draggable="false" className="image-title" src="/assets/images/logo/logo.svg" style={({width: '7em', height: '7em'})}></img>
             <div>
               <h1 className="title no-margin white-text">
-                Discord Fork Bot List
+                <FormattedMessage id="pages.bots.pagename" />
               </h1>
-              <span className="undertitle white-text">The botlist with built-in GitHub integration</span>
+              <span className="undertitle white-text">
+              <FormattedMessage id="pages.bots.description" />
+              </span>
             </div>
           </section>
         </Link>

@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from 'gatsby-link'
 import Avatar from './../Avatar'
+import { FormattedMessage } from 'react-intl'
+
 
 import './index.scss'
 
@@ -8,7 +10,7 @@ export default ({ post }) => {
   const githubButton = post.frontmatter.github
     && post.frontmatter.github.owner
     && post.frontmatter.github.repo 
-      ? <a href={`https://github.com/${post.frontmatter.github.owner}/${post.frontmatter.github.repo}`} rel="noopener noreferrer" target="_blank">GitHub</a>
+      ? <a href={`https://github.com/${post.frontmatter.github.owner}/${post.frontmatter.github.repo}`} rel="noopener noreferrer" target="_blank"><FormattedMessage id="pages.list.github" /></a>
       : null
 
   return (
@@ -26,7 +28,7 @@ export default ({ post }) => {
         <span className="description">{post.frontmatter.description}</span>
       </div>
       <div className="footer">
-        <a href={post.frontmatter.link}>Invite</a>
+        <a href={post.frontmatter.link}><FormattedMessage id="pages.list.invite" /></a>
         {githubButton}
       </div>
     </section>

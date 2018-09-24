@@ -29,3 +29,5 @@ I prefer Microsoft Windows 10, but this will totally work in Ubuntu 18.04 or eve
 
 ## Licence
 This project is licenced under the AGPL-3.0 only.
+
+i18n support was "inspired" (aka taken) from [here](https://blog.significa.pt/i18n-with-gatsby-528607b4da81)

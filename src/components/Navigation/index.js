@@ -5,11 +5,13 @@ import Link from 'gatsby-link'
 export default class Navigation extends React.Component {
   componentDidMount() {
     this.open.addEventListener('click', () => {
-      this.navside.style.transform = 'translateX(0px)'
+      if (this.navside && this.navside.style) {
+        this.navside.style.transform = 'translateX(0px)'
+      }
     })
 
     document.addEventListener('click', (e) => {
-      if (!e.target.closest('.nav-container')) {
+      if (!e.target.closest('.nav-container') && this.navside && this.navside.style) {
         this.navside.style.transform = 'translateX(-250px)'
       }
     })

@@ -1,12 +1,15 @@
 import React from 'react';
+import { FormattedMessage } from 'react-intl'
 
 export default class EditorInput extends React.Component {
   render() {
     let input = null;
     if (this.props.choices) {
       input = (
-        <select className="full-width" id={this.props.id} required>
-          <option value="" disabled hidden>{ this.props.placeholder || 'Please select...'}</option>
+        <select className="full-width" id={this.props.id} defaultValue="" required>
+          <FormattedMessage id="forms.select">
+            {(msg) => (<option value="" disabled hidden>{ this.props.placeholder || msg}</option>)}
+          </FormattedMessage>
           {
             Object.keys(this.props.choices).map((key) => (<option value={key} key={key}>{this.props.choices[key]}</option>))
           }
@@ -14,13 +17,21 @@ export default class EditorInput extends React.Component {
       )
     } else {
       input = (
-        <input className="full-width" placeholder={this.props.placeholder} id={this.props.id}></input>
+        <FormattedMessage id={`pages.edit.${this.props.id}.placeholder`}>
+          {((placeholder) => (
+            <input className="full-width" placeholder={placeholder} id={this.props.id}></input>
+          ))}
+        </FormattedMessage>
       )
     }
 
     return (
       <div className={this.props.className || 'one-half column'}>
-        <label htmlFor={this.props.id}>{this.props.label}</label>
+        <FormattedMessage id={`pages.edit.${this.props.id}.title`}>
+          {((label) => (
+            <label htmlFor={this.props.id}>{label}</label>
+          ))}
+        </FormattedMessage>
         {input}
       </div>
     )

@@ -2,7 +2,6 @@ import React from 'react'
 import Card from './../components/Card'
 import Cards from './../components/Cards'
 import SiteLayout from './../components/SiteLayout'
-import { FormattedMessage } from 'react-intl'
 import { graphql } from "gatsby"
 
 export default class Homepage extends React.Component {
@@ -40,7 +39,6 @@ export default class Homepage extends React.Component {
   render() {
     return (
       <SiteLayout locale={this.props.pageContext.locale}>
-        <FormattedMessage id="hello" />
         <Cards>
           {this.state.shuffle.map(edge => <Card key={edge.node.fields.filename} post={edge.node}/>)}
         </Cards>

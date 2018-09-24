@@ -1,3 +1,146 @@
 {
-  "hello": "Hello from i18n!"
+  "pages": {
+    "list": {
+      "invite": "Invite",
+      "github": "GitHub",
+      "star": "Star",
+      "unstar": "Unstar",
+      "nsfw": "NSFW",
+      "visit": "Visit Discord Server"
+    },
+    "items": {
+      "github": "View on GitHub",
+      "discord": "Support Server"
+    },
+    "bots": {
+      "pagename": "Discord Fork Bot List",
+      "shortname": "Bots",
+      "add": "Add your own bot",
+      "invite": "Add this bot",
+      "backgroundAlt": "The logo for Discord_Fork",
+      "description": "The botlist with built-in GitHub integration",
+      "prefix": "Prefix: "
+    },
+    "servers": {
+      "pagename": "Discord Fork Serverlist",
+      "shortname": "Servers",
+      "add": "Add your own server",
+      "invite": "Join this server",
+      "description": "The server list with built-in GitHub integration"
+    },
+    "docs": {
+      "pagename": "Discord Fork Developer Portal",
+      "shortname": "Documentation"
+    },
+    "cms": {
+      "pagename": "Discord Fork Content Management System",
+      "shortname": "CMS"
+    },
+    "locale": {
+      "choose": "Please select a language.",
+      "pleasehelp": "Are you a good translator? Click here."
+    },
+    "edit": {
+      "title": "Add a bot",
+      "info": "This editor is in beta.",
+      "notice": "When you are finished, click the \"Create a pull request\" button to publish to GitHub, or click \"Export\" to see the file you are about to create.",
+      "default": "# Title\n\nThis is a cool bot that you should accept.\nReasons include:\n\n- Being awesome\n- Not being un-awesome\n- The prefix can be changed to !\n\n<!--\n  Stan LOONA\n  Stan Talent\n-->\n",
+      "client_id": {
+        "title": "Bot User ID",
+        "placeholder": "Something like: 255114091360681986"
+      },
+      "application_id": {
+        "title": "Bot OAuth ID",
+        "placeholder": "Something like: 255114091360681986",
+        "button": "Insert ID",
+        "help": "?",
+        "small": "Leave empty if you do not need one"
+      },
+      "bot_name": {
+        "title": "Bot Name",
+        "placeholder": "Discord Bot Name"
+      },
+      "bot_prefix": {
+        "title": "Prefix",
+        "placeholder": "Prefix"
+      },
+      "bot_invite": {
+        "title": "Invite URL",
+        "placeholder": "https://discordapp.com/oauth/ or other suitable link"
+      },
+      "bot_avatar": {
+        "title": "Avatar URL",
+        "placeholder": "https://assets.discordapp.com/ or other suitable link"
+      },
+      "bot_support": {
+        "title": "Support URL",
+        "placeholder": "https://discord.gg/8uC6aKZ",
+        "small": "Leave this field empty if you don't like helping people"
+      },
+      "bot_nsfw": {
+        "title": "NSFW",
+        "isnt": "NSFW commands are not a major part of this bot",
+        "is": "The bot avatar is NSFW, and/or the bot is NSFW orientated"
+      },
+      "bot_description": {
+        "title": "Description",
+        "placeholder": "This bot allows you to do magic.",
+        "small": "The front page only allows 60 characters to be displayed."
+      },
+      "github": {
+        "title": "GitHub Repository",
+        "button": "I have a GitHub repository",
+        "help": "?",
+        "small": "Leave empty if you do not have a GitHub repository for your bot"
+      },
+      "bot_github_owner": {
+        "title": "GitHub User / Organisation",
+        "placeholder": "ry00001"
+      },
+      "bot_github_repo": {
+        "title": "GitHub Repository",
+        "placeholder": "Tuxedo"
+      },
+      "page": {
+        "title": "Bot Page",
+        "note": "Markdown and some HTML allowed"
+      },
+      "create_pr": {
+        "button": "Create a pull request",
+        "modal": {
+          "title": "Create a pull request",
+          "description": "Please enter any comments you would like to make",
+          "wait": "Please wait..."
+        }
+      },
+      "export": {
+        "button": "Export",
+        "modal": {
+          "title": "Export",
+          "description": "Enter the contents into GitHub manually to continue"
+        }
+      },
+      "submit": "Submit"
+    },
+    "notfound": {
+      "message": "Page not found",
+      "gohome": "Go Home"
+    }
+  },
+  "copyright": "Copyright 2017 - 2018, Terminal.ink<br> Original concept by AlexFlipnote<br> GitHub® is a trademark of GitHub, Inc.<br> Discord is a trademark of Discord Inc.\n",
+  "intro": {
+    "login": "Login via GitHub",
+    "logout": "Logout",
+    "terminal": "Join Terminal.ink on Discord",
+    "search": "Search..."
+  },
+  "footer": {
+    "view": "View this page in GitHub",
+    "licence": "Licence",
+    "attribution": "Attribution",
+    "source": "Source Code"
+  },
+  "forms": {
+    "select": "Please select..."
+  }
 }

@@ -7,11 +7,11 @@ import { graphql } from "gatsby"
 
 import './bots.scss'
 
-export default function Template({data}) {
+export default ({data, pageContext}) => {
   const { markdownRemark } = data;
   const { frontmatter, fields, html } = markdownRemark;
   return (
-    <SiteLayout>
+    <SiteLayout locale={pageContext.locale}>
       <Global title={frontmatter.pagename} description={frontmatter.description} image={`/userassets/${fields.template}/${fields.filename}-256.png`} />
       <Cards>
         <ProfileCard post={{ frontmatter, fields }}></ProfileCard>
