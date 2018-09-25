@@ -4,9 +4,6 @@ import Intro from '../Intro'
 import Footer from '../Footer'
 import GlobalLayout from '../GlobalLayout'
 
-import './../ModestaCSS/css/modesta.min.css'
-import './../index.scss'
-
 export default ({ locale, children }) => (
   <GlobalLayout locale={locale}>
     <Intro />

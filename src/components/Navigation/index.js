@@ -25,7 +25,7 @@ export default class Navigation extends React.Component {
       
         <div className="nav-content">
           <h4 className="center">
-            <FormattedMessage id="pages.bots.shortname">
+            <FormattedMessage id="pages.docs.pagename">
               {(title) => (
                 <LocalLink to="/docs/">
                   { this.props.title || title }

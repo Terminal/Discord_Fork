@@ -3,6 +3,7 @@ import Global from './../components/Global'
 import SiteLayout from './../components/SiteLayout'
 import ProfileCard from './../components/ProfileCard'
 import Cards from './../components/Cards'
+import { FormattedMessage } from 'react-intl'
 import { graphql } from "gatsby"
 
 import './bots.scss'
@@ -16,6 +17,17 @@ export default ({data, pageContext}) => {
       <Cards>
         <ProfileCard post={{ frontmatter, fields }}></ProfileCard>
       </Cards>
+      <div className="center">
+        { frontmatter.link ? <a className="btn white black-text bold" href={frontmatter.link}>
+          <FormattedMessage id="pages.bots.invite" />
+        </a> : null }
+        { frontmatter.support ? <a className="btn white black-text bold" href={frontmatter.support}>
+          <FormattedMessage id="pages.items.discord" />
+        </a> : null }
+        { frontmatter.github && frontmatter.github.owner ? <a className="btn white black-text bold" href={`https://github.com/${frontmatter.github.owner}/${frontmatter.github.repo || ''}`}>
+          <FormattedMessage id="pages.items.github" />
+        </a> : null }
+      </div>
       <div className="custom-content" dangerouslySetInnerHTML={{ __html: html }}></div>
     </SiteLayout>
   )
@@ -30,6 +42,8 @@ export const pageQuery = graphql`
         avatar
         description
         nsfw
+        link
+        support
         github {
           owner
           repo

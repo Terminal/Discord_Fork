@@ -2,6 +2,10 @@
 
 Try it out! [http://gatsby--discordbots.netlify.com](http://gatsby--discordbots.netlify.com)
 
+## Breaking changes
+- The schema for the API has changed (again)
+- client_id is obtained from the filename instead of a classname
+
 ## Requirements
 - Node.js 10.x
 
