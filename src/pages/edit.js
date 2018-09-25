@@ -2,7 +2,7 @@ import React from 'react'
 import DocsLayout from './../components/DocsLayout'
 import EditorInput from './../components/EditorInput'
 import MonacoEditor from 'react-monaco-editor'
-import { FormattedMessage, injectIntl } from 'react-intl'
+import { FormattedMessage } from 'react-intl'
 
 export default class EditPage extends React.Component {
   constructor() {

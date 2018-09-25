@@ -1,6 +1,7 @@
-import React from 'react';
+import React from 'react'
 import './style.scss'
-import Link from 'gatsby-link'
+import LocalLink from '../LocalLink'
+import { FormattedMessage } from 'react-intl'
 
 export default class Navigation extends React.Component {
   componentDidMount() {
@@ -24,15 +25,23 @@ export default class Navigation extends React.Component {
       
         <div className="nav-content">
           <h4 className="center">
-            <Link to="/docs/">
-              { this.props.title || 'Documentation' }
-            </Link>
+            <FormattedMessage id="pages.bots.shortname">
+              {(title) => (
+                <LocalLink to="/docs/">
+                  { this.props.title || title }
+                </LocalLink>
+              )}
+            </FormattedMessage>
           </h4>
         </div>
       
         <div ref={elem => this.navside = elem} className="sidenav" style={({transform: 'translateX(-250px)'})}>
-          <Link to="/">Back to Forklist</Link>
-          <Link to="/docs/">Documentation</Link>
+          <LocalLink to="/">
+            <FormattedMessage id="pages.bots.shortname" />
+          </LocalLink>
+          <LocalLink to="/docs/">
+            <FormattedMessage id="pages.docs.shortname" />
+          </LocalLink>
         </div>
       </div>
     )

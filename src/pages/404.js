@@ -1,15 +1,18 @@
 import React from 'react'
 import SiteLayout from './../components/SiteLayout'
-import Link from 'gatsby-link'
+import LocalLink from './../components/LocalLink'
+import { FormattedMessage } from 'react-intl'
 
-const NotFoundPage = () => (
-  <SiteLayout>
+const NotFoundPage = ({pageContext}) => (
+  <SiteLayout locale={pageContext.locale}>
     <div className="center">
       <h1>
         404<br />
-        Page not found
+        <FormattedMessage id="pages.notfound.message" />
       </h1>
-      <Link to="/">Go home</Link>
+      <LocalLink to="/">
+        <FormattedMessage id="pages.notfound.gohome" />
+      </LocalLink>
     </div>
   </SiteLayout>
 )

@@ -1,6 +1,6 @@
 import React from 'react';
 import background from './background.jpg'
-import Link from 'gatsby-link'
+import LocalLink from '../LocalLink'
 import { FormattedMessage } from 'react-intl'
 
 export default () => (
@@ -9,7 +9,7 @@ export default () => (
     </div>
     <div className="center-object">
       <div className="center-items">
-        <Link to="/">
+        <LocalLink to="/">
           <section className="me unset">
             <img alt="The logo for Discord_Fork" draggable="false" className="image-title" src="/assets/images/logo/logo.svg" style={({width: '7em', height: '7em'})}></img>
             <div>
@@ -21,7 +21,7 @@ export default () => (
               </span>
             </div>
           </section>
-        </Link>
+        </LocalLink>
       </div>
     </div>
   </section>

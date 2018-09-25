@@ -130,14 +130,14 @@
   "intro": {
     "login": "Connexion via GitHub",
     "logout": "Déconnexion",
-    "terminal": "Rejoindre le Discord Terminal.ink",
     "search": "Rechercher..."
   },
   "footer": {
     "view": "Voir cette page sur GitHub",
     "licence": "Licence",
     "attribution": "Attribution",
-    "source": "Code Source"
+    "source": "Code Source",
+    "terminal": "Rejoindre le Discord Terminal.ink"
   },
   "forms": {
     "select": "Select..."

@@ -131,14 +131,14 @@
   "intro": {
     "login": "Login via GitHub",
     "logout": "Logout",
-    "terminal": "Join Terminal.ink on Discord",
     "search": "Search..."
   },
   "footer": {
     "view": "View this page in GitHub",
     "licence": "Licence",
     "attribution": "Attribution",
-    "source": "Source Code"
+    "source": "Source Code",
+    "terminal": "Join Terminal.ink on Discord"
   },
   "forms": {
     "select": "Please select..."
