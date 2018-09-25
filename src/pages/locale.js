@@ -13,7 +13,7 @@ export default ({pageContext}) => (
       </h1>
       {Object.keys(locales).map((key) => (
         <Link to={locales[key].default ? '' : locales[key].path}>
-          <i className={`emoji ${locales[key].flag}`}></i>
+          <i className={`fork-locale-button emoji ${locales[key].flag}`}></i>
         </Link>
       ))}
     </div>
