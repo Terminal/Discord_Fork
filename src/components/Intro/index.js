@@ -2,6 +2,7 @@ import React from 'react';
 import background from './background.jpg'
 import LocalLink from '../LocalLink'
 import { FormattedMessage } from 'react-intl'
+import './index.scss'
 
 export default () => (
   <section className="fullscreen half">
@@ -17,7 +18,7 @@ export default () => (
                 <FormattedMessage id="pages.bots.pagename" />
               </h1>
               <span className="undertitle white-text">
-              <FormattedMessage id="pages.bots.description" />
+                <FormattedMessage id="pages.bots.description" />
               </span>
             </div>
           </section>
@@ -26,6 +27,9 @@ export default () => (
       <div className="center">
         <LocalLink className="btn white emoji-button" to="/locale">
           <span class="emoji twa-globe-showing-europe-africa"></span>
+        </LocalLink>
+        <LocalLink className="btn white black-text emoji-button" to="/edit">
+          <FormattedMessage id="pages.bots.add" />
         </LocalLink>
       </div>
     </div>

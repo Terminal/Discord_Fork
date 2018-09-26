@@ -1,0 +1,19 @@
+.fullscreen.half {
+  .center-object {
+    display: flex;
+    flex-direction: column;
+    transform: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    width: 100vw;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+  }
+  .background, .center-object {
+    height: 50%;
+    height: 50vh;
+  }
+}
