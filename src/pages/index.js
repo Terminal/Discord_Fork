@@ -2,6 +2,7 @@ import React from 'react'
 import Card from './../components/Card'
 import Cards from './../components/Cards'
 import SiteLayout from './../components/SiteLayout'
+import Loading from './../components/Loading'
 import { graphql } from "gatsby"
 
 export default class Homepage extends React.Component {
@@ -40,7 +41,7 @@ export default class Homepage extends React.Component {
     return (
       <SiteLayout locale={this.props.pageContext.locale}>
         <Cards>
-          {this.state.shuffle.map(edge => <Card key={edge.node.fields.filename} post={edge.node}/>)}
+          { this.state.shuffle.length === 0 ? <Loading /> : this.state.shuffle.map(edge => <Card key={edge.node.fields.filename} post={edge.node}/>)}
         </Cards>
       </SiteLayout>
     )
