@@ -26,7 +26,7 @@ export default () => (
       </div>
       <div className="center">
         <LocalLink className="btn white emoji-button" to="/locale">
-          <span class="emoji twa-globe-showing-europe-africa"></span>
+          <span className="emoji twa-globe-showing-europe-africa"></span>
         </LocalLink>
         <LocalLink className="btn white black-text emoji-button" to="/edit">
           <FormattedMessage id="pages.bots.add" />
