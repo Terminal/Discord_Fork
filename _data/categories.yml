@@ -1,0 +1,19 @@
+bots:
+  display: true
+  parallax: /assets/images/background_bots.jpg
+  path: /
+  contribute: /edit
+servers:
+  display: true
+  parallax: /assets/images/background_servers.jpg
+  path: /servers
+  contribute: https://github.com/Terminal/Discord_Fork
+docs:
+  display: true
+  parallax: /assets/images/background_bots.jpg
+  path: /docs
+  contribute: https://github.com/Terminal/Discord_Fork
+cms:
+  display: false
+  path: /cms
+  contribute: https://github.com/Terminal/Discord_Fork

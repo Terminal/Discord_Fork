@@ -1,16 +1,30 @@
 <!-- Main content to SEO -->
-<title>{{ page.botname }}</title>
+{% if page.pagename %}
+  <title>{{ page.pagename }} - {{ site.data.categories[page.type].pagename }}</title>
+{% else %}
+  <title>{{ site.data.categories[page.type].pagename }}</title>
+{% endif %}
+
+<meta property="og:title" content="{{ page.pagename }}" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-<meta property="og:title" content="{{ page.botname }}" />
-<meta property="og:description" content="{{ page.description }}" />
+
+{% if page.desc_code %}
+<meta property="og:description" content="{{ site.data.descriptions[page.desc_code] }} - discordbots.co.uk" />
+<meta name="description" content="{{ site.data.descriptions[page.desc_code] }} - discordbots.co.uk" />
+{% else %}
+<meta property="og:description" content="{{ page.description }} - discordbots.co.uk" />
+<meta name="description" content="{{ page.description }} - discordbots.co.uk" />
+{% endif %}
+
+{% I18n_Headers %}
 
 {% if page.avatar %}
 <meta property="og:image" content="{{ page.avatar }}" />
 <link rel="icon" type="image/x-icon" href="{{ page.avatar }}">
 {% else %}
-<meta property="og:image" content="{{ site.url }}/assets/images/logo.png" />
-<link rel="icon" type="image/x-icon" href="{{ site.url }}/assets/images/logo.png">
+<meta property="og:image" content="/assets/images/logo.png" />
+<link rel="icon" type="image/x-icon" href="/assets/images/logo.png">
 {% endif %}
 
 <meta name="revisit-after" content="2 days">
@@ -18,10 +32,14 @@
 <meta name="theme-color" content="#3498db">
 
 <!-- Style and JS stuff -->
-<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-<link rel="stylesheet" href="{{ site.url }}/assets/css/main.css">
+<link rel="stylesheet" href="/assets/css/custom.css">
+{% if site.active_lang == site.default_lang %}
+<script src="/api/languages.js"></script>
+{% else %}
+<script src="/{{ site.active_lang }}/api/languages.js"></script>
+{% endif %}
 
-<script src="{{ site.url }}/assets/js/smoothscroll.min.js" type="text/javascript" charset="utf-8"></script>
-<script src="{{ site.url }}/assets/js/jarallax.min.js" type="text/javascript" charset="utf-8"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-<script src="{{ site.url }}/assets/js/main.js" type="text/javascript" charset="utf-8"></script>
+<script src="/assets/bundler/bundle.js" type="text/javascript" charset="utf-8"></script>
+<script>
+  delete localStorage;
+</script>

@@ -1,0 +1,18 @@
+    "id" : "{{ bot.client_id | replace: '\', '\\' | replace: site.data.chars.newline, '\n' | replace: '"', '\"'}}",
+    "client_id" : "{{ bot.client_id | replace: '\', '\\' | replace: site.data.chars.newline, '\n' | replace: '"', '\"'}}",
+    "application_id" : "{% if bot.application_id %}{{ bot.application_id | replace: '\', '\\' | replace: site.data.chars.newline, '\n' | replace: '"', '\"'}}{% else %}{{ bot.client_id | replace: '\', '\\' | replace: site.data.chars.newline, '\n' | replace: '"', '\"'}}{% endif %}",
+    "name" : "{{ bot.pagename | replace: '\', '\\' | replace: site.data.chars.newline, '\n' | replace: '"', '\"'}}",
+    "prefix": "{{ bot.prefix | replace: '\', '\\' | replace: site.data.chars.newline, '\n' | replace: '"', '\"'}}",
+    "description" : "{{ bot.description | replace: '\', '\\' | replace: site.data.chars.newline, '\n' | replace: '"', '\"' | truncate: 60 }}",
+    "long_description" : "{% if bot.long_description %}{{ bot.long_description | replace: '\', '\\' | replace: site.data.chars.newline, '\n' | replace: '"', '\"'}}{% else %}{{ bot.description | replace: '\', '\\' | replace: site.data.chars.newline, '\n' | replace: '"', '\"' }}{% endif %}",
+    "url_safe": "{{ bot.permalink | downcase | replace: ' ', '' | replace: '\', '\\' | replace: site.data.chars.newline, '\n' | replace: '"', '\"'}}",
+    "avatar" : "{{ bot.avatar | replace: '\', '\\' | replace: site.data.chars.newline, '\n' | replace: '"', '\"'}}",
+    "link" : "{{ bot.link | replace: '\', '\\' | replace: site.data.chars.newline, '\n' | replace: '"', '\"'}}",
+    "lang" : "{{ bot.lang }}",
+    "support" : "{{ bot.support | replace: '\', '\\' | replace: site.data.chars.newline, '\n' | replace: '"', '\"'}}",{% if bot.github %}
+    "github" : { {% if bot.github.owner %}
+        "owner" : "{{ bot.github.owner | replace: '\', '\\' | replace: site.data.chars.newline, '\n' | replace: '"', '\"'}}"{% if bot.github.repo %},{% endif %}{% endif %}{% if bot.github.repo %}
+        "repo" : "{{ bot.github.repo | replace: '\', '\\' | replace: site.data.chars.newline, '\n' | replace: '"', '\"'}}"{% endif %}
+    },{% endif %}
+    "verified" : {% if bot.verified %}true{% else %}false{% endif %},
+    "nsfw" : {% if bot.nsfw %}true{% else %}false{% endif %}

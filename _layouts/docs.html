@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ site.active_lang }}">
+  <head>
+    {% include head.html %}
+  </head>
+  <body data-ls-type="docs">
+    <div class="nav-container">
+      <span id="menu-icon"></span>
+    
+      <div class="nav-content">
+        <h4 class="center">
+          <a href="{{ site.data.categories[page.type].path }}">
+            {{ site.data.categories[page.type].pagename }}
+          </a>
+        </h4>
+      </div>
+    
+      <div id="navside" class="sidenav" style="transform: translateX(-250px);">
+        <a href="/">Back to Forklist</a>
+        <a href="/docs/">Documentation</a>
+        <a href="/cms/">CMS</a>
+      </div>
+    </div>
+    <section class="container">
+      {{ content }}
+    </section>
+    {% include footer.html %}
+  </body>
+</html>

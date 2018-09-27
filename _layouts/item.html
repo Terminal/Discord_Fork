@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="{{ site.active_lang }}">
+  <head>
+    {% include head.html %}
+  </head>
+  <body data-ls-type="item" data-item-category="{{ page.type }}" data-item-id="{{ page[page.primary_key] }}">
+    {% include intro.html %}
+
+    <section class="container">
+      <div class="center-text card-container">
+        <section class="card profile">
+          <div class="avatar">
+            <img id="avatar" draggable="false" class="avatar{% if page.nsfw == true %} nsfw{% endif %}" src="{% base64 avatar;/assets/images/logo.png %}">
+          </div>
+          <h2 class="name {% if page.verified == true %}verified{% endif %}">
+            {{ page.pagename | xml_escape }}
+            {% if page.nsfw == true %}<span class="nsfw-tag">NSFW</span>{% endif %}
+          </h2>
+          <div class="link buttons" id="buttons">
+            {% if page.link and page.type == 'bots' %}
+              <a id="invite" class="btn emerald" href="{{ page.link }}" >{{ site.data.categories[page.type].invite }}</a>
+            {% elsif page.link %}
+              <a id="invite" class="btn emerald" href="{{ page.link }}" target="_blank" rel="noopener">{{ site.data.categories[page.type].invite }}</a>
+            {% endif %}
+            {% if page.github and page.github.owner and page.github.repo %}
+              <a id="github" class="btn peter-river" href="https://github.com/{{ page.github.owner }}/{{ page.github.repo }}" target="_blank" rel="noopener">{{ site.data.strings.item.github }}</a>
+            {% elsif page.github and page.github.owner %}
+              <a class="btn peter-river" href="https://github.com/{{ page.github.owner }}" target="_blank" rel="noopener">{{ site.data.strings.item.github }}</a>
+            {% endif %}
+            {% if page.support %}<a class="btn orange" href="{{ page.support | replace: site.data.chars.newline, '\n' | replace: site.data.chars.quote_mark, '%22'}}" target="_blank" rel="noopener">{{ site.data.strings.item.discord }}</a>{% endif %}
+          </div>
+          <span class="description">
+            {% if page.prefix %}
+              <p><small>{{ site.data.strings.item.prefix }}{{ page.prefix | xml_escape }}</small></p>
+            {% endif %}
+            <p>
+              {% if page.long_description %}
+                {{ page.long_description | xml_escape }}
+              {% else %}
+                {{ page.description | xml_escape }}
+              {% endif %}
+            </p>
+          </span>
+        </section>
+      </div>
+      <div class="custom-content">
+        {{ content }}
+      </div>
+    </section>
+    {% if page.type == 'bots' and page.link %}
+    {% include botmodal.html %}
+    {% endif %}
+    {% include footer.html %}
+  </body>
+</html>

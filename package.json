@@ -1,0 +1,42 @@
+{
+  "name": "discord_fork",
+  "version": "1.1.0",
+  "description": "The Discord Bot List with GitHub integration",
+  "main": "webpack/index.js",
+  "dependencies": {
+    "@babel/core": "^7.0.0-beta.55",
+    "@babel/preset-env": "^7.0.0-beta.55",
+    "babel-loader": "^8.0.0-beta.4",
+    "babel-polyfill": "^6.26.0",
+    "css-loader": "^1.0.0",
+    "github-api": "^3.0.0",
+    "mocha": "^5.2.0",
+    "monaco-editor": "0.14.3",
+    "monaco-editor-webpack-plugin": "^1.4.0",
+    "smoothscroll": "^0.4.0",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0",
+    "whatwg-fetch": "^2.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "webpack": "node node_modules/webpack/bin/webpack.js",
+    "build": "node node_modules/webpack-cli/bin/cli.js && jekyll build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Terminal/Discord_Fork.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Terminal/Discord_Fork/issues"
+  },
+  "homepage": "https://github.com/Terminal/Discord_Fork#readme"
+}

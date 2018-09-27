@@ -1,0 +1,14 @@
+{
+  "files.associations": {
+    "**/_pages/api/bots/all.json": "markdown",
+    "**/_includes/bot.json": "markdown",
+    "**/_pages/api/servers/all.json": "markdown",
+    "**/_includes/server.json": "markdown",
+    "**/_pages/api/bans/all.json": "markdown",
+    "**/_includes/ban.json": "markdown"
+  },
+  "editor.detectIndentation": false,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "files.eol": "\n"
+}

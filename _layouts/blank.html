@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="{{ site.active_lang }}">
+  <head>
+    {% include head.html %}
+  </head>
+  <body data-ls-type="blank">
+    {% include intro.html %}
+    {% if page.spinner %}{% include spinner.html %}{% endif %}
+    <section class="container">
+      {{ content }}
+    </section>
+    {% include footer.html %}
+  </body>
+</html>

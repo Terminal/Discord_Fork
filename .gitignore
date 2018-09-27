@@ -3,3 +3,6 @@
 _site/
 .jekyll-metadata
 Gemfile.lock
+node_modules/
+assets/bundler/
+yarn-error.log

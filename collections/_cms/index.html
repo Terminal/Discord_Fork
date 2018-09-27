@@ -1,0 +1,65 @@
+---
+pagename: discordbots.co.uk CMS
+description: This is a development system.
+permalink: /cms/
+---
+
+<div>
+  <div class="cms-tab" id="cms-tab">
+    <button id="cms-tab-button-changes" class="btn primary-flat hide" data-cms-tab-category="changes">
+      <i class="cms-item-action emoji twa-pencil"></i>
+      Changes
+    </button>
+    <button id="cms-tab-button-bots" class="btn primary-flat hide" data-cms-tab-category="bots">Bots</button>
+    <button id="cms-tab-button-servers" class="btn primary-flat hide" data-cms-tab-category="servers">Servers</button>
+    <button id="cms-tab-button-docs" class="btn primary-flat hide" data-cms-tab-category="docs">Documentation</button>
+  </div>
+</div>
+<div id="cms-windows" class="cms-windows">
+  <div class="cms-window box-container github center">
+    <h5>Loading...</h5>
+    <div class="loader">Loading...</div>
+    <p><small>Still waiting? <a href="https://github.com/Terminal/Discord_Fork/issues/new?template=bug_report.md">Create a bug report here.</a>, or try our <a href="/edit">legacy bot editor</a>.</small></p>
+  </div>
+  <div id="cms-window-fork" class="cms-window box-container github center hidden" data-cms-window-category="fork">
+    <h5>Welcome to the Discord Fork Content Management System</h5>
+    <p>By clicking on the "Fork Discord_Fork" button, you agree to the <a href="/docs/dev-terms">Developer Terms</a>.</p>
+    <button id="cms-fork-button" class="btn white black-text">
+      <img class="github-logo" src="/assets/images/GitHub-Mark-32px.png">
+      Fork Discord_Fork
+    </button>
+    <p><small>Have you already forked Discord_Fork? <a href="https://github.com/Terminal/Discord_Fork/issues/new?template=bug_report.md">Create a bug report here.</a></small></p>
+  </div>
+  <div id="cms-window-changes" class="cms-window box-container github hidden" data-cms-window-category="changes">
+    <h5>Welcome to the Discord Fork Content Management System</h5>
+    <div id="cms-window-changes-changes">
+      
+    </div>
+    <button class="btn white black-text">
+      <img class="github-logo" src="/assets/images/GitHub-Mark-32px.png">
+      Create Pull Request
+    </button>
+  </div>
+  <div id="cms-window-bots" class="cms-window cms-items box-container github hidden" data-cms-window-category="bots">
+    <div class="cms-item btn highlight">
+      <p>Add a bot</p>
+      <div class="cms-item-right">
+        <i class="cms-item-action emoji twa-pencil"></i>
+      </div>
+    </div>
+    <div class="cms-item btn highlight">
+      <p>123456789</p>
+      <div class="cms-item-right">
+        <i class="cms-item-action emoji twa-mag"></i>
+        <i class="cms-item-action emoji twa-pencil"></i>
+        <i class="cms-item-action emoji twa-x"></i>
+      </div>
+    </div>
+  </div>
+  <div id="cms-window-servers" class="cms-window box-container github hidden" data-cms-window-category="servers">
+    <h3>Welcome to the Discord Fork Content Management System</h3>
+  </div>
+  <div id="cms-window-docs" class="cms-window box-container github hidden" data-cms-window-category="docs">
+    <h3>Welcome to the Discord Fork Content Management System</h3>
+  </div>
+</div>

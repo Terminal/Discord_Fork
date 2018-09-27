@@ -1,0 +1,42 @@
+<div class="box-container primary-flat no-border-radius no-margin">
+  <div class="center">
+    {% for category in site.data.categories %}
+      {% if category[1].display %}
+        {% if page.type == category[0] %}
+          <a class="btn white" href="{{ category[1].path }}">
+            <span class="black-text bold">{{ category[1].shortname }}</span>
+          </a>
+        {% else %}
+          <a class="btn primary" href="{{ category[1].path }}">
+            <span class="bold">{{ category[1].shortname }}</span>
+          </a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+    <hr>
+    <p>{{ site.data.strings.copyright }}</p>
+    <p><i id="adverts"></i></p>
+    <p><i id="randomMessage" class="hidden">
+      Q: How does Terminal.ink pay for hosting?<br>
+      A: We don't. It's free.<br>
+      Thank you for using an advert blocking extension!
+    </i></p>
+    <p>
+      <a href="https://github.com/Terminal/Discord_Fork/blob/master/LICENCE">{{ site.data.strings.footer.licence }}</a> |
+      <a href="/docs/attribution">{{ site.data.strings.footer.attribution }}</a> |
+      <a href="https://github.com/Terminal/Discord_Fork">{{ site.data.strings.footer.source }}</a> |
+      <a href="{{ site.data.links.github }}/blob/master/{{ page.path }}">{{ site.data.strings.footer.view }}</a> |
+      <a href="{{ site.data.links.discord }}" target="_blank" rel="noopener">{{ site.data.strings.intro.terminal }}</a>
+    </p>
+  </div>
+</div>
+<div id="login-modal" class="modal modal--close">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h1>Login to GitHub</h1>
+    <p>You need to Login to GitHub to continue</p>
+    <a class="btn wisteria white-text" href="{{ site.data.links.authenticate }}">Login via GitHub</a>
+  </div>
+</div>
+<script src="/assets/js/smoothscroll.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="/assets/js/jarallax.min.js" type="text/javascript" charset="utf-8"></script>

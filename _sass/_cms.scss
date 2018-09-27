@@ -1,0 +1,45 @@
+.cms-tab {
+  margin-bottom: -12px;
+  @media (max-width: 750px) {
+    margin-bottom: unset;
+  }
+}
+
+.cms-window {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.cms-items {
+  align-items: initial;
+}
+
+.cms-item {
+  height: unset;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  text-align: left;
+  cursor: unset;
+  .cms-item-right {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin-left: auto;
+  }
+  .cms-item-action {
+    margin-left: 15px;
+    padding: 5px;
+  }
+  p {
+    padding: 0;
+    margin: 0;
+  }
+  * {
+    align-self: center;
+  }
+}

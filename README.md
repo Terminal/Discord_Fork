@@ -1,30 +1,28 @@
-# Discord_Fork
-The public Discord lists you fork to add your content to or find something you desire.<br>
-Website URL: https://discordfork.info/
+---
+pagename: Discord_Fork README.md file
+description: Information about the Discord_Fork application and software
+layout: docs
+type: docs
+permalink: /docs/readme/
+---
+
+![Discord Fork Botlist, The botlist with built in GitHub integration](/assets/images/readme-header.png)
+
+Add your bot [via the E-Zed editor](https://discordbots.co.uk/edit) or [via GitHub](https://discordbots.co.uk/docs/adding-a-bot/)
 
 NOTE: Please do not complain over how *bad* the site is made, this is mostly made as a
 way to be more unique and prove that a list site can possibly be made with Jekyll.
-
-## Adding your bot to the site
-- Fork the project
-- Add a new file in **\_bots** with `your_bot_name.md` and add the following:
-```md
----
-botname: BOT NAME
-description: DESCRIPTION (limited to 60 characters)
-long_description: LONG_DESCRIPTION (only viewable at bot page)
-avatar: URL, must be the Discord avatar in PNG format and no ?size query
-link: URL to invite bot, must be HTTPS
-nsfw: true | false
----
-After this line, you can do any markdown code you want for custom page!
-```
-- make a PR and wait for answers
 
 ## Requirements
 - Ruby 2.4 or above - https://rubyinstaller.org/downloads/
 - jekyll & bundle - https://jekyllrb.com/
 - sass & scss_lint - Ruby Packages (gem install)
+- Node.js 10.x
+
+OR
+
+- Netlify
+  - [Click here to deploy](https://app.netlify.com/start/deploy?repository=https://github.com/Terminal/Discord_Fork)
 
 ## Commands
 ```
@@ -33,4 +31,60 @@ bundle exec jekyll serve
 
 scss-lint
     Check if your source code is linter friendly (SCSS only)
+
+webpack --watch
+    Build all JavaScript files into a single file
+```
+
+## First Setup
+You will require some kind of Linux. I prefer Ubuntu 18.04.
+Windows users may wish to use the Windows Subsystem for Linux.
+
+### Translating
+[click me](https://discordbots.co.uk/docs/locale)
+
+### Ubuntu 18.04, 16.04, WSL Ubuntu
+```
+curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+sudo apt install -y build-essential ruby-full ruby-bundler nodejs
+npm i
+
+# run both simultaneously
+bundler exec jekyll serve
+webpack --watch
+```
+
+### Authentication Server
+[Follow me](https://github.com/prose/gatekeeper#setup-your-gatekeeper)  
+Edit `_data/links.yml` to point to the auth server.
+
+## Thanks
+[Attribution to dependencies](https://discordbots.co.uk/docs/attribution)
+
+## Technical Support
+[discordapp](https://discord.gg/8uC6aKZ)
+
+# Developer Notes
+```
+Pages within the _pages folder should not have a "French" copy.
+  These need to use the `desc_code` front matter to use a new description within the `_data/:lang/descriptions.yml` file
+Pages within the _bots, _docs and _servers folder can have a subfolder with the language
+  The language of the page needs to be placed in the front matter, like
+
+  ---
+  pagename: wow
+  github:
+    owner: Terminal
+    repo: Discord_Fork
+  lang: fr
+  ---
+
+  Copies of the same language do not pass information between each other.
+  For example, if you have an English file, the front matter needs to be copied into the French file, with changes to the description and page name for language differences
+
+All translations for the website itself, and not user generated content (and documentation) should be in the _data/:lang folder.
+  Translators need to go through all .yml files.
+
+Am I a terrible person?
+  Yes
 ```

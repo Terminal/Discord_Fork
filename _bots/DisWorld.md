@@ -1,7 +1,0 @@
----
-botname: DisWorld
-description: A Discord guild ambient life simulation!
-avatar: https://cdn.discordapp.com/avatars/325634360210620422/cca393e4b910c02d9d9e49755109103c.png
-link: https://botz.mattcowley.co.uk/disworld/invite
-nsfw: false
----

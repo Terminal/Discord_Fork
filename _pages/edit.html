@@ -1,0 +1,155 @@
+---
+pagename: Add a bot
+desc_code: edit
+permalink: "/edit"
+layout: docs
+type: docs
+---
+
+<h1>{{ site.data.strings.edit.title }}</h1>
+<p>{{ site.data.strings.edit.info }}</p>
+<div class="form-container">
+  <div class="row">
+    <div class="one-half column">
+      <label for="client-id">{{ site.data.strings.edit.client_id.title }}</label>
+      <input class="full-width" placeholder="{{ site.data.strings.edit.client_id.placeholder }}" id="client-id">
+    </div>
+    <div class="one-half column" id="application-id-before">
+      <label>{{ site.data.strings.edit.application_id.title }}</label>
+      <a class="btn emerald" style="margin: 0 5px 5px 0" id="application-id-display">{{ site.data.strings.edit.application_id.button }}</a>
+      <a class="btn snapchat black-text" style="margin: 0" id="application-id-info">{{ site.data.strings.edit.application_id.help }}</a>
+      <p><small>{{ site.data.strings.edit.application_id.small }}</small></p>
+    </div>
+    <div class="one-half column hidden" id="application-id-box">
+      <label for="application-id">{{ site.data.strings.edit.application_id.title }}</label>
+      <input class="full-width" placeholder="{{ site.data.strings.edit.application_id.placeholder }}" id="application-id">
+      <p><small>{{ site.data.strings.edit.application_id.small }}</small></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="one-half column">
+      <label for="name">{{ site.data.strings.edit.name.title }}</label>
+      <input class="full-width" placeholder="{{ site.data.strings.edit.name.placeholder }}" id="name">
+    </div>
+    <div class="one-half column">
+      <label for="prefix">{{ site.data.strings.edit.prefix.title }}</label>
+      <input class="full-width" placeholder="{{ site.data.strings.edit.prefix.placeholder }}" id="prefix">
+    </div>
+  </div>
+  <div class="row">
+    <div class="one-half column">
+      <label for="invite">{{ site.data.strings.edit.invite.title }}</label>
+      <input class="full-width" placeholder="{{ site.data.strings.edit.invite.placeholder }}" id="invite">
+    </div>
+    <div class="one-half column">
+      <label for="avatar">{{ site.data.strings.edit.avatar.title }}</label>
+      <input class="full-width" placeholder="{{ site.data.strings.edit.avatar.placeholder }}" id="avatar">
+    </div>
+  </div>
+  <div class="row">
+    <div class="one-half column">
+      <label for="support">{{ site.data.strings.edit.support.title }}</label>
+      <input class="full-width" placeholder="{{ site.data.strings.edit.support.placeholder }}" id="support">
+      <p><small>{{ site.data.strings.edit.support.small }}</small></p>
+    </div>
+    <div class="one-half column">
+      <label for="nsfw">{{ site.data.strings.edit.nsfw.title }}</label>
+      <select class="full-width" id="nsfw">
+        <option value="false">{{ site.data.strings.edit.nsfw.isnt }}</option>
+        <option value="true">{{ site.data.strings.edit.nsfw.is }}</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="none column">
+      <label for="short-description">{{ site.data.strings.edit.desc.title }}</label>
+      <input class="full-width" placeholder="{{ site.data.strings.edit.desc.placeholder }}" id="short-description">
+      <p><small>{{ site.data.strings.edit.desc.small }}</small></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="none column" id="github-before">
+      <label>{{ site.data.strings.edit.github.title }}</label>
+      <a class="btn emerald" style="margin: 0 5px 1.5rem 0" id="github-display">{{ site.data.strings.edit.github.button }}</a>
+      <a class="btn snapchat black-text" style="margin: 0" id="github-info">{{ site.data.strings.edit.github.help }}</a>
+      <p><small>{{ site.data.strings.edit.github.small }}</small></p>
+    </div>
+    <div class="one-half column hidden" id="github-owner-box">
+      <label for="github-owner">{{ site.data.strings.edit.org.title }}</label>
+      <input class="full-width" placeholder="{{ site.data.strings.edit.org.placeholder }}" id="github-owner">
+    </div>
+    <div class="one-half column hidden" id="github-repo-box">
+      <label for="github-repo">{{ site.data.strings.edit.repo.title }}</label>
+      <input class="full-width" placeholder="{{ site.data.strings.edit.repo.placeholder }}" id="github-repo">
+    </div>
+  </div>
+  
+  <label for="contents">{{ site.data.strings.edit.page }}</label>
+  <div id="contents" class="monaco-editor"></div>
+  <br>
+  <p>{{ site.data.strings.edit.notice }}</p>
+  <a class="btn white black-text" id="merge-button">
+    <img class="github-logo" src="/assets/images/GitHub-Mark-32px.png">
+    {{ site.data.strings.edit.create_pr.button }}
+  </a>
+  <a class="btn emerald" id="export-button">
+    {{ site.data.strings.edit.export.button }}
+  </a>
+</div>
+<div id="whatis-application-id" class="modal modal--close">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h1>Application ID</h1>
+    <h2>What is it?</h2>
+    <p>
+      The application ID of a bot is the ID which is used to invite the bot, and is found on the Discord OAuth invite link button.
+      You most likely do not require to insert one, as it is usually the same as the Client ID, except for bots made before 2016.
+    </p>
+    <p>
+      Leave this empty if you are unsure
+    </p>
+    <img src="/assets/images/edit/application_id.png">
+    <p><small>An example of a bot which does have an application_id</small></p>
+  </div>
+</div>
+<div id="whatis-github" class="modal modal--close">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h1>GitHub</h1>
+    <h2>What is it?</h2>
+    <a href="https://github.com/" target="_blank" rel="noopener">Visit GitHub</a>
+    <p>
+      GitHub is a website where you can collaborate and share programming code with people all over the world, using the Git versioning software.
+      In order to be ranked higher in the Discord_Fork website, you should put your code into the GitHub repository, and add a relevant open source licence.
+    </p>
+    <a class="btn white black-text" href="https://github.com/new" target="_blank" rel="noopener">
+      <img class="github-logo" src="/assets/images/GitHub-Mark-32px.png">
+      Create a GitHub repository
+    </a>
+    <p>
+      Leave this empty if you do not have one.
+    </p>
+  </div>
+</div>
+<div id="export-modal" class="modal modal--close">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h1>{{ site.data.strings.edit.export.modal.title }}</h1>
+    <p>{{ site.data.strings.edit.export.modal.description }}</p>
+    <div id="export-editor" class="monaco-editor"></div>
+  </div>
+</div>
+<div id="merge-modal" class="modal modal--close" data-owner="{{ site.data.links.owner }}" data-repo="{{ site.data.links.repo }}">
+  <div class="modal-content" id="merge-modal-content">
+    <span class="close">&times;</span>
+    <h1>{{ site.data.strings.edit.create_pr.modal.title }}</h1>
+    <p>{{ site.data.strings.edit.create_pr.modal.description }}</p>
+    <div id="merge-editor" class="monaco-editor"></div>
+    <a class="btn white black-text" id="merge-modal-submit-button">{{ site.data.strings.edit.submit }}</a>
+  </div>
+  <div class="modal-content center hidden" id="merge-modal-loading-content">
+    <h1>{{ site.data.strings.edit.create_pr.modal.wait }}</h1>
+    {% include spinner.html %}
+    <pre id="merge-modal-logs"></pre>
+  </div>
+</div>

@@ -1,0 +1,9 @@
+discord: https://discord.gg/8uC6aKZ
+github: https://github.com/Terminal/Discord_Fork
+owner: Terminal
+repo: Discord_Fork
+authenticate: https://github.com/login/oauth/authorize?client_id=6fff2201b71ad2d63131&scope=public_repo
+gatekeeper: https://auth.discordbots.co.uk/authenticate
+netlify: https://app.netlify.com/start/deploy?repository=https://github.com/Terminal/Discord_Fork
+# authenticate: https://github.com/login/oauth/authorize?client_id=e3020914761f88571cf7&scope=public_repo
+# gatekeeper: http://127.0.0.1:9999/authenticate

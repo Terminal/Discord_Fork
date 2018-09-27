@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+@import 'ModestaCSS/css/modesta.min.css';
+@import 'ModestaCSS/css/twemoji.min.css';
+@import 'ModestaCSS/css/blobcat.min.css';
+@import 'highlight';
+@import 'cms';
+
+body {
+  background: #101010;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+body[data-ls-type="docs"] {
+  table {
+    background-color: #ffffff;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    padding: 0;
+    color: #000;
+    tr {
+      border-collapse: collapse;
+      padding: 5px;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 5px;
+      margin: 0px;
+    }
+    th {
+      font-weight: 700;
+    }
+  }
+}
+
+.fullscreen.half {
+  .center-object {
+    transform: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    width: 100vw;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+  }
+  .background, .center-object {
+    height: 50%;
+    height: 50vh;
+    @media (max-width: 750px) {
+      height: 75%;
+      height: 75vh;
+    }
+  }
+}
+
+.container {
+  flex-grow: 1;
+  img {
+    max-width: 100%;
+  }
+}
+
+// Front page + inside
+.nsfw { filter: blur(5px); }
+.nsfw-tag {
+  background: #e74c3c;
+  border-radius: 3px;
+  color: #fff;
+  flex-shrink: 0;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 38px;
+  margin-left: 6px;
+  padding: 2px 3px;
+  text-transform: uppercase;
+  vertical-align: bottom;
+}
+
+// Verified tag
+.verified {
+  color: #2ecc71;
+  text-shadow: 0 0 10px #2ecc71;
+}
+
+
+// Profile card
+.card.profile {
+  background: transparent;
+  box-shadow: none;
+  margin-top: 2.5em;
+  width: 100%;
+
+  .avatar, .link { background: transparent; }
+
+  .avatar {
+    padding: 0;
+    img { width: 10em; }
+  }
+
+  .name {
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+
+    .nsfw-tag {
+      font-size: 16px;
+      line-height: 50px;
+      margin-left: 0;
+    }
+  }
+
+  .description {
+    color: #eee;
+    font-size: 1.5em;
+  }
+}
+
+
+// Searchbar on index
+input#search {
+  background: #ddd;
+  border: 0;
+  border-radius: 10px;
+  color: #63717f;
+  font-size: 10pt;
+  height: 50px;
+  margin-top: .6em;
+  width: 300px;
+}
+
+.card-container .card {
+  width: 310px;
+  font-family: 'Montserrat', sans-serif;
+
+  img.avatar {
+    padding: 0;
+    margin: 1.1em 0;
+  }
+
+  &.profile {
+    width: 90%;
+    margin-bottom: 1em;
+  }
+}
+
+// Modal
+.modal {
+  z-index: 102;
+  .modal-content {
+    z-index: 103;
+    h2 {
+      font-size: 16pt;
+    }
+  
+    a {
+      color: #1EAEDB;
+    }
+  
+    li {
+      list-style: none;
+    }
+  }
+}
+
+// Docs page
+.nav-container {
+  #menu-icon {
+    z-index: 100;
+  }
+  .nav-content {
+    padding-left: 62px;
+    width: calc(100% - 62px); // The width of the nav button
+    a {
+      color: #FFFFFF;
+    } 
+  }
+  .sidenav {
+    width: 250px;
+    z-index: 101;
+  }
+}
+
+.buttons .btn {
+  @media (max-width: 750px) {
+    padding: 10px 20px !important;
+    width: unset;
+    height: unset;
+  }
+}
+
+// .emoji-button {
+//   padding: 10px 20px !important;
+// }
+
+.lang-select {
+  font-size: 10em;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  div {
+    margin: 0.3em;
+    a, i {
+      margin: 0;
+    }
+  }
+}
+
+.btn .github-logo {
+  vertical-align: text-bottom;
+  height: 21px;
+}
+
+.toast-container {
+  position: fixed;
+  display: flex;
+  flex-direction: column-reverse;
+  bottom: 0;
+  width: 100vw;
+  max-width: 100%;
+  .toast-btn {
+    margin-left: auto;
+    float: right;
+    max-width: 100%;
+    text-overflow: unset;
+    white-space: initial;
+    height: unset;
+    line-height: unset;
+    padding: 10px;
+  }
+}
+
+.hidden {
+  display: none !important;
+}
+
+.hide {
+  visibility: hidden !important;
+}
+
+pre.highlight {
+  overflow-x: auto;
+}
+
+.monaco-editor {
+  width: 100%;
+  height: 30vh;
+  color: unset;
+}
+
+.ls-iframe {
+  width: 100%;
+  height: 500px;
+  background-color: #FFFFFF;
+}
+
+button {
+  box-shadow: unset !important;
+}

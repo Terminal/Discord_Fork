@@ -1,7 +1,0 @@
----
-botname: NitroBot
-description: A small bot to provide exclusive features to Nitro users in your server.
-avatar: https://cdn.discordapp.com/avatars/359774600982167557/78edb158be8c5584559e3344918644da.png
-link: https://botz.mattcowley.co.uk/nitrobot/invite
-nsfw: false
----
