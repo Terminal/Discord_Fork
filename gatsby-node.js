@@ -133,14 +133,17 @@ exports.createPages = ({ actions, graphql }) => {
       }
     }
   `).then(result => {
+    const all = [];
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       makeSureTheFoldersExistBeforeWritingYourFiles(node)
       downloadImages(node)
+      all.push(node);
       fs.writeFileSync(path.join(__dirname, 'public', 'api', `${node.fields.filelink}.json`), JSON.stringify(node, null, 2));
       fs.writeFileSync(path.join(__dirname, 'public', 'api', `${node.fields.filelink}.svg`), mustache.render(embedTemplate, Object.assign(node, {
         wrapped: wrap(node.frontmatter.description || '', { width: 35 }).split('\n').map(line => line.trim())
       })))
     })
+    fs.writeFileSync(path.join(__dirname, 'public', 'api', 'all.json'), JSON.stringify(all, null, 2));
   })
 
   return
