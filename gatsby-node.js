@@ -113,6 +113,9 @@ exports.createPages = ({ actions, graphql }) => {
             fields {
               permalink
               filelink
+              locale
+              template
+              filename
             }
             frontmatter {
               application_id
