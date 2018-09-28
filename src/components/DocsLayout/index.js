@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
 
-import Navigation from '../Navigation'
-import Footer from '../Footer'
-import GlobalLayout from '../GlobalLayout'
+import Navigation from '../Navigation';
+import Footer from '../Footer';
+import GlobalLayout from '../GlobalLayout';
 
-import './index.scss'
+import './index.scss';
 
 export default ({ children, locale }) => (
   <GlobalLayout locale={locale}>
@@ -14,4 +14,4 @@ export default ({ children, locale }) => (
     </div>
     <Footer />
   </GlobalLayout>
-)
+);

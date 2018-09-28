@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 
-import Intro from '../Intro'
-import Footer from '../Footer'
-import GlobalLayout from '../GlobalLayout'
+import Intro from '../Intro';
+import Footer from '../Footer';
+import GlobalLayout from '../GlobalLayout';
 
 export default ({ locale, children }) => (
   <GlobalLayout locale={locale}>
@@ -12,4 +12,4 @@ export default ({ locale, children }) => (
     </div>
     <Footer />
   </GlobalLayout>
-)
+);

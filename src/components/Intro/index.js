@@ -1,8 +1,8 @@
 import React from 'react';
-import background from './background.jpg'
-import LocalLink from '../LocalLink'
-import { FormattedMessage } from 'react-intl'
-import './index.scss'
+import background from './background.jpg';
+import LocalLink from '../LocalLink';
+import { FormattedMessage } from 'react-intl';
+import './index.scss';
 
 export default () => (
   <section className="fullscreen half">

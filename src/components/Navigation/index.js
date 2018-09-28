@@ -1,21 +1,21 @@
-import React from 'react'
-import './style.scss'
-import LocalLink from '../LocalLink'
-import { FormattedMessage } from 'react-intl'
+import React from 'react';
+import './style.scss';
+import LocalLink from '../LocalLink';
+import { FormattedMessage } from 'react-intl';
 
 export default class Navigation extends React.Component {
   componentDidMount() {
     this.open.addEventListener('click', () => {
       if (this.navside && this.navside.style) {
-        this.navside.style.transform = 'translateX(0px)'
+        this.navside.style.transform = 'translateX(0px)';
       }
-    })
+    });
 
     document.addEventListener('click', (e) => {
       if (!e.target.closest('.nav-container') && this.navside && this.navside.style) {
-        this.navside.style.transform = 'translateX(-250px)'
+        this.navside.style.transform = 'translateX(-250px)';
       }
-    })
+    });
   }
 
   render() {
@@ -44,6 +44,6 @@ export default class Navigation extends React.Component {
           </LocalLink>
         </div>
       </div>
-    )
+    );
   }
 }

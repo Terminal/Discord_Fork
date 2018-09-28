@@ -1,17 +1,17 @@
-const path = require('path')
-const locales = require('./src/locales/index')
+const path = require('path');
+const locales = require('./src/locales/index');
 
 const filesystems = [];
 
 const types = [
   'bots',
   'docs'
-]
+];
 
 const foldersToClear = [
   'api',
   'userassets'
-]
+];
 
 Object.keys(locales).forEach((lang) => {
   types.forEach((type) => {
@@ -21,14 +21,14 @@ Object.keys(locales).forEach((lang) => {
         path: path.join(__dirname, 'data', lang, type),
         name: `${type}.${lang}`,
       },
-    })
-  })
-})
+    });
+  });
+});
 
 module.exports = {
   siteMetadata: {
     title: 'Discord_Fork',
-    colour: "#3498db",
+    colour: '#3498db',
     types,
     foldersToClear
   },
@@ -41,10 +41,10 @@ module.exports = {
       options: {
         plugins: [
           {
-            resolve: "gatsby-remark-external-links",
+            resolve: 'gatsby-remark-external-links',
             options: {
-              target: "_blank",
-              rel: "noopener noreferrer"
+              target: '_blank',
+              rel: 'noopener noreferrer'
             }
           }
         ]
@@ -56,4 +56,4 @@ module.exports = {
     'gatsby-plugin-offline',
     'gatsby-plugin-netlify'
   ],
-}
+};

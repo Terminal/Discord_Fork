@@ -1,6 +1,6 @@
 import React from 'react';
-import Helmet from 'react-helmet'
-import { StaticQuery, graphql } from "gatsby"
+import Helmet from 'react-helmet';
+import { StaticQuery, graphql } from 'gatsby';
 
 export default ({ children, title, description, image }) => (
   <StaticQuery
@@ -38,4 +38,4 @@ export default ({ children, title, description, image }) => (
       </Helmet>
     )}
   />
-)
+);

@@ -1,12 +1,12 @@
 import React from 'react';
-import Global from './../components/Global'
-import SiteLayout from './../components/SiteLayout'
-import ProfileCard from './../components/ProfileCard'
-import Cards from './../components/Cards'
-import { FormattedMessage } from 'react-intl'
-import { graphql } from "gatsby"
+import Global from './../components/Global';
+import SiteLayout from './../components/SiteLayout';
+import ProfileCard from './../components/ProfileCard';
+import Cards from './../components/Cards';
+import { FormattedMessage } from 'react-intl';
+import { graphql } from 'gatsby';
 
-import './bots.scss'
+import './bots.scss';
 
 export default ({data, pageContext}) => {
   const { markdownRemark } = data;
@@ -30,7 +30,7 @@ export default ({data, pageContext}) => {
       </div>
       <div className="custom-content" dangerouslySetInnerHTML={{ __html: html }}></div>
     </SiteLayout>
-  )
+  );
 };
 
 export const pageQuery = graphql`
@@ -56,4 +56,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

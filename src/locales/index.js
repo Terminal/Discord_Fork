@@ -1,4 +1,4 @@
-const flat = require('flat')
+const flat = require('flat');
 
 const data = {
   en: {
@@ -12,10 +12,10 @@ const data = {
     locale: 'French (Baguette)',
     flag: 'twa-fr'
   }
-}
+};
 
 Object.keys(data).forEach((key) => {
-  data[key].data = flat(require(`./${key}.json`))
-})
+  data[key].data = flat(require(`./${key}.json`));
+});
 
 module.exports = data;

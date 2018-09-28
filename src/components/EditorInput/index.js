@@ -1,5 +1,5 @@
 import React from 'react';
-import { FormattedMessage } from 'react-intl'
+import { FormattedMessage } from 'react-intl';
 
 export default class EditorInput extends React.Component {
   render() {
@@ -14,7 +14,7 @@ export default class EditorInput extends React.Component {
             Object.keys(this.props.choices).map((key) => (<option value={key} key={key}>{this.props.choices[key]}</option>))
           }
         </select>
-      )
+      );
     } else {
       input = (
         <FormattedMessage id={`pages.edit.${this.props.id}.placeholder`}>
@@ -22,7 +22,7 @@ export default class EditorInput extends React.Component {
             <input className="full-width" placeholder={placeholder} id={this.props.id}></input>
           ))}
         </FormattedMessage>
-      )
+      );
     }
 
     return (
@@ -34,6 +34,6 @@ export default class EditorInput extends React.Component {
         </FormattedMessage>
         {input}
       </div>
-    )
+    );
   }
 }

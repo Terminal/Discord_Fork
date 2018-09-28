@@ -1,17 +1,17 @@
 import React from 'react';
-import Link from 'gatsby-link'
-import Avatar from './../Avatar'
-import { FormattedMessage } from 'react-intl'
+import Link from 'gatsby-link';
+import Avatar from './../Avatar';
+import { FormattedMessage } from 'react-intl';
 
 
-import './index.scss'
+import './index.scss';
 
 export default ({ post }) => {
   const githubButton = post.frontmatter.github
     && post.frontmatter.github.owner
     && post.frontmatter.github.repo 
-      ? <a href={`https://github.com/${post.frontmatter.github.owner}/${post.frontmatter.github.repo}`} rel="noopener noreferrer" target="_blank"><FormattedMessage id="pages.list.github" /></a>
-      : null
+    ? <a href={`https://github.com/${post.frontmatter.github.owner}/${post.frontmatter.github.repo}`} rel="noopener noreferrer" target="_blank"><FormattedMessage id="pages.list.github" /></a>
+    : null;
 
   return (
     <section className="card">
@@ -32,5 +32,5 @@ export default ({ post }) => {
         {githubButton}
       </div>
     </section>
-  )
-}
+  );
+};

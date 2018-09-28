@@ -1,7 +1,7 @@
-import React from 'react'
-import SiteLayout from './../components/SiteLayout'
-import LocalLink from './../components/LocalLink'
-import { FormattedMessage } from 'react-intl'
+import React from 'react';
+import SiteLayout from './../components/SiteLayout';
+import LocalLink from './../components/LocalLink';
+import { FormattedMessage } from 'react-intl';
 
 const NotFoundPage = ({pageContext}) => (
   <SiteLayout locale={pageContext.locale}>
@@ -15,6 +15,6 @@ const NotFoundPage = ({pageContext}) => (
       </LocalLink>
     </div>
   </SiteLayout>
-)
+);
 
-export default NotFoundPage
+export default NotFoundPage;

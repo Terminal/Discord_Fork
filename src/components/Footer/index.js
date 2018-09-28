@@ -1,6 +1,6 @@
-import React from 'react'
-import { FormattedMessage } from 'react-intl'
-import LocalLink from '../LocalLink'
+import React from 'react';
+import { FormattedMessage } from 'react-intl';
+import LocalLink from '../LocalLink';
 
 export default () => (
   <footer className="box-container primary-flat no-border-radius no-margin">

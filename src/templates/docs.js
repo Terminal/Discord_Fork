@@ -1,9 +1,9 @@
 import React from 'react';
-import Global from './../components/Global'
-import DocsLayout from './../components/DocsLayout'
-import { graphql } from "gatsby"
+import Global from './../components/Global';
+import DocsLayout from './../components/DocsLayout';
+import { graphql } from 'gatsby';
 
-import './docs.scss'
+import './docs.scss';
 
 export default ({data, pageContext}) => {
   const { markdownRemark } = data;
@@ -14,8 +14,8 @@ export default ({data, pageContext}) => {
       <Global title={frontmatter.pagename} description={frontmatter.description}/>
       <div dangerouslySetInnerHTML={{ __html: html }}></div>
     </DocsLayout>
-  )
-}
+  );
+};
 
 export const pageQuery = graphql`
   query docsPages($filelink: String!) {
@@ -29,4 +29,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

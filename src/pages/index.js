@@ -1,9 +1,9 @@
-import React from 'react'
-import Card from './../components/Card'
-import Cards from './../components/Cards'
-import SiteLayout from './../components/SiteLayout'
-import Loading from './../components/Loading'
-import { graphql } from "gatsby"
+import React from 'react';
+import Card from './../components/Card';
+import Cards from './../components/Cards';
+import SiteLayout from './../components/SiteLayout';
+import Loading from './../components/Loading';
+import { graphql } from 'gatsby';
 
 export default class Homepage extends React.Component {
   constructor() {
@@ -11,26 +11,26 @@ export default class Homepage extends React.Component {
 
     this.state = {
       shuffle: []
-    }
+    };
   }
 
   componentDidMount() {
     const seen = {};
     const items = this.props.data.allMarkdownRemark.edges.map((edge) => {
-      edge.score = Math.random()
-      if (edge.node.frontmatter.github) edge.score += 1
-      if (edge.node.fields.locale === this.props.pageContext.locale) edge.score += 10
-      return edge
+      edge.score = Math.random();
+      if (edge.node.frontmatter.github) edge.score += 1;
+      if (edge.node.fields.locale === this.props.pageContext.locale) edge.score += 10;
+      return edge;
     })
-    .sort((a, b) => b.score - a.score)
+      .sort((a, b) => b.score - a.score);
 
     const filtered = items.filter((item) => {
       if (seen.hasOwnProperty(item.node.fields.filename)) {
-        return false
+        return false;
       }
-      seen[item.node.fields.filename] = true
-      return true
-    })
+      seen[item.node.fields.filename] = true;
+      return true;
+    });
 
     this.setState({
       shuffle: filtered
@@ -44,7 +44,7 @@ export default class Homepage extends React.Component {
           { this.state.shuffle.length === 0 ? <Loading /> : this.state.shuffle.map(edge => <Card key={edge.node.fields.filename} post={edge.node}/>)}
         </Cards>
       </SiteLayout>
-    )
+    );
   }
 }
 
@@ -75,4 +75,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

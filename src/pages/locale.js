@@ -1,9 +1,9 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import SiteLayout from './../components/SiteLayout'
-import { FormattedMessage } from 'react-intl'
-import locales from '../locales'
-import './locale.scss'
+import React from 'react';
+import { Link } from 'gatsby';
+import SiteLayout from './../components/SiteLayout';
+import { FormattedMessage } from 'react-intl';
+import locales from '../locales';
+import './locale.scss';
 
 export default ({pageContext}) => (
   <SiteLayout locale={pageContext.locale}>
@@ -18,4 +18,4 @@ export default ({pageContext}) => (
       ))}
     </div>
   </SiteLayout>
-)
+);
