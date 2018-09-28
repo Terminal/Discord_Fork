@@ -13,6 +13,9 @@ Add your bot [via the E-Zed editor](https://discordbots.co.uk/edit) or [via GitH
 NOTE: Please do not complain over how *bad* the site is made, this is mostly made as a
 way to be more unique and prove that a list site can possibly be made with Jekyll.
 
+# Deprecation warning!
+This codebase will soon be replaced with the Gatsby version. See the [gatsby branch](https://github.com/Terminal/Discord_Fork/tree/gatsby) for previews and details.
+
 ## Requirements
 - Ruby 2.4 or above - https://rubyinstaller.org/downloads/
 - jekyll & bundle - https://jekyllrb.com/
