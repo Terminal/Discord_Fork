@@ -23,6 +23,7 @@
     "mkdirp": "^0.5.1",
     "mustache": "^3.0.0",
     "node-sass": "^4.9.3",
+    "prop-types": "^15.6.2",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0",

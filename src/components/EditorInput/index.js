@@ -1,7 +1,8 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { FormattedMessage } from 'react-intl';
 
-export default class EditorInput extends React.Component {
+class EditorInput extends React.Component {
   render() {
     let input = null;
     if (this.props.choices) {
@@ -37,3 +38,12 @@ export default class EditorInput extends React.Component {
     );
   }
 }
+
+EditorInput.propTypes = {
+  choices: PropTypes.objectOf(PropTypes.string),
+  placeholder: PropTypes.string,
+  className: PropTypes.string,
+  id: PropTypes.string
+};
+
+export default EditorInput;

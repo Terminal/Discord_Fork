@@ -1,12 +1,21 @@
 import React from 'react';
+import { ItemPropType } from './../../proptypes';
 
-export default ({ post }) => {
-  return (
-    <img className={`avatar ${post.frontmatter.nsfw ? 'nsfw' : '' }`} alt={`Avatar for ${post.frontmatter.pagename}`} src={`/userassets${post.fields.filelink}-128.png` || '/assets/images/logo/logo.svg'} onError={(e) => {
-      if (e.target.dataset.error !== '') {
-        e.target.dataset.error = '';
-        e.target.src = '/assets/images/logo/logo.svg';
-      }
-    }}></img>
-  );
+class Avatar extends React.Component {
+  render() {
+    return (
+      <img className={`avatar ${this.props.post.frontmatter.nsfw ? 'nsfw' : '' }`} alt={`Avatar for ${this.props.post.frontmatter.pagename}`} src={`/userassets${this.props.post.fields.filelink}-128.png` || '/assets/images/logo/logo.svg'} onError={(e) => {
+        if (e.target.dataset.error !== '') {
+          e.target.dataset.error = '';
+          e.target.src = '/assets/images/logo/logo.svg';
+        }
+      }}></img>
+    );
+  }
+}
+
+Avatar.propTypes = {
+  post: ItemPropType
 };
+
+export default Avatar;

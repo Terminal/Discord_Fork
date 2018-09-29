@@ -176,6 +176,7 @@ exports.onCreatePage = ({ page, actions }) => {
   });
 };
 
+// When Gatsby makes static files, don't use webpack the monaco
 exports.onCreateWebpackConfig = ({stage, loaders, actions}) => {
   if (stage === 'build-html') {
     actions.setWebpackConfig({
