@@ -1,9 +1,11 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+
 import './style.scss';
 import LocalLink from '../LocalLink';
 import { FormattedMessage } from 'react-intl';
 
-export default class Navigation extends React.Component {
+class Navigation extends React.Component {
   componentDidMount() {
     this.open.addEventListener('click', () => {
       if (this.navside && this.navside.style) {
@@ -47,3 +49,9 @@ export default class Navigation extends React.Component {
     );
   }
 }
+
+Navigation.propTypes = {
+  title: PropTypes.string
+};
+
+export default Navigation;

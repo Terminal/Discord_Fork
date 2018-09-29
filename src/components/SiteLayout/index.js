@@ -1,15 +1,27 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import Intro from '../Intro';
 import Footer from '../Footer';
 import GlobalLayout from '../GlobalLayout';
 
-export default ({ locale, children }) => (
-  <GlobalLayout locale={locale}>
-    <Intro />
-    <div className="main-content-container container">
-      {children}
-    </div>
-    <Footer />
-  </GlobalLayout>
-);
+class SiteLayout extends React.Component {
+  render() {
+    return (
+      <GlobalLayout locale={this.props.locale}>
+        <Intro />
+        <div className="main-content-container container">
+          {this.props.children}
+        </div>
+        <Footer />
+      </GlobalLayout>
+    );
+  }
+}
+
+SiteLayout.propTypes = {
+  children: PropTypes.any,
+  locale: PropTypes.string
+};
+
+export default SiteLayout;

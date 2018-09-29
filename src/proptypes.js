@@ -21,5 +21,6 @@ export const ItemPropType = PropTypes.shape({
     locale: PropTypes.string,
     template: PropTypes.string,
     filename: PropTypes.string
-  })
+  }),
+  html: PropTypes.string
 });

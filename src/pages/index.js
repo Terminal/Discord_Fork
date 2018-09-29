@@ -1,4 +1,6 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+import { ItemPropType } from './../proptypes';
 import Card from './../components/Card';
 import Cards from './../components/Cards';
 import SiteLayout from './../components/SiteLayout';
@@ -6,15 +8,23 @@ import Loading from './../components/Loading';
 import { graphql } from 'gatsby';
 
 export default class Homepage extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
 
-    this.state = {
-      shuffle: []
-    };
+    this.shuffleTheBots = this.shuffleTheBots.bind(this);
+
+    if (typeof window === 'undefined') {
+      this.state = {
+        shuffle: this.shuffleTheBots()
+      };
+    } else {
+      this.state = {
+        shuffle: []
+      };
+    }
   }
 
-  componentDidMount() {
+  shuffleTheBots() {
     const seen = {};
     const items = this.props.data.allMarkdownRemark.edges.map((edge) => {
       edge.score = Math.random();
@@ -32,8 +42,12 @@ export default class Homepage extends React.Component {
       return true;
     });
 
+    return filtered;
+  }
+
+  componentDidMount() {
     this.setState({
-      shuffle: filtered
+      shuffle: this.shuffleTheBots()
     });
   }
 
@@ -48,9 +62,26 @@ export default class Homepage extends React.Component {
   }
 }
 
+Homepage.propTypes = {
+  data: PropTypes.shape({
+    allMarkdownRemark: PropTypes.shape({
+      totalCount: PropTypes.number.isRequired,
+      edges: PropTypes.arrayOf(
+        PropTypes.shape({
+          node: ItemPropType
+        }).isRequired
+      )
+    })
+  }),
+  pageContext: PropTypes.shape({
+    locale: PropTypes.string
+  })
+};
+
 export const pageQuery = graphql`
   query HomepageQuery {
     allMarkdownRemark(filter: {fields: {template: { eq: "bots" }}}) {
+      totalCount
       edges {
         node {
           fields {
