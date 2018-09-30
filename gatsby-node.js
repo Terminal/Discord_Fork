@@ -121,6 +121,7 @@ exports.createPages = ({ actions, graphql }) => {
               application_id
               avatar
               pagename
+              prefix
               description
               link
               support
