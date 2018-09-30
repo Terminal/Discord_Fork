@@ -7,7 +7,7 @@ class EditorInput extends React.Component {
     let input = null;
     if (this.props.choices) {
       input = (
-        <select className="full-width" id={this.props.id} defaultValue="" required>
+        <select className="full-width" id={this.props.id} defaultValue="" required onChange={this.props.onChange} name={this.props.name}>
           <FormattedMessage id="forms.select">
             {(msg) => (<option value="" disabled hidden>{ this.props.placeholder || msg}</option>)}
           </FormattedMessage>
@@ -20,7 +20,7 @@ class EditorInput extends React.Component {
       input = (
         <FormattedMessage id={`pages.edit.${this.props.id}.placeholder`}>
           {((placeholder) => (
-            <input className="full-width" placeholder={placeholder} id={this.props.id}></input>
+            <input className="full-width" placeholder={placeholder} id={this.props.id} onChange={this.props.onChange} name={this.props.name}></input>
           ))}
         </FormattedMessage>
       );
@@ -43,7 +43,9 @@ EditorInput.propTypes = {
   choices: PropTypes.objectOf(PropTypes.string),
   placeholder: PropTypes.string,
   className: PropTypes.string,
-  id: PropTypes.string
+  id: PropTypes.string,
+  onChange: PropTypes.func,
+  name: PropTypes.string
 };
 
 export default EditorInput;
