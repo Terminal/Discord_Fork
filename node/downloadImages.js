@@ -3,6 +3,10 @@ const sharp = require('sharp');
 const path = require('path');
 const fs = require('fs');
 
+const invalidAvatar = fs.readFileSync(path.join(__dirname, '..', 'static', 'assets', 'images', 'logo', 'logo128.png'));
+const invalidAvatarBuffer = Buffer.from(invalidAvatar);
+const invalidAvatarBase64 = invalidAvatarBuffer.toString('base64');
+
 const sizes = [
   1024,
   512,
@@ -47,9 +51,7 @@ module.exports = (node, base64callback) => {
           base64callback(`data:image/png;base64,${data.toString('base64')}`);
         })
         .catch(() => {
-          const invalidAvatar = fs.readFileSync(path.join(__dirname, '..', 'static', 'assets', 'images', 'logo', 'logo128.png'));
-          const invalidAvatarBuffer = new Buffer(invalidAvatar);
-          base64callback(`data:image/png;base64,${invalidAvatarBuffer.toString('base64')}`);
+          base64callback(`data:image/png;base64,${invalidAvatarBase64}`);
         });
     }
     

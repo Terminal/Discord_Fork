@@ -6,11 +6,12 @@ const wrap = require('word-wrap');
 
 const downloadImages = require('./node/downloadImages');
 const makeSureTheFoldersExistBeforeWritingYourFiles = require('./node/makeSureTheFoldersExistBeforeWritingYourFiles');
+const makeTheSvgIntoAPngPleaseThankYou = require('./node/makeTheSvgIntoAPngPleaseThankYou');
 
 const locales = require('./src/locales/index');
 const config = require('./gatsby-config');
 
-const embedTemplate = fs.readFileSync(path.join(__dirname, 'embed.svg'), 'utf8');
+const embedTemplate = fs.readFileSync(path.join(__dirname, 'src', 'templates', 'embed.svg'), 'utf8');
 
 // Destroy existing folders before starting
 exports.onPreBootstrap = () => {
@@ -140,12 +141,16 @@ exports.createPages = ({ actions, graphql }) => {
     const all = [];
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       makeSureTheFoldersExistBeforeWritingYourFiles(node);
-      downloadImages(node);
+      downloadImages(node, (base64image) => {
+        const svg = mustache.render(embedTemplate, Object.assign(node, {
+          wrapped: wrap(node.frontmatter.description || '', { width: 35 }).split('\n').map(line => line.trim()),
+          base64image
+        }));
+        makeTheSvgIntoAPngPleaseThankYou(node, svg);
+        fs.writeFileSync(path.join(__dirname, 'public', 'api', `${node.fields.filelink}.svg`), svg);
+      });
       all.push(node);
       fs.writeFileSync(path.join(__dirname, 'public', 'api', `${node.fields.filelink}.json`), JSON.stringify(node, null, 2));
-      fs.writeFileSync(path.join(__dirname, 'public', 'api', `${node.fields.filelink}.svg`), mustache.render(embedTemplate, Object.assign(node, {
-        wrapped: wrap(node.frontmatter.description || '', { width: 35 }).split('\n').map(line => line.trim())
-      })));
     });
     fs.writeFileSync(path.join(__dirname, 'public', 'api', 'all.json'), JSON.stringify(all, null, 2));
   });
