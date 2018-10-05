@@ -42,7 +42,7 @@
     "edit": {
       "title": "Ajouter un bot",
       "info": "Cet éditeur est en bêta.",
-      "notice": "Lorsque vous avez fini, cliquez sur le bouton \"Créer une pull request\" pour publier sur GitHub, ou cliquez sur \"Exporter\" pour voir le fichier que vous êtes sur le point de créer.",
+      "notice": "Lorsque vous avez fini, cliquez sur le bouton \"Créer une pull request\" pour publier sur GitHub.",
       "default": "# Titre\n\nC'est un bot cool que vous devriez accepter.\nLes raisons incluent:\n\n- Être génial\n- Ne pas être pas génial\n- Le préfixe peut être changé en !\n\n<!--\n  Stan LOONA\n  Stan Talent\n-->\n",
       "client_id": {
         "title": "Votre ID Client",
@@ -110,13 +110,6 @@
           "title": "Créer une pull request",
           "description": "Veuillez entrer tout commentaire que vous souhaitez mettre",
           "wait": "Veuillez patienter..."
-        }
-      },
-      "export": {
-        "button": "Exporter",
-        "modal": {
-          "title": "Exporter",
-          "description": "Entrez le contenu manuellement sur GitHub afin de continuer"
         }
       },
       "submit": "Envoyer"

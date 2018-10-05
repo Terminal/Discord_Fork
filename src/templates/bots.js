@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { ItemPropType } from './../proptypes';
 
+import { ItemPropType } from './../proptypes';
 import Global from './../components/Global';
 import SiteLayout from './../components/SiteLayout';
 import ProfileCard from './../components/ProfileCard';

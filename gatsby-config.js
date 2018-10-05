@@ -30,7 +30,9 @@ module.exports = {
     title: 'Discord_Fork',
     colour: '#3498db',
     types,
-    foldersToClear
+    foldersToClear,
+    authenticate: 'https://github.com/login/oauth/authorize?client_id=e3020914761f88571cf7&scope=public_repo',
+    gatekeeper: 'http://127.0.0.1:9999/authenticate'
   },
   plugins: [
     'gatsby-plugin-sass',
