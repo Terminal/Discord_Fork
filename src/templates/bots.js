@@ -34,8 +34,8 @@ class Bots extends React.Component {
           <br />
           <small>
             <FormattedMessage id="pages.items.embed" />{' '}
-            <a href={`/api/${fields.filelink}.svg`}>.svg</a>｜
-            <a href={`/api/${fields.filelink}.png`}>.png</a>
+            <a href={`/api${fields.filelink}.svg`}>.svg</a>｜
+            <a href={`/api${fields.filelink}.png`}>.png</a>
           </small>
         </div>
         <hr />
