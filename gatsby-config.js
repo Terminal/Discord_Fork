@@ -31,8 +31,8 @@ module.exports = {
     colour: '#3498db',
     types,
     foldersToClear,
-    authenticate: 'https://github.com/login/oauth/authorize?client_id=e3020914761f88571cf7&scope=public_repo',
-    gatekeeper: 'http://127.0.0.1:9999/authenticate'
+    authenticate: 'https://github.com/login/oauth/authorize?client_id=6fff2201b71ad2d63131&scope=public_repo',
+    gatekeeper: 'https://auth.discordbots.co.uk/authenticate'
   },
   plugins: [
     'gatsby-plugin-sass',
