@@ -31,7 +31,14 @@ class Bots extends React.Component {
           { frontmatter.github && frontmatter.github.owner ? <a className="btn white black-text bold" href={`https://github.com/${frontmatter.github.owner}/${frontmatter.github.repo || ''}`}>
             <FormattedMessage id="pages.items.github" />
           </a> : null }
+          <br />
+          <small>
+            embed me as a{' '}
+            <a href={`/api/${fields.filelink}.svg`}>.svg</a>｜
+            <a href={`/api/${fields.filelink}.png`}>.png</a>
+          </small>
         </div>
+        <hr />
         <div className="custom-content" dangerouslySetInnerHTML={{ __html: html }}></div>
       </SiteLayout>
     );
