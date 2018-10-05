@@ -143,7 +143,7 @@ exports.createPages = ({ actions, graphql }) => {
       makeSureTheFoldersExistBeforeWritingYourFiles(node);
       downloadImages(node, (base64image) => {
         const svg = mustache.render(embedTemplate, Object.assign(node, {
-          wrapped: wrap(node.frontmatter.description || '', { width: 35 }).split('\n').map(line => line.trim()),
+          wrapped: wrap(node.frontmatter.description || '', { width: 30 }).split('\n').map(line => line.trim()),
           base64image
         }));
         makeTheSvgIntoAPngPleaseThankYou(node, svg);
