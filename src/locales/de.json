@@ -1,0 +1,135 @@
+{
+  "pages": {
+    "list": {
+      "invite": "Einladen",
+      "github": "GitHub",
+      "star": "Staren",
+      "unstar": "Unstaren",
+      "nsfw": "NSFW",
+      "visit": "Besuche Discord Server"
+    },
+    "item": {
+      "prefix": "Prefix: ",
+      "github": "Auf GitHub ansehen",
+      "discord": "Support Server"
+    },
+    "bots": {
+      "pagename": "Discord Fork Botliste",
+      "shortname": "Bots",
+      "add": "Diesen Bot hinzufügen",
+      "invite": "Diesen Bot hinzufügen",
+      "description": "Die Botliste mit eingebauter GitHub-Integration"
+    },
+    "servers": {
+      "pagename": "Discord Fork Serverliste",
+      "shortname": "Server",
+      "add": "Eigenen Server hinzufügen",
+      "invite": "Diesem Server beitreten",
+      "description": "Die Serverliste mit eingebauter GitHub-Integration"
+    },
+    "docs": {
+      "pagename": "Discord Fork Developer Portal",
+      "shortname": "Dokumentation"
+    },
+    "locale": {
+      "choose": "Bitte wähle eine Sprache",
+      "pleasehelp": "Bist du ein guter Übersetzer? Klick hier."
+    },
+    "edit": {
+      "title": "Einen Bot hinzufügen",
+      "info": "Dieser Editor ist in einer beta.",
+      "notice": "Wenn du fertig bist, klick auf den \"Pull-request erstellen\" Knopf",
+      "default": "# Titel\n\nDas ist ein cooler bot, den Ihr akzeptieren solltet.\nGründe enthalten:\n\n- Cool sein\n- Nicht uncool sein\n- Der Prefix kann zu ! geändert werden\n\n<!--\n  Stan LOONA\n  Stan Talent\n-->\n",
+      "client_id": {
+        "title": "Bot User ID",
+        "placeholder": "Soetwas wie: 255114091360681986"
+      },
+      "application_id": {
+        "title": "Bot OAuth ID",
+        "placeholder": "Soetwas wie: 255114091360681986",
+        "button": "ID einfügen",
+        "help": "?",
+        "small": "Lass es leer, wenn du keinen brauchst"
+      },
+      "bot_name": {
+        "title": "Botname",
+        "placeholder": "Discord Botname"
+      },
+      "bot_prefix": {
+        "title": "Prefix",
+        "placeholder": "Prefix"
+      },
+      "bot_invite": {
+        "title": "Einladungs-URL",
+        "placeholder": "https://discordapp.com/oauth/ oder ein anderer passender Link"
+      },
+      "bot_avatar": {
+        "title": "Avatar URL",
+        "placeholder": "https://assets.discordapp.com/ oder ein anderer passender Link"
+      },
+      "bot_support": {
+        "title": "Support URL",
+        "placeholder": "https://discord.gg/8uC6aKZ",
+        "small": "Lass dieses Feld leer, wenn du nicht gerne anderen hilfst"
+      },
+      "bot_nsfw": {
+        "title": "NSFW",
+        "isnt": "NSFW Befehle sind nicht ein hauptteil dieses Bots",
+        "is": "Der bot-Avatar ist NSFW und/oder der Bot is NSFW-orientiert"
+      },
+      "bot_description": {
+        "title": "Beschreibung",
+        "placeholder": "Dieser Bot erlaubt dir, magisches zu tun.",
+        "small": "Die Frontseite erlaubt nur 60 Zeichen zum anzeigen."
+      },
+      "bot_github_owner": {
+        "title": "GitHub Nutzer / Organisation",
+        "placeholder": "ry00001"
+      },
+      "bot_github_repo": {
+        "title": "GitHub Repository",
+        "placeholder": "Tuxedo"
+      },
+      "page": {
+        "title": "Botseite",
+        "note": "Markdown and some HTML allowed"
+      },
+      "create_pr": {
+        "button": "Pull-request erstellen",
+        "modal": {
+          "title": "Pull-request erstellen",
+          "description": "Bitte füge Kommentare hinzu, welche du machen willst.",
+          "wait": "Bitte warten..."
+        }
+      },
+      "export": {
+        "button": "Exportieren",
+        "modal": {
+          "title": "Exportieren",
+          "description": "Füge den Kontent manuell zu GitHub hinzu, um fortzufahren"
+        }
+      },
+      "submit": "Absenden"
+    },
+    "notfound": {
+      "message": "Seite nicht gefunden",
+      "gohome": "Zur Hauptseite"
+    }
+  },
+  "copyright": "Copyright 2017 - 2018, Terminal.ink<br> Original konzept von AlexFlipnote<br> GitHub® ist eine eingetragene Marke von GitHub, Inc.<br> Discord ist eine eingetragene Marke von Discord Inc.\n",
+  "intro": {
+    "login": "Einloggen via GitHub",
+    "logout": "Ausloggen",
+    "search": "Suche..."
+  },
+  "footer": {
+    "view": "Diese Seite auf GitHub ansehen",
+    "licence": "Lizenz",
+    "attribution": "Zuordnung",
+    "source": "Quellcode",
+    "terminal": "Trete Terminal.ink auf Discord bei"
+  },
+  "forms": {
+    "select": "Please select..."
+  }
+}

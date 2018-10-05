@@ -9,13 +9,14 @@ import './../index.scss';
 
 import enData from 'react-intl/locale-data/en';
 import frData from 'react-intl/locale-data/fr';
+import deData from 'react-intl/locale-data/de';
 
 import locales from '../../locales';
 
 const messages = {};
 Object.keys(locales).map((key) => messages[key] = locales[key].data);
 
-addLocaleData([...enData, ...frData]);
+addLocaleData([...enData, ...frData, ...deData]);
 
 class GlobalLayout extends React.Component {
   render() {

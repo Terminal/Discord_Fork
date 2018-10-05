@@ -11,6 +11,11 @@ const data = {
     path: 'fr',
     locale: 'French (Baguette)',
     flag: 'twa-fr'
+  },
+  de: {
+    path: 'de',
+    locale: 'Deutschland',
+    flag: 'twa-de'
   }
 };
 
