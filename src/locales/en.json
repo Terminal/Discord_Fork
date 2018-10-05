@@ -10,7 +10,8 @@
     },
     "items": {
       "github": "View on GitHub",
-      "discord": "Support Server"
+      "discord": "Support Server",
+      "embed": "embed:"
     },
     "bots": {
       "pagename": "Discord Fork Bot List",

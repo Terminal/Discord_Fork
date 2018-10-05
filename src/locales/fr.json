@@ -10,7 +10,8 @@
     },
     "items": {
       "github": "GitHub",
-      "discord": "Aide"
+      "discord": "Aide",
+      "embed": "embed:"
     },
     "bots": {
       "pagename": "Un répertoire de bots Discord",

@@ -11,7 +11,8 @@
     "item": {
       "prefix": "Prefix: ",
       "github": "Auf GitHub ansehen",
-      "discord": "Support Server"
+      "discord": "Support Server",
+      "embed": "embed:"
     },
     "bots": {
       "pagename": "Discord Fork Botliste",

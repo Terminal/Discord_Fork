@@ -33,7 +33,7 @@ class Bots extends React.Component {
           </a> : null }
           <br />
           <small>
-            embed me as a{' '}
+            <FormattedMessage id="pages.items.embed" />{' '}
             <a href={`/api/${fields.filelink}.svg`}>.svg</a>｜
             <a href={`/api/${fields.filelink}.png`}>.png</a>
           </small>
