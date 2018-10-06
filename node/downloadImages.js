@@ -31,28 +31,55 @@ module.exports = (node, base64callback) => {
     const sharpreader = sharp();
   
     sizes.forEach((size) => {
-      sharpreader
-        .clone()
-        .resize(size, size)
-        .toFile(path.join(__dirname, '..', 'public', 'userassets', `${node.fields.permalink}-${size}.png`))
-        .catch(() => {
-          // If there is an error resizing a specific image, copy the default image for every size
-          imageError(size);
-        });
+      if (node.frontmatter.nsfw) {
+        sharpreader
+          .clone()
+          .resize(size, size)
+          .blur(5)
+          .toFile(path.join(__dirname, '..', 'public', 'userassets', `${node.fields.permalink}-${size}.png`))
+          .catch(() => {
+            // If there is an error resizing a specific image, copy the default image for every size
+            imageError(size);
+          });
+      } else {
+        sharpreader
+          .clone()
+          .resize(size, size)
+          .toFile(path.join(__dirname, '..', 'public', 'userassets', `${node.fields.permalink}-${size}.png`))
+          .catch(() => {
+            // If there is an error resizing a specific image, copy the default image for every size
+            imageError(size);
+          });
+      }
     });
 
     if (typeof base64callback === 'function') {
-      sharpreader
-        .clone()
-        .resize(128, 128)
-        .png()
-        .toBuffer()
-        .then(data => {
-          base64callback(`data:image/png;base64,${data.toString('base64')}`);
-        })
-        .catch(() => {
-          base64callback(`data:image/png;base64,${invalidAvatarBase64}`);
-        });
+      if (node.frontmatter.nsfw) {
+        sharpreader
+          .clone()
+          .resize(128, 128)
+          .blur(5)
+          .png()
+          .toBuffer()
+          .then(data => {
+            base64callback(`data:image/png;base64,${data.toString('base64')}`);
+          })
+          .catch(() => {
+            base64callback(`data:image/png;base64,${invalidAvatarBase64}`);
+          });
+      } else {
+        sharpreader
+          .clone()
+          .resize(128, 128)
+          .png()
+          .toBuffer()
+          .then(data => {
+            base64callback(`data:image/png;base64,${data.toString('base64')}`);
+          })
+          .catch(() => {
+            base64callback(`data:image/png;base64,${invalidAvatarBase64}`);
+          });
+      }
     }
     
     request({

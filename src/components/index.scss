@@ -15,10 +15,6 @@ body, .card-container .card {
   flex-grow: 1;
 }
 
-.nsfw {
-  filter: blur(5px);
-}
-
 .nsfw-tag {
   background: #e74c3c;
   border-radius: 3px;
