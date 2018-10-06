@@ -9,7 +9,7 @@ import './locale.scss';
 class Locale extends React.Component {
   render() {
     return (
-      <SiteLayout locale={this.props.pageContext.locale}>
+      <SiteLayout locale={this.props.pageContext.locale} type="bots">
         <div className="center">
           <h1>
             <FormattedMessage id="pages.locale.choose" />
