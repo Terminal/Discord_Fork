@@ -1,6 +1,8 @@
 import React from 'react';
 import { ItemPropType } from './../../proptypes';
 
+import './index.scss';
+
 class Avatar extends React.Component {
   render() {
     return (

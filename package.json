@@ -4,6 +4,7 @@
   "version": "2.0.0",
   "author": "7coil <admin@moustacheminer.com>",
   "dependencies": {
+    "@babel/polyfill": "^7.0.0",
     "eslint-config-defaults": "^9.0.0",
     "flat": "^4.1.0",
     "gatsby": "next",
