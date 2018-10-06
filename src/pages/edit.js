@@ -156,7 +156,7 @@ class EditPage extends React.Component {
 
         const writeToFork = () => {
           this.pullLog('Writing file to GitHub');
-          userRepo.writeFile(forkData.default_branch, `data/${this.state.editor_lang}/bots/${this.state.filename}.md`, filedata, `Adding ${data.pagename} via Gatsby Branch Editor`, {}, (error2) => {
+          userRepo.writeFile(forkData.default_branch, `data/${this.state.editor_lang}/${this.state.editor_type}/${this.state.filename}.md`, filedata, `Adding ${data.pagename} via Gatsby Branch Editor`, {}, (error2) => {
             if (error2) {
               this.pullLog(error2);
             } else {
