@@ -5,7 +5,8 @@ const filesystems = [];
 
 const types = [
   'bots',
-  'docs'
+  'docs',
+  'servers'
 ];
 
 const foldersToClear = [

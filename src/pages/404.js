@@ -7,7 +7,7 @@ import { FormattedMessage } from 'react-intl';
 class NotFoundPage extends React.Component {
   render() {
     return (
-      <SiteLayout locale={this.props.pageContext.locale}>
+      <SiteLayout locale={this.props.pageContext.locale} type="bots">
         <div className="center">
           <h1>
             404<br />

@@ -11,19 +11,19 @@ import { graphql } from 'gatsby';
 
 import './item.scss';
 
-class Bots extends React.Component {
+class Servers extends React.Component {
   render() {
     const { markdownRemark } = this.props.data;
     const { frontmatter, fields, html } = markdownRemark;
     return (
-      <SiteLayout locale={this.props.pageContext.locale} type="bots">
+      <SiteLayout locale={this.props.pageContext.locale} type="servers">
         <Global title={frontmatter.pagename} description={frontmatter.description} image={`/userassets/${fields.template}/${fields.filename}-256.png`} />
         <Cards>
           <ProfileCard post={{ frontmatter, fields }}></ProfileCard>
         </Cards>
         <div className="center">
           { frontmatter.link ? <a className="btn white black-text bold" href={frontmatter.link}>
-            <FormattedMessage id="pages.bots.invite" />
+            <FormattedMessage id="pages.servers.invite" />
           </a> : null }
           { frontmatter.support ? <a className="btn white black-text bold" href={frontmatter.support}>
             <FormattedMessage id="pages.items.discord" />
@@ -45,7 +45,7 @@ class Bots extends React.Component {
   }
 }
 
-Bots.propTypes = {
+Servers.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       node: ItemPropType
@@ -56,10 +56,10 @@ Bots.propTypes = {
   })
 };
 
-export default Bots;
+export default Servers;
 
 export const pageQuery = graphql`
-  query BotPages($filelink: String!) {
+  query ServerPages($filelink: String!) {
     markdownRemark(fields: { filelink: { eq: $filelink }}) {
       html
       frontmatter {

@@ -9,12 +9,19 @@ import MonacoEditor from 'react-monaco-editor';
 import { dump } from 'js-yaml';
 import { FormattedMessage } from 'react-intl';
 
+import locales from './../locales';
+
+const localeOptions = {};
+Object.keys(locales).forEach(locale => localeOptions[locale] = locales[locale].native);
+
 class EditPage extends React.Component {
   constructor() {
     super();
 
     this.state = {
       monaco: null,
+      editor_type: null,
+      editor_lang: null,
       filename: null,
       pagename: null,
       description: null,
@@ -107,7 +114,6 @@ class EditPage extends React.Component {
   handleSubmit(e) {
     e.preventDefault();
     const data = {
-      filename: this.state.filename,
       pagename: this.state.pagename,
       description: this.state.description,
       prefix: this.state.prefix,
@@ -150,7 +156,7 @@ class EditPage extends React.Component {
 
         const writeToFork = () => {
           this.pullLog('Writing file to GitHub');
-          userRepo.writeFile(forkData.default_branch, `data/${this.props.pageContext.locale}/bots/${data.filename}.md`, filedata, `Adding ${data.pagename} via Gatsby Branch Editor`, {}, (error2) => {
+          userRepo.writeFile(forkData.default_branch, `data/${this.state.editor_lang}/bots/${this.state.filename}.md`, filedata, `Adding ${data.pagename} via Gatsby Branch Editor`, {}, (error2) => {
             if (error2) {
               this.pullLog(error2);
             } else {
@@ -268,14 +274,15 @@ class EditPage extends React.Component {
       );
     }
 
-    return (
-      <DocsLayout locale={this.props.pageContext.locale}>
-        <h2>
-          <FormattedMessage id="pages.edit.title" />
-        </h2>
-        <p><FormattedMessage id="pages.edit.info" /></p>
-        <form onSubmit={this.handleSubmit}>
-          <div className="form-container">
+
+    let fields = (
+      <p>Please select a type of service</p>
+    );
+    if (this.state.editor_type === 'bots') {
+      fields = (
+        <div>
+          <h3><FormattedMessage id="pages.edit.steps.2bots" /></h3>
+          <div className="row">
             <EditorInput id="client_id" name="filename" onChange={this.handleChange}></EditorInput>
             <EditorInput id="application_id" name="application_id" onChange={this.handleChange}></EditorInput>
           </div>
@@ -289,17 +296,49 @@ class EditPage extends React.Component {
           </div>
           <div className="row">
             <EditorInput id="bot_support" name="support" onChange={this.handleChange}></EditorInput>
-            <EditorInput id="bot_nsfw" name="nsfw" onChange={this.handleChange} label="NSFW" choices={{true:'This bot is NSFW', false:'This bot is not NSFW'}}></EditorInput>
+            <EditorInput id="bot_nsfw" name="nsfw" onChange={this.handleChange} choices={['true', 'false']}></EditorInput>
           </div>
           <div className="row">
             <EditorInput id="bot_description" name="description" onChange={this.handleChange} className="full-width"></EditorInput>
           </div>
           <div className="row">
-            <EditorInput id="bot_github_owner" name="github.owner" onChange={this.handleChange}></EditorInput>
-            <EditorInput id="bot_github_repo" name="github.repo" onChange={this.handleChange}></EditorInput>
+            <EditorInput id="github_owner" name="github.owner" onChange={this.handleChange}></EditorInput>
+            <EditorInput id="github_repo" name="github.repo" onChange={this.handleChange}></EditorInput>
+          </div>
+        </div>
+      );
+    } else if (this.state.editor_type === 'servers') {
+      fields = (
+        <div>
+          <h3><FormattedMessage id="pages.edit.steps.2servers" /></h3>
+          <div className="row">
+            <EditorInput id="server_id" name="filename" onChange={this.handleChange}></EditorInput>
+            <EditorInput id="server_name" name="pagename" onChange={this.handleChange}></EditorInput>
           </div>
           <div className="row">
-            <label><FormattedMessage id="pages.edit.page.title" /></label>
+            <EditorInput id="server_invite" name="link" onChange={this.handleChange}></EditorInput>
+            <EditorInput id="server_avatar" name="avatar" onChange={this.handleChange}></EditorInput>
+          </div>
+          <div className="row">
+            <EditorInput id="server_description" name="description" onChange={this.handleChange} className="full-width"></EditorInput>
+          </div>
+          <div className="row">
+            <EditorInput id="github_owner" name="github.owner" onChange={this.handleChange}></EditorInput>
+            <EditorInput id="github_repo" name="github.repo" onChange={this.handleChange}></EditorInput>
+          </div>
+          <div className="row">
+            <EditorInput id="server_nsfw" name="nsfw" onChange={this.handleChange} choices={['true', 'false']}></EditorInput>
+          </div>
+        </div>
+      );
+    }
+
+    let editor = null;
+    if (this.state.editor_type) {
+      editor = (
+        <div>
+          <h3><FormattedMessage id="pages.edit.steps.3" /></h3>
+          <div className="row">
             { this.state.monaco }
             <small><FormattedMessage id="pages.edit.page.note" /></small>
           </div>
@@ -307,6 +346,24 @@ class EditPage extends React.Component {
           <button type="submit" className="btn white black-text">
             <FormattedMessage id="pages.edit.create_pr.button" />
           </button>
+        </div>
+      );
+    }
+
+    return (
+      <DocsLayout locale={this.props.pageContext.locale}>
+        <h2>
+          <FormattedMessage id="pages.edit.title" />
+        </h2>
+        <p><FormattedMessage id="pages.edit.info" /></p>
+        <form onSubmit={this.handleSubmit}>
+          <h3><FormattedMessage id="pages.edit.steps.1" /></h3>
+          <div className="row">
+            <EditorInput id="editor_type" name="editor_type" onChange={this.handleChange} choices={{bots:'Bots', servers:'Servers'}}></EditorInput>
+            <EditorInput id="editor_lang" name="editor_lang" onChange={this.handleChange} choices={localeOptions}></EditorInput>
+          </div>
+          { fields }
+          { editor }
         </form>
       </DocsLayout>
     );

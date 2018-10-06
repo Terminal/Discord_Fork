@@ -42,24 +42,35 @@
       "pleasehelp": "Are you a good translator? Click here."
     },
     "edit": {
-      "title": "Add a bot",
-      "info": "This editor is in beta.",
+      "title": "Add a application",
+      "info": "Fields marked with (OPTIONAL) are optional. Do not type anything in boxes which are optional if you do not have them. Optional means optional, and does not mean type 'N/A' or 'none'. Pull requests with this will be rejected.",
       "notice": "When you are finished, click the \"Create a pull request\" button to publish to GitHub.",
       "default": "# Title\n\nThis is a cool bot that you should accept.\nReasons include:\n\n- Being awesome\n- Not being un-awesome\n- The prefix can be changed to !\n\n<!--\n  Stan LOONA\n  Stan Talent\n-->\n",
+      "steps": {
+        "1": "Step 1: Type of application",
+        "2bots": "Step 2: Information about the bot",
+        "2servers": "Step 2: Information about the server",
+        "3": "Step 3: Contents of application"
+      },
       "client_id": {
         "title": "Bot User ID",
         "placeholder": "Something like: 255114091360681986"
       },
       "application_id": {
         "title": "Bot OAuth ID",
-        "placeholder": "Something like: 255114091360681986",
-        "button": "Insert ID",
-        "help": "?",
-        "small": "Leave empty if you do not need one"
+        "placeholder": "Something like: 255114091360681986"
+      },
+      "server_id": {
+        "title": "Server ID",
+        "placeholder": "The ID of the server. Something like: 330777295952543744"
       },
       "bot_name": {
         "title": "Bot Name",
         "placeholder": "Discord Bot Name"
+      },
+      "server_name": {
+        "title": "Server Name",
+        "placeholder": "The name of the server"
       },
       "bot_prefix": {
         "title": "Prefix",
@@ -69,38 +80,53 @@
         "title": "Invite URL",
         "placeholder": "https://discordapp.com/oauth/ or other suitable link"
       },
+      "server_invite": {
+        "title": "Invite URL",
+        "placeholder": "Something like: https://discord.gg/8uC6aKZ"
+      },
       "bot_avatar": {
         "title": "Avatar URL",
-        "placeholder": "https://assets.discordapp.com/ or other suitable link"
+        "placeholder": "Any direct link to the bot image"
+      },
+      "server_avatar": {
+        "title": "Avatar URL",
+        "placeholder": "Any direct link to the server image"
       },
       "bot_support": {
         "title": "Support URL",
-        "placeholder": "https://discord.gg/8uC6aKZ",
+        "placeholder": "Something like: https://discord.gg/8uC6aKZ",
         "small": "Leave this field empty if you don't like helping people"
       },
       "bot_nsfw": {
         "title": "NSFW",
-        "isnt": "NSFW commands are not a major part of this bot",
-        "is": "The bot avatar is NSFW, and/or the bot is NSFW orientated"
+        "false": "NSFW commands are not a major part of this bot",
+        "true": "The bot avatar is NSFW, and/or the bot is NSFW orientated"
+      },
+      "server_nsfw": {
+        "title": "NSFW",
+        "false": "This is not a NSFW server",
+        "true": "This is a NSFW server"
       },
       "bot_description": {
         "title": "Description",
         "placeholder": "This bot allows you to do magic.",
         "small": "The front page only allows 60 characters to be displayed."
       },
+      "server_description": {
+        "title": "Description",
+        "placeholder": "This server is magical and gives you powers beyond comprehension"
+      },
       "github": {
         "title": "GitHub Repository",
-        "button": "I have a GitHub repository",
-        "help": "?",
-        "small": "Leave empty if you do not have a GitHub repository for your bot"
+        "button": "I have a GitHub repository"
       },
-      "bot_github_owner": {
+      "github_owner": {
         "title": "GitHub User / Organisation",
-        "placeholder": "ry00001"
+        "placeholder": "Something like: ry00001"
       },
-      "bot_github_repo": {
+      "github_repo": {
         "title": "GitHub Repository",
-        "placeholder": "Tuxedo"
+        "placeholder": "Something like: Tuxedo"
       },
       "page": {
         "title": "Bot Page",
@@ -113,6 +139,12 @@
           "description": "Please enter any comments you would like to make",
           "wait": "Please wait..."
         }
+      },
+      "editor_type": {
+        "title": "Type of service"
+      },
+      "editor_lang": {
+        "title": "Language"
       },
       "submit": "Submit"
     },

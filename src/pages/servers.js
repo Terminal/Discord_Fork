@@ -7,15 +7,15 @@ import SiteLayout from './../components/SiteLayout';
 import Loading from './../components/Loading';
 import { graphql } from 'gatsby';
 
-export default class Homepage extends React.Component {
+export default class ServerHomepage extends React.Component {
   constructor(props) {
     super(props);
 
-    this.shuffleTheBots = this.shuffleTheBots.bind(this);
+    this.shuffleTheServers = this.shuffleTheServers.bind(this);
 
     if (typeof window === 'undefined') {
       this.state = {
-        shuffle: this.shuffleTheBots()
+        shuffle: this.shuffleTheServers()
       };
     } else {
       this.state = {
@@ -24,7 +24,7 @@ export default class Homepage extends React.Component {
     }
   }
 
-  shuffleTheBots() {
+  shuffleTheServers() {
     const seen = {};
     const items = this.props.data.allMarkdownRemark.edges.map((edge) => {
       edge.score = Math.random();
@@ -47,13 +47,13 @@ export default class Homepage extends React.Component {
 
   componentDidMount() {
     this.setState({
-      shuffle: this.shuffleTheBots()
+      shuffle: this.shuffleTheServers()
     });
   }
 
   render() {
     return (
-      <SiteLayout locale={this.props.pageContext.locale} type="bots">
+      <SiteLayout locale={this.props.pageContext.locale} type="servers">
         <Cards>
           { this.state.shuffle.length === 0 ? <Loading /> : this.state.shuffle.map(edge => <Card key={edge.node.fields.filename} post={edge.node}/>)}
         </Cards>
@@ -62,7 +62,7 @@ export default class Homepage extends React.Component {
   }
 }
 
-Homepage.propTypes = {
+ServerHomepage.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       totalCount: PropTypes.number.isRequired,
@@ -79,8 +79,8 @@ Homepage.propTypes = {
 };
 
 export const pageQuery = graphql`
-  query HomepageQuery {
-    allMarkdownRemark(filter: {fields: {template: { eq: "bots" }}}) {
+  query ServersHomepageQuery {
+    allMarkdownRemark(filter: {fields: {template: { eq: "servers" }}}) {
       totalCount
       edges {
         node {

@@ -10,6 +10,9 @@ class Footer extends React.Component {
           <LocalLink className="btn white black-text bold" to="/">
             <FormattedMessage id="pages.bots.shortname" />
           </LocalLink>
+          <LocalLink className="btn white black-text bold" to="/servers">
+            <FormattedMessage id="pages.servers.shortname" />
+          </LocalLink>
           <LocalLink className="btn white black-text bold" to="/docs">
             <FormattedMessage id="pages.docs.shortname" />
           </LocalLink>

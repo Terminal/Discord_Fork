@@ -5,7 +5,22 @@ import { FormattedMessage } from 'react-intl';
 class EditorInput extends React.Component {
   render() {
     let input = null;
-    if (this.props.choices) {
+    if (this.props.choices && typeof this.props.choices === 'object' && Array.isArray(this.props.choices)) {
+      input = (
+        <select className="full-width" id={this.props.id} defaultValue="" required onChange={this.props.onChange} name={this.props.name}>
+          <FormattedMessage id="forms.select">
+            {(msg) => (<option value="" disabled hidden>{ this.props.placeholder || msg}</option>)}
+          </FormattedMessage>
+          {
+            this.props.choices.map((key) => (
+              <FormattedMessage id={`pages.edit.${this.props.id}.${key}`} key={key}>
+                {(msg) => (<option value={key}>{msg}</option>)}
+              </FormattedMessage>)
+            )
+          }
+        </select>
+      );
+    } else if (this.props.choices && typeof this.props.choices === 'object') {
       input = (
         <select className="full-width" id={this.props.id} defaultValue="" required onChange={this.props.onChange} name={this.props.name}>
           <FormattedMessage id="forms.select">
