@@ -163,8 +163,8 @@ class EditPage extends React.Component {
               this.pullLog('Creating pull request');
               terminalRepo.createPullRequest({
                 title: `Adding ${data.pagename}`,
-                head: `${userOwner}:master`,
-                base: 'gatsby',
+                head: `${userOwner}:v2`,
+                base: 'v2',
                 body: 'This pull request was made by the Gatsby Branch Editor.',
                 maintainer_can_modify: true,
               }, (error3, pullRequestData) => {
