@@ -2,13 +2,12 @@
 
 Add your bot [via the E-Zed editor](https://discordbots.co.uk/edit)
 
+## Deploy
+- [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/terminal/discord_fork)
+- [View builds](https://app.netlify.com/sites/discordbots/deploys)
+
 ## Requirements
 - Node.js 8.x
-
-OR
-
-- Netlify
-  - [Click here to deploy](https://app.netlify.com/start/deploy?repository=https://github.com/Terminal/Discord_Fork)
 
 ## Commands
 ```
