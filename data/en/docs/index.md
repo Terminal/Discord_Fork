@@ -19,7 +19,3 @@ Discord_Fork is the (nearly) entirely clientside bot list, relying on a server o
 - ["UNKNOWN_ERROR"](/docs/bot-unknown-error)
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Terminal/Discord_Fork)
-
-## Message of the year
-Discord Bot Lists made for the modern web should not take 5 seconds to load a page
-
