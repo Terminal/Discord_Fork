@@ -25,9 +25,6 @@ class Servers extends React.Component {
           { frontmatter.link ? <a className="btn white black-text bold" href={frontmatter.link}>
             <FormattedMessage id="pages.servers.invite" />
           </a> : null }
-          { frontmatter.support ? <a className="btn white black-text bold" href={frontmatter.support}>
-            <FormattedMessage id="pages.items.discord" />
-          </a> : null }
           { frontmatter.github && frontmatter.github.owner ? <a className="btn white black-text bold" href={`https://github.com/${frontmatter.github.owner}/${frontmatter.github.repo || ''}`}>
             <FormattedMessage id="pages.items.github" />
           </a> : null }
@@ -68,7 +65,6 @@ export const pageQuery = graphql`
         description
         nsfw
         link
-        support
         github {
           owner
           repo

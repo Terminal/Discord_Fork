@@ -69,6 +69,7 @@ export const pageQuery = graphql`
         nsfw
         link
         support
+        prefix
         github {
           owner
           repo
