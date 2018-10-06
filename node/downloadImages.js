@@ -94,6 +94,7 @@ module.exports = (node, base64callback) => {
   } else {
     // If there is no avatar, copy the default image for every size
     sizes.forEach(size => imageError(size));
+    base64callback(`data:image/png;base64,${invalidAvatarBase64}`);
   }
   
 };

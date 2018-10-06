@@ -42,11 +42,11 @@ Get a fancy SVG embed of the item.
 #### Note
 "filelink" can be found in `/api/all.json`, under "fields.filelink"
 
-`/api/bots/267941509272174592.svg`
+`/api/bots/267941509272174592.svg`  
 ![Example](/api/bots/267941509272174592.svg)
 
-`/fr/bots/305277118105911296.svg`
-![Example](/fr/bots/305277118105911296.svg)
+`/fr/bots/305277118105911296.svg`  
+![Example](/api/fr/bots/305277118105911296.svg)
 
 ### GET `/api/:filelink.png`
 Get a fancy PNG embed of the item.
@@ -54,8 +54,8 @@ Get a fancy PNG embed of the item.
 #### Note
 "filelink" can be found in `/api/all.json`, under "fields.filelink"
 
-`/api/bots/267941509272174592.png`
+`/api/bots/267941509272174592.png`  
 ![Example](/api/bots/267941509272174592.png)
 
-`/api/docs/index.png`
+`/api/docs/index.png`  
 ![Example](/api/docs/index.png)
