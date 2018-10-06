@@ -1,4 +1,13 @@
-img.avatar {
-  width: 7em;
-  height: 7em;
+.card {
+  img.avatar {
+    width: 7em;
+    height: 7em;
+  }
+}
+
+.card.profile {
+  img.avatar {
+    width: 10em;
+    height: 10em;
+  }
 }
