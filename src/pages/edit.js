@@ -179,16 +179,20 @@ class EditPage extends React.Component {
           });
         };
 
-        terminalRepo.listCommits({}, (error2, terminalCommits) => {
+        terminalRepo.listCommits({
+          sha: 'v2'
+        }, (error2, terminalCommits) => {
           if (error2) {
             this.pullLog(error2);
           } else {
-            userRepo.listCommits({}, (error3, userCommits) => {
+            userRepo.listCommits({
+              sha: 'v2'
+            }, (error3, userCommits) => {
               if (error3) {
                 this.pullLog(error3);
               } else if (terminalCommits[0].sha !== userCommits[0].sha) {
                 this.pullLog(`Latest Terminal commit ${terminalCommits[0].sha} differs from fork commit ${userCommits[0].sha} - Updating head.`);
-                userRepo.updateHead('heads/master', terminalCommits[0].sha, true, (error4) => {
+                userRepo.updateHead('heads/v2', terminalCommits[0].sha, true, (error4) => {
                   if (error4) {
                     this.pullLog(error4);
                   } else {
@@ -265,7 +269,7 @@ class EditPage extends React.Component {
             <code>
               {this.state.logs.map((line, number) => {
                 return (
-                  <span key={number}>{line}</span>
+                  <span key={number}>{line}<br /></span>
                 );
               })}
             </code>
