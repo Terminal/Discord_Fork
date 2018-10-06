@@ -6,21 +6,20 @@ type: docs
 permalink: /docs/readme/
 ---
 
-![Discord Fork Botlist, The botlist with built in GitHub integration](/assets/images/readme-header.png)
+[![Discord Fork Botlist, The botlist with built in GitHub integration](/assets/images/readme-header.png)](https://v1--discordbots.netlify.com/)
 
 # Deprecated
 Please use the `v2` branch. This branch is only accepting bug pull requests.
+
+## Deploy
+- [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/terminal/discord_fork)
+- [View builds](https://app.netlify.com/sites/discordbots/deploys)
 
 ## Requirements
 - Ruby 2.4 or above - https://rubyinstaller.org/downloads/
 - jekyll & bundle - https://jekyllrb.com/
 - sass & scss_lint - Ruby Packages (gem install)
 - Node.js 10.x
-
-OR
-
-- Netlify
-  - [Click here to deploy](https://app.netlify.com/start/deploy?repository=https://github.com/Terminal/Discord_Fork)
 
 ## Commands
 ```
