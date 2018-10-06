@@ -29,9 +29,13 @@ class Intro extends React.Component {
             </LocalLink>
           </div>
           <div className="center">
-            <LocalLink className="btn white emoji-button" to="/locale">
-              <span className="emoji twa-globe-showing-europe-africa"></span>
-            </LocalLink>
+            <FormattedMessage id="intro.language">
+              {(language) => (
+                <LocalLink className="btn white emoji-button" to="/locale" aria-label={language}>
+                  <span className="emoji twa-globe-showing-europe-africa"></span>
+                </LocalLink>
+              )}
+            </FormattedMessage>
             <LocalLink className="btn white black-text emoji-button" to="/edit">
               <FormattedMessage id={`pages.${this.props.type}.add`} />
             </LocalLink>

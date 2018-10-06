@@ -157,7 +157,8 @@
   "intro": {
     "login": "Login via GitHub",
     "logout": "Logout",
-    "search": "Search..."
+    "search": "Search...",
+    "language": "Languages"
   },
   "footer": {
     "view": "View this page in GitHub",
