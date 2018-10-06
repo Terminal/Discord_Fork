@@ -6,3 +6,9 @@ yarn-error.log
 # Build directory
 /public
 .DS_Store
+
+# v1 folders
+.sass-cache/
+_site/
+assets/
+Gemfile.lock
