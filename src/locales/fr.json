@@ -60,6 +60,10 @@
         "title": "Nom du bot",
         "placeholder": "Nom du bot Discord"
       },
+      "server_name": {
+        "title": "Nom du servur",
+        "placeholder": "Nom du servur Discord"
+      },
       "bot_prefix": {
         "title": "Préfixe",
         "placeholder": "Préfixe"
@@ -68,7 +72,15 @@
         "title": "URL d'invitation",
         "placeholder": "https://discordapp.com/oauth/ ou autre lien adapté"
       },
+      "server_invite": {
+        "title": "URL d'invitation",
+        "placeholder": "https://discord.gg/ ou autre lien adapté"
+      },
       "bot_avatar": {
+        "title": "URL de l'avatar",
+        "placeholder": "https://assets.discordapp.com/ ou autre lien adapté"
+      },
+      "server_avatar": {
         "title": "URL de l'avatar",
         "placeholder": "https://assets.discordapp.com/ ou autre lien adapté"
       },
@@ -93,11 +105,11 @@
         "help": "?",
         "small": "Laissez vide si vous n'avez pas de dépôt GitHub pour votre bot"
       },
-      "bot_github_owner": {
+      "github_owner": {
         "title": "Utilisateur / Organisation GitHub",
         "placeholder": "ry00001"
       },
-      "bot_github_repo": {
+      "github_repo": {
         "title": "Dépôt GitHub",
         "placeholder": "Tuxedo"
       },

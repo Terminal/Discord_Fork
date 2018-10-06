@@ -83,11 +83,11 @@
         "placeholder": "Dieser Bot erlaubt dir, magisches zu tun.",
         "small": "Die Frontseite erlaubt nur 60 Zeichen zum anzeigen."
       },
-      "bot_github_owner": {
+      "github_owner": {
         "title": "GitHub Nutzer / Organisation",
         "placeholder": "ry00001"
       },
-      "bot_github_repo": {
+      "github_repo": {
         "title": "GitHub Repository",
         "placeholder": "Tuxedo"
       },
