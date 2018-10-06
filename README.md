@@ -8,13 +8,8 @@ permalink: /docs/readme/
 
 ![Discord Fork Botlist, The botlist with built in GitHub integration](/assets/images/readme-header.png)
 
-Add your bot [via the E-Zed editor](https://discordbots.co.uk/edit) or [via GitHub](https://discordbots.co.uk/docs/adding-a-bot/)
-
-NOTE: Please do not complain over how *bad* the site is made, this is mostly made as a
-way to be more unique and prove that a list site can possibly be made with Jekyll.
-
-# Deprecation warning!
-This codebase will soon be replaced with the Gatsby version. See the [gatsby branch](https://github.com/Terminal/Discord_Fork/tree/gatsby) for previews and details.
+# Deprecated
+Please use the `v2` branch. This branch is only accepting bug pull requests.
 
 ## Requirements
 - Ruby 2.4 or above - https://rubyinstaller.org/downloads/
