@@ -1,14 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Carousel from './../components/Carousel';
-import CarouselItem from './../components/CarouselItem';
 import { ItemPropType } from './../proptypes';
 import Card from './../components/Card';
 import Cards from './../components/Cards';
 import SiteLayout from './../components/SiteLayout';
+import Loading from './../components/Loading';
 import { graphql } from 'gatsby';
 
-export default class Homepage extends React.Component {
+export default class BotsHomepage extends React.Component {
   constructor(props) {
     super(props);
 
@@ -30,7 +29,6 @@ export default class Homepage extends React.Component {
     const items = this.props.data.allMarkdownRemark.edges.map((edge) => {
       edge.score = Math.random();
       if (edge.node.frontmatter.github) edge.score += 1;
-      if (edge.node.frontmatter.cover) edge.score += Math.random();
       if (edge.node.fields.locale === this.props.pageContext.locale) edge.score += 10;
       return edge;
     })
@@ -54,22 +52,17 @@ export default class Homepage extends React.Component {
   }
 
   render() {
-    const items = this.state.shuffle.slice(0);
-
     return (
       <SiteLayout locale={this.props.pageContext.locale} type="bots">
-        <Carousel>
-          {items.splice(0, 5).map(edge => <CarouselItem key={edge.node.fields.filename} post={edge.node}/>)}
-        </Carousel>
         <Cards>
-          {items.map(edge => <Card key={edge.node.fields.filename} post={edge.node}/>)}
+          { this.state.shuffle.length === 0 ? <Loading /> : this.state.shuffle.map(edge => <Card key={edge.node.fields.filename} post={edge.node}/>)}
         </Cards>
       </SiteLayout>
     );
   }
 }
 
-Homepage.propTypes = {
+BotsHomepage.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       totalCount: PropTypes.number.isRequired,
@@ -86,7 +79,7 @@ Homepage.propTypes = {
 };
 
 export const pageQuery = graphql`
-  query HomepageQuery {
+  query BotsHomepageQuery {
     allMarkdownRemark(filter: {fields: {template: { eq: "bots" }}}) {
       totalCount
       edges {
@@ -100,7 +93,6 @@ export const pageQuery = graphql`
           }
           frontmatter {
             avatar
-            cover
             pagename
             description
             link

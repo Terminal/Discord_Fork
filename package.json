@@ -31,9 +31,11 @@
     "react-helmet": "^5.2.0",
     "react-intl": "^2.6.0",
     "react-monaco-editor": "^0.18.0",
+    "react-slick": "^0.23.1",
     "request": "^2.88.0",
     "rimraf": "^2.6.2",
     "sharp": "^0.20.8",
+    "slick-carousel": "^1.8.1",
     "word-wrap": "^1.2.3"
   },
   "keywords": [

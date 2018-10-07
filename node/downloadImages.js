@@ -96,5 +96,30 @@ module.exports = (node, base64callback) => {
     sizes.forEach(size => imageError(size));
     base64callback(`data:image/png;base64,${invalidAvatarBase64}`);
   }
+
+  if (node.frontmatter.cover) {
+    const sharpreader = sharp();
+
+    if (node.frontmatter.cover) {
+      sharpreader
+        .clone()
+        .resize(1280, 720, {
+          fit: 'inside'
+        })
+        .toFile(path.join(__dirname, '..', 'public', 'userassets', `${node.fields.permalink}-cover.png`))
+        .catch(() => {
+          // If there's an error - Too bad!
+        });
+    }
+
+    request({
+      url: node.frontmatter.cover,
+      encoding: null
+    })
+      .on('error', () => {
+        // Too bad!
+      })
+      .pipe(sharpreader);
+  }
   
 };
