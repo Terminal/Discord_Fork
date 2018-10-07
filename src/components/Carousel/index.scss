@@ -13,4 +13,9 @@
       }
     }
   }
+  .slick-arrow {
+    @media (max-width: 750px) {
+      display: none !important;
+    }
+  }
 }
