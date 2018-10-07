@@ -28,18 +28,18 @@ class CarouselItem extends React.Component {
     return (
       <section className="carousel-item" style={carouselStyle}>
         <div className="carousel-item-content" style={contentStyle}>
-          <div className="avatar">
-            <Avatar post={post}></Avatar>
-          </div>
-          <div className="card-content">
-            <Link to={post.fields.permalink}>
+          <Link to={post.fields.permalink}>
+            <div className="avatar">
+              <Avatar post={post}></Avatar>
+            </div>
+            <div className="card-content">
               <h4 className="title">
                 {post.frontmatter.pagename}
                 {post.frontmatter.nsfw ? <span className="nsfw-tag">NSFW</span> : null }
               </h4>
-            </Link>
-            <span className="description">{post.frontmatter.description}</span>
-          </div>
+              <span className="description">{post.frontmatter.description}</span>
+            </div>
+          </Link>
           <div className="footer">
             <a href={post.fields.filelink}><FormattedMessage id="pages.list.view" /></a>
             <a href={post.frontmatter.link}><FormattedMessage id="pages.list.invite" /></a>

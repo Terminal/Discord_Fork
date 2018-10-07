@@ -14,8 +14,12 @@
       "discord": "Support Server",
       "embed": "embed:"
     },
+    "homepage": {
+      "more": "View more...",
+      "cool": "Cool bots"
+    },
     "bots": {
-      "pagename": "Discord Fork Bot List",
+      "pagename": "Discord Fork List",
       "shortname": "Bots",
       "add": "Add your own bot",
       "invite": "Add this bot",

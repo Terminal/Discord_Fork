@@ -7,7 +7,7 @@ class Footer extends React.Component {
     return (
       <footer className="box-container primary-flat no-border-radius no-margin">
         <div className="center">
-          <LocalLink className="btn white black-text bold" to="/">
+          <LocalLink className="btn white black-text bold" to="/bots">
             <FormattedMessage id="pages.bots.shortname" />
           </LocalLink>
           <LocalLink className="btn white black-text bold" to="/servers">

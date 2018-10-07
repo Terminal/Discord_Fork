@@ -18,13 +18,17 @@
   box-sizing: border-box;
   top: 0;
   left: 0;
+  > a {
+    flex-grow: 1;
+    margin-bottom: 2em;
+  }
   .card-content {
     h4 {
       margin: 0;
     }
-    flex-grow: 1;
     .description {
       max-height: 10em;
+      color: #DDDDDD;
     }
   }
   .footer {
