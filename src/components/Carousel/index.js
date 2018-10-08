@@ -15,7 +15,9 @@ export default class ImageStrip extends React.Component {
       speed: 500,
       className: 'carousel',
       focusOnSelect: true,
-      centerMode: true
+      centerMode: true,
+      autoplay: true,
+      autoplaySpeed: 7000
     };
 
     return (
