@@ -100,7 +100,18 @@ module.exports = (node, base64callback) => {
   if (node.frontmatter.cover) {
     const sharpreader = sharp();
 
-    if (node.frontmatter.cover) {
+    if (node.frontmatter.nsfw) {
+      sharpreader
+        .clone()
+        .resize(1280, 720, {
+          fit: 'inside'
+        })
+        .blur(5)
+        .toFile(path.join(__dirname, '..', 'public', 'userassets', `${node.fields.permalink}-cover.png`))
+        .catch(() => {
+          // If there's an error - Too bad!
+        });
+    } else {
       sharpreader
         .clone()
         .resize(1280, 720, {
