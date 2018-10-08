@@ -12,7 +12,7 @@
       "prefix": "Prefix: ",
       "github": "Auf GitHub ansehen",
       "discord": "Support Server",
-      "embed": "embed:"
+      "embed": "Einbettung:"
     },
     "bots": {
       "pagename": "Discord Fork Botliste",
@@ -131,6 +131,6 @@
     "terminal": "Trete Terminal.ink auf Discord bei"
   },
   "forms": {
-    "select": "Please select..."
+    "select": "Bitte wähle..."
   }
 }
