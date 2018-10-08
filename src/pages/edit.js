@@ -27,6 +27,7 @@ class EditPage extends React.Component {
       description: null,
       prefix: null,
       avatar: null,
+      cover: null,
       link: null,
       support: null,
       nsfw: null,
@@ -118,6 +119,7 @@ class EditPage extends React.Component {
       description: this.state.description,
       prefix: this.state.prefix,
       avatar: this.state.avatar,
+      cover: this.state.cover,
       link: this.state.link,
       support: this.state.support,
       nsfw: this.state.nsfw === 'true' ? true : false,
@@ -297,6 +299,9 @@ class EditPage extends React.Component {
           <div className="row">
             <EditorInput id="bot_invite" name="link" onChange={this.handleChange}></EditorInput>
             <EditorInput id="bot_avatar" name="avatar" onChange={this.handleChange}></EditorInput>
+          </div>
+          <div className="row">
+            <EditorInput id="bot_cover" name="cover" onChange={this.handleChange}></EditorInput>
           </div>
           <div className="row">
             <EditorInput id="bot_support" name="support" onChange={this.handleChange}></EditorInput>

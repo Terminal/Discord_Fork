@@ -1,16 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Carousel from './../components/Carousel';
-import CarouselItem from './../components/CarouselItem';
-import { FormattedMessage } from 'react-intl';
-import LocalLink from './../components/LocalLink';
 import { ItemPropType } from './../proptypes';
 import Card from './../components/Card';
 import Cards from './../components/Cards';
 import SiteLayout from './../components/SiteLayout';
+import Loading from './../components/Loading';
 import { graphql } from 'gatsby';
 
-export default class Homepage extends React.Component {
+export default class BotsHomepage extends React.Component {
   constructor(props) {
     super(props);
 
@@ -29,17 +26,12 @@ export default class Homepage extends React.Component {
 
   shuffleTheBots() {
     const seen = {};
-    const items = this.props.data.allMarkdownRemark.edges
-      .filter((edge) => {
-        // Only GitHub bots are allowed on the front page
-        return !!edge.node.frontmatter.github;
-      })
-      .map((edge) => {
-        edge.score = Math.random();
-        if (edge.node.frontmatter.cover) edge.score += 0.2;
-        if (edge.node.fields.locale === this.props.pageContext.locale) edge.score += 10;
-        return edge;
-      })
+    const items = this.props.data.allMarkdownRemark.edges.map((edge) => {
+      edge.score = Math.random();
+      if (edge.node.frontmatter.github) edge.score += 1;
+      if (edge.node.fields.locale === this.props.pageContext.locale) edge.score += 10;
+      return edge;
+    })
       .sort((a, b) => b.score - a.score);
 
     const filtered = items.filter((item) => {
@@ -60,29 +52,17 @@ export default class Homepage extends React.Component {
   }
 
   render() {
-    const items = this.state.shuffle.slice(0);
-
     return (
       <SiteLayout locale={this.props.pageContext.locale} type="bots">
-        <Carousel>
-          {items.splice(0, 6).map(edge => <CarouselItem key={edge.node.fields.filename} post={edge.node}/>)}
-        </Carousel>
-        <h3><FormattedMessage id="pages.homepage.cool" /></h3>
         <Cards>
-          { /* Lowest common multiple of 2 and 3 */}
-          {items.splice(0, 6).map(edge => <Card key={edge.node.fields.filename} post={edge.node}/>)}
+          { this.state.shuffle.length === 0 ? <Loading /> : this.state.shuffle.map(edge => <Card key={edge.node.fields.filename} post={edge.node}/>)}
         </Cards>
-        <div className="row center-text">
-          <LocalLink to="/bots" className="btn white black-text">
-            <FormattedMessage id="pages.homepage.more" />
-          </LocalLink>
-        </div>
       </SiteLayout>
     );
   }
 }
 
-Homepage.propTypes = {
+BotsHomepage.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       totalCount: PropTypes.number.isRequired,
@@ -99,7 +79,7 @@ Homepage.propTypes = {
 };
 
 export const pageQuery = graphql`
-  query HomepageQuery {
+  query BotsHomepageQuery {
     allMarkdownRemark(filter: {fields: {template: { eq: "bots" }}}) {
       totalCount
       edges {
@@ -113,7 +93,6 @@ export const pageQuery = graphql`
           }
           frontmatter {
             avatar
-            cover
             pagename
             description
             link

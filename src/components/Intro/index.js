@@ -9,8 +9,8 @@ import './index.scss';
 class Intro extends React.Component {
   render() {
     return (
-      <section className="fullscreen half">
-        <div className="background" style={({backgroundImage: `url(${background})`, backgroundColor: '#2a2a2a', height: '50vh'})}>
+      <section className="fullscreen half intro">
+        <div className="background" style={({backgroundImage: `url(${background})`, backgroundColor: '#2a2a2a'})}>
         </div>
         <div className="center-object">
           <div className="center-items">

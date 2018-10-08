@@ -1,0 +1,22 @@
+.slick-slider {
+  .slick-dots {
+    li button {
+      box-shadow: unset;
+      &:before {
+        color: #FFFFFF;
+      }
+    }
+    li.slick-active button {
+      box-shadow: unset;
+      &:before {
+        color: #FFFFFF;
+      }
+    }
+  }
+  .slick-arrow {
+    @media (max-width: 750px) {
+      display: none !important;
+    }
+  }
+  margin-bottom: 2em;
+}

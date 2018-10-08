@@ -122,6 +122,7 @@ exports.createPages = ({ actions, graphql }) => {
             frontmatter {
               application_id
               avatar
+              cover
               pagename
               prefix
               description

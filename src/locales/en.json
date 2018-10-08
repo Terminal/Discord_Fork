@@ -3,6 +3,7 @@
     "list": {
       "invite": "Invite",
       "github": "GitHub",
+      "view": "View this page",
       "star": "Star",
       "unstar": "Unstar",
       "nsfw": "NSFW",
@@ -13,8 +14,12 @@
       "discord": "Support Server",
       "embed": "embed:"
     },
+    "homepage": {
+      "more": "View more...",
+      "cool": "Cool bots"
+    },
     "bots": {
-      "pagename": "Discord Fork Bot List",
+      "pagename": "Discord Fork List",
       "shortname": "Bots",
       "add": "Add your own bot",
       "invite": "Add this bot",
@@ -91,6 +96,10 @@
       "server_avatar": {
         "title": "Avatar URL",
         "placeholder": "Any direct link to the server image"
+      },
+      "bot_cover": {
+        "title": "Cover Image",
+        "placeholder": "http:// or https:// - The big cover image"
       },
       "bot_support": {
         "title": "Support URL",

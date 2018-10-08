@@ -30,6 +30,7 @@ module.exports = {
   siteMetadata: {
     title: 'Discord_Fork',
     colour: '#3498db',
+    siteUrl: 'https://discordbots.co.uk',
     types,
     foldersToClear,
     authenticate: 'https://github.com/login/oauth/authorize?client_id=6fff2201b71ad2d63131&scope=public_repo',
@@ -57,6 +58,7 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-plugin-catch-links',
     'gatsby-plugin-offline',
-    'gatsby-plugin-netlify'
+    'gatsby-plugin-netlify',
+    'gatsby-plugin-sitemap'
   ],
 };
