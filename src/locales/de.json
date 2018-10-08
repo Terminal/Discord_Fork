@@ -3,23 +3,29 @@
     "list": {
       "invite": "Einladen",
       "github": "GitHub",
+      "view": "Seite ansehen",
       "star": "Staren",
-      "unstar": "Unstaren",
+      "unstar": "Entstaren",
       "nsfw": "NSFW",
-      "visit": "Besuche Discord Server"
+      "visit": "Besuche den Discord Server"
     },
     "item": {
-      "prefix": "Prefix: ",
       "github": "Auf GitHub ansehen",
       "discord": "Support Server",
-      "embed": "embed:"
+      "embed": "Einbettung:"
+    },
+    "homepage": {
+      "more": "Zeige weitere...",
+      "cool": "Coole Bots"
     },
     "bots": {
-      "pagename": "Discord Fork Botliste",
+      "pagename": "Discord Fork Liste",
       "shortname": "Bots",
-      "add": "Diesen Bot hinzufügen",
+      "add": "Eigenen Bot hinzufügen",
       "invite": "Diesen Bot hinzufügen",
-      "description": "Die Botliste mit eingebauter GitHub-Integration"
+      "backgroundAlt": "Das Logo für Discord_Fork",
+      "description": "Die Botliste mit eingebauter GitHub-Integration",
+      "prefix": "Prefix: "
     },
     "servers": {
       "pagename": "Discord Fork Serverliste",
@@ -37,24 +43,35 @@
       "pleasehelp": "Bist du ein guter Übersetzer? Klick hier."
     },
     "edit": {
-      "title": "Einen Bot hinzufügen",
-      "info": "Dieser Editor ist in einer beta.",
-      "notice": "Wenn du fertig bist, klick auf den \"Pull-request erstellen\" Knopf",
-      "default": "# Titel\n\nDas ist ein cooler bot, den Ihr akzeptieren solltet.\nGründe enthalten:\n\n- Cool sein\n- Nicht uncool sein\n- Der Prefix kann zu ! geändert werden\n\n<!--\n  Stan LOONA\n  Stan Talent\n-->\n",
+      "title": "Eine Anwendung hinzufügen",
+      "info": "Felder die mit (OPTIONAL) markiert sind, sind optional. Schreib nichts in Textboxen, welche optional sind, wenn du nichts hast. Optional bedeutet optional und bedeutet nicht 'N/A' oder 'nichts' zu schreiben. Pull-Anfragen damit werden abgelehnt.",
+      "notice": "Wenn du fertig bist, klicke auf den \"Create a pull request\" Knopf um es auf GitHub zu veröffentlichen.",
+      "default": "# Titel\n\nDies ist ein cooler Bot, welchen Ihr annehmen solltet.\nGründe unter anderem:\n\n- Cool sein\n- Nicht un-cool sein\n- Der prefix kann zu ! geändert werden\n\n<!--\n  Stan LOONA\n  Stan Talent\n-->\n",
+      "steps": {
+        "1": "Schritt 1: Art der Anwendung",
+        "2bots": "Schritt 2: Information über den Bot",
+        "2servers": "Schritt 2: Information über den Server",
+        "3": "Schritt 3: Inhalte der Anwendung"
+      },
       "client_id": {
-        "title": "Bot User ID",
+        "title": "Bot Benutzer ID",
         "placeholder": "Soetwas wie: 255114091360681986"
       },
       "application_id": {
         "title": "Bot OAuth ID",
-        "placeholder": "Soetwas wie: 255114091360681986",
-        "button": "ID einfügen",
-        "help": "?",
-        "small": "Lass es leer, wenn du keinen brauchst"
+        "placeholder": "Soetwas wie: 255114091360681986"
+      },
+      "server_id": {
+        "title": "Server ID",
+        "placeholder": "Die ID des Servers. Soetwas wie: 330777295952543744"
       },
       "bot_name": {
         "title": "Botname",
         "placeholder": "Discord Botname"
+      },
+      "server_name": {
+        "title": "Servername",
+        "placeholder": "Der name des Servers"
       },
       "bot_prefix": {
         "title": "Prefix",
@@ -64,9 +81,21 @@
         "title": "Einladungs-URL",
         "placeholder": "https://discordapp.com/oauth/ oder ein anderer passender Link"
       },
+      "server_invite": {
+        "title": "Einladungs URL",
+        "placeholder": "Soetwas wie: https://discord.gg/8uC6aKZ"
+      },
       "bot_avatar": {
         "title": "Avatar URL",
-        "placeholder": "https://assets.discordapp.com/ oder ein anderer passender Link"
+        "placeholder": "Irgendein direkter link zum Avatar"
+      },
+      "server_avatar": {
+        "title": "Avatar URL",
+        "placeholder": "Irgendein direkter link zum Server Icon"
+      },
+      "bot_cover": {
+        "title": "Cover Bild",
+        "placeholder": "http:// oder https:// - Das grosse Cover Bild"
       },
       "bot_support": {
         "title": "Support URL",
@@ -78,10 +107,23 @@
         "isnt": "NSFW Befehle sind nicht ein hauptteil dieses Bots",
         "is": "Der bot-Avatar ist NSFW und/oder der Bot is NSFW-orientiert"
       },
+      "server_nsfw": {
+        "title": "NSFW",
+        "false": "Dies ist kein NSFW-Server",
+        "true": "Dies ist ein NSFW-Server"
+      },
       "bot_description": {
         "title": "Beschreibung",
         "placeholder": "Dieser Bot erlaubt dir, magisches zu tun.",
         "small": "Die Frontseite erlaubt nur 60 Zeichen zum anzeigen."
+      },
+      "server_description": {
+        "title": "Description",
+        "placeholder": "Dieser Server ist magisch und gibt dir kräfte die das Vorstellungsvermögen übersteigen"
+      },
+      "github": {
+        "title": "GitHub Repository",
+        "button": "Ich habe eine GitHub repository"
       },
       "github_owner": {
         "title": "GitHub Nutzer / Organisation",
@@ -93,22 +135,21 @@
       },
       "page": {
         "title": "Botseite",
-        "note": "Markdown and some HTML allowed"
+        "note": "Markdown und etwas HTML erlaubt"
       },
       "create_pr": {
-        "button": "Pull-request erstellen",
+        "button": "Pull-Anfrage erstellen",
         "modal": {
-          "title": "Pull-request erstellen",
+          "title": "Pull-Anfrage erstellen",
           "description": "Bitte füge Kommentare hinzu, welche du machen willst.",
           "wait": "Bitte warten..."
         }
       },
-      "export": {
-        "button": "Exportieren",
-        "modal": {
-          "title": "Exportieren",
-          "description": "Füge den Kontent manuell zu GitHub hinzu, um fortzufahren"
-        }
+      "editor_type": {
+        "title": "Art des Service"
+      },
+      "editor_lang": {
+        "title": "Sprache"
       },
       "submit": "Absenden"
     },
@@ -119,18 +160,19 @@
   },
   "copyright": "Copyright 2017 - 2018, Terminal.ink<br> Original konzept von AlexFlipnote<br> GitHub® ist eine eingetragene Marke von GitHub, Inc.<br> Discord ist eine eingetragene Marke von Discord Inc.\n",
   "intro": {
-    "login": "Einloggen via GitHub",
+    "login": "Via GitHub einloggen",
     "logout": "Ausloggen",
-    "search": "Suche..."
+    "search": "Suche...",
+    "language": "Sprachen"
   },
   "footer": {
     "view": "Diese Seite auf GitHub ansehen",
     "licence": "Lizenz",
     "attribution": "Zuordnung",
     "source": "Quellcode",
-    "terminal": "Trete Terminal.ink auf Discord bei"
+    "terminal": "Besuche Terminal.ink auf Discord"
   },
   "forms": {
-    "select": "Please select..."
+    "select": "Bitte wähle..."
   }
 }
