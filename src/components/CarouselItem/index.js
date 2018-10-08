@@ -16,7 +16,8 @@ class CarouselItem extends React.Component {
       : null;
 
     const carouselStyle = post.frontmatter.cover ? {
-      backgroundImage: `url('/userassets${this.props.post.fields.filelink}-cover.png')`
+      backgroundImage: `url('/userassets${this.props.post.fields.filelink}-cover.png')`,
+      backgroundSize: 'cover'
     } : {
       backgroundColor: '#282828'
     };
