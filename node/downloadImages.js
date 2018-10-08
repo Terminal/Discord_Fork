@@ -106,7 +106,7 @@ module.exports = (node, base64callback) => {
         .resize(1280, 720, {
           fit: 'inside'
         })
-        .blur(30)
+        .blur(10)
         .toFile(path.join(__dirname, '..', 'public', 'userassets', `${node.fields.permalink}-cover.png`))
         .catch(() => {
           // If there's an error - Too bad!
