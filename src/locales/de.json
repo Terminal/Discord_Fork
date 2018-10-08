@@ -17,7 +17,7 @@
     "bots": {
       "pagename": "Discord Fork Botliste",
       "shortname": "Bots",
-      "add": "Diesen Bot hinzufügen",
+      "add": "Eigenen Bot hinzufügen",
       "invite": "Diesen Bot hinzufügen",
       "description": "Die Botliste mit eingebauter GitHub-Integration"
     },
