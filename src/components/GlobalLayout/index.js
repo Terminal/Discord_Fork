@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { IntlProvider, addLocaleData } from 'react-intl';
-import Global from '../Global';
 
 import './../ModestaCSS/css/modesta.min.css';
 import './../ModestaCSS/css/twemoji.min.css';

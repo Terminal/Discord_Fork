@@ -169,16 +169,16 @@ class EditPage extends React.Component {
         const userRepoName = forkData.name;
         const userRepo = github.getRepo(userOwner, userRepoName);
 
-        const writeToFork = () => {
+        const writeToFork = (fromBranch = 'v2') => {
           this.pullLog('Writing file to GitHub');
-          userRepo.writeFile(forkData.default_branch, `data/${this.state.editor_lang}/${this.state.editor_type}/${this.state.filename}.md`, filedata, `Adding ${data.pagename} via Gatsby Branch Editor`, {}, (error2) => {
+          userRepo.writeFile(fromBranch, `data/${this.state.editor_lang}/${this.state.editor_type}/${this.state.filename}.md`, filedata, `Adding ${data.pagename} via Gatsby Branch Editor`, {}, (error2) => {
             if (error2) {
               this.pullLog(error2);
             } else {
               this.pullLog('Creating pull request');
               terminalRepo.createPullRequest({
                 title: `Adding ${data.pagename}`,
-                head: `${userOwner}:v2`,
+                head: `${userOwner}:${fromBranch}`,
                 base: 'v2',
                 body: 'This pull request was made by the Gatsby Branch Editor.',
                 maintainer_can_modify: true,
@@ -206,12 +206,17 @@ class EditPage extends React.Component {
               if (error3) {
                 this.pullLog(error3);
               } else if (terminalCommits[0].sha !== userCommits[0].sha) {
-                this.pullLog(`Latest Terminal commit ${terminalCommits[0].sha} differs from fork commit ${userCommits[0].sha} - Updating head.`);
-                userRepo.updateHead('heads/v2', terminalCommits[0].sha, true, (error4) => {
+                this.pullLog(`Terminal SHA ${terminalCommits[0].sha} !== Fork SHA ${userCommits[0].sha}`);
+                this.pullLog('Creating a new branch in your fork...');
+                const branchName = `${Date.now()}`;
+                userRepo.createRef({
+                  ref: `refs/heads/${branchName}`,
+                  sha: terminalCommits[0].sha
+                }, (error4) => {
                   if (error4) {
                     this.pullLog(error4);
                   } else {
-                    writeToFork();
+                    writeToFork(branchName);
                   }
                 });
               } else {
@@ -385,7 +390,7 @@ class EditPage extends React.Component {
         <form onSubmit={this.handleSubmit}>
           <h3><FormattedMessage id="pages.edit.steps.1" /></h3>
           <div className="row">
-            <EditorInput id="editor_type" name="editor_type" onChange={this.handleChange} choices={{bots:'Bots', servers:'Servers'}}></EditorInput>
+            <EditorInput id="editor_type" name="editor_type" onChange={this.handleChange} choices={{ bots:'Bots', servers:'Servers' }}></EditorInput>
             <EditorInput id="editor_lang" name="editor_lang" onChange={this.handleChange} choices={localeOptions}></EditorInput>
           </div>
           { fields }
