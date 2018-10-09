@@ -5,6 +5,7 @@ import GitHub from 'github-api';
 
 import DocsLayout from './../components/DocsLayout';
 import EditorInput from './../components/EditorInput';
+import Global from './../components/Global';
 import MonacoEditor from 'react-monaco-editor';
 import { dump } from 'js-yaml';
 import { FormattedMessage } from 'react-intl';
@@ -254,6 +255,7 @@ class EditPage extends React.Component {
     if (typeof localStorage === 'undefined') {
       return (
         <DocsLayout locale={this.props.pageContext.locale}>
+          <Global />
           <h1>What did you do?!?</h1>
           <p><code>localStorage</code> was not found</p>
         </DocsLayout>
@@ -264,6 +266,7 @@ class EditPage extends React.Component {
       // window.location.href = this.props.data.site.siteMetadata.authenticate;
       return (
         <DocsLayout locale={this.props.pageContext.locale}>
+          <Global />
           <h1>Login to GitHub</h1>
           <p>To use this online editor, please connect your GitHub account with Discord_Fork.</p>
           <a className="btn emerald" href={this.props.data.site.siteMetadata.authenticate}>Login</a>
@@ -278,6 +281,7 @@ class EditPage extends React.Component {
     if (this.state.logs.length > 0) {
       return (
         <DocsLayout locale={this.props.pageContext.locale}>
+          <Global />
           <h1><FormattedMessage id="pages.edit.create_pr.modal.wait" /></h1>
           <pre>
             <code>
@@ -373,6 +377,7 @@ class EditPage extends React.Component {
 
     return (
       <DocsLayout locale={this.props.pageContext.locale}>
+        <Global />
         <h2>
           <FormattedMessage id="pages.edit.title" />
         </h2>

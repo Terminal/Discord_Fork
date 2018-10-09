@@ -32,8 +32,11 @@ class Global extends React.Component {
               ? <meta property="og:image" content={this.props.image}></meta>
               : <meta property="og:image" content="/assets/images/logo/logo128.png"></meta>
             }
+            { this.props.image
+              ? <link rel="icon" type="image/x-icon" href={this.props.image}></link>
+              : <link rel="icon" type="image/x-icon" href="/assets/images/logo/logo64.png"></link>
+            }
             <link rel="manifest" href="/manifest.json"></link>
-            <link rel="icon" type="image/x-icon" href="/assets/images/logo/logo64.png"></link>
             <meta name="revisit-after" content="2 days"></meta>
             <meta name="keywords" content="discord, bots, botlist"></meta>
             <meta name="theme-color" content={data.site.siteMetadata.colour}></meta>

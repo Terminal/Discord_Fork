@@ -23,7 +23,6 @@ class GlobalLayout extends React.Component {
     return (
       <IntlProvider locale={this.props.locale} messages={messages[this.props.locale]}>
         <div className="main-window">
-          <Global />
           {this.props.children}
         </div>
       </IntlProvider>

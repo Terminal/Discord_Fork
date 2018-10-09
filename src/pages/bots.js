@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { ItemPropType } from './../proptypes';
 import Card from './../components/Card';
 import Cards from './../components/Cards';
+import Global from './../components/Global';
 import SiteLayout from './../components/SiteLayout';
 import Loading from './../components/Loading';
 import { graphql } from 'gatsby';
@@ -54,6 +55,7 @@ export default class BotsHomepage extends React.Component {
   render() {
     return (
       <SiteLayout locale={this.props.pageContext.locale} type="bots">
+        <Global />
         <Cards>
           { this.state.shuffle.length === 0 ? <Loading /> : this.state.shuffle.map(edge => <Card key={edge.node.fields.filename} post={edge.node}/>)}
         </Cards>

@@ -4,6 +4,7 @@ import { ItemPropType } from './../proptypes';
 import Card from './../components/Card';
 import Cards from './../components/Cards';
 import SiteLayout from './../components/SiteLayout';
+import Global from './../components/Global';
 import Loading from './../components/Loading';
 import { graphql } from 'gatsby';
 
@@ -54,6 +55,7 @@ export default class ServerHomepage extends React.Component {
   render() {
     return (
       <SiteLayout locale={this.props.pageContext.locale} type="servers">
+        <Global />
         <Cards>
           { this.state.shuffle.length === 0 ? <Loading /> : this.state.shuffle.map(edge => <Card key={edge.node.fields.filename} post={edge.node}/>)}
         </Cards>

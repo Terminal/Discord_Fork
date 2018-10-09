@@ -7,6 +7,7 @@ import LocalLink from './../components/LocalLink';
 import { ItemPropType } from './../proptypes';
 import Card from './../components/Card';
 import Cards from './../components/Cards';
+import Global from './../components/Global';
 import SiteLayout from './../components/SiteLayout';
 import { graphql } from 'gatsby';
 
@@ -64,6 +65,7 @@ export default class Homepage extends React.Component {
 
     return (
       <SiteLayout locale={this.props.pageContext.locale} type="bots">
+        <Global />
         <Carousel>
           {items.splice(0, 6).map(edge => <CarouselItem key={edge.node.fields.filename} post={edge.node}/>)}
         </Carousel>
