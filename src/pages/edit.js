@@ -11,6 +11,8 @@ import { FormattedMessage } from 'react-intl';
 
 import locales from './../locales';
 
+import './edit.scss';
+
 const localeOptions = {};
 Object.keys(locales).forEach(locale => localeOptions[locale] = locales[locale].native);
 
@@ -58,16 +60,26 @@ class EditPage extends React.Component {
         monaco: (
           <FormattedMessage id="pages.edit.default">
             {(def) => (
-              <MonacoEditor
-                language="markdown"
-                theme="vs-dark"
-                height="400"
-                options={{
-                  automaticLayout: true
-                }}
-                onChange={this.onLongDescriptionChange}
-                defaultValue={def}
-                editorDidMount={this.editorDidMount} />
+              <div className="ls-text-editor">
+                <div className="ls-monaco">
+                  <FormattedMessage id="pages.edit.page.title" />
+                  <MonacoEditor
+                    language="markdown"
+                    theme="vs-dark"
+                    height="400"
+                    options={{
+                      automaticLayout: true
+                    }}
+                    onChange={this.onLongDescriptionChange}
+                    defaultValue={def}
+                    editorDidMount={this.editorDidMount} />
+                </div>
+                <div className="ls-not-monaco row">
+                  <EditorInput id="page" name="html" onChange={this.handleChange} className="full-width" type="field">
+                    {def}
+                  </EditorInput>
+                </div>
+              </div>
             )}
           </FormattedMessage>
         )

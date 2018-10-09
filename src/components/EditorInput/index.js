@@ -31,6 +31,12 @@ class EditorInput extends React.Component {
           }
         </select>
       );
+    } else if (this.props.type === 'field') {
+      input = (
+        <textarea className="full-width" id={this.props.id} onChange={this.props.onChange} name={this.props.name}>
+          {this.props.children}
+        </textarea>
+      );
     } else {
       input = (
         <FormattedMessage id={`pages.edit.${this.props.id}.placeholder`}>
@@ -60,7 +66,9 @@ EditorInput.propTypes = {
   className: PropTypes.string,
   id: PropTypes.string,
   onChange: PropTypes.func,
-  name: PropTypes.string
+  name: PropTypes.string,
+  type: PropTypes.string,
+  children: PropTypes.node,
 };
 
 export default EditorInput;
