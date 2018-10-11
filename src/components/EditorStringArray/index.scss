@@ -1,0 +1,17 @@
+.editor-string-array {
+  button {
+    margin-left: 0;
+    border-radius: 4px;
+  }
+  .editor-string-array-row {
+    display: flex;
+    input, button {
+      margin-top: 0;
+      margin-bottom: 0.75rem;
+    }
+    input {
+      flex-grow: 1;
+    }
+  }
+  
+}

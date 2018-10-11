@@ -33,9 +33,7 @@ class EditorInput extends React.Component {
       );
     } else if (this.props.type === 'field') {
       input = (
-        <textarea className="full-width" id={this.props.id} onChange={this.props.onChange} name={this.props.name}>
-          {this.props.children}
-        </textarea>
+        <textarea className="full-width" id={this.props.id} onChange={this.props.onChange} name={this.props.name} defaultValue={this.props.children}/>
       );
     } else {
       input = (
@@ -61,7 +59,10 @@ class EditorInput extends React.Component {
 }
 
 EditorInput.propTypes = {
-  choices: PropTypes.objectOf(PropTypes.string),
+  choices: PropTypes.oneOfType([
+    PropTypes.arrayOf(PropTypes.string),
+    PropTypes.objectOf(PropTypes.string)
+  ]),
   placeholder: PropTypes.string,
   className: PropTypes.string,
   id: PropTypes.string,
