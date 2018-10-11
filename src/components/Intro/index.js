@@ -10,7 +10,7 @@ class Intro extends React.Component {
   render() {
     return (
       <section className="fullscreen half intro">
-        <div className="background" style={({backgroundImage: `url(${background})`, backgroundColor: '#2a2a2a'})}>
+        <div className="background" style={({backgroundImage: `url(${this.props.image || background})`})}>
         </div>
         <div className="center-object">
           <div className="center-items">
@@ -47,7 +47,8 @@ class Intro extends React.Component {
 }
 
 Intro.propTypes = {
-  type: PropTypes.string
+  type: PropTypes.string,
+  image: PropTypes.string
 };
 
 export default Intro;

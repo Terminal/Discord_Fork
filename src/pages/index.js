@@ -66,7 +66,18 @@ export default class Homepage extends React.Component {
     return (
       <SiteLayout locale={this.props.pageContext.locale} type="bots">
         <Global />
-        <Carousel>
+        <Carousel settings={{
+          dots: true,
+          infinite: true,
+          speed: 500,
+          className: 'carousel',
+          focusOnSelect: true,
+          centerMode: true,
+          autoplay: true,
+          swipeToSlide: true,
+          slidesToShow: 1,
+          autoplaySpeed: 7000
+        }}>
           {items.splice(0, 6).map(edge => <CarouselCard key={edge.node.fields.filename} post={edge.node}/>)}
         </Carousel>
         <h3><FormattedMessage id="pages.homepage.cool" /></h3>

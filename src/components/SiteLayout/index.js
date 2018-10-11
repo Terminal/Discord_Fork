@@ -9,7 +9,7 @@ class SiteLayout extends React.Component {
   render() {
     return (
       <GlobalLayout locale={this.props.locale}>
-        <Intro type={this.props.type} />
+        <Intro type={this.props.type} image={this.props.image} />
         <div className="main-content-container container">
           {this.props.children}
         </div>
@@ -22,7 +22,8 @@ class SiteLayout extends React.Component {
 SiteLayout.propTypes = {
   children: PropTypes.any,
   locale: PropTypes.string,
-  type: PropTypes.string
+  type: PropTypes.string,
+  image: PropTypes.string
 };
 
 export default SiteLayout;
