@@ -68,7 +68,7 @@ class EditorStringArray extends React.Component {
         </button>
         {this.state.value.map((value, index) =>
           <div className="row editor-string-array-row" key={index}>
-            <button type="button" onClick={this.delRow(index)}>Delete</button>
+            <button type="button" onClick={this.delRow(index)}><FormattedMessage id="forms.delete" /></button>
             <FormattedMessage id={`pages.edit.${this.props.id}.placeholder`}>
               {((placeholder) => (
                 <input placeholder={placeholder} onChange={this.onChange(index)} value={value}></input>

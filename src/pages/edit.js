@@ -293,8 +293,8 @@ class EditPage extends React.Component {
       return (
         <DocsLayout locale={this.props.pageContext.locale}>
           <Global />
-          <h1>What did you do?!?</h1>
-          <p><code>localStorage</code> was not found</p>
+          <h1><FormattedMessage id="pages.edit.localstorage.title" /></h1>
+          <p><FormattedMessage id="pages.edit.localstorage.description" /></p>
         </DocsLayout>
       );
     }
@@ -335,7 +335,7 @@ class EditPage extends React.Component {
 
 
     let fields = (
-      <p>Please select a type of service</p>
+      <p><FormattedMessage id="pages.edit.steps.service" /></p>
     );
     if (this.state.editor_type === 'bots') {
       fields = (
@@ -410,11 +410,6 @@ class EditPage extends React.Component {
           <p><small><FormattedMessage id="pages.edit.notice" /></small></p>
           <button type="submit" className="btn white black-text">
             <FormattedMessage id="pages.edit.create_pr.button" />
-          </button>
-          <button type="button" className="btn white black-text" onClick={() => {
-            console.log(this.export().filedata);
-          }}>
-            View exports!
           </button>
         </div>
       );
