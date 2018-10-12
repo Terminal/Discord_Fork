@@ -30,8 +30,7 @@ class Bots extends React.Component {
             className: 'carousel',
             focusOnSelect: true,
             centerMode: true,
-            variableWidth: true,
-            swipeToSlide: true
+            variableWidth: true
           }}>
             {frontmatter.images.map((image, key) => (
               <CarouselImage src={`/userassets/${fields.template}/${fields.filename}-image-${key}.png`} key={key}/>
