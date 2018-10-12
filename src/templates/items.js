@@ -19,7 +19,7 @@ class Bots extends React.Component {
     const { frontmatter, fields, html } = markdownRemark;
     let album = null;
     
-    if (frontmatter.images) {
+    if (frontmatter.images && Array.isArray(frontmatter.images) && frontmatter.images.length > 0) {
       album = (
         <div>
           <hr />
