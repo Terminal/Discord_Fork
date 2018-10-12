@@ -71,9 +71,9 @@ exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions;
 
   const templates = {
-    bots: path.resolve('./src/templates/bots.js'),
-    docs: path.resolve('./src/templates/docs.js'),
-    servers: path.resolve('./src/templates/bots.js')
+    bots: path.resolve('./src/templates/items.js'),
+    servers: path.resolve('./src/templates/items.js'),
+    docs: path.resolve('./src/templates/docs.js')
   };
 
   // Render all pages in React

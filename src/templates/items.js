@@ -42,14 +42,14 @@ class Bots extends React.Component {
     }
 
     return (
-      <SiteLayout locale={this.props.pageContext.locale} type="bots" image={frontmatter.cover ? `/userassets/${fields.template}/${fields.filename}-cover.png` : null}>
+      <SiteLayout locale={this.props.pageContext.locale} type={fields.template} image={frontmatter.cover ? `/userassets/${fields.template}/${fields.filename}-cover.png` : null}>
         <Global title={frontmatter.pagename} description={frontmatter.description} image={`/userassets/${fields.template}/${fields.filename}-256.png`} />
         <Cards>
           <ProfileCard post={{ frontmatter, fields }}></ProfileCard>
         </Cards>
         <div className="center">
           { frontmatter.link ? <a className="btn white black-text bold" href={frontmatter.link}>
-            <FormattedMessage id="pages.bots.invite" />
+            <FormattedMessage id={`pages.${fields.template}.invite`} />
           </a> : null }
           { frontmatter.support ? <a className="btn white black-text bold" href={frontmatter.support}>
             <FormattedMessage id="pages.items.discord" />
