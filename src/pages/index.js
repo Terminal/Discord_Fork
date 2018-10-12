@@ -74,7 +74,6 @@ export default class Homepage extends React.Component {
           focusOnSelect: true,
           centerMode: true,
           autoplay: true,
-          swipeToSlide: true,
           slidesToShow: 1,
           autoplaySpeed: 7000
         }}>
