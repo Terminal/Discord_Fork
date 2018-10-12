@@ -6,7 +6,7 @@ import { ItemPropType } from './../../proptypes';
 
 import './index.scss';
 
-class CarouselItem extends React.Component {
+class CarouselCard extends React.Component {
   render() {
     const post = this.props.post;
     const githubButton = post.frontmatter.github
@@ -53,8 +53,8 @@ class CarouselItem extends React.Component {
   }
 }
 
-CarouselItem.propTypes = {
+CarouselCard.propTypes = {
   post: ItemPropType
 };
 
-export default CarouselItem;
+export default CarouselCard;

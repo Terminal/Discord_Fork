@@ -5,6 +5,7 @@ import GitHub from 'github-api';
 
 import DocsLayout from './../components/DocsLayout';
 import EditorInput from './../components/EditorInput';
+import EditorStringArray from './../components/EditorStringArray';
 import Global from './../components/Global';
 import MonacoEditor from 'react-monaco-editor';
 import { dump } from 'js-yaml';
@@ -37,21 +38,34 @@ class EditPage extends React.Component {
       github: null,
       token: null,
       logs: [],
+      images: [],
     };
   
     this.handleSubmit = this.handleSubmit.bind(this);
     this.handleChange = this.handleChange.bind(this);
     this.onLongDescriptionChange = this.onLongDescriptionChange.bind(this);
     this.pullLog = this.pullLog.bind(this);
+    this.handleImages = this.handleImages.bind(this);
+    this.export = this.export.bind(this);
+    this.editorDidMount = this.editorDidMount.bind(this);
   }
 
   editorDidMount(editor) {
+    const openVideo = link => () => window.open(`https://www.youtube.com/watch?v=${link}`, '_blank', 'noopener,noreferrer,nofollow');
     editor.addAction({
-      id: 'stanLoona',
-      label: 'Secret',
-      run: () => {
-        window.open('https://www.youtube.com/watch?v=846cjX0ZTrk', '_blank', 'noopener,noreferrer,nofollow');
-      }
+      id: 'hi',
+      label: 'Hi High',
+      run: openVideo('846cjX0ZTrk')
+    });
+    editor.addAction({
+      id: 'fav',
+      label: 'favOriTe',
+      run: openVideo('AFJPFfnzZ7w')
+    });
+    editor.addAction({
+      id: 'createPR',
+      label: 'Publish and Create Pull Request',
+      run: this.handleSubmit
     });
   }
 
@@ -125,14 +139,14 @@ class EditPage extends React.Component {
     }
   }
   
-  handleSubmit(e) {
-    e.preventDefault();
+  export() {
     const data = {
       pagename: this.state.pagename,
       description: this.state.description,
       prefix: this.state.prefix,
       avatar: this.state.avatar,
       cover: this.state.cover,
+      images: this.state.images,
       link: this.state.link,
       support: this.state.support,
       nsfw: this.state.nsfw === 'true' ? true : false,
@@ -154,6 +168,18 @@ class EditPage extends React.Component {
       },
       sortKeys: true
     })}---\n${this.state.html || ''}`;
+
+    return {
+      data, filedata
+    };
+  }
+  
+  handleSubmit(e) {
+    if (e) e.preventDefault();
+    
+    const {
+      data, filedata
+    } = this.export();
 
     const github = new GitHub({
       token: this.state.token
@@ -256,13 +282,19 @@ class EditPage extends React.Component {
     });
   }
 
+  handleImages(images) {
+    this.setState({
+      images,
+    });
+  }
+
   render() {
     if (typeof localStorage === 'undefined') {
       return (
         <DocsLayout locale={this.props.pageContext.locale}>
           <Global />
-          <h1>What did you do?!?</h1>
-          <p><code>localStorage</code> was not found</p>
+          <h1><FormattedMessage id="pages.edit.localstorage.title" /></h1>
+          <p><FormattedMessage id="pages.edit.localstorage.description" /></p>
         </DocsLayout>
       );
     }
@@ -303,7 +335,7 @@ class EditPage extends React.Component {
 
 
     let fields = (
-      <p>Please select a type of service</p>
+      <p><FormattedMessage id="pages.edit.steps.service" /></p>
     );
     if (this.state.editor_type === 'bots') {
       fields = (
@@ -334,6 +366,9 @@ class EditPage extends React.Component {
           <div className="row">
             <EditorInput id="github_owner" name="github.owner" onChange={this.handleChange}></EditorInput>
             <EditorInput id="github_repo" name="github.repo" onChange={this.handleChange}></EditorInput>
+          </div>
+          <div className="row">
+            <EditorStringArray id="bot_images" onChange={this.handleImages} />
           </div>
         </div>
       );

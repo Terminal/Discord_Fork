@@ -53,6 +53,7 @@
       "default": "# Title\n\nThis is a cool bot that you should accept.\nReasons include:\n\n- Being awesome\n- Not being un-awesome\n- The prefix can be changed to !\n\n<!--\n  Stan LOONA\n  Stan Talent\n-->\n",
       "steps": {
         "1": "Step 1: Type of application",
+        "service": "Please select a type of service",
         "2bots": "Step 2: Information about the bot",
         "2servers": "Step 2: Information about the server",
         "3": "Step 3: Contents of application"
@@ -106,6 +107,11 @@
         "placeholder": "Something like: https://discord.gg/8uC6aKZ",
         "small": "Leave this field empty if you don't like helping people"
       },
+      "bot_images": {
+        "title": "Images",
+        "add": "Add a new image URL",
+        "placeholder": "http:// or https:// - A link to an image demonstrating your bot"
+      },
       "bot_nsfw": {
         "title": "NSFW",
         "false": "NSFW commands are not a major part of this bot",
@@ -154,6 +160,10 @@
       },
       "editor_lang": {
         "title": "Language"
+      },
+      "localstorage": {
+        "title": "localStorage was not found",
+        "description": "localStorage is required for this service to function."
       },
       "submit": "Submit"
     },

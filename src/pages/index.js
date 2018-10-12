@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Carousel from './../components/Carousel';
-import CarouselItem from './../components/CarouselItem';
+import CarouselCard from './../components/CarouselCard';
 import { FormattedMessage } from 'react-intl';
 import LocalLink from './../components/LocalLink';
 import { ItemPropType } from './../proptypes';
@@ -66,8 +66,18 @@ export default class Homepage extends React.Component {
     return (
       <SiteLayout locale={this.props.pageContext.locale} type="bots">
         <Global />
-        <Carousel>
-          {items.splice(0, 6).map(edge => <CarouselItem key={edge.node.fields.filename} post={edge.node}/>)}
+        <Carousel settings={{
+          dots: true,
+          infinite: true,
+          speed: 500,
+          className: 'carousel',
+          focusOnSelect: true,
+          centerMode: true,
+          autoplay: true,
+          slidesToShow: 1,
+          autoplaySpeed: 7000
+        }}>
+          {items.splice(0, 6).map(edge => <CarouselCard key={edge.node.fields.filename} post={edge.node}/>)}
         </Carousel>
         <h3><FormattedMessage id="pages.homepage.cool" /></h3>
         <Cards>

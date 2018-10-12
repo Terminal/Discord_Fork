@@ -132,5 +132,26 @@ module.exports = (node, base64callback) => {
       })
       .pipe(sharpreader);
   }
+
+  if (node.frontmatter.images) {
+    node.frontmatter.images.forEach((image, index) => {
+      const sharpreader = sharp();
+
+      sharpreader
+        .clone()
+        .withoutEnlargement()
+        .resize(1024,768, {
+          fit: 'outside'
+        })
+        .toFile(path.join(__dirname, '..', 'public', 'userassets', `${node.fields.permalink}-image-${index}.png`))
+        .catch(() => {});
+
+      request({
+        url: image,
+        encoding: null
+      })
+        .pipe(sharpreader);
+    });
+  }
   
 };

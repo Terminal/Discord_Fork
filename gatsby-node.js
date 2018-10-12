@@ -71,9 +71,9 @@ exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions;
 
   const templates = {
-    bots: path.resolve('./src/templates/bots.js'),
-    docs: path.resolve('./src/templates/docs.js'),
-    servers: path.resolve('./src/templates/servers.js')
+    bots: path.resolve('./src/templates/items.js'),
+    servers: path.resolve('./src/templates/items.js'),
+    docs: path.resolve('./src/templates/docs.js')
   };
 
   // Render all pages in React
@@ -123,6 +123,7 @@ exports.createPages = ({ actions, graphql }) => {
               application_id
               avatar
               cover
+              images
               pagename
               prefix
               description
