@@ -68,7 +68,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 };
 
 exports.createPages = ({ actions, graphql }) => {
-  const { createPage } = actions;
+  const { createPage, createRedirect } = actions;
 
   const templates = {
     bots: path.resolve('./src/templates/items.js'),
@@ -120,6 +120,7 @@ exports.createPages = ({ actions, graphql }) => {
               filename
             }
             frontmatter {
+              custom_path
               application_id
               avatar
               cover
@@ -142,6 +143,7 @@ exports.createPages = ({ actions, graphql }) => {
     }
   `).then(result => {
     const all = [];
+    const usedPaths = [];
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       makeSureTheFoldersExistBeforeWritingYourFiles(node);
       downloadImages(node, (base64image) => {
@@ -154,6 +156,13 @@ exports.createPages = ({ actions, graphql }) => {
       });
       all.push(node);
       fs.writeFileSync(path.join(__dirname, 'public', 'api', `${node.fields.filelink}.json`), JSON.stringify(node, null, 2));
+      if (node.frontmatter.custom_path && !usedPaths.includes(node.frontmatter.custom_path) && /^[\w\d]+$/.test(node.frontmatter.custom_path)) {
+        usedPaths.push(node.frontmatter.custom_path);
+        createRedirect({
+          fromPath: '/r/' + node.frontmatter.custom_path,
+          toPath: node.fields.permalink
+        });
+      }
     });
     fs.writeFileSync(path.join(__dirname, 'public', 'api', 'all.json'), JSON.stringify(all, null, 2));
   });
