@@ -58,7 +58,16 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-plugin-catch-links',
     'gatsby-plugin-offline',
-    'gatsby-plugin-netlify',
+    {
+      resolve: 'gatsby-plugin-netlify',
+      options: {
+        headers: {
+          '/*': [
+            'Access-Control-Allow-Origin: *'
+          ],
+        }
+      }
+    },
     'gatsby-plugin-sitemap'
   ],
 };
