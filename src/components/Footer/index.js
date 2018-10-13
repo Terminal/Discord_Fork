@@ -19,12 +19,12 @@ class Footer extends React.Component {
           <hr />
           <p>
             {/* Use a full width Vertical pipe: `｜` */}
-            <a href="https://github.com/Terminal/Discord_Fork/blob/master/LICENCE">
+            <a href="https://github.com/Terminal/Discord_Fork/blob/v2/LICENCE">
               <FormattedMessage id="footer.licence" />
             </a>｜
-            <LocalLink to="/docs/attribution">
+            <a href="https://github.com/Terminal/Discord_Fork/network/dependencies">
               <FormattedMessage id="footer.attribution" />
-            </LocalLink>｜
+            </a>｜
             <a href="https://github.com/Terminal/Discord_Fork">
               <FormattedMessage id="footer.source" />
             </a>｜
