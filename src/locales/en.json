@@ -50,7 +50,7 @@
       "title": "Add a application",
       "info": "Fields marked with (OPTIONAL) are optional. Do not type anything in boxes which are optional if you do not have them. Optional means optional, and does not mean type 'N/A' or 'none'. Pull requests with this will be rejected.",
       "notice": "When you are finished, click the \"Create a pull request\" button to publish to GitHub.",
-      "default": "# Title\n\nThis is a cool bot that you should accept.\nReasons include:\n\n- Being awesome\n- Not being un-awesome\n- The prefix can be changed to !\n\n<!--\n  Stan LOONA\n  Stan Talent\n-->\n",
+      "default": "<!--\nThis is the description box.\nThe contents of this box will appear on your bot page\n\nThis box supports:\n- Markdown\n- HTML\n\nPlease refrain from using CSS.\nCSS may be deprecated in the future and removed.\n-->\n",
       "steps": {
         "1": "Step 1: Type of application",
         "service": "Please select a type of service",
@@ -100,7 +100,7 @@
       },
       "bot_cover": {
         "title": "Cover Image",
-        "placeholder": "http:// or https:// - The big cover image"
+        "placeholder": "http:// or https:// - Image on homepage and in header of your page"
       },
       "bot_support": {
         "title": "Support URL",
@@ -165,6 +165,10 @@
         "title": "localStorage was not found",
         "description": "localStorage is required for this service to function."
       },
+      "custom_path": {
+        "title": "Customised path @ https://discordbots.co.uk/r/[name]",
+        "placeholder": "Letters and numbers only"
+      },
       "submit": "Submit"
     },
     "notfound": {
@@ -187,6 +191,7 @@
     "terminal": "Join Terminal.ink on Discord"
   },
   "forms": {
-    "select": "Please select..."
+    "select": "Please select...",
+    "delete": "Delete"
   }
 }

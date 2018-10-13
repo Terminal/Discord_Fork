@@ -26,6 +26,7 @@ class EditPage extends React.Component {
       monaco: null,
       editor_type: null,
       editor_lang: null,
+      custom_path: null,
       filename: null,
       pagename: null,
       description: null,
@@ -149,6 +150,7 @@ class EditPage extends React.Component {
       images: this.state.images,
       link: this.state.link,
       support: this.state.support,
+      custom_path: this.custom_path,
       nsfw: this.state.nsfw === 'true' ? true : false,
     };
 
@@ -354,9 +356,6 @@ class EditPage extends React.Component {
             <EditorInput id="bot_avatar" name="avatar" onChange={this.handleChange}></EditorInput>
           </div>
           <div className="row">
-            <EditorInput id="bot_cover" name="cover" onChange={this.handleChange}></EditorInput>
-          </div>
-          <div className="row">
             <EditorInput id="bot_support" name="support" onChange={this.handleChange}></EditorInput>
             <EditorInput id="bot_nsfw" name="nsfw" onChange={this.handleChange} choices={['true', 'false']}></EditorInput>
           </div>
@@ -369,6 +368,10 @@ class EditPage extends React.Component {
           </div>
           <div className="row">
             <EditorStringArray id="bot_images" onChange={this.handleImages} />
+          </div>
+          <div className="row">
+            <EditorInput id="bot_cover" name="cover" onChange={this.handleChange}></EditorInput>
+            <EditorInput id="custom_path" name="custom_path" onChange={this.handleChange}></EditorInput>
           </div>
         </div>
       );
@@ -393,6 +396,7 @@ class EditPage extends React.Component {
           </div>
           <div className="row">
             <EditorInput id="server_nsfw" name="nsfw" onChange={this.handleChange} choices={['true', 'false']}></EditorInput>
+            <EditorInput id="custom_path" name="custom_path" onChange={this.handleChange}></EditorInput>
           </div>
         </div>
       );
