@@ -34,6 +34,13 @@
       "invite": "Join this server",
       "description": "The server list with built-in GitHub integration"
     },
+    "reviews": {
+      "pagename": "Terminal.ink Bot Reviews",
+      "shortname": "Reviews",
+      "add": "Add your own bot or server",
+      "invite": "",
+      "description": "A curated list of the best bots"
+    },
     "docs": {
       "pagename": "Discord Fork Developer Portal",
       "shortname": "Documentation"

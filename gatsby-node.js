@@ -29,40 +29,40 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   if (node.internal.type === 'MarkdownRemark') {
     const parent = getNode(node.parent);
 
+    const parts = parent.relativeDirectory.replace(/\\/g, '/').split('/');
+
+    const localizedPath = locales[parts[0]].default
+      ? ''
+      : '/' + locales[parts[0]].path;
+
     createNodeField({
       node,
       name: 'filename',
-      value: parent.name
+      value: parts[2] || parent.name
     });
-
-    const parts = parent.dir.split('/');
-
-    const localizedPath = locales[parts[parts.length - 2]].default
-      ? ''
-      : '/' + locales[parts[parts.length - 2]].path;
 
     createNodeField({
       node,
       name: 'locale',
-      value: parts[parts.length - 2]
+      value: parts[0]
     });
 
     createNodeField({
       node,
       name: 'template',
-      value: parts[parts.length - 1]
+      value: parts[1]
     });
 
     createNodeField({
       node,
       name: 'permalink',
-      value: `${localizedPath}/${parts[parts.length - 1]}/${parent.name === 'index' ? '' : parent.name}`
+      value: `${localizedPath}/${parts[1]}/${parts[2] || (parent.name === 'index' ? '' : parent.name)}`
     });
 
     createNodeField({
       node,
       name: 'filelink',
-      value: `${localizedPath}/${parts[parts.length - 1]}/${parent.name}`
+      value: `${localizedPath}/${parts[1]}/${parts[2] || parent.name}`
     });
   }
 };
@@ -73,6 +73,7 @@ exports.createPages = ({ actions, graphql }) => {
   const templates = {
     bots: path.resolve('./src/templates/items.js'),
     servers: path.resolve('./src/templates/items.js'),
+    reviews: path.resolve('./src/templates/reviews.js'),
     docs: path.resolve('./src/templates/docs.js')
   };
 
@@ -128,6 +129,7 @@ exports.createPages = ({ actions, graphql }) => {
               pagename
               prefix
               description
+              date
               link
               support
               nsfw
