@@ -150,7 +150,7 @@ class EditPage extends React.Component {
       images: this.state.images,
       link: this.state.link,
       support: this.state.support,
-      custom_path: this.custom_path,
+      custom_path: this.state.custom_path,
       nsfw: this.state.nsfw === 'true' ? true : false,
     };
 
