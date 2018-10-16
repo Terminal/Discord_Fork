@@ -76,37 +76,6 @@ exports.createPages = ({ actions, graphql }) => {
     reviews: path.resolve('./src/templates/reviews.js'),
     docs: path.resolve('./src/templates/docs.js')
   };
-
-  // Render all pages in React
-  graphql(`
-    {
-      allMarkdownRemark {
-        edges {
-          node {
-            fields {
-              filename
-              template
-              locale
-              permalink
-              filelink
-            }
-          }
-        }
-      }
-    }
-  `).then(result => {
-    if (result.errors) {
-      return Promise.reject(result.errors);
-    }
-
-    result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-      createPage({
-        path: node.fields.permalink,
-        component: templates[node.fields.template],
-        context: node.fields
-      });
-    });
-  });
   
   graphql(`
     {
@@ -144,29 +113,52 @@ exports.createPages = ({ actions, graphql }) => {
       }
     }
   `).then(result => {
-    const all = [];
+    // Have a variable to store all the "custom paths" used
     const usedPaths = [];
+    
+    // For each page...
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+      // Create the page
+      createPage({
+        path: node.fields.permalink,
+        component: templates[node.fields.template],
+        context: node.fields
+      });
+
+      // Create a folder to store userassets and API files
       makeSureTheFoldersExistBeforeWritingYourFiles(node);
+
+      // Download the images from the page into the userassets folder
       downloadImages(node, (base64image) => {
+        // With the returned base64 image, render the embed
         const svg = mustache.render(embedTemplate, Object.assign(node, {
           wrapped: wrap(node.frontmatter.description || '', { width: 30 }).split('\n').map(line => line.trim()),
           base64image
         }));
+        // Make the SVG into a PNG Thank You
         makeTheSvgIntoAPngPleaseThankYou(node, svg);
+
+        // Save the SVG itself
         fs.writeFileSync(path.join(__dirname, 'public', 'api', `${node.fields.filelink}.svg`), svg);
       });
-      all.push(node);
+
+      // Save the info into a JSON file
       fs.writeFileSync(path.join(__dirname, 'public', 'api', `${node.fields.filelink}.json`), JSON.stringify(node, null, 2));
+
+      // If there's a custom path and it hasn't been used yet
       if (node.frontmatter.custom_path && !usedPaths.includes(node.frontmatter.custom_path) && /^[\w\d]+$/.test(node.frontmatter.custom_path)) {
+        // Add it to the list of things that have been used
         usedPaths.push(node.frontmatter.custom_path);
+        // And create a redirect
         createRedirect({
           fromPath: '/r/' + node.frontmatter.custom_path,
           toPath: node.fields.permalink
         });
       }
     });
-    fs.writeFileSync(path.join(__dirname, 'public', 'api', 'all.json'), JSON.stringify(all, null, 2));
+
+    // Save all edges to the `all.json` file
+    fs.writeFileSync(path.join(__dirname, 'public', 'api', 'all.json'), JSON.stringify(result.data.allMarkdownRemark.edges, null, 2));
   });
 
   return;
