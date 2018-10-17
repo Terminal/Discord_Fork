@@ -11,6 +11,8 @@ const makeTheSvgIntoAPngPleaseThankYou = require('./node/makeTheSvgIntoAPngPleas
 const locales = require('./src/locales/index');
 const config = require('./gatsby-config');
 
+let downloaded = false;
+
 const embedTemplate = fs.readFileSync(path.join(__dirname, 'src', 'templates', 'embed.svg'), 'utf8');
 
 // Destroy existing folders before starting
@@ -125,40 +127,45 @@ exports.createPages = ({ actions, graphql }) => {
         context: node.fields
       });
 
-      // Create a folder to store userassets and API files
-      makeSureTheFoldersExistBeforeWritingYourFiles(node);
+      // Do not re-download images during development.
+      if (!downloaded) {
+        // Create a folder to store userassets and API files
+        makeSureTheFoldersExistBeforeWritingYourFiles(node);
 
-      // Download the images from the page into the userassets folder
-      downloadImages(node, (base64image) => {
-        // With the returned base64 image, render the embed
-        const svg = mustache.render(embedTemplate, Object.assign(node, {
-          wrapped: wrap(node.frontmatter.description || '', { width: 30 }).split('\n').map(line => line.trim()),
-          base64image
-        }));
-        // Make the SVG into a PNG Thank You
-        makeTheSvgIntoAPngPleaseThankYou(node, svg);
+        // Download the images from the page into the userassets folder
+        downloadImages(node, (base64image) => {
+          // With the returned base64 image, render the embed
+          const svg = mustache.render(embedTemplate, Object.assign(node, {
+            wrapped: wrap(node.frontmatter.description || '', { width: 30 }).split('\n').map(line => line.trim()),
+            base64image
+          }));
+          // Make the SVG into a PNG Thank You
+          makeTheSvgIntoAPngPleaseThankYou(node, svg);
 
-        // Save the SVG itself
-        fs.writeFileSync(path.join(__dirname, 'public', 'api', `${node.fields.filelink}.svg`), svg);
-      });
-
-      // Save the info into a JSON file
-      fs.writeFileSync(path.join(__dirname, 'public', 'api', `${node.fields.filelink}.json`), JSON.stringify(node, null, 2));
-
-      // If there's a custom path and it hasn't been used yet
-      if (node.frontmatter.custom_path && !usedPaths.includes(node.frontmatter.custom_path) && /^[\w\d]+$/.test(node.frontmatter.custom_path)) {
-        // Add it to the list of things that have been used
-        usedPaths.push(node.frontmatter.custom_path);
-        // And create a redirect
-        createRedirect({
-          fromPath: '/r/' + node.frontmatter.custom_path,
-          toPath: node.fields.permalink
+          // Save the SVG itself
+          fs.writeFileSync(path.join(__dirname, 'public', 'api', `${node.fields.filelink}.svg`), svg);
         });
+
+        // Save the info into a JSON file
+        fs.writeFileSync(path.join(__dirname, 'public', 'api', `${node.fields.filelink}.json`), JSON.stringify(node, null, 2));
+
+        // If there's a custom path and it hasn't been used yet
+        if (node.frontmatter.custom_path && !usedPaths.includes(node.frontmatter.custom_path) && /^[\w\d]+$/.test(node.frontmatter.custom_path)) {
+          // Add it to the list of things that have been used
+          usedPaths.push(node.frontmatter.custom_path);
+          // And create a redirect
+          createRedirect({
+            fromPath: '/r/' + node.frontmatter.custom_path,
+            toPath: node.fields.permalink
+          });
+        }
       }
     });
 
     // Save all edges to the `all.json` file
     fs.writeFileSync(path.join(__dirname, 'public', 'api', 'all.json'), JSON.stringify(result.data.allMarkdownRemark.edges, null, 2));
+
+    downloaded = true;
   });
 
   return;
