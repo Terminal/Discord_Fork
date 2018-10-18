@@ -20,6 +20,9 @@ gatsby build
 
 ## First Setup
 ```
+git clone [repo]
+git submodule init
+git submodule update
 npm i -g gatsby
 npm i
 gatsby develop

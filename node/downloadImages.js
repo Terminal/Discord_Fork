@@ -8,11 +8,7 @@ const invalidAvatarBuffer = Buffer.from(invalidAvatar);
 const invalidAvatarBase64 = invalidAvatarBuffer.toString('base64');
 
 const sizes = [
-  1024,
-  512,
-  256,
   128,
-  64
 ];
 
 module.exports = (node, base64callback) => {
