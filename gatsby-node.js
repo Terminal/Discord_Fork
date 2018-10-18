@@ -11,6 +11,8 @@ const makeTheSvgIntoAPngPleaseThankYou = require('./node/makeTheSvgIntoAPngPleas
 const locales = require('./src/locales/index');
 const config = require('./gatsby-config');
 
+let downloaded = false;
+
 const embedTemplate = fs.readFileSync(path.join(__dirname, 'src', 'templates', 'embed.svg'), 'utf8');
 
 // Destroy existing folders before starting
@@ -29,40 +31,40 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   if (node.internal.type === 'MarkdownRemark') {
     const parent = getNode(node.parent);
 
+    const parts = parent.relativeDirectory.replace(/\\/g, '/').split('/');
+
+    const localizedPath = locales[parts[0]].default
+      ? ''
+      : '/' + locales[parts[0]].path;
+
     createNodeField({
       node,
       name: 'filename',
-      value: parent.name
+      value: parts[2] || parent.name
     });
-
-    const parts = parent.dir.split('/');
-
-    const localizedPath = locales[parts[parts.length - 2]].default
-      ? ''
-      : '/' + locales[parts[parts.length - 2]].path;
 
     createNodeField({
       node,
       name: 'locale',
-      value: parts[parts.length - 2]
+      value: parts[0]
     });
 
     createNodeField({
       node,
       name: 'template',
-      value: parts[parts.length - 1]
+      value: parts[1]
     });
 
     createNodeField({
       node,
       name: 'permalink',
-      value: `${localizedPath}/${parts[parts.length - 1]}/${parent.name === 'index' ? '' : parent.name}`
+      value: `${localizedPath}/${parts[1]}/${parts[2] || (parent.name === 'index' ? '' : parent.name)}`
     });
 
     createNodeField({
       node,
       name: 'filelink',
-      value: `${localizedPath}/${parts[parts.length - 1]}/${parent.name}`
+      value: `${localizedPath}/${parts[1]}/${parts[2] || parent.name}`
     });
   }
 };
@@ -73,39 +75,9 @@ exports.createPages = ({ actions, graphql }) => {
   const templates = {
     bots: path.resolve('./src/templates/items.js'),
     servers: path.resolve('./src/templates/items.js'),
+    reviews: path.resolve('./src/templates/reviews.js'),
     docs: path.resolve('./src/templates/docs.js')
   };
-
-  // Render all pages in React
-  graphql(`
-    {
-      allMarkdownRemark {
-        edges {
-          node {
-            fields {
-              filename
-              template
-              locale
-              permalink
-              filelink
-            }
-          }
-        }
-      }
-    }
-  `).then(result => {
-    if (result.errors) {
-      return Promise.reject(result.errors);
-    }
-
-    result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-      createPage({
-        path: node.fields.permalink,
-        component: templates[node.fields.template],
-        context: node.fields
-      });
-    });
-  });
   
   graphql(`
     {
@@ -128,6 +100,7 @@ exports.createPages = ({ actions, graphql }) => {
               pagename
               prefix
               description
+              date
               link
               support
               nsfw
@@ -142,29 +115,57 @@ exports.createPages = ({ actions, graphql }) => {
       }
     }
   `).then(result => {
-    const all = [];
+    // Have a variable to store all the "custom paths" used
     const usedPaths = [];
+    
+    // For each page...
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-      makeSureTheFoldersExistBeforeWritingYourFiles(node);
-      downloadImages(node, (base64image) => {
-        const svg = mustache.render(embedTemplate, Object.assign(node, {
-          wrapped: wrap(node.frontmatter.description || '', { width: 30 }).split('\n').map(line => line.trim()),
-          base64image
-        }));
-        makeTheSvgIntoAPngPleaseThankYou(node, svg);
-        fs.writeFileSync(path.join(__dirname, 'public', 'api', `${node.fields.filelink}.svg`), svg);
+      // Create the page
+      createPage({
+        path: node.fields.permalink,
+        component: templates[node.fields.template],
+        context: node.fields
       });
-      all.push(node);
-      fs.writeFileSync(path.join(__dirname, 'public', 'api', `${node.fields.filelink}.json`), JSON.stringify(node, null, 2));
-      if (node.frontmatter.custom_path && !usedPaths.includes(node.frontmatter.custom_path) && /^[\w\d]+$/.test(node.frontmatter.custom_path)) {
-        usedPaths.push(node.frontmatter.custom_path);
-        createRedirect({
-          fromPath: '/r/' + node.frontmatter.custom_path,
-          toPath: node.fields.permalink
+
+      // Do not re-download images during development.
+      if (!downloaded) {
+        // Create a folder to store userassets and API files
+        makeSureTheFoldersExistBeforeWritingYourFiles(node);
+
+        // Download the images from the page into the userassets folder
+        downloadImages(node, (base64image) => {
+          // With the returned base64 image, render the embed
+          const svg = mustache.render(embedTemplate, Object.assign(node, {
+            wrapped: wrap(node.frontmatter.description || '', { width: 30 }).split('\n').map(line => line.trim()),
+            base64image
+          }));
+          // Make the SVG into a PNG Thank You
+          makeTheSvgIntoAPngPleaseThankYou(node, svg);
+
+          // Save the SVG itself
+          fs.writeFileSync(path.join(__dirname, 'public', 'api', `${node.fields.filelink}.svg`), svg);
         });
+
+        // Save the info into a JSON file
+        fs.writeFileSync(path.join(__dirname, 'public', 'api', `${node.fields.filelink}.json`), JSON.stringify(node, null, 2));
+
+        // If there's a custom path and it hasn't been used yet
+        if (node.frontmatter.custom_path && !usedPaths.includes(node.frontmatter.custom_path) && /^[\w\d]+$/.test(node.frontmatter.custom_path)) {
+          // Add it to the list of things that have been used
+          usedPaths.push(node.frontmatter.custom_path);
+          // And create a redirect
+          createRedirect({
+            fromPath: '/r/' + node.frontmatter.custom_path,
+            toPath: node.fields.permalink
+          });
+        }
       }
     });
-    fs.writeFileSync(path.join(__dirname, 'public', 'api', 'all.json'), JSON.stringify(all, null, 2));
+
+    // Save all edges to the `all.json` file
+    fs.writeFileSync(path.join(__dirname, 'public', 'api', 'all.json'), JSON.stringify(result.data.allMarkdownRemark.edges, null, 2));
+
+    downloaded = true;
   });
 
   return;

@@ -1,12 +1,8 @@
-const path = require('path');
-const locales = require('./src/locales/index');
-
-const filesystems = [];
-
 const types = [
   'bots',
   'docs',
-  'servers'
+  'servers',
+  'reviews',
 ];
 
 const foldersToClear = [
@@ -14,17 +10,6 @@ const foldersToClear = [
   'userassets'
 ];
 
-Object.keys(locales).forEach((lang) => {
-  types.forEach((type) => {
-    filesystems.push({
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        path: path.join(__dirname, 'data', lang, type),
-        name: `${type}.${lang}`,
-      },
-    });
-  });
-});
 
 module.exports = {
   siteMetadata: {
@@ -39,7 +24,13 @@ module.exports = {
   plugins: [
     'gatsby-plugin-sass',
     'gatsby-plugin-react-helmet',
-    ...filesystems,
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/data`,
+        name: 'pages',
+      },
+    },
     {
       resolve: 'gatsby-transformer-remark',
       options: {
