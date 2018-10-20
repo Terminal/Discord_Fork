@@ -7,6 +7,7 @@ import SiteLayout from './../components/SiteLayout';
 import ProfileCard from './../components/ProfileCard';
 import Carousel from './../components/Carousel';
 import CarouselImage from './../components/CarouselImage';
+import ItemSchema from './../components/ItemSchema';
 import Cards from './../components/Cards';
 import { FormattedMessage } from 'react-intl';
 import { graphql } from 'gatsby';
@@ -43,6 +44,7 @@ class Bots extends React.Component {
     return (
       <SiteLayout locale={this.props.pageContext.locale} type={fields.template} image={frontmatter.cover ? `/userassets/${fields.template}/${fields.filename}-cover.png` : null}>
         <Global title={frontmatter.pagename} description={frontmatter.description} image={`/userassets/${fields.template}/${fields.filename}-256.png`} />
+        <ItemSchema item={markdownRemark}/>
         <Cards>
           <ProfileCard post={{ frontmatter, fields }}></ProfileCard>
         </Cards>
