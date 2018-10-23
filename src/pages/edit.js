@@ -109,14 +109,14 @@ class EditPage extends React.Component {
     // If there's a code in the URL...
     if (typeof localStorage !== 'undefined' && code && code[1]) {
       // Fetch the token for the code
-      fetch(`${this.props.data.site.siteMetadata.gatekeeper}/${code[1]}`)
+      fetch(`/.netlify/functions/callback?code=${code[1]}`)
         .then(data => data.json())
         .then((data) => {
           // If a token is returned, save it and set the state
-          if (data.token) {
+          if (data.ok) {
             localStorage.setItem('token', data.token);
             this.setState({
-              token: data.token,
+              token: data.data,
             });
           }
           

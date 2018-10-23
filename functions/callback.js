@@ -44,15 +44,31 @@ exports.handler = (event, context, callback) => {
   const code = event.queryStringParameters.code;
   auth(code)
     .then((result) => {
-      callback(null, {
-        statusCode: 200,
-        body: result
-      });
+      if (!result) {
+        callback(null, {
+          statusCode: 400,
+          body: JSON.stringify({
+            ok: false,
+            data: null,
+          })
+        });
+      } else {
+        callback(null, {
+          statusCode: 200,
+          body: JSON.stringify({
+            ok: true,
+            data: result,
+          })
+        });
+      }
     })
     .catch((error) => {
       callback(null, {
         statusCode: 500,
-        body: error.stack
+        body: JSON.stringify({
+          ok: false,
+          data: error.stack,
+        })
       });
     });
 };
