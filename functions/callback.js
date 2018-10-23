@@ -34,7 +34,9 @@ const auth = (code) => new Promise((resolve, reject) => {
   
     request.write(payload);
     request.end();
-    request.on('error', reject);
+    request.on('error', (error) => {
+      reject(error);
+    });
   }
 });
 
@@ -50,7 +52,7 @@ exports.handler = (event, context, callback) => {
     .catch((error) => {
       callback(null, {
         statusCode: 500,
-        body: JSON.stringify(error, null, 2)
+        body: error.stack
       });
     });
 };
