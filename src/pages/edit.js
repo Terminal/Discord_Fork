@@ -15,6 +15,8 @@ import locales from './../locales';
 
 import './edit.scss';
 
+const defaultBranch = 'master';
+
 const localeOptions = {};
 Object.keys(locales).forEach(locale => localeOptions[locale] = locales[locale].native);
 
@@ -197,7 +199,7 @@ class EditPage extends React.Component {
         const userRepoName = forkData.name;
         const userRepo = github.getRepo(userOwner, userRepoName);
 
-        const writeToFork = (fromBranch = 'v2') => {
+        const writeToFork = (fromBranch = defaultBranch) => {
           this.pullLog('Writing file to GitHub');
           userRepo.writeFile(fromBranch, `data/${this.state.editor_lang}/${this.state.editor_type}/${this.state.filename}.md`, filedata, `Adding ${data.pagename} via Gatsby Branch Editor`, {}, (error2) => {
             if (error2) {
@@ -207,7 +209,7 @@ class EditPage extends React.Component {
               terminalRepo.createPullRequest({
                 title: `Adding ${data.pagename}`,
                 head: `${userOwner}:${fromBranch}`,
-                base: 'v2',
+                base: defaultBranch,
                 body: 'This pull request was made by the Gatsby Branch Editor.',
                 maintainer_can_modify: true,
               }, (error3, pullRequestData) => {
@@ -223,13 +225,13 @@ class EditPage extends React.Component {
         };
 
         terminalRepo.listCommits({
-          sha: 'v2'
+          sha: defaultBranch
         }, (error2, terminalCommits) => {
           if (error2) {
             this.pullLog(error2);
           } else {
             userRepo.listCommits({
-              sha: 'v2'
+              sha: defaultBranch
             }, (error3, userCommits) => {
               if (error3) {
                 this.pullLog(error3);
