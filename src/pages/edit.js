@@ -114,7 +114,7 @@ class EditPage extends React.Component {
         .then((data) => {
           // If a token is returned, save it and set the state
           if (data.ok) {
-            localStorage.setItem('token', data.token);
+            localStorage.setItem('token', data.data);
             this.setState({
               token: data.data,
             });
