@@ -1,9 +1,12 @@
 [![Discord Fork Botlist, The botlist with built in GitHub integration](/.github/header.png)](https://discordbots.co.uk/)
 
+_A Discord Bot List with no dedicated servers, running entirely on Netlify and AWS Lambda_
+
 Add your bot [via the E-Zed editor](https://discordbots.co.uk/edit)
 
 ## Deploy
 - [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/terminal/discord_fork)
+  - By creating a fork, you accept the terms of the LICENCE.
 - [View builds](https://app.netlify.com/sites/discordbots/deploys)
 
 ## Requirements
@@ -29,11 +32,22 @@ gatsby develop
 ```
 
 ### Authentication Server
-[Follow me](https://github.com/prose/gatekeeper#setup-your-gatekeeper)  
-Edit `gatsby-config.js` to point to the auth server.
+Authentication is now handled by an AWS Lambda function.
+
+To set up authentication:
+
+1. Open Netlify
+2. Inside `Settings`, click `Build & Deploy`
+3. Scroll down to `Build environment variables`, and enter relevant values for `CLIENT_ID` and `CLIENT_SECRET` from GitHub OAuth.
+
+![Image showing the "Build Environment Variables" box](/.github/env.png)
+
+Set `https://discordbots.co.uk/edit` as your callback URL in GitHub.
 
 ## Thanks
-[Attribution to dependencies](https://discordbots.co.uk/docs/attribution)
+[View all dependencies which made Discord_Fork possible](https://github.com/Terminal/Discord_Fork/network/dependencies)
 
 ## Technical Support
-[discordapp](https://discord.gg/8uC6aKZ)
+Please understand the terms of the licence before asking for support.
+
+[Technical Support Chat](https://discord.gg/8uC6aKZ)
