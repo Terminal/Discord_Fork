@@ -61,7 +61,7 @@ export default class BotsHomepage extends React.Component {
             item.node.frontmatter.description
           ];
   
-          if (text.join(' ').toLowerCase().indexOf(target.value) === -1) return false;
+          if (text.join(' ').toLowerCase().indexOf(target.value.toLowerCase()) === -1) return false;
           return true;
         })
       });
