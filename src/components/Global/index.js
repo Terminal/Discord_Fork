@@ -20,14 +20,21 @@ class Global extends React.Component {
         render={data => (
           <Helmet htmlAttributes={{ lang : 'en' }}>
             { this.props.title ? <title>{this.props.title} - {data.site.siteMetadata.title}</title> : <title>{data.site.siteMetadata.title}</title>}
+            { this.props.title ? <meta content={this.props.title} property="og:title"></meta> : <meta content={data.site.siteMetadata.title} property="og:title"></meta>}
+            <meta property="og:site_name" content={data.site.siteMetadata.title}>
+
+            <meta property="og:url" content={window.location.toString()}></meta>
+            <link rel="canonical" href={window.location.toString()}></link>
+      
             { this.props.description
-              ? <meta property="og:description" content={`${this.props.description} - ${data.site.siteMetadata.title}`}></meta>
-              : <meta property="og:description" content={`Discord Bots is an open source website where you can obtain bots for your server, with GitHub integration - ${data.site.siteMetadata.title}`}></meta>
+              ? <meta property="og:description" content={`${this.props.description}`}></meta>
+              : <meta property="og:description" content={`Discord Bots is an open source website where you can obtain bots for your server, with GitHub integration`}></meta>
             }
             { this.props.description
               ? <meta name="description" content={`${this.props.description} - ${data.site.siteMetadata.title}`}></meta>
               : <meta name="description" content={`Discord Bots is an open source website where you can obtain bots for your server, with GitHub integration - ${data.site.siteMetadata.title}`}></meta>
             }
+
             { this.props.image
               ? <meta property="og:image" content={this.props.image}></meta>
               : <meta property="og:image" content="/assets/images/logo/logo128.png"></meta>
@@ -36,6 +43,7 @@ class Global extends React.Component {
               ? <link rel="icon" type="image/x-icon" href={this.props.image}></link>
               : <link rel="icon" type="image/x-icon" href="/assets/images/logo/logo64.png"></link>
             }
+
             <link rel="manifest" href="/manifest.json"></link>
             <meta name="revisit-after" content="2 days"></meta>
             <meta name="keywords" content="discord, bots, botlist"></meta>
