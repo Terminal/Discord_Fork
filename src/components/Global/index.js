@@ -22,8 +22,6 @@ class Global extends React.Component {
             { this.props.title ? <title>{this.props.title} - {data.site.siteMetadata.title}</title> : <title>{data.site.siteMetadata.title}</title>}
             { this.props.title ? <meta content={this.props.title} property="og:title"/> : <meta content={data.site.siteMetadata.title} property="og:title"/>}
             <meta property="og:site_name" content={data.site.siteMetadata.title}/>
-            <meta property="og:url" content={window.location.toString()}/>
-            <link rel="canonical" href={window.location.toString()}/>
 
             { this.props.description
               ? <meta property="og:description" content={this.props.description}/>
