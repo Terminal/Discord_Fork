@@ -39,7 +39,13 @@ class Navigation extends React.Component {
       
         <div ref={elem => this.navside = elem} className="sidenav" style={({transform: 'translateX(-250px)'})}>
           <LocalLink to="/">
+            <FormattedMessage id="pages.bots.pagename" />
+          </LocalLink>
+          <LocalLink to="/bots/">
             <FormattedMessage id="pages.bots.shortname" />
+          </LocalLink>
+          <LocalLink to="/servers/">
+            <FormattedMessage id="pages.servers.shortname" />
           </LocalLink>
           <LocalLink to="/docs/">
             <FormattedMessage id="pages.docs.shortname" />
