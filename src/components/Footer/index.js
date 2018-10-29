@@ -32,6 +32,11 @@ class Footer extends React.Component {
               <FormattedMessage id="footer.terminal" />
             </a>
           </p>
+          <pre>
+            <p>
+              <FormattedMessage id="copyright" />
+            </p>
+          </pre>
         </div>
       </footer>
     );

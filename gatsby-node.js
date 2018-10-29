@@ -76,6 +76,7 @@ exports.createPages = ({ actions, graphql }) => {
     bots: path.resolve('./src/templates/items.js'),
     servers: path.resolve('./src/templates/items.js'),
     reviews: path.resolve('./src/templates/reviews.js'),
+    tutorials: path.resolve('./src/templates/tutorials.js'),
     docs: path.resolve('./src/templates/docs.js')
   };
   

@@ -1,0 +1,45 @@
+.container-container {
+  display: flex;
+  height: 100%;
+}
+
+.left-container {
+  margin: 0;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  overflow-y: scroll;
+}
+
+.right-container {
+  padding: 0;
+  margin: 0;
+}
+
+@media (orientation:landscape) {
+  .left-container {
+    width: 50%;
+    height: 100%;
+  }
+  
+  .right-container {
+    width: 50%;
+    height: 100%;
+  }
+}
+
+
+@media (orientation:portrait) {
+  .container-container {
+    flex-direction: column;
+  }
+
+  .left-container {
+    height: 50%;
+    width: 100%;
+  }
+  
+  .right-container {
+    height: 50%;
+    width: 100%;
+  }
+}

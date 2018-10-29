@@ -3,6 +3,7 @@ const types = [
   'docs',
   'servers',
   'reviews',
+  'tutorials',
 ];
 
 const foldersToClear = [

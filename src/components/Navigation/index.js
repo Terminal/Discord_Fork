@@ -47,6 +47,9 @@ class Navigation extends React.Component {
           <LocalLink to="/servers/">
             <FormattedMessage id="pages.servers.shortname" />
           </LocalLink>
+          <LocalLink to="/tutorials/">
+            <FormattedMessage id="pages.tutorials.shortname" />
+          </LocalLink>
           <LocalLink to="/docs/">
             <FormattedMessage id="pages.docs.shortname" />
           </LocalLink>
