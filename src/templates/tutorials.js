@@ -7,7 +7,7 @@ import { graphql } from 'gatsby';
 
 import './docs.scss';
 
-class Tutorials extends React.Component {
+class Docs extends React.Component {
   render() {
     return (
       <TutorialsLayout locale={this.props.pageContext.locale}>
@@ -19,11 +19,12 @@ class Tutorials extends React.Component {
 }
 
 export const pageQuery = graphql`
-  query tutorialPages ($filelink: String!) {
+  query tutorialPages($filelink: String!) {
     markdownRemark(fields: { filelink: { eq: $filelink }}) {
       html
       frontmatter {
         pagename
+        description
       }
       fields {
         filename
@@ -32,7 +33,7 @@ export const pageQuery = graphql`
   }
 `;
 
-Tutorials.propTypes = {
+Docs.propTypes = {
   data: PropTypes.shape({
     markdownRemark: ItemPropType
   }),
@@ -41,4 +42,4 @@ Tutorials.propTypes = {
   })
 };
 
-export default Tutorials;
+export default Docs;

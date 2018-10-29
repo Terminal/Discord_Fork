@@ -8,11 +8,6 @@ import { graphql } from 'gatsby';
 import DocsLayout from '../components/DocsLayout';
 
 class TutorialsHomepage extends React.Component {
-  constructor(props) {
-    super(props);
-
-  }
-
   render() {
     return (
       <DocsLayout locale={this.props.pageContext.locale} type="servers">

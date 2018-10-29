@@ -24,6 +24,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         pagename
+        description
       }
       fields {
         filename

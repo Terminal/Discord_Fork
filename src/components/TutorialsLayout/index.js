@@ -13,7 +13,10 @@ class TutorialsLayout extends React.Component {
     super(...arguments);
     this.keyDown = this.keyDown.bind(this);
     this.save = this.save.bind(this);
-    this.monaco = null;
+    this.monaco = React.createRef();
+    this.state = {
+      monaco: null
+    };
   }
 
   keyDown(event) {
@@ -29,7 +32,7 @@ class TutorialsLayout extends React.Component {
 
   save() {
     if (this.monaco) {
-      const model = this.monaco.editor.getModel();
+      const model = this.monaco.current.editor.getModel();
       const value = model.getValue();
       const file = new Blob([value], {
         type: 'application/javascript'
@@ -55,6 +58,18 @@ class TutorialsLayout extends React.Component {
     document.body.style.overflowX = 'hidden';
     document.body.style.overflowY = 'hidden';
     document.addEventListener('keydown', this.keyDown);
+    this.setState({
+      monaco: (
+        <MonacoEditor
+          ref={this.monaco}
+          language="javascript"
+          theme="vs-dark"
+          defaultValue={this.props.default}
+          options={{
+            automaticLayout: true
+          }} />
+      )
+    });
   }
   
   componentWillUnmount() {
@@ -74,14 +89,7 @@ class TutorialsLayout extends React.Component {
             {this.props.children}
           </div>
           <div className="main-content-container container right-container">
-            <MonacoEditor
-              ref={element => this.monaco = element}
-              language="javascript"
-              theme="vs-dark"
-              defaultValue={this.props.default}
-              options={{
-                automaticLayout: true
-              }} />
+            {this.state.monaco}
           </div>
         </div>
       </GlobalLayout>

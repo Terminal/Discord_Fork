@@ -5,7 +5,6 @@ import SiteLayout from './../components/SiteLayout';
 import Global from './../components/Global';
 import { FormattedMessage } from 'react-intl';
 import locales from '../locales';
-import './locale.scss';
 
 class Locale extends React.Component {
   render() {

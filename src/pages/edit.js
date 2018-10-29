@@ -13,8 +13,6 @@ import { FormattedMessage } from 'react-intl';
 
 import locales from './../locales';
 
-import './edit.scss';
-
 const defaultBranch = 'master';
 
 const localeOptions = {};

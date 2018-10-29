@@ -9,7 +9,7 @@ import SiteLayout from './../components/SiteLayout';
 import Loading from './../components/Loading';
 import { graphql } from 'gatsby';
 
-export default class BotsHomepage extends React.Component {
+class BotsHomepage extends React.Component {
   constructor(props) {
     super(props);
 
@@ -110,6 +110,8 @@ BotsHomepage.propTypes = {
     locale: PropTypes.string
   })
 };
+
+export default BotsHomepage;
 
 export const pageQuery = graphql`
   query BotsHomepageQuery {
