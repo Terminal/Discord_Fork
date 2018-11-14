@@ -39,6 +39,7 @@
     },
     {
       "src": "/assets/images/logo/logo.svg",
+      "sizes": "72x72 96x96 144x144 152x152 192x192 384x384",
       "type": "image/svg+xml"
     }
   ]
