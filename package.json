@@ -14,6 +14,7 @@
     "gatsby-plugin-netlify": "^2.0.0",
     "gatsby-plugin-offline": "^2.0.5",
     "gatsby-plugin-react-helmet": "next",
+    "gatsby-plugin-remove-serviceworker": "^1.0.0",
     "gatsby-plugin-sass": "next",
     "gatsby-plugin-sharp": "^2.0.6",
     "gatsby-plugin-sitemap": "^2.0.1",
