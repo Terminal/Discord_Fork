@@ -2,6 +2,9 @@
 
 _A Discord Bot List with no dedicated servers, running entirely on Netlify and AWS Lambda_
 
+# Deprecated
+This piece of software has been replaced by [ls.terminal.ink](https://ls.terminal.ink)
+
 Add your bot [via the E-Zed editor](https://discordbots.co.uk/edit)
 
 ## Deploy
