@@ -1,0 +1,41 @@
+{
+  "authors": [
+    "discord:335734618118422528"
+  ],
+  "created": 1561942112898,
+  "edited": 1565452513688,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": null,
+    "cover": "background.png",
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=588059900538781706&scope=bot&permissions=137653313",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/SDFfCYk",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "#!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://dragonixx.weebly.com/bot-discord-dragonix.html",
+  "pages": [
+    "fr",
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

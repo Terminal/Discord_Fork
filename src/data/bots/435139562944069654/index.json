@@ -1,0 +1,41 @@
+{
+  "authors": [
+    "discord:284857002977525760"
+  ],
+  "created": 1542817705070,
+  "edited": 1548177003722,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=435139562944069654&permissions=2146958847&scope=bot",
+  "legacy": false,
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/qRxEbaR",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "-"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://gamisbot.com",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

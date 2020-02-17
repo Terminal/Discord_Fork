@@ -1,0 +1,35 @@
+{
+  "authors": [],
+  "created": 1542569433000,
+  "edited": 1542569433000,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=367202192609902593&scope=bot&permissions=8",
+  "legacy": true,
+  "nsfw": false,
+  "state": "approved",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "?"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

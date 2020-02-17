@@ -1,0 +1,41 @@
+{
+  "authors": [
+    "discord:311604263379795970"
+  ],
+  "created": 1545329858218,
+  "edited": 1545329858218,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=440182142207655947&scope=bot&permissions=8",
+  "legacy": false,
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/bJE7ehH",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "/"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://watchdog.glitch.me/commands",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

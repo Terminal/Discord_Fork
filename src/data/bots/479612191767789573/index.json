@@ -1,0 +1,41 @@
+{
+  "authors": [
+    "discord:324622488644616195"
+  ],
+  "created": 1547250805454,
+  "edited": 1560012666177,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=479612191767789573&scope=bot&permissions=8",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/6bfpCCt",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "^"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://botjs.juby.cf/",
+  "pages": [
+    "en-GB",
+    "pl"
+  ],
+  "source": "https://github.com/juby210-PL/bot.js",
+  "categories": [
+    "music"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:594852041050816522"
+  ],
+  "created": 1563716271835,
+  "edited": 1563716487108,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=599106118106742785&scope=bot&permissions=2146958847",
+  "nsfw": true,
+  "state": "denied",
+  "support": "https://discord.gg/KRdhDVj",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "tb!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://thunderbolt.netlify.com",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

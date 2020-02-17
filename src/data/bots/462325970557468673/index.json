@@ -1,0 +1,41 @@
+{
+  "authors": [
+    "discord:311058927058157568"
+  ],
+  "created": 1553453647005,
+  "edited": 1553453728981,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=462325970557468673&scope=bot&permissions=2146958591",
+  "legacy": false,
+  "nsfw": false,
+  "state": "banned",
+  "support": "https://discord.gg/Fgm52hp",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "v!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

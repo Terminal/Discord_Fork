@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:103347843934212096"
+  ],
+  "created": 1527811200000,
+  "edited": 1556752160635,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://invite.blargbot.xyz",
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "b!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

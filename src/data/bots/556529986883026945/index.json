@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:252067755258413056"
+  ],
+  "created": 1557582631152,
+  "edited": 1557633052417,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": true
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=556529986883026945&permissions=1341521142&scope=bot",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discordapp.com/invite/Smhusmk",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "??"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "entertainment"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "authors": [
+    "discord:289266380413468672"
+  ],
+  "created": 1544447002902,
+  "edited": 1545005855118,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=346186123711873025&scope=bot&permissions=8",
+  "legacy": false,
+  "nsfw": false,
+  "state": "denied",
+  "support": "https://discord.gg/wbxGMgQ",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "|"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/NoPlaceLikeLocalhost/AnUpdatedIdiotsGuide",
+  "categories": [
+    "productivity"
+  ]
+}

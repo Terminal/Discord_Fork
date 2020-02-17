@@ -1,0 +1,42 @@
+{
+  "authors": [
+    "discord:412377484269584400"
+  ],
+  "created": 1575681270993,
+  "edited": 1575681270993,
+  "flags": {
+    "adverts": true,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": [
+      "0.png"
+    ]
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=631329221704417291&permissions=8&scope=bot",
+  "nsfw": false,
+  "state": "denied",
+  "support": "https://discord.gg/JVejaVJ",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "+"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://k-development.glitch.me/",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

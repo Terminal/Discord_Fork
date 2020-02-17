@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:477141528981012511"
+  ],
+  "created": 1542569433000,
+  "edited": 1572214981804,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=407189087649398795&scope=bot&permissions=805792839",
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "object"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/BigBotNetwork/GottBotReloaded",
+  "categories": [
+    "other"
+  ]
+}

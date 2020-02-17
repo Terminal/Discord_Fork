@@ -1,0 +1,42 @@
+{
+  "authors": [
+    "discord:285837115206402049"
+  ],
+  "created": 1551460945766,
+  "edited": 1554048938817,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=546457204958560315&scope=bot&permissions=379968",
+  "legacy": false,
+  "nsfw": true,
+  "state": "approved",
+  "support": "https://discord.gg/BGZsFe7",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "lewd"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "pages": [
+    "en-GB",
+    "fr"
+  ],
+  "source": null,
+  "categories": [
+    "entertainment"
+  ]
+}

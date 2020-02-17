@@ -1,0 +1,41 @@
+{
+  "authors": [
+    "discord:159053372010266624"
+  ],
+  "created": 1550946416433,
+  "edited": 1550946416433,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=436617817043763200&scope=bot&permissions=262208",
+  "legacy": false,
+  "nsfw": false,
+  "state": "denied",
+  "support": "https://discord.gg/T5KbFBy",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "t."
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://cyborgtoast.tk",
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/Tmpod/cyborgtoast",
+  "categories": [
+    "utility"
+  ]
+}

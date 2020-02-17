@@ -1,0 +1,43 @@
+{
+  "authors": [
+    "discord:336389636878368770",
+    "discord:344335337889464357",
+    "discord:325126878958714880",
+    "discord:412502765324206081"
+  ],
+  "created": 1562142135938,
+  "edited": 1562142135938,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=587122703195176971&scope=bot&permissions=8",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discordapp.com/invite/HcXQcbE",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "Main: ="
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "music"
+  ]
+}

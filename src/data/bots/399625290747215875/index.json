@@ -1,0 +1,41 @@
+{
+  "authors": [
+    "discord:246746545561665537"
+  ],
+  "created": 1544077825293,
+  "edited": 1552495478660,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://goatbot.me/i",
+  "legacy": false,
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/UJkYycr",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://goatbot.me",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

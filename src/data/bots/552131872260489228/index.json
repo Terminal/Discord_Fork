@@ -1,0 +1,41 @@
+{
+  "authors": [
+    "discord:462927712885932032"
+  ],
+  "created": 1553278587096,
+  "edited": 1553465940213,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=552131872260489228&scope=bot&permissions=2146958463",
+  "legacy": false,
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/t57V9P6",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "*"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://rocketbot.nity.fr/",
+  "pages": [
+    "fr"
+  ],
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

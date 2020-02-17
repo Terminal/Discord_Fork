@@ -1,0 +1,38 @@
+{
+  "authors": [
+    "discord:366454817373290508"
+  ],
+  "created": 1542569433000,
+  "edited": 1542588572457,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://sanainvite.stylite.me",
+  "legacy": true,
+  "nsfw": true,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "s."
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/Stylite/Sana",
+  "categories": [
+    "other"
+  ]
+}

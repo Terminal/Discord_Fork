@@ -1,0 +1,41 @@
+{
+  "authors": [
+    "discord:540933842819743765"
+  ],
+  "created": 1549286557875,
+  "edited": 1549286557875,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/api/oauth2/authorize?client_id=540939251869810719&permissions=335603798&scope=bot",
+  "legacy": false,
+  "nsfw": false,
+  "state": "banned",
+  "support": "https://discord.gg/keTKtDj",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "hey"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

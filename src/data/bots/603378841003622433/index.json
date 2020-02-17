@@ -1,0 +1,43 @@
+{
+  "authors": [
+    "discord:156481332652802048"
+  ],
+  "created": 1564046683782,
+  "edited": 1564048832483,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": [
+      "0.png"
+    ]
+  },
+  "invite": "https://discordapp.com/api/oauth2/authorize?client_id=603378841003622433&permissions=8&redirect_uri=https%3A%2F%2Fdiscord.gg%2F5xkt66f&response_type=code&scope=bot%20guilds.join",
+  "nsfw": false,
+  "state": "denied",
+  "support": "https://discord.gg/5xkt66f",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "Bear"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "pages": [
+    "en-GB",
+    "es"
+  ],
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

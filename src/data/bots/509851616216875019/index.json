@@ -1,0 +1,46 @@
+{
+  "authors": [
+    "discord:319467558166069248"
+  ],
+  "created": 1543003842147,
+  "edited": 1571423546587,
+  "flags": {
+    "adverts": true,
+    "inAppPurchases": true
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": [
+      "0.png",
+      "1.png",
+      "2.png",
+      "3.png",
+      "4.png"
+    ]
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=509851616216875019&scope=bot&permissions=411712",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/pXc9vyC",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "x!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://www.countdowntoxmas.tk/?utm_source=terminal.ink&utm_medium=info&utm_campaign=website",
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/eartharoid/ChristmasCountdownBot",
+  "categories": [
+    "fun"
+  ]
+}

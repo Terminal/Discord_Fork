@@ -1,0 +1,49 @@
+{
+  "authors": [
+    "discord:284122164582416385",
+    "discord:250322741406859265"
+  ],
+  "created": 1549591401277,
+  "edited": 1552413067113,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": [
+      "0.png",
+      "1.png",
+      "2.png",
+      "3.png",
+      "4.png",
+      "5.png"
+    ]
+  },
+  "invite": "https://discordapp.com/api/oauth2/authorize?client_id=305757210905149441&permissions=280640&scope=bot",
+  "legacy": false,
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/Yphr6WG",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "s;"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://spotify-connect.aetheryx.xyz",
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/aetheryx/spotify-connect",
+  "categories": [
+    "other"
+  ]
+}

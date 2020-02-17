@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:274284493043531776"
+  ],
+  "created": 1556456532871,
+  "edited": 1556456775453,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=480421483575902208&scope=bot&permissions=2146958847",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/K6ZMFaT",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "--"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://catmaniabot.tk",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

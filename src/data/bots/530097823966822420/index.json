@@ -1,0 +1,41 @@
+{
+  "authors": [
+    "discord:389129266362843140"
+  ],
+  "created": 1548345196403,
+  "edited": 1552440869014,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=530097823966822420&scope=bot&permissions=8",
+  "legacy": false,
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discordapp.com/invite/SRnF9yV",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://iamanoot.xyz",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "games"
+  ]
+}

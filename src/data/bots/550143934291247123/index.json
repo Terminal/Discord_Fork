@@ -1,0 +1,41 @@
+{
+  "authors": [
+    "discord:145788286156144641"
+  ],
+  "created": 1553586924177,
+  "edited": 1553586924177,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=550143934291247123&scope=bot&permissions=0",
+  "legacy": false,
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "+"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/SydneyRain/nibirubot",
+  "categories": [
+    "fun"
+  ]
+}

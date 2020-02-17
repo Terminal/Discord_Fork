@@ -1,0 +1,38 @@
+{
+  "authors": [
+    "discord:137624084572798976"
+  ],
+  "created": 1545390276144,
+  "edited": 1545390276144,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=422433314347941896&scope=bot&permissions=2146958847",
+  "legacy": false,
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "!"
+    ]
+  },
+  "videos": {},
+  "website": "https://danbot.xyz",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

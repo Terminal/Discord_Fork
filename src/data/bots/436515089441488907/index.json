@@ -1,0 +1,42 @@
+{
+  "authors": [
+    "discord:308707063993860116"
+  ],
+  "created": 1544796079716,
+  "edited": 1574329861736,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": [
+      "0.png"
+    ]
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=436515089441488907&permissions=268561494&scope=bot",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/enYgtWz",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "color"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://colorchan.com",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "authors": [],
+  "created": 1542569433000,
+  "edited": 1542569433000,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/api/oauth2/authorize?client_id=478232314577551371&permissions=70614209&scope=bot",
+  "legacy": true,
+  "nsfw": false,
+  "state": "denied",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "🐾",
+      "furr!",
+      "furrboye "
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

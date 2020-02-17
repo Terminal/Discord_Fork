@@ -1,0 +1,41 @@
+{
+  "authors": [
+    "discord:300577300242759682"
+  ],
+  "created": 1551186227878,
+  "edited": 1553388238351,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize/?permissions=3533888&scope=bot&client_id=506844962802106369",
+  "legacy": false,
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/MazwwmM",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "s."
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "music"
+  ]
+}

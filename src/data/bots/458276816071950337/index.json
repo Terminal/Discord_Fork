@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:98822055402688512"
+  ],
+  "created": 1567962271670,
+  "edited": 1578848856721,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": true
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=458276816071950337&permissions=1133584&scope=bot",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/STZamSj",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "s/"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://serverstatsbot.com",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

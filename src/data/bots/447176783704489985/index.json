@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:415570038175825930",
+    "discord:483817273803538450",
+    "discord:247741991310327810"
+  ],
+  "created": 1544447493536,
+  "edited": 1544447493536,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=447176783704489985&permissions=84992&scope=bot",
+  "legacy": false,
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/sbySHxA",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      ">"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/Deivedux/Quote",
+  "categories": [
+    "utility"
+  ]
+}

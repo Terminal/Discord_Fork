@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:480779413311455252"
+  ],
+  "created": 1566401575549,
+  "edited": 1566401946964,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=481757381634686995&scope=bot&permissions=536308862",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/Ak6wCaB",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "n!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://nitronixbot.glitch.me/",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:255750690784149504"
+  ],
+  "created": 1559553045054,
+  "edited": 1559553045054,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=290048236658622464&scope=bot&permissions=2081946751",
+  "nsfw": false,
+  "state": "denied",
+  "support": "https://discord.gg/QUtAds4",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "&"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://hasanbrandsxd.github.io/galaxy/",
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/HasanBrandsXD/GalaxyBOT",
+  "categories": [
+    "entertainment"
+  ]
+}

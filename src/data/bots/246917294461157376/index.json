@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:154497072148643840"
+  ],
+  "created": 1558984509138,
+  "edited": 1558984509138,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=246917294461157376&scope=bot&permissions=536210519",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/th6eS3T",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "c!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://cat3890.tumblr.com/",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "music"
+  ]
+}

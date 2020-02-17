@@ -1,0 +1,38 @@
+{
+  "authors": [
+    "discord:248294452307689473"
+  ],
+  "created": 1542569433000,
+  "edited": 1542589790225,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": []
+  },
+  "invite": "https://thighs.boob.bot",
+  "legacy": true,
+  "nsfw": true,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "tb"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/Nekos-life/neko-bot-jda",
+  "categories": [
+    "other"
+  ]
+}

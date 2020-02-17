@@ -1,0 +1,41 @@
+{
+  "authors": [
+    "discord:205845138868535296"
+  ],
+  "created": 1551755890066,
+  "edited": 1551755890066,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=298827078013288450&scope=bot&permissions=59392",
+  "legacy": false,
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/WEGMab4",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "."
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://abcric.net/accord/commands",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

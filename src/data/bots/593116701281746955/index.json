@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:363790841636192259"
+  ],
+  "created": 1564400800837,
+  "edited": 1564400800837,
+  "flags": {
+    "adverts": true,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/api/oauth2/authorize?client_id=593116701281746955&permissions=3238976&scope=bot",
+  "nsfw": false,
+  "state": "denied",
+  "support": "https://discord.gg/5z4z8kh",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "s."
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "games"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:99116871994859520"
+  ],
+  "created": 1555971740029,
+  "edited": 1555971740029,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": true
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=353176642543419392&scope=bot",
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "."
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://discord-cogs.readthedocs.io",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

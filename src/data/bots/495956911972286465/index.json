@@ -1,0 +1,42 @@
+{
+  "authors": [
+    "discord:166678366752079873"
+  ],
+  "created": 1549711752792,
+  "edited": 1551301588817,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?&client_id=495956911972286465&scope=bot&permissions=10240",
+  "legacy": false,
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/8kdqDva",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "+"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "pages": [
+    "en-GB",
+    "es"
+  ],
+  "source": "https://github.com/Dequei/BotPacoPaquitoPocoPaquete",
+  "categories": [
+    "fun"
+  ]
+}

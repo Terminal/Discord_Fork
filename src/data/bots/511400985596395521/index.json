@@ -1,0 +1,42 @@
+{
+  "authors": [
+    "discord:488786712206770196"
+  ],
+  "created": 1545698083571,
+  "edited": 1553125735533,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=511400985596395521&permissions=2146958847&scope=bot",
+  "legacy": false,
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/payjdYy",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "taco",
+      "t!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/discord-tacos/Taco-bot",
+  "categories": [
+    "entertainment"
+  ]
+}

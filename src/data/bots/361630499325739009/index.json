@@ -1,0 +1,38 @@
+{
+  "authors": [
+    "discord:142782417994907648"
+  ],
+  "created": 1542678181973,
+  "edited": 1542678181973,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/api/oauth2/authorize?client_id=361630499325739009&scope=bot&permissions=0",
+  "legacy": false,
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/WPUU2dF",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "["
+    ]
+  },
+  "videos": {},
+  "website": "https://kaydax.xyz/",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

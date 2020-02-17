@@ -1,0 +1,42 @@
+{
+  "authors": [
+    "discord:96664175350149120"
+  ],
+  "created": 1542569433000,
+  "edited": 1545935956753,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": [
+      "0.png",
+      "1.png",
+      "2.png"
+    ]
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=439435998078959616&scope=bot&permissions=104332352",
+  "legacy": true,
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/SthsknG",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "pow "
+    ]
+  },
+  "videos": {},
+  "website": "https://rcxcrafter.github.io/powerglove",
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/RCXcrafter/PowerGlove",
+  "categories": [
+    "fun"
+  ]
+}

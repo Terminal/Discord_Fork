@@ -1,0 +1,36 @@
+{
+  "authors": [],
+  "created": 1542569433000,
+  "edited": 1542569433000,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/api/oauth2/authorize?client_id=401477146511409183&permissions=8192&scope=bot",
+  "legacy": true,
+  "nsfw": false,
+  "state": "approved",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "-",
+      "\"tor\""
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/perryprog/tor-genius",
+  "categories": [
+    "other"
+  ]
+}

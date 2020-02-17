@@ -1,0 +1,38 @@
+{
+  "authors": [
+    "discord:153353572711530496"
+  ],
+  "created": 1544323935729,
+  "edited": 1544323935729,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=356236889369346050&scope=bot&permissions=3076",
+  "legacy": false,
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/jcYq5ch",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "b;"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/craftxbox/globalbans",
+  "categories": [
+    "moderation"
+  ]
+}

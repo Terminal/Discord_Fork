@@ -1,0 +1,34 @@
+{
+  "authors": [],
+  "created": 1527811200000,
+  "edited": 1527811200000,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://avairebot.com/invite",
+  "legacy": true,
+  "state": "approved",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "!"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

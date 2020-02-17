@@ -1,0 +1,41 @@
+{
+  "authors": [
+    "discord:205912295837138944"
+  ],
+  "created": 1550308321407,
+  "edited": 1550308321407,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=520459597819936771&scope=bot&permissions=8",
+  "legacy": false,
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/C9reUPF",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://github.com/TannerReynolds/Havana-Discord-Bot",
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/TannerReynolds/Havana-Discord-Bot",
+  "categories": [
+    "fun"
+  ]
+}

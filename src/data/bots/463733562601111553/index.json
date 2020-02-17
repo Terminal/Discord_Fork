@@ -1,0 +1,43 @@
+{
+  "authors": [
+    "discord:140590672657776641"
+  ],
+  "created": 1562529102504,
+  "edited": 1566139541544,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": [
+      "0.png",
+      "1.png"
+    ]
+  },
+  "invite": "https://bot.discord.io/globalbanz",
+  "nsfw": false,
+  "state": "denied",
+  "support": "https://discord.gg/5ZUHWuT",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "gb!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

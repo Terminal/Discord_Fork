@@ -1,0 +1,41 @@
+{
+  "authors": [
+    "discord:254279600841031680"
+  ],
+  "created": 1548960034525,
+  "edited": 1548960075567,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://bit.ly/vanessabot",
+  "legacy": false,
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/XpxDRwQ",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "."
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://vanessa.team",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

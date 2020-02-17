@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:309637856111099906"
+  ],
+  "created": 1544350591299,
+  "edited": 1544541407954,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=507534048822820875&scope=bot&permissions=470051894",
+  "legacy": false,
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/sxSmyxq",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "!"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "pages": [
+    "de",
+    "en-GB",
+    "fr"
+  ],
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:411504986669842454"
+  ],
+  "created": 1559062784407,
+  "edited": 1559062784407,
+  "flags": {
+    "adverts": true,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": []
+  },
+  "invite": "https://rebrand.ly/",
+  "nsfw": false,
+  "state": "denied",
+  "support": "https://discord.gg/qvUer4b",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "+"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://rebrand.ly/discordbotsite",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

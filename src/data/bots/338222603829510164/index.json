@@ -1,0 +1,42 @@
+{
+  "authors": [
+    "discord:111372124383428608",
+    "discord:93767954709094400"
+  ],
+  "created": 1550544175259,
+  "edited": 1550924845182,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=338222603829510164&scope=bot&permissions=2134207671",
+  "legacy": false,
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discordapp.com/invite/AXXBPM7",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "a!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://atlasbot.xyz",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

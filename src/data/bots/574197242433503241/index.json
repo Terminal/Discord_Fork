@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:489760113960419328"
+  ],
+  "created": 1560886422886,
+  "edited": 1560886422886,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": null,
+    "cover": "background.png",
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=574197242433503241&scope=bot&permissions=8",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discordapp.com/invite/QQfGmg",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

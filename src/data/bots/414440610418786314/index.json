@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:344335337889464357"
+  ],
+  "created": 1561911188213,
+  "edited": 1563558419421,
+  "flags": {
+    "adverts": true,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=414440610418786314&scope=bot&permissions=2146958847",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/qCame3b",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "em/"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://www.musembed.tk",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

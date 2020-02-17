@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:563395266799992843"
+  ],
+  "created": 1566781228045,
+  "edited": 1566781228045,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/api/oauth2/authorize?client_id=606307707334426654&permissions=8&scope=bot",
+  "nsfw": false,
+  "state": "denied",
+  "support": "https://discord.gg/gkAKatd",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "s!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/xPolar/WumpusSuggester",
+  "categories": [
+    "utility"
+  ]
+}

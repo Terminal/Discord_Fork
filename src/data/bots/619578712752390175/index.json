@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:619578712752390175"
+  ],
+  "created": 1577037312150,
+  "edited": 1577037312150,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=619578712752390175&scope=bot&permissions=1379269878",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/NMPd2qh",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "x!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://mirayxs.gitbook.io/miraydocs/",
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/MirayXS/Mirayyh",
+  "categories": [
+    "image"
+  ]
+}

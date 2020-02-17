@@ -1,0 +1,43 @@
+{
+  "authors": [
+    "discord:242843345402069002"
+  ],
+  "created": 1542569433000,
+  "edited": 1573661012667,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": [
+      "0.png",
+      "1.png"
+    ]
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=398251412246495233&scope=bot&permissions=-1",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/YazeA7e",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "f!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://furry.bot",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "entertainment"
+  ]
+}

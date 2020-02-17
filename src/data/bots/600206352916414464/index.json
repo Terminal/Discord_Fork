@@ -1,0 +1,44 @@
+{
+  "authors": [
+    "discord:521881437360619560"
+  ],
+  "created": 1580590783633,
+  "edited": 1580590783633,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": [
+      "0.png",
+      "1.png",
+      "2.png"
+    ]
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?scope=bot&response_type=code&redirect_uri=https://nyxbot.xyz/thankyou&guild-oauth&permissions=1343089878&client_id=600206352916414464",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discordapp.com/invite/zdfW7hf",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      ";"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://nyxbot.xyz/",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

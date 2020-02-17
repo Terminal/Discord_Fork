@@ -1,0 +1,38 @@
+{
+  "authors": [
+    "discord:190916650143318016"
+  ],
+  "created": 1544923237126,
+  "edited": 1544923237126,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": []
+  },
+  "invite": "https://moosic.advaith.fun/invite",
+  "legacy": false,
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/tf85Xhc",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "&"
+    ]
+  },
+  "videos": {},
+  "website": "https://moosic.advaith.fun",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "music"
+  ]
+}

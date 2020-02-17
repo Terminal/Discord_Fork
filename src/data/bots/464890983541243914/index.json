@@ -1,0 +1,42 @@
+{
+  "authors": [
+    "discord:289479495444987904"
+  ],
+  "created": 1546554865109,
+  "edited": 1547252920614,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=464890983541243914&scope=bot&permissions=8",
+  "legacy": false,
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/By3bvFc",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "."
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://roki.ovh/sb",
+  "pages": [
+    "en-GB",
+    "pl"
+  ],
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

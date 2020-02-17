@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:108899856889737216"
+  ],
+  "created": 1552734826433,
+  "edited": 1580096686140,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": true
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": []
+  },
+  "invite": "https://peeky.glitch.me/invite.html",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discordapp.com/invite/j4kArRh",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "p!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://peeky.glitch.me/",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

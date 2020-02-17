@@ -1,0 +1,38 @@
+{
+  "authors": [
+    "discord:193060889111298048"
+  ],
+  "created": 1542569433000,
+  "edited": 1543315238339,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://botz.mattcowley.co.uk/disworld/invite",
+  "legacy": true,
+  "nsfw": false,
+  "state": "denied",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "<edit pls>"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:191691438415675392"
+  ],
+  "created": 1547976679109,
+  "edited": 1561022257130,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=431402543336390666&scope=bot&permissions=537259072",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/zB6fEQW",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "/ "
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://craftybot.glitch.me",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "games"
+  ]
+}

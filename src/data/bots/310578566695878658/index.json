@@ -1,0 +1,38 @@
+{
+  "authors": [
+    "discord:264499432538505217"
+  ],
+  "created": 1542569433000,
+  "edited": 1542590225553,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?scope=bot&client_id=310578566695878658&permissions=8",
+  "legacy": true,
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "e!"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/EndlessBot/Endless",
+  "categories": [
+    "other"
+  ]
+}

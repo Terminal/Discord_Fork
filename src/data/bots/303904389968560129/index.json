@@ -1,0 +1,38 @@
+{
+  "authors": [
+    "discord:236514700257525772"
+  ],
+  "created": 1542569433000,
+  "edited": 1546458520062,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://spotify.larkin.space/invite",
+  "legacy": true,
+  "nsfw": false,
+  "state": "denied",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "s*"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

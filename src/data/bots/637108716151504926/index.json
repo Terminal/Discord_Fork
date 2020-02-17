@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:525842461655040011"
+  ],
+  "created": 1579147650817,
+  "edited": 1579411457659,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": []
+  },
+  "invite": "https://discordapp.com/api/oauth2/authorize?client_id=637108716151504926&permissions=2147483127&scope=bot",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/TAeWCC4",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "&"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://www.lakemc.online/waifu/",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

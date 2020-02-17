@@ -1,0 +1,42 @@
+{
+  "authors": [
+    "discord:588430117122998277"
+  ],
+  "created": 1568394106111,
+  "edited": 1568394106111,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": [
+      "0.png"
+    ]
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=594189989143904264&scope=bot&permissions=8",
+  "nsfw": false,
+  "state": "denied",
+  "support": "https://discord.gg/JfWcEFS",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "-"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://fearboat.business.site",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

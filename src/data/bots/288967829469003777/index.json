@@ -1,0 +1,34 @@
+{
+  "authors": [],
+  "created": 1527811200000,
+  "edited": 1527811200000,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=288967829469003777&scope=bot&permissions=8",
+  "legacy": true,
+  "state": "approved",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "hana."
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

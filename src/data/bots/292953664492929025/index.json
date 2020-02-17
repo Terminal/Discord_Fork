@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:261674810914897931"
+  ],
+  "created": 1527811200000,
+  "edited": 1556752024976,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://unbelievable.pizza/invite",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discordapp.com/invite/YMJ2dGp",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "! "
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://unbelievable.pizza/",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:203104843479515136"
+  ],
+  "created": 1568038009708,
+  "edited": 1568038009708,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/api/oauth2/authorize?client_id=568698045412409344&permissions=8&scope=bot",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/YGCuzUz",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "s!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://shieldbot.site/",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "authors": [
+    "discord:182245310024777728"
+  ],
+  "created": 1542569433000,
+  "edited": 1542916840189,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://atalanta.site/invite/bot",
+  "legacy": true,
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "a!"
+    ]
+  },
+  "videos": {},
+  "website": "https://atalanta.site",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "music"
+  ]
+}

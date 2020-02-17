@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:273216249021071360",
+    "discord:190544080164487168",
+    "discord:153353572711530496"
+  ],
+  "created": 1547086851640,
+  "edited": 1547127011640,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/api/oauth2/authorize?client_id=476060627518095361&permissions=268438534&scope=bot",
+  "legacy": false,
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/Qjs3dfq",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "dhcp."
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/ARPTell/DHCPCord",
+  "categories": [
+    "utility"
+  ]
+}

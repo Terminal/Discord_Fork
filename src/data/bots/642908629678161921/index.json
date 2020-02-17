@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:370535760757260289"
+  ],
+  "created": 1579194967837,
+  "edited": 1579194967837,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": true
+  },
+  "hide": false,
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/api/oauth2/authorize?client_id=642908629678161921&permissions=0&scope=bot",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/dntmzmr",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://relmsbot.com",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

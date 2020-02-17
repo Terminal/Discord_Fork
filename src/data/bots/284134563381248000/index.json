@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:158049329150427136"
+  ],
+  "created": 1542569433000,
+  "edited": 1580681291539,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": []
+  },
+  "invite": "https://invite.snaz.in/photobox",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/uAqtMwQ",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "📷"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://photobox.pw",
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/Snazzah/PhotoBox",
+  "categories": [
+    "image"
+  ]
+}

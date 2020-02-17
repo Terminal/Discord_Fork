@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:360585165572931584"
+  ],
+  "created": 1567447550613,
+  "edited": 1567447550613,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=602975051532337172&scope=bot&permissions=8",
+  "nsfw": false,
+  "state": "denied",
+  "support": "https://discord.gg/mSfsKS6",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "rd!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://www.lordbot.xyz",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

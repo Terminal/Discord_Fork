@@ -1,0 +1,41 @@
+{
+  "authors": [
+    "discord:223806022588956673",
+    "discord:180491463967244288"
+  ],
+  "created": 1565744661353,
+  "edited": 1565744711739,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://spudnik.io/invite",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://spudnik.io/support",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://spudnik.io",
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/Spudnik-Group/Spudnik",
+  "categories": [
+    "moderation"
+  ]
+}

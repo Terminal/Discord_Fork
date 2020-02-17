@@ -1,0 +1,35 @@
+{
+  "authors": [],
+  "created": 1542569433000,
+  "edited": 1542569433000,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=480639227516944384&scope=bot",
+  "legacy": true,
+  "nsfw": false,
+  "state": "banned",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "$"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/HibikiTeam/Hibiki",
+  "categories": [
+    "other"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "authors": [
+    "discord:356000515097624577",
+    "discord:398393307966734336",
+    "discord:457490495719866369"
+  ],
+  "created": 1573942546735,
+  "edited": 1573942546735,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": null,
+    "cover": "background.png",
+    "preview": []
+  },
+  "invite": "https://unosial.com/invite",
+  "nsfw": false,
+  "state": "queue",
+  "support": "https://unosial.com/discord",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "&"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://unosial.com",
+  "pages": [
+    "fr"
+  ],
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

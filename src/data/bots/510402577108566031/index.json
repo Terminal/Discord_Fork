@@ -1,0 +1,45 @@
+{
+  "authors": [
+    "discord:421700628734148609"
+  ],
+  "created": 1549376928847,
+  "edited": 1549697137875,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": [
+      "0.png",
+      "1.png",
+      "2.png"
+    ]
+  },
+  "invite": "https://discordapp.com/api/oauth2/authorize?client_id=510402577108566031&permissions=8&scope=bot",
+  "legacy": false,
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/hYZ7znr",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "n!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://noam-commands.glitch.me",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

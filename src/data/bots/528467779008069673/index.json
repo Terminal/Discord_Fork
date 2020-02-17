@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:501691742064476161"
+  ],
+  "created": 1581120105697,
+  "edited": 1581120105697,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": true
+  },
+  "hide": false,
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=528467779008069673&permissions=2083912823&redirect_uri=https%3A%2F%2Fsnaildos.github.io%2Fmsginvite.html&response_type=code&scope=identify%20bot",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://invite.gg/snaildos",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "m#"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://messagebackup.ga",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

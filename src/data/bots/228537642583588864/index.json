@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:149505704569339904"
+  ],
+  "created": 1546202873090,
+  "edited": 1555461821482,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": true
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://vexera.io/invite",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://vexera.io/support",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "+"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://vexera.io/",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "music"
+  ]
+}

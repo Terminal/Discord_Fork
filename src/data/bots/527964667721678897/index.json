@@ -1,0 +1,41 @@
+{
+  "authors": [
+    "discord:507329700402561045"
+  ],
+  "created": 1554154544605,
+  "edited": 1554154544605,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=527964667721678897&scope=bot&permissions=19457",
+  "legacy": false,
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/GjEWBQE",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "^^"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://serverlist.space/",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

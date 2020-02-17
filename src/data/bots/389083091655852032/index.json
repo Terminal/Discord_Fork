@@ -1,0 +1,43 @@
+{
+  "authors": [
+    "discord:114049019227013128"
+  ],
+  "created": 1542569433000,
+  "edited": 1552997155169,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": [
+      "0.png"
+    ]
+  },
+  "invite": "https://discordapp.com/api/oauth2/authorize?client_id=389083091655852032&permissions=18432&scope=bot",
+  "legacy": true,
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "wednesday"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": "Oct2xKMGOno"
+  },
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/comp500/wednesdays-bot",
+  "categories": [
+    "fun"
+  ]
+}

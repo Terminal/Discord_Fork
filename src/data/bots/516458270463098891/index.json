@@ -1,0 +1,38 @@
+{
+  "authors": [
+    "discord:484765734803734540"
+  ],
+  "created": 1544775591894,
+  "edited": 1544841761351,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=516458270463098891&scope=bot&permissions=1609952759",
+  "legacy": false,
+  "nsfw": false,
+  "state": "denied",
+  "support": "https://discord.gg/Z7AR44b",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "-"
+    ]
+  },
+  "videos": {},
+  "website": "https://etcroot.pw/ilya/",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "entertainment"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:97147476531757056"
+  ],
+  "created": 1579401524402,
+  "edited": 1579401524402,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": []
+  },
+  "invite": "https://kariari.xyz/invite",
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      ";"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://kariari.xyz",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "authors": [
+    "discord:269247101697916939",
+    "discord:322758556946530304"
+  ],
+  "created": 1576633996929,
+  "edited": 1578022643099,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": []
+  },
+  "invite": "https://stratobotelite.com/invite.html",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://stratobotelite.com/discord.html",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "s!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://stratobotelite.com/index.html",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

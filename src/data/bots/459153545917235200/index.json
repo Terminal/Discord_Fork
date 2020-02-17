@@ -1,0 +1,38 @@
+{
+  "authors": [
+    "discord:302604426781261824"
+  ],
+  "created": 1545714866008,
+  "edited": 1545714900337,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=459153545917235200&scope=bot&permissions=8",
+  "legacy": false,
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/mDkMbEh",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "cn."
+    ]
+  },
+  "videos": {},
+  "website": "https://remixbot.ml",
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/IceeMC/Chat-Noir",
+  "categories": [
+    "fun"
+  ]
+}

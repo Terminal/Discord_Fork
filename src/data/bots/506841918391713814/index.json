@@ -1,0 +1,41 @@
+{
+  "authors": [
+    "discord:366454817373290508"
+  ],
+  "created": 1547695288710,
+  "edited": 1547695288710,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=506841918391713814&scope=bot",
+  "legacy": false,
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discordapp.com/invite/HZP7fUs",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "o!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://stylite.me",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "games"
+  ]
+}

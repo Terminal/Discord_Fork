@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:281162281763471363"
+  ],
+  "created": 1553433003117,
+  "edited": 1557580307917,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=541660160188219404&scope=bot",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/FZbsCfx",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "~"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://github.com/5ifty",
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/Alexflipnote/discord_bot.py",
+  "categories": [
+    "fun"
+  ]
+}

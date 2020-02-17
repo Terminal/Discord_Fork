@@ -1,0 +1,51 @@
+{
+  "authors": [
+    "discord:190519304972664832",
+    "discord:366454817373290508",
+    "discord:180093157554388993",
+    "discord:261912303132344320",
+    "discord:178586069351137280",
+    "discord:86477779717066752"
+  ],
+  "created": 1542761901388,
+  "edited": 1576055521828,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": true,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": [
+      "0.png",
+      "1.png",
+      "2.png",
+      "3.png",
+      "4.png"
+    ]
+  },
+  "invite": "https://discordapp.com/api/oauth2/authorize?client_id=473861594749861909&permissions=0&scope=bot",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/8uC6aKZ",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "love&live"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": "6a4BWpBJppI"
+  },
+  "website": "https://discordapps.dev/game",
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/terminal/ls.terminal.ink",
+  "categories": [
+    "other"
+  ]
+}

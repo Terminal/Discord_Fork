@@ -1,0 +1,42 @@
+{
+  "authors": [
+    "discord:197114678533554179"
+  ],
+  "created": 1542722766543,
+  "edited": 1562230070377,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": [
+      "0.png"
+    ]
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=268420199370194944&scope=bot&permissions=-1",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/rSekkJv",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://bluebot.pw/",
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/thibautbessone/DiscordBlueBot",
+  "categories": [
+    "entertainment"
+  ]
+}

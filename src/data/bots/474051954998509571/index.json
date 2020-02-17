@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:158063324699951104"
+  ],
+  "created": 1543696830950,
+  "edited": 1564605557469,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=474051954998509571&scope=bot&permissions=355392",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/ntXkRan",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      ","
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://suggestionsbot.com",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "authors": [
+    "discord:86477779717066752"
+  ],
+  "created": 1542569433000,
+  "edited": 1554645241672,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://xela.dev/invite",
+  "legacy": true,
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/DpxkY3x",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "/",
+      "xela"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://xela.dev/",
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/AlexFlipnote/discord_bot.py",
+  "categories": [
+    "utility"
+  ]
+}

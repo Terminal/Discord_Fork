@@ -1,0 +1,41 @@
+{
+  "authors": [
+    "discord:539154199834001429"
+  ],
+  "created": 1548953735403,
+  "edited": 1548953735403,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/api/oauth2/authorize?client_id=539356319979929612&permissions=268712022&scope=bot",
+  "legacy": false,
+  "nsfw": false,
+  "state": "denied",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "clyde"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

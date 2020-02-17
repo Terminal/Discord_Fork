@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:141610251299454976"
+  ],
+  "created": 1555430103008,
+  "edited": 1556750539295,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": true
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?&client_id=170915256833540097&scope=bot&permissions=24640",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discordapp.com/invite/xy3UbVb",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "#!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://discorddungeons.me",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "games"
+  ]
+}

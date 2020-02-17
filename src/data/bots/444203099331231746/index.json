@@ -1,0 +1,45 @@
+{
+  "authors": [
+    "discord:262511457948663809"
+  ],
+  "created": 1562841582655,
+  "edited": 1562841621494,
+  "flags": {
+    "adverts": true,
+    "inAppPurchases": true
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": [
+      "0.png",
+      "1.png",
+      "2.png",
+      "3.png"
+    ]
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?permissions=268921920&scope=bot&client_id=444203099331231746&redirect_uri=https%3A%2F%2Fdiscordapp.com%2Finvite%2FSw5RbXD&response_type=code",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discordapp.com/invite/Sw5RbXD",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://luc1412.de/EasyFortniteStats",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "games"
+  ]
+}

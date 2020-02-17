@@ -1,0 +1,35 @@
+{
+  "authors": [],
+  "created": 1542569433000,
+  "edited": 1542569433000,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=310039170792030211&permissions=1043721343&scope=bot",
+  "legacy": true,
+  "nsfw": false,
+  "state": "approved",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "n!"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/rektdevlol/nekobot",
+  "categories": [
+    "other"
+  ]
+}

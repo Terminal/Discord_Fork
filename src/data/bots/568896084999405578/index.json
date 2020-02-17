@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:258289468291809282"
+  ],
+  "created": 1560162552785,
+  "edited": 1560162679258,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=568896084999405578&scope=bot&permissions=1073077441",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/y9YWH9h",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "::"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://stch.tk/merlin",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

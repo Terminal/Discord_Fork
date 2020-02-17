@@ -1,0 +1,41 @@
+{
+  "authors": [
+    "discord:287583441585700865"
+  ],
+  "created": 1551529059763,
+  "edited": 1551538723922,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=544124530722078739&scope=bot&permissions=2146958847",
+  "legacy": false,
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/RRvUacQ",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "%"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://alicia-bot.tk/",
+  "pages": [
+    "fr"
+  ],
+  "source": null,
+  "categories": [
+    "music"
+  ]
+}

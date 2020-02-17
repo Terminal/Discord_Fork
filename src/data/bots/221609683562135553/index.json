@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:210898009242861568"
+  ],
+  "created": 1544532891709,
+  "edited": 1544701675543,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=221609683562135553&scope=bot&permissions=19456",
+  "legacy": false,
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/xMmxMYg",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "Ned",
+      "diddly",
+      "doodly"
+    ]
+  },
+  "videos": {},
+  "website": "https://github.com/MitchellAW/FlandersBOT",
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/MitchellAW/FlandersBOT",
+  "categories": [
+    "fun"
+  ]
+}

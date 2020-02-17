@@ -1,0 +1,34 @@
+{
+  "authors": [],
+  "created": 1527811200000,
+  "edited": 1527811200000,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?permissions=93190&client_id=296282163152945154&scope=bot",
+  "legacy": true,
+  "state": "approved",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "kit"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

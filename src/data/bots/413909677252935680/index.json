@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:401946440332476426"
+  ],
+  "created": 1580389019372,
+  "edited": 1580389019372,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=413909677252935680&permissions=1341643969&redirect_uri=https%3A%2F%2Fdiscord.gg%2FSYYBU2F&response_type=code&scope=bot%20guilds.join",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/SYYBU2F",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "//"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://crownsquad.github.io/karu-en/",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:252188962511257600"
+  ],
+  "created": 1570832540068,
+  "edited": 1570832540068,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize/?permissions=8&scope=bot&client_id=556528123420737552",
+  "nsfw": true,
+  "state": "approved",
+  "support": "https://discordapp.com/invite/65MEDR3",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "hb"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "entertainment"
+  ]
+}

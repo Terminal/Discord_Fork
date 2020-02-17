@@ -1,0 +1,42 @@
+{
+  "authors": [
+    "discord:332980470650372096"
+  ],
+  "created": 1559496735999,
+  "edited": 1574956941849,
+  "flags": {
+    "adverts": true,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=512227974893010954&scope=bot&permissions=2147347703",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/R6puN8Z",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      ",",
+      "mart",
+      "m!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://martinethebot.com",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

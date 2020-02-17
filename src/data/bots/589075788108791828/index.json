@@ -1,0 +1,41 @@
+{
+  "authors": [
+    "discord:132489883326480385",
+    "discord:244889990952124416"
+  ],
+  "created": 1560635267786,
+  "edited": 1560635302124,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": []
+  },
+  "invite": "https://alydus.net/api/v1/projects/discord/bots/spotilyrics/redirect/invite",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://alydus.net/api/v1/projects/discord/bots/spotilyrics/redirect/support",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "s!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "music"
+  ]
+}

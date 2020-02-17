@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:526112910745927700"
+  ],
+  "created": 1571245793889,
+  "edited": 1571246420741,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/api/oauth2/authorize?client_id=561012155416313871&permissions=0&redirect_uri=https%3A%2F%2Foficial-gm-bot.glitch.me%2F&response_type=code&scope=bot%20guilds",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/jPHzzmq",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "!!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://oficial-gm-bot.glitch.me/",
+  "pages": [
+    "pt"
+  ],
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

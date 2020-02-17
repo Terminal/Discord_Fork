@@ -1,0 +1,43 @@
+{
+  "authors": [
+    "discord:176371068448145408"
+  ],
+  "created": 1565634075799,
+  "edited": 1565634075799,
+  "flags": {
+    "adverts": true,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": [
+      "0.png",
+      "1.png"
+    ]
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=542815149942374460&scope=bot&permissions=10240",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discordapp.com/invite/QswDDnR",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "\\"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://someonebot.ga",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

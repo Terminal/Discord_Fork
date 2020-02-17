@@ -1,0 +1,38 @@
+{
+  "authors": [
+    "discord:115134128717955080"
+  ],
+  "created": 1542569433000,
+  "edited": 1546457772120,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=177735533064093696&scope=bot&permissions=268528647",
+  "legacy": true,
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "//"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/Arraying/Arraybot",
+  "categories": [
+    "utility"
+  ]
+}

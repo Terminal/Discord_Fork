@@ -1,0 +1,38 @@
+{
+  "authors": [
+    "discord:525761618521620490"
+  ],
+  "created": 1545476756175,
+  "edited": 1545476777929,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=487637900096307200&scope=bot&permissions=0",
+  "legacy": false,
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discordapp.com/invite/BwTsEGA",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "-newcommer"
+    ]
+  },
+  "videos": {},
+  "website": "https://newcommer.tk",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

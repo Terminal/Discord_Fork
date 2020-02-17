@@ -1,0 +1,49 @@
+{
+  "authors": [
+    "discord:150665783268212746"
+  ],
+  "created": 1552058247003,
+  "edited": 1577639820864,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": [
+      "0.png",
+      "1.png",
+      "2.png",
+      "3.png",
+      "4.png",
+      "5.png"
+    ]
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=440176226338865167&permissions=1543892055&scope=bot",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/yCzcfju",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "s!",
+      "sparkly"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://soheab.github.io/",
+  "pages": [
+    "en-GB",
+    "nl"
+  ],
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

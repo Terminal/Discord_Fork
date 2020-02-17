@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:218308478580555777"
+  ],
+  "created": 1561144169780,
+  "edited": 1568108475765,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=475421235950518292&scope=bot&permissions=93248",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/rVUNMwB",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "-"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/EndBug/game-tracker",
+  "categories": [
+    "games"
+  ]
+}

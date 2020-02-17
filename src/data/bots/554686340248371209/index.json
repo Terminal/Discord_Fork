@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:222563393649901580"
+  ],
+  "created": 1560891237431,
+  "edited": 1560891237431,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=554686340248371209&scope=bot&permissions=268545094",
+  "nsfw": false,
+  "state": "denied",
+  "support": "https://discord.gg/Pj8jPQq",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      ">"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/LandenStephenss/k3",
+  "categories": [
+    "entertainment"
+  ]
+}

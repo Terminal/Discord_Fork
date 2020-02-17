@@ -1,0 +1,38 @@
+{
+  "authors": [
+    "discord:153353572711530496"
+  ],
+  "created": 1544321053230,
+  "edited": 1544321053230,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=321493510241124363&scope=bot&permissions=70757577",
+  "legacy": false,
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/jcYq5ch",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "c;"
+    ]
+  },
+  "videos": {},
+  "website": "https://craftxbot.discord.bot",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "music"
+  ]
+}

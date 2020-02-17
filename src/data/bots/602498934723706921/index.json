@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:164126436943200257"
+  ],
+  "created": 1565535265059,
+  "edited": 1565535265059,
+  "flags": {
+    "adverts": true,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=602498934723706921&scope=bot&permissions=1070984279",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/S4sT8AB",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "="
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://rpgdiscord.com/",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "games"
+  ]
+}

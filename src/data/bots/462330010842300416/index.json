@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:255297974928801793"
+  ],
+  "created": 1569135395711,
+  "edited": 1569135395711,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": []
+  },
+  "invite": "https://qbot.eu/invite",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/Ur49wDP",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "Q"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": "KXGKJRFbJ6w"
+  },
+  "website": "https://qbot.eu/",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

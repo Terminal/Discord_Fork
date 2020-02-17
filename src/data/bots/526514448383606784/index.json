@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:66166172835385344"
+  ],
+  "created": 1545835159871,
+  "edited": 1555250937035,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://nitrole.xyz/invite",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/BP2SV3J",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "n>"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://nitrole.xyz",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

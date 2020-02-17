@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:271661115400912898"
+  ],
+  "created": 1558210430482,
+  "edited": 1574089236866,
+  "flags": {
+    "adverts": true,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=567361492287094784&permissions=322305238&scope=bot",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/cYHtYYv",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "-"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://enerybot.de",
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/Steamarino/EneryBot",
+  "categories": [
+    "fun"
+  ]
+}

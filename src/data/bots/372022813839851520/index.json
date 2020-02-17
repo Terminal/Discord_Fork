@@ -1,0 +1,42 @@
+{
+  "authors": [
+    "discord:66166172835385344"
+  ],
+  "created": 1542569433000,
+  "edited": 1553625026709,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": []
+  },
+  "invite": "https://altdentifier.com/invite?ref=dbuk",
+  "legacy": true,
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/BP2SV3J",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      ";"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://altdentifier.com",
+  "pages": [
+    "en-GB",
+    "nl"
+  ],
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

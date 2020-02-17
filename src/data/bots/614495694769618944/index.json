@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:128312718779219968"
+  ],
+  "created": 1569048499639,
+  "edited": 1569386086517,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/api/oauth2/authorize?client_id=614495694769618944&permissions=401960278&scope=bot",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/BDT8Twv",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "."
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/r-anime/er",
+  "categories": [
+    "moderation"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:510078946604220417"
+  ],
+  "created": 1580003598136,
+  "edited": 1580003761767,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=581075056956801056&scope=bot&permissions=2146958847",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/uS5hDev",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "ash "
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://twitter.com/platinbae",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

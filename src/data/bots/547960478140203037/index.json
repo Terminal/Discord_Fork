@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:443181357246447617"
+  ],
+  "created": 1581298241523,
+  "edited": 1581298248096,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/api/oauth2/authorize?client_id=547960478140203037&permissions=8&scope=bot",
+  "nsfw": false,
+  "state": "queue",
+  "support": "https://discord.gg/QZjH8qS",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://echobot.bubbleapps.io/",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

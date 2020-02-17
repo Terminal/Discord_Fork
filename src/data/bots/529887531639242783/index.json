@@ -1,0 +1,42 @@
+{
+  "authors": [
+    "discord:297275010031288320",
+    "discord:221141542247727104"
+  ],
+  "created": 1547987770346,
+  "edited": 1549354709096,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": []
+  },
+  "invite": "https://discordapp.com/api/oauth2/authorize?client_id=529887531639242783&permissions=0&scope=bot",
+  "legacy": false,
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/n5tXmmU",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "a!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://pokelegends.glitch.me/",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "games"
+  ]
+}

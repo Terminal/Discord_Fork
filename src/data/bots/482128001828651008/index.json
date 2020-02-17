@@ -1,0 +1,41 @@
+{
+  "authors": [
+    "discord:242263403001937920"
+  ],
+  "created": 1552743979483,
+  "edited": 1552743979483,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=482128001828651008&scope=bot&permissions=2146958591",
+  "legacy": false,
+  "nsfw": true,
+  "state": "approved",
+  "support": "https://discord.gg/VCdNdnc",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "/"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://harutohiroki.github.io/Cryptonix_x/",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

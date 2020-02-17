@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:142782417994907648"
+  ],
+  "created": 1542669621931,
+  "edited": 1555985953292,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=316520238835433482&scope=bot&permissions=36793352",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/WPUU2dF",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "v-"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://kaydax.xyz/",
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/Kaydax/Vertbot",
+  "categories": [
+    "music"
+  ]
+}

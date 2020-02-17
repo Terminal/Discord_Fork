@@ -1,0 +1,42 @@
+{
+  "authors": [
+    "discord:190590364871032834"
+  ],
+  "created": 1544836218632,
+  "edited": 1577788690236,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": [
+      "0.png"
+    ]
+  },
+  "invite": "https://discordapp.com/api/oauth2/authorize?client_id=371789181954818050&permissions=0&redirect_uri=https%3A%2F%2Ffluxpoint.dev%2Fredirect&response_type=code&scope=identify%20bot",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/TjF6QDC",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "h/"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://fluxpoint.dev",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

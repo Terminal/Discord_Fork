@@ -1,0 +1,38 @@
+{
+  "authors": [
+    "discord:138302166619258880"
+  ],
+  "created": 1542918030079,
+  "edited": 1542918030079,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=396801832711880715&scope=bot&permissions=-1",
+  "legacy": false,
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/rMVju6a",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "uni!"
+    ]
+  },
+  "videos": {},
+  "website": "https://uni.computerfreaker.cf",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

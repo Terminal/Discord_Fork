@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:237490126714961920"
+  ],
+  "created": 1560955962525,
+  "edited": 1567237094419,
+  "flags": {
+    "adverts": true,
+    "inAppPurchases": true
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=518078963734675456&permissions=104187976&scope=bot",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://tyche.site/invite",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "/"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://tyche.site/",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "music"
+  ]
+}

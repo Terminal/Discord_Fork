@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:553583796935720963"
+  ],
+  "created": 1580710338801,
+  "edited": 1580710338801,
+  "flags": {
+    "adverts": true,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=641788481802207243&scope=bot&permissions=2146958591",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/pususus",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "l!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "pages": [
+    "fr"
+  ],
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

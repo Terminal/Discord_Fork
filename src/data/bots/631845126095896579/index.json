@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:547706854680297473"
+  ],
+  "created": 1571859484651,
+  "edited": 1571859484651,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/api/oauth2/authorize?client_id=631845126095896579&permissions=0&scope=bot",
+  "nsfw": false,
+  "state": "queue",
+  "support": "https://discord.gg/SEAjPqk",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "owl"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://BotCompany.de",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

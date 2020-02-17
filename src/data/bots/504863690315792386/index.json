@@ -1,0 +1,41 @@
+{
+  "authors": [
+    "discord:417820274378145803",
+    "discord:338192747754160138"
+  ],
+  "created": 1558996574254,
+  "edited": 1565565899349,
+  "flags": {
+    "adverts": true,
+    "inAppPurchases": true
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=504863690315792386&scope=bot&permissions=1075182657",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/3dPUbhv",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "g!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://www.patreon.com/DirectorDiscord",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

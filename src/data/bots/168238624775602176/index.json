@@ -1,0 +1,41 @@
+{
+  "authors": [
+    "discord:158049329150427136"
+  ],
+  "created": 1542569433000,
+  "edited": 1578447546325,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://bot.discord.io/botboy",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://snaz.in/bots-discord",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "^",
+      "botboy"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://botboy.snaz.in",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:266103595949096960"
+  ],
+  "created": 1564314738951,
+  "edited": 1578416425691,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=568083171455795200&scope=bot&permissions=2146958839&response_type=code&redirect_url=https://filobot.xyz/thanks",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/xHhBWhT",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "f!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://filobot.xyz/?utm_source=https://discordapps.dev&utm_medium=botlists&utm_content=button_link",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

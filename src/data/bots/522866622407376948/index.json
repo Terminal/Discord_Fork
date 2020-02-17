@@ -1,0 +1,41 @@
+{
+  "authors": [
+    "discord:312617227490951168"
+  ],
+  "created": 1551972799947,
+  "edited": 1567412919604,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://bennydash.xyz/invite",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/RDeNrrY",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "!",
+      "Benny"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://bennydash.xyz",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

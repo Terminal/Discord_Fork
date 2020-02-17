@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:438360996806000643"
+  ],
+  "created": 1575652199814,
+  "edited": 1575652199814,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/api/oauth2/authorize?client_id=601805059314941982&permissions=8&scope=bot",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/W2eBgpM",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "?"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

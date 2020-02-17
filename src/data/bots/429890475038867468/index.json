@@ -1,0 +1,50 @@
+{
+  "authors": [
+    "discord:275138157295435778",
+    "discord:556949886923309083"
+  ],
+  "created": 1547414899853,
+  "edited": 1571792145639,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": [
+      "0.png",
+      "1.png",
+      "2.png",
+      "3.png",
+      "4.png",
+      "5.png",
+      "6.png",
+      "7.png"
+    ]
+  },
+  "invite": "https://discordapp.com/api/oauth2/authorize?client_id=429890475038867468&permissions=305261638&scope=bot",
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "m."
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://github.com/makebot-help/Command-Info",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "entertainment"
+  ]
+}

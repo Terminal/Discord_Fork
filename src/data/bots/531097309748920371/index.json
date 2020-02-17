@@ -1,0 +1,42 @@
+{
+  "authors": [
+    "discord:351992405831974915"
+  ],
+  "created": 1558400367890,
+  "edited": 1561198593260,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": true
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=531097309748920371&permissions=60422&scope=bot",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/JJhtTvG",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "yui!",
+      "yuigahama!",
+      "yuigahama@"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://yuigahama.js.org",
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/project-yuigahama/Yuigahama",
+  "categories": [
+    "fun"
+  ]
+}

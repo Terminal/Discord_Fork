@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:178930497399816193"
+  ],
+  "created": 1559005350454,
+  "edited": 1574716729577,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/api/oauth2/authorize?client_id=474523344864280578&permissions=18496&scope=bot",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/bBDwQMM",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "!thun"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/Psychal/CthunDiscordBot",
+  "categories": [
+    "utility"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "authors": [
+    "discord:424304428682706956"
+  ],
+  "created": 1563164399163,
+  "edited": 1576552754913,
+  "flags": {
+    "adverts": true,
+    "inAppPurchases": true
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=599308399888302100&scope=bot&permissions=37088576",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/qN5886E",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "d.",
+      "d!",
+      "@Disco"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "pages": [
+    "pt"
+  ],
+  "source": "https://github.com/Naegin/Disco",
+  "categories": [
+    "music"
+  ]
+}

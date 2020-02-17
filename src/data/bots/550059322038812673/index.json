@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:471333722810089492"
+  ],
+  "created": 1556618328616,
+  "edited": 1556675628563,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=550059322038812673&permissions=0&scope=bot",
+  "nsfw": false,
+  "state": "denied",
+  "support": null,
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "r!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "pages": [
+    "pt"
+  ],
+  "source": null,
+  "categories": [
+    "music"
+  ]
+}

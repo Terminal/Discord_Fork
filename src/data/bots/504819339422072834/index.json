@@ -1,0 +1,41 @@
+{
+  "authors": [
+    "discord:178586069351137280"
+  ],
+  "created": 1542569433000,
+  "edited": 1581116615577,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/api/oauth2/authorize?client_id=504819339422072834&permissions=0&scope=bot",
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "git>",
+      "git<"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/lepon01/gittag",
+  "categories": [
+    "utility"
+  ]
+}

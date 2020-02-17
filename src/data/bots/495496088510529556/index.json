@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:254314923771822080"
+  ],
+  "created": 1572786325306,
+  "edited": 1572786325306,
+  "flags": {
+    "adverts": true,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://invite.antiowo.xyz",
+  "nsfw": false,
+  "state": "queue",
+  "support": "https://discord.gg/N8Fqcuk",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "::"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://antiowo.xyz",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

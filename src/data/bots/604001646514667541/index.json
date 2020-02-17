@@ -1,0 +1,45 @@
+{
+  "authors": [
+    "discord:326260487220363275"
+  ],
+  "created": 1567436144518,
+  "edited": 1575245230672,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": [
+      "0.png",
+      "1.png",
+      "2.png",
+      "3.png"
+    ]
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=604001646514667541&scope=bot&permissions=1543892215",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/TtR32WT",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "."
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://vacefron.nl/konek0/",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

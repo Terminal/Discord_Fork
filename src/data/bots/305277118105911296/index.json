@@ -1,0 +1,39 @@
+{
+  "authors": [
+    "discord:205427654042583040"
+  ],
+  "created": 1542569433000,
+  "edited": 1546423047040,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=305277118105911296&scope=bot&permissions=0",
+  "legacy": true,
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/fYRm29b",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "h:"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "pages": [
+    "en-GB",
+    "fr"
+  ],
+  "source": "https://github.com/iDroid27/homer",
+  "categories": [
+    "entertainment"
+  ]
+}

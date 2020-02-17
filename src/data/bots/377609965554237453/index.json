@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:207484517898780672"
+  ],
+  "created": 1542569433000,
+  "edited": 1569804589771,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": true
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=377609965554237453&scope=bot",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/RN7pxrB",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      ">"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://discordtel.austinhuang.me",
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/austinhuang0131/discordtel",
+  "categories": [
+    "fun"
+  ]
+}

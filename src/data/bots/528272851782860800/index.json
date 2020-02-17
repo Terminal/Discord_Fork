@@ -1,0 +1,42 @@
+{
+  "authors": [
+    "discord:427212136134213644"
+  ],
+  "created": 1548715748309,
+  "edited": 1553204602227,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/api/oauth2/authorize?client_id=528272851782860800&permissions=8&scope=bot",
+  "legacy": false,
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/s6BAk9Y",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "$"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://rainbowbot.de",
+  "pages": [
+    "en-GB",
+    "de"
+  ],
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

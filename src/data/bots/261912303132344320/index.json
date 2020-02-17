@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:261912303132344320"
+  ],
+  "created": 1542569433000,
+  "edited": 1543069338903,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://lepeli.fr/invite/discordfork",
+  "legacy": true,
+  "nsfw": false,
+  "state": "denied",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "l?",
+      "L?",
+      "lepeli"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

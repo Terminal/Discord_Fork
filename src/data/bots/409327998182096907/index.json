@@ -1,0 +1,38 @@
+{
+  "authors": [
+    "discord:115134128717955080"
+  ],
+  "created": 1542569433000,
+  "edited": 1546458743118,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=409327998182096907&permissions=3148800&scope=bot",
+  "legacy": true,
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "i/"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/Arraying/Impulse",
+  "categories": [
+    "other"
+  ]
+}

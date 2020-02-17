@@ -1,0 +1,31 @@
+---
+description: A Discord bot. Serves outdated ZimoNitrome videos.
+name: WednesdaysBot
+---
+
+<h1>WednesdaysBot</h1>
+<p>A discord bot. Serves fresh ZimoNitrome videos.</p>
+<p>See the <a href="https://github.com/comp500/wednesdays-bot/">sauce</a>, or <a href="https://discordapp.com/api/oauth2/authorize?client_id=389083091655852032&permissions=18432&scope=bot">invite it to your server</a>.</p>
+<p>Note: Unmaintained and buggy as of 05/09/2018 (09/05/2018 if you're American), but still runs.</p>
+
+<h2>Help</h2>
+<ul>
+  <li><code>wednesday ping</code> - Replies when it is online.</li>
+  <li><code>wednesday help</code> - Opens this help message.</li>
+  <li><code>wednesday yt</code> - Sends the latest ZimoNitrome Wednesday video.</li>
+  <li><code>wednesday ytrand</code> - Sends a random ZimoNitrome Wednesday video.</li>
+  <li><code>wednesday stats</code> - Gets information about the bot.</li>
+  <li><code>wednesday boot</code> - Sends a random WednesdayOS startup message.</li>
+  <li><code>wednesday invite</code> - Sends the invite link for this bot.</li>
+  <li><code>wednesday subscribe</code> - Subscribe this channel to WednesdayBot messages.</li>
+  <li><code>wednesday unsubscribe</code> - Unsubscribe this channel from WednesdayBot messages.</li>
+</ul>
+
+<h2>Subscription</h2>
+<p>Subscription includes: </p>
+<ul>
+  <li>"it is wednesday my dudes" every wednesday</li>
+  <li>New ZimoNitrome wednesday video releases (based on the youtube playlist)</li>
+</ul>
+<p>These messages are opt-in, and can be activated by the guild owner in a channel using the command <code>wednesday subscribe</code></p>
+<!-- oh my mistake -->

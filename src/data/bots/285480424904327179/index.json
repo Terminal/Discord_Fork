@@ -1,0 +1,41 @@
+{
+  "authors": [
+    "discord:248294452307689473"
+  ],
+  "created": 1542569433000,
+  "edited": 1550946578064,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": []
+  },
+  "invite": "https://bot.boob.bot",
+  "legacy": true,
+  "nsfw": true,
+  "state": "approved",
+  "support": "https://invite.boob.bot",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "bb"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://boob.bot",
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/BoobBot/BoobBot.jda",
+  "categories": [
+    "other"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:481941149620371462"
+  ],
+  "created": 1575261650236,
+  "edited": 1575261650236,
+  "flags": {
+    "adverts": true,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/api/oauth2/authorize?client_id=645094734372798504&permissions=0&redirect_uri=https%3A%2F%2Fsunrise.trydiscourse.com%2Fauth%2Fdiscord%2Fcallback&scope=bot",
+  "nsfw": false,
+  "state": "denied",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "education"
+  ]
+}

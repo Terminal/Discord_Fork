@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:204027971516891136"
+  ],
+  "created": 1556014030979,
+  "edited": 1557088319473,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=438959507389808641&scope=bot&permissions=354368",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/RTecBT6",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "?"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://aiura.me",
+  "pages": [
+    "en-GB"
+  ],
+  "source": null,
+  "categories": [
+    "entertainment"
+  ]
+}

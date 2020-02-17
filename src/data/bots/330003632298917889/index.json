@@ -1,0 +1,43 @@
+{
+  "authors": [
+    "discord:190519304972664832"
+  ],
+  "created": 1542569433000,
+  "edited": 1555282484017,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": true,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": [
+      "0.png",
+      "1.png"
+    ]
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=330003632298917889&scope=bot&permissions=0",
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "dmail"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": "A4a4aLlBnDc"
+  },
+  "website": "https://discordmail.com/",
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/moustacheminer/discordmailhooks",
+  "categories": [
+    "notifications"
+  ]
+}

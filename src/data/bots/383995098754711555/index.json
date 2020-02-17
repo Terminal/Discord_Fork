@@ -1,0 +1,44 @@
+{
+  "authors": [
+    "discord:197448151064379393"
+  ],
+  "created": 1556243547062,
+  "edited": 1556331901537,
+  "flags": {
+    "adverts": true,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": [
+      "0.png",
+      "1.png"
+    ]
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=383995098754711555&scope=bot&permissions=347136",
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "g*"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://gamesrob.com",
+  "pages": [
+    "en-GB",
+    "pt"
+  ],
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

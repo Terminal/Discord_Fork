@@ -1,0 +1,40 @@
+{
+  "authors": [
+    "discord:288831103895076867"
+  ],
+  "created": 1542569433000,
+  "edited": 1567039656887,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": "background.png",
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=338832551278018581&scope=bot&permissions=2146958591",
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/n45fq9K",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "?"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/Jyguy/Reknown",
+  "categories": [
+    "other"
+  ]
+}

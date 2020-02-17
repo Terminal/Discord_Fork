@@ -1,0 +1,41 @@
+{
+  "authors": [
+    "discord:341748916829552641"
+  ],
+  "created": 1549331938431,
+  "edited": 1549331938431,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "images": {
+    "avatar": "avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": "https://discordapp.com/oauth2/authorize?client_id=493955692445696015&permissions=36924486&redirect_uri=https%3A%2F%2Flavender.knoxcorp.me%2Fthanks.html&scope=bot",
+  "legacy": false,
+  "nsfw": false,
+  "state": "denied",
+  "support": "https://discord.gg/MaK7BtW",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "+"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://lavender.knoxcorp.me",
+  "pages": [
+    "en-GB"
+  ],
+  "source": "https://github.com/KnoxDevTeam/Lavender",
+  "categories": [
+    "moderation"
+  ]
+}
