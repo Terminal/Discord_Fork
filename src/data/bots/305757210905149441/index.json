@@ -3,6 +3,14 @@
     "discord:284122164582416385",
     "discord:250322741406859265"
   ],
+  "contents": [
+    {
+      "description": "yes spotify",
+      "locale": "en-GB",
+      "name": "uhhng",
+      "page": "this is so sad s;play despacito"
+    }
+  ],
   "created": 1549591401277,
   "edited": 1552413067113,
   "flags": {
@@ -39,9 +47,6 @@
     "youtube": null
   },
   "website": "https://spotify-connect.aetheryx.xyz",
-  "pages": [
-    "en-GB"
-  ],
   "source": "https://github.com/aetheryx/spotify-connect",
   "categories": [
     "other"

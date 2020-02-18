@@ -2,6 +2,14 @@
   "authors": [
     "discord:481941149620371462"
   ],
+  "contents": [
+    {
+      "description": "raftbotsraftbotsraftbotsraftbots",
+      "locale": "en-GB",
+      "name": "raftbots",
+      "page": "raftbotsraftbotsraftbotsraftbotsraftbots"
+    }
+  ],
   "created": 1575261650236,
   "edited": 1575261650236,
   "flags": {
@@ -30,9 +38,6 @@
     "youtube": null
   },
   "website": null,
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "education"

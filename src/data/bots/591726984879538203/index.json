@@ -6,6 +6,14 @@
     "discord:254422934045589505",
     "discord:153353572711530496"
   ],
+  "contents": [
+    {
+      "description": "Slicing through messages at supersonic speeds.",
+      "locale": "en-GB",
+      "name": "Natsuko",
+      "page": "# Natsuko  \r\n#### Slicing through messages at supersonic speeds.  \r\n\r\nNatsuko is an advanced moderation bot, with modlogging, strikes and more.  \r\nIt can be scripted with Javascript to automate any moderation task.\r\n\r\n[Documentation](https://docs.natsuko.ninja)  \r\n[Status](https://status.natsuko.ninja)"
+    }
+  ],
   "created": 1561840807368,
   "edited": 1567893849231,
   "flags": {
@@ -34,9 +42,6 @@
     "youtube": null
   },
   "website": "https://natsuko.ninja",
-  "pages": [
-    "en-GB"
-  ],
   "source": "https://github.com/natsuko-team/natsuko",
   "categories": [
     "moderation"

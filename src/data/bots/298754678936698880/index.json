@@ -2,6 +2,14 @@
   "authors": [
     "discord:193060889111298048"
   ],
+  "contents": [
+    {
+      "description": "A simple to operate musical streaming bot!",
+      "locale": "en-GB",
+      "name": "MusicalBot",
+      "page": "# [MusicalBot](https://botz.mattcowley.co.uk/musicalbot/)\r\n\r\n>> A simple to operate musical streaming bot! <<\r\n\r\n### Links\r\n\r\n  [Invite MusicalBot](https://botz.mattcowley.co.uk/musicalbot/invite) |\r\n  [MusicalBot website](https://botz.mattcowley.co.uk/musicalbot/) |\r\n  [MusicalBot support](https://botz.mattcowley.co.uk/musicalbot/support)\r\n"
+    }
+  ],
   "created": 1542569433000,
   "edited": 1546553934385,
   "flags": {
@@ -28,9 +36,6 @@
   },
   "videos": {},
   "website": null,
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "music"

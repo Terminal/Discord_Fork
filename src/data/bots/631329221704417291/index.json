@@ -2,6 +2,14 @@
   "authors": [
     "discord:412377484269584400"
   ],
+  "contents": [
+    {
+      "description": "Multipurpose bot including Moderation, Fun, Economy and more!",
+      "locale": "en-GB",
+      "name": "K - Mod",
+      "page": "Type +help for list of commands. K Mod has over 40+ commands and is a Multipurpose bot which has Moderation, Fun, Economy and more commands coming soon."
+    }
+  ],
   "created": 1575681270993,
   "edited": 1575681270993,
   "flags": {
@@ -32,9 +40,6 @@
     "youtube": null
   },
   "website": "https://k-development.glitch.me/",
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "utility"

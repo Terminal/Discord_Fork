@@ -2,6 +2,14 @@
   "authors": [
     "discord:471973265594908673"
   ],
+  "contents": [
+    {
+      "description": "Naknak Bot | Moderation | Fun | Website | Dashboard | Giveaways and more...",
+      "locale": "en-GB",
+      "name": "Naknak Bot",
+      "page": "**Naknak Bot** is bot with alot of **commands, moderation, fun, giveaway, dashboard, music, and more...**\r\nany help you need on the bot you can join our *support server*\r\nany suggestion you have to the bot you can send it with `?sug `\r\nany bug you found on the bot you can report it with `?bug `\r\nthe bot have two prefix `?` and @Naknak Bot"
+    }
+  ],
   "created": 1558929989924,
   "edited": 1558929989924,
   "flags": {
@@ -30,9 +38,6 @@
     "youtube": null
   },
   "website": "https://naknak-bot.tk",
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "moderation"

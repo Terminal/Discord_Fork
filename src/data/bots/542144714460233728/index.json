@@ -2,6 +2,14 @@
   "authors": [
     "discord:299708692129906692"
   ],
+  "contents": [
+    {
+      "description": "Fun, Utility, and Meme commands!",
+      "locale": "en-GB",
+      "name": "Google Assistant (cleverbot)",
+      "page": "Fun, Utility, and Meme commands!\r\nJust say \"hey google\" to get started."
+    }
+  ],
   "created": 1552274333522,
   "edited": 1552274333522,
   "flags": {
@@ -31,9 +39,6 @@
     "youtube": null
   },
   "website": "https://ga.sebby.tk",
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "utility"

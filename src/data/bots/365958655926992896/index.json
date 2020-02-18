@@ -1,5 +1,13 @@
 {
   "authors": [],
+  "contents": [
+    {
+      "description": "Luki is an easy-to-use bot with commands that can be used for fun, moderation, games, and more!",
+      "locale": "en-GB",
+      "name": "Luki",
+      "page": ""
+    }
+  ],
   "created": 1542569433000,
   "edited": 1542569433000,
   "flags": {
@@ -25,9 +33,6 @@
   },
   "videos": {},
   "website": null,
-  "pages": [
-    "en-GB"
-  ],
   "source": "https://github.com/LukiBot/Luki",
   "categories": [
     "other"

@@ -2,6 +2,14 @@
   "authors": [
     "discord:261674810914897931"
   ],
+  "contents": [
+    {
+      "description": "Money/Economy/Currency customisable per server",
+      "locale": "en-GB",
+      "name": "UnbelievaBoat",
+      "page": "<iframe src=\"https://unbelievable.pizza/commands\" class=\"ls-iframe\"></iframe>\r\n<!--\r\nThis data was imported from ls.terminal.ink\r\n-->\r\n"
+    }
+  ],
   "created": 1527811200000,
   "edited": 1556752024976,
   "flags": {
@@ -30,9 +38,6 @@
     "youtube": null
   },
   "website": "https://unbelievable.pizza/",
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "other"

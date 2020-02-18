@@ -2,6 +2,14 @@
   "authors": [
     "discord:190519304972664832"
   ],
+  "contents": [
+    {
+      "description": "Recieve emails to your Discord server using the power of webhooks!",
+      "locale": "en-GB",
+      "name": "DiscordMail",
+      "page": "### Recieve E-Mails via a Discord Channel\r\n\r\nDiscordMail allows you to recieve emails from a Discord Channel!\r\nJust invite and type `dmail register`.\r\n\r\n#### Commands\r\n\r\n- `encode`\r\n  - Turn a webhook into an email.\r\n- `decode`\r\n  - Turn an email back into a webhook.\r\n- **`register`**\r\n  - Automatically create a webhook and email\r\n\r\n<!-- Test of parcel -->"
+    }
+  ],
   "created": 1542569433000,
   "edited": 1555282484017,
   "flags": {
@@ -33,9 +41,6 @@
     "youtube": "A4a4aLlBnDc"
   },
   "website": "https://discordmail.com/",
-  "pages": [
-    "en-GB"
-  ],
   "source": "https://github.com/moustacheminer/discordmailhooks",
   "categories": [
     "notifications"

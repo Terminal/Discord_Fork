@@ -2,6 +2,20 @@
   "authors": [
     "discord:197448151064379393"
   ],
+  "contents": [
+    {
+      "description": "Uno, Trivia, Hangman, Minesweeper, Connect 4, right from chat! Leaderboards, languages & more!",
+      "locale": "en-GB",
+      "name": "GamesROB",
+      "page": "Play chat games right from your Discord server, including Uno, Hangman, Minesweeper, Connect Four and more! It supports multiplayer and single player games, leaderboards and languages. Have fun!"
+    },
+    {
+      "description": " Uno, Trivia, Forca, Campo Minado, Lig 4 e mais, direto do seu chat! Competições, linguagens & mais!",
+      "locale": "pt",
+      "name": "GamesROB",
+      "page": "Jogos de chat direto do seu servidor no Discord, incluindo Uno, Forca, Campo Minado, Lig 4 e mais! Suporte a jogos de múltiplos e um só jogador, competições e linguagens. Se divirta!"
+    }
+  ],
   "created": 1556243547062,
   "edited": 1556331901537,
   "flags": {
@@ -33,10 +47,6 @@
     "youtube": null
   },
   "website": "https://gamesrob.com",
-  "pages": [
-    "en-GB",
-    "pt"
-  ],
   "source": null,
   "categories": [
     "fun"

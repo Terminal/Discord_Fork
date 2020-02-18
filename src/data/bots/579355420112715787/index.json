@@ -2,6 +2,14 @@
   "authors": [
     "discord:579094758929072179"
   ],
+  "contents": [
+    {
+      "description": "HytaleBot is a simple bot about the Hytale game, with wiki, quiz and much more!",
+      "locale": "en-GB",
+      "name": "HytaleBot",
+      "page": "# HytaleBot\r\n\r\nHytaleBot is a simple bot about the Hytale game, with wiki, quiz and much more!\r\n\r\nTo start, use `/help` command.\r\n\r\nIf you have manage guild permission, type `/config` to configure the bot."
+    }
+  ],
   "created": 1559493877878,
   "edited": 1559493877878,
   "flags": {
@@ -30,9 +38,6 @@
     "youtube": null
   },
   "website": null,
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "games"

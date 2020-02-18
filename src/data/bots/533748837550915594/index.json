@@ -2,6 +2,14 @@
   "authors": [
     "discord:485915627530485760"
   ],
+  "contents": [
+    {
+      "description": "A Simple bot that displays the status of Discord.",
+      "locale": "en-GB",
+      "name": "Discord Status",
+      "page": "Discord Status is just a simple discord.js bot made by ItsWolfiePlaysMC#4417 to display the status of discord. (Main Command: s!status)"
+    }
+  ],
   "created": 1548565074092,
   "edited": 1548565074092,
   "flags": {
@@ -31,9 +39,6 @@
     "youtube": null
   },
   "website": null,
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "utility"

@@ -2,6 +2,14 @@
   "authors": [
     "discord:503909141253849118"
   ],
+  "contents": [
+    {
+      "description": "Moderation, Memes and many more!",
+      "locale": "en-GB",
+      "name": "IzTheKing",
+      "page": "This is a hopefully cool Discord Bot! \r\nWith moderation memes, Utility, and Games! \r\nFor commands type: !help \r\nyou want suggesting something for my Bot? \r\n!suggest <Your Suggestion> \r\n  When you need help with something? \r\n  !discord and join our Support Server! \r\n  I'm not everytime online but please be patient with waiting! \r\n  Thanks for adding my Bot! \r\n  Have a great Day!"
+    }
+  ],
   "created": 1567535592842,
   "edited": 1567883492184,
   "flags": {
@@ -30,9 +38,6 @@
     "youtube": null
   },
   "website": null,
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "utility"

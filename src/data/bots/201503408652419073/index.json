@@ -2,6 +2,14 @@
   "authors": [
     "discord:138481382794985472"
   ],
+  "contents": [
+    {
+      "description": "The music bot themed for toxic meme lords",
+      "locale": "en-GB",
+      "name": "Best meme bot",
+      "page": "<iframe src=\"https://gnarbot.xyz/\" class=\"ls-iframe\">\r\n<!--\r\nThis data was imported from ls.terminal.ink\r\n-->\r\n"
+    }
+  ],
   "created": 1527811200000,
   "edited": 1556751614791,
   "flags": {
@@ -30,9 +38,6 @@
     "youtube": null
   },
   "website": null,
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "other"

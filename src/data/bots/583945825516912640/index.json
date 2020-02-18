@@ -3,6 +3,14 @@
     "discord:461573358551695370",
     "discord:300577300242759682"
   ],
+  "contents": [
+    {
+      "description": "An Indonesian multifunction discord bot that has many features",
+      "locale": "en-GB",
+      "name": "SmartBot",
+      "page": "A multifunction discord bot that has many features, like economy, music, logging, moderation and more.\r\n# Fitur\r\n- Economy\r\n- Logging\r\n- Moderation\r\n- Music\r\n- Utility\r\n- Using Bahasa Indonesia\r\n\r\n# Usefull Links\r\n- [Support Server](https://discord.gg/wBRwKRn) *(We speak english too)*\r\n- [INDO GAMERS](https://discord.gg/ZNzjgxA)"
+    }
+  ],
   "created": 1566140779289,
   "edited": 1566140779289,
   "flags": {
@@ -31,9 +39,6 @@
     "youtube": null
   },
   "website": null,
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "moderation"

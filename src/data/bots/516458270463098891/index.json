@@ -2,6 +2,14 @@
   "authors": [
     "discord:484765734803734540"
   ],
+  "contents": [
+    {
+      "description": "Best waifu bot there is, she can do more than your waifu.",
+      "locale": "en-GB",
+      "name": "Ilya",
+      "page": "Ilya\r\nIlya was crafted to be use-able by anyone, wether you have knowledge of discord or not\r\nShe has a easy to use prefix, command layout & ease-of-access help menu.\r\nIlya's commands is fun so you'll never have a boring moment on discord with your friends!\r\n\r\nDid you know?\r\nYou can customize the prefix with -prefix"
+    }
+  ],
   "created": 1544775591894,
   "edited": 1544841761351,
   "flags": {
@@ -28,9 +36,6 @@
   },
   "videos": {},
   "website": "https://etcroot.pw/ilya/",
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "entertainment"

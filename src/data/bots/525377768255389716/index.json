@@ -2,6 +2,14 @@
   "authors": [
     "discord:396086395652800513"
   ],
+  "contents": [
+    {
+      "description": "A Music Bot with extra functionality like Spotify and Polls",
+      "locale": "en-GB",
+      "name": "Semnatic",
+      "page": "The SemnaticBOT stands out because it has features that other leading Musicbots lack.\r\n\r\nFor Example the Spotify function:\r\n\r\nYou can play Music with the s!music play command\r\n\r\nExamples:\r\n\r\n`s!music play https://open.spotify.com/track/6E1ycDlhmqMzaLxi1msK4G?si=o1prxFsZQuGUojBYPuwZiw`\r\n\r\n`s!music play https://www.youtube.com/watch?v=OrsAiOeNnPk`\r\n\r\nAlso multilanguage is in progress.\r\nThe default language is English.\r\n\r\nAll Commands:\r\n- s!help\r\n- s!music\r\n- s!poll\r\n- s!nsfw - only works in nsfw channels\r\n- s!hentai - only works in nsfw channels\r\n- s!info\r\n- s!rank"
+    }
+  ],
   "created": 1550602301932,
   "edited": 1550602301932,
   "flags": {
@@ -31,9 +39,6 @@
     "youtube": null
   },
   "website": null,
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "utility"

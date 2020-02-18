@@ -2,6 +2,20 @@
   "authors": [
     "discord:166678366752079873"
   ],
+  "contents": [
+    {
+      "description": "[English/Español] Memes, reddit, role dices, NSFW, traps... Check the commands",
+      "locale": "en-GB",
+      "name": "Paco el de la Bomba",
+      "page": "## ENGLISH\r\n\r\nPaco el de la Bomba has different commands. In general, it allows you to launch roll dice, send replies, interact with some phrases of the chat, send memes of all kinds, allow to speak through it, consult Reddit to get images of Minecraft, Pokemon, memes, adult content, etc. \r\n\r\n▶Command list: https://goo.gl/oU9B8d\r\n\r\n▶You can also write +COMMANDS in Discord.\r\n\r\n---\r\n\r\n## ESPAÑOL\r\n\r\nPaco el de la Bomba tiene diversos comandos que van desde pequeñas respuestas, como el comando +Paco, a muchas otras funcionalidades. En general permite lanzar dados de rol, envía respuestas, tiene interacciones a algunas frases del chat, envía memes de todo tipo, consulta a Reddit para conseguir imágenes de Minecraft, Pokemon, memes, contenido de adulto, permite hablar a través de él, etc.\r\n\r\n▶Lista de comandos: https://goo.gl/fPk7XU\r\n\r\n▶También puedes escribir +COMANDOS en Discord.\r\n"
+    },
+    {
+      "description": "[English/Español] Memes, reddit, dados de rol, NSFW, traps... Consulta los comandos",
+      "locale": "es",
+      "name": "Paco el de la Bomba",
+      "page": "## ESPAÑOL\r\n\r\nPaco el de la Bomba tiene diversos comandos que van desde pequeñas respuestas, como el comando +Paco, a muchas otras funcionalidades. En general permite lanzar dados de rol, envía respuestas, tiene interacciones a algunas frases del chat, envía memes de todo tipo, consulta a Reddit para conseguir imágenes de Minecraft, Pokemon, memes, contenido de adulto, permite hablar a través de él, etc.\r\n\r\n▶Lista de comandos: https://goo.gl/fPk7XU\r\n\r\n▶También puedes escribir +COMANDOS en Discord.\r\n\r\n---\r\n\r\n## ENGLISH\r\n\r\nPaco el de la Bomba has different commands. In general, it allows you to launch roll dice, send replies, interact with some phrases of the chat, send memes of all kinds, allow to speak through it, consult Reddit to get images of Minecraft, Pokemon, memes, adult content, etc. \r\n\r\n▶Command list: https://goo.gl/oU9B8d\r\n\r\n▶You can also write +COMMANDS in Discord."
+    }
+  ],
   "created": 1549711752792,
   "edited": 1551301588817,
   "flags": {
@@ -31,10 +45,6 @@
     "youtube": null
   },
   "website": null,
-  "pages": [
-    "en-GB",
-    "es"
-  ],
   "source": "https://github.com/Dequei/BotPacoPaquitoPocoPaquete",
   "categories": [
     "fun"

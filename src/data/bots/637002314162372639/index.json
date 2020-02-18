@@ -2,6 +2,14 @@
   "authors": [
     "discord:261083609148948488"
   ],
+  "contents": [
+    {
+      "description": "Hadder is a multi-purpose Discord bot.",
+      "locale": "en-GB",
+      "name": "Hadder",
+      "page": "The Hadder Discord bot is an multi-purpose Discord Bot with arround 10 commands.\r\nCommand List:\r\n- Kick Command\r\n- Ban Command\r\n- Clear Command\r\n- GitHub Command\r\n- Gif Command\r\n- Prefix Command\r\n\r\nWe are constantly working on new features for the bot. And we'll releasing a very nice Web Panel soon."
+    }
+  ],
   "created": 1572702559948,
   "edited": 1572702559948,
   "flags": {
@@ -30,9 +38,6 @@
     "youtube": null
   },
   "website": "https://bigbotnetwork.de/Hadder",
-  "pages": [
-    "en-GB"
-  ],
   "source": "https://github.com/GregTCLTK/bigbotnetwork",
   "categories": [
     "moderation"

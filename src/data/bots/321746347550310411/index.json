@@ -2,6 +2,14 @@
   "authors": [
     "discord:158311402677731328"
   ],
+  "contents": [
+    {
+      "description": "A multipurpose, open-source (GPLv3) Discord bot made by theLMGN",
+      "locale": "en-GB",
+      "name": "Botstion",
+      "page": "Botstion is an open-source Discord.js with the aim of opening Discord channels to as many APIs as possible."
+    }
+  ],
   "created": 1554838842370,
   "edited": 1554838890764,
   "flags": {
@@ -30,9 +38,6 @@
     "youtube": null
   },
   "website": "https://botstion.com",
-  "pages": [
-    "en-GB"
-  ],
   "source": "https://github.com/theLMGN/Botstion",
   "categories": [
     "utility"

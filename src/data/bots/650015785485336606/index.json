@@ -2,6 +2,14 @@
   "authors": [
     "discord:617619498765385729"
   ],
+  "contents": [
+    {
+      "description": "An anime based Hentai / Image / RolePlay bot",
+      "locale": "en-GB",
+      "name": "Saki",
+      "page": "An anime based Hentai / Image / RolePlay bot which features include:\r\nImage / Gif Reactions, Actions & Expressions\r\nLoads of hentai\r\nDoujinshi look-up\r\n& more!\r\nWe are constantly working to make the bot better, faster, and more enjoyable for everyone!\r\nWhy? Well isn't it obvious, because we love hentai."
+    }
+  ],
   "created": 1575140800816,
   "edited": 1575140800816,
   "flags": {
@@ -31,9 +39,6 @@
     "youtube": null
   },
   "website": null,
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "fun"

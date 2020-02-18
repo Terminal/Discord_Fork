@@ -3,6 +3,14 @@
     "discord:223806022588956673",
     "discord:180491463967244288"
   ],
+  "contents": [
+    {
+      "description": "Bot focused on guild management and adding interesting and useful functionality to your server.",
+      "locale": "en-GB",
+      "name": "Spudnik",
+      "page": "Spudnik is a free and open source Discord chat bot focused on guild management and adding interesting and useful functionality to your server. It was built on top of some of the most popular and widely used frameworks for extendibility, and written with organization and stability in mind. It also ships with ZERO weeb commands/references!\r\n\r\nLearn more here: https://spudnik.io"
+    }
+  ],
   "created": 1565744661353,
   "edited": 1565744711739,
   "flags": {
@@ -31,9 +39,6 @@
     "youtube": null
   },
   "website": "https://spudnik.io",
-  "pages": [
-    "en-GB"
-  ],
   "source": "https://github.com/Spudnik-Group/Spudnik",
   "categories": [
     "moderation"

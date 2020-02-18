@@ -1,5 +1,13 @@
 {
   "authors": [],
+  "contents": [
+    {
+      "description": "A powerful bot to Moderate your discord server!",
+      "locale": "en-GB",
+      "name": "Moderation Bot",
+      "page": ""
+    }
+  ],
   "created": 1542569433000,
   "edited": 1542569433000,
   "flags": {
@@ -23,9 +31,6 @@
   },
   "videos": {},
   "website": null,
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "other"

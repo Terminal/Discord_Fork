@@ -1,5 +1,13 @@
 {
   "authors": [],
+  "contents": [
+    {
+      "description": "Multipurpose Python bot",
+      "locale": "en-GB",
+      "name": "voidbot",
+      "page": ""
+    }
+  ],
   "created": 1542569433000,
   "edited": 1542569433000,
   "flags": {
@@ -23,9 +31,6 @@
   },
   "videos": {},
   "website": null,
-  "pages": [
-    "en-GB"
-  ],
   "source": "https://github.com/ry0id/voidbot",
   "categories": [
     "other"

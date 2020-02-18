@@ -2,6 +2,14 @@
   "authors": [
     "discord:608016922814054431"
   ],
+  "contents": [
+    {
+      "description": "A multi purpose bot which has moderation, fun, & roleplay commands ",
+      "locale": "en-GB",
+      "name": "Kitkat",
+      "page": "Kitkat is a fun, moderation & roleplay command discord bot.\r\nwhich has lots of moderation functions Like Ticket system, kick, ban, warn, userinfo & many more.\r\nalso its gonna work as a welcomer bot if you want to.\r\nIt has lots of fun commands like meme, poll, say, 8ball, wyr, & many more \r\nHas lots of roleplay commands too like cry, slap, blush, hug & many more\r\nlets say a truly multi functional discord bot "
+    }
+  ],
   "created": 1573521371479,
   "edited": 1573574608571,
   "flags": {
@@ -30,9 +38,6 @@
     "youtube": null
   },
   "website": null,
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "moderation"

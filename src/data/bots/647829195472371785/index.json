@@ -2,6 +2,14 @@
   "authors": [
     "discord:355121277046095872"
   ],
+  "contents": [
+    {
+      "description": "I'm a bot that sends Growtopia update to your discord server!",
+      "locale": "en-GB",
+      "name": "GrowNews",
+      "page": "I'm a bot that sends Growtopia updates(such as daily quest, wotd, votw, role day, etc.) to your discord server!"
+    }
+  ],
   "created": 1574796030137,
   "edited": 1574796030137,
   "flags": {
@@ -30,9 +38,6 @@
     "youtube": null
   },
   "website": null,
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "utility"

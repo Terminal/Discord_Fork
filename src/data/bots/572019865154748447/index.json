@@ -2,6 +2,14 @@
   "authors": [
     "discord:295069016660377600"
   ],
+  "contents": [
+    {
+      "description": "Rıynux , Her gün durmaksızın gelişen bir bot.",
+      "locale": "tr",
+      "name": "Rıynux",
+      "page": "Her gün gelişen türkçe discord botudur."
+    }
+  ],
   "created": 1560053736980,
   "edited": 1560053736980,
   "flags": {
@@ -30,9 +38,6 @@
     "youtube": null
   },
   "website": null,
-  "pages": [
-    "tr"
-  ],
   "source": null,
   "categories": [
     "fun"

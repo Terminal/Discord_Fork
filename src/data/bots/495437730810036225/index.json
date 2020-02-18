@@ -2,6 +2,14 @@
   "authors": [
     "discord:248294452307689473"
   ],
+  "contents": [
+    {
+      "description": "Lovely pictures of Thighs!",
+      "locale": "en-GB",
+      "name": "ThighBot™",
+      "page": "[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://paypal.me/boobbot)\r\n# thighs, need i say more?\r\n\r\nThis is a cool bot that you should accept.\r\nReasons include:\r\n- Only thigh bot\r\n- it's literally only sexy thighs why are you still reading this, just click add \r\n- Being awesome\r\n- Not being un-awesome\r\n- a boobbot bot 🍑\r\n\r\n"
+    }
+  ],
   "created": 1542569433000,
   "edited": 1542589790225,
   "flags": {
@@ -28,9 +36,6 @@
   },
   "videos": {},
   "website": null,
-  "pages": [
-    "en-GB"
-  ],
   "source": "https://github.com/Nekos-life/neko-bot-jda",
   "categories": [
     "other"

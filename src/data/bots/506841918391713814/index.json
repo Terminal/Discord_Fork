@@ -2,6 +2,14 @@
   "authors": [
     "discord:366454817373290508"
   ],
+  "contents": [
+    {
+      "description": "A bot for splatoon related activities",
+      "locale": "en-GB",
+      "name": "Octoling",
+      "page": "# Octoling \r\n## A bot for splatoon related activities \r\n\r\n\r\n## Commands\r\n\r\n| LFG | LFG commands |\r\n| ----------- | ----------- |\r\n| assignlfg  | Assigns the set LFG role |\r\n| lfgrole | Creates the LFG role |\r\n| registerg | Registers your guild |\r\n| removelfg | Removes the set LFG role |\r\n\r\n\r\n| Maps | Map commands |\r\n| ------- | -------- |\r\n| league | Gives you the current and next league map set |\r\n| ranked | Gives you the current and next ranked map set |\r\n| regular | Gives you the current and next regular map set |\r\n\r\n\r\n| Profile | Profile commands |\r\n| -------- | -------------- |\r\n| profile | Gives your or a users profile |\r\n| register | Registers you a profile | \r\n| set | Commands to set values in your profile |\r\n"
+    }
+  ],
   "created": 1547695288710,
   "edited": 1547695288710,
   "flags": {
@@ -31,9 +39,6 @@
     "youtube": null
   },
   "website": "https://stylite.me",
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "games"

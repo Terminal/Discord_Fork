@@ -2,6 +2,14 @@
   "authors": [
     "discord:153353572711530496"
   ],
+  "contents": [
+    {
+      "description": "Music, Moderation and Utility bot for your discord server.",
+      "locale": "en-GB",
+      "name": "Craftxbot",
+      "page": "Craftxbot is a bot for your discord server, it can play music from all your favorite sites, help you moderate your server and more!\r\n\r\n"
+    }
+  ],
   "created": 1544321053230,
   "edited": 1544321053230,
   "flags": {
@@ -28,9 +36,6 @@
   },
   "videos": {},
   "website": "https://craftxbot.discord.bot",
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "music"

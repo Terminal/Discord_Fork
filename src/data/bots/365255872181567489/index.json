@@ -2,6 +2,14 @@
   "authors": [
     "discord:158750488563679232"
   ],
+  "contents": [
+    {
+      "description": "yup, it's the worst furry discord bot coming to your server",
+      "locale": "en-GB",
+      "name": "owopup",
+      "page": " 🐾 owopup 🐾\r\n==========\r\nA discord bot built for floofy discord communities! \r\nCurrently, owopup can bring the following to your server:\r\n- Shipping\r\n- Moderation\r\n- Images\r\n- Lots of OwOs\r\n- And much more!"
+    }
+  ],
   "created": 1550769899354,
   "edited": 1550769899354,
   "flags": {
@@ -31,9 +39,6 @@
     "youtube": null
   },
   "website": null,
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "fun"

@@ -2,6 +2,14 @@
   "authors": [
     "discord:320877637528453120"
   ],
+  "contents": [
+    {
+      "description": "A cool bot with coommands and replayes",
+      "locale": "he",
+      "name": "Cutecat",
+      "page": "My bot is a very basic bot, but with lots of plugins and commands,\r\nthe bot has the option to form a reception for the staff without a form. With a simple command,\r\nVidar centralizes everything, the bot also has financial inquiries for the staff, you can report a player and it is sent it to the staff.\r\nsay, the botsays what you write, of course there is the music command, and lots more !!!,\r\norder the peanuts to "
+    }
+  ],
   "created": 1545506274516,
   "edited": 1545837786406,
   "flags": {
@@ -28,9 +36,6 @@
   },
   "videos": {},
   "website": null,
-  "pages": [
-    "he"
-  ],
   "source": null,
   "categories": [
     "music"

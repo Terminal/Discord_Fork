@@ -2,6 +2,14 @@
   "authors": [
     "discord:250322741406859265"
   ],
+  "contents": [
+    {
+      "description": "A general use bot.",
+      "locale": "en-GB",
+      "name": "HoardBot",
+      "page": "Good bot, does good things.\r\nMost, if not all of the features implemented in the bot have come from user suggestions.\r\nHave a suggestion? Join the Support Server to share it! Some of the current features include:\r\n\r\nGlobal User Profiles.\r\nStats persist across servers.\r\nCustom biographies and backgrounds.\r\nFact lookup with Wolfram|Alpha.\r\nGlobal currency system seamlessly integrated with your profile.\r\nAllow the community to pin messages that they enjoy using reactions.\r\nCreate polls for other's to vote on."
+    }
+  ],
   "created": 1550213229294,
   "edited": 1550213229294,
   "flags": {
@@ -31,9 +39,6 @@
     "youtube": null
   },
   "website": "https://hoardbot.gordhoard.org",
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "fun"

@@ -1,5 +1,13 @@
 {
   "authors": [],
+  "contents": [
+    {
+      "description": "Charlotte - A kawaii discord bot for your specific needs",
+      "locale": "en-GB",
+      "name": "Charlotte",
+      "page": ""
+    }
+  ],
   "created": 1542569433000,
   "edited": 1542569433000,
   "flags": {
@@ -23,9 +31,6 @@
   },
   "videos": {},
   "website": null,
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "other"

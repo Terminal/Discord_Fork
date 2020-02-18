@@ -2,6 +2,14 @@
   "authors": [
     "discord:242843345402069002"
   ],
+  "contents": [
+    {
+      "description": "A fun multi-purpose bot for (furry) Discord servers!",
+      "locale": "en-GB",
+      "name": "Furry Bot",
+      "page": "<iframe src=\"https://furry.bot?botlist\" width=\"100%\" height=\"100%\"></iframe>\r\n"
+    }
+  ],
   "created": 1542569433000,
   "edited": 1573661012667,
   "flags": {
@@ -33,9 +41,6 @@
     "youtube": null
   },
   "website": "https://furry.bot",
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "entertainment"

@@ -2,6 +2,14 @@
   "authors": [
     "discord:255114091360681986"
   ],
+  "contents": [
+    {
+      "description": "A news bot made in Python and Discord.py.",
+      "locale": "en-GB",
+      "name": "Grape",
+      "page": "# GrapeBot\r\nGrape is one of Discord's only news bots, with over 130 sources and an RSS reader. More news related commands are coming soon, such as news radios and broadcasts.\r\n\r\n"
+    }
+  ],
   "created": 1542569433000,
   "edited": 1544489895523,
   "flags": {
@@ -28,9 +36,6 @@
   },
   "videos": {},
   "website": null,
-  "pages": [
-    "en-GB"
-  ],
   "source": "https://github.com/CircuitCodes/GrapeBot",
   "categories": [
     "news"

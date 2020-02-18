@@ -2,6 +2,14 @@
   "authors": [
     "discord:180093157554388993"
   ],
+  "contents": [
+    {
+      "description": "all it takes is a m o d d y b o y e to keep your server clean",
+      "locale": "en-GB",
+      "name": "Parallax",
+      "page": "moderation for your server :ok_hand:\r\n<!--\r\nThis data was imported from ls.terminal.ink\r\n-->\r\n"
+    }
+  ],
   "created": 1527811200000,
   "edited": 1555426098098,
   "flags": {
@@ -30,9 +38,6 @@
     "youtube": null
   },
   "website": null,
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "other"

@@ -2,6 +2,14 @@
   "authors": [
     "discord:103347843934212096"
   ],
+  "contents": [
+    {
+      "description": "A multipurpose discord bot - Moderation and Fun!",
+      "locale": "en-GB",
+      "name": "blargbot",
+      "page": "<iframe src=\"https://blargbot.xyz/\" class=\"ls-iframe\"></iframe>\r\n<!--\r\nThis data was imported from ls.terminal.ink\r\n-->\r\n"
+    }
+  ],
   "created": 1527811200000,
   "edited": 1556752160635,
   "flags": {
@@ -30,9 +38,6 @@
     "youtube": null
   },
   "website": null,
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "other"

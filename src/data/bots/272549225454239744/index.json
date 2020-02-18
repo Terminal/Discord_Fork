@@ -1,5 +1,13 @@
 {
   "authors": [],
+  "contents": [
+    {
+      "description": "(Mostly) multi purpose bot.",
+      "locale": "en-GB",
+      "name": "lolbot",
+      "page": "<marquee>YEET</marquee>\n"
+    }
+  ],
   "created": 1542569433000,
   "edited": 1542569433000,
   "flags": {
@@ -23,9 +31,6 @@
   },
   "videos": {},
   "website": null,
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "other"

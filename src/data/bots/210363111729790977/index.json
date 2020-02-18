@@ -2,6 +2,14 @@
   "authors": [
     "discord:191231307290771456"
   ],
+  "contents": [
+    {
+      "description": "A chat bot with mod and music commands (plays from spotify)",
+      "locale": "en-GB",
+      "name": "dunctebot",
+      "page": "<iframe src=\"https://bot.duncte123.me/#commands\" class=\"ls-iframe\">\r\n<!--\r\nThis data was imported from ls.terminal.ink\r\n-->\r\n"
+    }
+  ],
   "created": 1527811200000,
   "edited": 1556751935919,
   "flags": {
@@ -30,9 +38,6 @@
     "youtube": null
   },
   "website": null,
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "other"

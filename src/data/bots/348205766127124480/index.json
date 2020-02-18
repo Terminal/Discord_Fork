@@ -2,6 +2,14 @@
   "authors": [
     "discord:220271040658407424"
   ],
+  "contents": [
+    {
+      "description": "An intuitive music bot",
+      "locale": "en-GB",
+      "name": "TurtleBot",
+      "page": "Visit https://turtle-bot.com/docs to see information on how to use the bot. "
+    }
+  ],
   "created": 1565380265238,
   "edited": 1565380280117,
   "flags": {
@@ -30,9 +38,6 @@
     "youtube": null
   },
   "website": "https://turtle-bot.com",
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "music"

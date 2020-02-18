@@ -2,6 +2,14 @@
   "authors": [
     "discord:236514700257525772"
   ],
+  "contents": [
+    {
+      "description": "Play songs and search for song lyrics and info from inside Discord!",
+      "locale": "en-GB",
+      "name": "Spoti-Search",
+      "page": "<!--\r\n    Please fill out\r\n-->"
+    }
+  ],
   "created": 1542569433000,
   "edited": 1546458520062,
   "flags": {
@@ -28,9 +36,6 @@
   },
   "videos": {},
   "website": null,
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "other"

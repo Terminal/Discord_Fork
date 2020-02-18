@@ -2,6 +2,14 @@
   "authors": [
     "discord:219067402174988290"
   ],
+  "contents": [
+    {
+      "description": "Music, anime and more...",
+      "locale": "en-GB",
+      "name": "Kyoko",
+      "page": "<!--\r\n\r\nDescription!\r\n\r\n-->"
+    }
+  ],
   "created": 1542569433000,
   "edited": 1553278936508,
   "flags": {
@@ -31,9 +39,6 @@
     "youtube": null
   },
   "website": null,
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "other"

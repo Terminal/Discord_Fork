@@ -1,5 +1,13 @@
 {
   "authors": [],
+  "contents": [
+    {
+      "description": "A lot of commands! The best bot that you ever seen, moderation, fun, utility!",
+      "locale": "en-GB",
+      "name": "LxiBot",
+      "page": " A lot of commands! The best bot that you ever seen, moderation, fun, utility!\n With Global Chat, the docs are on https://lxibot.gitbook.io/commands/"
+    }
+  ],
   "created": 1542569433000,
   "edited": 1542569433000,
   "flags": {
@@ -25,9 +33,6 @@
   },
   "videos": {},
   "website": null,
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "other"

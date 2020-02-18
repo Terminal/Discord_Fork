@@ -3,6 +3,14 @@
     "discord:181353804266995713",
     "discord:95475674269093888"
   ],
+  "contents": [
+    {
+      "description": "An everything Discord bot.",
+      "locale": "en-GB",
+      "name": "Birb",
+      "page": "An everything Discord bot!\r\n<!--\r\nThis data was imported from ls.terminal.ink\r\n-->\r\n"
+    }
+  ],
   "created": 1527811200000,
   "edited": 1544140842468,
   "flags": {
@@ -29,9 +37,6 @@
   },
   "videos": {},
   "website": null,
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "other"

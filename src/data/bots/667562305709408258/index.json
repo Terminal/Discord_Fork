@@ -2,6 +2,14 @@
   "authors": [
     "discord:158049329150427136"
   ],
+  "contents": [
+    {
+      "description": "Port of twitter bot @this__vid3: The objectively best Discord video downloader.",
+      "locale": "en-GB",
+      "name": "DiscordVid2",
+      "page": "# DiscordVid2\r\nA port of T-P0ser's [@this__vid3](https://github.com/T-P0ser/this__vid3/) Twitter bot to Discord.\r\n\r\nEasily \"download\" videos by mentioning DiscordVid2 after a video! You can see the list of commands with `dvid2 help`!\r\n- Respects spoilers!\r\n- Can download using attachments, URLs and from past messages!\r\n- Uses random prompts for each download!\r\n\r\n![](https://i.imgur.com/xbezMfB.png)"
+    }
+  ],
   "created": 1580681009179,
   "edited": 1580681009179,
   "flags": {
@@ -31,9 +39,6 @@
     "youtube": null
   },
   "website": "https://photobox.pw",
-  "pages": [
-    "en-GB"
-  ],
   "source": "https://github.com/Snazzah/DiscordVid2",
   "categories": [
     "fun"

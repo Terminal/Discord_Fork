@@ -2,6 +2,14 @@
   "authors": [
     "discord:311604263379795970"
   ],
+  "contents": [
+    {
+      "description": "Watchdog Bot || Moderation || Economy || Music || Fun",
+      "locale": "en-GB",
+      "name": "Watchdog Bot",
+      "page": "**Watchdog Bot** is bot of *Moderation*, *Music*, *Economy* and *Fun* you can visit the bot server by type `/server` invite the bot by type `/invite` and setup the bot with `/config` (the bot need `add reactions` permission)"
+    }
+  ],
   "created": 1545329858218,
   "edited": 1545329858218,
   "flags": {
@@ -31,9 +39,6 @@
     "youtube": null
   },
   "website": "https://watchdog.glitch.me/commands",
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "fun"

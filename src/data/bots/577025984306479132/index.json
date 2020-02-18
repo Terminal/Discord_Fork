@@ -2,6 +2,14 @@
   "authors": [
     "discord:402316460325601292"
   ],
+  "contents": [
+    {
+      "description": "A discord bot for your server entertainment.",
+      "locale": "en-GB",
+      "name": "Shiro",
+      "page": "A Discord bot trying to be one of the most powerful and All-In-One discord bot.\r\nWe have a large library of commands like...\r\n`s!ping` - To check whether the bot is alive?` s!help` - Some help info lol. `s!hug` - I wanna hug someone.... :c `s!kiss` - Kissu :3 `s!cuddle` - CUDDDDDLLLEEESSS!!! `s!kick` - Why you break rules? `s!ban` - I TOLD YOU NOT TO BREAK RULES OVER AND OVER AGAIN!? And much more... We've over 100+ commands. :3\r\n\r\nAlso! We have a website and a dashboard now! YAY!!!\r\n"
+    }
+  ],
   "created": 1562170318668,
   "edited": 1562170318668,
   "flags": {
@@ -34,9 +42,6 @@
     "youtube": null
   },
   "website": "https://shirobot.gq",
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "fun"

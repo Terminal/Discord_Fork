@@ -2,6 +2,14 @@
   "authors": [
     "discord:153353572711530496"
   ],
+  "contents": [
+    {
+      "description": "Bot for protecting your server against known bad users.",
+      "locale": "en-GB",
+      "name": "Globalbans",
+      "page": "Globalbans is a central database of advertisers, spammers, harassers and other ToS violators. Globalbans will keep your server secure from Userbots, DM Advertisers, Raiders and more.\r\n\r\n"
+    }
+  ],
   "created": 1544323935729,
   "edited": 1544323935729,
   "flags": {
@@ -28,9 +36,6 @@
   },
   "videos": {},
   "website": null,
-  "pages": [
-    "en-GB"
-  ],
   "source": "https://github.com/craftxbox/globalbans",
   "categories": [
     "moderation"

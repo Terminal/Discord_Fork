@@ -2,6 +2,14 @@
   "authors": [
     "discord:180093157554388993"
   ],
+  "contents": [
+    {
+      "description": "High quality music • PornHub & Spotify Support • Bass Boost",
+      "locale": "en-GB",
+      "name": "JukeBot",
+      "page": "SKSKSKSKSKSKSKSKSKSKSKSKSKSKSKSKSKSKSKSK\r\n"
+    }
+  ],
   "created": 1542569433000,
   "edited": 1563314884165,
   "flags": {
@@ -30,9 +38,6 @@
     "youtube": null
   },
   "website": null,
-  "pages": [
-    "en-GB"
-  ],
   "source": "https://github.com/Devoxin/JukeBot",
   "categories": [
     "music"

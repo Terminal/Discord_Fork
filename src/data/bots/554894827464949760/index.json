@@ -2,6 +2,14 @@
   "authors": [
     "discord:534278477436944396"
   ],
+  "contents": [
+    {
+      "description": "A free-to-use discord partnership bot that will make your server grow in no time!",
+      "locale": "en-GB",
+      "name": "PartnerBot",
+      "page": "A free-to-use discord partnership bot that will make your server grow in no time!\r\n\r\n"
+    }
+  ],
   "created": 1552828025896,
   "edited": 1552828025896,
   "flags": {
@@ -31,9 +39,6 @@
     "youtube": null
   },
   "website": null,
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "utility"

@@ -2,6 +2,14 @@
   "authors": [
     "discord:115134128717955080"
   ],
+  "contents": [
+    {
+      "description": "An elite Discord toolbox specializing in custom commands",
+      "locale": "en-GB",
+      "name": "Arraybot",
+      "page": "<!--\r\n    Please fill this out asap.\r\n-->"
+    }
+  ],
   "created": 1542569433000,
   "edited": 1546457772120,
   "flags": {
@@ -28,9 +36,6 @@
   },
   "videos": {},
   "website": null,
-  "pages": [
-    "en-GB"
-  ],
   "source": "https://github.com/Arraying/Arraybot",
   "categories": [
     "utility"

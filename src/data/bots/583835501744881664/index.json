@@ -2,6 +2,14 @@
   "authors": [
     "discord:568247122801983510"
   ],
+  "contents": [
+    {
+      "description": "Testdddddddddd",
+      "locale": "en-GB",
+      "name": "Absolute Zero",
+      "page": "Testdddddddddddddddddddddddddddddddddddddd"
+    }
+  ],
   "created": 1568350256018,
   "edited": 1568350256018,
   "flags": {
@@ -30,9 +38,6 @@
     "youtube": null
   },
   "website": null,
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "fun"

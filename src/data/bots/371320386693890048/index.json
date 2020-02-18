@@ -1,5 +1,13 @@
 {
   "authors": [],
+  "contents": [
+    {
+      "description": "The one and only bot you will need",
+      "locale": "en-GB",
+      "name": "Brotat",
+      "page": "# Brotat\nA cool bot made in python which adds everything you want in one bot\n\nBot features:\nmodlogs\nwelcome/leave messages\nimage manipulation\nfortnite commands\nautorole\nchangeable prefix\nanti invites\nMusic\nNSFW (not a big part of the bot)\neconomy\nAnd much much more!\n"
+    }
+  ],
   "created": 1542569433000,
   "edited": 1542569433000,
   "flags": {
@@ -25,9 +33,6 @@
   },
   "videos": {},
   "website": null,
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "other"

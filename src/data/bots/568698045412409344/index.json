@@ -2,6 +2,14 @@
   "authors": [
     "discord:203104843479515136"
   ],
+  "contents": [
+    {
+      "description": "Shield is a guild moderation and configuration bot with 2 step verification moderation commands.",
+      "locale": "en-GB",
+      "name": "Shield",
+      "page": "Shield is a guild moderation and configuration bot with 2 step verification moderation commands."
+    }
+  ],
   "created": 1568038009708,
   "edited": 1568038009708,
   "flags": {
@@ -30,9 +38,6 @@
     "youtube": null
   },
   "website": "https://shieldbot.site/",
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "utility"

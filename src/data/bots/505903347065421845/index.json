@@ -2,6 +2,14 @@
   "authors": [
     "discord:273216249021071360"
   ],
+  "contents": [
+    {
+      "description": "Checks if other Discord bots have their tokens on Github",
+      "locale": "en-GB",
+      "name": "Tokenizer",
+      "page": "Usage:<br>\r\ntoken check (id)<br>\r\n<br>\r\nThere's literally nothing else."
+    }
+  ],
   "created": 1547666231378,
   "edited": 1547666231378,
   "flags": {
@@ -31,9 +39,6 @@
     "youtube": null
   },
   "website": null,
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "utility"

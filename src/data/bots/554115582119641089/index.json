@@ -2,6 +2,14 @@
   "authors": [
     "discord:384228913406017538"
   ],
+  "contents": [
+    {
+      "description": "Bringing Dating to a Whole New Level.",
+      "locale": "en-GB",
+      "name": "Tincord",
+      "page": "What is Tincord you might ask?\r\nTincord is a Tinder like Discord bot that allows you to make profiles and swipe on people.\r\n\r\nWell how does it work?\r\nAfter making a profile, you can swipe for people who may appeal to you. As the bot grows, there may be more filters you can choose from. When swiping, you can swipe left, right or skip. If you both swipe right on each other, you \"match\" and can strike up a conversation in DM.\r\n\r\nNOTE: We are not responsible for the conversations created after matching or for any unverified false information people submit.  Use at your own risk."
+    }
+  ],
   "created": 1552436377202,
   "edited": 1552436377202,
   "flags": {
@@ -37,9 +45,6 @@
     "youtube": null
   },
   "website": null,
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "utility"

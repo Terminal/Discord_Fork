@@ -2,6 +2,14 @@
   "authors": [
     "discord:507329700402561045"
   ],
+  "contents": [
+    {
+      "description": "The official manager bot for serverlist.space.",
+      "locale": "en-GB",
+      "name": "serverlist.space",
+      "page": "The serverlist.space bot is the official bot that manages your server listing on serverlist.space. You simply use the bot to add the server, and keep it there so that it can continue to make sure your invite link is functional. You can also fix your invite link on-the-fly with our easy to use commands."
+    }
+  ],
   "created": 1554154544605,
   "edited": 1554154544605,
   "flags": {
@@ -31,9 +39,6 @@
     "youtube": null
   },
   "website": "https://serverlist.space/",
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "moderation"

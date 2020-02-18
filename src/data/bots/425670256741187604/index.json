@@ -2,6 +2,14 @@
   "authors": [
     "discord:232309115865661440"
   ],
+  "contents": [
+    {
+      "description": "discord bot",
+      "locale": "en-GB",
+      "name": "Sesshomaru",
+      "page": "basic bot discord,in development"
+    }
+  ],
   "created": 1542716020590,
   "edited": 1542716020590,
   "flags": {
@@ -28,9 +36,6 @@
   },
   "videos": {},
   "website": null,
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "fun"

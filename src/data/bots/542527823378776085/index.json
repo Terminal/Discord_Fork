@@ -2,6 +2,14 @@
   "authors": [
     "discord:384804216893341719"
   ],
+  "contents": [
+    {
+      "description": "Um simples bot para o discord.",
+      "locale": "pt",
+      "name": "DaZz",
+      "page": "<p>Bom, resolvi criar este bot após perceber que os bots que são completos utilizam muitos comandos e muitas das suas funções são exclusivas apenas para membros que pagam pelo serviço. Visando tentar utilizar o melhor código para desenvolver um sistema completo sem transbordar sua lixeira resolvi desenvolver este bot.</p>\r\n<ul>\r\n  <li>\r\n    Moderação;\r\n  </li>\r\n  <li>\r\n    Música;\r\n  </li>\r\n  <li>\r\n    Fun;\r\n  </li>\r\n  <li>\r\n    E muito mais.\r\n  </li>\r\n</ul>"
+    }
+  ],
   "created": 1552655474003,
   "edited": 1552708939138,
   "flags": {
@@ -31,9 +39,6 @@
     "youtube": null
   },
   "website": null,
-  "pages": [
-    "pt"
-  ],
   "source": null,
   "categories": [
     "moderation"

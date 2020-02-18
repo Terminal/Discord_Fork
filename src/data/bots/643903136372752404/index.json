@@ -2,6 +2,14 @@
   "authors": [
     "discord:622710271705743361"
   ],
+  "contents": [
+    {
+      "description": "Akon, The super duper discord bot, and support many things to make your guild easy for use!",
+      "locale": "en-GB",
+      "name": "Akon",
+      "page": "Akon, the super duper discord bot, bot protect your guild and help you for mange it, we helpful with our users and you can use bot by #ahelp, for add Akon do #ainvite"
+    }
+  ],
   "created": 1579034141549,
   "edited": 1579034141549,
   "flags": {
@@ -30,9 +38,6 @@
     "youtube": null
   },
   "website": "https://akonbot.tk",
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "moderation"

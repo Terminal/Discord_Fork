@@ -2,6 +2,20 @@
   "authors": [
     "discord:308469767897874432"
   ],
+  "contents": [
+    {
+      "description": "English language is added.  Command: .language en-US",
+      "locale": "en-GB",
+      "name": "Ar-Ge",
+      "page": "Continuously developed, the library is a Turkish bot with discord.js.There are commands from most categories.For example; There are categories such as Music, Entertainment, Moderation, If we give an example of the commands;  vote, Added language support(.language en-US), announcement, Translation,  chat cleaning,  auto role, ban, kick, vip system, giveaway, duel, demand system, channel locking, profanity filtering, counter, fake trump tweet.Sincerely Falcon.\r\n "
+    },
+    {
+      "description": "English language is added.  Command: .language en-US",
+      "locale": "tr",
+      "name": "Ar-Ge",
+      "page": "Continuously developed, the library is a Turkish bot with discord.js.There are commands from most categories.For example; There are categories such as Music, Entertainment, Moderation, If we give an example of the commands;  vote, Added language support(.language en-US), announcement, Translation,  chat cleaning,  auto role, ban, kick, vip system, giveaway, duel, demand system, channel locking, profanity filtering, counter, fake trump tweet.Sincerely Falcon.\r\n "
+    }
+  ],
   "created": 1564946449410,
   "edited": 1567437074004,
   "flags": {
@@ -30,10 +44,6 @@
     "youtube": null
   },
   "website": null,
-  "pages": [
-    "en-GB",
-    "tr"
-  ],
   "source": null,
   "categories": [
     "moderation"

@@ -1,5 +1,13 @@
 {
   "authors": [],
+  "contents": [
+    {
+      "description": "A kinda cool bot for the /r/TranscribersOfReddit Discord",
+      "locale": "en-GB",
+      "name": "ToR Genius",
+      "page": "Nothing particularly interesting to see here. Donate to GrafeasGroup [here](https://www.patreon.com/grafeasgroup).\n"
+    }
+  ],
   "created": 1542569433000,
   "edited": 1542569433000,
   "flags": {
@@ -26,9 +34,6 @@
   },
   "videos": {},
   "website": null,
-  "pages": [
-    "en-GB"
-  ],
   "source": "https://github.com/perryprog/tor-genius",
   "categories": [
     "other"

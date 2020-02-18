@@ -2,6 +2,14 @@
   "authors": [
     "discord:547706854680297473"
   ],
+  "contents": [
+    {
+      "description": "A customizable greet and farewell bot (posts a message when users join or leave)",
+      "locale": "en-GB",
+      "name": "The Owl",
+      "page": "I am a simple greet and farewell bot. Commands:\r\n\r\nowl simulate greeting -- I greet you so you can test me\r\n\r\nowl get message -- show current greeting message\r\n\r\nowl set message: Hello ...! -- change greeting (can include user name)\r\n  \r\nowl simulate goodbye -- I pretend you walked away (although I know you didn't)\r\n\r\nowl get goodbye message -- show current goodbye message (what I post when people leave)\r\n\r\nowl set goodbye message: ... -- change farewell message (can include user name)\r\n  \r\nowl prefer this channel -- posts greetings in the channel you write this in\r\n\r\nowl enable/disable -- enable/disable the auto-greeting\r\n\r\nowl support channel -- join the support discord\r\n\r\nowl advanced help -- see advanced help\r\n"
+    }
+  ],
   "created": 1571859484651,
   "edited": 1571859484651,
   "flags": {
@@ -30,9 +38,6 @@
     "youtube": null
   },
   "website": "https://BotCompany.de",
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "other"

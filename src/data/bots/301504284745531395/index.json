@@ -2,6 +2,14 @@
   "authors": [
     "discord:182245310024777728"
   ],
+  "contents": [
+    {
+      "description": "Music, starboard, moderation",
+      "locale": "en-GB",
+      "name": "Atalanta",
+      "page": "<iframe class=\"ls-iframe\" src=\"https://atalanta.site/?botlist=true\"></iframe>\r\n"
+    }
+  ],
   "created": 1542569433000,
   "edited": 1542916840189,
   "flags": {
@@ -28,9 +36,6 @@
   },
   "videos": {},
   "website": "https://atalanta.site",
-  "pages": [
-    "en-GB"
-  ],
   "source": null,
   "categories": [
     "music"
