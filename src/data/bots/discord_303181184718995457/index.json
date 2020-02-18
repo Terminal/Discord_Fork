@@ -20,7 +20,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://discordapp.com/oauth2/authorize?client_id=303181184718995457&scope=bot&permissions=506850422&response_type=code&redirect_url=https://www.pengubot.com",
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=303181184718995457&scope=bot&permissions=506850422&response_type=code&redirect_url=https://www.pengubot.com"
+  },
   "legacy": true,
   "nsfw": false,
   "state": "approved",

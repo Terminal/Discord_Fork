@@ -22,7 +22,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://discordapp.com/oauth2/authorize?client_id=438959507389808641&scope=bot&permissions=354368",
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=438959507389808641&scope=bot&permissions=354368"
+  },
   "nsfw": false,
   "state": "approved",
   "support": "https://discord.gg/RTecBT6",

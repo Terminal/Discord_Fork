@@ -22,7 +22,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://discordapp.com/oauth2/authorize?client_id=568083171455795200&scope=bot&permissions=2146958839&response_type=code&redirect_url=https://filobot.xyz/thanks",
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=568083171455795200&scope=bot&permissions=2146958839&response_type=code&redirect_url=https://filobot.xyz/thanks"
+  },
   "nsfw": false,
   "state": "approved",
   "support": "https://discord.gg/xHhBWhT",

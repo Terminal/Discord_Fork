@@ -22,7 +22,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://invite.snaz.in/discordvid2",
+  "invite": {
+    "discord": "https://invite.snaz.in/discordvid2"
+  },
   "nsfw": false,
   "state": "approved",
   "support": "https://api.alexflipnote.dev/color/image/7289da",

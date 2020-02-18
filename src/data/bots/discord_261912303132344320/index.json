@@ -22,7 +22,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://lepeli.fr/invite/discordfork",
+  "invite": {
+    "discord": "https://lepeli.fr/invite/discordfork"
+  },
   "legacy": true,
   "nsfw": false,
   "state": "denied",

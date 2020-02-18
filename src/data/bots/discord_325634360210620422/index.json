@@ -22,7 +22,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://botz.mattcowley.co.uk/disworld/invite",
+  "invite": {
+    "discord": "https://botz.mattcowley.co.uk/disworld/invite"
+  },
   "legacy": true,
   "nsfw": false,
   "state": "denied",

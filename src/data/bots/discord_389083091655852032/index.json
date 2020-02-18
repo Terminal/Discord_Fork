@@ -24,7 +24,9 @@
       "0.png"
     ]
   },
-  "invite": "https://discordapp.com/api/oauth2/authorize?client_id=389083091655852032&permissions=18432&scope=bot",
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=389083091655852032&permissions=18432&scope=bot"
+  },
   "legacy": true,
   "nsfw": false,
   "state": "approved",

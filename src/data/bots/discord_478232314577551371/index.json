@@ -20,7 +20,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://discordapp.com/api/oauth2/authorize?client_id=478232314577551371&permissions=70614209&scope=bot",
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=478232314577551371&permissions=70614209&scope=bot"
+  },
   "legacy": true,
   "nsfw": false,
   "state": "denied",

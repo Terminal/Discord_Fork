@@ -22,7 +22,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://discordapp.com/oauth2/authorize?client_id=641788481802207243&scope=bot&permissions=2146958591",
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=641788481802207243&scope=bot&permissions=2146958591"
+  },
   "nsfw": false,
   "state": "approved",
   "support": "https://discord.gg/pususus",

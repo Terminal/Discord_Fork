@@ -20,7 +20,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://dabbot.org/invite",
+  "invite": {
+    "discord": "https://dabbot.org/invite"
+  },
   "legacy": true,
   "state": "approved",
   "trigger": {

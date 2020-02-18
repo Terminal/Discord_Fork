@@ -25,7 +25,9 @@
       "1.png"
     ]
   },
-  "invite": "https://bot.discord.io/globalbanz",
+  "invite": {
+    "discord": "https://bot.discord.io/globalbanz"
+  },
   "nsfw": false,
   "state": "denied",
   "support": "https://discord.gg/5ZUHWuT",

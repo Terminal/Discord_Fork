@@ -26,7 +26,9 @@
       "2.png"
     ]
   },
-  "invite": "https://discordapp.com/oauth2/authorize?scope=bot&response_type=code&redirect_uri=https://nyxbot.xyz/thankyou&guild-oauth&permissions=1343089878&client_id=600206352916414464",
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?scope=bot&response_type=code&redirect_uri=https://nyxbot.xyz/thankyou&guild-oauth&permissions=1343089878&client_id=600206352916414464"
+  },
   "nsfw": false,
   "state": "approved",
   "support": "https://discordapp.com/invite/zdfW7hf",

@@ -28,7 +28,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://discordapp.com/api/oauth2/authorize?client_id=603541055530598400&permissions=8&redirect_uri=https%3A%2F%2Fsupport-system.xyz%2Fapi%2Fbotlist%3Faff%3Ddiscordapps&response_type=code&scope=bot",
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=603541055530598400&permissions=8&redirect_uri=https%3A%2F%2Fsupport-system.xyz%2Fapi%2Fbotlist%3Faff%3Ddiscordapps&response_type=code&scope=bot"
+  },
   "nsfw": false,
   "state": "queue",
   "support": "https://discordapp.com/invite/4urdqGU/login",

@@ -22,7 +22,9 @@
     "cover": "background.png",
     "preview": []
   },
-  "invite": "https://peeky.glitch.me/invite.html",
+  "invite": {
+    "discord": "https://peeky.glitch.me/invite.html"
+  },
   "nsfw": false,
   "state": "approved",
   "support": "https://discordapp.com/invite/j4kArRh",

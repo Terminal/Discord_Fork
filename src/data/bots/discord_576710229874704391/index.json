@@ -22,7 +22,9 @@
     "cover": "background.png",
     "preview": []
   },
-  "invite": "https://rebrand.ly/",
+  "invite": {
+    "discord": "https://rebrand.ly/"
+  },
   "nsfw": false,
   "state": "denied",
   "support": "https://discord.gg/qvUer4b",

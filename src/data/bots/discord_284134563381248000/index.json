@@ -22,7 +22,9 @@
     "cover": "background.png",
     "preview": []
   },
-  "invite": "https://invite.snaz.in/photobox",
+  "invite": {
+    "discord": "https://invite.snaz.in/photobox"
+  },
   "nsfw": false,
   "state": "approved",
   "support": "https://discord.gg/uAqtMwQ",

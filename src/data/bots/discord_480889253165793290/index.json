@@ -22,7 +22,9 @@
     "cover": "background.png",
     "preview": []
   },
-  "invite": "https://kariari.xyz/invite",
+  "invite": {
+    "discord": "https://kariari.xyz/invite"
+  },
   "nsfw": false,
   "state": "approved",
   "support": null,

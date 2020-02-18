@@ -22,7 +22,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://invite.bricolo.me",
+  "invite": {
+    "discord": "https://invite.bricolo.me"
+  },
   "nsfw": false,
   "state": "approved",
   "support": "https://discord.bricolo.me",

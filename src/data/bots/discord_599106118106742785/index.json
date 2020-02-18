@@ -22,7 +22,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://discordapp.com/oauth2/authorize?client_id=599106118106742785&scope=bot&permissions=2146958847",
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=599106118106742785&scope=bot&permissions=2146958847"
+  },
   "nsfw": true,
   "state": "denied",
   "support": "https://discord.gg/KRdhDVj",

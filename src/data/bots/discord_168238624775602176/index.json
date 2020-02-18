@@ -22,7 +22,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://bot.discord.io/botboy",
+  "invite": {
+    "discord": "https://bot.discord.io/botboy"
+  },
   "nsfw": false,
   "state": "approved",
   "support": "https://snaz.in/bots-discord",

@@ -22,7 +22,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://discordapp.com/oauth2/authorize?client_id=528467779008069673&permissions=2083912823&redirect_uri=https%3A%2F%2Fsnaildos.github.io%2Fmsginvite.html&response_type=code&scope=identify%20bot",
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=528467779008069673&permissions=2083912823&redirect_uri=https%3A%2F%2Fsnaildos.github.io%2Fmsginvite.html&response_type=code&scope=identify%20bot"
+  },
   "nsfw": false,
   "state": "approved",
   "support": "https://invite.gg/snaildos",

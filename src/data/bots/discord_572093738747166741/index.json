@@ -28,7 +28,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://discordapp.com/api/oauth2/authorize?client_id=572093738747166741&permissions=1&scope=bot",
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=572093738747166741&permissions=1&scope=bot"
+  },
   "nsfw": false,
   "state": "approved",
   "support": "https://discord.gg/6cmyfxz",

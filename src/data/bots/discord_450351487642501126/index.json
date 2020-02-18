@@ -22,7 +22,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://sanainvite.stylite.me",
+  "invite": {
+    "discord": "https://sanainvite.stylite.me"
+  },
   "legacy": true,
   "nsfw": true,
   "state": "approved",

@@ -27,7 +27,9 @@
       "3.png"
     ]
   },
-  "invite": "https://discordapp.com/oauth2/authorize?client_id=604001646514667541&scope=bot&permissions=1543892215",
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=604001646514667541&scope=bot&permissions=1543892215"
+  },
   "nsfw": false,
   "state": "approved",
   "support": "https://discord.gg/TtR32WT",

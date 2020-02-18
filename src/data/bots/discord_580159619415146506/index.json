@@ -22,7 +22,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://discordapp.com/api/oauth2/authorize?client_id=580159619415146506&permissions=0&redirect_uri=https%3A%2F%2Ffluxpoint.dev%2Fredirect&response_type=code&scope=identify%20bot",
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=580159619415146506&permissions=0&redirect_uri=https%3A%2F%2Ffluxpoint.dev%2Fredirect&response_type=code&scope=identify%20bot"
+  },
   "nsfw": false,
   "state": "approved",
   "support": "https://discord.gg/TjF6QDC",

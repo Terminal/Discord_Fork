@@ -22,7 +22,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://discordapp.com/developers/applications/511784845723041802/oauth",
+  "invite": {
+    "discord": "https://discordapp.com/developers/applications/511784845723041802/oauth"
+  },
   "legacy": false,
   "nsfw": false,
   "state": "denied",

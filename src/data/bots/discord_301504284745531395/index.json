@@ -22,7 +22,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://atalanta.site/invite/bot",
+  "invite": {
+    "discord": "https://atalanta.site/invite/bot"
+  },
   "legacy": true,
   "nsfw": false,
   "state": "approved",

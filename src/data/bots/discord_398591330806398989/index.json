@@ -23,7 +23,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://spudnik.io/invite",
+  "invite": {
+    "discord": "https://spudnik.io/invite"
+  },
   "nsfw": false,
   "state": "approved",
   "support": "https://spudnik.io/support",

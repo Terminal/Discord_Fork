@@ -22,7 +22,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://bennydash.xyz/invite",
+  "invite": {
+    "discord": "https://bennydash.xyz/invite"
+  },
   "nsfw": false,
   "state": "approved",
   "support": "https://discord.gg/RDeNrrY",

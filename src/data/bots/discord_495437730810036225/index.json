@@ -22,7 +22,9 @@
     "cover": "background.png",
     "preview": []
   },
-  "invite": "https://thighs.boob.bot",
+  "invite": {
+    "discord": "https://thighs.boob.bot"
+  },
   "legacy": true,
   "nsfw": true,
   "state": "approved",

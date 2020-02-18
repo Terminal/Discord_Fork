@@ -22,7 +22,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://nitrole.xyz/invite",
+  "invite": {
+    "discord": "https://nitrole.xyz/invite"
+  },
   "nsfw": false,
   "state": "approved",
   "support": "https://discord.gg/BP2SV3J",

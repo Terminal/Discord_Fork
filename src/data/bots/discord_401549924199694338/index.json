@@ -22,7 +22,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://safetyatlast.net/invite",
+  "invite": {
+    "discord": "https://safetyatlast.net/invite"
+  },
   "legacy": false,
   "nsfw": false,
   "state": "approved",

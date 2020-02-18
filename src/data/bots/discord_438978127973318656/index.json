@@ -22,7 +22,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://botz.mattcowley.co.uk/restarter_v2/invite",
+  "invite": {
+    "discord": "https://botz.mattcowley.co.uk/restarter_v2/invite"
+  },
   "legacy": true,
   "nsfw": false,
   "state": "approved",

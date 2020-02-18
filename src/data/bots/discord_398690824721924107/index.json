@@ -24,7 +24,9 @@
       "0.png"
     ]
   },
-  "invite": "https://add.advaithbot.com",
+  "invite": {
+    "discord": "https://add.advaithbot.com"
+  },
   "legacy": false,
   "nsfw": false,
   "state": "approved",

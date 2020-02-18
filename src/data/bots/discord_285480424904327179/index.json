@@ -22,7 +22,9 @@
     "cover": "background.png",
     "preview": []
   },
-  "invite": "https://bot.boob.bot",
+  "invite": {
+    "discord": "https://bot.boob.bot"
+  },
   "legacy": true,
   "nsfw": true,
   "state": "approved",

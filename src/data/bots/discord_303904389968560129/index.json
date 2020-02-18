@@ -22,7 +22,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://spotify.larkin.space/invite",
+  "invite": {
+    "discord": "https://spotify.larkin.space/invite"
+  },
   "legacy": true,
   "nsfw": false,
   "state": "denied",

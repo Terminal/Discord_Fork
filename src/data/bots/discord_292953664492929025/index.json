@@ -22,7 +22,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://unbelievable.pizza/invite",
+  "invite": {
+    "discord": "https://unbelievable.pizza/invite"
+  },
   "nsfw": false,
   "state": "approved",
   "support": "https://discordapp.com/invite/YMJ2dGp",

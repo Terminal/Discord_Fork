@@ -22,7 +22,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://benderbot.co/invite",
+  "invite": {
+    "discord": "https://benderbot.co/invite"
+  },
   "nsfw": false,
   "state": "approved",
   "support": null,

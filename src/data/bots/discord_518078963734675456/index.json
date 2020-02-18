@@ -22,7 +22,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://discordapp.com/oauth2/authorize?client_id=518078963734675456&permissions=104187976&scope=bot",
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=518078963734675456&permissions=104187976&scope=bot"
+  },
   "nsfw": false,
   "state": "approved",
   "support": "https://tyche.site/invite",

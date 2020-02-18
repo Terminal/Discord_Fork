@@ -22,7 +22,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://discordapp.com/oauth2/authorize?client_id=493955692445696015&permissions=36924486&redirect_uri=https%3A%2F%2Flavender.knoxcorp.me%2Fthanks.html&scope=bot",
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=493955692445696015&permissions=36924486&redirect_uri=https%3A%2F%2Flavender.knoxcorp.me%2Fthanks.html&scope=bot"
+  },
   "legacy": false,
   "nsfw": false,
   "state": "denied",

@@ -22,7 +22,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://invite.blargbot.xyz",
+  "invite": {
+    "discord": "https://invite.blargbot.xyz"
+  },
   "nsfw": false,
   "state": "approved",
   "support": null,

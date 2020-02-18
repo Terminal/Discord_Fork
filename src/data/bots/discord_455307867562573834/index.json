@@ -24,7 +24,9 @@
     "cover": "background.png",
     "preview": []
   },
-  "invite": "https://unosial.com/invite",
+  "invite": {
+    "discord": "https://unosial.com/invite"
+  },
   "nsfw": false,
   "state": "queue",
   "support": "https://unosial.com/discord",

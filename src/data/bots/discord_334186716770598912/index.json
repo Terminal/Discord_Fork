@@ -22,7 +22,9 @@
     "cover": "background.png",
     "preview": []
   },
-  "invite": "https://bot.nekos.life",
+  "invite": {
+    "discord": "https://bot.nekos.life"
+  },
   "legacy": true,
   "nsfw": false,
   "state": "approved",

@@ -28,7 +28,9 @@
     "cover": "background.png",
     "preview": []
   },
-  "invite": "https://altdentifier.com/invite?ref=dbuk",
+  "invite": {
+    "discord": "https://altdentifier.com/invite?ref=dbuk"
+  },
   "legacy": true,
   "nsfw": false,
   "state": "approved",

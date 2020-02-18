@@ -22,7 +22,9 @@
     "cover": "background.png",
     "preview": []
   },
-  "invite": "https://discordapp.com/api/oauth2/authorize?client_id=413689165646135306&permissions=8&redirect_uri=https%3A%2F%2Fdiscord.gg%2FwhukgZS&response_type=code&scope=guilds.join%20bot",
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=413689165646135306&permissions=8&redirect_uri=https%3A%2F%2Fdiscord.gg%2FwhukgZS&response_type=code&scope=guilds.join%20bot"
+  },
   "legacy": false,
   "nsfw": false,
   "state": "banned",

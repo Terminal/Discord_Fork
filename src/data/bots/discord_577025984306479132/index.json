@@ -26,7 +26,9 @@
       "2.png"
     ]
   },
-  "invite": "https://discordapp.com/oauth2/authorize?client_id=577025984306479132&scope=bot&permissions=8",
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=577025984306479132&scope=bot&permissions=8"
+  },
   "nsfw": true,
   "state": "denied",
   "support": "https://shirobot.gq/discord",

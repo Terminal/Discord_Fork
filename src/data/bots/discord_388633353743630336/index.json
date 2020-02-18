@@ -22,7 +22,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://bit.ly/grapebot",
+  "invite": {
+    "discord": "https://bit.ly/grapebot"
+  },
   "legacy": true,
   "nsfw": false,
   "state": "approved",

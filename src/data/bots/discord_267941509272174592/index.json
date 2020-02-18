@@ -22,7 +22,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://xela.dev/invite",
+  "invite": {
+    "discord": "https://xela.dev/invite"
+  },
   "legacy": true,
   "nsfw": false,
   "state": "approved",

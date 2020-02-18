@@ -20,7 +20,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://lolbot.lmao.tf/invite",
+  "invite": {
+    "discord": "https://lolbot.lmao.tf/invite"
+  },
   "legacy": true,
   "nsfw": false,
   "state": "approved",

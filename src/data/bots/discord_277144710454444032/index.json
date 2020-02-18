@@ -20,7 +20,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://botz.mattcowley.co.uk/restarter/invite",
+  "invite": {
+    "discord": "https://botz.mattcowley.co.uk/restarter/invite"
+  },
   "legacy": true,
   "state": "approved",
   "trigger": {

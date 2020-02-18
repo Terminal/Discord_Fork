@@ -20,7 +20,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://luki.xyz/invite",
+  "invite": {
+    "discord": "https://luki.xyz/invite"
+  },
   "legacy": true,
   "nsfw": true,
   "state": "approved",

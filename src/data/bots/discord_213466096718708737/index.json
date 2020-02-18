@@ -20,7 +20,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://is.gd/mantaro",
+  "invite": {
+    "discord": "https://is.gd/mantaro"
+  },
   "legacy": true,
   "state": "approved",
   "trigger": {

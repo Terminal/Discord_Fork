@@ -22,7 +22,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://goatbot.me/i",
+  "invite": {
+    "discord": "https://goatbot.me/i"
+  },
   "legacy": false,
   "nsfw": false,
   "state": "approved",

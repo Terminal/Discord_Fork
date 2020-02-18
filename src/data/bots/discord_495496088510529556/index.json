@@ -22,7 +22,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://invite.antiowo.xyz",
+  "invite": {
+    "discord": "https://invite.antiowo.xyz"
+  },
   "nsfw": false,
   "state": "queue",
   "support": "https://discord.gg/N8Fqcuk",

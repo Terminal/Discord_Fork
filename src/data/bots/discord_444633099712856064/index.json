@@ -22,7 +22,9 @@
     "cover": "background.png",
     "preview": []
   },
-  "invite": "https://moosic.advaith.fun/invite",
+  "invite": {
+    "discord": "https://moosic.advaith.fun/invite"
+  },
   "legacy": false,
   "nsfw": false,
   "state": "approved",

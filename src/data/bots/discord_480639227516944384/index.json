@@ -20,7 +20,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://discordapp.com/oauth2/authorize?client_id=480639227516944384&scope=bot",
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=480639227516944384&scope=bot"
+  },
   "legacy": true,
   "nsfw": false,
   "state": "banned",

@@ -20,7 +20,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://avairebot.com/invite",
+  "invite": {
+    "discord": "https://avairebot.com/invite"
+  },
   "legacy": true,
   "state": "approved",
   "trigger": {

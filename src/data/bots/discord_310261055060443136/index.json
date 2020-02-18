@@ -22,7 +22,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://bit.ly/vanessabot",
+  "invite": {
+    "discord": "https://bit.ly/vanessabot"
+  },
   "legacy": false,
   "nsfw": false,
   "state": "approved",

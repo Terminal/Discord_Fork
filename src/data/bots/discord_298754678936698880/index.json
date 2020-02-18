@@ -22,7 +22,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://botz.mattcowley.co.uk/musicalbot/invite",
+  "invite": {
+    "discord": "https://botz.mattcowley.co.uk/musicalbot/invite"
+  },
   "legacy": true,
   "nsfw": false,
   "state": "approved",

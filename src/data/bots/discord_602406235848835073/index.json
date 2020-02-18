@@ -23,7 +23,9 @@
     "cover": "background.png",
     "preview": []
   },
-  "invite": "https://stratobotelite.com/invite.html",
+  "invite": {
+    "discord": "https://stratobotelite.com/invite.html"
+  },
   "nsfw": false,
   "state": "approved",
   "support": "https://stratobotelite.com/discord.html",

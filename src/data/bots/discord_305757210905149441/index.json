@@ -30,7 +30,9 @@
       "5.png"
     ]
   },
-  "invite": "https://discordapp.com/api/oauth2/authorize?client_id=305757210905149441&permissions=280640&scope=bot",
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=305757210905149441&permissions=280640&scope=bot"
+  },
   "legacy": false,
   "nsfw": false,
   "state": "approved",

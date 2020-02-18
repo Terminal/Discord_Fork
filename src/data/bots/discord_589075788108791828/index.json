@@ -23,7 +23,9 @@
     "cover": "background.png",
     "preview": []
   },
-  "invite": "https://alydus.net/api/v1/projects/discord/bots/spotilyrics/redirect/invite",
+  "invite": {
+    "discord": "https://alydus.net/api/v1/projects/discord/bots/spotilyrics/redirect/invite"
+  },
   "nsfw": false,
   "state": "approved",
   "support": "https://alydus.net/api/v1/projects/discord/bots/spotilyrics/redirect/support",

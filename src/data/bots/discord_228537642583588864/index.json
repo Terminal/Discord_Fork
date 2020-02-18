@@ -22,7 +22,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://vexera.io/invite",
+  "invite": {
+    "discord": "https://vexera.io/invite"
+  },
   "nsfw": false,
   "state": "approved",
   "support": "https://vexera.io/support",

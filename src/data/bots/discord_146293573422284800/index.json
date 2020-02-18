@@ -22,7 +22,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://ocelot.xyz/invite?source=terminal",
+  "invite": {
+    "discord": "https://ocelot.xyz/invite?source=terminal"
+  },
   "nsfw": false,
   "state": "approved",
   "support": "https://discord.gg/7YNHpfF",

@@ -22,7 +22,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://rythmbot.co/invite",
+  "invite": {
+    "discord": "https://rythmbot.co/invite"
+  },
   "legacy": true,
   "nsfw": false,
   "state": "approved",

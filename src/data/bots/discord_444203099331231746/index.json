@@ -27,7 +27,9 @@
       "3.png"
     ]
   },
-  "invite": "https://discordapp.com/oauth2/authorize?permissions=268921920&scope=bot&client_id=444203099331231746&redirect_uri=https%3A%2F%2Fdiscordapp.com%2Finvite%2FSw5RbXD&response_type=code",
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?permissions=268921920&scope=bot&client_id=444203099331231746&redirect_uri=https%3A%2F%2Fdiscordapp.com%2Finvite%2FSw5RbXD&response_type=code"
+  },
   "nsfw": false,
   "state": "approved",
   "support": "https://discordapp.com/invite/Sw5RbXD",

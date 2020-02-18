@@ -22,7 +22,9 @@
     "cover": "background.png",
     "preview": []
   },
-  "invite": "https://discordapp.com/oauth2/authorize?client_id=221609683562135553&scope=bot&permissions=19456",
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=221609683562135553&scope=bot&permissions=19456"
+  },
   "legacy": false,
   "nsfw": false,
   "state": "approved",

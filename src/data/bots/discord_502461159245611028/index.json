@@ -22,7 +22,9 @@
     "cover": "background.png",
     "preview": []
   },
-  "invite": "https://discordapp.com/oauth2/authorize?client_id=502461159245611028&permissions=-1&redirect_uri=https%3A%2F%2Fwebdash.pw%2F&scope=bot",
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=502461159245611028&permissions=-1&redirect_uri=https%3A%2F%2Fwebdash.pw%2F&scope=bot"
+  },
   "legacy": false,
   "nsfw": false,
   "state": "approved",

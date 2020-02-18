@@ -22,7 +22,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://discordapp.com/oauth2/authorize?client_id=551838918685753354&permissions=268642438&redirect_uri=https%3A%2F%2Fdiscord.gg%2FMT9dJkY&response_type=code&scope=guilds.join%20bot",
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=551838918685753354&permissions=268642438&redirect_uri=https%3A%2F%2Fdiscord.gg%2FMT9dJkY&response_type=code&scope=guilds.join%20bot"
+  },
   "legacy": false,
   "nsfw": false,
   "state": "denied",

@@ -22,7 +22,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://discordapp.com/api/oauth2/authorize?client_id=645094734372798504&permissions=0&redirect_uri=https%3A%2F%2Fsunrise.trydiscourse.com%2Fauth%2Fdiscord%2Fcallback&scope=bot",
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=645094734372798504&permissions=0&redirect_uri=https%3A%2F%2Fsunrise.trydiscourse.com%2Fauth%2Fdiscord%2Fcallback&scope=bot"
+  },
   "nsfw": false,
   "state": "denied",
   "support": null,

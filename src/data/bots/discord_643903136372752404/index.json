@@ -22,7 +22,9 @@
     "cover": null,
     "preview": []
   },
-  "invite": "https://discordapp.com/oauth2/authorize?client_id=643903136372752404&permissions=2147085745&redirect_uri=https%3A%2F%2Fakon.glitch.me%2Fcallback&scope=bot",
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=643903136372752404&permissions=2147085745&redirect_uri=https%3A%2F%2Fakon.glitch.me%2Fcallback&scope=bot"
+  },
   "nsfw": false,
   "state": "denied",
   "support": "https://discord.gg/2jzAnna",

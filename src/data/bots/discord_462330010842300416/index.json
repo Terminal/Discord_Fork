@@ -22,7 +22,9 @@
     "cover": "background.png",
     "preview": []
   },
-  "invite": "https://qbot.eu/invite",
+  "invite": {
+    "discord": "https://qbot.eu/invite"
+  },
   "nsfw": false,
   "state": "approved",
   "support": "https://discord.gg/Ur49wDP",
