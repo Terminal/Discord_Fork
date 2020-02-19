@@ -60,7 +60,7 @@ class SiteFooter extends Component {
           </p>
           <TransportSign>
             <TransportSignTitle>Links</TransportSignTitle>
-            <Link to="/terms">Terms →</Link>
+            <Link to="/terms">Terms of Service →</Link>
             <a href="https://github.com/terminal/discord_fork">Source Code <TransportSignBadge type="a">github.com</TransportSignBadge> →</a>
             <a href="https://discord.gg/H9FhrwU">Discord Server <TransportSignBadge type="a">discordapp.com</TransportSignBadge> →</a>
             {this.state.label &&
