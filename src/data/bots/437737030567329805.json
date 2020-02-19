@@ -1,0 +1,42 @@
+{
+  "authors": [],
+  "contents": [
+    {
+      "description": "Invite This Amazing Bot",
+      "locale": "en-GB",
+      "name": "Ocean",
+      "page": "Hello User These Are My Commands\n-\n\n- help [Command] To Show You What It Does\n\nOriginal Prefix\n-\n- ?\n\nMain\n-\n- ping\n- serverinfo \n- userinfo\n- botinfo\n- vc\n- version\n- morsecode \n- flip\n- ascii (Work In Progress)\n\nBotOwner\n-\n- setinv \n- seton \n- setdnd \n- setidle \n- eval\n- restart\n- todoList\n\nStaff\n-\n- mute \n- unmute  \n- clear \n- tempmute  \n- addrole  \n- removerole  \n- announce  \n- say  \n- setPrefix \n- setName\n\nFun\n-\n- avatar  \n- icon \n- google  \n- urban \n- randomUrban \n- rps  \n- 8ball \n- mcfallout \n- roll \n- coin  \n- meme\n\nTicket System\n-\n- new\n- close\n\nContact\n-\n- Bugs/Spelling Contact Owner KingOfEnders#0001\n\n"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1542569433000,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "437737030567329805",
+  "images": {
+    "avatar": "images/437737030567329805/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=437737030567329805&permissions=8&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "?"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

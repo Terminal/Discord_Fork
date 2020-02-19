@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:526112910745927700"
+  ],
+  "contents": [
+    {
+      "description": "Um dos melhores BOTs para Discord, com vários comandos uteis de moderação, administração e outros.",
+      "locale": "pt",
+      "name": "GameMaster",
+      "page": "¬GameMaster\r\n\r\nUse !! para iniciar sua experiência.\r\nCriado com a intenção de proporcionar alegrias a todos!\r\n\r\nMeu desejo é conquistar o mundo! Já falei que meu mundo é você? ❤\r\n\r\nUm dos melhores BOTs para Discord, com vários comandos uteis para moderação e administração, vários eventos automáticos. Comandos como multiban, invadir, tts, casino, afk, warn, autorole, casar, div, mute, tempmute, ban, kick, chatoff, chaton, ajuda1 em PT, help em EN.\r\n\r\nOuça músicas e se divirta com comandos de diversão, jogos e trolagens!\r\n\r\nAlguns comandos com suporte em inglês facilita o uso.\r\n\r\nEstá sempre sendo atualizado, estou procurando o melhor pra facilitar o entendimento para um uso melhor do GameMaster!"
+    }
+  ],
+  "created": 1571245793889,
+  "edited": 1571246420741,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "561012155416313871",
+  "images": {
+    "avatar": "images/561012155416313871/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=561012155416313871&permissions=0&redirect_uri=https%3A%2F%2Foficial-gm-bot.glitch.me%2F&response_type=code&scope=bot%20guilds"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/jPHzzmq",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "!!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://oficial-gm-bot.glitch.me/",
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

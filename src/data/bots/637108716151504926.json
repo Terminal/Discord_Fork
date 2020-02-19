@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:525842461655040011"
+  ],
+  "contents": [
+    {
+      "description": "It is a multipurpose bot, such as moderation and fun, same Minecraft commands utilities and others.",
+      "locale": "en-GB",
+      "name": "Waifu",
+      "page": "This is a multifunction bot, this bot includes features such as:\r\n\r\n🛡️ Moderation | 😂 Fun | 🤪 Memes | 📄 Information | 📊 Stats\r\n\r\nFor support, join our Discord https://discord.gg/9gmryT3. This bot is in a beta stage, which will not make it the best in the world, if you find a mistake, let us know by Discord.\r\n\r\nIf you need to know the list of commands you can write &help or visited our web."
+    }
+  ],
+  "created": 1579147650817,
+  "edited": 1579411457659,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "637108716151504926",
+  "images": {
+    "avatar": "images/637108716151504926/avatar.png",
+    "cover": "images/637108716151504926/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=637108716151504926&permissions=2147483127&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/TAeWCC4",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "&"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://www.lakemc.online/waifu/",
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

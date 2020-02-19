@@ -1,0 +1,46 @@
+{
+  "authors": [
+    "discord:484765734803734540",
+    "github:etcroot"
+  ],
+  "contents": [
+    {
+      "description": "Your personal server moderation, utility, anime & entertainment bot!",
+      "locale": "en-GB",
+      "name": "Amber",
+      "page": "Amber is a multipurpose discord bot with over 120 commands to play around with!\r\n\r\nShe also comes in handy with the following below.\r\n\r\nServer Logging ✔\r\nServer Moderation ✔\r\nInvite Link Checker ✔\r\nSelf Role System ✔\r\nJoin & Leave System ✔\r\nChange Prefix ✔\r\nStarboard Channel & Limit ✔\r\nSocial System ✔\r\nAnime ✔\r\nUtility ✔\r\nMisc ✔\r\nReputation ✔\r\nFun ✔\r\nShe has plenty more features, just use a!help or @Amber help to get all the commands."
+    }
+  ],
+  "created": 1544775790693,
+  "edited": 1544831538511,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "513108102711738377",
+  "images": {
+    "avatar": "images/513108102711738377/avatar.png",
+    "cover": "images/513108102711738377/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=513108102711738377&permissions=1342205030&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/2UcyFDD",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "a!"
+    ]
+  },
+  "videos": {},
+  "website": "https://etcroot.pw/amber/",
+  "source": "https://github.com/etcroot/Amber",
+  "categories": [
+    "utility"
+  ]
+}

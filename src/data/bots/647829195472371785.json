@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:355121277046095872"
+  ],
+  "contents": [
+    {
+      "description": "I'm a bot that sends Growtopia update to your discord server!",
+      "locale": "en-GB",
+      "name": "GrowNews",
+      "page": "I'm a bot that sends Growtopia updates(such as daily quest, wotd, votw, role day, etc.) to your discord server!"
+    }
+  ],
+  "created": 1574796030137,
+  "edited": 1574796030137,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "647829195472371785",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=647829195472371785&permissions=8&scope=bot"
+  },
+  "nsfw": false,
+  "state": "queue",
+  "support": "https://discord.gg/paS2Sx5",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "-"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

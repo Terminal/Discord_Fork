@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:149505704569339904"
+  ],
+  "contents": [
+    {
+      "description": "Vexera is a discord music bot for your server with tons of other features.",
+      "locale": "en-GB",
+      "name": "Vexera",
+      "page": "Vexera is a multipurpose bot for discord. It provides a range of features listed below.\r\n\r\nType `+help` for a list of commands. The default prefix is `+` and is changeable for your server using the prefix command.\r\n\r\n## Features\r\n - 99% Uptime\r\n - Music - High quality, easy to use music which works with Youtube and Soundcloud.\r\n - Moderation commands - Kick, Ban, Mute, Softban and Voice Kick users with ease using commands.\r\n - Autorole - Automatically apply roles to users when they join, or when they request with a command.\r\n - Misc commands - A variety of misc or fun commands including +cat and +dog.\r\n - Advanced Permissions - Specify who can do what using advanced permissions.\r\n - Locale support - Set Vexera to respond to you or the whole server in a different language.\r\n\r\n## Commands that might interest you\r\n - `+help (command)` - Shows extended help about a command. If a command isnt specified, it will show all commands.\r\n - `+play (song name or url)` - Plays a song in your voice channel.\r\n - `+skip` - Voteskips a song. Users with the actions.music.forceskip permission can bypass the voteskip.\r\n - `+queue` - Shows the music queue. Use +play to queue a song.\r\n -  `+pause` - Pause the current playing song.\r\n - `+resume` - Resumes the song.\r\n - `+invite` - Gets an invite for the bot. You can also use this command to get an invite to our support server and lounge."
+    }
+  ],
+  "created": 1546202873090,
+  "edited": 1555461821482,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": true
+  },
+  "hide": false,
+  "id": "228537642583588864",
+  "images": {
+    "avatar": "images/228537642583588864/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://vexera.io/invite"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://vexera.io/support",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "+"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://vexera.io/",
+  "source": null,
+  "categories": [
+    "music"
+  ]
+}

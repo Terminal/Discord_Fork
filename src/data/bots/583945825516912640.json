@@ -1,0 +1,49 @@
+{
+  "authors": [
+    "discord:461573358551695370",
+    "discord:300577300242759682"
+  ],
+  "contents": [
+    {
+      "description": "An Indonesian multifunction discord bot that has many features",
+      "locale": "en-GB",
+      "name": "SmartBot",
+      "page": "A multifunction discord bot that has many features, like economy, music, logging, moderation and more.\r\n# Fitur\r\n- Economy\r\n- Logging\r\n- Moderation\r\n- Music\r\n- Utility\r\n- Using Bahasa Indonesia\r\n\r\n# Usefull Links\r\n- [Support Server](https://discord.gg/wBRwKRn) *(We speak english too)*\r\n- [INDO GAMERS](https://discord.gg/ZNzjgxA)"
+    }
+  ],
+  "created": 1566140779289,
+  "edited": 1566140779289,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "583945825516912640",
+  "images": {
+    "avatar": "images/583945825516912640/avatar.png",
+    "cover": "images/583945825516912640/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=583945825516912640&permissions=8&scope=bot"
+  },
+  "nsfw": false,
+  "state": "denied",
+  "support": "https://discord.gg/wBRwKRn",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

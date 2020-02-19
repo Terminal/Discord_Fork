@@ -1,0 +1,45 @@
+{
+  "authors": [
+    "discord:309113946135199746"
+  ],
+  "contents": [
+    {
+      "description": "this bot is easy to use the commands i think you would like is %userinfo %ping ",
+      "locale": "en-GB",
+      "name": "MonsterHub",
+      "page": "MonsterHub\r\n-----------\r\n\r\nCommands:\r\n\r\n%help (Gives you a list of commands)\r\n\r\n%userinfo (Gives you information about you're self)\r\n\r\n%serverinfo (Gives you information about the server you're in)\r\n\r\n%upcom (Gives you information about Upcoming Commands)\r\n\r\n%info (Gives you links about MonsterHub)\r\n\r\n%botinfo (Give's you information about MonsterHub)\r\n\r\n%hello (Says Hello! back to you)\r\n\r\n%ping (Says Pong! back to you)\r\n\r\n%vote (show's you a link to MonsterHub's DBL Website vote Page)\r\n\r\navatar / avatar @mention (show's you're avatar or someone else)"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1544107926946,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "488092297452322826",
+  "images": {
+    "avatar": "images/488092297452322826/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=488092297452322826&permissions=8&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "%"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

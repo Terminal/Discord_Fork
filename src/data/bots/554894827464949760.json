@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:534278477436944396"
+  ],
+  "contents": [
+    {
+      "description": "A free-to-use discord partnership bot that will make your server grow in no time!",
+      "locale": "en-GB",
+      "name": "PartnerBot",
+      "page": "A free-to-use discord partnership bot that will make your server grow in no time!\r\n\r\n"
+    }
+  ],
+  "created": 1552828025896,
+  "edited": 1552828025896,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "554894827464949760",
+  "images": {
+    "avatar": "images/554894827464949760/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=554894827464949760&scope=bot&permissions=8"
+  },
+  "nsfw": true,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "]"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

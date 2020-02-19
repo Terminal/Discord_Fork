@@ -1,0 +1,42 @@
+{
+  "authors": [],
+  "contents": [
+    {
+      "description": "Rixa is a user-friendly, multi-purpose bot",
+      "locale": "en-GB",
+      "name": "Rixa 3",
+      "page": "Rixa is a user-friendly, multi-purpose bot currently in development which is capable of being customized to your Discord server needs. \nRixa is complete with a user profile, server statistics system, and many more features such as assigning roles on user join, music module, levels, and more. \nRixa was created to bring ease and simplicity to managing Discord servers, and has since grown into much more than just a bot used for moderation.\n"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1542569433000,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "472726264805982209",
+  "images": {
+    "avatar": "images/472726264805982209/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=472726264805982209&scope=bot&permissions=2146958463"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "/"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "authors": [
+    "discord:412377484269584400"
+  ],
+  "contents": [
+    {
+      "description": "Multipurpose bot including Moderation, Fun, Economy and more!",
+      "locale": "en-GB",
+      "name": "K - Mod",
+      "page": "Type +help for list of commands. K Mod has over 40+ commands and is a Multipurpose bot which has Moderation, Fun, Economy and more commands coming soon."
+    }
+  ],
+  "created": 1575681270993,
+  "edited": 1575681270993,
+  "flags": {
+    "adverts": true,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "631329221704417291",
+  "images": {
+    "avatar": "images/631329221704417291/avatar.png",
+    "cover": "images/631329221704417291/background.png",
+    "preview": [
+      "images/631329221704417291/0.png"
+    ]
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=631329221704417291&permissions=8&scope=bot"
+  },
+  "nsfw": false,
+  "state": "denied",
+  "support": "https://discord.gg/JVejaVJ",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "+"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://k-development.glitch.me/",
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

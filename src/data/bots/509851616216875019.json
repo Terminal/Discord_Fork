@@ -1,0 +1,55 @@
+{
+  "authors": [
+    "discord:319467558166069248",
+    "github:eartharoid"
+  ],
+  "contents": [
+    {
+      "description": "Get the number of sleeps left until Christmas sent to your selected channel every morning.",
+      "locale": "en-GB",
+      "name": "Christmas Countdown",
+      "page": "[![Discord Bots](https://discordbots.org/api/widget/status/509851616216875019.svg)](https://discordbots.org/bot/509851616216875019)   [![Discord Bots](https://discordbots.org/api/widget/servers/509851616216875019.svg)](https://discordbots.org/bot/509851616216875019) ![David](https://img.shields.io/david/eartharoid/ChristmasCountdownBot?style=flat) ![Discord](https://img.shields.io/discord/451745464480432129?color=%237289DA&label=Discord&logo=discord&logoColor=white)\r\n\r\n\r\n**NOTE: Please ensure the bot has `SEND_MESSAGES` and `EMBED_LINKS` permissions in channels you want it to be able to respond in AND the countdown channel (if you use the daily countdown)**\r\n\r\n\r\n**Live Countdown:** [countdowntoxmas.tk](https://www.countdowntoxmas.tk/?utm_source=terminal.ink&utm_medium=readme&utm_campaign=live)\r\n\r\n__**Commands:**__ (★ = [premium](https://www.countdowntoxmas.tk/donate/?utm_source=terminal.ink&utm_medium=readme&utm_campaign=commands) servers only)\r\n\r\n* `x!help` A list of commands (Type `x!help [command]` for more information about a command (long description, aliases etc))\r\n\r\n* `x!about` General information (stats, support server invite, about page link)\r\n\r\n* `x!channel [#channel]` Set the channel you want the daily countdown to use. (required permission: `MANAGE_GUILD`)\r\n\r\n* (★) `x!countdown` The exact time until Christmas (to the second)\r\n\r\n* `x!days` Number of days until Christmas (see [days vs sleeps](https://www.countdowntoxmas.tk/understanding/days-vs-sleeps/?utm_source=terminal.ink&utm_medium=readme&utm_campaign=commands))\r\n\r\n* `x!sleeps` Number of sleeps (full days) until Christmas (see [days vs sleeps](https://www.countdowntoxmas.tk/understanding/days-vs-sleeps/?utm_source=terminal.ink&utm_medium=readme&utm_campaign=commands))\r\n\r\n* (★) `x!image` A random Christmas / winter-themed photograph from Unsplash [COMING SOON]\r\n\r\n* (★) `x!mention` Set/disable countdown mention role (`x!mention @role` to set, `x!mention` to disable) - this role will be mentioned/pinged when the daily countdown is sent\r\n\r\n* `x!ping` Ping pong\r\n\r\n* `x!toggle` Enable / disable the daily countdown (channel must be set to enable)\r\n\r\n* `x!live` A link to the [live countdown](https://www.countdowntoxmas.tk/understanding/days-vs-sleeps/?utm_source=terminal.ink&utm_medium=readme&utm_campaign=commands)\r\n\r\n\r\n**Support server:** https://discord.gg/pXc9vyC\r\n\r\n[About](https://www.countdowntoxmas.tk/about/?utm_source=terminal.ink&utm_medium=readme&utm_campaign=about) | [Info](https://www.countdowntoxmas.tk/discord/?utm_source=terminal.ink&utm_medium=readme&utm_campaign=info)"
+    }
+  ],
+  "created": 1543003842147,
+  "edited": 1571423546587,
+  "flags": {
+    "adverts": true,
+    "inAppPurchases": true
+  },
+  "hide": false,
+  "id": "509851616216875019",
+  "images": {
+    "avatar": "images/509851616216875019/avatar.png",
+    "cover": "images/509851616216875019/background.png",
+    "preview": [
+      "images/509851616216875019/0.png",
+      "images/509851616216875019/1.png",
+      "images/509851616216875019/2.png",
+      "images/509851616216875019/3.png",
+      "images/509851616216875019/4.png"
+    ]
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=509851616216875019&scope=bot&permissions=411712"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/pXc9vyC",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "x!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://www.countdowntoxmas.tk/?utm_source=terminal.ink&utm_medium=info&utm_campaign=website",
+  "source": "https://github.com/eartharoid/ChristmasCountdownBot",
+  "categories": [
+    "fun"
+  ]
+}

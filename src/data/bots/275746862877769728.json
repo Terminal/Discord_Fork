@@ -1,0 +1,41 @@
+{
+  "authors": [],
+  "contents": [
+    {
+      "description": "A Multi-function Discord Bot.",
+      "locale": "en-GB",
+      "name": "McSkinBot",
+      "page": "This Bot is for multiple things. Though it has a few Moderation commands, It is mostly wrapped around entertaining users in their servers. Much more is to come, so you expect updates from this bot. And best of all, it will always be online.\n<!--\nThis data was imported from ls.terminal.ink\n-->\n"
+    }
+  ],
+  "created": 1527811200000,
+  "edited": 1527811200000,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "275746862877769728",
+  "images": {
+    "avatar": "images/275746862877769728/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=275746862877769728&scope=bot&permissions=2136472639"
+  },
+  "state": "approved",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "()"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

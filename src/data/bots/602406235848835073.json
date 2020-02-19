@@ -1,0 +1,49 @@
+{
+  "authors": [
+    "discord:269247101697916939",
+    "discord:322758556946530304"
+  ],
+  "contents": [
+    {
+      "description": "An advanced games, moderation and mobile assistant bot.",
+      "locale": "en-GB",
+      "name": "StratoBotElite",
+      "page": "Want a bot like no other? Fear not, [StratoBotElite](https://stratobotelite.com) is here! [StratoBotElite](https://stratobotelite.com) provides advanced moderation commands and also has utility and fun commands. [StratoBotElite](https://stratobotelite.com)'s main focus is to help you make your server better and increase activity. If you're having trouble finding a really good bot this bot is the one for you.\r\n- What does [StratoBotElite](https://stratobotelite.com) offer?\r\n- Lot's of unique features inspired by people that have worked on large guilds and wanted to make them better.\r\n- Role information, such as the name, color, position, mentionable state and whether or not it should be hoisted.\r\n- A unique currency system.\r\n- Ways to use the currency to give special access roles or color roles.\r\n- Logs moderation actions made against a user.\r\n- Logs deleted and edited messages and a way to ignore some channels from being logged.\r\n- Change the prefix.\r\n- Advanced moderation commands.\r\n- Unique games and entertaining ways to engage your Member's and keep things fun.\r\n- Special mobile commands to make it easier to do complex things on mobile.\r\n\r\n... and much more!\r\n\r\n**The commands page can be found [here](https://stratobotelite.com/commands.html \"Commands Page\")**"
+    }
+  ],
+  "created": 1576633996929,
+  "edited": 1578022643099,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "602406235848835073",
+  "images": {
+    "avatar": "images/602406235848835073/avatar.png",
+    "cover": "images/602406235848835073/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://stratobotelite.com/invite.html"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://stratobotelite.com/discord.html",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "s!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://stratobotelite.com/index.html",
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

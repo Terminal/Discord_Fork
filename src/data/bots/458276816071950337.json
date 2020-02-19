@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:98822055402688512"
+  ],
+  "contents": [
+    {
+      "description": "This bot adds member counters, server stats and welcomer messages to your server.",
+      "locale": "en-GB",
+      "name": "ServerStats",
+      "page": "# ServerStats\r\nThis bot can show you **all members**, **members**, **bots**, **channels**, **categories**, **voice**, **text**, **roles**, **emojis**, **static**, **animated**, **online**, **offline**, **role**, **bans**, **connected**, **status**, **playing** and **minecraft**. It can also show a **welcome channel** with joined and left messages. This all will (by default) be shown under a category with channels and the channel names will be changed. You can also customize the text that is displayed in front end behind the number. The setup is really easy just type `s/setup`\r\n\r\n**IMPORTANT** You need to run the setup command first, without it the bot won't do much. Use `s/setup` or `@ServerStats setup` to run the setup. Also if you want to get the other counters to show up you need to turn them on (this can be done with a command).\r\n\r\n_____\r\n\r\n## Setup information\r\nGo to this link for a step by step setup instructions or video: https://github.com/ZixeSea/ServerStats/blob/master/HOW_TO_INSTALL.md\r\n\r\nThis bot needs to have **Manage Roles**, **Manage Channels**, **Read Text Channels & See Voice Channels**, **Connect** to change the channel names so if the bot doesn't have it **THE BOT WON'T WORK**. If the bot has the right permissions but still doesn't work you can join the support server and get help there.\r\n_____\r\n\r\n## Bot commands\r\n### Normal\r\n\r\n`s/help <command>` [Send all the commands if you don't put a command after it else it will if info about the command.]\r\n\r\n`s/customize` [Sends info about how to customize the counters.]\r\n\r\n`s/ping` [Sends a pong message with latency.]\r\n\r\n`s/invite` [Sends an invite link for the bot.]\r\n\r\n`s/vote` [Sends instructions on how to vote for the bot.]\r\n\r\n`s/donate` [Sends instructions on how to donate.]\r\n\r\n`s/support` [Sends info about how to get help.]\r\n\r\n`s/partners` [Sends info about our partners.]\r\n_____\r\n\r\n### Admin\r\n\r\n`s/setup` [This command will set up the bot and create the 3 default counters.]\r\n\r\n`s/counter <counter> <on/off>` [With this command you can turn on/off counter.]\r\n\r\n`s/data <type>` [This will send all the data saved about your server.]\r\n\r\n`s/category` [This will create a new category and puts the counter under it. (you don't need a category)]\r\n\r\n`s/prefix <prefix>` [This will change the prefix.]\r\n\r\n`s/permission <permission>` [This will change the permission needed for using admin commands.]\r\n\r\n`s/welcome <on/off>` [This will create a join and leave log channel.]\r\n\r\n`s/minecraft <on/off> <IP>` [This will create a minecraft server info counter (port is not required).]\r\n_____\r\n\r\n### Info\r\n\r\n`s/info` [Sends info about the bot.]\r\n\r\n`s/serverinfo` [Sends info about the server.]\r\n\r\n`s/userinfo <ID/mention>` [Sends info about an user.]\r\n\r\n`s/roleinfo <ID/mention>` [Sends info about a role.]\r\n\r\n`s/channelinfo <ID/mention>` [Sends info about a channels.]\r\n\r\n`s/inviteinfo <URL/code>` [Sends info about an invite.]\r\n\r\n`s/avatar <ID/mention>` [Sends the avatar form an user.]\r\n\r\n`s/check` [This will check if the bot has the right permissions to do stuff.]\r\n\r\n`s/leaderboard` [Send you a list of the top 10 DBL voters.]\r\n\r\n`s/donators` [Send you a list of donators and their tiers.]\r\n_____"
+    }
+  ],
+  "created": 1567962271670,
+  "edited": 1578848856721,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": true
+  },
+  "hide": false,
+  "id": "458276816071950337",
+  "images": {
+    "avatar": "images/458276816071950337/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=458276816071950337&permissions=1133584&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/STZamSj",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "s/"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://serverstatsbot.com",
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

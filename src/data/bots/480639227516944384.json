@@ -1,0 +1,44 @@
+{
+  "authors": [
+    "github:HibikiTeam"
+  ],
+  "contents": [
+    {
+      "description": "A modular Discord Bot, written in JavaScript and has a lot of commands & features.",
+      "locale": "en-GB",
+      "name": "Hibiki",
+      "page": "# Hibiki\nHibiki is a modular Discord Bot, written in JavaScript with a lot of features/commands and has:\n- Analyzation commands\n(coolness, dick, gay, gender, spoopy-link, zodiac-sign)\n- Fun commands\n(8-ball, cat-facts, choose, discord-fun-facts, dog-facts, fml, insult, math, pun, rate, spin, star, year, shame)\n- Image editing commands\n(achievement, baguette, beautiful, captcha, change-my-mind, clyde, did-you-mean, distort, drakeposting, food-broke, glitch, invert, pixelate)\n- Reputation commands\n(merit-remove, merit, merits, rep-add, rep-remove, rep-show)\n- Roleplay commands\n(cry, cuddle, eat, hug, lick, pat, pout, ship, slap, smug)\n- Tagging commands\n(add-tag, delete-tag, tag-info, tag-list-all, tag-list, tag-source, tag)\n\n.. and more.\nRun $help to find out more commands."
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1542569433000,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "480639227516944384",
+  "images": {
+    "avatar": "images/480639227516944384/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=480639227516944384&scope=bot"
+  },
+  "nsfw": false,
+  "state": "banned",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "$"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": "https://github.com/HibikiTeam/Hibiki",
+  "categories": [
+    "other"
+  ]
+}

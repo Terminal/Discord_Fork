@@ -1,0 +1,40 @@
+{
+  "authors": [],
+  "contents": [
+    {
+      "description": "Charlotte - A kawaii discord bot for your specific needs",
+      "locale": "en-GB",
+      "name": "Charlotte",
+      "page": ""
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1542569433000,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "431164137968500746",
+  "images": {
+    "avatar": "images/431164137968500746/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://charlotte.torque.ink"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": []
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

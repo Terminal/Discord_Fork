@@ -1,0 +1,45 @@
+{
+  "authors": [
+    "discord:431237956171202560"
+  ],
+  "contents": [
+    {
+      "description": "Enhance your sexual experiences with ButtBot!",
+      "locale": "en-GB",
+      "name": "ButtBot",
+      "page": "Enhance your sexual experiences with ButtBot! ButtBot is a high quality, well loved discord NSFW Specific bot that is certain to provide superb service within the matter of a couple of letters! ButtBot has grown large over time and we love to reward the community for allowing us to make this happen, so we host weekly giveaways which can include real money of up to $100. We are proud of what we have completed and we hope to further improve our project!"
+    }
+  ],
+  "created": 1546974511588,
+  "edited": 1546974511588,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "531618971246395403",
+  "images": {
+    "avatar": "images/531618971246395403/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=531618971246395403&scope=bot&permissions=2146958847"
+  },
+  "nsfw": true,
+  "state": "approved",
+  "support": "https://discord.gg/dD3stzN",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "bb"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "entertainment"
+  ]
+}

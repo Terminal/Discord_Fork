@@ -1,0 +1,46 @@
+{
+  "authors": [
+    "discord:289266380413468672",
+    "github:NoPlaceLikeLocalhost"
+  ],
+  "contents": [
+    {
+      "description": "Just a tiny bot used for random shit",
+      "locale": "en-GB",
+      "name": "Zythorox Dev",
+      "page": "Hello to the amazing person that clicked on this bot i started coding this bot back in 2016-2017 dont remember exactly but this bot was mainly just a test on my knowledge of coding but now its kind of just a random bot that I keep online just because I can."
+    }
+  ],
+  "created": 1544447002902,
+  "edited": 1545005855118,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "346186123711873025",
+  "images": {
+    "avatar": "images/346186123711873025/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=346186123711873025&scope=bot&permissions=8"
+  },
+  "nsfw": false,
+  "state": "denied",
+  "support": "https://discord.gg/wbxGMgQ",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "|"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": "https://github.com/NoPlaceLikeLocalhost/AnUpdatedIdiotsGuide",
+  "categories": [
+    "productivity"
+  ]
+}

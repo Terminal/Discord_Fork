@@ -1,0 +1,46 @@
+{
+  "authors": [
+    "discord:366454817373290508",
+    "github:Stylite"
+  ],
+  "contents": [
+    {
+      "description": "Does porn things",
+      "locale": "en-GB",
+      "name": "Sana",
+      "page": "# Sana\r\n### A bot for hentai, nsfw and more\r\n\r\n# Command list\r\n## Misc commands\r\n+ Anime - Allows you to search for an anime series.\r\n+ Coffee - Gets you a picture of coffee.\r\n+ info - Simple stats on the bot.\r\n+ invite - Gives you an invite to the bot.\r\n+ owofy - owofy's some next (beta).\r\n+ ping - Gives you the latency of the bot.\r\n+ waifu - Generates a waifu for you.\r\n\r\n## NSFW commands\r\n\r\n+ 4k - 4k Porn \r\n+ anal - Anal porn \r\n+ bj - blowjobs \r\n+ boobs - boobies \r\n+ gw - Gonewild \r\n+ hentai - you get some hentai and you get some hentai \r\n+ holo - ;)\r\n+ kitsune - Foxgirls\r\n+ lkitsune - lewd Foxgirls\r\n+ lneko - lewd nekos\r\n+ neko - Nekos\r\n+ thigh - Thighs thighs thighs\r\n+ wallpaper - Anime wallpapers (Some might be NSFW)\r\n\r\n[Support server](https://server.stylite.me)\r\n"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1542588572457,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "450351487642501126",
+  "images": {
+    "avatar": "images/450351487642501126/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://sanainvite.stylite.me"
+  },
+  "nsfw": true,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "s."
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": "https://github.com/Stylite/Sana",
+  "categories": [
+    "other"
+  ]
+}

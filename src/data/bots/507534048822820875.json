@@ -1,0 +1,57 @@
+{
+  "authors": [
+    "discord:309637856111099906"
+  ],
+  "contents": [
+    {
+      "description": "Ein DiscordBot der Sie dabei unterstützen soll Ihren DiscordServer zu verwalten und sicher zu halten",
+      "locale": "de",
+      "name": "Deadpool",
+      "page": "Eigenschaften:\r\n\r\nModerationsbefehle\r\nSpaßbefehle (Memes etc.)\r\nRollenverwaltung\r\nProtokollierung (stellen Sie sicher, dass Sie einen Kanal mit dem Namen \"Protokolle\" haben)\r\nFortnite Statistiken und für andere Spiele!\r\nKurze URLs\r\nErhalten Sie allgemeine Informationen zu Ihrem Server, zu Rollen usw.\r\nMachen Sie verschiedene Tricks mit Ihrem Avatar und Ihrem Text\r\nVerschiedene Spiele, die Sie mit Ihren Freunden spielen können\r\nusw\r\nSo verwenden Sie den Bot: Da der Bot über viele Funktionen verfügt, müssen Sie sicherstellen, dass Sie über alle erforderlichen Berechtigungen verfügen (Rollen verwalten, Server verwalten, Nachrichten verwalten, Nachrichten senden, Voice-Channel beitreten, Mitglieder ansprechen, Mitglieder kicken, verbieten.) Mitglieder, Mitglieder verschieben, stummschalten)\r\n\r\nSie können! Help verwenden, um den Hilfebefehl zu erhalten, der alle Befehle enthält, die verwendet werden können! Stellen Sie sicher, dass Sie die Nachricht lesen, die auf den Befehl folgt, da Sie die Verwendung des Befehls erhalten, wenn Sie Probleme damit haben! Deadpool hat ungefähr 45 öffentliche Befehle und weitere werden bald hinzugefügt.\r\n\r\nFEHLER\r\n\r\nWenn Sie Fehler finden, stellen Sie sicher, dass Sie sie melden, indem Sie! Report und den gefundenen Fehler melden\r\n\r\nWenn der Fehler nicht bald behoben wird, müssen Sie! Einladen und der Bot wird Sie zu unserem offiziellen Support-Server einladen.\r\n\r\nIch hoffe, Sie genießen unseren Service !!!"
+    },
+    {
+      "description": "A Discord bot that is planning on helping you manage your Discord server and keep it safe.",
+      "locale": "en-GB",
+      "name": "Deadpool",
+      "page": "Features:\r\n\r\nModeration commands\r\nFun commands (memes etc.)\r\nRole Management\r\nLogging (make sure you have a channel called logs)\r\nFortnite stats and for other games!\r\nShort urls\r\nGet some general info about your server , roles etc\r\nDo different tricks with your avatar and your text\r\nDifferent games that you can play with your friends\r\netc\r\nHow to use the bot : To begin with , since the bot has plenty of features you need to make sure that you have all the permissions required (manage roles, manage server , manage messages , send messages , join voice channel , kick members , ban memmbers , move members , mute)\r\n\r\nYou can use !help to get the help command which includes all the commands that can be used! Make sure you read the message that follows the command because it gives you the usage of the command incase you have any problems using it! Deadpool has about 45 public commands and more will be added soon..\r\n\r\nBUGS\r\n\r\nIncase you find any bugs make sure you report them by saying !report and the bug you found\r\n\r\nIf the bug does not get fixed soon you will need to type !invite and the bot will invite you to our official support server.\r\n\r\nHope you enjoy our service!!!"
+    },
+    {
+      "description": "Un robot Discord qui prévoit de vous aider à gérer votre serveur Discord et à le garder en sécurité.",
+      "locale": "fr",
+      "name": "Deadpool",
+      "page": "Caractéristiques:\r\n\r\nCommandes de modération\r\nCommandes amusantes (memes, etc.)\r\nGestion des rôles\r\nJournalisation (assurez-vous d'avoir un canal appelé journaux)\r\nFortnite stats et pour d'autres jeux!\r\nUrls courtes\r\nObtenez des informations générales sur votre serveur, vos rôles, etc.\r\nFaites différentes astuces avec votre avatar et votre texte\r\nDifférents jeux auxquels vous pouvez jouer avec vos amis\r\netc\r\nComment utiliser le bot: Pour commencer, étant donné que le bot dispose de nombreuses fonctionnalités, vous devez vous assurer que vous disposez de toutes les autorisations requises (gérer les rôles, gérer le serveur, gérer les messages, envoyer des messages, rejoindre un canal vocal, redonner un membres, membres de déménagement, muet)\r\n\r\nVous pouvez utiliser! Help pour obtenir la commande help qui inclut toutes les commandes utilisables! Assurez-vous de lire le message qui suit la commande, car il vous donne l’utilisation de la commande en cas de problème d’utilisation! Deadpool a environ 45 commandes publiques et d’autres seront bientôt ajoutées.\r\n\r\nBOGUES\r\n\r\nSi vous trouvez des bugs, assurez-vous de les signaler en disant! Report et le bogue que vous avez trouvé\r\n\r\nSi le bogue ne se corrige pas rapidement, vous devrez taper! Invite et le bot vous invitera à consulter notre serveur d'assistance officiel.\r\n\r\nJ'espère que vous apprécierez notre service !!!"
+    }
+  ],
+  "created": 1544350591299,
+  "edited": 1544541407954,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "507534048822820875",
+  "images": {
+    "avatar": "images/507534048822820875/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=507534048822820875&scope=bot&permissions=470051894"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/sxSmyxq",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "!"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

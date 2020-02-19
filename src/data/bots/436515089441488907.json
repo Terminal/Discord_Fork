@@ -1,0 +1,50 @@
+{
+  "authors": [
+    "discord:308707063993860116"
+  ],
+  "contents": [
+    {
+      "description": "Color-Chan is a simple to use and highly customizable color bot",
+      "locale": "en-GB",
+      "name": "Color-Chan",
+      "page": "Color-Chan is a fast growing simple to use color name bot with 16,777,216 different color possibilities! The bot is highly customizable to fit every server type/size.\r\n\r\nWith the command “color = ‘colorname’” users can get a new color for their name. And an admin of your discord server can add a new color with: “color add ‘colorname’ R G B” User “color help” for more info on all my commands!"
+    }
+  ],
+  "created": 1544796079716,
+  "edited": 1574329861736,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "436515089441488907",
+  "images": {
+    "avatar": "images/436515089441488907/avatar.png",
+    "cover": null,
+    "preview": [
+      "images/436515089441488907/0.png"
+    ]
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=436515089441488907&permissions=268561494&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/enYgtWz",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "color"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://colorchan.com",
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:277192632181194753"
+  ],
+  "contents": [
+    {
+      "description": "Polski wielofunkcyjny bot.",
+      "locale": "pl",
+      "name": "WhiteFire",
+      "page": "Cześć. Czy chcesz posiadać bota na serwerze, który potrafić wywołać zabawę? Czy chcesz ulepszyć swój serwer Discord? Jeśli tak jest, to dobrze trafiłeś/aś! Pragniemy ci przedstawić bota o nazwie **WhiteFire!**\r\n\r\nZaproś bota **WhiteFire** jako bot do moderacji, 4FuN oraz bota narzędziowego, aby te rzeczy się zdarzyły. Dlaczego warto zaprosić **WhiteFire**? Oto powody, dla którego musisz zaprosić bota!\r\n\r\nCo oferujemy?\r\n\r\nOferujemy: \r\n\r\n🤖 Bota którego możesz skonfigurać pod swój serwer według Twojego uznania\r\n\r\n👋 Powitanie i Pożegnanie użytkownika na kanale oraz automatyczną role po wejściu na serwer\r\n\r\n🛠️ Komendy z zakresu: `Informacje, Moderacyjne, Narzędzia,, 4FuN, Matematyczne, Graficzne, Ekonomia, SFW i inne`\r\n\r\n🗄️ Uporządkowane komendy\r\n\r\n👤 Usuniętą funkcje Discorda `@someone`, którą polubili większość użytkowników Discorda.\r\n\r\nJuż znasz powody? Jeśli cie przekonałem no to zaproś bota i spraw, by serwer stał się lepszym miejscem! \r\n\r\nAby dowiedzieć się o liście komend, wpisz x!pomoc a bot na prywatnej wiadomości wyśle ci spis komend.\r\n\r\nTen bot jest obecnie w fazie rozwoju, więc prosimy o cierpliwość, jesteśmy otwarci na wasze sugestie/zgłoszenia bugów."
+    }
+  ],
+  "created": 1569662486739,
+  "edited": 1569662486739,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "593600512423755807",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=593600512423755807&scope=bot&permissions=2146958847"
+  },
+  "nsfw": false,
+  "state": "denied",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "x!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

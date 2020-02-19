@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:443181357246447617"
+  ],
+  "contents": [
+    {
+      "description": "Echo is a admin, fun, and music bot",
+      "locale": "en-GB",
+      "name": "Echo",
+      "page": "Purpose of the bot\r\n\r\nEcho is a multifunctional bot. Packed with several commands, such as administrative commands and fun commands, Echo will be able to fill your server with both safety, moderation and fun. Echo's key assets are shown with the extensive administrative commands, and it is online almost all the time. When it is brought offline, we are most likely developing the bot and improving its features.\r\nEcho, features are updated every month, its updates surrounding the suggestions made by our members.\r\n\r\nHaving trouble using Echo?\r\n\r\nOne of the most common of problems you may encounter when using Echo, is misspelling of commands. For a detailed documentation of what commands exist in echo, please run the command !help to see how they are spelled; as it may differ from how it is typically spelled. When kicking and banning, there are certain steps you need to follow, as Echo isn't the same as other mainstream administrative bots. You have to take away all the roles before you kick or ban them. \r\nAlso, some of the links that are floating around for Echo do not create proper rolls therefore you will have to create one with enough permissions. Otherwise, Echo will not work in your server properly.\r\n\r\nHave a suggestion or a question?\r\n\r\nIf you have a suggestion or a question, feel free to visit my support server.\r\n"
+    }
+  ],
+  "created": 1581298241523,
+  "edited": 1581298248096,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "547960478140203037",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=547960478140203037&permissions=8&scope=bot"
+  },
+  "nsfw": false,
+  "state": "queue",
+  "support": "https://discord.gg/QZjH8qS",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://echobot.bubbleapps.io/",
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

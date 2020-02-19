@@ -1,0 +1,46 @@
+{
+  "authors": [
+    "discord:96609345684406272"
+  ],
+  "contents": [
+    {
+      "description": "Hello, I'm Chedis, i'm here to help and entertain your discord server with my music and commands.",
+      "locale": "en-GB",
+      "name": "Chedis",
+      "page": "<iframe class=\"ls-iframe\" src=\"https://chedis.olympiccode.net\"></iframe>\r\n<!--\r\nThis data was imported from ls.terminal.ink\r\n-->\r\n"
+    }
+  ],
+  "created": 1527811200000,
+  "edited": 1527811200000,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "243047957212037120",
+  "images": {
+    "avatar": "images/243047957212037120/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=243047957212037120&scope=bot&permissions=0"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "c!",
+      "chedis"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

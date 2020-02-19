@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:311058927058157568"
+  ],
+  "contents": [
+    {
+      "description": "The multi purpose bot you need, Veld!",
+      "locale": "en-GB",
+      "name": "Veld",
+      "page": "# This is the bot you need, Look below for the features it has!\r\n- Memes command: Now look for the best memes using one command!\r\n- Fortnite Stats: Look for a player's Fortnite stats with one command!\r\n- News: Don't watch TV? Look for news using the bot!\r\n- Hotlines: Depressed? Check for every country's hotlines today!\r\n- Trump: Now make a funny Trump twitter meme!\r\n- Font: Check for a random font today!\r\n- And Much more Modules! \r\n\r\n# Modules the bot has:\r\n- Fun\r\n- Stats\r\n- Moderation\r\n- Economy\r\n- Bot\r\n- General\r\n\r\n# Features to come:\r\n\r\n```js\r\n1) \"Logging\"\r\n2) \"Custom Welcome Messages!\"\r\n3) \"PUBG Stats.\"\r\n4) \"Custom Prefix for every server!\"\r\n5) \"And Much more!\"\r\n```"
+    }
+  ],
+  "created": 1553453647005,
+  "edited": 1553453728981,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "462325970557468673",
+  "images": {
+    "avatar": "images/462325970557468673/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=462325970557468673&scope=bot&permissions=2146958591"
+  },
+  "nsfw": false,
+  "state": "banned",
+  "support": "https://discord.gg/Fgm52hp",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "v!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

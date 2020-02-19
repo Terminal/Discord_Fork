@@ -1,0 +1,51 @@
+{
+  "authors": [
+    "discord:443276440168038401",
+    "discord:139800365393510400",
+    "discord:611710071818289172"
+  ],
+  "contents": [
+    {
+      "description": "Daily & Level Quotes, Music, Welcoming, Logs, Captcha, Moderation, Self-roles and much more!",
+      "locale": "en-GB",
+      "name": "Kota",
+      "page": "<!DOCTYPE html>\r\n<html>\r\n<body>\r\n\r\n<h2 align=\"center\">Kota command categories</h2>\r\n<p align=\"center\"><b>Required Permissions:</b> Read/Send, Embed Links, Add Reactions.</p>\r\n\r\n<table style=\"width:100%\">\r\n  <tr>\r\n    <th>Category</th>\r\n    <th>Description</th> \r\n    <th>Usage</th>\r\n  </tr>\r\n  <tr>\r\n    <td>Animals</td>\r\n    <td>Contains commands such as dog, cat</td>\r\n    <td><code>k!help Animals</code></span></td>\r\n  </tr>\r\n  <tr>\r\n    <td>Announcements</td>\r\n    <td>Contains commands such as quickpost</td>\r\n    <td><code>k!help Announcements</code></span></td>\r\n  </tr>\r\n  <tr>\r\n    <td>Captcha</td>\r\n    <td>Contains commands such as captcha, captcha set</td>\r\n    <td><code>k!help Captcha</code></span></td>\r\n  </tr>\r\n    <tr>\r\n    <td>Dailyquotes</td>\r\n    <td>Contains commands such as dailyquotes, dailyquotes set</td>\r\n    <td><code>k!help Dailyquotes</code></span></td>\r\n  </tr>\r\n    <tr>\r\n    <td>Logging</td>\r\n    <td>Contains commands such as logging, logging standard, logging modlogs</td>\r\n    <td><code>k!help Logging</code></span></td>\r\n  </tr>\r\n    <tr>\r\n    <td>Prefixes</td>\r\n    <td>Contains commands such as prefix, prefix add, prefix remove</td>\r\n    <td><code>k!help Prefixes</code></span></td>\r\n  </tr>\r\n  <tr>\r\n    <td>Fun</td>\r\n    <td>Contains commands such as coinflip, slots</td>\r\n    <td><code>k!help Fun</code></span></td>\r\n  </tr>\r\n  <tr>\r\n    <td>Information</td>\r\n    <td>Contains commands such as invite, about</td>\r\n    <td><code>k!help Informations</code></span></td>\r\n  </tr>\r\n  <tr>\r\n    <td>Social</td>\r\n    <td>Contains commands such as hug, kiss, pat</td>\r\n    <td><code>k!help Social</code></span></td>\r\n  </tr>\r\n  <tr>\r\n    <td>Levels</td>\r\n    <td>Contains commands such as level, leaderboard, levelquotes set</td>\r\n    <td><code>k!help Levels</code></span></td>\r\n  </tr>\r\n  <tr>\r\n    <td>MISC</td>\r\n    <td>Contains commands such as syntax</td>\r\n    <td><code>k!help MISC</code></span></td>\r\n  </tr>\r\n  <tr>\r\n    <td>Moderator</td>\r\n    <td>Contains commands such as warn, ban</td>\r\n    <td><code>k!help Moderator</code></span></td>\r\n  </tr>\r\n  <tr>\r\n    <td>Music</td>\r\n    <td>Contains commands such as play, queue</td>\r\n    <td><code>k!help Music</code></span></td>\r\n  </tr>\r\n  <tr>\r\n    <td>Polls</td>\r\n    <td>Contains commands such as poll, quickpoll</td>\r\n    <td><code>k!help Polls</code></span></td>\r\n  </tr>\r\n  <tr>\r\n    <td>Quotes</td>\r\n    <td>Contains commands such as anger, trust</td>\r\n    <td><code>k!help Quotes</code></span></td>\r\n  </tr>\r\n  <tr>\r\n    <td>RoleAssign</td>\r\n    <td>Contains commands such as selfroles, give, take</td>\r\n    <td><code>k!help RoleAssign</code></span></td>\r\n  </tr>\r\n  <tr>\r\n    <td>Welcomer</td>\r\n    <td>Contains commands such as welcomer, welcomer set</td>\r\n    <td><code>k!help Welcomer</code></span></td>\r\n  </tr>\r\n  <tr>\r\n    <td>Utility</td>\r\n    <td>Contains commands such as serverinfo</td>\r\n    <td><code>k!help Utility</code></span></td>\r\n  </tr>\r\n</table>\r\n\r\n</body>\r\n</html>"
+    }
+  ],
+  "created": 1572022338688,
+  "edited": 1572022449641,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "601881915481391155",
+  "images": {
+    "avatar": "images/601881915481391155/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=601881915481391155&permissions=1009903702&scope=bot"
+  },
+  "nsfw": false,
+  "state": "queue",
+  "support": "https://discord.gg/VamB5BE",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "k!",
+      "k"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

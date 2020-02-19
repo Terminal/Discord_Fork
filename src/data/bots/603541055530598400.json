@@ -1,0 +1,54 @@
+{
+  "authors": [
+    "discord:334025053538877442"
+  ],
+  "contents": [
+    {
+      "description": "Ein einfach zu nutzendes Support System mit vielen Features wir Tickets und Voice Support!",
+      "locale": "de",
+      "name": "Support System",
+      "page": "Ein einfach zu Nutzender Discord Bot, der Support viel simple machen soll!\r\n\r\nAlle Befehle können im !help Befehl eingesehen werden\r\n\r\nFeatures:\r\n\r\n- Tickets\r\n- Voice Support\r\n- Report System\r\n- Bugreport System (work in progress)\r\n- Mailing System um Staff zu kontaktieren (work in progress)\r\n- Staff ranking\r\n- Informationen zu deiner Gilde und Tickets\r\n- Bearbeitbarer Prefix\r\n- Ticket Transcript\r\n- Kanal Beschränkungen\r\n- Unterstützt mehrere Sprachen\r\n\r\nViele weitere Features werden bald erscheinen!\r\n\r\nIch freue mich über jeden, der diesen Bot nutzt "
+    },
+    {
+      "description": "A simple to use Support System with many features like Tickets and Voice Support!",
+      "locale": "en-GB",
+      "name": "Support System",
+      "page": "English:\r\n\r\nA simple to use Discord Bot made for making Discord Support much simpler!\r\n\r\nAll the Commands can be found by using the !help command\r\n\r\nFeatures:\r\n\r\n- Tickets\r\n- Voice Support\r\n- Report System\r\n- Bugreport System (work in progress)\r\n- Mailing System to contact Staff (work in progress)\r\n- Staff ranking\r\n- Information on your guild and Tickets\r\n- Customizable Prefix\r\n- Ticket Transcript\r\n- Channel Restrictions\r\n- Supports multiple languages\r\n\r\nMany more features will be released soon!\r\n\r\nI really appreciate everyone who uses this bot \r\n"
+    }
+  ],
+  "created": 1567532960469,
+  "edited": 1573844224625,
+  "flags": {
+    "adverts": true,
+    "inAppPurchases": true
+  },
+  "hide": false,
+  "id": "603541055530598400",
+  "images": {
+    "avatar": "images/603541055530598400/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=603541055530598400&permissions=8&redirect_uri=https%3A%2F%2Fsupport-system.xyz%2Fapi%2Fbotlist%3Faff%3Ddiscordapps&response_type=code&scope=bot"
+  },
+  "nsfw": false,
+  "state": "queue",
+  "support": "https://discordapp.com/invite/4urdqGU/login",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://support-system.xyz",
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

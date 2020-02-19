@@ -1,0 +1,45 @@
+{
+  "authors": [
+    "discord:166179284266778624"
+  ],
+  "contents": [
+    {
+      "description": "Rythm is a feature-rich, easy to use Discord music bot",
+      "locale": "en-GB",
+      "name": "Rythm",
+      "page": "<!--\r\n    aaaaaaaaaaaaaaaaaaa\r\n-->"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1546553739971,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "235088799074484224",
+  "images": {
+    "avatar": "images/235088799074484224/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://rythmbot.co/invite"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "rm!"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "music"
+  ]
+}

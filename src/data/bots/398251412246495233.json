@@ -1,0 +1,52 @@
+{
+  "authors": [
+    "discord:242843345402069002",
+    "github:FurryBotCo"
+  ],
+  "contents": [
+    {
+      "description": "A fun multi-purpose bot for (furry) Discord servers!",
+      "locale": "en-GB",
+      "name": "Furry Bot",
+      "page": "<iframe src=\"https://furry.bot?botlist\" width=\"100%\" height=\"100%\"></iframe>\r\n"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1573661012667,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "398251412246495233",
+  "images": {
+    "avatar": "images/398251412246495233/avatar.png",
+    "cover": null,
+    "preview": [
+      "images/398251412246495233/0.png",
+      "images/398251412246495233/1.png"
+    ]
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=398251412246495233&scope=bot&permissions=-1"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/YazeA7e",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "f!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://furry.bot",
+  "source": null,
+  "categories": [
+    "entertainment"
+  ]
+}

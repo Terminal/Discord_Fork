@@ -1,0 +1,51 @@
+{
+  "authors": [
+    "discord:114049019227013128",
+    "github:comp500"
+  ],
+  "contents": [
+    {
+      "description": "A Discord bot. Serves outdated ZimoNitrome videos.",
+      "locale": "en-GB",
+      "name": "WednesdaysBot",
+      "page": "<h1>WednesdaysBot</h1>\r\n<p>A discord bot. Serves fresh ZimoNitrome videos.</p>\r\n<p>See the <a href=\"https://github.com/comp500/wednesdays-bot/\">sauce</a>, or <a href=\"https://discordapp.com/api/oauth2/authorize?client_id=389083091655852032&permissions=18432&scope=bot\">invite it to your server</a>.</p>\r\n<p>Note: Unmaintained and buggy as of 05/09/2018 (09/05/2018 if you're American), but still runs.</p>\r\n\r\n<h2>Help</h2>\r\n<ul>\r\n  <li><code>wednesday ping</code> - Replies when it is online.</li>\r\n  <li><code>wednesday help</code> - Opens this help message.</li>\r\n  <li><code>wednesday yt</code> - Sends the latest ZimoNitrome Wednesday video.</li>\r\n  <li><code>wednesday ytrand</code> - Sends a random ZimoNitrome Wednesday video.</li>\r\n  <li><code>wednesday stats</code> - Gets information about the bot.</li>\r\n  <li><code>wednesday boot</code> - Sends a random WednesdayOS startup message.</li>\r\n  <li><code>wednesday invite</code> - Sends the invite link for this bot.</li>\r\n  <li><code>wednesday subscribe</code> - Subscribe this channel to WednesdayBot messages.</li>\r\n  <li><code>wednesday unsubscribe</code> - Unsubscribe this channel from WednesdayBot messages.</li>\r\n</ul>\r\n\r\n<h2>Subscription</h2>\r\n<p>Subscription includes: </p>\r\n<ul>\r\n  <li>\"it is wednesday my dudes\" every wednesday</li>\r\n  <li>New ZimoNitrome wednesday video releases (based on the youtube playlist)</li>\r\n</ul>\r\n<p>These messages are opt-in, and can be activated by the guild owner in a channel using the command <code>wednesday subscribe</code></p>\r\n<!-- oh my mistake -->"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1552997155169,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "389083091655852032",
+  "images": {
+    "avatar": "images/389083091655852032/avatar.png",
+    "cover": "images/389083091655852032/background.png",
+    "preview": [
+      "images/389083091655852032/0.png"
+    ]
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=389083091655852032&permissions=18432&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "wednesday"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": "Oct2xKMGOno"
+  },
+  "website": null,
+  "source": "https://github.com/comp500/wednesdays-bot",
+  "categories": [
+    "fun"
+  ]
+}

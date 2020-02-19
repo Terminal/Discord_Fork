@@ -1,0 +1,53 @@
+{
+  "authors": [
+    "discord:262511457948663809"
+  ],
+  "contents": [
+    {
+      "description": "Graphical Fortnite Stats Bot with Auto Fortnite Shop, Server Status and Auto Weekly Challenges",
+      "locale": "en-GB",
+      "name": "EasyFortniteStats",
+      "page": "![Header](https://i.imgur.com/g1HJ8tb.png)\r\n\r\n##### Checkout new Stats Version in v2.0.0: [Update Page(*click*)](https://Luc1412.de/efs-update)    \r\n\r\n\r\n## Special Features\r\n - Graphical Stats\r\n - Multi Language (German, Spanish, French, Polish, Portuguese, Romanian, Russian, Ukrainian) *[Other languages on request of users]*\r\n - PSN ID and XBox Gamertag Support (via FortniteTracker.com)\r\n - Fortnite Random Location Generator\r\n - Quick retrieval of stats\r\n - Modern message design\r\n - Fortnite Server Status + Maintenance Countdown (With Auto Channel)\r\n - Fortnite Shop (With Auto Channel)\r\n - Weekly Challenges Solutions (With Auto Channel)\r\n\r\n\r\n\r\n## Commands\r\n|Command|Feature  |\r\n|--|--|\r\n| !fn|Display the stats of your Linked Account. |\r\n| !fn \\<Discord User¹>| Display the stats of the requested user(if linked). | \r\n| !fn \\<Player Name>|Display the stats of the requested account.  |\r\n| !fn help \\[-c]|Display all commands and there functions. (-c sends help in the channel) |\r\n| !fn challenge|Display the solutions for the weekly challenges. |\r\n| !fn shop | Display the current Fortnite Shop. |\r\n| !fn info|Display general information and stats about this bot.|\r\n| !fn drop|Display a random location name. |\r\n| !fn map|Display the current Fortnite Map. |\r\n| !fn status|Display the current Fortnite server status. (If maintenance is planned, also the time to maintenance) |\r\n| !fn link \\[Player Name]|Link your Discord Account with your Fortnite Account. |\r\n| !fn unlink| Unlink your Discord Account from your Fortnite Account.|\r\n| !fn event|  Get latest Fortnite Event Infos.|\r\n| !fn vote|Get the vote instructions and check vote status. |\r\n| !fn premium|Get Premium Info & Instructions.|\r\n| !fn invite|  Get the Invite Link from the Bot.|\r\n| !fn settings|Configure the bot.(e.g. Language, Auto Channels) |\r\n\r\n¹ - DiscordUser could be a **@Mention** or a **Name#Tag**\r\n\r\n\r\n## Planed Features\r\n - Graphical stats output (Published in v1.0.0)\r\n - Shop (Published in v1.1.0)\r\n - News\r\n - Fortnite Memes Channel\r\n - Suggest me something on my [Discord](https://Luc1412.de/discord)"
+    }
+  ],
+  "created": 1562841582655,
+  "edited": 1562841621494,
+  "flags": {
+    "adverts": true,
+    "inAppPurchases": true
+  },
+  "hide": false,
+  "id": "444203099331231746",
+  "images": {
+    "avatar": "images/444203099331231746/avatar.png",
+    "cover": "images/444203099331231746/background.png",
+    "preview": [
+      "images/444203099331231746/0.png",
+      "images/444203099331231746/1.png",
+      "images/444203099331231746/2.png",
+      "images/444203099331231746/3.png"
+    ]
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?permissions=268921920&scope=bot&client_id=444203099331231746&redirect_uri=https%3A%2F%2Fdiscordapp.com%2Finvite%2FSw5RbXD&response_type=code"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discordapp.com/invite/Sw5RbXD",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://luc1412.de/EasyFortniteStats",
+  "source": null,
+  "categories": [
+    "games"
+  ]
+}

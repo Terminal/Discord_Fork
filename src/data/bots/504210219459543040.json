@@ -1,0 +1,45 @@
+{
+  "authors": [
+    "discord:298799537089150976"
+  ],
+  "contents": [
+    {
+      "description": "OMG bot is on Beta , Because beta bot has orders that are now dark and soon they were different",
+      "locale": "en-GB",
+      "name": "omg bot",
+      "page": "OMG bot is on Beta , The bot is in Hebrew\r\ncommand:\r\nfortnite - Select the modem through react on message bot\r\nmc-skin - Send the skin to the user\r\nmc-server - View relevant information about a Linked Server server\r\nmc-hypixel - Registering user information at hypixel\r\nuser-info - Sending user information\r\nbot-info - Registering information about the bot\r\nserver-info - Registering information on the server\r\nrole-info - Registering information about the role\r\nuptime - Registers how long the bot is running\r\nrip - rip user\r\nrank - Registering at what level you are\r\nsettings - Changes bot stuff to serve\r\nhelp - Record all bot commands"
+    }
+  ],
+  "created": 1544547034165,
+  "edited": 1544547034165,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "504210219459543040",
+  "images": {
+    "avatar": "images/504210219459543040/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=504210219459543040&permissions=8&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "&"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

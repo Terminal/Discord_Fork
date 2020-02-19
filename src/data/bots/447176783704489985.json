@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:415570038175825930",
+    "discord:483817273803538450",
+    "discord:247741991310327810",
+    "github:Deivedux"
+  ],
+  "contents": [
+    {
+      "description": "Feature-rich, easy to use message quoting tool that you'll ever need.",
+      "locale": "en-GB",
+      "name": "Quote",
+      "page": "# Stop self-botting, quote messages the legal way\r\n\r\n| *If you always wanted to quote user messages without getting in trouble for it, then Quote is what you need!* |\r\n| --- |\r\n| *Other than modifying your Discord client, you can make a bot to do it for you without any issues.* |\r\n\r\n---\r\n\r\n## What messages are supported?\r\n  * Normal message with content, sent either by a normal user or any different bot.\r\n\r\n  * Embed's color depends on the message author's color in the server by roles.\r\n\r\n  * Message containing an image as an attachment will also be quoted, but if there are more than 1 attachments in 1 messages then all of them will be linked individualy (discord's limitations).\r\n\r\n  * Rich Embed messages will not be quoted, and there will never be plans to add support for them.\r\n\r\n---\r\n\r\n## Self-Host\r\n  > If you'd like to selfhost Quote, you are more than welcome to by following one of the guides found in our [Documentation Page](https://quote.readthedocs.io/en/latest/)."
+    }
+  ],
+  "created": 1544447493536,
+  "edited": 1544447493536,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "447176783704489985",
+  "images": {
+    "avatar": "images/447176783704489985/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=447176783704489985&permissions=84992&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/sbySHxA",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      ">"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": "https://github.com/Deivedux/Quote",
+  "categories": [
+    "utility"
+  ]
+}

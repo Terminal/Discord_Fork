@@ -1,0 +1,49 @@
+{
+  "authors": [
+    "discord:158049329150427136"
+  ],
+  "contents": [
+    {
+      "description": "A discord bot that can provide rich information from multiple sources.",
+      "locale": "en-GB",
+      "name": "BotBoy",
+      "page": "<h1 class=\"bH\">BotBoy</h1>\r\nA discord bot that can provide rich information from multiple sources.\r\n<br><br>\r\n\r\n<p>Get information from various sources such as <b>Overwatch</b>, <b>CS:GO</b>, <b>Minecraft</b>, <b>Steam</b> and much more!</p>\r\n\r\n<p>You can also get extensive information about other users, roles and servers with the commands <code>^userinfo</code>, <code>^roleinfo</code> and <code>^serverinfo</code> respectively!</p>\r\n\r\n<p>You can view all commands <a href=\"https://botboy.snaz.in/commands\">here</a>, and make sure to <a href=\"https://invite.snaz.in/botboy\">invite</a> him to your server!</p>\r\n"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1578447546325,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "168238624775602176",
+  "images": {
+    "avatar": "images/168238624775602176/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://bot.discord.io/botboy"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://snaz.in/bots-discord",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "^",
+      "botboy"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://botboy.snaz.in",
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "authors": [
+    "discord:96664175350149120",
+    "github:RCXcrafter"
+  ],
+  "contents": [
+    {
+      "description": "Another random stuff bot, it draws molecular structures, it creates memes and you can talk to it.",
+      "locale": "en-GB",
+      "name": "Power Glove",
+      "page": "# Power Glove  \r\nThis is just another random stuff bot but I try to only add things that other bots don't have.\r\n\r\nCommands & features:  \r\n\r\n|Command [argument]|Explanation|\r\n|:-----------:|-------------|\r\n|**help**|Displays a list of commands and features.|\r\n|**settings**|Change the settings for this server.|\r\n|**science**|Posts a science related picture.|\r\n|**type**|Makes the bot start typing.|\r\n|**info**|Gives some info about this bot.|\r\n|**anthem**|Posts the theme song of this bot.|\r\n|**mlg [user]**|Make someone (or yourself) mlg.|\r\n|**smiles [smiles]**|Give it a SMILES formula and it will draw the molecule for you (reaction smiles are also supported). [Wikipedia: SMILES](https://en.wikipedia.org/wiki/Simplified_molecular-input_line-entry_system) <br> Example: pow smiles CN1C=NC2=C1C(=O)N(C(=O)N2C)C|\r\n|**disgusting [text]**|Insert your own text into the absolutely disgusting meme.|\r\n|**dong [text]**|Convert text into expand dong text.|\r\n|**talk**|Make the bot start or stop talking in the current channel.|\r\n|**afk [optional reason]**|Set yourself away from keyboard (globally).|\r\n|**quote**|Post an inspirational quote by a famous person.|\r\n|**mastermind**|Play a nice game of mastermind against the bot.|\r\n|**nsfw**|Post some hot ~~garbage~~ naked people.|\r\n|**color**|Generates a random color.|\r\n\r\n\r\nThis bot will also respond to certain key phrases/words:  \r\n• If you say \"delete this message\", your message will be deleted.  \r\n• Start your message with \"poll:\" to start a poll.  \r\n• Start your message with \"ninja:\" to have it deleted right after you post it so that only really fast people can read it.  \r\n\r\n\r\nIf you have any suggestions or questions, feel free to make an issue on [github](https://github.com/RCXcrafter/PowerGlove) or tell me in [my server](https://discord.gg/SthsknG).  \r\n"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1545935956753,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "439435998078959616",
+  "images": {
+    "avatar": "images/439435998078959616/avatar.png",
+    "cover": "images/439435998078959616/background.png",
+    "preview": [
+      "images/439435998078959616/0.png",
+      "images/439435998078959616/1.png",
+      "images/439435998078959616/2.png"
+    ]
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=439435998078959616&scope=bot&permissions=104332352"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/SthsknG",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "pow "
+    ]
+  },
+  "videos": {},
+  "website": "https://rcxcrafter.github.io/powerglove",
+  "source": "https://github.com/RCXcrafter/PowerGlove",
+  "categories": [
+    "fun"
+  ]
+}

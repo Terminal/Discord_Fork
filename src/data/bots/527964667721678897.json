@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:507329700402561045"
+  ],
+  "contents": [
+    {
+      "description": "The official manager bot for serverlist.space.",
+      "locale": "en-GB",
+      "name": "serverlist.space",
+      "page": "The serverlist.space bot is the official bot that manages your server listing on serverlist.space. You simply use the bot to add the server, and keep it there so that it can continue to make sure your invite link is functional. You can also fix your invite link on-the-fly with our easy to use commands."
+    }
+  ],
+  "created": 1554154544605,
+  "edited": 1554154544605,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "527964667721678897",
+  "images": {
+    "avatar": "images/527964667721678897/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=527964667721678897&scope=bot&permissions=19457"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/GjEWBQE",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "^^"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://serverlist.space/",
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

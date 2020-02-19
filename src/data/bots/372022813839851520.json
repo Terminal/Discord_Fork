@@ -1,0 +1,55 @@
+{
+  "authors": [
+    "discord:66166172835385344",
+    "github:GeoffreyWesthoff"
+  ],
+  "contents": [
+    {
+      "description": "Protection against spambots and alt accounts.",
+      "locale": "en-GB",
+      "name": "AltDentifier",
+      "page": "# Discord's Best Verification Bot\r\n\r\nExcellent checkpoint-like system for alt accounts and spambots, offering excellent protection for your server and it's members. Secure your server with AltDentifier and spend less time on moderating bad actors yourself. AltDentifier will automatically verify new members and protect your server, authenticating their third party connections with our unique verification system.\r\n\r\nTo start using AltDentifier, invite the bot to your server and use the ;setup command. The bot will guide you through it. Use ;help for a list of commands.\r\n"
+    },
+    {
+      "description": "Bescherming tegen spambots en alt accounts",
+      "locale": "nl",
+      "name": "AltDentifier",
+      "page": "# Discord's Beste Verificatie Bot\r\nBriljant checkpoint systeem dat beschermt tegen alt accounts en spambots, en geweldige bescherming bied voor jouw server en zijn leden. Beveilig je server met AltDentifier en besteed zelf minder tijd aan het achtervolgen van onbetrouwbare leden. AltDentifier controleert nieuwe leden en beschermt je server met verificatie met derde partijen door ons unieke verificatiesysteem.\r\n\r\nOm de bot te gebruiken, voeg je hem toe aan je server. Je wordt dan automatisch doorgeleid naar ons webinstallatiepaneel."
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1553625026709,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "372022813839851520",
+  "images": {
+    "avatar": "images/372022813839851520/avatar.png",
+    "cover": "images/372022813839851520/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://altdentifier.com/invite?ref=dbuk"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/BP2SV3J",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      ";"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://altdentifier.com",
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

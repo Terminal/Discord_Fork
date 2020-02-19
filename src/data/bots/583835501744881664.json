@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:568247122801983510"
+  ],
+  "contents": [
+    {
+      "description": "Testdddddddddd",
+      "locale": "en-GB",
+      "name": "Absolute Zero",
+      "page": "Testdddddddddddddddddddddddddddddddddddddd"
+    }
+  ],
+  "created": 1568350256018,
+  "edited": 1568350256018,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "583835501744881664",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=583835501744881664&permissions=8&redirect_uri=https%3A%2F%2Fdiscord.gg%2FasdW4fh&scope=bot"
+  },
+  "nsfw": false,
+  "state": "denied",
+  "support": "https://discord.gg/vWUr5W6",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "M_"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

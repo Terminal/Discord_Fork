@@ -1,0 +1,45 @@
+{
+  "authors": [
+    "github:perryprog"
+  ],
+  "contents": [
+    {
+      "description": "A kinda cool bot for the /r/TranscribersOfReddit Discord",
+      "locale": "en-GB",
+      "name": "ToR Genius",
+      "page": "Nothing particularly interesting to see here. Donate to GrafeasGroup [here](https://www.patreon.com/grafeasgroup).\n"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1542569433000,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "401477146511409183",
+  "images": {
+    "avatar": "images/401477146511409183/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=401477146511409183&permissions=8192&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "-",
+      "\"tor\""
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": "https://github.com/perryprog/tor-genius",
+  "categories": [
+    "other"
+  ]
+}

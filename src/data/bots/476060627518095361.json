@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:273216249021071360",
+    "discord:190544080164487168",
+    "discord:153353572711530496",
+    "github:ARPTell"
+  ],
+  "contents": [
+    {
+      "description": "Networking inside Discord. Wait, what?",
+      "locale": "en-GB",
+      "name": "DHCPCord",
+      "page": "DCHPCord attempts to implement networking protocols within Discord such as TCP and ARP, with UDP on the way.\r\nFeatures: \r\nIP addresses. Every user gets one! Guilds get different subnets, with external IP routing coming soon!\r\nMAC addresses: every user and bot has a MAC address, just in case you suspect someone’s identity.\r\nSockets: create services like web servers and chat channels (chat channels soon).\r\nNetworking themed mod commands: kick, ban and mute using IP, MAC, or good old user ID\r\n\r\nNote: help menu is ancient, will update SoonTM"
+    }
+  ],
+  "created": 1547086851640,
+  "edited": 1547127011640,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "476060627518095361",
+  "images": {
+    "avatar": "images/476060627518095361/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=476060627518095361&permissions=268438534&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/Qjs3dfq",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "dhcp."
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": "https://github.com/ARPTell/DHCPCord",
+  "categories": [
+    "utility"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:539154199834001429"
+  ],
+  "contents": [
+    {
+      "description": "Easy to moderate your server when you have this bot. ",
+      "locale": "en-GB",
+      "name": "Clyde ",
+      "page": "<h1 id=\"Description\">Description</h1> \r\nThis is \"easy to use\" bot. Simply moderate your server with this bot. Currently have some command but we are working on more commands. If you want to suggest a command. Contact the owner BlackBird#7222 for suggesting command. I are waiting! Also there is current command available on bot\r\n<h1 id=\"help page 1\">Help page 1</h1>\r\nban\r\nDescription: ban a member.\r\nUsage: clyde ban <user> [time] [reason]\r\n\r\nkick\r\nDescription: kick a member.\r\nUsage: clyde kick <user> [reason]\r\n\r\nwarn\r\nDescription: warn a member.\r\nUsage: clyde warn <user> <reason>\r\n\r\nmute\r\nDescription: mute a member.\r\nUsage: clyde mute <user> [time] [reason]\r\n\r\nunmute\r\nDescription: unmute a member.\r\nUsage: clyde unmute <user>\r\n\r\nclear\r\nDescription: clear messages.\r\nUsage: clyde clear <amount>\r\n\r\nautorole\r\nDescription: set role to be given to member on join.\r\nUsage: clyde autorole <role>\r\n\r\nlog\r\nDescription: set channel to log to.\r\nUsage: clyde log <channel>\r\n\r\nconfig\r\nDescription: view this servers config.\r\nUsage: clyde config\r\n\r\n<h1 id=\"help page 2\">Help page 2</h1>\r\nwarns\r\nDescription: see the members warnings.\r\nUsage: clyde warns [user]\r\n\r\nconfig\r\nDescription: view this servers config\r\nUsage: clyde config"
+    }
+  ],
+  "created": 1548953735403,
+  "edited": 1548953735403,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "539356319979929612",
+  "images": {
+    "avatar": "images/539356319979929612/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=539356319979929612&permissions=268712022&scope=bot"
+  },
+  "nsfw": false,
+  "state": "denied",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "clyde"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

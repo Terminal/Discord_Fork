@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:489760113960419328"
+  ],
+  "contents": [
+    {
+      "description": "FlashLight Are Advanced bot. Help With Basic Things! Such Server Name,Announce, And More!",
+      "locale": "en-GB",
+      "name": "FlashLight",
+      "page": "<html>\r\n<body>\r\n\r\n![N|Solid](https://i.imgur.com/2OOkqJ7.png)\r\n\r\n<iframe src=\"https://flashlight.site123.me\" width=\"600\" height=\"600\">\r\n</iframe>\r\n<a href=\"https://flashlight.site123.me\">Click Me To Visit The Site.</a>\r\n\r\nThis Bot Help You With Some Things Such. Fun,Mod,And Basic Commands\r\n\r\n# How To Start The Bot?\r\nTo Get Started Type !help\r\n\r\nExample Gif:\r\n\r\n\r\n\r\n\r\n![N|Solid](https://s3.gifyu.com/images/E.gif)\r\n\r\n# How Many Cmds i have?\r\n\r\nNumber: More Then 20 Commands\r\n\r\n</body>\r\n</html>\r\n"
+    }
+  ],
+  "created": 1560886422886,
+  "edited": 1560886422886,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "574197242433503241",
+  "images": {
+    "avatar": null,
+    "cover": "images/574197242433503241/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=574197242433503241&scope=bot&permissions=8"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discordapp.com/invite/QQfGmg",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

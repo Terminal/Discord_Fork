@@ -1,0 +1,51 @@
+{
+  "authors": [
+    "discord:309809336111333377",
+    "discord:285473652135165953"
+  ],
+  "contents": [
+    {
+      "description": "A management concern? A problem of moderation? she can replace 85 % of bot  ! ",
+      "locale": "en-GB",
+      "name": "Yuzuru",
+      "page": "Hello ! I'll introduce you Yuzuru! Do not pay attention to the image of the bot, it is more tender than it looks.\r\n\r\n\r\nmore than 224 orders gathered in this bot!\r\n\r\n████████████████████████████████████████████████████\r\n\r\nA bot? What again  ?\r\n\r\nA management concern? A problem of moderation? Want more fun and all for pure simplicity?\r\n\r\nThis bot is for you!\r\n\r\n\r\n▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓\r\n\r\n \r\n╲⎝⧹╲⎝⧹╲⎝⧹╲⎝⧹╲⎝⧹╲⎝⧹╲⎝⧹╲⎝ Yuzuru ⧸⎠╱ ⧸⎠╱ ⧸⎠╱ ⧸⎠╱ ⧸⎠╱ ⧸⎠╱ ⧸⎠╱ ⧸⎠╱\r\n\r\n```Diff\r\nThis bot contains a lot of function such as ...\r\n+ --- ► moderation\r\n+ --- ►the music\r\n+ --- ►the ban role (useful to ban 50 exiles in one order)\r\n+ --- ►join leave command (allows when you join a vocal or when you quit playing a sound)\r\n+ --- ►Economy\r\n+ --- ►fun order\r\n+ --- ►of kaomoji\r\n+ --- ►games\r\n+ --- ► translate: very useful (I would not give more info;))\r\n+ --- ► The weather!\r\n+ --- ► Special birthday\r\n+ --- ► reaction role, (very useful, no more info, come see for yourself !: D)\r\n+ --- ► many other useful commands!\r\n+ --- ►the mass DM by role (very useful)\r\n+ --- ►And full of order!\r\nTry is to adopt\r\n-Try it and send your comments by ordering ... contact message (put your message instead of message.)\r\n```\r\nThe discord link: https://discord.gg/AzZ8Q5G\r\n\r\nThe link for guest the bot: https://discordapp.com/oauth2/authorize?client_id=451059262546903050&scope=bot\r\n\r\n\r\nfor help, just type the command ...help, the order will send you an order list in private message"
+    }
+  ],
+  "created": 1558457080977,
+  "edited": 1558457080977,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "451059262546903050",
+  "images": {
+    "avatar": "images/451059262546903050/avatar.png",
+    "cover": "images/451059262546903050/background.png",
+    "preview": [
+      "images/451059262546903050/0.png"
+    ]
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=451059262546903050&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/ZxWMTau",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "..."
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

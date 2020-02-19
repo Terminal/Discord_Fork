@@ -1,0 +1,52 @@
+{
+  "authors": [
+    "discord:521881437360619560"
+  ],
+  "contents": [
+    {
+      "description": "Hi, I'm Nyx, a Discord bot that was created to supply useful utility tools!",
+      "locale": "en-GB",
+      "name": "NyxBot",
+      "page": "\\- **Easy moderation commands,** including the functionality of logging actions.   \r\n  \r\n\\- **Reasoning System** tells the user the reasoning of the moderation action, along with reasoning on bans.  \r\n  \r\n\\- **Customization** for your server, or to just keep nyx from accidentally getting the other bot in on the conversation.  \r\n  \r\n\\- **Fun commands** to kill some time while you're waiting for that hot pocket to finish heating up.  \r\n  \r\n\\- **NO PREMIUM FEATURES!** Nyx saves the best commands for everyone.  \r\n  \r\n\\- **Stable uptime!** Nyx has a goal to stay online almost 100% of the time, meaning you have easy access to faster and simpler moderation at all hours of the day. [_See the uptime here!_](https://status.nyxbot.xyz)"
+    }
+  ],
+  "created": 1580590783633,
+  "edited": 1580590783633,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "600206352916414464",
+  "images": {
+    "avatar": "images/600206352916414464/avatar.png",
+    "cover": null,
+    "preview": [
+      "images/600206352916414464/0.png",
+      "images/600206352916414464/1.png",
+      "images/600206352916414464/2.png"
+    ]
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?scope=bot&response_type=code&redirect_uri=https://nyxbot.xyz/thankyou&guild-oauth&permissions=1343089878&client_id=600206352916414464"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discordapp.com/invite/zdfW7hf",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      ";"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://nyxbot.xyz/",
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

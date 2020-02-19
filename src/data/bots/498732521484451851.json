@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:287356293071503373"
+  ],
+  "contents": [
+    {
+      "description": "The future of, Server Management and Entertainment!",
+      "locale": "en-GB",
+      "name": "Nex Discord Bot",
+      "page": "Nex is a multipurpose that has great commands such as moderation commands, fun commands and much more that can enhance your Discord server experience, we update Nex and strive for perfection and The bot is one 24/7. we hope you enjoy using Nex and if you have any trouble let us know our support team can you help you out."
+    }
+  ],
+  "created": 1542834561162,
+  "edited": 1547731794793,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "498732521484451851",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=498732521484451851&scope=bot&permissions=273697942"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/3QmSDm4",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "nx"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

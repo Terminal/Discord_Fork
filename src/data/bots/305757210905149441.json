@@ -1,0 +1,57 @@
+{
+  "authors": [
+    "discord:284122164582416385",
+    "discord:250322741406859265",
+    "github:aetheryx"
+  ],
+  "contents": [
+    {
+      "description": "yes spotify",
+      "locale": "en-GB",
+      "name": "uhhng",
+      "page": "this is so sad s;play despacito"
+    }
+  ],
+  "created": 1549591401277,
+  "edited": 1552413067113,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "305757210905149441",
+  "images": {
+    "avatar": "images/305757210905149441/avatar.png",
+    "cover": "images/305757210905149441/background.png",
+    "preview": [
+      "images/305757210905149441/0.png",
+      "images/305757210905149441/1.png",
+      "images/305757210905149441/2.png",
+      "images/305757210905149441/3.png",
+      "images/305757210905149441/4.png",
+      "images/305757210905149441/5.png"
+    ]
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=305757210905149441&permissions=280640&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/Yphr6WG",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "s;"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://spotify-connect.aetheryx.xyz",
+  "source": "https://github.com/aetheryx/spotify-connect",
+  "categories": [
+    "other"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:204027971516891136"
+  ],
+  "contents": [
+    {
+      "description": "Anime searching and MyAnimeList listing and AniList support.",
+      "locale": "en-GB",
+      "name": "Aiura",
+      "page": "Aiura - AnimeList\r\n\r\n[Main Website](https://aiura.me)\r\n\r\nThis bot has several functions but the major being you can set your MyAnimeList account with it. To set your account\r\nyou need to verify it using the advanced functionality of the bot. This is all done automatically. Just follow the instructions.\r\n\r\nSupports custom prefix. \r\n\r\nManga and anime search is also possible using the bot.\r\n\r\nUsername is your username on MAL.\r\n1. ?setmal username\r\n2. Type yes\r\n3. Go to myanimelist profile and paste the token you received from the bot in location field.\r\n4. Wait 240 seconds or type anything after done.\r\n5. You have now claimed your account.\r\n[Video Guide for MAL linking](https://i.imgur.com/6iaXEr1.gifv)\r\n\r\n**Anime Commands** `?help MAL`\\\r\n[?mal set][?malset] - Sets your MyAnimeList Profile\\\r\n[?mal anime discorduser][?mala] - Searches if that person has linked his MAL account. Anime\\\r\n[?mal manga discorduser][?malm] - Searches if that person has linked his MAL account. Manga\\\r\n[?mal search Xinil][?mals] - Searches the website with specificed username\\\r\n[?anime title] - Searches MyAnimeList Anime\\\r\n[?manga title] - Searches MyAnimeList Manga\\\r\n[?anianime title] - Searches AniList Anime\\\r\n[?animanga title] - Searches AniList Manga\\\r\nYour MyAnimeList account is persistant through any servers this bot is invited in.\r\n\r\n**Actions Commands**\\\r\n[?kiss user] - Kisses someone\\\r\n[?hug user] - Hugs someone\\\r\n[?pat user] - Pats someone\r\n\r\nTo see more Actions commands do `?help Actions`\r\n\r\n**General Commands** `?help General`\\\r\n[?spoiler title message] - Creates a spoiler and autodeletes the message. Encrypts the spoiler with a link to decrypt.\\\r\n[?serverprefix] - Have a custom serverprefix. Admin command.\\\\\r\n[?uptime] - Checks uptime\\\r\n[?info] - Shows bot information and sources used.\\\r\n[?invite] - Gets the invite link for the bot\\\r\n[?leave] - Leaves current server (owner command)\\\r\n[?support] - Gets the invite link for support server\\\r\n[?contact] - Sends a message to owner (Write your message after contact with space.\\\r\n\r\nTo see more information about an command do ?help command\r\n\r\nFork of Red-Bot."
+    }
+  ],
+  "created": 1556014030979,
+  "edited": 1557088319473,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "438959507389808641",
+  "images": {
+    "avatar": "images/438959507389808641/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=438959507389808641&scope=bot&permissions=354368"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/RTecBT6",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "?"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://aiura.me",
+  "source": null,
+  "categories": [
+    "entertainment"
+  ]
+}

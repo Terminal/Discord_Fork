@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:246107833295175681"
+  ],
+  "contents": [
+    {
+      "description": "Multipurpose bot with automod, music, and fun commands.",
+      "locale": "en-GB",
+      "name": "Bender",
+      "page": "# Bender\r\nA multipurpose bot with over 90 commands.\r\n\r\nIt is very customizable with a dynamic permissions system, moderation, time zones, chat filters, and more.\r\nBut most importantly, it's built to be as user-friendly and as useful as possible.\r\nMore info on the [official feature list](https://benderbot.co/features).\r\nIt's come a long way, but there are still many features planned, and I'm always open to suggestions!\r\n\r\nSome features include:\r\n- Automatic moderation\r\n- Music\r\n- Fun commands such as 8ball and rock-paper-scissors\r\n- Agreement system for new members\r\n- Giveaways\r\n- Edited/deleted message and command logging\r\n- 12+ moderation commands\r\n- And more!\r\n"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1560371383985,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "300800171988484096",
+  "images": {
+    "avatar": "images/300800171988484096/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://benderbot.co/invite"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      ";"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

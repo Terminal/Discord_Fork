@@ -1,0 +1,47 @@
+{
+  "authors": [
+    "discord:193060889111298048"
+  ],
+  "contents": [
+    {
+      "description": "Autoroles, custom role commands, vote channels, name cleaning, and many more utilities.",
+      "locale": "en-GB",
+      "name": "Restarter v2",
+      "page": "# [Restarter v2](https://botz.mattcowley.co.uk/restarter_v2/)\r\n\r\n>> Autoroles, custom role commands, vote channels, name cleaning, and many more utilities. <<\r\n\r\n### Links\r\n\r\n  [Invite Restarter v2](https://botz.mattcowley.co.uk/restarter_v2/invite) |\r\n  [Restarter v2 website](https://botz.mattcowley.co.uk/restarter_v2/) |\r\n  [Restarter v2 support](https://botz.mattcowley.co.uk/restarter_v2/support)\r\n"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1543315178102,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "438978127973318656",
+  "images": {
+    "avatar": "images/438978127973318656/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://botz.mattcowley.co.uk/restarter_v2/invite"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "restarter",
+      "res",
+      "r."
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

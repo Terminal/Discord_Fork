@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:353067694565883915"
+  ],
+  "contents": [
+    {
+      "description": "Wielofunkcyjny bot z funkcjami moderacyjnymi, przerabianiem zdjęć, prostą w użyciu konfiguracją.",
+      "locale": "pl",
+      "name": "AmpersandBot",
+      "page": "Czy chciałbyś wyróżnić swój serwer na tle innych? Teraz możesz!<br>\r\nDodając AmpersandBota na swój serwer, możesz ułatwić sobie moderowanie serwera, ale i nie tylko.<br><br>\r\n\r\nListę wszystkich komend znajdziesz pod komendą \"a?help categories\".<br><br>\r\n\r\nPrzydatne komendy (z kategorii konfiguracyjnej):<br><ul>\r\n<li>a?setwelcome - ustawia powitanie, które jest wysyłane gdy nowa osoba dołączy na serwer.</li>\r\n<li>a?setgoodbye - działa tak samo jak a?setwelcome, ale pożegnanie jest wysyłane gdy członek odejdzie z serwera.</li>\r\n<li>a?messagelog <ID kanału> - na podany kanał (w konfiguracji ID kanału) wysyła logi o edytowanych i usuniętych wiadomościach. Podaje również ID wiadomości dla szybszego zgłaszania do supportu Discorda w przypadku złamania ToS Discorda.</li>\r\n<li>a?channellog <ID kanału> - robi to samo, co a?messagelog, ale podaje informacje o usuniętych i dodawanych kanałach tekstowych i głosowych.</li>\r\n</ul><br>\r\n\r\nTo tylko kilka komend, które są bardzo przydatne. Komend jest znacznie więcej - dodaj AmpersandBota już teraz!<br>\r\nZaufało nam prawie 40 serwerów."
+    }
+  ],
+  "created": 1581696541613,
+  "edited": 1581696683297,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": true
+  },
+  "hide": false,
+  "id": "645314415578841101",
+  "images": {
+    "avatar": "images/645314415578841101/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=645314415578841101&scope=bot&permissions=1174598"
+  },
+  "nsfw": false,
+  "state": "queue",
+  "support": "https://discord.gg/KwVTHyn",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "a?"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

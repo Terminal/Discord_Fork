@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:457490495719866369"
+  ],
+  "contents": [
+    {
+      "description": "Yukania est un bot Multi-Fonctions !",
+      "locale": "fr",
+      "name": "Yukania",
+      "page": "[FR]\r\n\r\nYukania est un bot qui est en plein développement, donc de nombreuses commandes sont a venir. Voici les commandes disponibles !\r\n\r\n❱ Administrations\r\n\r\n❱ Modérations\r\n\r\n❱ Images\r\n\r\n❱ Fun\r\n\r\n❱ Informations\r\n\r\n❱ NSFW\r\n\r\nVous pouvez à tout moment demander de l'help avec une commande et un membre du staff du bot viendra donc vous aidez au plus vite sur votre serveur.\r\nJe vous invite donc dés maintenant a tester le bot.\r\n\r\n[EN]\r\n\r\nYukania is a bot that is in full development, so many orders are coming. Here are the available commands!\r\n\r\n❱ Administrations\r\n\r\n❱ Moderations\r\n\r\n❱ Imagery\r\n\r\n❱ Fun\r\n\r\n❱ Information\r\n\r\n❱ NSFW\r\n\r\n\r\nYou can at any time request help with a command and a member of the staff of the bot will come so you help quickly on your server.\r\nI invite you now to test the bot.\r\n"
+    }
+  ],
+  "created": 1573407175543,
+  "edited": 1573407175543,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "565566736955342861",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=565566736955342861&scope=bot&permissions=2146958847"
+  },
+  "nsfw": false,
+  "state": "queue",
+  "support": "https://discord.gg/6jdGMuS",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

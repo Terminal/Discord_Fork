@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:311604263379795970"
+  ],
+  "contents": [
+    {
+      "description": "Watchdog Bot || Moderation || Economy || Music || Fun",
+      "locale": "en-GB",
+      "name": "Watchdog Bot",
+      "page": "**Watchdog Bot** is bot of *Moderation*, *Music*, *Economy* and *Fun* you can visit the bot server by type `/server` invite the bot by type `/invite` and setup the bot with `/config` (the bot need `add reactions` permission)"
+    }
+  ],
+  "created": 1545329858218,
+  "edited": 1545329858218,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "440182142207655947",
+  "images": {
+    "avatar": "images/440182142207655947/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=440182142207655947&scope=bot&permissions=8"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/bJE7ehH",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "/"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://watchdog.glitch.me/commands",
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

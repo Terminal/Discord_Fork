@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:281193735788953601"
+  ],
+  "contents": [
+    {
+      "description": "Yet another Discord bot that does all sorts of stuff. You're welcome.",
+      "locale": "en-GB",
+      "name": "Manatee",
+      "page": "Manatee is a simple, speedy Discord bot that can meet your servers' needs. It features lots of abilities such as:  \r\n\r\n  🐬 Curate commands specifically for your server by enabling/disabling them however you wish.  \r\n  🐬 Give it a unique prefix within your server.  \r\n  🐬 Welcome new users with a warm, fuzzy greeting.  \r\n  🐬 Log info like all the actions made by your moderation team, who enters and leaves your server, or which messages are edited and deleted.  \r\n  🐬 Create custom commands for Manatee, like `m!lmao` which sends a custom message of your choice.  \r\n  🐬 Play engaging games like hangman, minesweeper, roulette, and sudoku, or challenge friends to a round of trivia.  \r\n  🐬 Generate your own memes to your heart's content, or just browse memes on `r/dankmemes`.  \r\n  \r\nThat list just scratches the surface on what you can do with Manatee!  \r\nHere's a full list of commands:\r\n\r\n### ⚙️ Config\r\n\r\n- **autorole:** Give new users a role upon joining.  \r\n- **disable:** Disable a command from being run in your server. Use the --view flag to view a list of disabled commands.  \r\n- **enable:** Enable a command in your server. All commands are enabled by default; this command is the opposite of `​disable`​.  \r\n- **member-log:** Set the channel to log when users join/leave.  \r\n- **message-log:** Set the channel to log when messages are edited/deleted.  \r\n- **mod-log:** Set the channel to log moderation commands.  \r\n- **prefix:** Set a customized prefix specific to your server.  \r\n- **tag:** Manage tags in your server.  \r\n- **welcome:** Set a welcome message for your server.  \r\n\r\n### 🎉 Fun\r\n\r\n- **animal:** Grabs a random animal image.  \r\n- **anime:** Get info about an anime show.  \r\n- **banner:** Create an ASCII banner from text (10 chars max).  \r\n- **clap:** Make me say whatever you want by clapping!  \r\n- **cow:** Make a cow say your text.  \r\n- **foodporn:** Fetch some mouth-watering images... too bad you can't have it.  \r\n- **kill-me:** Kill yourself in-game with this command... Now with free revival!  \r\n- **kiss-marry-kill:** Determines who to kiss, who to marry, and who to kill.  \r\n- **conch:** Ask the magic conch any question you have.  \r\n- **meme:** Find a dank meme...  \r\n- **movie:** Get info about a movie.  \r\n- **pig-latin:** Translate to Pig Latin.  \r\n- **psycho-pass:** Determine your crime coefficient.  \r\n- **scramble:** Scramble any text you send.  \r\n- **ship:** Generate ship names.  \r\n- **xkcd:** Check today's xkcd comic.  \r\n\r\n### 🎲 Games\r\n\r\n- **captcha:** Guess what the captcha says.  \r\n- **fight:** Engage in a western gunfight against someone.  \r\n- **hangman:** Try to guess the word correctly.  \r\n- **minesweeper:** Generate a game of Minesweeper.  \r\n- **roulette:** Play a game of roulette.  \r\n- **rps:** Play Rock, Paper, Scissors with me.  \r\n- **slots:** Play a game of slots.  \r\n- **sudoku:** Generate a game of sudoku.  \r\n- **tic-tac-toe:** Play a game of tic tac toe.  \r\n- **trivia:** Answer a trivia question.  \r\n\r\n### 📷 Image\r\n\r\n- **3000-years:** Put someone over the _It's been 3000 years_ meme.  \r\n- **beautiful:** Put someone in Gravity Falls' _Oh, this? This is beautiful_ meme.  \r\n- **bob-ross:** Put someone in Bob Ross's canvas.  \r\n- **challenger:** Challenger Approaching!  \r\n- **dexter:** Put someone in Dexter's screen.  \r\n- **girl-worth-fighting-for:** Be the object of Ling's affection.  \r\n- **pixelate:** Pixelate an image/avatar.  \r\n- **power:** You Have The Power!  \r\n- **rip:** RIP stranger XXXX-2019  \r\n- **vietnam:** Bring back vietnam flashbacks over an image/avatar.  \r\n- **wanted:** Make a wanted poster for someone.  \r\n- **worthless:** Put someone in Gravity Falls' _Oh, this? This is worthless_ meme.  \r\n\r\n### 📚 Knowledge\r\n\r\n- **bored:** Find something to do when bored.  \r\n- **define:** Find the definition of a word.  \r\n- **element:** Find info on an element from the Periodic Table.  \r\n- **github:** Search for a GitHub repo.  \r\n- **ip:** Find info on an IPv4 address.  \r\n- **iTunes:** Find a song on iTunes.  \r\n- **map:** Get a map of a place.  \r\n- **report:** Calculate information about a data set.  \r\n- **stock:** Get information about a stock symbol.  \r\n- **translate:** Translate text to another language.  \r\n- **urban:** Search for words on Urban Dictionary.  \r\n- **wikipedia:** Finds a Wikipedia Article by title.  \r\n\r\n### 🚔 Moderation\r\n\r\n- **ban:** Ban a user.  \r\n- **deafen:** Deafen/Undeafen someone in a voice channel.  \r\n- **kick:** Kick a user.  \r\n- **nick:** Change/reset someone's nickname.  \r\n- **prune:** Delete messages with a filter.  \r\n- **softban:** Softban a user.  \r\n- **unban:** Unban a user.  \r\n- **voice-kick:** Disconnect someone from a voice channel.  \r\n- **voice-mute:** Mute/Unmute someone in a voice channel.  \r\n\r\n### 🛠 Utility\r\n\r\n- **avatar:** View someone's avatar.  \r\n- **color:** View a color.  \r\n- **echo:** Echoes whatever you say.  \r\n- **help:** Get a list of my commands, or info about a specific command.  \r\n- **info:** Get information about a user, a role, a channel, or the server itself.  \r\n- **invite:** Add me to your Discord server!  \r\n- **ping:** Check my connection to Discord.  \r\n- **playing:** Check who's playing a game.  \r\n- **qr:** Convert any content to a QR code.  \r\n- **stats:** Check some statistics about me.  \r\n- **suggest:** Suggest any improvements to the bot.  \r\n- **support:** Get a link to my support server.  \r\n- **topinvites:** Check the top invites in a server."
+    }
+  ],
+  "created": 1576668592528,
+  "edited": 1576668592528,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "643103079679393792",
+  "images": {
+    "avatar": "images/643103079679393792/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=643103079679393792&permissions=164752486&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/dMUTV9E",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "m!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

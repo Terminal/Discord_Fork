@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:312617227490951168"
+  ],
+  "contents": [
+    {
+      "description": "Quote It is a singlepurpose bot built in Eris with the aim of sharing things between members.",
+      "locale": "en-GB",
+      "name": "Quote It",
+      "page": "Quote It is a fun small bot aimed to share funny messages across discord. It supports various kind of quotes with more to come! For any queries, suggestions or other support, join the server at [this link](https://discord.gg/W9HJF3H).\r\n\r\nCommands:\r\n- about\r\n- didyouknow\r\n- eval\r\n- help\r\n- imagine\r\n- invite\r\n- remember\r\n- report\r\n- stats\r\n- support\r\n- wish"
+    }
+  ],
+  "created": 1579288424822,
+  "edited": 1579288424822,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "666040152644124679",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=666040152644124679&scope=bot&permissions=51264"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/W9HJF3H",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "@Quote It"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

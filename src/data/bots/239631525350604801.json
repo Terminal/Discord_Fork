@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:80821761460928512"
+  ],
+  "contents": [
+    {
+      "description": "Simple to use multi-purpose Discord bot - music, moderation, fun and more!",
+      "locale": "en-GB",
+      "name": "Pancake",
+      "page": "<div class=\"post content\">\r\n  <link href=\"https://fonts.googleapis.com/css?family=Roboto:400,700\" rel=\"stylesheet\">\r\n  <div style=\"text-align: left\">\r\n    <b>The default prefix is </b>\r\n    <code>p!</code>.\r\n    <br>Use\r\n    <code>p!help</code> to get a list of commands. The prefix can be changed by using the \"prefix\" command.\r\n    <br>\r\n  </div>\r\n  <h3>Features:</h3>\r\n  <p>Hosted <b>24/7</b>. <b>99.9%</b> uptime.</p>\r\n  <ul>\r\n    <li>\r\n      <b>Simple Moderation</b>\r\n      <ul>\r\n        <li>Kick, softban, ban &amp; mute</li>\r\n        <li>Purge messages</li>\r\n        <li>Mute perist</li>\r\n      </ul>\r\n    </li>\r\n    <li>\r\n      <b>Music System</b>\r\n      <ul>\r\n        <li>Supports Soundcloud, YouTube (search/url/playlists) and Twitch</li>\r\n        <li>Pause &amp; Resume</li>\r\n        <li>Music Queue</li>\r\n      </ul>\r\n    </li>\r\n    <li>\r\n      <b>Information</b>\r\n      <ul>\r\n        <li>User &amp; Server Information Commands</li>\r\n        <li>Greeting &amp; Farewell settings</li>\r\n      </ul>\r\n    </li>\r\n    <li>Random Cat &amp; Dog Images</li>\r\n    <li>Image generation</li>\r\n    <li>Advanced permission system</li>\r\n    <li>Autoroles</li>\r\n    <li>Mass role management</li>\r\n  </ul>\r\n\r\n  Add Pancake to your server and say\r\n  <code>p!help</code> to get a list of commands.\r\n  <br>\r\n</div>\r\n<div class=\"btns\">\r\n  <a class=\"button btn is-primary\" href=\"https://discordapp.com/oauth2/authorize?permissions=301001759&amp;scope=bot&amp;client_id=239631525350604801\"\r\n    target=\"_blank\" rel=\"noopener\">\r\n    Invite Me\r\n  </a>\r\n  <a class=\"button btn is-primary\" href=\"https://discord.gg/b6HTktu\" target=\"_blank\" rel=\"noopener\">\r\n    Support Server\r\n  </a>\r\n  <a class=\"button btn is-primary\" href=\"https://pancakebot.org\" target=\"_blank\" rel=\"noopener\">\r\n    Website\r\n  </a>\r\n</div>\r\n<style>\r\n  ul {\r\n    margin-left: 2em;\r\n    list-style: disc;\r\n  }\r\n\r\n  ul ul {\r\n    list-style: circle;\r\n  }\r\n\r\n  .btn,\r\n  .button.is-primary {\r\n    border-radius: 4px;\r\n    padding: 8px 20px;\r\n    font-size: 16px;\r\n    min-width: 120px;\r\n    transition: background 0.3s ease;\r\n    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.5);\r\n    height: 36px;\r\n    font-weight: 600;\r\n    background-color: #3d5873;\r\n  }\r\n\r\n  .button:hover {\r\n    background: #082542 !important\r\n  }\r\n\r\n  a+a {\r\n    margin-left: 5px;\r\n  }\r\n\r\n  .btns {\r\n    margin-top: 20px;\r\n    padding-bottom: 5vh;\r\n    text-align: center;\r\n  }\r\n\r\n  .post {\r\n    max-width: 600px;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n  }\r\n\r\n  .nav,\r\n  a.nav-item {\r\n    background-color: #\r\n243a51\r\n  }\r\n\r\n  .nav {\r\n    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12)\r\n  }\r\n\r\n  a.nav-item:hover {\r\n    background-color: #3d5873\r\n  }\r\n\r\n  .bot-info .title,\r\n  .bot-info .tag {\r\n    margin-bottom: 10px\r\n  }\r\n\r\n  .tag {\r\n    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.5)\r\n  }\r\n\r\n  .post,\r\n  .btn {\r\n    font-family: 'Roboto'\r\n  }\r\n\r\n  h3 {\r\n    margin-bottom: 5px !important;\r\n    margin-top: 1.5rem !important;\r\n  }\r\n</style>\r\n<!--\r\nThis data was imported from ls.terminal.ink\r\n-->\r\n"
+    }
+  ],
+  "created": 1527811200000,
+  "edited": 1556906882085,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "239631525350604801",
+  "images": {
+    "avatar": "images/239631525350604801/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?permissions=301001759&scope=bot&client_id=239631525350604801"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "p!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

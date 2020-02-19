@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:254314923771822080"
+  ],
+  "contents": [
+    {
+      "description": "Tired of weebs and furrys in your server? Antiowo will ban/kick anyone who says owo or uwu!",
+      "locale": "en-GB",
+      "name": "Antiowo",
+      "page": "# Antiowo\r\n\r\n[![KILLS](https://flat.badgen.net/https/antiowo.xyz/api/badgen/kills)](https://antiowo.xyz)\r\n[![INVITE](https://flat.badgen.net/badge/Invite/Antiowo/e47412)](https://inv.antiowo.xyz)\r\n[![COMMANDS](https://flat.badgen.net/badge/Commands/View/43b581)](https://antiowo.xyz/commands)\r\n[![WEBSITE](https://flat.badgen.net/badge/Website/antiowo.xyz/cyan)](https://antiowo.xyz)\r\n\r\nAre you tired of weebs and furries in your Discord server? Antiowo will ban, kick or otherwise censor anyone \r\nwho says `owo` or `uwu`! You can also blacklist and whitelist your own words, users and roles.\r\n\r\n# Features\r\n- Removal of messages that include `owo` or `uwu`. Antiowo is very smart and will detect much more than just that\r\n- Warning system. You can set the amount of warnings before action\r\n- Custom punishments. You can switch between bans, kicks or simple deletions (censors)\r\n- Rewards for voting. [Voting for Antiowo](https://vote.antiowo.xyz) 3 times grants you one use immunity\r\n    - This can be disabled in your server\r\n\r\n# Notes\r\n- The default prefix is `::`. It can be changed using `::prefix`\r\n- Use `::help all` for more info\r\n    - The commands can be found [HERE](https://antiowo.xyz/commands)\r\n\r\n# Antiowo doesn't work?\r\n- If Antiowo doesn't work check out the `Having issues?` section on [Antiowo's website](https://antiowo.xyz).\r\n\tMake sure that the bot has a higher role than the offender and that Antiowo's role can manage messages and\r\n    ban members. You can also [join the support server](https://discord.gg/N8Fqcuk) for more help\r\n\r\n> *Note: this bot is meant to be joke. Please do not take it personally.*"
+    }
+  ],
+  "created": 1572786325306,
+  "edited": 1572786325306,
+  "flags": {
+    "adverts": true,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "495496088510529556",
+  "images": {
+    "avatar": "images/495496088510529556/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://invite.antiowo.xyz"
+  },
+  "nsfw": false,
+  "state": "queue",
+  "support": "https://discord.gg/N8Fqcuk",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "::"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://antiowo.xyz",
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

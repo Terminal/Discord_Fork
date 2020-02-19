@@ -1,0 +1,49 @@
+{
+  "authors": [
+    "discord:142782417994907648",
+    "github:Kaydax"
+  ],
+  "contents": [
+    {
+      "description": "Vertbot, the music bot without the dumb limits.",
+      "locale": "en-GB",
+      "name": "Vertbot",
+      "page": "Vertbot is a lag free* music bot without any limits to stop you from making huge\r\n\r\nMusic is the main focus, but Vertbot can do some other random commands that have no real use other then to mess around.\r\n\r\nVertbot also has the ability to bass boost your music, and allow you to control if you want to allow everyone to use the music commands or you can enable a DJ Mode to make it so people with a DJ role can use the music commands."
+    }
+  ],
+  "created": 1542669621931,
+  "edited": 1555985953292,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "316520238835433482",
+  "images": {
+    "avatar": "images/316520238835433482/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=316520238835433482&scope=bot&permissions=36793352"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/WPUU2dF",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "v-"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://kaydax.xyz/",
+  "source": "https://github.com/Kaydax/Vertbot",
+  "categories": [
+    "music"
+  ]
+}

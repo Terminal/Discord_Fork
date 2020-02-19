@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:541608349972824070"
+  ],
+  "contents": [
+    {
+      "description": "Hi, I'm chika fujiwara, a bot still in development but that can surprise you.💋",
+      "locale": "en-GB",
+      "name": "Fujiwara ",
+      "page": "![Image](https://i.imgur.com/M5ycfA2.png)\r\n# 💍 Chika Fujiwara Discord Bot  \r\n\r\n\r\nChika Fujiwara is a new bot in development.<br> Its main focus is fun, In the future it will add new modules and commands.<br>\r\n[![Discord](https://discordapp.com/api/guilds/556972098787213353/embed.png?style=banner2&cachebypass=1560637786.709)](https://discord.gg/3yxrN6f \"Discord\")<br>\r\n# 📘 Commands\r\n[fujiwara docs](https://fujiwaradocs.readthedocs.io/en/latest/)\r\n# 📝 Usage\r\n> Just type `f.help` which will display all my commands. <br>\r\n> The commands are self explanatory.\r\n> When using a command of no argument I will help you use the command correctly 💋 .\r\n# 📚 Modules\r\n> Action, Fun, Images, Information,economy and [Br commands]().\r\n# 🔗 Links\r\n\r\n> [Invite me to your guild](https://discordapp.com/oauth2/authorize?client_id=556966929412259842&scope=bot&permissions=)<br>\r\n> [Support](https://discord.gg/3yxrN6f)<br>\r\n> [Changelog](https://fujiwaradocs.readthedocs.io/en/latest/changelog/)<br>\r\n> [Help me to improve](https://fujiwaradocs.readthedocs.io/en/latest/contributing/)<br>\r\n# 🤖  Features\r\n* Made easy to use, with no complications, And does not require dangerous permissions for your guild <br>\r\n* A good relationship with the bot user to receive new features and please the public.<br>\r\n* The focus is still Fun and Information. More future will be images and anime.<br>\r\n* Online 24/7. <br>"
+    }
+  ],
+  "created": 1565523534147,
+  "edited": 1565523534147,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "556966929412259842",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=556966929412259842&scope=bot&permissions="
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/3yxrN6f",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "f."
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://fujiwaradocs.readthedocs.io/en/latest/",
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

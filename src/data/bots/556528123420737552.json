@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:252188962511257600"
+  ],
+  "contents": [
+    {
+      "description": "Honey Bot Lewds, Lewds, and more Lewds! A bot designed to mass distribute porn, hentai, etc!",
+      "locale": "en-GB",
+      "name": "Honey Bot!",
+      "page": "Honeybot has an exponentially growing and expanding library of hundreds of thousands of 'lewds'; all sorted and curated nicely and neatly.\r\n\r\n## Commands\r\n|Command|Description|\r\n|-------|-----------|\r\n|hbhelp|Displays a list of commands|\r\n|hblisttags|Displays all available tags at the time of retrieval|\r\n|hbget [tag] [count]|Gets [count] images of tag [tag] *P.S. you can also leave both the tag and count blank to pull a single random image from the full suite*|\r\n|hbreport [id] [reason]|Reports the selected image to the curators to review|\r\n|hbtag [id] [newtag]| Applies additional tags to an image.\r\n\r\nThe bot requires the following permissions as a minimum to run properly:\t\r\n1. Send Messages\t\r\n2. Add Reactions\t\r\n3. Embed Links\t\r\n4. Attach Files\t\r\nHowever, it is recommended to use the bot with administrator permissions for everything to function as expected."
+    }
+  ],
+  "created": 1570832540068,
+  "edited": 1570832540068,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "556528123420737552",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize/?permissions=8&scope=bot&client_id=556528123420737552"
+  },
+  "nsfw": true,
+  "state": "approved",
+  "support": "https://discordapp.com/invite/65MEDR3",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "hb"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "entertainment"
+  ]
+}

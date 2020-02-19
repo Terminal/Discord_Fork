@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:287583441585700865"
+  ],
+  "contents": [
+    {
+      "description": "Alicia est un bot multifonction avec des commandes performantes avec son propre Dashboard !",
+      "locale": "fr",
+      "name": "Alicia",
+      "page": "<h2>Hey salut !</h2>\r\n<br/>\r\n<p>J'aimerais te présenter <strong>Alicia</strong> un bot avec son propre dashboard !<br/>\r\nCe bot a été crée par <strong>Vivic#2393</strong> !<br/><br/>\r\nSur Alicia tu pourras trouver différentes catégories :</p>\r\n \t<ul>\r\n      <li>Administration (Captcha, Welcome, Logs...)</li>\r\n      <li>Modération (Mute, Kick, Ban, ...)</li>\r\n      <li>Amusement (Musique, Radio, Pierre feuille ciseau, ....)</li>\r\n      <li>Utilitaire (Info, Npm, ....)</li>\r\n      <br/>\r\n      <li>Et bien d'autres !</li>\r\n    </ul>\r\n      <br/>\r\n     <p>Je te souhaite une super aventure avec Alicia !<br/>\r\nDe plus, Alicia a un système de <strong>modération très poussé !</strong> Ajoute les\r\n       sanctions avec <u>l'id</u> ou seulement en <u>recherchant l'utilisateur</u>\r\n       en tapant son pseudo !</p>\r\n      <br/>\r\n       <u>Voici le ticket pour l'inviter :</u>\r\nhttps://alicia-bot.tk/invite<br/>\r\n       <u>Dashboard d’Alicia :</u> https://alicia-bot.tk/<br/>\r\n       <u>Prefix :</u> %\r\n       <br/>\r\n       Cordialement, Vivic\r\n"
+    }
+  ],
+  "created": 1551529059763,
+  "edited": 1551538723922,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "544124530722078739",
+  "images": {
+    "avatar": "images/544124530722078739/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=544124530722078739&scope=bot&permissions=2146958847"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/RRvUacQ",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "%"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://alicia-bot.tk/",
+  "source": null,
+  "categories": [
+    "music"
+  ]
+}

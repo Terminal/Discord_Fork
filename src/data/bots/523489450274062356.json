@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:523488864946487297"
+  ],
+  "contents": [
+    {
+      "description": "NSFWBot - the best nsfw bot on discord ranging from NSFW to Roleplay",
+      "locale": "en-GB",
+      "name": "NSFWBot",
+      "page": "NSFW is one of the best bots on discord for nude pictures, this bot is built with many commands ranged from Roleplaying to NSFW. Using the bot is simple, you can either use the default prefix `-` or mention the bot (`-help` or `@NSFWBot#7537 help`). For any more extra help you can join our support guild to be assisted by our admins."
+    }
+  ],
+  "created": 1558631554574,
+  "edited": 1558633596128,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "523489450274062356",
+  "images": {
+    "avatar": "images/523489450274062356/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=523489450274062356&scope=bot&permissions=117760"
+  },
+  "nsfw": true,
+  "state": "approved",
+  "support": "https://discord.gg/ury4vZW",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "-"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

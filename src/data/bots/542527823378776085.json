@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:384804216893341719"
+  ],
+  "contents": [
+    {
+      "description": "Um simples bot para o discord.",
+      "locale": "pt",
+      "name": "DaZz",
+      "page": "<p>Bom, resolvi criar este bot após perceber que os bots que são completos utilizam muitos comandos e muitas das suas funções são exclusivas apenas para membros que pagam pelo serviço. Visando tentar utilizar o melhor código para desenvolver um sistema completo sem transbordar sua lixeira resolvi desenvolver este bot.</p>\r\n<ul>\r\n  <li>\r\n    Moderação;\r\n  </li>\r\n  <li>\r\n    Música;\r\n  </li>\r\n  <li>\r\n    Fun;\r\n  </li>\r\n  <li>\r\n    E muito mais.\r\n  </li>\r\n</ul>"
+    }
+  ],
+  "created": 1552655474003,
+  "edited": 1552708939138,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "542527823378776085",
+  "images": {
+    "avatar": "images/542527823378776085/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=542527823378776085&scope=bot&permissions=2102914303"
+  },
+  "nsfw": false,
+  "state": "denied",
+  "support": "https://discord.gg/9nGAKP2",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "d!!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

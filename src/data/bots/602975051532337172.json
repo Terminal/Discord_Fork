@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:360585165572931584"
+  ],
+  "contents": [
+    {
+      "description": "Jokes, image manipulation, moderation commands, and more things!",
+      "locale": "en-GB",
+      "name": "lord",
+      "page": "# Lord is a moderation bot, fun bot and more feutures!\r\n\r\n\r\nHere's a short introduction of the most relevant commands (All commands can be seen with 'rd!help'!)\r\n\r\n\r\n# MODERATION COMMANDS\r\n\r\nrd!ban [user] [reason] - Ban a user.\r\n\r\n\r\nrd!unbanid [id] [reason] - Unban a user.\r\n\r\n\r\nrd!clear [amout of messages] - Clear an amout of messages\r\n\r\n\r\nrd!kick ¨[user] [reason] - Kick a user.\r\n\r\n# INFORMATION COMMANDS\r\n\r\nrd!help - Display all the commands.\r\n\r\n\r\nrd!say [message] - The bot will say your message.\r\n\r\n\r\nrd!roles - Get the list of all the roles in the server.\r\n\r\n\r\nrd!ping [user] - Get the ping of a user.\r\n\r\n\r\nrd!embed - Create a embed message.\r\n\r\n\r\nrd!serverinfo - Get the information of the server.\r\n\r\n\r\nrd!botinfo - Get the information of the bot.\r\n\r\n\r\nrd!uptime - Get the uptime of the bot.\r\n\r\n\r\nrd!list - Get the list of all the members in the server.\r\n\r\n\r\nrd!support -  Get the support discord of Lord.\r\n\r\n\r\nrd!donate -  Get the donate link of Lord.\r\n\r\n\r\nrd!weather [city] - Get the weather of a city.\r\n\r\n\r\nrd!geninvite [DiscordID] - Generate a invite link of a a discord with the ID.\r\n\r\n# FUN COMMANDS\r\n\r\nrd!dog - Get a image of a dog.\r\n\r\n\r\nrd!rip [user] - Rip a user.\r\n\r\n\r\nrd!tweet [TwitterUser] [message] - Tweet a fake tweet.\r\n\r\n\r\nrd!dice - Dice minigame.\r\n\r\n\r\nrd!8ball - 8ball minigame.\r\n\r\n\r\nrd!joke - The bot will send a random joke.\r\n\r\n\r\nrd!password [number] [number] - Generate a safe and random pasword.\r\n\r\n\r\nrd!avatar [user] - Get the avatar of a user.\r\n\r\n\r\nrd!randomnumber [number [number] - Get a random number.\r\n\r\n\r\nrd!hello - The bot will respond you with hello.\r\n\r\n\r\nrd!randomcolour -  Get a random colour with the HEX code.\r\n\r\n\r\n\r\n\r\nNeed help? Just click [here](https://discord.gg/rJwZbHh)\r\nWant to invite Lord to your server? Just click [here](https://discordapp.com/oauth2/authorize?client_id=602975051532337172&scope=bot&permissions=8)\r\n"
+    }
+  ],
+  "created": 1567447550613,
+  "edited": 1567447550613,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "602975051532337172",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=602975051532337172&scope=bot&permissions=8"
+  },
+  "nsfw": false,
+  "state": "denied",
+  "support": "https://discord.gg/mSfsKS6",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "rd!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://www.lordbot.xyz",
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

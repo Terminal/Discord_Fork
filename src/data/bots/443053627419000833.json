@@ -1,0 +1,44 @@
+{
+  "authors": [
+    "github:GeopJr"
+  ],
+  "contents": [
+    {
+      "description": "A multifunctional BOT with Fun, Useful and Gaming Commands like --kiss , --trump , --tanki, --amiibo",
+      "locale": "en-GB",
+      "name": "Granz",
+      "page": "# Granz\n### A Discord Bot written in Crystal using discordcr\n\n![avatar](https://i.imgur.com/kG2PYbz.jpg)\n# About it\nThis is a discord bot made in Crystal\nIt was originally made in [Ruby](https://github.com/GeopJr/Granz_bot)\nIts under the MIT license\nYou can find it [here](https://github.com/GeopJr/Granz-cr)\n# Commands\n\nFun Commands\nUseful Commands\nGaming Commands\nRoleplay Commands\nFull list [HERE](https://granz.geopjr.xyz/commands)\n\n# Copyrights\n\nGranz's avatar is copyrighted under [Mentaiko Itto©](https://twitter.com/ittorasii)\n"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1542569433000,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "443053627419000833",
+  "images": {
+    "avatar": "images/443053627419000833/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=443053627419000833&scope=bot&permissions=388190&redirect_uri=https://granz.geopjr.xyz/thanks.html&response_type=code"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "--"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": "https://github.com/GeopJr/Granz-cr",
+  "categories": [
+    "other"
+  ]
+}

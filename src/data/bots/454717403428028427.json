@@ -1,0 +1,45 @@
+{
+  "authors": [
+    "discord:179049652606337024"
+  ],
+  "contents": [
+    {
+      "description": "Cypher is a bot that is able to do multiple things such as do your math, and much more!",
+      "locale": "en-GB",
+      "name": "Cypher",
+      "page": "OUR INSPIRATION\r\nWe believe that everyone should have a fun, easy bot to use. So we created Cypher.\r\n You may be asking,\"That's it?\". No, not at all.\r\n  We want to grow and be the biggest bot on discord. \r\n  It will be a long journey, but it will be worth it.\r\nWHAT CYPHER CAN DO\r\nCypher is able to do multiple commands ranging from fun commands, to music commands, to even NSFW commands.\r\n All NSFW commands will be restricted to NSFW channels only of course.\r\n  Cypher has over 50 commands available to everyone, and over 10 commands for premium users."
+    }
+  ],
+  "created": 1545172252004,
+  "edited": 1545218991955,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "454717403428028427",
+  "images": {
+    "avatar": "images/454717403428028427/avatar.png",
+    "cover": "images/454717403428028427/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=454717403428028427&scope=bot&permissions=8"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/sFMTeFg",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "-"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

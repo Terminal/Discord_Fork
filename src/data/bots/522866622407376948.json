@@ -1,0 +1,49 @@
+{
+  "authors": [
+    "discord:312617227490951168"
+  ],
+  "contents": [
+    {
+      "description": "Benny has levelling, reaction roles, economy, moderation, games, customizability, a dashboard & more",
+      "locale": "en-GB",
+      "name": "Benny",
+      "page": "Benny is a bot that aims to cover everything you need in your server.\r\n\r\nIt includes many different features, including economy, games, levelling, moderation, music, reaction roles and tickets to name a few. Benny also has a web dashboard, that can be found at **[this link](https://bennydash.xyz/servers \"Benny's Dashboard\")**.\r\n\r\nWe want your server to be the best for you, so if you think there is a feature missing, please come to the **[support server](https://discord.gg/RDeNrrY)** and suggest it."
+    }
+  ],
+  "created": 1551972799947,
+  "edited": 1567412919604,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "522866622407376948",
+  "images": {
+    "avatar": "images/522866622407376948/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://bennydash.xyz/invite"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/RDeNrrY",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "!",
+      "Benny"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://bennydash.xyz",
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

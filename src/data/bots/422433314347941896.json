@@ -1,0 +1,45 @@
+{
+  "authors": [
+    "discord:137624084572798976"
+  ],
+  "contents": [
+    {
+      "description": "a multi purpose bot. Many different commands! Music, Ban + Kicks, + more",
+      "locale": "en-GB",
+      "name": "DanBot",
+      "page": "DanBot is a multi-purpose bot, DanBot has: Music commands, Moderator commands, Fun commands + tons more. You can set your own prefix, welcome message, log channel, poll channel, admin + mod roles using the !settings command. New updates are here every few hours. We have a web dashboard where you can login and manage users, settings and a few other things."
+    }
+  ],
+  "created": 1545390276144,
+  "edited": 1545390276144,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "422433314347941896",
+  "images": {
+    "avatar": "images/422433314347941896/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=422433314347941896&scope=bot&permissions=2146958847"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "!"
+    ]
+  },
+  "videos": {},
+  "website": "https://danbot.xyz",
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

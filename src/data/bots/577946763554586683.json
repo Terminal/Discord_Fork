@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:477068748164169738"
+  ],
+  "contents": [
+    {
+      "description": "Tamamen türk yapımı bir bottur. Botumuzu sunucunularınıza ekleyerek bizi desteklemiş olursunuz.",
+      "locale": "tr",
+      "name": "DifferentBot",
+      "page": "Komut listeleri;\r\n\r\nd!yardım - Botun tüm komutlarını gösterir.\r\nd!eğlence - Botun tüm eğlence komutlarını gösterir.\r\nd!moderasyon - Botun tüm moderasyon komutlarını gösterir.\r\nd!seviye - Botun tüm sevite komutlarını gösterir.\r\nd!ekonomi - Botun tüm ekonomi komutlarını gösterir.\r\nd!müzik - Botun tüm müzik komutlarını gösterir."
+    }
+  ],
+  "created": 1565543827436,
+  "edited": 1565543827436,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "577946763554586683",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=577946763554586683&scope=bot&permissions=2146958591"
+  },
+  "nsfw": false,
+  "state": "denied",
+  "support": "https://discord.gg/jZ9X942",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "d!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

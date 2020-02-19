@@ -1,0 +1,46 @@
+{
+  "authors": [
+    "discord:153353572711530496",
+    "github:craftxbox"
+  ],
+  "contents": [
+    {
+      "description": "Bot for protecting your server against known bad users.",
+      "locale": "en-GB",
+      "name": "Globalbans",
+      "page": "Globalbans is a central database of advertisers, spammers, harassers and other ToS violators. Globalbans will keep your server secure from Userbots, DM Advertisers, Raiders and more.\r\n\r\n"
+    }
+  ],
+  "created": 1544323935729,
+  "edited": 1544323935729,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "356236889369346050",
+  "images": {
+    "avatar": "images/356236889369346050/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=356236889369346050&scope=bot&permissions=3076"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/jcYq5ch",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "b;"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": "https://github.com/craftxbox/globalbans",
+  "categories": [
+    "moderation"
+  ]
+}

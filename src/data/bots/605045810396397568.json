@@ -1,0 +1,54 @@
+{
+  "authors": [
+    "discord:375584947307675658"
+  ],
+  "contents": [
+    {
+      "description": "Ein Moderations Bot!",
+      "locale": "de",
+      "name": "xxEROX",
+      "page": "# xxEROX\r\n\r\nDer Standard Prefix ist **;** Nutze **;info** um eine Command-Liste zu bekommen.\r\n\r\n---\r\n\r\n- Information:\r\n\r\n     - help: ``Zeigt alle Befehle.``\r\n     - info: ``Zeigt alle Befehle.``\r\n     - changelog: ``Zeigt die die Änderungen.``\r\n     - servers: ``Zeigt dir alle Server auf dem xxEROX ist.``\r\n     - userinfo: ``Zeigt dir Informationen über einen Discord-User.``\r\n     - serverinfo: ``Zeigt dir Informationen über den Discord-Server.``\r\n     - uptime: ``Zeigt dir die Uptime von xxEROX.``\r\n---\r\n\r\n- Staff-Members:\r\n\r\n     - @xxAROX ➤ Head-Developer\r\n     - @Stimorino ➤ Developer\r\n---\r\n\r\n- Ads:\r\n     - <a href=\"https://discord.gg/cYHtYYv\"><img src=\"https://discordapp.com/api/guilds/605725395752452115/embed.png\" alt=\"Discord server\"/></a>\r\n     - [Website](http://enerybot.de/xxerox/)\r\n     - [GitHub](https://github.com/Aromastoffe/)\r\n     - [YouTube](https://youtube.com/c/Aromastoffe/)\r\n     - [Support](https://discordapp.com/invite/XwuyVAR)\r\n"
+    },
+    {
+      "description": "a simple NSFW and Moderation bot.",
+      "locale": "en-GB",
+      "name": "xxEROX",
+      "page": "# xxEROX\r\n\r\nThe default prefix is **;** Use **;info** to get help.\r\n\r\n---\r\n\r\n- Information:\r\n\r\n     - help: ``displays help for the bot.``\r\n     - info: ``displays help for the bot.``\r\n     - changelog: ``displays the changelog.``\r\n     - servers: ``displays all commands.``\r\n     - userinfo: ``shows information about the respective account.``\r\n     - serverinfo: ``displays information about the respective server.``\r\n     - uptime: ``Displays the online time from the bot.``\r\n---\r\n\r\n- Staff-Members:\r\n\r\n     - @xxAROX ➤ Head-Developer\r\n     - @Stimorino ➤ Developer\r\n---\r\n\r\n- Ads:\r\n     - <a href=\"https://discord.gg/cYHtYYv\"><img src=\"https://discordapp.com/api/guilds/605725395752452115/embed.png\" alt=\"Discord server\"/></a>\r\n     - [Website](http://enerybot.tk/xxerox/)\r\n     - [GitHub](https://github.com/Aromastoffe/)\r\n     - [YouTube](https://youtube.com/c/Aromastoffe/)\r\n     - [Support](https://discordapp.com/invite/XwuyVAR)\r\n"
+    }
+  ],
+  "created": 1564413816845,
+  "edited": 1565865507849,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": true
+  },
+  "hide": false,
+  "id": "605045810396397568",
+  "images": {
+    "avatar": "images/605045810396397568/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=605045810396397568&permissions=67431488&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/cYHtYYv",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      ";"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "authors": [
+    "discord:326260487220363275"
+  ],
+  "contents": [
+    {
+      "description": "Highly customizable | leveling | music | moderation | logging | utility | memes | fun",
+      "locale": "en-GB",
+      "name": "Konek0 V2",
+      "page": "Konek0 V2 is the successor of Konek0, with tons of customizable settings, more and better optimized commands for the best experience.\r\n\r\n-------Description-------\r\n\r\nKonek0 V2 is basically everything you expect Discords bots to do, in one big and customizable package to fit your needs. Features often locked behind paywalls on other bots (e.g. role rewards) are featured free of charge with lots of thought put into them and tons of updates happening regularly. Konek0 V2 is free and will always stay this way. It's a hobby I put lots of time into and enjoy very much. I hope it will serve you well.\r\n\r\n-------Highlighted features-------\r\n\r\nKonek0 V2 features great-looking commands to fulfil all your needs from a bot, with new features being added very often. Highlights:\r\n\r\n - Transfer all your Mee6 xp and replace it with a free and superior system! \r\n - Dynamic custom server settings in JSON format with tons more being added regularly.\r\n - Complete leveling with role rewards and fine-tuning.\r\n - Advanced moderation with auto-mod, (auto-)warnings and temporary punishment.\r\n - Music functionality for only the best of the tunes.\r\n - A starboard feature with leaderboards.\r\n - Tons of fun commands to play and interact with.\r\n - Memes taken directly from popular Reddit communities.\r\n - Setting timers for reminders, because why not.\r\n-------Extra stuff-------\r\n\r\nDiscord support server & for regular updates: https://discord.gg/TtR32WT"
+    }
+  ],
+  "created": 1567436144518,
+  "edited": 1575245230672,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "604001646514667541",
+  "images": {
+    "avatar": "images/604001646514667541/avatar.png",
+    "cover": "images/604001646514667541/background.png",
+    "preview": [
+      "images/604001646514667541/0.png",
+      "images/604001646514667541/1.png",
+      "images/604001646514667541/2.png",
+      "images/604001646514667541/3.png"
+    ]
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=604001646514667541&scope=bot&permissions=1543892215"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/TtR32WT",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "."
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://vacefron.nl/konek0/",
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

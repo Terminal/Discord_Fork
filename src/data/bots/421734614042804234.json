@@ -1,0 +1,40 @@
+{
+  "authors": [],
+  "contents": [
+    {
+      "description": "Chihiro is a useful discord.js bot to moderate your server!",
+      "locale": "en-GB",
+      "name": "Chihiro",
+      "page": "[![github](https://i.imgur.com/RvF79vd.png)](https://github.com/snarkyllama/chihiro)\n[![invite](https://oof.is-my-life.style/cmxFT89a.png)](https://discordapp.com/oauth2/authorize?client_id=421734614042804234&permissions=262152&scope=bot)  \n  \n------------------------------------------------------------------\n \n**Help Command:** chi!help  \n  \n**Support Server:** [Click me!](https://discord.gg/qrAT4w3)  \n  \nIf you are having any issues with Chihiro, just stop by the support server.\n"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1542569433000,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "421734614042804234",
+  "images": {
+    "avatar": "images/421734614042804234/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=421734614042804234&permissions=262152&scope=bot"
+  },
+  "nsfw": false,
+  "state": "denied",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": []
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "authors": [
+    "discord:96269247411400704",
+    "discord:251557870603075586",
+    "discord:190544080164487168",
+    "discord:254422934045589505",
+    "discord:153353572711530496",
+    "github:natsuko-team"
+  ],
+  "contents": [
+    {
+      "description": "Slicing through messages at supersonic speeds.",
+      "locale": "en-GB",
+      "name": "Natsuko",
+      "page": "# Natsuko  \r\n#### Slicing through messages at supersonic speeds.  \r\n\r\nNatsuko is an advanced moderation bot, with modlogging, strikes and more.  \r\nIt can be scripted with Javascript to automate any moderation task.\r\n\r\n[Documentation](https://docs.natsuko.ninja)  \r\n[Status](https://status.natsuko.ninja)"
+    }
+  ],
+  "created": 1561840807368,
+  "edited": 1567893849231,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "591726984879538203",
+  "images": {
+    "avatar": "images/591726984879538203/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=591726984879538203&permissions=134572167"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/9h4DpTs",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "n;"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://natsuko.ninja",
+  "source": "https://github.com/natsuko-team/natsuko",
+  "categories": [
+    "moderation"
+  ]
+}

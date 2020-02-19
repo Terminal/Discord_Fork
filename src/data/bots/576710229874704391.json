@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:411504986669842454"
+  ],
+  "contents": [
+    {
+      "description": "A Discord Bot for Moderation, Fun Commands, Google, YouTube, Wikipedia, Urban Dictionary, Memes etc.",
+      "locale": "en-GB",
+      "name": "Mortal Bot",
+      "page": "General Commands :-\r\n+say - Bot says the text sent by you.\r\n​+ping - Displays bot ping in latency.\r\n+userid - Gives your UserId.\r\n+guildid - Gives your ServerID.\r\n+serverinfo - Gives information about server.\r\n+invite - Gives you invite link to this bot.\r\n+suggest - Submits a suggestion to bot developer.\r\n+roll - Rolls a dice.\r\n+userinfo - Gives information about the user.\r\n+wikipedia - Searches result in Wikipedia.\r\n+urban - Searches the word in Urban Dictionary\r\n\r\nModeration Commands :-\r\n+mute - Mutes a user.\r\n+unmute - Unmutes a user.\r\n+kick - Kicks a user.\r\n+ban - Bans a user.\r\n+unban - Unbans a user.\r\n+setnick - Changes Nickname of a user.\r\n+clear - Clears certian amount of msgs.\r\nCalculation Commands :-\r\n​+sum - Adds 2 digit number.\r\n+sub - Subtract 2 digit number.\r\n+divide - Divide 2 digit number.\r\n+multi - Multiplies 2 digit number.\r\nUse ; to calculate.\r\nEx - +sum 7;7\r\n​Fun Commands :-\r\n+buy - Buys something.\r\n+sell - Sells something.\r\n+result - Shows your exam result.\r\n+8ball - Answers an Q&A.\r\n+meme - Shows a random meme."
+    }
+  ],
+  "created": 1559062784407,
+  "edited": 1559062784407,
+  "flags": {
+    "adverts": true,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "576710229874704391",
+  "images": {
+    "avatar": "images/576710229874704391/avatar.png",
+    "cover": "images/576710229874704391/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://rebrand.ly/"
+  },
+  "nsfw": false,
+  "state": "denied",
+  "support": "https://discord.gg/qvUer4b",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "+"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://rebrand.ly/discordbotsite",
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

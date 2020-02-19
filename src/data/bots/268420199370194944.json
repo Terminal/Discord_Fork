@@ -1,0 +1,51 @@
+{
+  "authors": [
+    "discord:197114678533554179",
+    "github:thibautbessone"
+  ],
+  "contents": [
+    {
+      "description": "Customizable soundboard & general purpose commands - spam your friends with audio memes",
+      "locale": "en-GB",
+      "name": "BlueBot",
+      "page": "# BlueBot\r\n\r\n## Well, it's Blue ☄️\r\n\r\nBlueBot is basically a general purpose bot designed to help small streamers animate their Discord server. It provides several features such as :\r\n\r\n* Twitch alerts\r\n\r\n* Moderation features\r\n\r\n* Customizable dedicated soundboard\r\n\r\n* Gif search\r\n\r\n* Quick reactions\r\n\r\n* Steam status information\r\n\r\n* GitHub lookup\r\n\r\nBlueBot was originally created as a standalone bot to make it run by its users. However, you can add the instance of the bot I'm running."
+    }
+  ],
+  "created": 1542722766543,
+  "edited": 1562230070377,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "268420199370194944",
+  "images": {
+    "avatar": "images/268420199370194944/avatar.png",
+    "cover": "images/268420199370194944/background.png",
+    "preview": [
+      "images/268420199370194944/0.png"
+    ]
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=268420199370194944&scope=bot&permissions=-1"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/rSekkJv",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://bluebot.pw/",
+  "source": "https://github.com/thibautbessone/DiscordBlueBot",
+  "categories": [
+    "entertainment"
+  ]
+}

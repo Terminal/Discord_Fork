@@ -1,0 +1,46 @@
+{
+  "authors": [
+    "discord:142782417994907648",
+    "github:Kaydax"
+  ],
+  "contents": [
+    {
+      "description": "Aeiou is a Discord bot that allows you to use the same TTS that Moonbase Alpha uses in Discord!",
+      "locale": "en-GB",
+      "name": "Aeiou",
+      "page": "Aeiou\r\nTo get started using Aeiou all you really have to do is this:\r\n\r\nAdd Aeiou to your server\r\nStart using Aeiou\r\nYes it is that simple. If you need help or found a bug join the support server here\r\n\r\nThe only commands Aeiou has are as follow:\r\n\r\n[tts | Allows you to type in what you want the bot to say.\r\n[leave | Makes the bot leave the voice channel.\r\n[support | Sends you an invite to the support server."
+    }
+  ],
+  "created": 1542678181973,
+  "edited": 1542678181973,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "361630499325739009",
+  "images": {
+    "avatar": "images/361630499325739009/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=361630499325739009&scope=bot&permissions=0"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/WPUU2dF",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "["
+    ]
+  },
+  "videos": {},
+  "website": "https://kaydax.xyz/",
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

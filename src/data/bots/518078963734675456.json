@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:237490126714961920"
+  ],
+  "contents": [
+    {
+      "description": "Tyche is a fully customizable bot. It includes a simple web dashboard and well over 408 commands",
+      "locale": "en-GB",
+      "name": "Tyche",
+      "page": "Tyche is a fully customizable Discord bot. It includes a simple web dashboard and well over 408 commands and 12 categories. It packs a ton of features such as Auto-Moderation which includes Anti-Spam, Anti-links, deletes vulgarities and more. Tyche will keep the management of your server simple. Not to forget, it also provides additional features for your members. There are more that will be commands and deluxe features coming soon. Invite today!"
+    }
+  ],
+  "created": 1560955962525,
+  "edited": 1567237094419,
+  "flags": {
+    "adverts": true,
+    "inAppPurchases": true
+  },
+  "hide": false,
+  "id": "518078963734675456",
+  "images": {
+    "avatar": "images/518078963734675456/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=518078963734675456&permissions=104187976&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://tyche.site/invite",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "/"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://tyche.site/",
+  "source": null,
+  "categories": [
+    "music"
+  ]
+}

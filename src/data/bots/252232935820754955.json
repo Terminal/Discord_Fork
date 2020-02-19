@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:180093157554388993"
+  ],
+  "contents": [
+    {
+      "description": "all it takes is a m o d d y b o y e to keep your server clean",
+      "locale": "en-GB",
+      "name": "Parallax",
+      "page": "moderation for your server :ok_hand:\r\n<!--\r\nThis data was imported from ls.terminal.ink\r\n-->\r\n"
+    }
+  ],
+  "created": 1527811200000,
+  "edited": 1555426098098,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "252232935820754955",
+  "images": {
+    "avatar": "images/252232935820754955/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=252232935820754955&scope=bot&permissions=0"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "-"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

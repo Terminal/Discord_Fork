@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:344335337889464357"
+  ],
+  "contents": [
+    {
+      "description": "A Discord bot that helps you create embeds. Also plays you music.",
+      "locale": "en-GB",
+      "name": "MusEmbed",
+      "page": "Note:\r\n\r\nFull list of commands and their usage can be found on our website, or provided by the bot using the command `{prefix}help [command name]`. Here is a key for commands featured here.\r\n\r\n- `<(required arguments)>`\r\n- `[(optional arguments)]`\r\n\r\nMusEmbed™ | Clean Embeds, Crisp Music\r\n=================================\r\n\r\nThis is a bot that can help you easily create embeds in your server. We also have music playing functionality.\r\n\r\nCustomizable Prefix\r\n----------------------\r\n\r\nYou can easily customise different settings, including the bot's prefix, of your server via the command `{prefix}setconf <configuration> <new value>`.\r\n\r\nHere are the two available configurations:\r\n\r\n- `censor on/off` (off by default): Turns on/off swear word censoring.\r\n\r\n- `prefix <new prefix>` (default `em/`): Sets a new prefix for the server. If you forget, just mention the bot as a prefix and use the command `{prefix}help`.\r\n\r\nEasily create embeds for your guild\r\n-------------------------\r\n\r\nEasily create embeds. One simple command - bam, that's it.\r\n\r\nYou can choose from two kinds of embeds: \r\n\r\n- `{prefix}embed [hex code] <message>` gives you a customised embed with your name\r\n\r\n- `{prefix}rawembed [hex code] <message>` does the same without your name\r\n\r\nNote that if no hex code is provided, the embed created will be grey in colour.\r\n\r\nHigh-quality music - crisp clear\r\n-------------------------\r\n\r\nOur music is decoded at a bitrate of 512kbps,  and comes with a well-developed queue.\r\n\r\n- `{prefix}play <song name/link>` plays the provided song in your voice channel.\r\n\r\n- `{prefix}pause` and `{prefix}resume` are self-explanatory.\r\n\r\n- `{prefix}loop` toggles the queue's loop mode. Available modes are `single`, `all` and `off`.\r\n\r\n- `{prefix}queue` and `{prefix}np` shows the current queue and song respectively. `{prefix}queue` also shows the current loop mode.\r\n\r\n- `{prefix}volume [number 1-10]` changes the volume to the provided number. Defaulted at 10. Shows current volume if a number isn't provided.\r\n\r\n- `{prefix}skip` and `{prefix}stop` skips the current song and deletes the whole queue respectively. The latter is admin-only.\r\n\r\nUtility and Moderation\r\n----------------------\r\n\r\nWe provide basic utility and moderation commands (e.g. botinfo, serverinfo, purge, etc.). More information about these can be found [here](https://www.musembed.tk/commands)."
+    }
+  ],
+  "created": 1561911188213,
+  "edited": 1563558419421,
+  "flags": {
+    "adverts": true,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "414440610418786314",
+  "images": {
+    "avatar": "images/414440610418786314/avatar.png",
+    "cover": "images/414440610418786314/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=414440610418786314&scope=bot&permissions=2146958847"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/qCame3b",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "em/"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://www.musembed.tk",
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

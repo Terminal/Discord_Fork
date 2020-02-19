@@ -1,0 +1,46 @@
+{
+  "authors": [
+    "discord:115134128717955080",
+    "github:Arraying"
+  ],
+  "contents": [
+    {
+      "description": "An elite Discord toolbox specializing in custom commands",
+      "locale": "en-GB",
+      "name": "Arraybot",
+      "page": "<!--\r\n    Please fill this out asap.\r\n-->"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1546457772120,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "177735619668213760",
+  "images": {
+    "avatar": "images/177735619668213760/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=177735533064093696&scope=bot&permissions=268528647"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "//"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": "https://github.com/Arraying/Arraybot",
+  "categories": [
+    "utility"
+  ]
+}

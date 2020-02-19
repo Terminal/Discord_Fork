@@ -1,0 +1,45 @@
+{
+  "authors": [
+    "discord:193060889111298048"
+  ],
+  "contents": [
+    {
+      "description": "A Discord guild ambient life simulation!",
+      "locale": "en-GB",
+      "name": "DisWorld",
+      "page": "# [DisWorld](https://botz.mattcowley.co.uk/disworld/)\r\n\r\n>> A Discord guild ambient life simulation! <<\r\n\r\n### Links\r\n\r\n  [Invite DisWorld](https://botz.mattcowley.co.uk/disworld/invite) |\r\n  [DisWorld website](https://botz.mattcowley.co.uk/disworld/) |\r\n  [DisWorld support](https://botz.mattcowley.co.uk/disworld/support)\r\n"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1543315238339,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "325634360210620422",
+  "images": {
+    "avatar": "images/325634360210620422/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://botz.mattcowley.co.uk/disworld/invite"
+  },
+  "nsfw": false,
+  "state": "denied",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "<edit pls>"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

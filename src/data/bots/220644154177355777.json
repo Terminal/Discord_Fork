@@ -1,0 +1,42 @@
+{
+  "authors": [],
+  "contents": [
+    {
+      "description": "More than a simple Music bot",
+      "locale": "en-GB",
+      "name": "Watora",
+      "page": "## See command list on [Watora's website](https://watora.xyz/Commands/)\n{: .center}\n"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1542569433000,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "220644154177355777",
+  "images": {
+    "avatar": "images/220644154177355777/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=220644154177355777&scope=bot&response_type=code&redirect_uri=https%3A%2F%2Fwatora.xyz%2Fen%2FThank-you"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "="
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

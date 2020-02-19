@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:103347843934212096"
+  ],
+  "contents": [
+    {
+      "description": "A multipurpose discord bot - Moderation and Fun!",
+      "locale": "en-GB",
+      "name": "blargbot",
+      "page": "<iframe src=\"https://blargbot.xyz/\" class=\"ls-iframe\"></iframe>\r\n<!--\r\nThis data was imported from ls.terminal.ink\r\n-->\r\n"
+    }
+  ],
+  "created": 1527811200000,
+  "edited": 1556752160635,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "134133271750639616",
+  "images": {
+    "avatar": "images/134133271750639616/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://invite.blargbot.xyz"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "b!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

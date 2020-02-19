@@ -1,0 +1,52 @@
+{
+  "authors": [
+    "discord:205427654042583040",
+    "github:iDroid27"
+  ],
+  "contents": [
+    {
+      "description": "🖥 General • 🔧 Utility • 🏷 Advanced tags • 📞 Telephone • 📻 Radio",
+      "locale": "en-GB",
+      "name": "Homer",
+      "page": "![Homer avatar](https://cdn.discordapp.com/avatars/305277118105911296/83edde7cf67d195b5828b731fb9ff9a4)\r\n\r\n# I. Introducing Homer\r\nHomer is a **featureful**, **easy-to-use** and **multilingual** bot for Discord.  \r\nOffering you everything you need for all types of communities, it is a musthave bot for every servers.  \r\nHomer was born under the name \"iBot\" in April 2017 and has known many major upgrades that has made it how it is today.  \r\n  \r\nCheck out all my cool features below!\r\n\r\n# II. General commands\r\nBecause we cannot live without: Homer allows you to perform Google™️ searches, get your city's weather, get information about all Discord entities (users, channels, servers, codes, invites, etc) or even translate text in many languages using Google™️ Translate.\r\n\r\n# III. Custom commands\r\nAlso known as \"tags\", custom commands allows you to create dynamic features. Powered by Lisa, a [JagTag](https://github.com/jagrosh/JagTag) fork, you will be able to perform HTTP requests to interact with external services, for example.  \r\n\r\n# IV. Radio\r\nEver wanted to listen to worldwide radios ? Now you can. With currently more than 20 radios from every styles in every languages, you can listen to a wide range of radio stations in your voice channel with a good audio quality\\*.\r\n\r\n# V. Multilingual interface\r\nHomer is currently available in 3 languages: English (UK), French and Portuguese (Brazil). Translations are community-made, so if you want to contribute to the project and translate the bot into your language, feel free to contact me (join the support server).\r\n\r\n## X. Notes\r\n\\*: audio quality is 48kbps for normal users and 96kbps for VIP users"
+    },
+    {
+      "description": "🖥 Général • 🔧 Utilitaires • 🏷 Tags avancés • 📞 Téléphone • 📻 Radio",
+      "locale": "fr",
+      "name": "Homer",
+      "page": "![Homer avatar](https://cdn.discordapp.com/avatars/305277118105911296/83edde7cf67d195b5828b731fb9ff9a4)\r\n\r\n# I. Présentation d'Homer\r\nHomer est un bot **fonctionnel**, **facile à utiliser** et **multilingue** pour Discord.  \r\nVous offrant tout ce dont vous avez besoin pour toutes les communautés, c'est un must-have pour votre serveur.  \r\nHomer est né sous le nom \"iBot\" en avril 2017 et a connu de nombreuses mises à jour majeures jusqu'à aujourd'hui.  \r\n  \r\nDécouvrez mes principales fonctionnalités !\r\n\r\n# II. Commandes générales\r\nParce qu'on ne peut vivre sans: Homer vous permet de faire des recherches Google™️, avoir la météo, avoir des informations sur les entités Discord (utilisateurs, salons, serveurs, codes, invitations, etc) ou même traduire dans de multiples langues avec Google™️ Traduction.\r\n\r\n# III. Custom commands \r\nAussi connues comme des \"tags\", les commandes personnalisées vous permettent de créer des mini-fonctionnalités dynamiques. Propulsées par Lisa, un fork de [JagTag](https://github.com/jagrosh/JagTag), vous pourrez faire des requêtes HTTP vers des services extérieures, par exemple.\r\n\r\n# IV. Radio\r\nVous avez toujours voulu écouter à des radios dans le monde ? Maintenant vous pouvez. Avec actuellement plus de 20 radios de tous les styles dans toutes les langues, vous pouvez écouter un large choix de radios directement depuis votre salon vocal avec une bonne qualité audio\\*.\r\n\r\n# V. Multilingual interface\r\nHomer est actuellement disponible en 3 langues: Anglais (Royaume-Uni), Français et Portuguais (Brésil). Les traductions sont réalisées par la communauté, donc si vous souhaitez contribuer au projet et traduire le bot dans votre langue, soyez libre de me contacter (rejoignez le serveur de support).\r\n\r\n## X. Notes\r\n\\*: la qualité audio est de 48kbps pour les utilisateurs normaux et de 96kbps pour les utilisateurs VIP"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1546423047040,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "305277118105911296",
+  "images": {
+    "avatar": "images/305277118105911296/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=305277118105911296&scope=bot&permissions=0"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/fYRm29b",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "h:"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": "https://github.com/iDroid27/homer",
+  "categories": [
+    "entertainment"
+  ]
+}

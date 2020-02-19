@@ -1,0 +1,42 @@
+{
+  "authors": [],
+  "contents": [
+    {
+      "description": "A discord bot focused on memes about the YouTuber JackSucksAtLife and much more..",
+      "locale": "en-GB",
+      "name": "JackSucksAtBot",
+      "page": "<iframe src=\"https://cairo2k18.xyz/src/offsite/jackbot/iframe/index.html\" style=\"border:0px #000000 solid;\" name=\"JackBot Description Frame\" scrolling=\"no\" frameborder=\"0\" marginheight=\"0px\" marginwidth=\"0px\" height=\"1200px\" width=\"100%px\" allowfullscreen></iframe>"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1542569433000,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "437439973751521280",
+  "images": {
+    "avatar": "images/437439973751521280/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=437439973751521280&permissions=314440&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "jb!"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

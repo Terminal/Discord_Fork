@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:246660882803720193"
+  ],
+  "contents": [
+    {
+      "description": "Media focused Discord bot designed to be useful to Discord users.",
+      "locale": "en-GB",
+      "name": "Webdash",
+      "page": "Webdash\r\n\r\nWebdash offers a variety off features to enhance your Discord server. She can search for images or youtube videos. You can chat with an ai or ship two names.\r\n\r\nIn short she's here to help your server stay active and chearfull.\r\n\r\nWhat she can do:\r\n\r\nSearch for images\r\nFetch memes (sorted or searched)\r\nShip users\r\nLook up youtube videos\r\nChat with your\r\nGet anime information\r\n\r\nAnd much more!\r\n\r\nAdd Webdash and check her out! https://webdash.pw/"
+    }
+  ],
+  "created": 1551308740918,
+  "edited": 1551308740918,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "502461159245611028",
+  "images": {
+    "avatar": "images/502461159245611028/avatar.png",
+    "cover": "images/502461159245611028/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=502461159245611028&permissions=-1&redirect_uri=https%3A%2F%2Fwebdash.pw%2F&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/H7HMP4F",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "_"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://webdash.pw/",
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

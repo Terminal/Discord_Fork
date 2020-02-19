@@ -1,0 +1,49 @@
+{
+  "authors": [
+    "discord:242263403001937920",
+    "github:HarutoHiroki"
+  ],
+  "contents": [
+    {
+      "description": "A multipurpose Discord bot for Moderation and Fun!",
+      "locale": "en-GB",
+      "name": "Cryptonix X",
+      "page": "CRYPTONIX X - THE SEMI-ULTIMATE DISCORD BOT!\r\n\r\nWith Cryptonix X, you can manage servers more easily!\r\n\r\nHas a lot of Fun commands and Nitro Emoji Commands!\r\n\r\nFeaturing a Original Command: Hackwarn - Warning a user even when he/she left with the ID of that user for later when they join again to mess with you!\r\n\r\nStill a Bot in Developement so Cryptonix X are accepting Suggestions and those who Suggested might get their names on the Credits panel of the bot and those who reported many bugs will get the Bug Hunter role on the Cyberstorm server!\r\n\r\nHave Fun using the bot!"
+    }
+  ],
+  "created": 1552743979483,
+  "edited": 1552743979483,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "482128001828651008",
+  "images": {
+    "avatar": "images/482128001828651008/avatar.png",
+    "cover": "images/482128001828651008/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=482128001828651008&scope=bot&permissions=2146958591"
+  },
+  "nsfw": true,
+  "state": "approved",
+  "support": "https://discord.gg/VCdNdnc",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "/"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://harutohiroki.github.io/Cryptonix_x/",
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

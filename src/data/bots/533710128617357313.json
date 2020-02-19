@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:330332878070218754"
+  ],
+  "contents": [
+    {
+      "description": "¿Are you looking for a real Security Bot? ¡Try using me now!",
+      "locale": "en-GB",
+      "name": "Security",
+      "page": "Security is a FREE BOT that provides into your server security. \r\n\r\n- This bot is totally free. \r\n\r\n//---------------------------------------\\\\\r\n• JOIN DISCORD: https://discord.gg/aJrAY3W\r\n• DONATE: https://paypal.me/santipixd\r\n//---------------------------------------\\\\"
+    }
+  ],
+  "created": 1548527421233,
+  "edited": 1548527421233,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "533710128617357313",
+  "images": {
+    "avatar": "images/533710128617357313/avatar.png",
+    "cover": "images/533710128617357313/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=533710128617357313&scope=bot&permissions=8"
+  },
+  "nsfw": false,
+  "state": "banned",
+  "support": "https://discord.gg/aJrAY3W",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "s!!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "authors": [
+    "discord:427212136134213644"
+  ],
+  "contents": [
+    {
+      "description": "German/English multi-purpose DiscordBot language de/en",
+      "locale": "en-GB",
+      "name": "Rainbowbot.de",
+      "page": "If you also want to use the RainbowBot for your server, you can do it now.\r\nMore features will be added gradually.\r\nAlso an english language version (adjustable) will be added soon)\r\nHow do I get the bot?\r\nclick the following link:\r\nhttps://rainbowbot.de/invite\r\nFree Commands examples\r\n- Roles / User / Server Info\r\n- Assign role / Copy\r\n- QRCode Scanner (qr attached)\r\n- QR generator\r\n- Create Server Command (creates a server example with default roles // permissions for roles / channels // channels\r\n- Prefix customizable\r\n- bugreport / suggestion Command sends us a message with an attachment should be amgehänht\r\n- makes temporary voice channels possible so that your server remains clear (sets a lobby and creates a channel at join)\r\n- Custom Embed function / Survey command\r\n- many more Fun Commands, to see on the help page :)\r\n- Server - Crosschat channel\r\n- Currency system with customizable currency\r\n- CustomCMD Command (create up to 5 (Premium 25) commands with customizable message the bot outputs)\r\n\r\nAND MUCH MORE + what the future holds.\r\n\r\nPremium Features:\r\n- alias command (change nickname)\r\n- On-hold music for your support channel + customizable notification option if someone joins the channel.\r\n- Customizable Join / Leave messages / JoinDM\r\n- Bundesliga Command (displays the most recent scores)\r\n- YT Upload Content notification\r\n- Newsfeed (sends new Spiegel Online articles in a customizable channel)\r\n- Switch individual commands on / off\r\n- Virus scanner (checks sent URLs and .exe files)\r\n- Roles selection menu\r\n- KI Command ... (talk to a real AI)\r\n- Yt-Vid to GIF Command\r\n\r\n- more on the help page\r\n- ... and more features are coming!"
+    },
+    {
+      "description": "Deutscher/Englischer Multi-Funktioneller Discord Bot Sprachen de/en",
+      "locale": "de",
+      "name": "Rainbowbot.de",
+      "page": "Wer den RainbowBot#8230 auch für seinen Server nutzen möchte, kann dies ab sofort tun. \r\nEs werden nach und nach mehr Funktionen hinzugefügt.\r\nAuch eine Englisch Sprachige Version (einstellbar) wird bald hinzugefügt)\r\n**Wie bekomme ich den Bot?**\r\nklicke dafür folgenden Link:\r\n<https://rainbowbot.de/invite>\r\n**Freie Commands Beispiele**\r\n- Rollen/User/Server-Info\r\n- Rolle vergeben / Kopieren\r\n- QRCode Scanner (qr im Anhang)\r\n- QR Generator\r\n- Erstelle Server Command (erstellt dir ein ServerBeispiel mit voreingestellten Rollen // Berechtigungen für Rollen / Kanäle // Kanälen\r\n- Prefix anpassbar\r\n- bugreport/vorschlag Command sendet uns eine Nachricht mit anhang sollte einer amgehänht sein\r\n- macht Temporäre Voice Kanäle möglich damit dein Server übersichtlich bleibt (setzt eine Lobby und erstellt bei Join einen Kanal)\r\n- Custom Embed funktion / Umfrage Befehl\r\n- viele weitere Fun Commands, zu sehen auf der HilfeSeite :)\r\n- Server - Crosschat Kanal\r\n- Währungssystem mit anpassbarer Währung\r\n- CustomCMD Command (erstelle bis zu 5 (Premium 25) Commands mit anpassbarer Nachricht die der Bot ausgibt)\r\n\r\nUND VIELES MEHR + das was die Zukunft bringt.\r\n\r\n**Premium-Features:**\r\n- Alias Command (Nickname ändern)\r\n- Warteschleifen-Musik für deinen Support-Kanal + anpassbare Benachrichtigungsmöglichkeit falls jemand dem Kanal joined.\r\n- Anpassbare Join/Leave Nachrichten / JoinDM\r\n- Bundesliga Command (Zeigt die aktuellsten Spielergebnisse an)\r\n- YT Upload Content Benachrichtigung\r\n- Newsfeed (Schickt neue Spiegel Online Artikel in einen anpassbaren Kanal)\r\n- Einzelne Befehle ein/ausschalten\r\n- Virenscanner (Überprüft verschickte URLs und .exe Dateien)\r\n- Rollen-Auswahlmenü\r\n- KI Command... (unterhalte dich mit einer echten KI)\r\n- Yt-Vid to GIF Command\r\n\r\n- mehr dazu auf der HilfeSeite\r\n- ...und weitere Funktionen kommen!\r\n\r\n\r\n**Wenn wir dein Interesse wecken konnten, dann lade den Bot doch ein, mache dich mit den Commands vertraut und bewerte ihn mit einem Vote positiv auf dieser Website**\r\n\r\nENGLISH VERSION WILL BE ADDED SOON"
+    }
+  ],
+  "created": 1548715748309,
+  "edited": 1553204602227,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "528272851782860800",
+  "images": {
+    "avatar": "images/528272851782860800/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=528272851782860800&permissions=8&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/s6BAk9Y",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "$"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://rainbowbot.de",
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

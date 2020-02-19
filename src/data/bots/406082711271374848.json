@@ -1,0 +1,45 @@
+{
+  "authors": [
+    "discord:217747278071463937"
+  ],
+  "contents": [
+    {
+      "description": "Enhance your server and make it more fun! Add Aru, the personal angel that your server need!",
+      "locale": "en-GB",
+      "name": "Aru!",
+      "page": "# Now with action commands and 100% clean unlocked music!\r\n\r\n## Add me today to get first-class unlocked music, 30+ action commands, 10+ image commands and much more delivered directly to your server!!\r\n\r\n[![Aru Banner](https://assets.aru.pw/img/aru_banner.jpg)](https://add.aru.pw)\r\n\r\n----\r\n\r\n## Hi, I'm Aru, the personal angel guardian that your server need!\r\n\r\n### I can provide you and your server with:\r\n\r\n- 99.9% uptime and [support server with priority bug-fixing](https://support.aru.pw/)\r\n- **First-class Music** with unlocked volume and queue limit\r\n- More than 30 different **Action Commands** to make your chat more fun with cute anime gifs!\r\n- 14 **Image Commands**, providing your chat with cats, nekos, jibril gifs and even jojo references!\r\n- **Fun Commands** to help you roleplaying: choose, coin flipping, dice rolling and more!\r\n- **HungerGames** Simulator, where you make all the members of the server battle until the last man standing.\r\n\r\n### My Commands: (v2.3)\r\n\r\n- **Music Commands**: `clearqueue` `forceplay` `forceplaynext` `forceplaynow` `nowplaying` `pause` `play` `playnext` `playnow` `queue` `removetrack` `repeat` `resume` `shuffle` `skip` `stop` `volume` `voteclearqueue` `votepause` `voteresume` `voteshuffle` `voteskip` `votestop`\r\n- **Action Commands**: `awoo` `beg` `bite` `bloodsuck` `blush` `cry` `cuddle` `dab` `dance` `drift` `eartease` `facedesk` `highfive` `holdhands` `hug` `kiss` `lewd` `lick` `meow` `necktease` `nom` `nuzzle` `owo` `pat` `poke` `pout` `punch` `shrug` `slap` `smile` `smug` `stare` `tease` `thinking` `thumbsup` `tickle` `wag`\r\n- **Games**: `gamehub`\r\n- **Image Commands**: `astolfo` `cat` `catgirl` `discordmemes` `dog` `hybrid` `jibril` `jojo` `megumin` `poi` `rem` `trap` `trapmemes` `wan`\r\n- **Fun Commands**: `choose` `coinflip` `dice` `ratewaifu`\r\n- **Imageboard Commands**: `danbooru` `e621` `konachan` `rule34` `safebooru` `yandere`\r\n- **Info Commands**: `about` `help` `invite` `ping` `stats`\r\n- Utility Commands: `avatar` `color` `poll`\r\n"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1542569433000,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "406082711271374848",
+  "images": {
+    "avatar": "images/406082711271374848/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=406082711271374848&scope=bot&permissions=2104877302"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "aru!"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

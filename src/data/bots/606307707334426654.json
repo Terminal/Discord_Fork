@@ -1,0 +1,49 @@
+{
+  "authors": [
+    "discord:563395266799992843",
+    "github:xPolar"
+  ],
+  "contents": [
+    {
+      "description": "Simple suggestion bot made by Wumpus Developments",
+      "locale": "en-GB",
+      "name": "WumpusSuggester",
+      "page": "![Banner](https://cdn.discordapp.com/attachments/600914805619949588/606957684511604747/WumpusScience606957633097695262_Wumpus_Suggester.png)\r\n\r\n# Important Links\r\n- [Invite Link](https://discordapp.com/api/oauth2/authorize?client_id=606307707334426654&permissions=8&scope=bot)\r\n\r\n- [Support Server](https://discord.gg/gkAKatd)\r\n\r\n- [GitHub](https://github.com/xPolar/WumpusSuggester)\r\n\r\n# Commands\r\nWumpusSuggester's default prefix is `s!`\r\n\r\n**Suggestion System**\r\n\r\n| Command | Description | Permision Required |\r\n| ------- | ----------- | ------------------ |\r\n| Suggest | Create a suggestion | N/A |\r\n| Approve / Accept | Marks a suggestion as approved | Staff Role |\r\n| Deny | Marks a suggestion as denied | Staff Role |\r\n| Consider / Maybe | Marks a suggestion as considered | Staff Role |\r\n| Implement | Marks a suggestion as implemented | Staff Role |\r\n| Note | Add a note to a suggestion | Staff Role |\r\n| Suggestionchannel | Sets which channel suggestions should be sent to | Manage Server |\r\n| Suggestionlogchannel | Sets which channel suggestion related log should be sent to | Manage Server |\r\n| Staffrole | Sets which role can accept and deny suggestions | Manage Server |\r\n\r\n**Other**\r\n\r\n| Command | Description | Permissions Required |\r\n| ------- | ----------- | -------------------- |\r\n| Help | Help command. | N/A |\r\n| Ping | Shows the bot's current ping. | N/A |\r\n| Information / Info | Shows some basic information. | N/A |\r\n| Invite | Sends a link to invite the bot. | N/A |\r\n| Support | Sends a link to join the support server. | N/A |\r\n| Github | Sends a link to view the github. | N/A |\r\n| Prefix | Set's the server's prefix | Manage Server |\r\n\r\n# Required Permissions\r\n| Permission | Reason |\r\n| ---------- | ------ |\r\n| Embed Links | Embeds |\r\n| Read and Send Message(s) | DUH |\r\n\r\n# Suggestion not found\r\nTo approve / deny or do anything to a suggestion you **must** use the accept / deny commands in the suggestion channel."
+    }
+  ],
+  "created": 1566781228045,
+  "edited": 1566781228045,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "606307707334426654",
+  "images": {
+    "avatar": "images/606307707334426654/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=606307707334426654&permissions=8&scope=bot"
+  },
+  "nsfw": false,
+  "state": "denied",
+  "support": "https://discord.gg/gkAKatd",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "s!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": "https://github.com/xPolar/WumpusSuggester",
+  "categories": [
+    "utility"
+  ]
+}

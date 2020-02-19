@@ -1,0 +1,46 @@
+{
+  "authors": [
+    "discord:254892085000405004",
+    "github:Rxsto"
+  ],
+  "contents": [
+    {
+      "description": "Groovy is a feature-rich and experienced music-bot for Discord.",
+      "locale": "en-GB",
+      "name": "Groovy",
+      "page": "## Commands\r\n\r\n<table>\r\n    <thead>\r\n        <tr>\r\n        <th>Command</th>\r\n        <th>Function</th>\r\n        </tr>\r\n    </thead>\r\n    <tbody>\r\n        <tr>\r\n        <td>play (Song)</td>\r\n        <td>Plays a specific song</td>\r\n        </tr>\r\n        <tr>\r\n        <td>playtop (Song)</td>\r\n        <td>Adds a specific song to the top of the queue</td>\r\n        </tr>\r\n        <tr>\r\n        <td>playskip (Song)</td>\r\n        <td>Adds a specific song to the top of the queue and skips to him</td>\r\n        </tr>\r\n        <tr>\r\n        <td>pause</td>\r\n        <td>Pauses the bot</td>\r\n        </tr>\r\n        <tr>\r\n        <td>resume</td>\r\n        <td>Resumes the bot</td>\r\n        </tr>\r\n        <tr>\r\n        <td>loop</td>\r\n        <td>Loops the current song</td>\r\n        </tr>\r\n        <tr>\r\n        <td>loopqueue</td>\r\n        <td>Loops the current queue</td>\r\n        </tr>\r\n        <tr>\r\n        <td>shuffle</td>\r\n        <td>Activates the shuffle for the current queue</td>\r\n        </tr>\r\n        <tr>\r\n        <td>np</td>\r\n        <td>Shows information about the current song</td>\r\n        </tr>\r\n        <tr>\r\n        <td>queue</td>\r\n        <td>Shows the current queue</td>\r\n        </tr>\r\n        <tr>\r\n        <td>skip [position]</td>\r\n        <td>Skips the current song</td>\r\n        </tr>\r\n        <tr>\r\n        <td>seek (hh:mm:ss)</td>\r\n        <td>Seeks to a specific position in the current song</td>\r\n        </tr>\r\n        <tr>\r\n        <td>forward (hh:mm:ss)</td>\r\n        <td>Forwards by a specific amount in the current song</td>\r\n        </tr>\r\n        <tr>\r\n        <td>rewind (hh:mm:ss)</td>\r\n        <td>Rewind by a specific amount in the current song</td>\r\n        </tr>\r\n        <tr>\r\n        <td>restart</td>\r\n        <td>Restarts the current song</td>\r\n        </tr>\r\n        <tr>\r\n        <td>remove (position)</td>\r\n        <td>Removes a specific song from the queue</td>\r\n        </tr>\r\n        <tr>\r\n        <td>join</td>\r\n        <td>Lets the bot join</td>\r\n        </tr>\r\n        <tr>\r\n        <td>leave</td>\r\n        <td>Lets the bot disconnect</td>\r\n        </tr>\r\n        <tr>\r\n        <td>clear</td>\r\n        <td>Clears the queue</td>\r\n        </tr>\r\n        <tr>\r\n        <td>volume (1-100)</td>\r\n        <td>Sets the volume</td>\r\n        </tr>\r\n        <tr>\r\n        <td>leavecleanup</td>\r\n        <td>Removes all songs from the queue from users that left</td>\r\n        </tr>\r\n        <tr>\r\n        <td>removedupes</td>\r\n        <td>Removes all duplicates of songs</td>\r\n        </tr>\r\n        <tr>\r\n        <td>lyrics</td>\r\n        <td>Shows lyrics about a specific song</td>\r\n        </tr>\r\n        <tr>\r\n        <td>ping</td>\r\n        <td>Are you online Groovy?</td>\r\n        </tr>\r\n        <tr>\r\n        <td>settings</td>\r\n        <td>Shows the current settings and lets you change them</td>\r\n        </tr>\r\n        <tr>\r\n        <td>language</td>\r\n        <td>Shows the current language and lets you change it</td>\r\n        </tr>\r\n        <tr>\r\n        <td>reset</td>\r\n        <td>Resets the guild (settings, queue, etc)</td>\r\n        </tr>\r\n        <tr>\r\n        <td>aliases</td>\r\n        <td>Shows all available aliases!</td>\r\n        </tr>\r\n        <tr>\r\n        <td>help</td>\r\n        <td>Redirects you to here!</td>\r\n        </tr>\r\n        <tr>\r\n        <td>donate</td>\r\n        <td>Shows some information about patreon</td>\r\n        </tr>\r\n        <tr>\r\n        <td>info</td>\r\n        <td>Shows some information about the bot and his author</td>\r\n        </tr>\r\n        <tr>\r\n        <td>invite</td>\r\n        <td>Shows some links!</td>\r\n        </tr>\r\n        <tr>\r\n        <td>partner</td>\r\n        <td>Shows our partners</td>\r\n        </tr>\r\n        <tr>\r\n        <td>sponsor</td>\r\n        <td>Shows our sponsors</td>\r\n        </tr>\r\n        <tr>\r\n        <td>support</td>\r\n        <td>Shows the support message</td>\r\n        </tr>\r\n        <tr>\r\n        <td>shard</td>\r\n        <td>Shows the shard you are on and the total amount</td>\r\n        </tr>\r\n        <tr>\r\n        <td>stats</td>\r\n        <td>Shows the stats</td>\r\n        </tr>\r\n    </tbody>\r\n</table>\r\n"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1546457293725,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "402116404301660181",
+  "images": {
+    "avatar": "images/402116404301660181/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=402116404301660181&scope=bot&permissions=70610241"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "g!"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": "https://github.com/Rxsto/Groovy",
+  "categories": [
+    "music"
+  ]
+}

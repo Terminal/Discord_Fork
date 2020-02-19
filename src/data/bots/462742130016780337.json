@@ -1,0 +1,55 @@
+{
+  "authors": [
+    "discord:352775074513682434"
+  ],
+  "contents": [
+    {
+      "description": "SpaceX Discord bot - launches, notifications and other commands related to SpaceX and Elon Musk.",
+      "locale": "en-GB",
+      "name": "InElonWeTrust",
+      "page": "# In Elon We Trust\r\n\r\n![InElonWeTrust](https://discordbots.org/api/widget/status/462742130016780337.svg) ![InElonWeTrust](https://discordbots.org/api/widget/servers/462742130016780337.svg?noavatar=true) ![InElonWeTrust](https://discordbots.org/api/widget/lib/462742130016780337.svg?noavatar=true)\r\n\r\nDiscord bot providing commands related to SpaceX and Elon Musk.\r\n\r\n**Main features**:\r\n* information about the next launch\r\n* previous, upcoming and more specialized list of launches\r\n* notifications (you will be notified about all new tweets, Flickr photos, hottest topics on /r/spacex and upcoming launches)\r\n* other fun stuff: Elon's quotes, company data and history, random videos, launchpads, rockets and more\r\n\r\n# [Invitation link](https://discordapp.com/oauth2/authorize?client_id=462742130016780337&permissions=27712&scope=bot)\r\n\r\nRequires Manage Messages permission to do pagination properly. It will work without (but won't be that fun).\r\n\r\n# Prefixes\r\nThere are a few methods to call bot command (space between prefix and command is allowed):\r\n  * e!command\r\n  * elon!command\r\n\r\n# Commands\r\n### Launches\r\n| Command | Description | Required permissions |\r\n|---|---|---|\r\n| __e!NextLaunch__  | get information about the next launch | none |\r\n| e!LatestLaunch  | get information about the latest launch | none |\r\n| e!GetLaunch [FlightNumber]  | get information about the launch with the specified flight number (which can be obtained by e!AllLaunches or similar command) | none |\r\n| e!RandomLaunch  | get information about the random launch | none |\r\n| e!AllLaunches  | get a list of all launches (past and upcoming) | none |\r\n| e!FailedLaunches  | get a list of unsuccessful launches | none |\r\n| e!LaunchesWithOrbit [OrbitType] | get a list of launches with the specified target orbit (type e!help LaunchesWithOrbit to get a list of them) | none |\r\n| e!PastLaunches  | get a list of past launches | none |\r\n| e!UpcomingLaunches  | get a list of upcoming launches | none |\r\n\r\n### Media\r\n| Command | Description | Required permissions |\r\n|---|---|---|\r\n| e!RandomElonTweet  | get a random tweet from Elon Musk's Twitter profile | none |\r\n| e!RandomSpaceXTweet  | get a random tweet from SpaceX's Twitter profile | none |\r\n| e!RandomSpaceXFleetTweet  | get a random tweet from SpaceXFleet's Twitter profile | none |\r\n| e!RandomFlickrPhoto  | get a random photo from SpaceX's Flickr profile | none |\r\n| e!RandomRedditTopic  | get a random topic from /r/spacex subreddit | none |\r\n\r\n### Notifications\r\n| Command | Description | Required permissions |\r\n|---|---|---|\r\n| e!EnableAllNotifications  | enable all notifications at the current channel | Manage Messages |\r\n| e!DisableAllNotifications  | disable all notifications at the current channel | Manage Messages |\r\n| e!NotificationsStatus  | get information about notifications at the current channel | none |\r\n| e!ToggleLaunches  | toggle launch notifications (when enabled, the bot will post information about the next launch at the current channel) | Manage Messages |\r\n| e!ToggleFlickr  | toggle Flickr notifications (when enabled, all newest photos from SpaceX Flickr profile will be posted at the current channel) | Manage Messages |\r\n| e!ToggleReddit  | toggle Reddit notifications (when enabled, the hottest topics from /r/spacex will be posted at the current channel) | Manage Messages |\r\n| e!ToggleElonTwitter  | toggle Elon Musk Twitter notifications (when enabled, all newest tweets from Elon Musk profile will be posted at the current channel) | Manage Messages |\r\n| e!ToggleSpaceXTwitter  | toggle SpaceX Twitter notifications (when enabled, all newest tweets from SpaceX profile will be posted at the current channel) | Manage Messages |\r\n| e!ToggleSpaceXFleetTwitter  | toggle SpaceXFleet Twitter notifications (when enabled, all newest tweets from SpaceXFleet profile will be posted at the current channel) | Manage Messages |\r\n\r\n### Time zone\r\n| Command | Description | Required permissions |\r\n|---|---|---|\r\n| e!SetTimeZone  | set the specified time zone (local time will be displayed in the launch information) | Manage Messages |\r\n| e!ResetTimeZone  | reset time zone (local time won't be shown again) | Manage Messages |\r\n\r\n### Miscellaneous\r\n| Command | Description | Required permissions |\r\n|---|---|---|\r\n| e!Avatar  | display current Elon Musk's Twitter avatar | none |\r\n| e!Changelog  | get the bot changelog | none |\r\n| e!CompanyHistory  | get a list of the most important events for SpaceX | none |\r\n| e!CompanyInfo  | get information about company | none |\r\n| e!CoreInfo [CoreSerial] | get information about the specified core | none |\r\n| e!Cores | get a list of all cores | none |\r\n| e!GetEvent [EventNumber] | get information about the event with the specified id (which can be obtained by e!CompanyHistory) | none |\r\n| e!Launchpads  | get a list of all launchpads used by SpaceX | none |\r\n| e!Links  | get a list useful links related with SpaceX | none |\r\n| e!Ping  | pong | none |\r\n| e!RandomElonQuote  | get a random Elon Musk's quote | none |\r\n| e!RandomVideo  | get a random video related with SpaceX | none |\r\n| e!Roadster  | get information about Roadster launched by Falcon Heavy | none |\r\n| e!Rockets  | get a list of all rockets used by SpaceX | none |\r\n| e!Uptime  | how long am I working? | none |"
+    }
+  ],
+  "created": 1561834398886,
+  "edited": 1561834603639,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "462742130016780337",
+  "images": {
+    "avatar": "images/462742130016780337/avatar.png",
+    "cover": "images/462742130016780337/background.png",
+    "preview": [
+      "images/462742130016780337/0.png",
+      "images/462742130016780337/1.png",
+      "images/462742130016780337/2.png",
+      "images/462742130016780337/3.png",
+      "images/462742130016780337/4.png"
+    ]
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=462742130016780337&permissions=27712&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/cf6ZPZ3",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "e!",
+      "elon!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

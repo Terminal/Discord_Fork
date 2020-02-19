@@ -1,0 +1,49 @@
+{
+  "authors": [
+    "discord:222563393649901580",
+    "github:LandenStephenss"
+  ],
+  "contents": [
+    {
+      "description": "K3 has numerous types of commands including moderation, information, and utility",
+      "locale": "en-GB",
+      "name": "KCubed",
+      "page": "About Me\r\n- K3 is a discord bot just recently released (Beginning of 2019) and trying to get bigger, more commands are coming. You can use >help to see all of my commands and >suggest to suggest new ones!\r\n\r\nFeatures\r\n- Moderation\r\n- Information\r\n- Utility\r\n- Fun\r\n- NSFW\r\n\r\nUpcoming Features\r\n- Music\r\n- Auto-Mod"
+    }
+  ],
+  "created": 1560891237431,
+  "edited": 1560891237431,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "554686340248371209",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=554686340248371209&scope=bot&permissions=268545094"
+  },
+  "nsfw": false,
+  "state": "denied",
+  "support": "https://discord.gg/Pj8jPQq",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      ">"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": "https://github.com/LandenStephenss/k3",
+  "categories": [
+    "entertainment"
+  ]
+}

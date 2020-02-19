@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:158750488563679232"
+  ],
+  "contents": [
+    {
+      "description": "yup, it's the worst furry discord bot coming to your server",
+      "locale": "en-GB",
+      "name": "owopup",
+      "page": " 🐾 owopup 🐾\r\n==========\r\nA discord bot built for floofy discord communities! \r\nCurrently, owopup can bring the following to your server:\r\n- Shipping\r\n- Moderation\r\n- Images\r\n- Lots of OwOs\r\n- And much more!"
+    }
+  ],
+  "created": 1550769899354,
+  "edited": 1550769899354,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "365255872181567489",
+  "images": {
+    "avatar": "images/365255872181567489/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=365255872181567489&scope=bot&permissions=470150214"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/c4vWDdd",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "owo"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

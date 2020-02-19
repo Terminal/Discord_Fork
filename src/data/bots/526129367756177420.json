@@ -1,0 +1,45 @@
+{
+  "authors": [
+    "discord:472548898628698138"
+  ],
+  "contents": [
+    {
+      "description": "Moosic Boat plays from radio stations automatically found by our developers.",
+      "locale": "en-GB",
+      "name": "Moosic Boat",
+      "page": "## Playing Music\r\n\r\nMoosic Boat has the ability to play from radio stations hand picked and favored by our users and developers.\r\n\r\n`m!help` - Gives an introduction on what the bot serves as and some information as to what to do.\r\n\r\n`m!commands` - Lists all the commands associated with the bot.\r\n\r\n`m!current` - Displays the current song.\r\n\r\n`m!leave` - Leaves the voice channel that is playing music.\r\n\r\n`m!ping` - Pings from the bot to the Discord API.\r\n\r\n`m!stations` - Lists all the stations that are available to choose from.\r\n\r\n`m!stats` - Displays stats from the bot.\r\n\r\n`m!tune` - Tunes into a station.\r\n\r\n`m!volume` - Turns up the volume for the voice channel."
+    }
+  ],
+  "created": 1546672334991,
+  "edited": 1546713776584,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "526129367756177420",
+  "images": {
+    "avatar": "images/526129367756177420/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=526129367756177420&scope=bot&permissions=36769088"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/4Jtd73z",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "m!"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "music"
+  ]
+}

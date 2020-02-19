@@ -1,0 +1,41 @@
+{
+  "authors": [],
+  "contents": [
+    {
+      "description": "the glorious gamer from overwatch right in your server!",
+      "locale": "en-GB",
+      "name": "Hana Song",
+      "page": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Title</title>\n</head>\n\n<style>\n    body {\n        background: #e2e1e0;\n\n        font-family: \"Arial\";\n    }\n\n    .card {\n        background: #447cff;\n        border-radius: 2px;\n        display: inline-block;\n        height: 400px;\n        margin: 1rem;\n        position: relative;\n        width: 400px;\n        color: white;\n        padding-left: 10px;\n        padding-right: 10px;\n\n    }\n\n    .card-1 {\n        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);\n        transition: all 0.3s cubic-bezier(.25,.8,.25,1);\n    }\n\n    .card-1:hover {\n        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);\n    }\n\n    .card-2 {\n        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);\n    }\n\n    .card-3 {\n        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);\n    }\n\n    .card-4 {\n        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);\n    }\n\n    .card-5 {\n        box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);\n    }\n    .button{\n        background: #0482f4;\n        border-radius: 5px;\n        padding:       8px 20px;\n        color:         #ffffff;\n        font-size:          10px;\n        font-family: ariel, serif;\n        text-align:    center;\n\n    }\n\n</style>\n<body>\n<p style=\"text-align: center; color: #447cff; -webkit-text-stroke-width: thick; font-size: 40px;\"> HANA SONG </p>\n<div class=\"card card-5\" style=\"width: 600px; height: 600px\">\n<h2 style=\"text-align: center\"> Info</h2>\n<p>Hana Song is a hero from the game overwatch\n    <br>She can play music, has image commands, has moderation tools.\n</p>\n<p style=\"font-size: 20px;\" >lore (from overwatch wiki):</p>\n\n<p style=\"font-style: italic;\">\n    \"Hana Song was once a pro-gamer. She became a professional StarCraft player, who participated in the WCS Korea Code\n    S League. At the age of 16, Song became the #1 ranked player in the world and proceeded to go undefeated for the\n    next three years in all competitions. She became an international star, beloved by her fans at home and abroad, and\n    toured in exhibitions around the world, representing South Korea. A fierce competitor, Song played to win at any\n    cost, and gained a well-earned reputation for showing no mercy to her opponents.\n\n    At home, however, not all was well, as MEKA struggled to maintain its defense against the omnic that repeatedly\n    attacked the nation. As the omnic continued to adapt, it eventually disrupted MEKA's drone-control networks, forcing\n    the military to place pilots in the mechs. Scrambling to find suitable candidates, the government turned to the\n    country's professional gamers, who possessed the necessary reflexes and instincts to operate the mechs' advanced\n    weapons systems. Top stars were drafted, including Song, who was now 19. She saw the new mission as a game, and an\n    evolution of her own career. Without fear or hesitation, she abandoned the limelight of her pro-gamer career, and\n    got an armored mech operator's licence. As a member of MEKA, she could put her reflexes to the ultimate test on a\n    real battlefield, instead of a digital one. Her skills and \nintense competitive spirit made her an extremely\n    effective pilot.\n\n    Song now fearlessly charges into battle alongside the rest of her MEKA unit, ready to spring to her nation's defense\n    at a moment's notice. Recently, she has begun to stream combat operations to her adoring fans, and her growing\n    following has turned her into a global icon. Sponsorship deals and her fanbase provided her with the means to\n    customize her mech.\"\n</p>\n</div>\n\n<p style=\"text-align: center; color: #447cff; -webkit-text-stroke-width: thick; font-size: 40px;\"> COMMANDS </p>\n<div class=\"card card-5\">\n<h3 style=\"text-align: center\" > General </h3>\n<strong> hana.info</strong> - Shows users information about the bot<br>\n<strong>hana.help</strong> - Lists all the commands for the bot<br>\n<strong>hana.8ball</strong> - Ask a question and get an answer!<br>\n<strong>hana.ping</strong> - Shows the ping to the bot<br>\n<strong>hana.invite</strong> - Shows hana's invite link<br>\n<strong>hana.avatar</strong> - Allows users to get their avatars<br>\n<strong>hana.server</strong> - Shows information about the server<br>\n<strong>hana.find </strong>- Shows information about users<br>\n<strong> hana.love </strong> - give love point to user<br>\n</div>\n<div class=\"card card-5\">\n<h3 style=\"text-align: center\"> Moderation </h3>\n<strong> hana.ban </strong> - bans mentioned users (only usable by people with ban permission)<br>\n<strong> hana.prune </strong> - Mass deletes messages by given ammount<br>\n    <strong> hana.kick </strong> - kicks metioned user.<br>\n        <strong> hana.announce </strong> - used to edit announce channel settings\n    </div>\n    <div class=\"card card-5\">\n        <h3 style=\"text-align: center\"> music </h3>\n            <strong>hana.leave</strong> - leaves current voice channel<br>\n                <strong>hana.music</strong> - returns a list of available music sub commands<br>\n                    </div>\n                    <br>\n                    <div class=\"card card-5\">\n                    <h3 style=\"text-align: center\"> Fun </h3>\n                    <strong>hana.slap</strong> - Allows users to slap other users!<br>\n                        <strong>hana.kiss </strong>- allows users to kiss other users<br>\n                            <strong>hana.hug </strong>- hugs a user<br>\n                                <strong> hana.pat </strong> - Allows users to pat other users<br>\n                                </div>\n                                <div class=\"card card-5\">\n                                    <h3 style=\"text-align: center\"> Support</h3>\n                                    <p>found a bug? submit open an issue at:\n                                        <a class=\"button\" href=\"https://github.com/notoriouskyoko/hana-song-bot-public/issues\">github issue page</a><br>\n                                        or join the <a class=\"button\"  href=\"https://discord.gg/b3cUC2v\">official Hana Song guild</a>.\n                                    </p>\n                                </div>\n</body>\n</html>\n<!--\nThis data was imported from ls.terminal.ink\n-->\n"
+    }
+  ],
+  "created": 1527811200000,
+  "edited": 1527811200000,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "288967829469003777",
+  "images": {
+    "avatar": "images/288967829469003777/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=288967829469003777&scope=bot&permissions=8"
+  },
+  "state": "approved",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "hana."
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

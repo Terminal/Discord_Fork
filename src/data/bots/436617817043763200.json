@@ -1,0 +1,49 @@
+{
+  "authors": [
+    "discord:159053372010266624",
+    "github:Tmpod"
+  ],
+  "contents": [
+    {
+      "description": "Fun and very frequently updated multi-purpose bot. Yeah Toast!",
+      "locale": "en-GB",
+      "name": "CyborgToast",
+      "page": "**[In-Dev]**\r\n\r\nHey there! I'm CyborgToast, a general-purpose Discord Bot. I love playing with my users and throwing rage inducing Exceptions at my owner.\r\nI do a bit of everything. I also have some neat features it's rare seing (or I could even be the only one ;) ).\r\n\r\nFeel free to suggest new features or report bugs via the `feedback` command or by joining the support server (whose invite you can find in the `support` command)\r\n\r\nYou can check my commands [here](https://cyborgtoast.tk)!\r\n\r\n*PS: The invite link contains the permissions the bot will need at all times, so be sure it has those otherwise it will not function 100%.*"
+    }
+  ],
+  "created": 1550946416433,
+  "edited": 1550946416433,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "436617817043763200",
+  "images": {
+    "avatar": "images/436617817043763200/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=436617817043763200&scope=bot&permissions=262208"
+  },
+  "nsfw": false,
+  "state": "denied",
+  "support": "https://discord.gg/T5KbFBy",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "t."
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://cyborgtoast.tk",
+  "source": "https://github.com/Tmpod/cyborgtoast",
+  "categories": [
+    "utility"
+  ]
+}

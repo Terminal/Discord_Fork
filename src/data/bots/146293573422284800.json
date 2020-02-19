@@ -1,0 +1,49 @@
+{
+  "authors": [
+    "discord:139871249567318017",
+    "github:Ocelotworks"
+  ],
+  "contents": [
+    {
+      "description": "Games, Trivia and image manipulation! We have a meme Generator, text generator and more",
+      "locale": "en-GB",
+      "name": "OcelotBOT",
+      "page": "<h1>OcelotBOT is a general purpose tool and meme bot.</h1><h3>You can find the command list below, or in discord using !help</h3><table><tr><td>Command Name</td><td>Usage (Without the brackets)</td></tr><tr><td>Magic 8-ball</td><td>!8ball <question></td></tr><tr><td>Achievement Get!</td><td>!achievement <text></td></tr><tr><td>Wise Advice</td><td>!advice</td></tr><tr><td>Artifical Intelligence</td><td>!ai <message></td></tr><tr><td>Apex Stats</td><td>!apex [platform] <player></td></tr><tr><td>User Avatar</td><td>!avatar <@User></td></tr><tr><td>B-ify</td><td>!b <url></td></tr><tr><td>Band Name Generator</td><td>!bandname</td></tr><tr><td>Barcode Generator</td><td>!barcode <text></td></tr><tr><td>So Sad Meme</td><td>!beatmywife [url]</td></tr><tr><td>Bernie Meme</td><td>!bernie <text></td></tr><tr><td>Big Text Generator</td><td>!bigtext <text></td></tr><tr><td>Bulge Image</td><td>!bulge [url]</td></tr><tr><td>Calculator</td><td>!calc [sum]</td></tr><tr><td>Chess</td><td>!chess start <@player>/<move></td></tr><tr><td>Chinese Text</td><td>!chinese <text></td></tr><tr><td>Christmas Countdown</td><td>!christmas</td></tr><tr><td>Clap Text</td><td>!clap <text></td></tr><tr><td>Command Count</td><td>!commandcount</td></tr><tr><td>Compliment <code title='May provide NSFW results. Can be restricted/disabled with !settings.'>NSFW</code></td><td>!compliment <person></td></tr><tr><td>Crop Image</td><td>!crop [URL]</td></tr><tr><td>Crush</td><td>!crush <user or url></td></tr><tr><td>Curse Image</td><td>!curse [url]</td></tr><tr><td>Deepdream Image</td><td>!deepdream [url]</td></tr><tr><td>Deepfry</td><td>!deepfry [url]</td></tr><tr><td>Dictionary Lookup</td><td>!define <word></td></tr><tr><td>Urban Dictionary</td><td>!defineud <word></td></tr><tr><td>Dictator Meme</td><td>!dictator <user or url></td></tr><tr><td>Doot Doot</td><td>!doot</td></tr><tr><td>Edgy Text</td><td>!edgy <text></td></tr><tr><td>Emoji Search</td><td>!emoji <term></td></tr><tr><td>Enhance Image</td><td>!enhance [url]</td></tr><tr><td>This is epic meme</td><td>!epic [url]</td></tr><tr><td>Error Message Generator</td><td>!error <message></td></tr><tr><td>Expand</td><td>!expand <word></td></tr><tr><td>Red Eyes</td><td>!eyes [url or @user]</td></tr><tr><td>Face Recognition</td><td>!face [url] or embed</td></tr><tr><td>Leave Feedback</td><td>!feedback [message]</td></tr><tr><td>Ocelot Premium</td><td>!premium</td></tr><tr><td>Fire Text Generator</td><td>!firetext <text></td></tr><tr><td>Coin Flip</td><td>!flip</td></tr><tr><td>Fortnite Stats</td><td>!fortnite [platform] <player></td></tr><tr><td>Halloween Countdown</td><td>!halloween</td></tr><tr><td>Handicapped Meme</td><td>!handicap <text></td></tr><tr><td>Harry Potter Text Generator</td><td>!potter <text></td></tr><tr><td>Help Command</td><td>!help [command]</td></tr><tr><td>Patient Says</td><td>!patient <text></td></tr><tr><td>Ice Text Generator</td><td>!icetext <text></td></tr><tr><td>Identify Image</td><td>!identify [URL]</td></tr><tr><td>Google Image Search</td><td>!image <text></td></tr><tr><td>Imitate User</td><td>!imitate <@user> <message></td></tr><tr><td>Implode Image</td><td>!implode [url]</td></tr><tr><td>Insult Generator</td><td>!insult <person></td></tr><tr><td>Bot Invite Link</td><td>!invite</td></tr><tr><td>IP Info</td><td>!ipinfo <ip></td></tr><tr><td>Jesus Meme</td><td>!jesus <text></td></tr><tr><td>JPEG-ify</td><td>!jpeg [url]</td></tr><tr><td>Available Languages</td><td>!languages</td></tr><tr><td>Last Crash</td><td>!lastcrash</td></tr><tr><td>Love Text Generator</td><td>!lovetext <text></td></tr><tr><td>Mafia Boss</td><td>!mafia <@user1> <@user2></td></tr><tr><td>Maxi Code Generator</td><td>!maxi <text></td></tr><tr><td>Meme</td><td>!meme help</td></tr><tr><td>Monochrome Image</td><td>!monochrome [url]</td></tr><tr><td>Morse Code Generator</td><td>!morse <text></td></tr><tr><td>New Nickname Generator</td><td>!newnick</td></tr><tr><td>Noot Noot</td><td>!noot</td></tr><tr><td>Number Fact</td><td>!numberfact <number></td></tr><tr><td>Opinion on <code title='May provide NSFW results. Can be restricted/disabled with !settings.'>NSFW</code></td><td>!opinion <person></td></tr><tr><td>Strong Opinions Meme</td><td>!opinions <text></td></tr><tr><td>Oil Painting</td><td>!pain [url]</td></tr><tr><td>Ping Address</td><td>!ping <address> [timeout]</td></tr><tr><td>Playing stats</td><td>!playing <game></td></tr><tr><td>Porn Suggest <code title='May provide NSFW results. Can be restricted/disabled with !settings.'>NSFW</code></td><td>!pornsuggest [country] [gay/straight/tranny]</td></tr><tr><td>User Profile</td><td>!profile help</td></tr><tr><td>QR Code Generator</td><td>!qr <text></td></tr><tr><td>Rate</td><td>!rate <thing></td></tr><tr><td>Recolour Image</td><td>!recolour [url]</td></tr><tr><td>Reminders</td><td>!remind <in> \"<message>\"</td></tr><tr><td>Remove Background</td><td>!removebg [URL]</td></tr><tr><td>It's Rewind Time</td><td>!rewind [url]</td></tr><tr><td>Ronald Says</td><td>!ronald <text></td></tr><tr><td>Rotate Image</td><td>!rotate [url] [deg]</td></tr><tr><td>Rule34 Search <code title='May provide NSFW results. Can be restricted/disabled with !settings.'>NSFW</code></td><td>!rule34 <search></td></tr><tr><td>Screenshot Website</td><td>!screenshot <URL></td></tr><tr><td>Source Server Info</td><td>!serverinfo <ip:port></td></tr><tr><td>Bot Settings</td><td>!settings help/set/list/enableCommand/disableCommand</td></tr><tr><td>Sexy Dice <code title='May provide NSFW results. Can be restricted/disabled with !settings.'>NSFW</code></td><td>!sexydice</td></tr><tr><td>Sexy Singles</td><td>!sexysingle <user or url></td></tr><tr><td>Sharpen Image</td><td>!sharpen [url]</td></tr><tr><td>Ship Generator</td><td>!ship <@user1> <@user2> ...</td></tr><tr><td>Shy Meme</td><td>!shy <text></td></tr><tr><td>Auto-Smile</td><td>!smile [URL]</td></tr><tr><td>Snapchat Text</td><td>!snapchat [url] [text]</td></tr><tr><td>Snapcode Generator</td><td>!snapcode <username></td></tr><tr><td>We live in a society meme</td><td>!society [url]</td></tr><tr><td>Guess The Song</td><td>!guess [stop/stats]</td></tr><tr><td>Spell with Reactions</td><td>!spell [^] <send></td></tr><tr><td>Spoilerise Text</td><td>!spoiler <text></td></tr><tr><td>Spongebob</td><td>!spongebob [text]</td></tr><tr><td>Stats</td><td>!stats</td></tr><tr><td>Swirl Image</td><td>!swirl [url]</td></tr><tr><td>Tic Tac Toe</td><td>!tictactoe start <@player>/<grid position></td></tr><tr><td>Time</td><td>!time [timezone]</td></tr><tr><td>Trivia</td><td>!trivia leaderboard monthly</td></tr><tr><td>User Info</td><td>!user <@User></td></tr><tr><td>User Settings</td><td>!usersettings help/set/list/enableCommand/disableCommand</td></tr><tr><td>User Stats</td><td>!userstats <user></td></tr><tr><td>VirusTotal Scan</td><td>!virustotal <URL></td></tr><tr><td>Vote For OcelotBOT</td><td>!vote</td></tr><tr><td>Wave Image</td><td>!wave [url]</td></tr><tr><td>Weather</td><td>!weather <place></td></tr><tr><td>Wikipedia Search</td><td>!wiki <term></td></tr><tr><td>Zalgo Text</td><td>!zalgo <text></td></tr></table>"
+    }
+  ],
+  "created": 1547495946245,
+  "edited": 1557003366386,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "146293573422284800",
+  "images": {
+    "avatar": "images/146293573422284800/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://ocelot.xyz/invite?source=terminal"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/7YNHpfF",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://ocelot.xyz",
+  "source": "https://github.com/Ocelotworks/OcelotBOTV5",
+  "categories": [
+    "fun"
+  ]
+}

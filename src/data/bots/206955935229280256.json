@@ -1,0 +1,43 @@
+{
+  "authors": [],
+  "contents": [
+    {
+      "description": "An anime bot that includes a ton of weeb stuff and multiple moderation, music, and fun features for improving your Discord experience",
+      "locale": "en-GB",
+      "name": "Senpai",
+      "page": "Bot has 24/7 hosting and should be up most of the time if its down it get an update/bugfix and should be up again in some hours.\n<!--\nThis data was imported from ls.terminal.ink\n-->\n"
+    }
+  ],
+  "created": 1527811200000,
+  "edited": 1527811200000,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "206955935229280256",
+  "images": {
+    "avatar": "images/206955935229280256/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize/?scope=bot&client_id=206955239985774593"
+  },
+  "state": "approved",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "%",
+      "@Senpai",
+      "Custom"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

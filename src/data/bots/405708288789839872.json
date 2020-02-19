@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:310853886191599616"
+  ],
+  "contents": [
+    {
+      "description": "Chord is a high music discord bot with every command you can think of",
+      "locale": "en-GB",
+      "name": "Chord",
+      "page": "**Information**\r\n\r\nChord is a high quality music bot made by Discord user Timo Aardappel#6163. It has many commands to improve your experience with music, like queue, skip and volume.\r\n\r\n**Commands:**   \r\n\r\n*Start Playing*\r\n>`play` - Play a track with the given name or url (Max 5 hours).\r\n\r\n>`playlist` - Play a playlist with the given url (Max 100 tracks).  \r\n\r\n\r\n*Track Modifier*\r\n>`pause` - Pause the currently playing track.   \r\n\r\n>`loopsong` - Loop the currently playing track.   \r\n\r\n>`loopqueue` - Loop the current playing queue.  \r\n\r\n>`resume` - Resume the currently paused track. \r\n\r\n>`volume` - Check or change the current volume.\r\n\r\n*Track Queue*\r\n>`queue` - View the current queue with additional information. \r\n\r\n>`clearqueue` - Clear all tracks in the queue.   \r\n\r\n>`remove` - Remove a certain track from the queue.   \r\n\r\n>`shuffle` - Shuffle the queue.   \r\n\r\n>`nowplaying` - See what track the bot is currently playing.\r\n\r\n*Skip Track*\r\n>`skip` - Skip the currently playing track.   \r\n\r\n>`replay` - Reset the progress of the current track.   \r\n\r\n>`disconnect` - Clear the queue and disconnect the bot from the voice channel it is in.\r\n\r\n>`seek` - Seek to a specific track in the queue.\r\n\r\n*Misc*\r\n>`help` - Display all commands of the bot.   \r\n\r\n>`ping` - Check the bot's response time to Discord.   \r\n\r\n>`stats` - See the live statistics of the bot.   \r\n\r\n>`invite` - See the bot's invite link and support server.   \r\n\r\n>`prefix` - See or change the bot's prefix.\r\n\r\n*Voting*\r\n>`vote` - See the link to upvote the bot on DiscordBotsLists.  \r\n\r\n>`checkvote` - Check if you have voted for Potato Music."
+    }
+  ],
+  "created": 1561292933442,
+  "edited": 1563809658529,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "405708288789839872",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=405708288789839872&scope=bot&permissions=104197441"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/c2sq2xP",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      ">"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "music"
+  ]
+}

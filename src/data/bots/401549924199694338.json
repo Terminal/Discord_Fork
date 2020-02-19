@@ -1,0 +1,45 @@
+{
+  "authors": [
+    "discord:279866000533618689"
+  ],
+  "contents": [
+    {
+      "description": "SafetyAtLast is a unique moderation bot focused around malware prevention, user safety, and more",
+      "locale": "en-GB",
+      "name": "SafetyAtLast",
+      "page": "SafetyAtLast is the first free security bot to scan links users post with antivirus engines to determine if they're malware, trojans, IP loggers, and more, then take action based on the bots findings. We also have a wide variety of other useful features like role persist to make sure users can't leave and rejoin to shake off a role they were given. \r\nThere's plenty of other cool features and much more to come! \r\nYou can see whats planned for the future of this bot on our trello board at https://trello.com/b/hk8Nf4b5/ \r\nIf you need support join our support server at https://discord.gg/F5CZSxh"
+    }
+  ],
+  "created": 1544600569231,
+  "edited": 1544600569231,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "401549924199694338",
+  "images": {
+    "avatar": "images/401549924199694338/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://safetyatlast.net/invite"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/F5CZSxh",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "&"
+    ]
+  },
+  "videos": {},
+  "website": "https://safetyatlast.net/",
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

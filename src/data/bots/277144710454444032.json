@@ -1,0 +1,41 @@
+{
+  "authors": [],
+  "contents": [
+    {
+      "description": "A utility bot providing autoroles, vote channels and much more for your guild.",
+      "locale": "en-GB",
+      "name": "Restarter",
+      "page": "<iframe src=\"https://botz.mattcowley.co.uk/restarter/post/loadtest\" class=\"ls-iframe\">\n<!--\nThis data was imported from ls.terminal.ink\n-->\n"
+    }
+  ],
+  "created": 1527811200000,
+  "edited": 1527811200000,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "277144710454444032",
+  "images": {
+    "avatar": "images/277144710454444032/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://botz.mattcowley.co.uk/restarter/invite"
+  },
+  "state": "approved",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "r."
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

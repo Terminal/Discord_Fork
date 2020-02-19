@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:540933842819743765"
+  ],
+  "contents": [
+    {
+      "description": "Wyvern is Multi-Talentent bot. Adding more features ",
+      "locale": "en-GB",
+      "name": "Wyvern",
+      "page": "<h1 id=\"Message\">Message</h1>\r\nHello everyone. This bot is owned by \"Atom Production#3656\". I am making new more and cool command was comming soon. If you have any suggestions or feedback drop in my DMs \"Atom Production\". I am waiting for you.\r\n<h1 id=\"Description\">Description</h1> \r\nWyvern is Multi-Talentent bot have cool features and i never stop adding new commands after every month. You can see COMMANDS there you can see command which is added.\r\n<h1 id=\"Commands\">Commands</h1>\r\n ban\r\n\r\n\r\nDescription: ban a member.\r\nUsage: hey ban <user> [time] [reason]\r\n\r\nkick\r\n\r\n\r\nDescription: kick a member.\r\nUsage: hey kick <user> [reason]\r\n\r\nwarn\r\n\r\n\r\nDescription: warn a member.\r\nUsage: hey warn <user> <reason>\r\n\r\nmute\r\n\r\n\r\nDescription: mute a member.\r\nUsage: hey mute <user> [time] [reason]\r\n\r\nunmute\r\n\r\n\r\nDescription: unmute a member.\r\nUsage: hey unmute <user>\r\n\r\nclear\r\n\r\n\r\nDescription: clear messages.\r\nUsage: hey clear <amount>\r\n\r\nautorole\r\n\r\n\r\nDescription: set role to be given to member on join.\r\nUsage: hey autorole <role>\r\n\r\nlog\r\n\r\n\r\nDescription: set channel to log to.\r\nUsage: hey log <channel>\r\n\r\nping \r\n\r\n\r\nDescription: check the bots ping.\r\nUsage: hey ping\r\n\r\nwarns\r\n\r\nDescription: see the members warnings.\r\nUsage: hey warns [user]\r\n\r\nconfig\r\n\r\n\r\nDescription: view this servers config\r\nUsage: hey config\r\n\r\nshowserver\r\n\r\n\r\nDescription: show the bots servers.\r\nUsage: hey showserver\r\n"
+    }
+  ],
+  "created": 1549286557875,
+  "edited": 1549286557875,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "540939251869810719",
+  "images": {
+    "avatar": "images/540939251869810719/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=540939251869810719&permissions=335603798&scope=bot"
+  },
+  "nsfw": false,
+  "state": "banned",
+  "support": "https://discord.gg/keTKtDj",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "hey"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

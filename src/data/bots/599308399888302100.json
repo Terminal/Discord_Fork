@@ -1,0 +1,51 @@
+{
+  "authors": [
+    "discord:424304428682706956",
+    "github:Naegin"
+  ],
+  "contents": [
+    {
+      "description": "Música de Alta Qualidade para o Discord. Oferecendo de graça, comandos como Volume e Bass Boost.",
+      "locale": "pt",
+      "name": "Disco",
+      "page": "[![Disco](https://i.imgur.com/DWa6iY0.png)][bot-invite-url]\r\n---\r\n[![Discord][discord-badge]][discord-url] [![Codacy Badge][codacy-badge]][codacy-url] [![License][license-badge]][license-url] \r\n[![Twitter][twitter-badge]][twitter-url] \r\n\r\n## Disco\r\n\r\nUm bot brasileiro para o Discord - Música de Alta Qualidade, com comandos como **`volume`** e **`bass boost`** liberados para todos. Além disso, você pode salvar a música que estiver tocando no momento e a ouvir depois, pelo sistema de playlists.\r\n\r\nDisco também conta com:\r\n- Sistema de Moderação, onde você pode definir quantas ações (banimentos, expulsões, etc) um moderador pode fazer dentro de um período de 24 horas.\r\n- Sistema de Logs de Mensagens e entrada/saída de membros.\r\n- Sistema de Cargo Automático - Auto role (adicionar um cargo em um usuário, quando ele entrar no servidor).\r\n- Sistema Multilinguagem (suporta vários idiomas).\r\n- Comandos de Ação (kiss, slap, pat, hug, smile, etc).\r\n- Comandos de Utilidade (ver a letra da música que está tocando ou de outras, pesquisar por informações sobre um anime/mangá, etc).\r\n- Comandos NSFW (sim, isso mesmo que você está pensando).\r\n\r\n> Para ver todos os comandos do bot, utilize **`d.help`** dentro de um servidor que tenha ele adicionado.\r\n\r\nO que está esperando? [Adicione o Disco][bot-invite-url] hoje mesmo em seu servidor! Ficou com alguma dúvida? Entre em nosso [servidor de suporte][discord-url].\r\n\r\n## Contribuir\r\n\r\nVocê pode contribuir das seguintes formas:\r\n - Fazendo uma doação - https://patreon.com/discobot.\r\n - Traduzindo o bot - https://disco.crowdin.com/disco.\r\n - Enviando uma Pull Request com correção de códigos ou adição de novas funcionalidades.\r\n - Resolvendo as dúvidas dos usuários do Disco - https://discord.gg/qN5886E.\r\n \r\n**Disco** foi criado e é desenvolvido por **Naegin**.\r\n\r\n\r\n[bot-invite-url]: https://discordapp.com/oauth2/authorize?client_id=599308399888302100&scope=bot&permissions=37088576\r\n\r\n[discord-badge]: https://img.shields.io/discord/516346444463210542?label=chat&logo=discord\r\n[discord-url]: https://discord.gg/qN5886E\r\n\r\n[codacy-badge]: https://api.codacy.com/project/badge/Grade/42cc1a8fc60b4cc9b84b489701d4faab\r\n[codacy-url]: https://www.codacy.com/manual/Naegin/Disco?utm_source=discord.bots.gg&amp;utm_medium=referral&amp;utm_content=Naegin/Disco&amp;utm_campaign=Badge_Grade\r\n\r\n[license-badge]: https://img.shields.io/github/license/Naegin/Disco\r\n[license-url]: https://github.com/Naegin/Disco/tree/master/LICENSE\r\n\r\n[twitter-badge]: https://img.shields.io/twitter/follow/DiscoTheBot\r\n[twitter-url]: https://twitter.com/DiscoTheBot"
+    }
+  ],
+  "created": 1563164399163,
+  "edited": 1576552754913,
+  "flags": {
+    "adverts": true,
+    "inAppPurchases": true
+  },
+  "hide": false,
+  "id": "599308399888302100",
+  "images": {
+    "avatar": "images/599308399888302100/avatar.png",
+    "cover": "images/599308399888302100/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=599308399888302100&scope=bot&permissions=37088576"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/qN5886E",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "d.",
+      "d!",
+      "@Disco"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": "https://github.com/Naegin/Disco",
+  "categories": [
+    "music"
+  ]
+}

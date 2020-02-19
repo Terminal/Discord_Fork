@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:138481382794985472"
+  ],
+  "contents": [
+    {
+      "description": "The music bot themed for toxic meme lords",
+      "locale": "en-GB",
+      "name": "Best meme bot",
+      "page": "<iframe src=\"https://gnarbot.xyz/\" class=\"ls-iframe\">\r\n<!--\r\nThis data was imported from ls.terminal.ink\r\n-->\r\n"
+    }
+  ],
+  "created": 1527811200000,
+  "edited": 1556751614791,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "201503408652419073",
+  "images": {
+    "avatar": "images/201503408652419073/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=201492375653056512&scope=bot&permissions=8"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "_"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

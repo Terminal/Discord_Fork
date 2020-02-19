@@ -1,0 +1,54 @@
+{
+  "authors": [
+    "discord:102108573298851840"
+  ],
+  "contents": [
+    {
+      "description": "Leveling | RPG | Music | Hypixel Stats | Fortnite Stats |and many more usefull commands",
+      "locale": "fr",
+      "name": "Ozeryo",
+      "page": "Construit ta ville et developpe la ! Il existe plus de 500 amelioration et le bot est en constant developpement pour que tu ne t'ennui jamais. \r\n\r\n- Systeme de mana --> Gains d'argents et de materiaux de construction\r\n\r\n- Systeme d'attaque, d'echange et d'alliance avec les autres joueurs\r\n\r\n- Systeme de hero et de donjons \r\n\r\n- Systeme de map avec une position par joueur , de nombreuses zones speciales apparaissent aussi sur la map \r\n\r\n- De nombreux evenements sont organisés tout aux long de l'année ! Ne loupez pas l'incroyable evenement Estival avec plus de 50 prix uniques a gagner.\r\n\r\nsite : http://ozeryo.xyz"
+    },
+    {
+      "description": "Leveling | RPG | Music | Hypixel Stats | Fortnite Stats |and many more usefull commands",
+      "locale": "en-GB",
+      "name": "OzeryoBot",
+      "page": "Build your city and develop it! There are more than 500 improvements and the bot is in constant development so that you never get bored.\r\n\r\n- Mana system -> Gains of silver and building materials\r\n\r\n- System of attack, exchange and alliance with other players\r\n\r\n- Hero system and dungeons\r\n\r\n- Map system with one position per player, many special areas also appear on the map\r\n\r\n- Many events are organized throughout the year! Do not miss the incredible summer event with more than 50 unique prizes to win.\r\n\r\nwebsite : http://ozeryo.xyz"
+    }
+  ],
+  "created": 1563887292462,
+  "edited": 1563887292572,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "399115724926484490",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=399115724926484490&scope=bot&permissions=2146958847"
+  },
+  "nsfw": false,
+  "state": "denied",
+  "support": "https://discord.gg/6c8NXk2",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "="
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "games"
+  ]
+}

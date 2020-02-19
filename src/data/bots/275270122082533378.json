@@ -1,0 +1,41 @@
+{
+  "authors": [],
+  "contents": [
+    {
+      "description": "A high quality Music bot, with moderation, interaction, search, administration commands, highly customizable and much more! ",
+      "locale": "en-GB",
+      "name": "avaire",
+      "page": "<style>#menu {background: #DC155F;}.page .page-title p {color: #DC155F;}.bot-img img {border-radius: 50%;border: 3px solid #DC155F;}.btn-orange {background-color: #DC155F;}.btn-blue {background-color: #BB1150;}.avaire {position: relative;padding: 0 20px;display: flex;flex-direction: column;}.avaire .container {width: 100%;padding-left: 20px;padding-right: 20px;}.avaire p {font-weight: 200;}.avaire a {color: #DC155F;text-decoration: none;}.avaire a.package-title, .avaire a.package-title:hover {text-decoration: none;border-bottom: none;font-weight: 700;}.avaire .third {min-height: 1px;margin-right: 15px;margin-left: 15px;flex-basis: 33.333333%;}.avaire .callout.rule {border-bottom: 1px solid #36393E;color: #BB1150;text-align: center;font-size: 13px;text-transform: uppercase;letter-spacing: 2px;position: relative;margin: 60px 0;}.avaire .callouts {margin: 0 -15px 30px;display: -webkit-box;display: flex;}.avaie .callout {display: block;}.avaire .callout.minimal {border: 2px solid #36393E;border-radius: 2px;padding: 15px 30px 20px;transition: all .2s ease;}.avaire .callout.minimal:hover {border: 2px solid #BB1150;transition: all .2s ease;}.avaire .callout.minimal .callout-head {display: flex;}.avaire .callout.minimal .callout-title {color: #36393E;font-weight: 300;font-size: 26px;margin: 0 0 30px;padding-top: 10px;-webkit-box-flex: 1;flex: 1;text-align: center;}.avaire .package .content, .longdescription .content {padding: 12px;box-shadow: 4px 4px 0 0 rgba(187, 17, 80, 0.8),inset 4px 4px 0 0 rgba(187, 17, 80, 0.2),inset -4px -4px 0 0 rgba(187, 17, 80, 0.5);}.avaire .packages {display: flex;}.avaire .package {padding: 8px;}.avaire .package-title ~ p {padding-top: 8px;}</style><section class=\"avaire\"><div class=\"container\"><div class=\"callout rule\"><span class=\"text\">So what can it do?</span></div><div class=\"callouts\"><a href=\"https://avairebot.com/docs/commands#music\" class=\"callout minimal third\"><div class=\"callout-head\"><div class=\"callout-title\">Stream Music</div></div><p>Request music via \nyoutube, soundcloud, twitch, radio links, or by name with ease.</p></a><a href=\"https://avairebot.com/docs/commands#administration\" class=\"callout minimal third\"><div class=\"callout-head\"><div class=\"callout-title\">Administration</div></div><p>Administration made easy, take a load off your shoulders and let Ava do the work for you.</p></a><a href=\"https://avairebot.com/docs/commands#ai\" class=\"callout minimal third\"><div class=\"callout-head\"><div class=\"callout-title\">Simple AI</div></div><p>You can ask the bot just about anything and it will try and use its AI to answer your questions.</p></a></div></div><div class=\"container\"><div class=\"callout rule\"><span class=\"text\">And so much more!</span></div><div class=\"packages\"><div class=\"third\"><div class=\"package\"><div class=\"content\"><a href=\"https://avairebot.com/docs/commands#channel\" class=\"package-title\">Join & Leave Messages</a><p>Broadcast messages when users joins or leaves your server on a per-channel basis.</p></div></div><div class=\"package\"><div class=\"content\"><a href=\"https://avairebot.com/docs/commands#slowmode\" class=\"package-title\">Chat Slowmode</a><p>Prevent people from spamming with slowmode, you can turn it on or off per-channel.</p></div></div></div><div class=\"third\"><div class=\"package\"><div class=\"content\"><a href=\"https://avairebot.com/docs/commands#language\" class=\"package-title\">Bilingual Commands</a><p>Ava supports multiple languages, you can change what languages Ava uses on the fly.</p></div></div><div class=\"package\"><div class=\"content\"><a href=\"https://avairebot.com/docs/master/commands#changeprefix\" class=\"package-title\">Change Command Prefixes</a><p>Don't like the default prefixes? No problem, you can change them to anything you'd like.</p></div></div></div><div class=\"third\"><div class=\"package\"><div class=\"content\"><a href=\"https://avairebot.com/docs/commands#playlist\" class=\"package-title\">Music Playlists</a><p>Create custom music playlists and share your playlists with other people with ease.</p></div></div><div class=\"package last\"><div class=\"content\"><a href=\"https://avairebot.com/docs/commands#fun\" class=\"package-title\">Lots of Fun Commands</a><p>Ava has a lot of fun/game commands, and more are constantly being added.</p></div></div></div></div></div><div class=\"container\"><div class=\"callout rule\"><span class=\"text\">Some helpful links</span></div><div class=\"callouts\"><a href=\"https://avairebot.com/\" class=\"callout minimal third\"><div class=\"callout-head\"><div class=\"callout-title\">Website</div></div><p>Checkout the offical website for guides, documentations and helpful links.</p></a><a href=\"https://avairebot.com/invite\" class=\"callout minimal third\"><div class=\"callout-head\"><div class=\"callout-title\">Invite AvaIre</div></div><p>Invite AvaIre to your server and start enjoing all the features immediately.</p></a><a href=\"https://avairebot.com/support\" class=\"callout minimal third\"><div class=\"callout-head\"><div class=\"callout-title\">Support Server</div></div><p>Need help? Got questions or to request a new feature? Join the support server and talk to the devs.</p></a></div></div></section>\n<!--\nThis data was imported from ls.terminal.ink\n-->\n"
+    }
+  ],
+  "created": 1527811200000,
+  "edited": 1527811200000,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "275270122082533378",
+  "images": {
+    "avatar": "images/275270122082533378/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://avairebot.com/invite"
+  },
+  "state": "approved",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "!"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

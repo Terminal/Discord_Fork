@@ -1,0 +1,49 @@
+{
+  "authors": [
+    "discord:205912295837138944",
+    "github:TannerReynolds"
+  ],
+  "contents": [
+    {
+      "description": "A downloadable bot made to be selfhosted and customized to your liking! 160+ commands pre-made!",
+      "locale": "en-GB",
+      "name": "Havana Discord Bot",
+      "page": "The public demonstration bot for a downloadable bot made to be selfhosted and customized to your liking! 160+ commands pre-made!\r\n\r\nBot is written in nodejs using the Eris discord library.\r\n\r\nBot is easy to install! No databases, no client side image processing, just easy. It even will have an installer that will do all of the work of installing and running the bot for you! Here is a link to the installer's repository where you can keep track of the progress: https://github.com/TannerReynolds/Havana-Installer\r\n\r\nThis bot uses api.qoilo.com, our public image processing server, for all of it's image manipulation commands. The API is public so your bot will be able to use it no problem! This is done so that users dont have to go through the pain of installing and maintaining all of the dependencies and resources required to run the image processing on their end\r\nSoon you will be able to host your very own instance of the image processing server, if you wish\r\n\r\nThis bot is being constantly updated so be sure to keep an eye on this demonstration bot/the github repository/the discord support server for updates!"
+    }
+  ],
+  "created": 1550308321407,
+  "edited": 1550308321407,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "520459597819936771",
+  "images": {
+    "avatar": "images/520459597819936771/avatar.png",
+    "cover": "images/520459597819936771/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=520459597819936771&scope=bot&permissions=8"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/C9reUPF",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://github.com/TannerReynolds/Havana-Discord-Bot",
+  "source": "https://github.com/TannerReynolds/Havana-Discord-Bot",
+  "categories": [
+    "fun"
+  ]
+}

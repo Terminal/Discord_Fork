@@ -1,0 +1,41 @@
+{
+  "authors": [],
+  "contents": [
+    {
+      "description": "A high quality Discord Music Bot providing music from YouTube, Soundcloud, Twitch, Radio Stations, Discord.FM and much more!",
+      "locale": "en-GB",
+      "name": "dabBot Music Bot",
+      "page": "<center>\n<img src=\"https://i-was-scammed-by.dabbot.org/8dbab8.png\" alt=\"dabbot music bot commands\">\n</center>\n<!--\nThis data was imported from ls.terminal.ink\n-->\n"
+    }
+  ],
+  "created": 1527811200000,
+  "edited": 1527811200000,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "270198738570444801",
+  "images": {
+    "avatar": "images/270198738570444801/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://dabbot.org/invite"
+  },
+  "state": "approved",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "!!!"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

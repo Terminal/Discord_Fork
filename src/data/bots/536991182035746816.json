@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:196672168388591616"
+  ],
+  "contents": [
+    {
+      "description": "Wick is an advanced security bot, one of its kind made to conquer any type of nukes, raids and spam.",
+      "locale": "en-GB",
+      "name": "Wick",
+      "page": "```ini\r\n[ Wick FREE Features: ]\r\n```\r\n- **ANTI-NUKE**\r\n  - Wick will deal with admins/mods doing any abnormal activities.\r\n  - Abnormal activities are basically mass-deletions of roles, channels or mass-banning/kicking users.\r\n  - Wick has multiple filters that make it IMPOSSIBLE for anyone to bypass without the owner noticing.\r\n  - Wick does not care if it's a user or a bot trying to nuke. It will kick ass.\r\n  \r\n- **ANTI-RAID**\r\n  - Wick will deal with anyone that tries to raid your server.\r\n  - Wick has multiple filters when it comes to raiding, it first studies the account's details then acts based on them.\r\n  - Server owner, admins and mods are treated nicely by the system. **(you can also whitelist people/channels)**\r\n  \r\n- **ANTI-SPAM**\r\n  - Spamming will lead to a mute. The system is different from a user to another because of filters. But if there's a spam, wick will deal with the user.\r\n  - Bots are not treated the same as normal users.\r\n  - Admins & Mods are immune. **(you can also whitelist people/channels)**\r\n\r\n- **STRIKES-SYSTEM**\r\n  - If a user hits a certain number of strikes (3 by default), they will get muted.\r\n  \r\n- **ON JOIN SYSTEM**\r\n  - Wick will check the user/bot's username for any kind of advertising, ipgrabbing, nsfw, malware, racist, shortenning-link content.\r\n  \r\n- **ANTI-MALICIOUS CONTENT**\r\n  - Wick will deal with any user/bot that tries to post any malicious content, let it be a phishing, ipgrab or a malware website.  \r\n\r\n- **ANTI-ADV**\r\n  - Wick will deal with any user/bot that tries to advertise.\r\n- **Anti-NSFW System** that detects nsfw content (and soon Images also) in a safe for work channel.\r\n  - Whitelisted-channels that are safe for work won't be immune.\r\n\r\n```ini\r\n[ Wick PREMIUM Features: ]\r\n```  \r\n\r\n- Exclusive access to Wick's anti nuke, spam settings and the ability to tweak them.\r\n\r\n- Advanced strikes system and the ability to change its settings.\r\n\r\n- **Verification System (Captcha)**\r\n  - Suspicious users will have to answer the Captcha Wick sends or else they will get kicked automatically.\r\n  - In order for a user to be suspicious, Wick studies the account's details and decide later (Account age, Global-ban, Nitro, profile picture).\r\n  \r\n- **Enhanced Spam system**\r\n  - Ability to also change the core settings to your liking.\r\n\r\n- **Anti-Mention system** that doesn't allow users to mention @everyone even once!\r\n- JoinAge System that denies account younger than a number of days you choose.\r\n- Extreme Speed since fewer servers use it.\r\n- You help us keep Wick's lights on.\r\n\r\n```fix\r\nThings You Should Know\r\n```\r\n  - Wick needs few permissions to work. So if you don't trust Wick, don't use it. Run w!perms in your server to see which permissions are needed.\r\n  - Wick needs a Muted role for it to punish people. It won't do anything if there's no way to stop anyone. So make sure you have one.\r\n  - Wick only works with YOU (The Server Owner). It's a server owner bot for crying out loud.\r\n  - Make Wick's role above your Admins/Mods for it to deal with them if they do suspicious behaviours.\r\n  - Wick can log stuff if you have a channel called \"mutes\" or \"logs\".\r\n  - Wick (if set properly) can kick/ban even Admins. After all, only you can use it. So no trolling with wick.\r\n  - Wick forgives whitelisted users/channel only when it comes to spamming and raiding.\r\n  - There are several filters planted to stop people dodging settings. an example : \"If you spam 5 times in a minute you get muted\" <- that won't work because once the user finds out, they will be spamming 4 times a minute. That can't happen with Wick, because Wick has more filters added like account's age, server-contribution and we are not going to get into more filters, what's important is that they can't dodge the settings. The settings made can work with any server as Wick has been tested in 3 grand servers pre-launch, two of which are Discord-Partnered.\r\n\r\n\r\n```ini\r\n[ Wick Commands: ]\r\n```  \r\n*Type* **w!commands** *in your server to see* **ALL** *basic, premium and utility commands!*\r\n\r\n__**VIP FEATURES:**__\r\n- Hosted exclusively for your servers meaning that it will only be in your servers (Legendary Speed).\r\n- You will get all the features we have at your disposal.\r\n- You will choose the bot's name, logo and all.\r\n- New features will first be seen in ViP Wick.\r\n- You help us keep Wick's lights on."
+    }
+  ],
+  "created": 1554324512514,
+  "edited": 1554324564620,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "536991182035746816",
+  "images": {
+    "avatar": "images/536991182035746816/avatar.png",
+    "cover": "images/536991182035746816/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=536991182035746816&scope=bot&permissions=403008662"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/8C972nY",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "w!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

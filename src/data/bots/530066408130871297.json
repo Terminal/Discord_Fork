@@ -1,0 +1,41 @@
+{
+  "authors": [
+    "discord:328983966650728448"
+  ],
+  "contents": [],
+  "created": 1551240224230,
+  "edited": 1551240224230,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "530066408130871297",
+  "images": {
+    "avatar": "images/530066408130871297/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=530066408130871297&scope=bot&permissions=2146958591"
+  },
+  "nsfw": false,
+  "state": "denied",
+  "support": null,
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "d."
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://droidbotdiscord.tk",
+  "source": null,
+  "categories": [
+    "music"
+  ]
+}

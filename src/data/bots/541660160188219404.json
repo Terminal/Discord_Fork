@@ -1,0 +1,49 @@
+{
+  "authors": [
+    "discord:281162281763471363",
+    "github:Alexflipnote"
+  ],
+  "contents": [
+    {
+      "description": "A fun lil raccoon for useful commands. Fun,moderator,utility, music and others!",
+      "locale": "en-GB",
+      "name": "RaccoonBot",
+      "page": "\r\n\r\nRaccoonbot is a multi-purpose all round serviced bot. Ranging from Moderation to Music to Fun and a lot more!\r\n\r\n-------A little bit about Raccoonbot-------\r\n\r\nRaccoonbot is a one of a kind unique bot for your server! With 24/7 Uptime, apart from updates, we can ensure you that this little bot won't stray far from you! We host on a linux server souley dedicated to the bot. With a low ping ranging from 100ms to 300ms you'll rarely encounter service errors.\r\n\r\n-------Our commands-------\r\n\r\nThis bot includes a full range of commands for fun and safety for your server!\r\n\r\nFun: This bot has over 35+ Fun commands which are constantly being updated to keep your server as happy as can be! This can go from 8ball , to our own unique Life simulator game!\r\n\r\nModeration: This bot has all round moderation commands from Kicking, banning to pruning messages and muting members. This bot will keep your server safe and sound from any mean members!\r\n\r\nUtility: This bots utility includes a range of maths calculations, steam + youtube searches and even vote commands to make your server as optimized as possible!\r\n\r\nMusic: Our music command is run off the latest and greatest Lavalink player, to ensure there are only a few, if any, gaps in your listening experience!\r\n\r\n-------Why add Raccoonbot to my server?-------\r\n\r\nRaccoonbot is a small little bot which offers a big range of services for free! There is no \"premium\" feature although we do have a patreon if you would like to support us\r\n\r\n-------Help-------\r\n\r\nUse the command ~supportserver and reach out to me! Thanks for reading about RaccoonBot!\r\n"
+    }
+  ],
+  "created": 1553433003117,
+  "edited": 1557580307917,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "541660160188219404",
+  "images": {
+    "avatar": "images/541660160188219404/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=541660160188219404&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/FZbsCfx",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "~"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://github.com/5ifty",
+  "source": "https://github.com/Alexflipnote/discord_bot.py",
+  "categories": [
+    "fun"
+  ]
+}

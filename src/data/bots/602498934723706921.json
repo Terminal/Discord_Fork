@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:164126436943200257"
+  ],
+  "contents": [
+    {
+      "description": "Customized bios, money, items, XP and more! A helpful tool for roleplay servers.",
+      "locale": "en-GB",
+      "name": "Roleplay Tools",
+      "page": "Command\tCategory\tInfo =help\tBasics\tA guide to RP Tools\r\n\r\n=character (=c)\tBasics\tView your current character\r\n\r\n=characters (=chars)\tBasics\tSee them all\r\n\r\n=1, =2, =3, =4, =5, =6\tBasics\tTo change characters\r\n\r\n=edit\tBasics\tMany ways to update your characters\r\n\r\n=server\tBasics\tDetails\r\n\r\n=bot\tBasics\tDetails =invite\tBasics\tCommunity and bot invites\r\n\r\n=bump\tPromotion\tPromote your bot through RP Tools!\r\n\r\n!d bump\tPromotion\tRemind your users to bump through Disboard\r\n\r\n=set disboard [on/off]\tPromotion\tEnable or disable Disboard reminders\r\n\r\n=cat =dog =dance =cringe\tFun\tExpress yourself\r\n\r\n=hug =kiss =poke =pat\tFun\tAction @player\r\n\r\n=slap =bully =kill\tFun\tAction @player\r\n\r\n=do [action]\tFun\tCustom expressions\r\n\r\n=ship [Name_1] [Name_2]\tFun\tFind out who’s compatible\r\n\r\n=deathBattle @player\tFun\tPit yourself against a foe\r\n\r\n=randomColor\tFun\tFun hex colors\r\n\r\n=inspiration\tFun\tCat posters\r\n\r\n=purge [number]\tModeration\tMass delete messages\r\n\r\n=kick @player [reason]\tModeration\tKick from server\r\n\r\n=ban @player [reason]\tModeration\tBan from server\r\n\r\n=mute/=unmute @player\tModeration\tMute or unmute a player\r\n\r\n=ban @player [reason]\tModeration\tBan from server\r\n\r\n=prefix [symbol]\tAdmin\tSet a custom prefix\r\n\r\n=settings\tAdmin\tMany options!\r\n\r\n=welcome\tAdmin\tAssign roles, make a gateway, etc"
+    }
+  ],
+  "created": 1565535265059,
+  "edited": 1565535265059,
+  "flags": {
+    "adverts": true,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "602498934723706921",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=602498934723706921&scope=bot&permissions=1070984279"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/S4sT8AB",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "="
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://rpgdiscord.com/",
+  "source": null,
+  "categories": [
+    "games"
+  ]
+}

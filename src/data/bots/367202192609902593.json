@@ -1,0 +1,42 @@
+{
+  "authors": [],
+  "contents": [
+    {
+      "description": "A multifunctional bot with Starboard, Server based settings, general, moderation and fun command, and awesome welcome messages.",
+      "locale": "en-GB",
+      "name": "Gearz",
+      "page": "### Features\n\n*   Fancy welcome/goodbye log with image/text combo.\n*   Server based settings.\n*   Starboard, fancy Mod-Log\n*   General, moderation and fun commands.\n*   Permission based help command i.e. see only commands which you can use when you do `?help`\n*   24/7 Uptime\n*   And many more\n"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1542569433000,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "367202192609902593",
+  "images": {
+    "avatar": "images/367202192609902593/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=367202192609902593&scope=bot&permissions=8"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "?"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

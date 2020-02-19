@@ -1,0 +1,49 @@
+{
+  "authors": [
+    "discord:141521475478880256"
+  ],
+  "contents": [
+    {
+      "description": "A bot that shows information about game servers",
+      "locale": "en-GB",
+      "name": "Server Bot",
+      "page": "•Server bot is a bot that will show you information about your game server such as server name, ip, map, online player count and online players. \r\n\r\n•The bot is designed to be used easily. You just have to set your game servers ip and you are ready to go."
+    }
+  ],
+  "created": 1579872257957,
+  "edited": 1579872280669,
+  "flags": {
+    "adverts": true,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "589901741672103958",
+  "images": {
+    "avatar": "images/589901741672103958/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=589901741672103958&scope=bot&permissions=2146958591"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discordapp.com/invite/PjSDJ7j",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "!",
+      "server bot"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://docs.serverbot.wtf/",
+  "source": null,
+  "categories": [
+    "games"
+  ]
+}

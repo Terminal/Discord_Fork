@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:203104843479515136"
+  ],
+  "contents": [
+    {
+      "description": "Shield is a guild moderation and configuration bot with 2 step verification moderation commands.",
+      "locale": "en-GB",
+      "name": "Shield",
+      "page": "Shield is a guild moderation and configuration bot with 2 step verification moderation commands."
+    }
+  ],
+  "created": 1568038009708,
+  "edited": 1568038009708,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "568698045412409344",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=568698045412409344&permissions=8&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/YGCuzUz",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "s!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://shieldbot.site/",
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

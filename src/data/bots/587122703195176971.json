@@ -1,0 +1,51 @@
+{
+  "authors": [
+    "discord:336389636878368770",
+    "discord:344335337889464357",
+    "discord:325126878958714880",
+    "discord:412502765324206081"
+  ],
+  "contents": [
+    {
+      "description": "Exo is a multi purpose bot that can do many things. Check it out.",
+      "locale": "en-GB",
+      "name": "ExoOfficial",
+      "page": "Exo is a fun and simple discord bot with most basic commands you expect. =purge =help but we have more fun commands like =dice. Exo has just upgraded and we now have more cool features. We are currently adding more commands to Exo. We now have leveling where you will be able to earn money just by chatting in servers. This, of course, includes a shop with perks available for our support server. Our support team are friendly and helpful ready to help when you need it. So get Exo Bot for your server and level up your discord!"
+    }
+  ],
+  "created": 1562142135938,
+  "edited": 1562142135938,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "587122703195176971",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=587122703195176971&scope=bot&permissions=8"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discordapp.com/invite/HcXQcbE",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "Main: ="
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "music"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:569337271065772033"
+  ],
+  "contents": [
+    {
+      "description": "A moderation bot With Fun, Utilities, Level-up, Ticket System, AD-block and much more.",
+      "locale": "en-GB",
+      "name": "Trivia Crown",
+      "page": "INVITE the all in one BOT\r\nName - \" Trivia Crown \" Developer - 💕Satyaji💕#8651, Prefix - \" ! \"\r\n\r\nYou can do !help for information about the BOT & commands. Special features: Auto levelup ⬆️, Ticket system (type !new), Link/adblocker (!adblocker on).\r\n\r\nCROWN - THE DISCORD CITY (Exclusive City Game - 1st to lunch in Discord - to play type !crowncity) Main commands: !mod, !help, !utility, !fun.\r\n\r\nANNOUNCEMENT\r\nAUTO LEVEL UP\r\nALL MODERATION COMMANDS\r\nFUN & GAMES\r\nAUTO ADSBLOCKER & MUTE\r\nACCURACY\r\nTICKET SYSTEM\r\nGIVEAWAYS\r\n\r\nAdmin Commands\r\n!change Change @(username) to (new username) . !clear Delete messages (100 maximum) . !cwarn title says it all , view user's warnings . !rwarn Reset warn of a user . !kick/ban/mute kick mute or ban a User . !unmute/unban unmute or unban a User ID . !addblocker on/off (link/addblocker) . !giveaway (makes a giveaway) . !poll (makes a poll) ."
+    }
+  ],
+  "created": 1571825843530,
+  "edited": 1571825843530,
+  "flags": {
+    "adverts": true,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "596213439022628872",
+  "images": {
+    "avatar": "images/596213439022628872/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=596213439022628872&scope=bot&permissions=2146958847"
+  },
+  "nsfw": false,
+  "state": "queue",
+  "support": "https://discordapp.com/invite/mmZ2eXc",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:343981030694191106"
+  ],
+  "contents": [
+    {
+      "description": "aksfjherthgkjrtkyhrtjhgkjhfrdk",
+      "locale": "ar",
+      "name": "pokeverse",
+      "page": "erwjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjhsahdk\r\nsjkhdahfkdjhf\r\ndsjkhf\r\nsadfhiureiu"
+    }
+  ],
+  "created": 1553870863718,
+  "edited": 1553870863718,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "511784845723041802",
+  "images": {
+    "avatar": "images/511784845723041802/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/developers/applications/511784845723041802/oauth"
+  },
+  "nsfw": false,
+  "state": "denied",
+  "support": "https://discord.gg/bH6hHy",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "p!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://discord.gg/bH6hHy",
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

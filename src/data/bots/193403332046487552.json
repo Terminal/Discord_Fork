@@ -1,0 +1,44 @@
+{
+  "authors": [
+    "github:CyberHawkSoftware"
+  ],
+  "contents": [
+    {
+      "description": "Primary purpose is to serve as a Japanese language learning tool, but there are fun commands as well",
+      "locale": "en-GB",
+      "name": "HawkBot",
+      "page": "# HawkBot\n\nPrimary purpose is to serve as a Japanese language learning tool, but there are fun commands as well.\n\nThe bot has a dictionary lookup and kanji information. Kanji stroke orders soon:tm:\n"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1542569433000,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "193403332046487552",
+  "images": {
+    "avatar": "images/193403332046487552/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=193403294419255297&scope=bot&permissions=0"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "<"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": "https://github.com/CyberHawkSoftware/HawkBot",
+  "categories": [
+    "other"
+  ]
+}

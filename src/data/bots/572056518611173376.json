@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:457250790751600652"
+  ],
+  "contents": [
+    {
+      "description": "koishi is a small bot that can control your samsung smart tv and stuff",
+      "locale": "en-GB",
+      "name": "koishi komeiji",
+      "page": "# koishi\r\nkoishi is a small bot with a very small amount of commands\r\n\r\nkoishi can control your smart tv,  generate ai stuff , give you the latest garfield comic,  give you a random xkcd comic or ban and kick\r\n\r\nif this is not enough you can request a feature\r\n\r\n# command list\r\n\r\n# deep learning \r\n\r\nkoi.rlstm <input> <output> <what to run on> | teaches a recurrent lstm about your inputs! (can be VERY slow and can also be nonsense)\r\n \r\nkoi.gen <input> | teaches an rnn about your input! (also slow)\r\n\r\n# smart tv\r\nthis probably only works for 2013 \r\n\r\nyou can set up a static ip for your tv from the network menu!\r\n\r\nkoi.tvvolup <ip> | turns your volume up!\r\n\r\nkoi.tvsmarthub <ip> | boots up the smarthub!!\r\n\r\nkoi.tvtools <ip> | boots up the tools!!\r\n\r\nkoi.tvchannel <ip> <channel> | sets the channel!!!\r\n\r\n# comics \r\n\r\nkoi.garfield  | gives you the latest garfield comic!\r\n\r\nkoi.xkcd | gives you a random xkcd comic strip!\r\n\r\n# misc\r\n\r\nkoi.help | the help!\r\n\r\nkoi.boom | bam!\r\n\r\nkoi.featurereq | request a feature!"
+    }
+  ],
+  "created": 1558984168249,
+  "edited": 1558984168249,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "572056518611173376",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=572056518611173376&permissions=8&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "koi."
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:516413287492091914"
+  ],
+  "contents": [
+    {
+      "description": "With this bot you can get information about Teamfight Tactics, combine items and much more.",
+      "locale": "en-GB",
+      "name": "Teamfight Tactics BOT",
+      "page": "English:\r\n\r\nTeamfight Tactics the new game mode of Riot Games, with this bot you can get game information, combine items at will or see a complete list of combinations, and much more !.\r\n\r\nOnce you have it on your server write: -info or -commands to get information about the management of the bot.\r\n\r\nThe bot is in its Beta stage, thus maintaining a continuous development.\r\n\r\nSpanish / Español:\r\n\r\nTeamfight Tactics el nuevo modo de juego de Riot Games, con este bot podrás obtener información del juego, combinar items a voluntad o ver una lista completa de combinaciones, y mucho más!.\r\n\r\nUna véz lo tengas en tu servidor escribe: -info o -comandos para obtener informacion sobre el manejo del bot."
+    }
+  ],
+  "created": 1561870670410,
+  "edited": 1561870670410,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "590972882000281600",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=590972882000281600&permissions=0&scope=bot"
+  },
+  "nsfw": false,
+  "state": "denied",
+  "support": "https://discord.gg/NFwHyx9",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "-"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "games"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:272397639855898624"
+  ],
+  "contents": [
+    {
+      "description": "The multipurpose Flashlight Discord bot!",
+      "locale": "en-GB",
+      "name": "Flashlight",
+      "page": "Flashlight Bot\r\n\r\nThe multipurpose Flashlight Discord bot! \r\nWhen you have invited Flashlight do f!help to get the help list Flashlight has many features and plugins such as:\r\n\r\nGeneral Purpose\r\nFun commands\r\nImage api and manipulation\r\nMinigames\r\nTicket System\r\nPowerful moderation\r\nFlashlight is easy to use and customizable.\r\n\r\n97% Uptime\r\nGame commands and events\r\nFast servers\r\nUpdated frequently"
+    }
+  ],
+  "created": 1559934889650,
+  "edited": 1559934889650,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": true
+  },
+  "hide": false,
+  "id": "582912754785058818",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=582912754785058818&scope=bot&permissions=8"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/sS5R8jM",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "f!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

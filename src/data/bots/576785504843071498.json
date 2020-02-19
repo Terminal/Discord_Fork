@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:572527691949932556"
+  ],
+  "contents": [
+    {
+      "description": "ModBot Bot is made to help you with you discord",
+      "locale": "en-GB",
+      "name": "ModBot",
+      "page": "<h><center>ModBot</center></h>\r\n\r\n<center>Our bot is a moderator that allowe you to\r\nKick,Mute,Unmute,Warn users ModBot is made\r\nto protect servers like <a href=\"https://discordbots.org/bot/555121011868172326\">Globan Bot</a>.</center>\r\n\r\n<h><center>What Can You With ModBot?</center></h>\r\n<center><p>Moderation Commands</p></center>\r\n<center><p>Fortnite Commands</p></center>\r\n<center><p>Fun Commands</p></center>\r\n<center><p>Bug Commands</p></center>\r\n<center><p>Public Commands</p></center>"
+    }
+  ],
+  "created": 1559147098266,
+  "edited": 1559147098266,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "576785504843071498",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=576785504843071498&permissions=8&scope=bot"
+  },
+  "nsfw": false,
+  "state": "denied",
+  "support": "https://discord.gg/ppQ5QSq",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "-"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

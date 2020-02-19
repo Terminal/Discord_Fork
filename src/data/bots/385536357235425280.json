@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:94762492923748352"
+  ],
+  "contents": [
+    {
+      "description": "A small Discord bot focused on image generation aiming to become multipurpose soon:tm:",
+      "locale": "en-GB",
+      "name": "Bricolo du Dimanche",
+      "page": "Bricolo du Dimanche is a Discord bot currently focused on image generation.\r\nGenerate arround 20+ memes, such as Minecraft achievements, crab rave, captcha and so on with generation times as low as possible (maybe not the slowest tho)\r\nYou can also fetch random pictures of pets, nekos or even interact with other members! :pats:\r\n\r\n*How to use the bot?*\r\n\r\nUse %help to get the list of commands, and %help \\<command\\> to get some details about the command. Current help command isn't always helpful so if you have questions feel free to join the support server!\r\nLong strings can be wrapped with \"\" so they are seen as a single argument by the bot, allowing you to do %drake \"using skype\" \"using discord\"\r\n\r\n*Why should I use this bot?*\r\n\r\nBecause it makes you 150x more epic!\r\nSeriously though, even if the bot in its current state is pretty simple, we're aiming to improve and become a multipurpose oriented bot, with moderation, music, games and more in future updates. But as we don't want to rush it and drop a shitty bot we're doing it step by step.\r\nWe try our best at keeping the bot up 24/7 so you shouldn't get down time while doing your meme generations.\r\n"
+    }
+  ],
+  "created": 1562942592094,
+  "edited": 1563102755283,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "385536357235425280",
+  "images": {
+    "avatar": "images/385536357235425280/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://invite.bricolo.me"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.bricolo.me",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "%"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://bricolo.me",
+  "source": null,
+  "categories": [
+    "image"
+  ]
+}

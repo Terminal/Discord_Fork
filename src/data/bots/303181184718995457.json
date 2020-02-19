@@ -1,0 +1,44 @@
+{
+  "authors": [
+    "github:AdityaTD"
+  ],
+  "contents": [
+    {
+      "description": "Multi-Purpose Bot with Fun, Utilities, Powerful Music, Server Management, Starboard and much more!",
+      "locale": "en-GB",
+      "name": "PenguBot",
+      "page": "[![PenguBot Website Screenshot](https://i.imgur.com/AN5UnRG.png)](https://www.pengubot.com)\n"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1542569433000,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "303181184718995457",
+  "images": {
+    "avatar": "images/303181184718995457/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=303181184718995457&scope=bot&permissions=506850422&response_type=code&redirect_url=https://www.pengubot.com"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "p!"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": "https://github.com/AdityaTD/PenguBot",
+  "categories": [
+    "other"
+  ]
+}

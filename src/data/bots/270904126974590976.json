@@ -1,0 +1,45 @@
+{
+  "authors": [
+    "discord:172571295077105664"
+  ],
+  "contents": [
+    {
+      "description": "The second best meme bot in Dank Memer's server",
+      "locale": "en-GB",
+      "name": "Dank Memer",
+      "page": "### Meme bots r cool, so add this one"
+    }
+  ],
+  "created": 1542916767396,
+  "edited": 1542916892078,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "270904126974590976",
+  "images": {
+    "avatar": "images/270904126974590976/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=270904126974590976&scope=bot&permissions=0"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "pls"
+    ]
+  },
+  "videos": {},
+  "website": "https://dankmemer.lol/",
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

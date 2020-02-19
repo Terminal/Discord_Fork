@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:291705363097452555"
+  ],
+  "contents": [
+    {
+      "description": "Бот позволит управлять сервером, а так же поднимет настроение.",
+      "locale": "ru",
+      "name": "Emperor",
+      "page": " Хотите развлечься с друзьями?\r\nИщете удобного бота для управления публичным сервером?\r\nЛюбите слушать музыку/радио, но не можете найти подходящего бота?\r\nХотите знать подробную информацию о вашем сервере?\r\nEmperor, это универсальный бот, который поможет вам во всём выше перечисленном!\r\nРадио, музыка, модерация, подробная информация, развлечения - Emperor пригодится везде!\r\nДобавляйте Emperor на свой сервер, вы не пожалеете! \r\n[Бот находится в активной разработке и в будущем его функционал будет только расширяться!]\r\n"
+    }
+  ],
+  "created": 1551119334734,
+  "edited": 1551558914541,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "532580142564769792",
+  "images": {
+    "avatar": "images/532580142564769792/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=532580142564769792&permissions=8&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

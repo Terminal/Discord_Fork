@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:363790841636192259"
+  ],
+  "contents": [
+    {
+      "description": "Play song quizzes and enhance your guild with anime features!",
+      "locale": "en-GB",
+      "name": "Shiro",
+      "page": "# S H I R O\r\n\r\n**Shiro is a customizable anime fun bot which is available in English, German and Dutch!**\r\n\r\n**Currently there's the song quiz where you can guess anime songs with your friends.**\r\n\r\n**All commands**\r\n* `s.help` ‧ Display all commands\r\n* `s.info` ‧ Show credits of the bot\r\n* `s.oprequest \"<song>\" \"<anime>\" \"<yt url>\"` ‧ Request opening for quiz\r\n* `s.edrequest \"<song>\" \"<anime>\" \"<yt url>\"` ‧ Request ending for quiz\r\n* `s.ostrequest \"<song>\" \"<anime>\" \"<yt url>\"` ‧ Request OST for quiz\r\n* `s.opquiz [1-25]` ‧ Guess anime openings with specified amount of rounds\r\n* `s.edquiz [1-25]` ‧ Openings are too easy for you? This is next level!\r\n* `s.ostquiz [1-25]` ‧ Guess OST's from Nintendo games!\r\n* `s.stop` ‧ Stop running quiz or playback\r\n* `s.prefix <1-10 symbols>` ‧ Change server prefix\r\n* `s.deletion <on/off>` ‧ Enable or disable command message deletion\r\n* `s.channel <none/channel>` ‧ Set channel in which commands are allowed only\r\n* `s.language <de/en>` ‧ Change bot language\r\n* `s.config` ‧ Display current configuration\r\n\r\n[Support & Feedback](https://discord.gg/QPa75ut) ‧ [Help translate](https://discord.gg/QPa75ut) ‧ [Vote](https://discordbots.org/bot/593116701281746955/vote)"
+    }
+  ],
+  "created": 1564400800837,
+  "edited": 1564400800837,
+  "flags": {
+    "adverts": true,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "593116701281746955",
+  "images": {
+    "avatar": "images/593116701281746955/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=593116701281746955&permissions=3238976&scope=bot"
+  },
+  "nsfw": false,
+  "state": "denied",
+  "support": "https://discord.gg/5z4z8kh",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "s."
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "games"
+  ]
+}

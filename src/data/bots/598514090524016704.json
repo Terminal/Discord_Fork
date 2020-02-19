@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:415203412079017984"
+  ],
+  "contents": [
+    {
+      "description": "CC is a moderation bot with some fun server commands.",
+      "locale": "en-GB",
+      "name": "CC - Discord Bot",
+      "page": "Some of CC's Moderation Commands:  Ban, Kick, Forceban, Mute, Tempmute, Purge.\r\n\r\nSome of CC's Fun Server Commands: Userinfo, Meme, Cat, Dog, 8ball, Avatar.\r\n\r\nCC has logs setup for all of the moderation commands as well as message edits and message deletes."
+    }
+  ],
+  "created": 1564330777572,
+  "edited": 1564330777572,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": true
+  },
+  "hide": false,
+  "id": "598514090524016704",
+  "images": {
+    "avatar": "images/598514090524016704/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=598514090524016704&permissions=8&scope=bot"
+  },
+  "nsfw": false,
+  "state": "denied",
+  "support": "https://discord.gg/wVvukWa",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "?"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

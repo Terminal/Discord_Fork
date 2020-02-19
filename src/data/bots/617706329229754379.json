@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:259649217255964672"
+  ],
+  "contents": [
+    {
+      "description": "Ever have too many tasks to do, but don't want more software open? If so, this is the bot for you!",
+      "locale": "en-GB",
+      "name": "To-do Bot",
+      "page": "**To-do Bot allows for users to store tasks that they wish to complete whether discord related or not. This data is stored into a MySQL database which can be adapted and displayed on all servers that you and the bot are on. Using the numerous commands below this is made possible:**\r\n\r\nBot prefix: td!\r\n\r\n### User Commands:\r\n\r\n* help - Displays this embed.\r\n* add - Starts a process to add tasks to the list.\r\n* remove - Starts a process to remove tasks on the list.\r\n* archive - Store completed tasks into a separate list.\r\n* assign @User - Assign a user a task **(Server Owner/Admins only)**.\r\n* complete - Set a task as completed which will be archived (Optional) and notify the user.\r\n* clear - Removes all the to-do tasks that are set.\r\n* list - Lists all the currently set tasks you have.\r\n* archives - Lists all the tasks that have been archived\r\n* assignments - Lists all of the current assignments you have.\r\n* remind - Starts a process where you can remind yourself of tasks. **(Vote Locked)**\r\n* reminders - Displays the current reminders you have active.\r\n* delreminder - Delete a reminder from your reminders list.\r\n* editreminder - Edit the text/time of a reminder. New\r\n\r\n### Server Commands:\r\n\r\n* add server - Starts a process to add tasks to the list.\r\n* remove server - Starts a process to remove tasks on the list.\r\n* archive server - Store completed server tasks into a separate list.\r\n* clear server - Removes all the to-do tasks that are set.\r\n* list server - Lists all the currently set tasks you have.\r\n* archives server - Lists all the server tasks that have been archived.\r\n\r\n### Miscellaneous Commands:\r\n\r\n* invite - Links you to the bot invite and support server.\r\n* vote - Links you to the listing websites where you can vote for the bot.\r\n* ping - Responds with the bots ping.\r\n* uptime - Displays the bot's uptime since the last restart.\r\n* stats -  Shows all the relevant operational data of the bot.\r\n* voted - Check whether you have voted and when you voted last.\r\n* voted <UserID> - Check whether a user has voted and when they voted last.\r\n* votes - List the top 10 bot voters.\r\n* report - Report a bug or anything related to the bot.\r\n\r\n## Additional notes\r\n\r\n- Without the permissions specified in the bot invite link, the bot will not work!\r\n- This bot is in it's early stages but is still very usable and has been tested on several servers."
+    }
+  ],
+  "created": 1569067189629,
+  "edited": 1577714414035,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "617706329229754379",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=617706329229754379&scope=bot&permissions=388160"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/T3sRn8f",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "td!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

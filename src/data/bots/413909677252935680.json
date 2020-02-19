@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:401946440332476426"
+  ],
+  "contents": [
+    {
+      "description": " Entertainment, link shortener, kill users and more! ",
+      "locale": "en-GB",
+      "name": "Karu",
+      "page": "## Commands\r\n* All commands with prefix **//**\r\n\r\n|Type|Command|Use |Example|\r\n|--|--|--|--|\r\n|General |`say`| Send a message through karu.|//say **Hello world**\r\n|General|`ping`|Check the latency of a message.|//ping\r\n|Information|`uinfo`|Review a user's information.|//userinfo **@BulzyKrown#9999**\r\n|Information|`sinfo`|Review server information.|//serverinfo\r\n|Entertainment|`8ball`|(EN) Command 8ball|//8ball **She's love me?**\r\n|Entertainment|`bola8`|(ES) Command 8ball|//? **Ella me amara?**\r\n|Entertainment|`hug`|Send hug a user.|//hug **@BulzyKrown#9999**\r\n|Entertainment|`pat`|Send pat a user.|//pat **@BulzyKrown#9999**\r\n|Entertainment|`kiss`|Send kiss a user.|//kiss **@BulzyKrown#9999**\r\n|Entertainment|`slap`|Send slap a user.|//slap **@BulzyKrown#9999**\r\n|Entertainment|`kill`|kill a user.|//kill **@BulzyKrown#9999**\r\n|Entertainment|`pat`|Send pat a user|//pat **@BulzyKrown#9999**\r\n|NSFW|`hentai`|Send images/gif hentai.|//hentai\r\n|NSFW|`r34`|Send images/gif rule34.|//r34"
+    }
+  ],
+  "created": 1580389019372,
+  "edited": 1580389019372,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "413909677252935680",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=413909677252935680&permissions=1341643969&redirect_uri=https%3A%2F%2Fdiscord.gg%2FSYYBU2F&response_type=code&scope=bot%20guilds.join"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/SYYBU2F",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "//"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://crownsquad.github.io/karu-en/",
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

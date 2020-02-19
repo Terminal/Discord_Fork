@@ -1,0 +1,49 @@
+{
+  "authors": [
+    "discord:271661115400912898",
+    "github:Steamarino"
+  ],
+  "contents": [
+    {
+      "description": "Enery is a muti functioning bot with awesome fun, info and music commands.",
+      "locale": "en-GB",
+      "name": "Enery",
+      "page": "[![Discord Bots](https://discordbots.org/api/widget/567361492287094784.svg)](https://discordbots.org/bot/567361492287094784)\r\n\r\n\r\n# EneryBot\r\nThe default prefix is -. Use -help to get help.\r\n\r\n\r\n**Features:**\r\n\r\n\r\n- Information\r\n\r\n\r\n     - -help: displays help for the bot.\r\n    \r\n    \r\n     - -info: Displays help for the bot.\r\n     \r\n\r\n     - -changelog: Displays the changelog.\r\n\r\n\r\n     - -commands: Displays all commands.\r\n    \r\n\r\n     - -userinfo: Shows information about the respective account.\r\n     \r\n     \r\n     - -serverinfo: Displays information about the respective server.\r\n    \r\n    \r\n     - -weather: Displays the weather for specific locations.     \r\n\r\n\r\n     - -ping: Shows the ping from the bot and the API.\r\n     \r\n     \r\n     - -uptime: Displays the online time from the bot.\r\n     \r\n     \r\n- Fun\r\n\r\n\r\n     - -ascii: Converts letters to 7-bit character encoding.\r\n    \r\n    \r\n     - -cuddle: Sent a cuddle gif.\r\n    \r\n    \r\n     - -hug: Sent a hug gif.\r\n     \r\n     \r\n     - -slap: Sent a slap gif.\r\n     \r\n     \r\n     - -tickle: Sent a tickle gif.\r\n     \r\n     \r\n     - -kiss: Sent a kiss gif.\r\n     \r\n\r\n     - -baka: Sent a baka gif.\r\n     \r\n     \r\n     - -poke: Sent a poke gif.\r\n     \r\n     \r\n     - -8ball: Sent a 8ball picture.\r\n     \r\n     \r\n     - -lizard: Sent a lizard picture.\r\n     \r\n     \r\n     - -goose: Sent a goose picture/gif.\r\n     \r\n     \r\n     - -smug: Sent a smug gif.\r\n     \r\n     \r\n     - -feed: \"Sent a feed gif.\r\n     \r\n     \r\n     - -wallpaper: Sent a wallpaper.\r\n     \r\n     \r\n     - -dog: Sent a dog picture.\r\n     \r\n     \r\n     - -cat: Sent a cat picture/gif.\r\n     \r\n     \r\n     - -neko: Sent a neko picture/gif.\r\n     \r\n\r\n     - -avatar: Shows the avatar from a specific user.\r\n     \r\n     \r\n     - -remindme: Reminds you, like a alarm clock.\r\n     \r\n     \r\n\r\n- Music (in development)\r\n\r\n\r\n     - -play: plays music from youtube play without time limit.\r\n\r\n\r\n     - -join: Let the bot join a voice channel.\r\n     \r\n     \r\n     - -leave: Let the bot leave a voice channel.\r\n     \r\n\r\n     - -leave: Shows all songs in the music queue.\r\n     \r\n    \r\n     - -skip: Skips music from the music queue.\r\n     \r\n     \r\n     - -pause: Pause the music.\r\n     \r\n     \r\n     - -resume: Lets paused continue to play.\r\n     \r\n     \r\n     - -volume: Adjusts the volume of music.\r\n     \r\n     \r\n- 99% uptime. Hosted 24/7\r\n[![Discord Bots](https://discordbots.org/api/widget/status/567361492287094784.svg?noavatar=true)](https://discordbots.org/bot/567361492287094784)\r\n\r\n\r\n- (Coming soon) Moderation commands\r\n\r\nInvite Enery to your server and write -commands to get a list of commands.\r\n\r\n# Support Server\r\nhttps://www.enerybot.de/support\r\n\r\n[![](https://discordapp.com/api/guilds/546815143837827081/embed.png?style=banner2)](https://www.enerybot.de/support)"
+    }
+  ],
+  "created": 1558210430482,
+  "edited": 1574089236866,
+  "flags": {
+    "adverts": true,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "567361492287094784",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=567361492287094784&permissions=322305238&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/cYHtYYv",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "-"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://enerybot.de",
+  "source": "https://github.com/Steamarino/EneryBot",
+  "categories": [
+    "fun"
+  ]
+}

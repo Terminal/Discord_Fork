@@ -1,0 +1,49 @@
+{
+  "authors": [
+    "discord:310576888772820992",
+    "discord:499882708860665856"
+  ],
+  "contents": [
+    {
+      "description": "ModBot is a public bans list that will ban known rule breakers on your server.",
+      "locale": "en-GB",
+      "name": "ModBot",
+      "page": "<center>\r\n<h><p>ModBot</p></h>\r\n\r\n<p>Our bot is a moderator that allowed you to Kick,Mute,Unmute,Warn users ModBot is made to protect servers like <a target=\"_blank\" onclick=\"trackCampaignWebClick('', 'description');\" rel=\"nofollow\" href=\"https://discordbots.org/bot/555121011868172326\">Globan Bot</a>.</p>\r\n\r\n<p>MODERATION COMMANDS</p>\r\n<p>Moderation Commands that allow you to ban/kick/clear/say on you server</p>\r\n<p>PROFILE COMMANDS</p>\r\n<p>Profile Commmands that show your profile and you can connect discord/steam/minecraft account</p>\r\n<p>SETTINGS COMMANDS</p>\r\n<p>Settings Commands that allow you to change prefix and more soon</p>\r\n<p>4FUN COMMANDS</p>\r\n<p>4Fun Commands allow you to give some fun to your discord</p>\r\n<p>COMMANDS FOR EVERYONE</p>\r\n<p>Commands For Everyone just random commands that everyone are allowed to use</p>\r\n<p>MODBOT MODERATORS COMMANDS</p>\r\n<p>ModBot Moderators Commands are for only staff so ModBot staff can use it to protect you server.</p>\r\n</center>"
+    }
+  ],
+  "created": 1571258158358,
+  "edited": 1571258158358,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "616689835146608651",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=616689835146608651&permissions=8&scope=bot"
+  },
+  "nsfw": false,
+  "state": "queue",
+  "support": "https://discord.gg/UypQUYx",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "m!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

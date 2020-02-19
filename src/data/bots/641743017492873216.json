@@ -1,0 +1,54 @@
+{
+  "authors": [
+    "discord:578282312060633108"
+  ],
+  "contents": [
+    {
+      "description": "AkimiBot is an English and French bot. At the moment, there is one category: Utility, NSFW and more.",
+      "locale": "en-GB",
+      "name": "AkimiBot",
+      "page": "### AkimiBot is a French and English bot, it uses several commands, like Fun, Utility and many other commands.\r\nHere is a list of my commands, say /help to discover other commands and see my help page.\r\n\r\n### To change the bot language to English: /setlang en\r\n_____\r\n💬 **Info Commands** 💬\r\n\r\n``help`` ▸ ``command`` ▸ ``invite`` ▸ ``ping`` ▸ ``vote`` ▸ ``uptime`` ▸ ``userinfo`` ▸ ``about`` ▸ ``botinfo`` ▸ ``membres`` ▸ ``listroles`` ▸ ``instagram``\r\n_____\r\n⛏ **Moderation Commands** ⛏\r\n\r\n``ban`` ▸ ``clear`` ▸ ``kick``  ▸ ``report`` ▸ ``channelsay`` ▸ ``createchannel`` ▸ ``mutechannel`` ▸ ``unmutechannel``\r\n_____\r\n📌 **Utility Commands** 📌\r\n\r\n``bugreport`` ▸ ``profile`` ▸ ``serverinfo``  ▸ ``serveremoji`` ▸ ``changelog`` ▸ ``itune``\r\n_____\r\n🎀 **Fun Commands** 🎀\r\n\r\n``love`` ▸ `` meme`` ▸ `` rps``  ▸ ``avatar`` ▸ ``bouleversé`` ▸ ``mc`` ▸ ``mchead`` ▸ ``tauxsexy`` ▸ `` slots`` ▸ `` killme``  ▸ `` minesweeper`` ▸ ``8ball`` \r\n_____\r\n📷 **Picture Commands** 📷\r\n\r\n``cat`` ▸ ``dog`` ▸ ``lézard`` ▸ ``fox`` ▸ ``koala`` ▸ ``panda`` ▸ ``randomimage``▸ ``rip`` ▸ ``smoke``\r\n_____\r\n❓ **Discord Help Commands** ❓\r\n\r\n``textcouleur`` ▸ ``randomcolor`` ▸ ``visualisehex``\r\n_____\r\n🔞 **NSFW Commands** 🔞\r\n\r\n``fuck`` ▸ ``suck`` ▸ ``nude`` ▸ ``dick`` ▸ ``pussy`` ▸ ``ass`` ▸ ``hentai`` ▸ ``boobs`` ▸ ``twerk`` ▸ ``panties`` ▸ ``doublepenetration``\r\n\r\n### Discover the other commands by inviting the bot."
+    },
+    {
+      "description": "AkimiBot est un bot Anglais et Français.",
+      "locale": "fr",
+      "name": "AkimiBot",
+      "page": "### AkimiBot est un bot Français et Anglais, il utilise plusieurs commandes, comme Fun, Utility et de nombreuses autres commandes.\r\nVoici une liste de mes commandes, dites /help pour découvrir des autres commandes et voir ma page d'aide.\r\n\r\n### Pour changer la langue du bot en Français: /setlang fr\r\n_____\r\n💬 **Info Commands** 💬\r\n\r\n``help``  ▸ ``command`` ▸ ``invite`` ▸ ``ping`` ▸ ``vote`` ▸ ``uptime`` ▸ ``userinfo`` ▸ ``about`` ▸ ``botinfo`` ▸ ``membres`` ▸ ``listroles`` ▸ ``instagram``\r\n_____\r\n⛏ **Modération Commands** ⛏\r\n\r\n``ban`` ▸ ``clear`` ▸ ``kick`` ▸ ``report`` ▸ ``channelsay`` ▸ ``createchannel`` ▸ ``mutechannel`` ▸ ``unmutechannel``\r\n_____\r\n📌 **Utilitaire Commands** 📌\r\n\r\n``bugreport`` ▸ ``profile`` ▸ ``serverinfo`` ▸ ``serveremoji`` ▸ ``changelog`` ▸ ``itune``\r\n_____\r\n🎀 **Fun Commands** 🎀\r\n\r\n``love`` ▸ ``meme`` ▸ ``rps`` ▸ ``avatar`` ▸ ``bouleversé`` ▸ ``mc`` ▸ ``mchead`` ▸ ``tauxsexy`` ▸ ``slots`` ▸ ``killme`` ▸ ``minesweeper`` ▸ ``8ball``\r\n_____\r\n📷 **Image Commands** 📷\r\n\r\n``cat`` ▸ ``dog`` ▸ ``lézard`` ▸ ``fox`` ▸ ``koala`` ▸ ``panda`` ▸ ``randomimage``▸ ``rip`` ▸ ``smoke``\r\n_____\r\n❓ **Aide Discord Commands** ❓\r\n\r\n``textcouleur`` ▸ ``randomcolor`` ▸ ``visualisehex``\r\n_____\r\n🔞 **NSFW Commands** 🔞\r\n\r\n``fuck`` ▸ ``suck`` ▸ ``nude`` ▸ ``dick`` ▸ ``pussy`` ▸ ``ass`` ▸ ``hentai`` ▸ ``boobs`` ▸ ``twerk`` ▸ ``panties`` ▸ ``doublepenetration``\r\n\r\n### Découvrez les autres commandes en invitant le bot."
+    }
+  ],
+  "created": 1578618090840,
+  "edited": 1581108085976,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "641743017492873216",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=641743017492873216&scope=bot&permissions=1543892215"
+  },
+  "nsfw": true,
+  "state": "approved",
+  "support": "https://discord.gg/VrRMU7U",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "/"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

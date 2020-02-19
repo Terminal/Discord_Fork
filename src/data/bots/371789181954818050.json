@@ -1,0 +1,50 @@
+{
+  "authors": [
+    "discord:190590364871032834"
+  ],
+  "contents": [
+    {
+      "description": "Play Hangman in Discord with Singleplayer, Mutiplayer and DM support and random words from an API.",
+      "locale": "en-GB",
+      "name": "Hangman",
+      "page": "![Image](https://gallery.fluxpoint.dev/2019/08/02/d06385ef.jpg)\r\n\r\n# How to play\r\nYou can play a Singleplayer game or play with a friend in Multiplayer\r\n\r\n### Singleplayer\r\n`h/play` | `h/play easy` | `h/play normal` | `h/play hard` | `h/play random`\r\n\r\n### Multiplayer\r\nChallenge a friend to a game of hangman to see who can guess the word first `h/multi`\r\n\r\n### Custom\r\nServers can create custom categories to play so that you can input your own words\r\n\r\n### Misc\r\n- Support for DMs\r\n- Reaction letters support\r\n- Per channel disable"
+    }
+  ],
+  "created": 1544836218632,
+  "edited": 1577788690236,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "371789181954818050",
+  "images": {
+    "avatar": "images/371789181954818050/avatar.png",
+    "cover": null,
+    "preview": [
+      "images/371789181954818050/0.png"
+    ]
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=371789181954818050&permissions=0&redirect_uri=https%3A%2F%2Ffluxpoint.dev%2Fredirect&response_type=code&scope=identify%20bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/TjF6QDC",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "h/"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://fluxpoint.dev",
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

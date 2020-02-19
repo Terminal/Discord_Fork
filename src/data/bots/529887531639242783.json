@@ -1,0 +1,49 @@
+{
+  "authors": [
+    "discord:297275010031288320",
+    "discord:221141542247727104"
+  ],
+  "contents": [
+    {
+      "description": "A Pokémon bot in which you can catch, earn and battle with your Pokémons!",
+      "locale": "en-GB",
+      "name": "Pokelegends",
+      "page": "# Pokelegends Bot\r\n--------------\r\n## A Pokemon Bot\r\n--------------\r\n### What is Pokelegends?\r\n```\r\nPokelegends is a Pokemon bot developed by AshKetchum\r\nand helped by MewKirby.\r\nThis bot let's you catch Pokemons and evolve them within your discord!\r\nAnd if you want, You can battle with them on Pokemon Showdown1\r\n```\r\n### Why Pokelegends?\r\n```\r\nPokelegends isn't that much cool like Pokecord but hey!\r\nMr.Stark it's awesome..\r\nThis is easy than Pokecord.\r\n```\r\n```\r\nThis bot is fully up to date and is\r\nupdated on a regular basis.\r\n```\r\n### What are we suppose to see in future?\r\n```\r\nTrading credits is available.\r\nIn the next update, you are suppose to see Trading pokemons!\r\n```\r\n### I need to contact you!\r\nYou can contact us through our [Discord Server](https://discord.gg/CFYuAyU)\r\nor you can visit our [Website](https://pokelegends.glitch.me/)\r\n### I've heard donations for this bot is free!\r\nYes it is! we accept donations through adf.ly means, Donation only takes 5\r\nseconds of you!\r\n[So Donate now!](http://dapalan.com/HlLA)\r\n### I have found a bug!\r\n```\r\nOh realy? Then just DM me on Discord fast!\r\nIf this bug wasn't found from anyone else before and\r\nyou report it, You can get a chance to win any pokemon\r\nyou want!\r\n```\r\n\r\n## Commands\r\n```\r\nPokemon Commands\r\n\r\na!start => Start your Pokémon adventure! \r\na!pokemon => Shows your Pokémons! \r\na!spawn => Spawn a Pokémon! \r\na!evolve <Pokemon Name> <Pokemon after Evolution>* => Evolves your Pokémon! \r\na!release <Pokemon Name> => Release your Pokémon! \r\na!info <Pokemon Name> => Shows Pokedex information of your Pokémon! \r\na!evolution <Pokemon Name> => Shows the Evolution line of a Pokémon (BETA)\r\n```\r\n\r\n```\r\nEconomy Commands\r\n\r\na!bal => Shows your balance! \r\na!give <Mention User> <Amount> => Give someone credits! \r\na!daily => Get your daily credits!\r\n```\r\n\r\n```\r\nOther Commands\r\n\r\na!ping => Pong! \r\na!vote => Vote the bot! \r\na!donate => Donate the bot (Free or Paid!)\r\n```\r\n\r\n## How can i battle?\r\nYeah this is one of the big questions, The thing is, You can battle from a website,\r\nThe link of website is given in premier version which is only in official server!\r\nSo join official server and type ``a?battle``!"
+    }
+  ],
+  "created": 1547987770346,
+  "edited": 1549354709096,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "529887531639242783",
+  "images": {
+    "avatar": "images/529887531639242783/avatar.png",
+    "cover": "images/529887531639242783/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=529887531639242783&permissions=0&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/n5tXmmU",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "a!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://pokelegends.glitch.me/",
+  "source": null,
+  "categories": [
+    "games"
+  ]
+}

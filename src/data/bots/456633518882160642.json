@@ -1,0 +1,51 @@
+{
+  "authors": [
+    "discord:296044953576931328"
+  ],
+  "contents": [
+    {
+      "description": "YouTube brings the best of youtube.com to your Discord server.",
+      "locale": "en-GB",
+      "name": "YouTube",
+      "page": "YouTube is one of the best YouTube-related Discord bots on Discord. It’s goal is to provide statistics, upload notifications, and way more- and it does that perfectly!\r\n\r\nThe bot can alert you when your favourite YouTubers go live or upload, and you can get near-instant information about video, channels and playlists, from a partial or full search, URL or ID.\r\n\r\nMore is coming soon, and suggestions are welcome.\r\n"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1554486364979,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "456633518882160642",
+  "images": {
+    "avatar": "images/456633518882160642/avatar.png",
+    "cover": null,
+    "preview": [
+      "images/456633518882160642/0.png",
+      "images/456633518882160642/1.png"
+    ]
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=456633518882160642&scope=bot&permissions=0"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/nnpPGRy",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "yt "
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

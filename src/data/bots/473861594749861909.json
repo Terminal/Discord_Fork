@@ -1,0 +1,60 @@
+{
+  "authors": [
+    "discord:190519304972664832",
+    "discord:366454817373290508",
+    "discord:180093157554388993",
+    "discord:261912303132344320",
+    "discord:178586069351137280",
+    "discord:86477779717066752",
+    "github:terminal"
+  ],
+  "contents": [
+    {
+      "description": "The free and open source bot application marketplace",
+      "locale": "en-GB",
+      "name": "Discord Apps",
+      "page": "# Discord Apps Marketplace\r\n_curated by Terminal.ink_\r\n\r\nDiscord Apps Marketplace is the next generation in Bot Listing technology,\r\nutilising the latest web technology for the bot list of tomorrow.\r\n\r\n## Features\r\n### Progressive Web Application\r\n![pwa](.github/pwa.png)\r\n\r\nInstall Discord Apps Marketplace in supported Google Chrome browsers.\r\nService worker speeds up page loads for the fastest experience.\r\n\r\n### Multi Language support\r\n![i18n](.github/languages.gif)\r\n\r\nPresent your ideas in more than just English.\r\nMake your bot page in multiple languages to target many more users.\r\n\r\n### Images, YouTube and YOUKU video embed\r\n![embeds](.github/embeds.gif)\r\n\r\n\r\n### Multi Prefix\r\n![prefixes](.github/prefixes.png)\r\n\r\nAdd multiple prefixes with available flags for if the bot can be mentioned or customised.\r\n\r\n## Development Previews\r\nLocation                                                          | Description\r\n----------------------------------------------------------------- | -----------------\r\n[Discord Apps Marketplace](https://discordapps.dev/)              | Production instance\r\n[netlify](https://twink.netlify.com/)                             | Development instance - Always latest commit\r\n[Fog Creek Software's Glitch](https://discordapps-dev.glitch.me/) | Glitch is a great website\r\n[Olivia Hye](https://www.youtube.com/watch?v=UkY8HvgvBJ8)         | Not related. Stan LOONA.\r\n\r\n## Command Information\r\nCommand             | Description\r\n------------------- | ---------------\r\nyarn                | Download dependencies\r\nyarn dev            | Run the development server\r\nyarn create-bundles | Package the clientside and serverside portions for deployment\r\nyarn start          | Run the production server\r\n\r\n## Set up Development environment\r\n**You will need:**\r\n- Node.js\r\n- Build tools\r\n  - Ubuntu: `sudo apt install build-essential`\r\n  - Windows: (as admin) `npm i -g windows-build-tools`\r\n- Yarn\r\n  - Ubuntu: `sudo npm i -g yarn`\r\n  - Windows: (as admin) `npm i -g yarn`\r\n\r\n```bash\r\n// Clone the project\r\ngit clone --recursive-submodules -j8 https://github.com/terminal/discordapps.dev.git\r\n\r\n// Install dependencies\r\nyarn\r\n\r\n// Start the project\r\nyarn dev\r\n```\r\n\r\n<!--\r\n## Sponsors\r\nThis project is funded by people who keep the open source community alive.\r\n-->\r\n\r\n<!-- --!\r\n\r\n[javascript](javascript:alert(1))\r\n"
+    }
+  ],
+  "created": 1542761901388,
+  "edited": 1576055521828,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": true,
+  "id": "473861594749861909",
+  "images": {
+    "avatar": "images/473861594749861909/avatar.png",
+    "cover": "images/473861594749861909/background.png",
+    "preview": [
+      "images/473861594749861909/0.png",
+      "images/473861594749861909/1.png",
+      "images/473861594749861909/2.png",
+      "images/473861594749861909/3.png",
+      "images/473861594749861909/4.png"
+    ]
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=473861594749861909&permissions=0&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/8uC6aKZ",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "love&live"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": "6a4BWpBJppI"
+  },
+  "website": "https://discordapps.dev/game",
+  "source": "https://github.com/terminal/ls.terminal.ink",
+  "categories": [
+    "other"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:471333722810089492"
+  ],
+  "contents": [
+    {
+      "description": "Ripper veio para melhorar o astral do seu servidor com seu sistema de música!",
+      "locale": "pt",
+      "name": "Ripper",
+      "page": "# Ripper - Bot de música\r\n\r\n**Ei você ai!<br>É, você mesmo... Está cansado dos bots que tocam música no servidor serem sempre a mesma coisa? Esses dias acabaram!\r\nCom o Ripper você tem em seu servidor um não apenas um bot, mas sim um reprodutor de músicas ~~universal~~!<br>Ele conta com um sistema novo que permite que você reproduza sua live da [Twitch](https://www.twitch.tv/), sua playlist favorita do [Spotify](https://www.spotify.com/), as músicas do seu artista favorito do [SoundCloud](https://soundcloud.com/) e as músicas/lives do [YouTube](https://www.youtube.com/) diretamente no seu servidor.<br>Vai me dizer que depois de ler tudo isso acima ainda não ficou com uma vontadezinha de adicionar ele no seu servidor só para ver como funciona?\r\nEntão? Está esperando o que? [Clique aqui](https://discordapp.com/oauth2/authorize?client_id=550059322038812673&permissions=0&scope=bot) e adicione já essa maravilha no seu servidor!**\r\n\r\n## Comandos \r\n---\r\n*Para saber mais sobre algum comando basta utilizar a \"flag\" `--help` depois do comando, exemplo: `r!play --help`<br>Troque `{prefixo}` para o prefixo defindo em seu servidor ou use `@Ripper` como prefixo*\r\n> #### Música:\r\n\r\n| **Comando** | **Descrição** | **Uso** | **Alternativas** |  \r\n|-------------|---------------|---------|------------------|\r\n| `Lyrics` | Mostra a letra da música que está tocando ou a música que o usuário pesquisar | **{prefixo}lyrics [nome da musica]** | *lyric, genius* |\r\n| `Now Playing` | Mostra a música que está tocando no momento(~~Futuramente por imagem~~) | **{prefixo}nowplaying** | *np, tocandoagora* |\r\n| `Pause` | Pausa e resume a música atual | **{prefixo}pause** | *resume* |\r\n| `Play` | Toca uma música no seu canal de voz(~~Tipos suportados: Spotify, Twitch, SoundCloud e Youtube~~) | **{prefixo}play < nome da musica ou link >** | *p, >* | \r\n| `Repetir` | Ativa o modo repetir na música atual | **{prefixo}repetir** | *repetir, loop* | \r\n| `Pular` | Pula a música atual para a próxima(~~Se houver outra~~) | **{prefixo}pular** | *next, skip* |\r\n| `Spotify` | Mostra em forma de imagem as informações da música que o usuário está ouvindo no spotify | **{prefixo}spotify** | *ouvindo, spf* |\r\n| `Parar` | Para a música que está tocando e limpa a fila | **{prefixo}parar** | *stop, s* |\r\n| `Volume` | Altera o volume do reprodutor para o valor desejado | **{prefixo}volume < valor >**\r\n| `Fila` | Mostra a fila de músicas(~~Tem mais coisa~~) | **{prefixo}fila** | *playlist, queue* |\r\n\r\n---\r\n\r\n> #### Social:\r\n\r\n| **Comando** | **Descrição** | **Uso** | **Alternativas** |  \r\n|-------------|---------------|---------|------------------|\r\n| `Favoritar` | Adicione a música que está tocando atualmente na sua lista de músicas favoritas | **{prefixo}favoritar** | *fav, favorite*\r\n| `Favoritas` | Veja suas músicas favoritas | **{prefixo}favoritas** | *favs, favorites* |\r\n\r\n---\r\n\r\n> #### Configuração:\r\n\r\n| **Comando** | **Descrição** | **Uso** | **Alternativas** |  \r\n|-------------|---------------|---------|------------------|\r\n| `Configurar` | Configure tudo, desde prefixo até novas adições | **{prefixo}configurar** | *config, cfg* |\r\n\r\n---\r\n\r\n> #### Bot:\r\n\r\n| **Comando** | **Descrição** | **Uso** | **Alternativas** |  \r\n|-------------|---------------|---------|------------------|\r\n| `Ajuda` | Mostra todos os comandos disponíveis no bot | **{prefixo}ajuda** | *help* |\r\n| `Botinfo` | Exibe um painel com todas as informações e links do bot | **{prefixo}botinfo** | *bi, info* |\r\n| `Ping` | Mostra a latência/ping do bot | **{prefixo}ping** | *pong, pingpong* |\r\n| `Staff` | Mostra quem é a minha staff no meu [servidor de suporte](https://discord.gg/k5MtVsC) | **{prefixo}staff** | *adms, guildpersons* |   \r\n\r\n[![Discord Bots](https://discordbots.org/api/widget/550059322038812673.svg)](https://discordbots.org/bot/550059322038812673)\r\n\r\n**Para os usuários, eu, [Kowalski#6518](https://botsparadiscord.xyz/user/kowalski) deixo o meu imenso `Obrigado`!<br>Sem vocês, nada disso seria possível!**"
+    }
+  ],
+  "created": 1556618328616,
+  "edited": 1556675628563,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "550059322038812673",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=550059322038812673&permissions=0&scope=bot"
+  },
+  "nsfw": false,
+  "state": "denied",
+  "support": null,
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "r!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "music"
+  ]
+}

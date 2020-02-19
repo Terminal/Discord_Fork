@@ -1,0 +1,45 @@
+{
+  "authors": [
+    "discord:232309115865661440"
+  ],
+  "contents": [
+    {
+      "description": "discord bot",
+      "locale": "en-GB",
+      "name": "Sesshomaru",
+      "page": "basic bot discord,in development"
+    }
+  ],
+  "created": 1542716020590,
+  "edited": 1542716020590,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "425670256741187604",
+  "images": {
+    "avatar": "images/425670256741187604/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=425670256741187604&permissions=8&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discordapp.com/invite/brQfChz",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "s!"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

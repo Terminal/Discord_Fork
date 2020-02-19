@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:438360996806000643"
+  ],
+  "contents": [
+    {
+      "description": "A very easy-to-use Discord bot | Moderation | Music | Fun | Management",
+      "locale": "en-GB",
+      "name": "Ero Discord bot",
+      "page": "Ero is a very easy-to-use Discord bot for your server. Its default prefix is ? (changeable). Type ?help to get a list of all commands, or ?help (command) to get information about a specified command. \r\n\r\nFeatures:\r\n\r\n+ 24/7/365 uptime.\r\n+ Announcements - Send announcements using Ero, choose between sending these in an embed or not, cool right? \r\n+ Server Stats - Add counters of channels, members and much more to your server, very easy to set up.\r\n+ Logging - Ero logs any server event, from deleted messages, created emojis, and many more!\r\n+ Moderation - Our advanced moderation module can do a ton. From members' logs, to warnings over bans and timed mutes. We‘ve got you covered with a lot of commands.\r\n+ Join and leave channels - You can set these up per separate.\r\n+ Music - Very good quality with a lot of commands included. Enjoy crystal clear sound... with Ero.\r\n+ Fun - Create your own QR Code with Ero.. or perhaps generate a cute dog picture or- wait what was the weather again? Fun and useful commands to your service.\r\n+ Updates every week! More features coming.\r\n\r\nSo.... What are you waiting on to add Ero to your server and make the best Discord server out there? "
+    }
+  ],
+  "created": 1575652199814,
+  "edited": 1575652199814,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "601805059314941982",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=601805059314941982&permissions=8&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/W2eBgpM",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "?"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

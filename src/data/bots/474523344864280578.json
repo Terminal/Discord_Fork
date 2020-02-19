@@ -1,0 +1,49 @@
+{
+  "authors": [
+    "discord:178930497399816193",
+    "github:Psychal"
+  ],
+  "contents": [
+    {
+      "description": "Hearthstone bot, search through a database to find information about the cards.",
+      "locale": "en-GB",
+      "name": "C'thun",
+      "page": "This bot uses Hearthstone card information available at Hearthpwn's website. \\\r\nSearch through a database of 6542 card/hero entries(Patch 15.6.2.36393) with a name to find the specific one you want. \r\nIf it doesn't find it, it will try to give you a list of cards with similar name.\\\r\nUse a deckstring to recieve a list over cards in the deck.\\\r\nThis bot can also solve basic math and supports most common operators, exponentiation, and negative numbers.\\\r\nType `!thun help dm` to get the commands with full description as direct message.\r\n\r\n\r\n# C'thun Commands\r\n- !thun help\r\n```Get a list over commands. You can also append another command behind it to get usage info.```\r\n\r\n- !thun \r\n```Get C'thun to say something!```\r\n\r\n- c'thun\r\n```Invoke C'thun's reaction.```\r\n\r\n- !thun deck [deckstring]\r\n```Decodes a deckstring to recieve an embed of all the cards in the deck.```\r\n\r\n- !thun card \r\n```Posts a random hearthstone card in the form of a discord embed.```\r\n\r\n- !thun search [word] \r\n```Enter a part of, or full name to perform a search. Yields a maximum of 10 results. Result input lasts only for 60 seconds.``` \r\n\r\n- !thun math [expression]\r\n```Enter an expression to make C'thun solve it. Supports most common operators, exponentiation, and negative numbers.```\r\n\r\n- !thun keyword [keyword]\r\n```These are card keyword commands to bring up a description of what each keyword means.```\r\n\r\n- !thun stats\r\n```Stats and other info about the bot.```\r\n\r\n- !thun changelog\r\n```Changelog over the most recent couple of changes.```\r\n\r\n*Commands are case-insensitive and without square-brackets*"
+    }
+  ],
+  "created": 1559005350454,
+  "edited": 1574716729577,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "474523344864280578",
+  "images": {
+    "avatar": "images/474523344864280578/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=474523344864280578&permissions=18496&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/bBDwQMM",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "!thun"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": "https://github.com/Psychal/CthunDiscordBot",
+  "categories": [
+    "utility"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "authors": [
+    "discord:150665783268212746"
+  ],
+  "contents": [
+    {
+      "description": "A bot completely made for fun! With Fun, Moderation and Memes + Extra's!",
+      "locale": "en-GB",
+      "name": "Sparklybot ✨",
+      "page": "## **Categories**\r\n\r\n\r\n|Category|Commands count|\r\n|-----|------|\r\n|Asciicommands|4|\r\n|Encryption |2|\r\n|Fun|42|\r\n|Infocommands|22|\r\n|Memecommands|32| \r\n|Moderator|11|\r\n|Pollcommands|4|\r\n|Ratecommands|19|\r\n|Utility|27|\r\n\r\n\r\n## **Commands**\r\n\r\n\r\nThere are a total of **189** commands. Showing them all here would too much. So... They can all be [viewed here](https://soheab.github.io/commands) in a very clean view! or a easy way is doing **s!help** in your server. **Extra:** All my commands and prefix are case insensitive\r\nso you can use a command in any way like the about command you can send: *S!aBOuT* and it will work!\r\n\r\n---\r\n## **Key features**\r\n\r\n\r\n1. My invite only includes the permissions the bot **really** needs, please don't give it any extra perms! \r\nand especially not **admin** don't give that dangerous perm to any bot! even if you trust it. You can trust \r\nthis bot me as owner am aware of anything that a bot can do or can happen to a server so pls dont give any bot \r\nadmin perms... anways.. you can really trust this bot i'm not one of those kids that wants attention with raiding \r\nand fake shit with a bot from a yt tutorial.\r\n---\r\n- Case insensitive everything, commands and prefix so 100% mobile friendly.\r\n- Every command is tested and selfmade so that it works is guaranteed. If a command doesn't, please report it and you can slap me.\r\n- Abuse resistant, every command has the name of the author in it. And all commands have a cooldown of 5+ secs.\r\n- Improves everyday! just see s!changelog.\r\n- Many useless things but also things you do not often see in a bot.\r\n- Friendly embeds, i love to put more info in less space but still let it look good. So you won't expect big spammy embed from this bot.\r\n---\r\n\r\n## **Updates**\r\n\r\n\r\nThis bot gets better every day! Just check the **s!changelog** in there should be all the changes that happen to the bot. You can also suggest anything with: **s!suggest**! Anything that gets suggested has a very high chance to be added. \r\n\r\n---\r\n\r\n\r\n## **Bugs**\r\n\r\n\r\nPlease report any bug or mistake in grammar with the command: **s!report**! and it will be **100%** fixed in max a day!\r\n\r\n\r\n## **Support**\r\n\r\n\r\nIf you need any help with anything such as inviting, giving perms. Just join my support server! It's very easy just tap that **Join Support Server** under the **Vote** button and it will automatially open discord for you. You can also just contact me via dm for anything doesn't have to be related to the bot :)"
+    },
+    {
+      "description": "Een bot helemaal gemaakt voor vermaak! Met Fun(duh), moderatie en meme commands!",
+      "locale": "nl",
+      "name": "Sparklybot ✨ ",
+      "page": "Sparklybot ✨\r\n\r\n## **categorieën**\r\n\r\n\r\n|Category|Aantal commands|\r\n|-----|------|\r\n|Asciicommands|4|\r\n|Enryption|2|\r\n|Fun|34|\r\n|Infocommands|21|\r\n|Memecommands|34| \r\n|Moderator|14|\r\n|Pollcommands|4|\r\n|Ratecommands|18|\r\n|Utility|24|\r\n\r\n## **Commands**\r\n\r\nEr zijn in totaal **170** commands. Ze allemaal hier laten zien zou te veel zijn. Dus.... Je kan je allemaal [hier bekijken](https://soheab.github.io/commands) in een zeer simpele manier! of een makkelijker manier is het doen van **s!help** in jouw server. **Extra:** Al mijn commands en prefix zijn niet hoofdlettergevoelig\r\ndus je kunt op elke manier gebruiken commando zoals het about command je kunt sturen: **S!aBOuT** en het zal werken!\r\n\r\n## **Updates**\r\n\r\nDeze bot wordt better met de dag! Check gewoon the **s!changelog** command daar in zullen all de veranderingen die gebeuren staan.\r\nJe kan ook iets suggereren met: **s!suggest**! Alles dat wordt gesuggereerd heeft een zeer grote kans om te worden toegevoegd.\r\n\r\n---\r\n\r\n## **Bugs**\r\n\r\nAUB rapporteer eventuele fouten of fouten in de grammatica met het command: **s!report**! en het wordt **100%** vastgesteld in\r\nmax. een dag!\r\n\r\n## **Support**\r\n\r\nAls je hulp nodig hebt met iets, zoals uitnodigen, permissies geven. Join gewoon mijn supports server! Het is heel eenvoudig druk gewoon op die knop **Technische ondersteuning** en het zal automatisch discord voor je openen. Je kunt me ook gewoon via dmmen voor alles hoeft niet gerelateerd te zijn aan deze bot :)\r\n"
+    }
+  ],
+  "created": 1552058247003,
+  "edited": 1577639820864,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "440176226338865167",
+  "images": {
+    "avatar": "images/440176226338865167/avatar.png",
+    "cover": "images/440176226338865167/background.png",
+    "preview": [
+      "images/440176226338865167/0.png",
+      "images/440176226338865167/1.png",
+      "images/440176226338865167/2.png",
+      "images/440176226338865167/3.png",
+      "images/440176226338865167/4.png",
+      "images/440176226338865167/5.png"
+    ]
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=440176226338865167&permissions=1543892055&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/yCzcfju",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "s!",
+      "sparkly"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://soheab.github.io/",
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

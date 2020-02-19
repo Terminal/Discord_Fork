@@ -1,0 +1,49 @@
+{
+  "authors": [
+    "discord:158311402677731328",
+    "github:theLMGN"
+  ],
+  "contents": [
+    {
+      "description": "A multipurpose, open-source (GPLv3) Discord bot made by theLMGN",
+      "locale": "en-GB",
+      "name": "Botstion",
+      "page": "Botstion is an open-source Discord.js with the aim of opening Discord channels to as many APIs as possible."
+    }
+  ],
+  "created": 1554838842370,
+  "edited": 1554838890764,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "321746347550310411",
+  "images": {
+    "avatar": "images/321746347550310411/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=321746347550310411&scope=bot&permissions=8"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/G8d6u68",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "b!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://botstion.com",
+  "source": "https://github.com/theLMGN/Botstion",
+  "categories": [
+    "utility"
+  ]
+}

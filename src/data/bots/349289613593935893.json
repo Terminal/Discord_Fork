@@ -1,0 +1,45 @@
+{
+  "authors": [
+    "discord:175589848982355978"
+  ],
+  "contents": [
+    {
+      "description": "Fun guy all-around, must add, has custom soundboards and tones of memes.",
+      "locale": "en-GB",
+      "name": "RickBot",
+      "page": "Custom soundboards, lots of memes, image generation and pictures, has powerful music (with servers around the world). Over 70+ commands and 5000+ soundboards! "
+    }
+  ],
+  "created": 1543142215545,
+  "edited": 1543142215545,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "349289613593935893",
+  "images": {
+    "avatar": "images/349289613593935893/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=349289613593935893&scope=bot&permissions=8"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/4ymWgjC",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "+"
+    ]
+  },
+  "videos": {},
+  "website": "https://is-going-to-rickroll.me/",
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

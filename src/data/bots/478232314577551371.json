@@ -1,0 +1,44 @@
+{
+  "authors": [],
+  "contents": [
+    {
+      "description": "The new furry boy on the street with fun and interactive commands",
+      "locale": "en-GB",
+      "name": "Furrboye",
+      "page": "The new furry boy on the street with fun and interactive commands for you to try out today.\n\nRight now, you can:\nSuggest new commands\n\nCuddle with people because cuddles uwu\n\nGive someone a lil boopin' on the nose\n\nand more soon™\n\nOr you can just look at the commands here...\n`<px>` is what prefix you use\n- \\<px\\>boop @user - Boop someone on their nose :3\n- \\<px\\>cuddle @user - Cuddle with someone, give them warmth :>\n- \\<px\\>help \\[command] - Look at all the commands i have ^~^\n- \\<px\\>info - Find information about me :p\n- \\<px\\>murr - Get a random murr img\n- \\<px>ping - See how long it takes for me to respond?\n- \\<px\\>suggest \\<command, what it does etc\\> - Suggest any new command that you want made\n- \\<px\\>updates \\[version] - See any new stuff about me\n\n<style>\nbody {\n  color: #FF4B7F;\n\tbackground-image: url(\"http://images5.fanpop.com/image/photos/30600000/NigaRen-in-the-Rainbow-lapfox-30664727-1600-900.jpg\");\n  background-attachment: fixed !important;\n  background-position: center !important;\n  background-repeat: no-repeat !important;\n  background-size: cover !important;\n  height: 100% !important;\n}\n</style>"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1542569433000,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "478232314577551371",
+  "images": {
+    "avatar": "images/478232314577551371/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=478232314577551371&permissions=70614209&scope=bot"
+  },
+  "nsfw": false,
+  "state": "denied",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "🐾",
+      "furr!",
+      "furrboye "
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

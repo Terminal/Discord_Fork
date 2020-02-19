@@ -1,0 +1,46 @@
+{
+  "authors": [
+    "discord:181353804266995713",
+    "discord:95475674269093888"
+  ],
+  "contents": [
+    {
+      "description": "An everything Discord bot.",
+      "locale": "en-GB",
+      "name": "Birb",
+      "page": "An everything Discord bot!\r\n<!--\r\nThis data was imported from ls.terminal.ink\r\n-->\r\n"
+    }
+  ],
+  "created": 1527811200000,
+  "edited": 1544140842468,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "271186557396975626",
+  "images": {
+    "avatar": "images/271186557396975626/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=271186557396975626&scope=bot&permissions=0"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "b!"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

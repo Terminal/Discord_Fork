@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:254279600841031680"
+  ],
+  "contents": [
+    {
+      "description": "Vanessa is a utility, moderation, looking-for-game, and fun bot!",
+      "locale": "en-GB",
+      "name": "Vanessa",
+      "page": "Vanessa is the clean new way to manage your discord. Have hundreds of bots in your discord? You don't need to anymore!\r\nOur goal is to create the ultimate universal bot, giving you all the functionality you need to run your discord!\r\n\r\n● Temporary Voice Channels!\r\n\r\n● Active Support.\r\n\r\n● Feel free to request a new feature!\r\n\r\n● 24/7 Uptime!\r\n\r\n● Have fun!\r\n\r\n● Mod-Mail feature coming soon!\r\n\r\n● Recently left beta."
+    }
+  ],
+  "created": 1548960034525,
+  "edited": 1548960075567,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "310261055060443136",
+  "images": {
+    "avatar": "images/310261055060443136/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://bit.ly/vanessabot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/XpxDRwQ",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "."
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://vanessa.team",
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

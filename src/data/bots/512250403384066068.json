@@ -1,0 +1,46 @@
+{
+  "authors": [
+    "discord:193060889111298048",
+    "github:JetBrains-Community"
+  ],
+  "contents": [
+    {
+      "description": "The JetBrains Community Discord Server - JetBot, the Python bot behind it",
+      "locale": "en-GB",
+      "name": "JetBot",
+      "page": "# JetBrains Server Bot (JetBot)\r\n\r\nThe bot responsible for providing information in, and managing, the JetBrains server.\r\n\r\nThe bot provides information on JetBrains products and additional useful information relating to the company and server.\r\n\r\n# JetBrains Community Discord Server\r\n\r\nThe community home of all the JetBrains products and projects on Discord.\r\n\r\nAre you currently a user of JetBrains products or projects?\r\n\r\nWould you like to learn more about what JetBrains offers and what licensing options there are?\r\n\r\n> Talk to fellow users of the JetBrains software packages and get help with problems you may have.\r\n\r\n> Chat with other developers, see what they're working on using JetBrains tools and bounce ideas around.\r\n\r\nJoin the JetBrains Community Discord server: https://discord.gg/zTUTh2P"
+    }
+  ],
+  "created": 1542973346345,
+  "edited": 1544295063313,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "512250403384066068",
+  "images": {
+    "avatar": "images/512250403384066068/avatar.png",
+    "cover": "images/512250403384066068/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=512250403384066068&scope=bot&permissions=8"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/zTUTh2P",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "?"
+    ]
+  },
+  "videos": {},
+  "website": "https://discord.gg/zTUTh2P",
+  "source": "https://github.com/JetBrains-Community/discord",
+  "categories": [
+    "education"
+  ]
+}

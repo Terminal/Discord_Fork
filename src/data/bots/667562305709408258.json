@@ -1,0 +1,50 @@
+{
+  "authors": [
+    "discord:158049329150427136",
+    "github:Snazzah"
+  ],
+  "contents": [
+    {
+      "description": "Port of twitter bot @this__vid3: The objectively best Discord video downloader.",
+      "locale": "en-GB",
+      "name": "DiscordVid2",
+      "page": "# DiscordVid2\r\nA port of T-P0ser's [@this__vid3](https://github.com/T-P0ser/this__vid3/) Twitter bot to Discord.\r\n\r\nEasily \"download\" videos by mentioning DiscordVid2 after a video! You can see the list of commands with `dvid2 help`!\r\n- Respects spoilers!\r\n- Can download using attachments, URLs and from past messages!\r\n- Uses random prompts for each download!\r\n\r\n![](https://i.imgur.com/xbezMfB.png)"
+    }
+  ],
+  "created": 1580681009179,
+  "edited": 1580681009179,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "667562305709408258",
+  "images": {
+    "avatar": "images/667562305709408258/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://invite.snaz.in/discordvid2"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://api.alexflipnote.dev/color/image/7289da",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "dv2",
+      "dvid2"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://photobox.pw",
+  "source": "https://github.com/Snazzah/DiscordVid2",
+  "categories": [
+    "fun"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "authors": [
+    "discord:264499432538505217",
+    "github:EndlessBot"
+  ],
+  "contents": [
+    {
+      "description": "For-fun, for-logging, for-moderation and starboard bot.",
+      "locale": "en-GB",
+      "name": "Endless",
+      "page": "<!--\r\n    do not leave empty\r\n    7coil is sad\r\n-->"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1542590225553,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "310578566695878658",
+  "images": {
+    "avatar": "images/310578566695878658/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?scope=bot&client_id=310578566695878658&permissions=8"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "e!"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": "https://github.com/EndlessBot/Endless",
+  "categories": [
+    "other"
+  ]
+}

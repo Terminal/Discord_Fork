@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:274284493043531776"
+  ],
+  "contents": [
+    {
+      "description": "Copyright © ManiaBots™",
+      "locale": "en-GB",
+      "name": "CatManiaBot",
+      "page": "CatManiaBot is a bot that I first started my Javascript with, I would work on the bot day and night until I got it to a good level for it to be released. It started growing slowly but then started to increase the growth speed and is now growing about 5 servers a week. That may not be much, but who really cares?\r\n\r\nIf any commands do not work, make sure to use the \"--support\" command and tell us!"
+    }
+  ],
+  "created": 1556456532871,
+  "edited": 1556456775453,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "480421483575902208",
+  "images": {
+    "avatar": "images/480421483575902208/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=480421483575902208&scope=bot&permissions=2146958847"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/K6ZMFaT",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "--"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://catmaniabot.tk",
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

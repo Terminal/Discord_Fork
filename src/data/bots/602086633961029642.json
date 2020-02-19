@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:602074156493701133"
+  ],
+  "contents": [
+    {
+      "description": "B O  T, Her gün durmaksızın gelişen bir bot.",
+      "locale": "tr",
+      "name": "Eray0",
+      "page": "                           B O T | Bilgi\r\n\t\t<Eğlence Komutları : !!eğlence>\r\n\t\t<Kullanıcı Komutları : !!kullanıcı>\r\n\t\t<Moderasyon Komutları : !!moderasyon>\r\n\t\t<Sunucu Komutları : !!sunucu>\r\n\t\t<Nsfw Komutları : !!nsfw>\r\n\t        Yeniliklerden Haberdar Olmak İçin\r\n                =Destek Sunucumuza=\r\n                    Bekleriz"
+    }
+  ],
+  "created": 1563773085598,
+  "edited": 1563773087298,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "602086633961029642",
+  "images": {
+    "avatar": "images/602086633961029642/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=602086633961029642&permissions=8&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/AXbGvFe",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "!!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

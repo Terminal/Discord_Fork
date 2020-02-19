@@ -1,0 +1,49 @@
+{
+  "authors": [
+    "discord:132489883326480385",
+    "discord:244889990952124416"
+  ],
+  "contents": [
+    {
+      "description": "Play high-quality songs from Spotify alongside intelligent lyrics and music control commands",
+      "locale": "en-GB",
+      "name": "Spotify [Lyrics]",
+      "page": "Spotify [Lyrics]\r\n- A highly advanced, high-quality Discord bot that allows music playback via Spotify, utilising YouTube for streaming.\r\n- Simply search with a song name (with or without a artist) and it will add the song closest to your search to the music queue.\r\n- Provides accurate lyrics, sourced from a multitude of different public lyric databases. A lack of lyrics is rare for public songs.\r\n- Simply: Add to your server, then run s!help to get started.\r\n\r\nCommands:\r\n\r\ns!play <search keywords>\r\nAdds a spotify song to the queue. Search terms are case & symbol sensitive, refine your keywords as much as possible for the most accurate song request.\r\n\r\ns!changeprefix <new prefix>\r\nChanges the server wide prefix utilised for all SpotiLyrics commands, useful if you have multiple bots and there is a prefix conflict. Can't be more than 10 characters, not less than 1.\r\n\r\ns!volume <new volume>\r\nChanges the volume for the current queue of music playing in a voice channel, scale 1-200, with 100 being normal. Higher than 100 is not recommended.\r\n\r\ns!restart\r\nStarts the current song in the music queue to the start position.\r\n\r\ns!skip\r\nSkips the current song in the music queue and proceeds to the next song in queue.\r\n\r\ns!pause\r\nPauses the current song in the music queue.\r\n\r\ns!resume\r\nResumes the current song in the music queue.\r\n\r\ns!stop\r\nClears the current music queue, and disconnects the bot from its current voice channel.\r\n\r\ns!lyrics\r\nSearches multiple sources for lyrics for the current playing song in the music queue, then sends them if they are available.\r\n\r\ns!info\r\nDetailed information regarding the current playing song in the music queue, according to Spotify statistics. Also visually displays the music queue, including who requested each song."
+    }
+  ],
+  "created": 1560635267786,
+  "edited": 1560635302124,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "589075788108791828",
+  "images": {
+    "avatar": "images/589075788108791828/avatar.png",
+    "cover": "images/589075788108791828/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://alydus.net/api/v1/projects/discord/bots/spotilyrics/redirect/invite"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://alydus.net/api/v1/projects/discord/bots/spotilyrics/redirect/support",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "s!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "music"
+  ]
+}

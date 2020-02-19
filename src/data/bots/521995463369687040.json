@@ -1,0 +1,49 @@
+{
+  "authors": [
+    "discord:331265944363991042",
+    "github:imtoasted"
+  ],
+  "contents": [
+    {
+      "description": "Low Fidelity Radio bot that will play you some aesthetics beats.",
+      "locale": "en-GB",
+      "name": "Lo-Fi",
+      "page": "# Lo-Fi\r\n\r\n|     Commands     |            Usage            |             Description             |\r\n|:----------------:|:---------------------------:|:-----------------------------------:|\r\n|     lofi play    |    lofi play <streamers>    |           Play the music.           |\r\n|     lofi stop    |          lofi stop          |           Stop the music.           |\r\n|    lofi volume   |    lofi volume 0.4 (40%)    |       Adjust the Radio volume.      |\r\n|     lofi help    |       lofi help (cmd)       |        Display commands list.       |\r\n|     lofi ping    |          lofi ping          |     Test Lo-Fi's response time.     |\r\n|    lofi stats    |          lofi stats         |     Display Lo-Fi's statistics.     |\r\n|    lofi submit   | lofi submit <streamers url> |   Submit your favourite streamers.  |\r\n|  lofi changelog  |        lofi changelog       |            Lo-Fi Updates.           |"
+    }
+  ],
+  "created": 1548241615661,
+  "edited": 1548242843363,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "521995463369687040",
+  "images": {
+    "avatar": "images/521995463369687040/avatar.png",
+    "cover": "images/521995463369687040/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=521995463369687040&permissions=36703232&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/MyGH4YC",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "lofi"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://lofi-bot.glitch.me/",
+  "source": "https://github.com/imtoasted/lo-fi",
+  "categories": [
+    "music"
+  ]
+}

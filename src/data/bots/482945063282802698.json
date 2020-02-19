@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:108899856889737216"
+  ],
+  "contents": [
+    {
+      "description": "PEEKY is a free and reliable multipurpose bot.",
+      "locale": "en-GB",
+      "name": "PEEKY",
+      "page": "<b>\r\nFunctions\r\n</b>\r\n<br>\r\nEnhance your server with functions such as Welcome Messages, Ticket System, Reaction Roles and more!\r\n<br><br>\r\n<b>\r\nModeration Commands\r\n</b>\r\n<br>\r\nMake moderating your servers much easier by using commands like IDBan, Mute, Purge and much more!\r\n<br><br>\r\n<b>\r\nEconomy System\r\n</b>\r\n<br>\r\nCustomize your very own profile, earn Chests, Levels, Badges and climb the Leaderboard ranks!\r\n<br><br>\r\n<b>\r\nMusic Player\r\n</b>\r\n<br>\r\nPlay music in your servers with a built-in YouTube searching and Customizable Playlists!\r\n<br><br>\r\n<b>\r\nMinigames\r\n</b>\r\n<br>\r\nEngage in fun minigames such as Draw and Guess, Guess the Song and more!\r\n<br><br>\r\n<b>\r\nPEEKY's Website\r\n</b>\r\n<br>\r\nVisit <a href=\"https://peeky.glitch.me/\" rel=\"noopener noreferrer\">PEEKY's website</a> for more info about the bot."
+    }
+  ],
+  "created": 1552734826433,
+  "edited": 1580096686140,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": true
+  },
+  "hide": false,
+  "id": "482945063282802698",
+  "images": {
+    "avatar": "images/482945063282802698/avatar.png",
+    "cover": "images/482945063282802698/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://peeky.glitch.me/invite.html"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discordapp.com/invite/j4kArRh",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "p!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://peeky.glitch.me/",
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

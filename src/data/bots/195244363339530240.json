@@ -1,0 +1,53 @@
+{
+  "authors": [
+    "discord:86477779717066752",
+    "discord:366454817373290508",
+    "discord:103347843934212096",
+    "discord:261912303132344320",
+    "discord:121650510372667392",
+    "github:KawaiiBot"
+  ],
+  "contents": [
+    {
+      "description": "A kawaii Discord bot that makes your server more fun!",
+      "locale": "en-GB",
+      "name": "KawaiiBot",
+      "page": "KawaiiBot is packed with multiple commands that serves the purpose of making your server more fun to be in.\r\n\r\nAll commands we offer can be found by typing `+help` in the chat whenever you've added the bot.\r\n\r\n## Reaction commands\r\nThere are multiple commands to be used such as `+hug`, `+pat`, `+lewd` and many more to use.\r\n\r\n## NSFW Commands\r\nSome of the commands that we offer are clearly within the mature content, however those content are only accessible within NSFW marked channels, so avoiding such will make no one able to use these commands.\r\n\r\n## Image rendering\r\nRendering nice and funny images can be done with this bot, some of them are `+achievement`, `+captcha`, `+calling` and many more that will come in future updates.\r\n"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1551081816648,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "195244363339530240",
+  "images": {
+    "avatar": "images/195244363339530240/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=195244341038546948&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/wGwgWJW",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "+"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://kawaiibot.xyz/",
+  "source": "https://github.com/KawaiiBot/KawaiiBot",
+  "categories": [
+    "fun"
+  ]
+}

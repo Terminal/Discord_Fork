@@ -1,0 +1,50 @@
+{
+  "authors": [
+    "discord:588430117122998277"
+  ],
+  "contents": [
+    {
+      "description": "A fun little bot for your fun little server!",
+      "locale": "en-GB",
+      "name": "Fear",
+      "page": "---\r\n\r\n> There are tons of modules and commands such as...\r\n>> ...Image commands...\r\n>>> ...Economy things...\r\n>>>> ...Moderation stuff...\r\n>>>>> ...And utility...\r\n\r\n---\r\n\r\n### Links Etc...\r\n\r\n---\r\n\r\n[Website](https://fearboat.business.site)\r\n\r\n[Support server](https://discord.gg/JfWcEFS)\r\n\r\n---\r\n\r\n#### Our Partners:\r\n\r\n---\r\n\r\nCow Rick#9081 | [Their Discord server](https://discord.gg/9kCnu3w)\r\n\r\nCLazyFox#6773 | [Their Discord server](https://discord.gg/4bcxSy6)\r\n\r\n---\r\nWritten in C# and JS."
+    }
+  ],
+  "created": 1568394106111,
+  "edited": 1568394106111,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "594189989143904264",
+  "images": {
+    "avatar": "images/594189989143904264/avatar.png",
+    "cover": "images/594189989143904264/background.png",
+    "preview": [
+      "images/594189989143904264/0.png"
+    ]
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=594189989143904264&scope=bot&permissions=8"
+  },
+  "nsfw": false,
+  "state": "denied",
+  "support": "https://discord.gg/JfWcEFS",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "-"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://fearboat.business.site",
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

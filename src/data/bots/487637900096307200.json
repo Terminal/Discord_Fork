@@ -1,0 +1,45 @@
+{
+  "authors": [
+    "discord:525761618521620490"
+  ],
+  "contents": [
+    {
+      "description": "A welcomer bot with custom avatar & username of your choice! uses webhooks to send messages!",
+      "locale": "en-GB",
+      "name": "NewCommer",
+      "page": "Newcommer is a bot, that is only made for welcome & goodbye messages for your server using Webhooks, this means you can configure the bot to use a custom avatar & custom username, bot does not post welcome & goodbye messages, the webhook does.\r\n\r\n(PLEASE READ THIS: in order for this bot to fully work, you must have these settings ready & setup:\r\n\r\nchannel (setchannel) wmessage or lmessage (wmessage/lmessage) config avatar & username (config avatarURL/username) if you don't have any of these bot won't work. also remember to grant permission \"MANAGE_WEBHOOKS\") REQUIREMENTS: Bot: \"MANAGE_WEBHOOKS\" permission (this is needed for creating a webhook) and of course permission to view the channel and send messages there\r\n\r\nUser/activating commands: \"MANAGE_GUILD\" aka Manage Server permission is needed to use the bot\r\n\r\nFeatures:\r\n\r\nfully custom avatar/usernames\r\n\r\nauto give roles on join\r\n\r\nauto give nicknames when users join (With optionable options)\r\n\r\nmessage replacements {{user}} || {{user_username}} || {{server}} || {{owner}} || {{members}} || {{humans}} || {{bots}}\r\n\r\ncustom nickname commands (gives the user nickname with command) (usefull for clan tags or like that) Example: -newcommer nickadd faze FAZE_{{u}} -faze this bot is not really easy to use, it's a little bit of complex but here's how you can use it: Commands: -newcommer wmessage (message) will set the message when users join, usage:\r\n\r\nCheck the website for all of it's commands and features!\r\n\r\nType \"-newcommer help\" to see all of it's functions it has!"
+    }
+  ],
+  "created": 1545476756175,
+  "edited": 1545476777929,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "487637900096307200",
+  "images": {
+    "avatar": "images/487637900096307200/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=487637900096307200&scope=bot&permissions=0"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discordapp.com/invite/BwTsEGA",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "-newcommer"
+    ]
+  },
+  "videos": {},
+  "website": "https://newcommer.tk",
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

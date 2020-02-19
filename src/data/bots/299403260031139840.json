@@ -1,0 +1,44 @@
+{
+  "authors": [
+    "discord:138881969185357825",
+    "github:TitanEmbeds"
+  ],
+  "contents": [
+    {
+      "description": "Embed your Discord server on your website!",
+      "locale": "en-GB",
+      "name": "Titan",
+      "page": "# TitanEmbeds\r\nEver wondered how you could embed your Discord server on your own website? How about upgrading your century old forum shoutbox that nobody seems to understand?\r\nSay no more! Introducing **TitanEmbeds**: Embed your Discord server like a *True Titan*. Visit our website to get started, today!\r\n\r\nOur website - [https://titanembeds.com/](https://titanembeds.com)\r\nOur server - [https://discord.io/Titan](https://discord.io/Titan)\r\n"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1546458017714,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "299403260031139840",
+  "images": {
+    "avatar": "images/299403260031139840/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?&client_id=299403260031139840&scope=bot&permissions=641195117"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": []
+  },
+  "videos": {},
+  "website": null,
+  "source": "https://github.com/TitanEmbeds/Titan",
+  "categories": [
+    "utility"
+  ]
+}

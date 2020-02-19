@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:250322741406859265"
+  ],
+  "contents": [
+    {
+      "description": "A general use bot.",
+      "locale": "en-GB",
+      "name": "HoardBot",
+      "page": "Good bot, does good things.\r\nMost, if not all of the features implemented in the bot have come from user suggestions.\r\nHave a suggestion? Join the Support Server to share it! Some of the current features include:\r\n\r\nGlobal User Profiles.\r\nStats persist across servers.\r\nCustom biographies and backgrounds.\r\nFact lookup with Wolfram|Alpha.\r\nGlobal currency system seamlessly integrated with your profile.\r\nAllow the community to pin messages that they enjoy using reactions.\r\nCreate polls for other's to vote on."
+    }
+  ],
+  "created": 1550213229294,
+  "edited": 1550213229294,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "300754486060777472",
+  "images": {
+    "avatar": "images/300754486060777472/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=300754486060777472&scope=bot&permissions=0"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/6D83T6Y",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "%"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://hoardbot.gordhoard.org",
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

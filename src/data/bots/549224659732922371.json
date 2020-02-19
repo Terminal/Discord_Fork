@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:388320576407863297"
+  ],
+  "contents": [
+    {
+      "description": "PerfectLivesBot is a bot of roleplay, you can create a character",
+      "locale": "en-GB",
+      "name": "PerfectLivesBot",
+      "page": "**PerfectLivesBot** is a bot of roleplay, you can `create a character`, `work`, `gain money`, `buy food` and save your character from get hungry\r\njoin our support server for get new updates about the bot https://discord.gg/Gme2EUZ"
+    }
+  ],
+  "created": 1551035057272,
+  "edited": 1551035187812,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "549224659732922371",
+  "images": {
+    "avatar": "images/549224659732922371/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=549224659732922371&permissions=280576&redirect_uri=https%3A%2F%2Fdiscord.gg%2FGme2EUZ&response_type=code&scope=bot%20identify"
+  },
+  "nsfw": false,
+  "state": "banned",
+  "support": "https://discord.gg/Gme2EUZ",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "!!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

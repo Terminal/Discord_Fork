@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:479603748382179329"
+  ],
+  "contents": [
+    {
+      "description": "AmareBot is an NSFW/Music bot that is looking to bring the lewd to your server ",
+      "locale": "en-GB",
+      "name": "AmareBot",
+      "page": "Why should you invite Clap Bot?\r\nWell Clap Bot will bring fun and security to your server with its mod commands. While\r\nalso allowing you to log when someone is banned, muted, or kicked. Soon sill be other events.\r\n\r\n\r\nAsk for Support:\r\n<iframe src=\"https://disweb.deploys.io/channels/561588141761495045/599392725498068992\" height=\"600\" width=\"800\"></iframe>\r\n\r\nClap Bot commands are:\r\n<html>\r\n  <body>\r\n    <h1>Moderation Commads:</h1>\r\n    <ul>\r\n      <li>Ban</li>\r\n      <li>Kick</li>\r\n      <li>Mute</li>\r\n      <li>Settings</li>\r\n    </ul>\r\n    <h1>Music Commands:</h1>\r\n    <ul>\r\n      <li>Join</li>\r\n      <li>Leave</li>\r\n      <li>Ql</li>\r\n      <li>Play</li>\r\n      <li>Volume</li>\r\n      <li>Stop</li>\r\n      <li>Skip</li>\r\n      <li>Pause</li>\r\n      <li>Resume</li>\r\n      <li>Np</li>\r\n      <li>Remove</li>\r\n    </ul>\r\n    <h1>Misc Commands:</h1>\r\n    <ul>\r\n      <li>Hug</li>\r\n      <li>Cuddle</li>\r\n      <li>Kiss</li>\r\n      <li>Lick</li>\r\n      <li>Love Meter</li>\r\n      <li>Nom</li>\r\n      <li>Ping</li>\r\n      <li>Help</li>\r\n    </ul>\r\n    <br>\r\n  </body>\r\n</html>\r\n\r\n![Average CPU Usage](https://dashboard.chilo.space/api/v1/badge.svg?chart=system.cpu&alarm=10min_cpu_usage&refresh=auto&label=Average%20CPU%20Usage)\r\n![System Uptime](https://dashboard.chilo.space/api/v1/badge.svg?chart=system.uptime&label=System%20Uptime&refresh=10)\\\r\n![Free Memory](https://dashboard.chilo.space/api/v1/badge.svg?chart=system.ram&dimension=free&label=Free%20Memory&refresh=auto&values_color=gray:null|green%3C2000|orange%3C1000|red%3C500)\r\n![Used Disk Space](https://dashboard.chilo.space/api/v1/badge.svg?chart=disk_space._&alarm=disk_space_usage&label=Used%20Disk%20Space&refresh=auto)"
+    }
+  ],
+  "created": 1568394824087,
+  "edited": 1568394824087,
+  "flags": {
+    "adverts": true,
+    "inAppPurchases": true
+  },
+  "hide": false,
+  "id": "561619932442394627",
+  "images": {
+    "avatar": "images/561619932442394627/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=561619932442394627&permissions=502656214&scope=bot"
+  },
+  "nsfw": true,
+  "state": "denied",
+  "support": "https://discord.gg/tjqYWKC",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "-"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

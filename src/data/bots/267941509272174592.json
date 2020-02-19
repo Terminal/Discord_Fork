@@ -1,0 +1,50 @@
+{
+  "authors": [
+    "discord:86477779717066752",
+    "github:AlexFlipnote"
+  ],
+  "contents": [
+    {
+      "description": "A powerful bot for your discord server.",
+      "locale": "en-GB",
+      "name": "xelA",
+      "page": "To invite **xelA** to your server, you will need a server which meets **some** of the requirements:\r\n\r\n- Active server\r\n- Non-abusive members (aka. people who will spam bots)\r\n- Over 1000 members (doesn't count bots)\r\n- Server with intention of growing\r\n\r\nIf you want to take further contact, visit my Discord server by clicking [here](https://discord.gg/DpxkY3x), then talk to me at AlexFlipnote#0001\r\n\r\nAlso remember, the settings are in JSON format, so I hope you have some experience with it.\r\n"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1554645241672,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "267941509272174592",
+  "images": {
+    "avatar": "images/267941509272174592/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://xela.dev/invite"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/DpxkY3x",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "/",
+      "xela"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://xela.dev/",
+  "source": "https://github.com/AlexFlipnote/discord_bot.py",
+  "categories": [
+    "utility"
+  ]
+}

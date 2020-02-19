@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:480779413311455252"
+  ],
+  "contents": [
+    {
+      "description": "Nitronix, the multifunctional Discord is bot the most powerful bot on Discord.",
+      "locale": "en-GB",
+      "name": "Nitronix",
+      "page": "Hey there!\r\n\r\nNitronix, the multifunctional Discord is bot the most powerful bot on Discord.\r\nWith over 350 commands, we are moderating your server and even your customers won't get bored because of our awesome commands you can use!\r\n\r\nWe support over 22 Modules you can use. A few of them (The most used) are listed below.\r\n🔨 Moderation 🔨\r\n🌐 Utility 🌐\r\n🕹 Gambling 🕹\r\n💵 Economy 💵\r\nAnd\r\n🔨 Configuration 🔨\r\n\r\n\r\nWell, we hope we can make your server grow with one of these 😃 \r\n\r\nWe hope to see Nitronix soon in your server and to make sure you will keep up to date, we have some resources for you who you can use.\r\n\r\nSupport Server: https://nitronixbot.glitch.me/server\r\nWebsite: https://nitronixbot.glitch.me\r\nTwitter: https://twitter.com/Nitronixbot\r\n\r\n\r\nSee you soon!"
+    }
+  ],
+  "created": 1566401575549,
+  "edited": 1566401946964,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "481757381634686995",
+  "images": {
+    "avatar": "images/481757381634686995/avatar.png",
+    "cover": "images/481757381634686995/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=481757381634686995&scope=bot&permissions=536308862"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/Ak6wCaB",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "n!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://nitronixbot.glitch.me/",
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

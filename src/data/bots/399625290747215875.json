@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:246746545561665537"
+  ],
+  "contents": [
+    {
+      "description": "A multipurpose bot for anything you want.",
+      "locale": "en-GB",
+      "name": "GoatBot",
+      "page": "#### A multipurpose bot made for basically anything with new features being added weekly.\r\nRequest new features with via [the official support server](https://discord.gg/UJkYycr \"GoatBot Support Server\"), [the website](https://goatbot.me/feedback.html \"GoatBot Website\"), or DMing me (the owner, *AsrielD#6969*), and your command might get featured in the next release!\r\n\r\n***Current purposes***\r\n* Over 6,500 hand picked memes (with custom meme generators)\r\n* Cleverbot!\r\n* Fortnite, Rainbow Six, and surviv.io stats\r\n* Play music!\r\n* Server administration, like purging messages, logging events, etc.\r\n* Optional leaderboards\r\n* Cool utilities, like weather, Steam game news and patch notes, Reddit, Minecraft server status, and much more!\r\n* Random fun commands, like emojitext, a slot machine game, and free dog pics\r\n* Hugging, kissing, patting, and slapping come included\r\n* Chuck Norris quotes, because everyone needs them\r\n\r\n***Not to be used for***\r\n* Ordering pizza 🍕\r\n* Doing your homework\r\n* Spam a friend's DMs\r\n* Get you a girlfriend (sorry, mate)\r\n* Get you those Epic Victory Royales (ask Ninja)\r\n* Secluding yourself from the outside world\r\n\r\n***Planned ideas***\r\n* Custom server commands and aliases\r\n* Overall global profiles (still figuring out on how to execute it correctly)\r\n* Economy (not just your standard run of the mill banking)\r\n* Reminders (so you won't forget to get that 🍞)\r\n* Implement more game stats (Overwatch and more coming soon)\r\n* Any ideas you come up with :)"
+    }
+  ],
+  "created": 1544077825293,
+  "edited": 1552495478660,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "399625290747215875",
+  "images": {
+    "avatar": "images/399625290747215875/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://goatbot.me/i"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/UJkYycr",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://goatbot.me",
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

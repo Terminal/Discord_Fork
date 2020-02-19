@@ -1,0 +1,55 @@
+{
+  "authors": [
+    "discord:324622488644616195",
+    "github:juby210-PL"
+  ],
+  "contents": [
+    {
+      "description": "Polish opensource multifunctional bot in discord.js library.",
+      "locale": "en-GB",
+      "name": "bot.js",
+      "page": "# bot.js\r\nPolish opensource (with multilang support!) bot written in javascript and discord.js lib. Music powered by lavalink. Commands categories:\r\n- Basic\r\n- Games\r\n- Moderation\r\n- Web\r\n- Misc\r\n- Images\r\n- Music\r\n\r\n### Informations\r\n<a href=\"https://botjs.juby.cf\" target=\"_blank\">Bot dashboard</a>\r\n\r\n<a href=\"https://github.com/juby210-PL/bot.js\" target=\"_blank\">Bot code on github</a>\r\n\r\n<a href=\"https://discord.gg/6bfpCCt\" target=\"_blank\">Support Server</a>\r\n\r\n&copy; Juby210 2019"
+    },
+    {
+      "description": "Polski wielofunkcyjny bot opensource w bibliotece discord.js",
+      "locale": "pl",
+      "name": "bot.js",
+      "page": "# bot.js\r\nPolski bot opensource (wielojęzykowy) napisany w javascript i bliblotece discord.js. Muzyka działa przez lavalink'a. Kategorie komend:\r\n- Basic\r\n- Gry\r\n- Moderacja\r\n- Web\r\n- Misc\r\n- Obrazki\r\n- Muzyka\r\n\r\n### Informacje\r\n<a href=\"https://botjs.juby.cf\" target=\"_blank\">Dashboard bota</a>\r\n\r\n<a href=\"https://github.com/juby210-PL/bot.js\" target=\"_blank\">Kod bota na githubie</a>\r\n\r\n<a href=\"https://discord.gg/6bfpCCt\" target=\"_blank\">Support Server</a>\r\n\r\n&copy; Juby210 2019"
+    }
+  ],
+  "created": 1547250805454,
+  "edited": 1560012666177,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "479612191767789573",
+  "images": {
+    "avatar": "images/479612191767789573/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=479612191767789573&scope=bot&permissions=8"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/6bfpCCt",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "^"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://botjs.juby.cf/",
+  "source": "https://github.com/juby210-PL/bot.js",
+  "categories": [
+    "music"
+  ]
+}

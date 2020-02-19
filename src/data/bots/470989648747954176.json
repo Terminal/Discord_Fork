@@ -1,0 +1,44 @@
+{
+  "authors": [
+    "github:discordies"
+  ],
+  "contents": [
+    {
+      "description": "I am a multi-purpose bot. Currently I have moderation commands, translator and much more!",
+      "locale": "en-GB",
+      "name": "EquippedDroid",
+      "page": "# EquippedDroid\n## A Multi-purpose bot created by hernikplays\n\nMy purpose is to help with your server, moderate, kick, and also entertain your fellow serverlings!\n\nI am ready for your server! Don't forget to read the news here and also the commands list\n\nInvite link: [Here](https://s.botempire.tk/yourls/inv)\n"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1542569433000,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "470989648747954176",
+  "images": {
+    "avatar": "images/470989648747954176/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=470989648747954176&scope=bot&permissions=276261902"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "e!"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": "https://github.com/discordies/Equippeddroid",
+  "categories": [
+    "other"
+  ]
+}

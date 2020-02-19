@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:154497072148643840"
+  ],
+  "contents": [
+    {
+      "description": "A bot for music, games, and moderation",
+      "locale": "en-GB",
+      "name": "cat-bot",
+      "page": "Looking for a well-rounded bot that can do almost anything? Cat may be able to fulfill your needs.\r\n\r\nSome of the features included:\r\n\r\n* High-quality audio player with a custom playlist system (YouTube, SoundCloud, Spotify, Twitch, Shoutcast/Icy/http streams, Mixer, Vimeo, Bandcamp...)\r\n* Level based system with user-customizable profile cards, also has level-based role application and removal\r\n* RPG-style Adventure game\r\n* Casino games with a global economy system\r\n* Mod tools\r\n* Starboard\r\n* Custom image-based welcome messages for new members\r\n* A watching system for your server that reports when anything changes (server joins, leaves, role changes, message deletions or edits)\r\n* Reaction-based raffle/giveaway\r\n* NSFW image commands\r\n* and much more as new commands are added frequently...\r\n\r\nCat is based on Red-DiscordBot's new rewrite. I welcome feedback as I am the dev for the audio module. Requests for new features are also welcomed (but will take a back seat to new audio improvements being written first).\r\n\r\nCat will never cost money to use and will have as close to a 100% uptime as possible.\r\n\r\nUse c!help to get started once you've invited him. You can also set your own prefix for the bot with the c!set serverprefix command."
+    }
+  ],
+  "created": 1558984509138,
+  "edited": 1558984509138,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "246917294461157376",
+  "images": {
+    "avatar": "images/246917294461157376/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=246917294461157376&scope=bot&permissions=536210519"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/th6eS3T",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "c!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://cat3890.tumblr.com/",
+  "source": null,
+  "categories": [
+    "music"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "authors": [
+    "discord:335734618118422528"
+  ],
+  "contents": [
+    {
+      "description": "Bot francais et anglais avec beaucoup de commandes",
+      "locale": "fr",
+      "name": "Dragonix",
+      "page": "Le bot se nomme Dragonix. Son Fondateur est !-azeex-!#2105\r\n\r\nPour connaitre les commandes il faut exécuter #!help.\r\n\r\n#!fun help -> Pour les commandes fun (#!meme,#!pfc, #!flip, etc...)\r\n\r\n#!utl help -> Pour les commandes utiles (#!cal, #!heure, etc..)\r\n\r\n#!mod help -> Pour les commandes de modérations (#!rename, #!warn, etc...)\r\n\r\n#!search help -> Pour les commandes de recherches (#!google, #!youtube, etc...)\r\n\r\n#!img help -> Pour les commandes comportant des images aléatoires (#!ours, #!cat, etc...)\r\n\r\n#!bot help -> Pour avoir des informations sur le bot\r\n\r\nDe nombreuses commandes sont ajoutés chaques jours si vous avez des suggestions faites #!suggest {votre suggestion}.\r\n\r\nBonne journée."
+    },
+    {
+      "description": "French and English bot with lots of orders. Help me add commands by suggesting new ones!",
+      "locale": "en-GB",
+      "name": "Dragonix",
+      "page": "The bot is called Dragonix. Its Founder is!-Azeex-!#2105\r\n\r\nTo know the commands it is necessary to execute #!help.\r\n\r\n#!fun help -> For fun commands (#!meme, #!pfc, #!flip, etc …)\r\n\r\n#!utl help -> For useful commands (#!cal, #!time, etc.)\r\n\r\n#! mod help -> For moderation commands (#!rename,#!warn, etc …)\r\n\r\n#!search help -> For search commands (#!google, #!youtube, etc …)\r\n\r\n#!img help -> For commands with random images (#!bear, #!cat, etc …)\r\n\r\n#!bot help -> For information about the bot\r\n\r\nMany commands are added each day if you have suggestions made #!suggest {your suggestion}.\r\n\r\nHave a good day."
+    }
+  ],
+  "created": 1561942112898,
+  "edited": 1565452513688,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "588059900538781706",
+  "images": {
+    "avatar": null,
+    "cover": "images/588059900538781706/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=588059900538781706&scope=bot&permissions=137653313"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/SDFfCYk",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "#!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://dragonixx.weebly.com/bot-discord-dragonix.html",
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:471973265594908673"
+  ],
+  "contents": [
+    {
+      "description": "Naknak Bot | Moderation | Fun | Website | Dashboard | Giveaways and more...",
+      "locale": "en-GB",
+      "name": "Naknak Bot",
+      "page": "**Naknak Bot** is bot with alot of **commands, moderation, fun, giveaway, dashboard, music, and more...**\r\nany help you need on the bot you can join our *support server*\r\nany suggestion you have to the bot you can send it with `?sug `\r\nany bug you found on the bot you can report it with `?bug `\r\nthe bot have two prefix `?` and @Naknak Bot"
+    }
+  ],
+  "created": 1558929989924,
+  "edited": 1558929989924,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "530086775104864266",
+  "images": {
+    "avatar": "images/530086775104864266/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=530086775104864266&scope=bot"
+  },
+  "nsfw": false,
+  "state": "banned",
+  "support": "https://discord.gg/ctjNJju",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "?"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://naknak-bot.tk",
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

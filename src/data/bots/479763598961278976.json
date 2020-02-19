@@ -1,0 +1,54 @@
+{
+  "authors": [
+    "discord:249253855613812736"
+  ],
+  "contents": [
+    {
+      "description": "A multiple purpose bot",
+      "locale": "en-GB",
+      "name": "MultiCore",
+      "page": "<p>Commands list [75]</p>\r\n<p>Basic [8]</p>\r\n<p>avatar, botinfo, botbug, help, invite, ping, serverinfo, userinfo</p>\r\n<p>Social [7]</p>\r\n<p>daily, deposit, money, profile, rep, rob, withdraw</p>\r\n<p>Paid minigames [1]</p>\r\n<p>bethalf</p>\r\n<p>MiniGames [2]</p>\r\n<p>headsortails, rockpaperscissors</p>\r\n<p>Moderation [12]</p>\r\n<p>autorole, ban, goodbye, hackban, kick, lang, prefix, prune, voiceban, voicekick, voiceunban, welcome</p>\r\n<p>Music [12]</p>\r\n<p>clearqueue, join, leave, loop, np, pause, play, queue, resume, search, skip, volume</p>\r\n<p>Images [21]</p>\r\n<p>bird, blurple, cat, changemymind, cuddle, dog, excuseme, fox, hug, invert, kiss, note, orangly, pat, shibe, randomimage, triggered, trump, tweet, wanted, wasted</p>\r\n<p>Text [6]</p>\r\n<p>advice, chucknorris, dadjoke, fact, why, yomomma</p>\r\n<p>Other [6]</p>\r\n<p>color, fastpoll, quote, say, sayembed, someone</p>"
+    },
+    {
+      "description": "Wielofunkcyjny bot",
+      "locale": "pl",
+      "name": "MultiCore",
+      "page": "<p>Lista Komend [75]</p>\r\n<p>Główne [8]</p>\r\n<p>avatar, botinfo, botbug, help, invite, ping, serverinfo, userinfo</p>\r\n<p>Społeczne [7]</p>\r\n<p>daily, deposit, money, profile, rep, rob, withdraw</p>\r\n<p>Płatne minigry [1]</p>\r\n<p>bethalf</p>\r\n<p>Minigry [2]</p>\r\n<p>headsortails, rockpaperscissors</p>\r\n<p>Moderacja [12]</p>\r\n<p>autorole, ban, goodbye, hackban, kick, lang, prefix, prune, voiceban, voicekick, voiceunban, welcome</p>\r\n<p>Muzyka [12]</p>\r\n<p>clearqueue, join, leave, loop, np, pause, play, queue, resume, search, skip, volume</p>\r\n<p>Obrazki [21]</p>\r\n<p>bird, blurple, cat, changemymind, cuddle, dog, excuseme, fox, hug, invert, kiss, note, orangly, pat, shibe, randomimage, triggered, trump, tweet, wanted, wasted</p>\r\n<p>Tekst [6]</p>\r\n<p>advice, chucknorris, dadjoke, fact, why, yomomma</p>\r\n<p>Inne [6]</p>\r\n<p>color, fastpoll, quote, say, sayembed, someone</p>"
+    }
+  ],
+  "created": 1550710872898,
+  "edited": 1550710872898,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "479763598961278976",
+  "images": {
+    "avatar": "images/479763598961278976/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=479763598961278976&scope=bot&permissions=8"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/jAuEs49",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      ";"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "authors": [
+    "discord:215061635574792192"
+  ],
+  "contents": [
+    {
+      "description": "Brainfuck is a Discord-based interpreter for the esoteric programming language, brainfuck.",
+      "locale": "en-GB",
+      "name": "Brainfuck",
+      "page": "**Background**\r\n\r\nBrainfuck is an esoteric programming language created in 1993 by Urban Müller. \r\nThe language contains only eight simple commands and an instruction pointer. \r\nWhile it is fully Turing-complete, it is not intended for practical use, but to challenge and amuse programmers.\r\n\r\n**Diagram**\r\n```\r\n--------------------||---||--------\r\n| 0 | 0 | 0 | 0 | 0 || 0 || 0 | 0 |\r\n--------------------||---||--------\r\ntape ---^     ^        ^\r\n  cell --------        |\r\n    head (pointer) ----\r\n```\r\n\r\n**Instructions**\r\n\r\n`>` - Move the pointer right\r\n\r\n`<` - Move the pointer left\r\n\r\n`+` - Increment the current cell\r\n\r\n`-` - Decrement the current cell\r\n\r\n`.` - Output the value of the current cell\r\n\r\n`,` - Replace the value of the current cell with input\r\n\r\n`[` - Jump to the matching `]` instruction if the value of the current cell is zero\r\n\r\n`]` - Jump to the matching `[` instruction if the value of the current cell is not zero\r\n\r\n**Memory Layout**\r\n\r\nThe brainfuck tape is made of an infinite (in this case limited to 30,000) collection of 1 byte cells. \r\nEach cell represents a single, unsigned 8-bit number. \r\nCells start initialized at zero.\r\n\r\nSince the numbers are unsigned, there is no need for any complex integer implementation. \r\nIf the upper limit of the cell is reached, it wraps back to zero. \r\nIf zero is decremented, it must wrap back to 11111111.\r\n\r\n**Notes**\r\n\r\n- The `.` operator stores the output in a list which is sent to the channel at the end of execution.\r\n\r\n- To prevent the bot hanging, execution time is limited to 30 seconds and will be cancelled if this limit is exceeded.\r\n\r\n**Example Usage**\r\n\r\n[Image](https://i.imgur.com/jvQkp4N.png)\r\n\r\n**Shortcuts**\r\n\r\nTired of writing out characters over and over again?\r\nThe bot's unique shortcut system allows you to use special notation to drop chunks of code into your program.\r\nThese can be uploaded by anyone and used by anyone. Run `bf!help scripts` to get started with building your own\r\nreusable code snippets.\r\n\r\n[Image](https://i.imgur.com/n46Km52.png)\r\n\r\n**Bot Commands**\r\n\r\n`bf!compile [code]` - Run the brainfuck code given in as the argument\r\n\r\n`bf!info` - Show information about brainfuck and its syntax\r\n\r\n`bf!invite` - Get an invite link for the bot\r\n\r\n`bf!help scripts` - Show available subcommands for script sharing and uploading\r\n\r\n`bf!help` - Display available commands to run"
+    }
+  ],
+  "created": 1578525463225,
+  "edited": 1578525716627,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "651090709058682890",
+  "images": {
+    "avatar": "images/651090709058682890/avatar.png",
+    "cover": null,
+    "preview": [
+      "images/651090709058682890/0.png",
+      "images/651090709058682890/1.png"
+    ]
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=651090709058682890&permissions=84992&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/89KKj63",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "bf!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://tandemdude.gitlab.io/brainfuck-site",
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

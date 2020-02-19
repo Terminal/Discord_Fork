@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:389129266362843140"
+  ],
+  "contents": [
+    {
+      "description": "customizable bot, set your embed colour & more. Fun commands to entertain your discord server!",
+      "locale": "en-GB",
+      "name": "NootBot",
+      "page": "List all commands using !commands, we have commands to fit all economy needs. You can get some advice, a compliment/insult. You can also insult or compliment to other people, if you're that kind or evil. Make a suggestion with the bot using !suggest (suggestion) and we will add some community ideas! This is the #1 ideal bot for any discord server! https://iamanoot.xyz"
+    }
+  ],
+  "created": 1548345196403,
+  "edited": 1552440869014,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "530097823966822420",
+  "images": {
+    "avatar": "images/530097823966822420/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=530097823966822420&scope=bot&permissions=8"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discordapp.com/invite/SRnF9yV",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://iamanoot.xyz",
+  "source": null,
+  "categories": [
+    "games"
+  ]
+}

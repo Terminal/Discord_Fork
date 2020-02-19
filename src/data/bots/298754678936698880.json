@@ -1,0 +1,45 @@
+{
+  "authors": [
+    "discord:193060889111298048"
+  ],
+  "contents": [
+    {
+      "description": "A simple to operate musical streaming bot!",
+      "locale": "en-GB",
+      "name": "MusicalBot",
+      "page": "# [MusicalBot](https://botz.mattcowley.co.uk/musicalbot/)\r\n\r\n>> A simple to operate musical streaming bot! <<\r\n\r\n### Links\r\n\r\n  [Invite MusicalBot](https://botz.mattcowley.co.uk/musicalbot/invite) |\r\n  [MusicalBot website](https://botz.mattcowley.co.uk/musicalbot/) |\r\n  [MusicalBot support](https://botz.mattcowley.co.uk/musicalbot/support)\r\n"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1546553934385,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "298754678936698880",
+  "images": {
+    "avatar": "images/298754678936698880/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://botz.mattcowley.co.uk/musicalbot/invite"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "mb$"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "music"
+  ]
+}

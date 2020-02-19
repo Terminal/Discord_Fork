@@ -1,0 +1,49 @@
+{
+  "authors": [
+    "discord:176371068448145408",
+    "github:sniff122"
+  ],
+  "contents": [
+    {
+      "description": "A discord bot that adds some image processing commands and a security system",
+      "locale": "en-GB",
+      "name": "$n!ffB0T",
+      "page": "$n!ffB0T\r\n$n!ffB0T is a discord bot that has a full fledged\r\nsecurity system what automatically bans users if they\r\nhave a discord invite, twitch, twitter, instagram or\r\nyoutube links along with offensive terms. It also has\r\nimage processing commands like swirl, wave, glowing edges,\r\netc.\r\n\r\n$n!ffB0T Security™\r\n$n!ffB0T security™ automatically bans users with the \r\nafformentioned links or offensive terms in their \r\nusername. Aswell as automatically banning users who do\r\nviolate the bots checks, the bot can log these \r\nviolations to either the guild owner's dms or in a certain \r\nchannel in the server.\r\n\r\n$n!ffB0T Imaging™\r\n$n!ffB0T Imaging™ adds imaging commands like swirl, wave,\r\ncropping, blending, inverting and more! all you need to\r\ndo is to run the image command and either provide an\r\nimage link or attach only 1 image."
+    }
+  ],
+  "created": 1559848462779,
+  "edited": 1559940271151,
+  "flags": {
+    "adverts": true,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "477930897874747432",
+  "images": {
+    "avatar": "images/477930897874747432/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?&client_id=477930897874747432&scope=bot&permissions=470019135"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/9GMxCW7",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      ";"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://sniffbot.ga",
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

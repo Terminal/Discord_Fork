@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:528300396343721984"
+  ],
+  "contents": [
+    {
+      "description": "Multipurpose modular bot, with all the cool features for your server.",
+      "locale": "en-GB",
+      "name": "Aiden's Assistant",
+      "page": "Moderation\r\nFeaturing moderation commands, the basic commands to get you through, with automod to come.\r\n\r\nEconomy\r\nWitness an advanced, modular economy system featuring work, transfer, and more to come!\r\n\r\nUtility\r\nGrab the best ticket system you can find, along with other commands!\r\n\r\nConfig\r\nGet the best logging in your server yet along with some welcome messages, and more!\r\n\r\nFun\r\nWant some memes? Want to have some fun? Well, we have a bunch of commands like those for you!\r\n\r\nGeneral\r\nWant to know some of the bot's info-h? Well, general has you!\r\n\r\nAnd More\r\nWe have so much more, featuring info commands, AutoMod coming soon, daily, rob, crime, and even a shop coming for the economy system!\r\n"
+    }
+  ],
+  "created": 1578752593959,
+  "edited": 1581035171352,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "624250326916268044",
+  "images": {
+    "avatar": "images/624250326916268044/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=624250326916268044&scope=bot&permissions=8"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/QcVSBMs",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "-"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

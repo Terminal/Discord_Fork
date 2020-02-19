@@ -1,0 +1,50 @@
+{
+  "authors": [
+    "discord:188731184501620736",
+    "discord:272093076778909707",
+    "github:BestMordaEver"
+  ],
+  "contents": [
+    {
+      "description": "A discord bot that automatically creates and deletes voice channels when needed",
+      "locale": "en-GB",
+      "name": "Voice Manager",
+      "page": "[Setup guide](https://github.com/BestMordaEver/Voice-Manager/wiki/How-to-set-up-Voice-Manager) | [Support and news Discord server](https://discord.gg/tqj6jvT)\r\n\r\nVoice Manager is a simplistic bot, that allows your users to create new voice channels on demand!\r\n\r\nAssign a lobby and everybody entering this lobby will be placed in a newly created channel. Once everybody leaves this new channel - it gets deleted.\r\n\r\nThe bot will keep new channels in the same category as the lobby and will enable same user limits as the lobby.\r\n\r\n[Here's how it looks](https://i.imgur.com/xNKVC2B.mp4)\r\n\r\nList of available commands:\r\n- help (or empty mention) - shows help message\r\n- register [voice_chat_id OR voice_chat_name] - registers a voice chat that will be used as a lobby\r\n- unregister [voice_chat_id OR voice_chat_name] - unregisters an existing lobby\r\n- id [voice_chat_name OR category_name] - use this to learn ids of voice channels by name or category\r\n- list - lists all registered lobbies and how many new channels exist\r\n- stats - take a sneak peek on bot's performance!\r\n- support - sends an invite to support Discord server"
+    }
+  ],
+  "created": 1581065262035,
+  "edited": 1581809467685,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "601347755046076427",
+  "images": {
+    "avatar": "images/601347755046076427/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=601347755046076427&permissions=297798672&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/tqj6jvT",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "<mention>"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

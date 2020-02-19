@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:310853886191599616"
+  ],
+  "contents": [
+    {
+      "description": "Shinka is a high quality Discord music bot which streams high quality audio through voice channels!",
+      "locale": "en-GB",
+      "name": "Shinka",
+      "page": "Shinka is a high quality Discord music bot which uses Lavalink to stream high quality audio from YouTube, Soundcloud, Mixer, Vimeo and Bandcamp!\r\n\r\n\r\nCurrent commands:\r\n\r\n`Clearqueue` - Clear every track from the queue\r\n\r\n`Loop` - Loop the queue, every track in the queue will continue playing \r\n\r\n`Nowplaying` - Get information about the currently playing track\r\n\r\n`Pause` - Pause the currently playing track\r\n\r\n`Play` - Play any track you want from the supported platforms\r\n\r\n`Queue` - See every track that's currently in the queue\r\n\r\n`Remove` - Remove a specific track from the queue\r\n\r\n`Replay` - Reset the progress of the currently playing track\r\n\r\n`Resume` - Resume the currently paused track\r\n\r\n`Seek` - Seek to specific time within the track\r\n\r\n`Shuffle` - Shuffle the current queue\r\n\r\n`Skip` - Skip to the next track in the queue\r\n\r\n`Skipto` - Skip to a specific track within the queue\r\n\r\n`Stop` - Stop playing, clear the queue and let Shinka leave the voice channel\r\n\r\n`Unloop` - Unloop the queue, every song will now again be cleared from the queue once it ends \r\n\r\n`Volume` - Change the volume of the currently playing track\r\n\r\n`Ping` - Check Shinka's response time to Discord\r\n\r\n`Help` - See a list of commands and how to use them\r\n\r\n`Status` - See basic information about Shinka\r\n\r\nMore commands soon!"
+    }
+  ],
+  "created": 1566844052935,
+  "edited": 1566977754371,
+  "flags": {
+    "adverts": true,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "614109280508968980",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=614109280508968980&scope=bot&permissions=37080128"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discordapp.com/invite/mgxyN7S",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "sh!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "music"
+  ]
+}

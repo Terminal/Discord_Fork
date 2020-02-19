@@ -1,0 +1,51 @@
+{
+  "authors": [
+    "discord:176371068448145408"
+  ],
+  "contents": [
+    {
+      "description": "A basic bot to add the @someone feature back to discord ",
+      "locale": "en-GB",
+      "name": "50m30n3-bot/someonebot",
+      "page": "Have you every wanted the April fools 2018 feature of @someone back on your discord server? Well, you are in luck! 50M30n3 bot, developed by sniff122™#7402, this bot adds the feature back just in a few hundred lines of python code. A lot of the code is based of $n!ffB0t (not available publicly but available on the sniff122 discord server) for checking server information, user information, checking the discord API latency. After authorising the bot with your server, simply assign the bot with a bot role what has access to send messages in channels you wish to and type “@someone” or mention the bot."
+    }
+  ],
+  "created": 1565634075799,
+  "edited": 1565634075799,
+  "flags": {
+    "adverts": true,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "542815149942374460",
+  "images": {
+    "avatar": "images/542815149942374460/avatar.png",
+    "cover": null,
+    "preview": [
+      "images/542815149942374460/0.png",
+      "images/542815149942374460/1.png"
+    ]
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=542815149942374460&scope=bot&permissions=10240"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discordapp.com/invite/QswDDnR",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "\\"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://someonebot.ga",
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

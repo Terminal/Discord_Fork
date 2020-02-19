@@ -1,0 +1,50 @@
+{
+  "authors": [
+    "discord:356000515097624577",
+    "discord:398393307966734336",
+    "discord:457490495719866369"
+  ],
+  "contents": [
+    {
+      "description": "Unosial est un bot multifonction avec pleins de fonctionnalités !",
+      "locale": "fr",
+      "name": "Unosial",
+      "page": "Unosial est un bot **multifonction** contenant plus de `100` commandes vous permettant la personnalisation de votre discord ou autres !<br>\r\nIl y a même un `dashboard` unique au bot ! (**https://unosial.com**)<br>\r\n\r\nVoici la liste des toutes les catégories disponible:<br>\r\n\r\n**🚔 Modération:**<br>\r\nUnosial a son propre système de modération ! Il a tous (&ban, &kick, &tempmban et pleins d'autres) 😎 <br>\r\nIl y a même des **logs** unique à la modération !<br>\r\n\r\n**📌 Utile:**<br>\r\nBeaucoup de système pour gérer votre discord sont disponible sur **Unosial**. <br>\r\nMessage de bienvenue/d'au-revoir (personnalisable de A à Z), auto-rôle et pleins d'autres système bien sympathique.<br>\r\nVous pouvez même changer le `prefix` du bot !\r\n\r\n**📰 Info:**<br>\r\nGrâce à Unosial, vous aurez toutes les informations concernant votre discord 😉<br>\r\n\r\n**🏆 Level:**<br>\r\nSur Unosial, il y a un système de level avancé ! Avec même un leaderboard sur le dashboard ! | Pour activer le système de **level**, il suffit de faire `&game` et de cliquer sur l'émoji correspondant !<br>\r\n\r\n**💸 Money:**<br>\r\nAvec Unosial, vous pourrez avoir un système de money unique sur votre discord ! Avec la possibilité de configuré un `market` où vous pourrez vendre des grades ou autres ! (L'argent du market est faux bien évidemment !) | Pour activer le système de **money**, il suffit de faire `&game` et de cliquer sur l'émoji correspondant !<br>\r\n\r\n**🔰 Guild:**<br>\r\nVous pouvez avoir votre propre **guild** (= faction) sur Unosial, vous pourrez ajouter vos amis dans votre **guild** !<br>\r\n\r\n⚠ Ce ne sont pas les seuls commande disponible sur le bot, ce ne sont que les principales !<br>\r\n\r\n**🔗 Nos liens:**<br>\r\n`Dashboard` ❱ **<https://unosial.com/>**<br>\r\n`Documentation` ❱ **<https://docs.unosial.com>**<br>\r\n`Invitation` ❱ **<https://unosial.com/invite>**<br>\r\n`Support` ❱ **<https://unosial.com/discord>**<br>"
+    }
+  ],
+  "created": 1573942546735,
+  "edited": 1573942546735,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "455307867562573834",
+  "images": {
+    "avatar": null,
+    "cover": "images/455307867562573834/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://unosial.com/invite"
+  },
+  "nsfw": false,
+  "state": "queue",
+  "support": "https://unosial.com/discord",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "&"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://unosial.com",
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

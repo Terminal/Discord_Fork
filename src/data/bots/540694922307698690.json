@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:376564057517457408"
+  ],
+  "contents": [
+    {
+      "description": "BB-8 is a multipurpose bot with audio, moderation, games and more",
+      "locale": "en-GB",
+      "name": "BB-8",
+      "page": "BB-8 can do everything you need for your server.\r\n-------------------------------------------------------\r\nMod Commands\r\n------\r\n\r\nUse b!help Mod for your classic bans, mutes, unbans and more\r\n\r\nb!modlog (after using modlogset) can be used to set the logging channel for message edits, deletes, members join, left, and more logging\r\n\r\nb!serverinfo for info on your server\r\n\r\nb!help Warnings will show you info on giving users warnings and allow admins to see warnings per user\r\n\r\nb!help Tools for commands such as emoji info and role info and other info types\r\n\r\nb!antimentionspam Configuration settings for AntiMentionSpam\r\n\r\nb!embed Embed commands\r\n\r\nb!autorole Change settings for autorole\r\n\r\nMusic\r\n--------\r\nb!play (songname or link) plays the song \r\n\r\nb!skip skips the current playing song\r\n\r\nb!queue shows current queue of songs\r\n\r\nb!pause pauses the track\r\n\r\nb!stop stops the music\r\n\r\nb!disconnect (dc) disconnects the bot from the voice channel \r\n\r\nb!help Audio for more audio commands such as shuffle and more settings\r\n\r\nLevler\r\n---------\r\nA leveler similar to Mee6 that gives out XP based on messages length and amount of messages sent. \r\n\r\nIncludes a customizable profile, with backgrounds and custom badges, and can even convert mee6 levels to BB-8!\r\n\r\nAlso has a rep feature and can give roles based on levels all for free no gimmicks\r\n\r\nGeneral\r\n---------\r\n\r\nb!adventure This will send you on an adventure! Discord Text bases RPG, includes character classes and loot\r\n\r\nb!alias Manage command aliases.\r\n\r\nb!battleship Start a game of battleship. \r\n\r\nb!battleshipset Config options for batteship. \r\n\r\nb!battleshipstop Stop the game of battleship in this channel.\r\n\r\nb!bigmoji Post a large .png of an emoji\r\n\r\nCardsAgainstHumanity: Classic cards against humanity, use b!help CardsAgainstHumanity to see all commands\r\n\r\nb!blackjack (bidamount) play blackjack against the bot\r\n\r\nb!cleanup Delete messages\r\n\r\nb!cleverbot Talk with cleverbot also triggered by mentioning the bot\r\n\r\nb!color Gives you info on a color\r\n\r\nb!crab Make crab rave videos\r\n\r\nb!customcom Custom commands management.\r\n\r\nb!deepfry Deepfries images. \r\n\r\nb!nuke Demolishes images.\r\n\r\nb!evolution EVOLVE THE GREATEST ANIMALS OF ALL TIME!!!!\r\n\r\nFace: b!face Find and describe the faces in an image.\r\n\r\nb!oof reacts with oof on the last message\r\n\r\nb!8 Ask 8 ball a question.\r\n\r\nb!hangman Play hangman with the bot.\r\n\r\nb!insult Insult the user\r\n\r\nb!invite Send personalized invite for the bot.\r\n\r\nb!minesweeper Starts a game of minesweeper, with allowing you to choose the number of bombs in it.\r\n\r\nb!mock Mock a user with the spongebob meme\r\n\r\nb!help NotSoBot commands for editing, and making images in discord\r\n\r\nb!penis Detects user's penis length\r\n\r\nb!race Race related commands.\r\n\r\nb!retrigger Allows you to set autoresponses and other triggers based on keywords\r\n\r\nTools\r\n--------\r\nb!massrole mass roles users in your server\r\n\r\nb!rolebind allows you to setup reaction roles (needs developer mode to grab msgid)\r\n\r\nb!roleset allows you to set roles as self addable and self removable\r\n\r\nb!myrole Control of personal role\r\n\r\n\r\n```Credits to Red Discord Bot for their Help```\r\n\r\nCheck out b!help for even more commands\r\n-----------------------\r\nContact kennnyshiwa#1337 for support or check out the support server above\r\n------------------"
+    }
+  ],
+  "created": 1556123333873,
+  "edited": 1568432554393,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "540694922307698690",
+  "images": {
+    "avatar": "images/540694922307698690/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=540694922307698690&scope=bot&permissions=2146958839"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/TEeXcDY",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "b!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

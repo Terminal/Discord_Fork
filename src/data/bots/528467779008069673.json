@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:501691742064476161"
+  ],
+  "contents": [
+    {
+      "description": "A bot for backup and restoration of messages.",
+      "locale": "en-GB",
+      "name": "Message Backup Bot",
+      "page": "Hey there! Today I will be showing you what the message backup bot can do. The message backup bot is a bot that can backup up ANY Discord channel in your discord server, As long as it has its permissions, It'll all run perfectly. When you first use the bot, Your rank is set to regular (Free rank). With that, you can backup 100 messages. ONLY 100?? Well, Here it get's a bit mathematical, And here at SnailDOS, We love maths. Basicly, you have 6 save slots, Think about it has a old arcade game, you have 6 save slots, You can delete a save slot, Play from a save slot, Etc. Well, That's technically the same thing. When you backup your messages, it automatically picks your highest amount you can backup, Said already above. And it creates a new slot, View all your backup \"slot's\" by typing: m#backup list The actual word is chatlog for this bot. You can then load the backup by typing m#backup list to get a list of your chatlogs, then type m#backup load {your chatlog id} Uhh, were going off topic, I wanna know why its only 100 messages. Well, We technically answered it. You can backup 100 messages, In 6 \"Saves\" (chatlogs) 6 x 100 = 600 messages. You can litterally backup and restore 600 messages. Aww man... I have a big server.. I wish there was more... But there is... With our PRO version you can backup up to 600 messages as well as restore them... For a cheap price only found on our patreon... Visit our website and press upgrade today! Think about it... 600 x 100 = 3600 That's alot. Visit our website for more details. Whenever buying a pro or anything else from SnailDOS, Please join our discord, It helps our bots validate the proccess much better and faster. WARNING: WHENEVER YOU ARE RESTORING A BACKUP, IT WILL TAKE TIME. YOU WILL NEED TO WAIT UNTIL IT SENDS ALOT OF MESSAGES THROUGH, IT TAKES TIME, AVG: ~5 MINS FOR REGULAR. YOU CAN CHECK IF IT IS DONE OR STILL GOING BY CHECKING THE CHANNEL DESCRIPTION, THE BOT WILL CHANGE IT TO \"LOADING CHATLOG\" I DONT WANT THE BOT MESSING WITH MY SERVER! (Creating webhooks, Changing channel description etc.) Don't worry! The bot cleans up after itself. When its finished, it deletes the webhook it made and changes the channel description back to how it was. Thanks you for viewing this site. Please invite the bot today."
+    }
+  ],
+  "created": 1581120105697,
+  "edited": 1581120105697,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": true
+  },
+  "hide": false,
+  "id": "528467779008069673",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=528467779008069673&permissions=2083912823&redirect_uri=https%3A%2F%2Fsnaildos.github.io%2Fmsginvite.html&response_type=code&scope=identify%20bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://invite.gg/snaildos",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "m#"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://messagebackup.ga",
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

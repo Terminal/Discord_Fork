@@ -1,0 +1,58 @@
+{
+  "authors": [
+    "discord:275138157295435778",
+    "discord:556949886923309083"
+  ],
+  "contents": [
+    {
+      "description": "A multipurpose bot with 60+ diverse commands.",
+      "locale": "en-GB",
+      "name": "makebot",
+      "page": "Makebot adds some fun qualities to your discord server with 60+ diverse commands, ranging from searching NSFW sites to moderating your server.\r\n\r\n## What Makebot Can Do\r\n- Image Manipulation\r\n- Search Youtube\r\n- Search NSFW sites\r\n- Search Reddit\r\n- Music\r\n- Translate your sentences to a language of your choice.\r\n- Assign, remove, and create roles\r\n- Etc.\r\n\r\n## Help Categories\r\nThe standard help page (m.help/m.dmhelp) gives you a list of commands under their appropriate categories.\r\n* 🍆 nsfw: Commands that have NSFW themes. If you use said commands in a SFW channel, makebot will search the (if existing) SFW alternatives to said commands instead.\r\n* 🎉 fun: Entertaining commands.\r\n* 🔊 music: Commands that play/manage music.\r\n* 🔎 mod: Commands that moderate your server.\r\n* 👥 other: Commands that don't fit in with the other help pages.\r\n\r\nA full list of every command can be seen if you click the \"Website\" button."
+    }
+  ],
+  "created": 1547414899853,
+  "edited": 1571792145639,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "429890475038867468",
+  "images": {
+    "avatar": "images/429890475038867468/avatar.png",
+    "cover": null,
+    "preview": [
+      "images/429890475038867468/0.png",
+      "images/429890475038867468/1.png",
+      "images/429890475038867468/2.png",
+      "images/429890475038867468/3.png",
+      "images/429890475038867468/4.png",
+      "images/429890475038867468/5.png",
+      "images/429890475038867468/6.png",
+      "images/429890475038867468/7.png"
+    ]
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=429890475038867468&permissions=305261638&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "m."
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://github.com/makebot-help/Command-Info",
+  "source": null,
+  "categories": [
+    "entertainment"
+  ]
+}

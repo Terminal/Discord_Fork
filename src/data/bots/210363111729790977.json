@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:191231307290771456"
+  ],
+  "contents": [
+    {
+      "description": "A chat bot with mod and music commands (plays from spotify)",
+      "locale": "en-GB",
+      "name": "dunctebot",
+      "page": "<iframe src=\"https://bot.duncte123.me/#commands\" class=\"ls-iframe\">\r\n<!--\r\nThis data was imported from ls.terminal.ink\r\n-->\r\n"
+    }
+  ],
+  "created": 1527811200000,
+  "edited": 1556751935919,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "210363111729790977",
+  "images": {
+    "avatar": "images/210363111729790977/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=210363111729790977&scope=bot&permissions=8"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "db!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

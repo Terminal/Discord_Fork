@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:327887845270487041"
+  ],
+  "contents": [
+    {
+      "description": "Suggester is a bot that manages server suggestions",
+      "locale": "en-GB",
+      "name": "Suggester",
+      "page": "Suggester\r\n\r\n- What can I use it for?\r\nSuggester is a bot used for managing suggestions! Users can submit suggestions, and server staff members with the customizable staff role can approve or deny them, making sure only valid suggestions make it out to users for voting.\r\n\r\n- Inviting the bot\r\nInviting Suggester is easy! Go to https://discordapp.com/oauth2/authorize?client_id=564426594144354315&scope=bot&permissions=67497025 to add it to your server! The bot requires all permissions there, or else it will not work correctly.\r\n\r\n- Features\r\nSuggester has two different suggestion handling modes: \"review\" and \"autoapprove\". The \"review\" mode will hold all submitted suggestions for staff review, and the \"autoapprove\" mode will automatically send every suggestion to the suggestions feed.\r\n\r\nOnce a suggestion has been approved, it can be commented on, marked as having a certain status (ex. done), and have an attachment added. You can read more about the bot and its features at https://suggester.gitbook.io/docs/\r\n\r\n-Support\r\nIf you have any questions about the bot or need assistance, you can head over to our Support Server (https://discord.gg/a3NuakW) and our team will be more than happy to help!"
+    }
+  ],
+  "created": 1568317007796,
+  "edited": 1568317007796,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "564426594144354315",
+  "images": {
+    "avatar": null,
+    "cover": "images/564426594144354315/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=564426594144354315&scope=bot&permissions=67497025"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/a3NuakW",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "."
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://suggester.gitbook.io/",
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

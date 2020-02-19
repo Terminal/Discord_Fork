@@ -1,0 +1,42 @@
+{
+  "authors": [],
+  "contents": [
+    {
+      "description": "This bot can be used for moderation, fun, nsfw, and a lot more.",
+      "locale": "en-GB",
+      "name": "CripsBot",
+      "page": "# CripsBot\n\nThis bot is a multipurpose discord bot ranging from moderation to fun commands."
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1542569433000,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "408741303837392926",
+  "images": {
+    "avatar": "images/408741303837392926/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=408741303837392926&permissions=305523958&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      ">"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

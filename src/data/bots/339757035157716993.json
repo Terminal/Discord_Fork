@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:165372475562000385"
+  ],
+  "contents": [
+    {
+      "description": "PokeWorld is the World's First Pokemon Text Based MUD/MMO for your Discord Server.",
+      "locale": "en-GB",
+      "name": "Pokeworld",
+      "page": "Bot Requires: EMBED Access, and Permissions to Post in a Channel.\r\n\r\nPokeworld contains all Regions with a handcrafted world. Experience the same adventure as that of the games with a text based world. \r\n\r\n# Current Features\r\n* Complete Pokedex\r\n* 1200+ Routes spread across all the Regions.\r\n* Ability to Capture, Train, and Battle Pokemon\r\n* Multi-user Dungeon based Experience\r\n* MMO Style Gameplay & More!"
+    }
+  ],
+  "created": 1554876698747,
+  "edited": 1556750474646,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "339757035157716993",
+  "images": {
+    "avatar": "images/339757035157716993/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=339757035157716993&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/Q3sNbtT",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "pw!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "games"
+  ]
+}

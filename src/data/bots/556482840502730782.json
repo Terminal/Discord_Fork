@@ -1,0 +1,49 @@
+{
+  "authors": [
+    "discord:163164447848923136",
+    "discord:444362474914054154"
+  ],
+  "contents": [
+    {
+      "description": "Music ✅ Playlists ✅ Admin ✅ Fun ✅ Anime ✅ == This is a German Bot.",
+      "locale": "de",
+      "name": "JuluzChan",
+      "page": "Music ✅ Playlists ✅ Admin ✅ Fun ✅ Anime ✅ \r\n\r\nJuluzChan ist ein noch sehr kleines aber Nettes Mädchen, sie hilft dir bei Moderationen, beim Spaß haben oder beim Music hören (sie hält deine kopfhörer xD). Aber sie ist nicht nur zur Hilfe gedacht sondern ist ein allgemeiner Anime- und Manga Bot mit vielen coolen commands!"
+    }
+  ],
+  "created": 1553378633061,
+  "edited": 1553785333581,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "556482840502730782",
+  "images": {
+    "avatar": "images/556482840502730782/avatar.png",
+    "cover": "images/556482840502730782/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=556482840502730782&scope=bot&permissions=8"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/yBsEsnV",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "j!help"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://sites.google.com/view/juluzchan/homepage",
+  "source": null,
+  "categories": [
+    "entertainment"
+  ]
+}

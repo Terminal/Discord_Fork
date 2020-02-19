@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:489402723180085258"
+  ],
+  "contents": [
+    {
+      "description": "¡UltimateMusic es un BOT dedicado a la música de tu servidor!",
+      "locale": "es",
+      "name": "UltimateMusic",
+      "page": "UltimateMusic es un BOT de música en español con el objetivo de satisfacer al usuario y a los miembros del servidor de Discord además de estoy UltimateMusic cuenta con un setprefix por servidor también cómandos originales y actividad las 24 horas del día."
+    }
+  ],
+  "created": 1572053555918,
+  "edited": 1572053560113,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "602949866456481808",
+  "images": {
+    "avatar": "images/602949866456481808/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=602949866456481808&permissions=66395457&scope=bot"
+  },
+  "nsfw": false,
+  "state": "denied",
+  "support": "https://discord.gg/GF9C4nr",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "+"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "music"
+  ]
+}

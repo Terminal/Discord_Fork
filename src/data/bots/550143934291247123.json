@@ -1,0 +1,49 @@
+{
+  "authors": [
+    "discord:145788286156144641",
+    "github:SydneyRain"
+  ],
+  "contents": [
+    {
+      "description": "Nibiru is a fun multipurpose bot with various features like an economy, moderation, logging, & more!",
+      "locale": "en-GB",
+      "name": "Nibiru",
+      "page": "Nibiru v1.1.1\r\n________________\r\n\r\nNibiru is a general-purpose Discord bot, made for no explicit purpose but it contains lots of fun, moderation, games, and other cool and neat ideas and commands built in. The bot is designed to be very easy to learn and use, and is also designed to have easily readable source code too, so you can read the code and learn from the bot!\r\n\r\nCommand List\r\n________________\r\n\r\nBut what use is a bot without a command list? See for yourself if Nibiru is right for your server. A few commands are omitted, but you can type +help on the bot to see the full list. If you want help on a specific command, type +help <command>\r\n\r\nThe prefix for this bot is +, you can change this by typing +prefix <prefix>\r\n\r\nEconomy\r\n________________\r\n\r\n+balance <user> (optional) | Retrieves your or another users total balance, bank balance, and net worth.\r\n\r\n+daily | Gives you your daily 1200 NibiruBucks. This command may only be ran every 24 hours.\r\n\r\n+deposit <amount> | Deposits money into your bank account.\r\n\r\n+give <user> <amount> | Gives money to a user.\r\n\r\n+leaderboard | Gives a list of the top 10 richest people in the server.\r\n\r\n+setcurrency <currency symbol> | Sets the currency symbol for the server.\r\n\r\n+setup | Sets the bot up for the server.\r\n\r\n+withdraw <amount> | Withdraws money from your bank.\r\n\r\nGames\r\n________________\r\n\r\n+slots <amount> | Plays a game of slots! You can bet your NibiruBucks and potentially get up to 15x the amount you bet!\r\n\r\nFun\r\n________________\r\n\r\n+8ball <question> | Ask the Magic 8-Ball a question about your future!\r\n\r\n+achievement <text> | Achievement Get! Generates an \"achievement get\" message, like in Minecraft.\r\n\r\n+cleverbot <text> | Chat to Cleverbot, the best AI in the world!\r\n\r\n+cookie <user> | Gives a cookie to someone.\r\n\r\n+randomcolor | Generate a completely random hex color.\r\n\r\n+waifu | Generate an computer-generated waifu from www.thiswaifudoesnotexist.net.\r\n\r\nModeration\r\n________________\r\n\r\n+ban <user> <reason> | Ban a user from your server. When they are banned, I will DM them the reason they were banned.\r\n\r\n+createrole <hex> <role name> | Creates a role.\r\n\r\n+creatxtchanl <channel name> | Creates a text channel.\r\n\r\n+creatvoichanl <channel name> | Creates a voice channel.\r\n\r\n+disablelogs <channel name> | Disables logging for this server.\r\n\r\n+enablelogs <channel name> | Enables logging for this server. Nibiru will log messgae edits/deletions, and user joins/leaves.\r\n\r\n+hardkick <user> <reason> | Hardkick a user. I will not DM them the reason they were kicked.\r\n\r\n+hardban <user> <reason> | Hardban a user. I will not DM them the reason they were banned.\r\n\r\n+kick <user> <reason> | Kick a user. I will DM them the reason they were kicked.\r\n\r\n+move <message id> <channel> | Moves a message from one channel to another. Requires a message id.\r\n\r\n+prefix <prefix> | Sets the prefix for Nibiru. This will last until the next time Nibiru restarts.\r\n\r\n+setchanlname <channel to rename> <new channel name> | Renames a channel.\r\n\r\n+settopic <text> | Sets the topic on the current channel.\r\n\r\n+warn <user> <reason> | Warns a user. A reason will be DMed to them.\r\n\r\nText\r\n________________\r\n\r\n+ascii <text> | Make ASCII art out of text!\r\n\r\n+coinflip | Flips a coin.\r\n\r\n+cowsay <text> | Make a cow say something!\r\n\r\n+say <text> | Make me saying anything. Anythinggg at all.\r\n\r\nUtility\r\n________________\r\n\r\n+avatar <user> | Grab a users avatar, you will receive a link to the highest resolution of their avatar.\r\n\r\n+botinfo | Get information about the bot, including uptime, amount of servers its in, library versions, and more.\r\n\r\n+channelid | Gets the current channel's ID.\r\n\r\n+help <command> | Gets help on a certain command. If no command is specified, it will list all available commands.\r\n\r\n+invite | Gets the invite link for Nibiru.\r\n\r\n+ping <ip/website> (optional) | Ping either the bot which will respond with its latency, or ping a website/IP address.\r\n\r\n+serverinfo <server id> (optional) | Get information about the current server you're in, including amount of members by status, server region, server roles, and more. You can also get information about a server by specifying its ID. This requires Nibiru to be in that server.\r\n\r\n+weather <city> | Gets the current forecast for any city around the world, powered by OpenWeatherMap."
+    }
+  ],
+  "created": 1553586924177,
+  "edited": 1553586924177,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "550143934291247123",
+  "images": {
+    "avatar": "images/550143934291247123/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=550143934291247123&scope=bot&permissions=0"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "+"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": "https://github.com/SydneyRain/nibirubot",
+  "categories": [
+    "fun"
+  ]
+}

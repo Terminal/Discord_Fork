@@ -1,0 +1,56 @@
+{
+  "authors": [
+    "discord:156481332652802048"
+  ],
+  "contents": [
+    {
+      "description": "BrownBear Bot comes with some of Discord bot's most popular features.",
+      "locale": "en-GB",
+      "name": "BrownBear Bot",
+      "page": "Do: Bearhelp \r\nIt will show all command categories.\r\n\r\nThen do: Bearhelp {categoryname} \r\nThis will show you all avalible commands on the category.\r\n\r\n\r\n\r\n\r\n\r\nDiscord bot features Equip your Discord server with some of our Discord bot's most popular features.\r\n\r\nStream Music Request music via youtube, soundcloud, twitch, radio links, or by name with ease.\r\n\r\nMusic Playlists Create custom music playlists and share your playlists with other people with ease.\r\n\r\nAdministration Administration made easy, take a load off your shoulders and let Ava do the hard work.\r\n\r\nLevel & Leaderboards Earn XP and levels, and ranks through level ups, show off your rank via the website leaderboard on in-discord.\r\n\r\nJoin & Leave Messages Broadcast messages when users joins or leaves your server on a per-channel basis.\r\n\r\nBilingual Commands Ava supports multiple languages, you can change what languages Ava uses on the fly.\r\n\r\nCustomizable Prefixes Don't like the default prefix? No worries, you can change it to anything you'd like.\r\n\r\nLots of Fun Commands Ava has a lot of fun/game commands, and more are constantly being added\r\n\r\nAnd much more!\r\n\r\nMain features \r\n\r\n\r\n\r\nMusic streaming from YouTube, SoundCloud, Twitch etc. Custom music playlists that you can play anytime.\r\n\r\nModeration commands (Ban, kick, slowmode) \r\n\r\nSearch for comics and reaction gifs \r\nExtended server functionality (Welcome messages, server and user info) \r\n\r\nHigh level of customization \r\n\r\nChanging messages on a per-server basis\r\n \r\nChange the languages Bear uses \r\n\r\nCreate custom aliases for existing commands \r\n\r\nChange the prefix bear uses on a per-module basis"
+    },
+    {
+      "description": "BrownBear Bot viene equipado con las funciones más populares.",
+      "locale": "es",
+      "name": "BrownBear Bot",
+      "page": "Al escribir: Bearhelp\r\nMostrará todas las categorías de comando.\r\n\r\nDespues, escribe: Bearhelp {categoryname}\r\nEsto le mostrará todos los comandos disponibles en la categoría.\r\n\r\n\r\n\r\n\r\n\r\nFunciones de Discord bot Equipe a su servidor de Discord con algunas de las funciones más populares de nuestro Discord bot.\r\n\r\nTransmita música Solicite música a través de youtube, soundcloud, twitch, enlaces de radio o por nombre con facilidad.\r\n\r\nListas de reproducción de música Cree listas de reproducción de música personalizadas y comparta sus listas de reproducción con otras personas con facilidad.\r\n\r\nAdministración La administración es fácil, quita una carga de tus hombros y deja que Ava haga el trabajo duro.\r\n\r\nNiveles y clasificaciones Gana XP y niveles, y sube de nivel, muestra tu clasificación a través de la tabla de clasificación del sitio web en la discordia.\r\n\r\nMensajes de unirse y dejar Mensajes de difusión cuando los usuarios se unen o salen de su servidor canal por canal.\r\n\r\nComandos bilingües Ava admite varios idiomas, puede cambiar los idiomas que Ava usa sobre la marcha.\r\n\r\nPrefijos personalizables ¿No te gusta el prefijo predeterminado? No te preocupes, puedes cambiarlo a lo que quieras.\r\n\r\nUn montón de comandos divertidos Ava tiene un montón de comandos de juegos / diversión, y se agregan más constantemente\r\n\r\n¡Y mucho más!\r\n\r\nCaracterísticas principales Transmisión de música desde YouTube, SoundCloud, Twitch, etc. Listas de reproducción de música personalizadas que puede reproducir en cualquier momento Comandos de moderación (Ban, kick, slowmode) Busque cómics y gifs de reacción Funcionalidad de servidor extendida (Mensajes de bienvenida, información del servidor y del usuario) Alto nivel de personalización Cambio de mensajes por servidor Cambie los idiomas que Ava usa Crear alias personalizados para los comandos existentes Cambie el prefijo ava usa por módulo"
+    }
+  ],
+  "created": 1564046683782,
+  "edited": 1564048832483,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "603378841003622433",
+  "images": {
+    "avatar": "images/603378841003622433/avatar.png",
+    "cover": "images/603378841003622433/background.png",
+    "preview": [
+      "images/603378841003622433/0.png"
+    ]
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=603378841003622433&permissions=8&redirect_uri=https%3A%2F%2Fdiscord.gg%2F5xkt66f&response_type=code&scope=bot%20guilds.join"
+  },
+  "nsfw": false,
+  "state": "denied",
+  "support": "https://discord.gg/5xkt66f",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "Bear"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

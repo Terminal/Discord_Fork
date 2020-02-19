@@ -1,0 +1,49 @@
+{
+  "authors": [
+    "discord:248294452307689473",
+    "github:BoobBot"
+  ],
+  "contents": [
+    {
+      "description": "Lovely pictures of nature 🍑",
+      "locale": "en-GB",
+      "name": "BoobBot",
+      "page": "Discord's original NSFW bot.\r\nNo bullshit, just HQ content."
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1550946578064,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "285480424904327179",
+  "images": {
+    "avatar": "images/285480424904327179/avatar.png",
+    "cover": "images/285480424904327179/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://bot.boob.bot"
+  },
+  "nsfw": true,
+  "state": "approved",
+  "support": "https://invite.boob.bot",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "bb"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://boob.bot",
+  "source": "https://github.com/BoobBot/BoobBot.jda",
+  "categories": [
+    "other"
+  ]
+}

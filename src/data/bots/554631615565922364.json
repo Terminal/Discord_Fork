@@ -1,0 +1,49 @@
+{
+  "authors": [
+    "discord:316980441502449666",
+    "github:tuxnull"
+  ],
+  "contents": [
+    {
+      "description": "An easy-to-use CAPTCHA Bot to protect your Discord from Raiders and Self-Bots!",
+      "locale": "en-GB",
+      "name": "CaptchaBot",
+      "page": "Introducing CAPTCHABot, the easy-to-use Discord Bot to protect your Guild from Raiders and Self-Bots! CAPTCHABot is still in development - should you have any suggestions or need help setting CAPTCHABot up for your Guild, feel free to message me (Pexing#4217)\r\n\r\nTo get started, invite CAPTCHABot to your Guild and simply run c/setVerifiedRole < Member Role > to specify which Role you want verified users to get.\r\n\r\nCommands:\r\n\r\nc/help - Displays a handy little help message to show you all commands\r\n\r\nc/verify - Generates a CAPTCHA for the user to solve\r\n\r\nc/vc < CAPTCHA > - CAPTCHA Readback Command\r\n\r\nc/setVerifiedRole < Role > - Sets the Role to be given to verified users. (Requires Administrator Permission)"
+    }
+  ],
+  "created": 1552323752041,
+  "edited": 1552323752041,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "554631615565922364",
+  "images": {
+    "avatar": "images/554631615565922364/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=554631615565922364&scope=bot&permissions=8"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/gDRN7bU",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "c/"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

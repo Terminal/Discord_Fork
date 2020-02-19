@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:553583796935720963"
+  ],
+  "contents": [
+    {
+      "description": "Luoria est un bot complètement Français ! ",
+      "locale": "fr",
+      "name": "Luoria 🌙 - Bot",
+      "page": "# Luoria  - Bot\r\n\r\n**FR :** Ce bot est entièrement Français ! Pour tous les visiteurs anglophones du coin, je suis désolé mais aucune version anglaise n'est encore faite, cependant celle-ci sera ajoutée plus tard.\r\n\r\n**EN :** This robot is entirely French! For all English speaking visitors, I am sorry but no English version is yet made, however this will be added later.\r\n\r\n* #### *Luoria est un bot multifonctions dont les commandes sont traduites en français. Celui-ci comporte différentes catégories qui lui sont associées, en voici certaines :*\r\n\r\n\r\n>>>>|⚒ Utilitaire|🎉 Fun |⚔ RPG |🛡 Modération\r\n>>>>|-----|------|------|------|\r\n>>>>|shorturl|say|aiderpg|kick\r\n>>>>|avatar|calin|profil|ban\r\n>>>>|setbotnick|pat|inventaire|lock\r\n>>>>|calc|poke|boutique|giverole\r\n>>>>|createinvite|embrasse|vendre|removerole\r\n>>>>|remindme|chatouille|mine|clear\r\n-----\r\n* Comment les commandes fonctionnent-elles ?\r\n\r\nToutes les commandes dans le `l!help` sont sous ` balise `, cependant pour que les commandes fonctionnent correctement, il vous suffit de noter correctement le préfixe ==l!== suivit de votre choix. Par exemple : `l!poke` ou encore `l!calin`.\r\n\r\n------\r\n\r\n* Le bot n'a normalement pas besoin de beaucoup de permissions, celles-ci sont toutes de base dans le lien d'invitation, cependant si vous voulez être plus tranquille au long terme, vous pouvez avoir un lien qui vous met toutes les permissions possible au bot pour ne plus jamais avoir à y toucher. [Clique-ici](https://discordapp.com/oauth2/authorize?client_id=641788481802207243&scope=bot&permissions=2146958591)\r\n\r\nSachez que si vous avez un problème quelconque avec le bot, il vous suffit de faire la commande `l!contacter` et / ou `l!invite` pour avoir une invitation au serveur support. Nous vous répondrons dès que possible. ;)"
+    }
+  ],
+  "created": 1580710338801,
+  "edited": 1580710338801,
+  "flags": {
+    "adverts": true,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "641788481802207243",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=641788481802207243&scope=bot&permissions=2146958591"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/pususus",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "l!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:266103595949096960"
+  ],
+  "contents": [
+    {
+      "description": "Filo is a multifunctional Discord bot trained for all administrative tasks.",
+      "locale": "en-GB",
+      "name": "Filo",
+      "page": "![Information](https://i.imgur.com/f6TWbkw.png)\r\n\r\n## Information about Filo\r\n\r\nFilo is a multifunctional Discord bot trained for all administrative tasks. Supported languages: Spanish and English.\r\n\r\nYou can configure some aspects of Filo and even the language using the **config** command.\r\n\r\nYou can get a complete list of Filo commands using the **f!help** command.\r\n\r\n---\r\n\r\n![Modules](https://i.imgur.com/4lM0mNf.png)\r\n\r\n## Information about Filo modules\r\n\r\nFilo has some modules of interest that can help you manage your server in the easiest and optimal way.\r\n\r\n- ### Language system:\r\n    Filo is compatible with some languages and you can adjust it according to your preferences. [More information of the language system](https://docs.filobot.xyz/v/en/config/lang).\r\n- ### Report system:\r\n    Filo has a built-in server reporting system, which will allow users to report to other members of the server and notify the administration of said report. [More information of the report system](https://docs.filobot.xyz/v/en/config/reports).\r\n- ### Support system / Ticket system:\r\n    Filo has a support system through tickets that allows the user to create a private channel with which to contact the administration of the server or the members of the support. [More information of the support system](https://docs.filobot.xyz/v/en/config/support).\r\n- ### Logging:\r\n    Filo has a system of logging which will allow you to have records of certain actions in a more specific and detailed way. [More information of the logging system](https://docs.filobot.xyz/v/en/config/logs).\r\n- ### Welcome & Farewells:\r\n    Filo has a Welcome & Farewell module which notifies people who join your server and people who leave your server. In the welcome module, the option of adding a role for new members is also possible. [More information of the welcome system](https://docs.filobot.xyz/v/en/config/welcome). [More information of the farewells system](https://docs.filobot.xyz/v/en/config/bye).\r\n- ### Member counter:\r\n    Filo has a module to count the members of your server using a text or voice channel from the server. It also allows you to customize the name of the channel. [More information of the member counter system](https://docs.filobot.xyz/v/en/config/counter).\r\n\r\n\r\n---\r\n\r\n![Support](https://i.imgur.com/g63ptsV.png)\r\n\r\n## Information about support\r\n\r\nYou can get help from different methods, which are mentioned below:\r\n\r\n- [Entering our official Discord Server](https://filobot.xyz/discord).\r\n- [Send us a support email](mailto:support@filobot.xyz?Subject=Help%20request%20via%20bot%20page).\r\n- [Requesting help on our Official Twitter](https://twitter.com/FiloDiscord).\r\n\r\n---\r\n\r\n![Donate](https://i.imgur.com/pctdazg.png)\r\n\r\n## Information about donations\r\n\r\nFilo is a bot **F R E E** and we are constantly working to improve it … in recent days we have been experimenting with a secret formula to grow money from trees, but it doesn’t give any results. That is why we need your help! Donating will help Filo maintain his Anime account!\r\n\r\nYou will receive some **rewards** on our server for each donation made.\r\n\r\nYou can donate to Filo in [Patreon](https://filobot.xyz/donate).\r\n\r\n---\r\n\r\n![Documentation](https://i.imgur.com/cvCi1S4.png)\r\n\r\n## Information about the documentation\r\n\r\nHaving trouble setting up Filo? Don't you know what each command does? Don't you know the permissions that each command requires? Do not worry! Here are some links to the Filo documentation:\r\n\r\n- [Documentación en Español](https://docs.filobot.xyz/v/es).\r\n- [English documentation](https://docs.filobot.xyz/v/en).\r\n\r\n---\r\n\r\n![Status](https://i.imgur.com/MptJQAe.png)\r\n\r\n## Information about the status of Filo\r\n\r\nFilo is not available? Filo does not respond to any command? We may have some technical failures and therefore Filo does not respond correctly to commands. You can check the status of Filo on [our status page](https://status.filobot.xyz).\r\n\r\n---\r\n\r\n![Filo's Blog](https://i.imgur.com/3w45YYr.png)\r\n\r\n## Information about Filo's blog\r\n\r\nFilo has a nice place where the developer's notes (weekly edition) and topics of interest written by our blog contributors are published. [Check out our blog!](https://blog.filobot.xyz)\r\n\r\n---\r\n\r\n![Vote to Filo](https://i.imgur.com/V0zRNs4.png)\r\n\r\n## Information about voting\r\n\r\nFilo is a Discord bot that needs to be pampered by users. In order to pamper you to vote for her on some pages of Discord Bots, in return, she will give you some points that you can use to redeem in rewards. [Vote for Filo today!](https://filobot.xyz/vote)\r\n\r\n---\r\n\r\n![ToS and privacy policy](https://i.imgur.com/ot0cVXR.png)\r\n\r\n## Information about ToS and the privacy policy\r\n\r\nFilo has some terms and conditions of the service that you accept once you execute a command or add Filo to a server. You can check these terms and conditions on [our website](https://filobot.xyz/terms).\r\n\r\n\"**We**\" collect informational data in order to improve the user experience. You can find out about the data we obtain on [our website](https://filobot.xyz/terms).\r\n\r\n---\r\n\r\n![Support server](https://i.imgur.com/4WAq3v0.png)\r\n\r\n## Information about the support server\r\n\r\nFilo has an official support server where you can communicate with our Developers, STAFFs, etc. You can also get personalized help and talk to other people with similar interests to yours. [Enter our Discord server today!](https://filobot.xyz/discord)\r\n\r\n![Discord Widget](https://discordapp.com/api/guilds/381550705363648512/embed.png?style=banner2)"
+    }
+  ],
+  "created": 1564314738951,
+  "edited": 1578416425691,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "568083171455795200",
+  "images": {
+    "avatar": "images/568083171455795200/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=568083171455795200&scope=bot&permissions=2146958839&response_type=code&redirect_url=https://filobot.xyz/thanks"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/xHhBWhT",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "f!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://filobot.xyz/?utm_source=https://discordapps.dev&utm_medium=botlists&utm_content=button_link",
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

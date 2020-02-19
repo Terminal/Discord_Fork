@@ -1,0 +1,49 @@
+{
+  "authors": [
+    "discord:477141528981012511",
+    "github:BigBotNetwork"
+  ],
+  "contents": [
+    {
+      "description": "The GottBot is a small Discord Bot with about 25 Commands",
+      "locale": "en-GB",
+      "name": "GottBot",
+      "page": "The GottBot is a small Discord Bot with already about 25 Command we are constantly working on new features"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1572214981804,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "407189087649398795",
+  "images": {
+    "avatar": "images/407189087649398795/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=407189087649398795&scope=bot&permissions=805792839"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "object"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": "https://github.com/BigBotNetwork/GottBotReloaded",
+  "categories": [
+    "other"
+  ]
+}

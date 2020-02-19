@@ -1,0 +1,50 @@
+{
+  "authors": [
+    "discord:488786712206770196",
+    "github:discord-tacos"
+  ],
+  "contents": [
+    {
+      "description": "Taco-themed bot including economy, moderation, music and more.",
+      "locale": "en-GB",
+      "name": "Taco-bot",
+      "page": "## Taco-bot\r\n🌮 - [Taco-bot](https://discordbots.org/bot/511400985596395521), the best discord bot featuring Tacos.\r\n\r\n### Invite\r\n> [Click here to invite the bot.](https://discordapp.com/oauth2/authorize?client_id=511400985596395521&permissions=2146958847&scope=bot)\r\n\r\n### Partners\r\nHey... we have that?\r\n<!-- Do not link to crap bot lists (7coil) -->\r\n> lmao-bot - <!-- [Vote](https://discordbots.org/bot/459432854821142529/vote) | [DBL](https://discordbots.org/bot/459432854821142529) --> - Fun utility bot replaces asses after people \"lmao\". Create custom filters/commands, play music, moderate, create images, and more! 60+ cmds~\r\n\r\n### How do I get the commands?\r\nPlease type `taco help` in any server that features/includes Taco-bot. 🌮\r\n\r\n### Taco-bot's library\r\nTaco-bot is a proud user of the library [discord.py](https://github.com/Rapptz/discord.py)\r\n\r\n### Modules/Cogs\r\nThese are the \"modules\" or otherwise known as cogs, that Taco-bot has featured on it or that you can use.\r\n- **Admin** [Secret, only to bot admins or bot owners]\r\n- **Economy**\r\n- **Fun**\r\n- **Help**\r\n- **Info**\r\n- **Moderation**\r\n- **Music**\r\n- **Utility**\r\n\r\n> ![DBL-BANNER](https://discordbots.org/api/widget/511400985596395521.svg)\r\n\r\n## FAQ \r\n> Wow! An FAQ!\r\n\r\n### I want to support the bot, but I don't have money!?\r\nHey, just upvote the bot here at [this link](https://discordbots.org/bot/511400985596395521/vote), it'll take like... 5 seconds and you might get rewards for it soon.\r\n\r\n### But what if I do have money?\r\nWell, just donate for the bot [here](https://donatebot.io/checkout/511408386982543361).\r\n\r\n### Where is the code?\r\nIn a folder called \"cogs\", it contains all the code for all the commands, if you wanted to take a bit of the code, I wouldn't mind.\r\n\r\n### Is there like, a server for the bot?\r\nIn fact, there is. [Here's the invite link.](https://discord.gg/payjdYy)\r\n\r\n### I want this command on the bot, how do I tell you?\r\nYou can join the [support server](https://discord.gg/payjdYy), and @mention **[@Blizma#8548]** me to add this command.\r\n\r\n### How do I get the commands? (duplicate)\r\nPlease type `taco help` in any server that features/includes Taco-bot. 🌮\r\n\r\n### What about Psychic?\r\nWhat's Psychic?\r\n\r\n"
+    }
+  ],
+  "created": 1545698083571,
+  "edited": 1553125735533,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "511400985596395521",
+  "images": {
+    "avatar": "images/511400985596395521/avatar.png",
+    "cover": "images/511400985596395521/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=511400985596395521&permissions=2146958847&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/payjdYy",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "taco",
+      "t!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": "https://github.com/discord-tacos/Taco-bot",
+  "categories": [
+    "entertainment"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:299708692129906692"
+  ],
+  "contents": [
+    {
+      "description": "Fun, Utility, and Meme commands!",
+      "locale": "en-GB",
+      "name": "Google Assistant (cleverbot)",
+      "page": "Fun, Utility, and Meme commands!\r\nJust say \"hey google\" to get started."
+    }
+  ],
+  "created": 1552274333522,
+  "edited": 1552274333522,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "542144714460233728",
+  "images": {
+    "avatar": "images/542144714460233728/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=542144714460233728&permissions=8&scope=bot"
+  },
+  "nsfw": false,
+  "state": "denied",
+  "support": "https://ga.sebby.tk",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "Hey Google"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://ga.sebby.tk",
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

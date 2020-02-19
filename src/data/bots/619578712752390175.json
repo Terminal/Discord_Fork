@@ -1,0 +1,49 @@
+{
+  "authors": [
+    "discord:619578712752390175",
+    "github:MirayXS"
+  ],
+  "contents": [
+    {
+      "description": "Weeby, Memes,image generators, Pats and Cuddles, chatbot system and moderation.Our animals are cute",
+      "locale": "en-GB",
+      "name": "Mirayyh",
+      "page": "# Mirayyh\r\n \r\n# The Official Mirayyh Discord Bot\r\n \r\nCommands\r\n\r\n\r\n\r\n     🎉Fun🎊\r\n    pepe,  cat, meme, retarded\r\n \r\n     📊Info/Util💻\r\n     botinfo, server, info, userinfo, avatar, invite, stats\r\n\r\n     🛠Moderation🚔\r\n    warn, kick, removerole, addrole\r\n\r\n     🎮Anime🎮\r\n     foxanimegirl, hug, kiss, slap, cuddle, pat, poke\r\n\r\n    💾And More!...📝\r\n  \r\n\r\n# 🛈Features\r\n\r\n  \r\n[✓] 24/7.\r\n   \r\n[✓] Lots of Interaction and Fun Commands\r\n    \r\n[✓] Moderation commands.\r\n    \r\n[✓] anime commands.\r\n    \r\n[✓] utility commands\r\nAnd more!"
+    }
+  ],
+  "created": 1577037312150,
+  "edited": 1577037312150,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "619578712752390175",
+  "images": {
+    "avatar": "images/619578712752390175/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=619578712752390175&scope=bot&permissions=1379269878"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/NMPd2qh",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "x!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://mirayxs.gitbook.io/miraydocs/",
+  "source": "https://github.com/MirayXS/Mirayyh",
+  "categories": [
+    "image"
+  ]
+}

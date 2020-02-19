@@ -1,0 +1,49 @@
+{
+  "authors": [
+    "discord:341748916829552641",
+    "github:KnoxDevTeam"
+  ],
+  "contents": [
+    {
+      "description": "A Fun, Customizable Discord Bot Made by Discord Lovers for Discord Lovers",
+      "locale": "en-GB",
+      "name": "Lavender",
+      "page": "Lavender is a Discord bot developed mostly by Matt and Lucas, two developers at Knox, Corp. Lavender is built to include everything you need, nothing you don't, and show you everything happening on the inside of the bot so you know that you are 100% safe.\r\n"
+    }
+  ],
+  "created": 1549331938431,
+  "edited": 1549331938431,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "493955692445696015",
+  "images": {
+    "avatar": "images/493955692445696015/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=493955692445696015&permissions=36924486&redirect_uri=https%3A%2F%2Flavender.knoxcorp.me%2Fthanks.html&scope=bot"
+  },
+  "nsfw": false,
+  "state": "denied",
+  "support": "https://discord.gg/MaK7BtW",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "+"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://lavender.knoxcorp.me",
+  "source": "https://github.com/KnoxDevTeam/Lavender",
+  "categories": [
+    "moderation"
+  ]
+}

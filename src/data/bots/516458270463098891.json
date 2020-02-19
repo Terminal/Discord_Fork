@@ -1,0 +1,45 @@
+{
+  "authors": [
+    "discord:484765734803734540"
+  ],
+  "contents": [
+    {
+      "description": "Best waifu bot there is, she can do more than your waifu.",
+      "locale": "en-GB",
+      "name": "Ilya",
+      "page": "Ilya\r\nIlya was crafted to be use-able by anyone, wether you have knowledge of discord or not\r\nShe has a easy to use prefix, command layout & ease-of-access help menu.\r\nIlya's commands is fun so you'll never have a boring moment on discord with your friends!\r\n\r\nDid you know?\r\nYou can customize the prefix with -prefix"
+    }
+  ],
+  "created": 1544775591894,
+  "edited": 1544841761351,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "516458270463098891",
+  "images": {
+    "avatar": "images/516458270463098891/avatar.png",
+    "cover": "images/516458270463098891/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=516458270463098891&scope=bot&permissions=1609952759"
+  },
+  "nsfw": false,
+  "state": "denied",
+  "support": "https://discord.gg/Z7AR44b",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "-"
+    ]
+  },
+  "videos": {},
+  "website": "https://etcroot.pw/ilya/",
+  "source": null,
+  "categories": [
+    "entertainment"
+  ]
+}

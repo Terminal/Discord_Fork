@@ -1,0 +1,43 @@
+{
+  "authors": [],
+  "contents": [
+    {
+      "description": "Powerful multi-languages configurable bot.",
+      "locale": "en-GB",
+      "name": "Koya",
+      "page": "KoyaBot is a bot made for a full usage, every stuff you need in your server, he mostly do it.\r\n<br>\r\n<br>\r\nJoin the <a href=\"https://discord.koyamie.com\">KoyaBot main server</a> for any question/problems/suggestions and talk.\r\n<br>\r\n<br>\r\nYou can easly configure me on my dashboard <a href=\"http://koyabot.koyamie.com\">here</a>.\r\n<!--\r\nThis data was imported from ls.terminal.ink\r\n-->\r\n"
+    }
+  ],
+  "created": 1527811200000,
+  "edited": 1527811200000,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "276060004262477825",
+  "images": {
+    "avatar": "images/276060004262477825/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=276060004262477825&scope=bot&permissions=-1"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "^^"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

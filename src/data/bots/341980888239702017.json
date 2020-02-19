@@ -1,0 +1,42 @@
+{
+  "authors": [],
+  "contents": [
+    {
+      "description": "A new girl on the block. Multiple Mod, Utility, & Fun commands.",
+      "locale": "en-GB",
+      "name": "Jennifer",
+      "page": "# Jennifer, the new girl on the block.\n[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://hexaplexsoftware.ga/)\n[![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://discordapp.com/oauth2/authorize?client_id=341980888239702017&permissions=3492870&scope=bot)<br>\n\nJennifer, the new girl on the block. With lots of features listed below<br>\n\n**Features:**<br>\n**Moderation**:<br>\nKicking<br>\nBanning<br>\nModeration Log<br>\nMessage Pruning<br>\n<br>\n**Fun**:<br>\nDice Rolling<br>\nCoin Flipping<br>\n8ball<br>\nCrime Coefficient<br>\nASCII faces<br>\nCoin Flipping<br>\nMovie & TV lookup!<br>\n<br>\n**Utility**:<br>\nServer Information<br>\nUser Information Fetching w/ User Avatar Displaying<br>\nRole Information<br>\nUserRole lookup<br>\nMember Count<br>\n\n\n\n_thanks_ **alex**\n"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1542569433000,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "341980888239702017",
+  "images": {
+    "avatar": "images/341980888239702017/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=341980888239702017&permissions=19462&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "j)"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

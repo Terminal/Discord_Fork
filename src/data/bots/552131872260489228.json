@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:462927712885932032"
+  ],
+  "contents": [
+    {
+      "description": "Un bot de modération et de sécurité.",
+      "locale": "fr",
+      "name": "RocketBot",
+      "page": "RocketBot c'est quoi ? RocketBot est un bot Discord, ou tu peut faire de la modération et aussi il et fourni avec de nombreuse commandes FUN. Avec RocketBot tu pourras tout savoir sur votre serveur, les messages supprimé, les reports sur des membres et d'autres...\r\n\r\nPourquoi utilisé RocketBot ? Avec RocketBot tu pourras t'amuser avec les commandes, faire des recherches sur Google ou Wikipédia etc... D'autre commandes seront ajouter au fil du temps.\r\n\r\nRocketBot dispose des commandes NSFW , d'un anti-pub et une sécurité captchat.\r\n\r\nServeur du support: https://discord.gg/t57V9P6 \r\nInvitation du bot: https://discordapp.com/oauth2/authorize?client_id=552131872260489228&scope=bot&permissions=8 \r\nSiteWeb: https://rocketbot.000webhostapp.com/ L'équipe de RocketBot"
+    }
+  ],
+  "created": 1553278587096,
+  "edited": 1553465940213,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "552131872260489228",
+  "images": {
+    "avatar": "images/552131872260489228/avatar.png",
+    "cover": "images/552131872260489228/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=552131872260489228&scope=bot&permissions=2146958463"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/t57V9P6",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "*"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://rocketbot.nity.fr/",
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

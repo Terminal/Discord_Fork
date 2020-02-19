@@ -1,0 +1,44 @@
+{
+  "authors": [
+    "github:rektdevlol"
+  ],
+  "contents": [
+    {
+      "description": "General fun commands, simple moderation commands and more! ",
+      "locale": "en-GB",
+      "name": "NekoBot",
+      "page": "# NekoBot\nNekoBot is a multi functional Discord Bot with plenty of fun, moderation and utility commands.\n\nWe have plenty of fun, weeb and economy commands to use owo.\n\n### Command List\n(Use n!help for an up-to-date version)\n\n| Command       | Category      |Info                          |\n|:-------------:|:-------------:|:-----------------------------|\n| 8ball | General | Ask 8ball a question owo |\n| animepic | General | Get a random anime pic |\n| discrim | General | Get users with the same discriminator |\n| urban | General | Search Urban Dictionary |\n| keygen | General | Generate random numbers and letters |\n| lmgtfy | General | Let me Google that for you :^) |\n| flip | General | Flip a coin |\n| info | General | Get the bots info |\n| cookie | General | Give someone a cookie OwO |\n| crypto | General | Get cryptocurrency information |\n| discriminfo | General | Get the server stat discrimination info |\n| botinfo | General | Get the bot/other bots info |\n| vote | General | Vote OwO |\n| qr | General | Generate a QR Code |\n| help | General | Help! |\n| setlang | General | Set the bots language! |\n| channelinfo | General | Get the info about a channel |\n| whois | General | Get user information from ID/Finding users from other servers who cant be found normally. |\n| coffee | General | Get a coffee pic |\n| serverinfo | General | Get the servers info |\n| userinfo | General | Get a users info |\n| avatar | General | Get a users avatar |\n| permissions | General | Check the permissions of a user in a channel. |\n| upload | Donator | Upload a image to store. |\n| redeem | Donator | Redeem your token |\n| trapcard | Donator | Trap a user |\n| donate | Donator | Donate! |\n| dehoist | Moderation | Dehoist users with non ascii usernames |\n| latency | Moderation | Get the bots latency |\n| poll | Moderation | Start a poll |\n| unban | Moderation | Unban a user |\n| unmute | Moderation | Unmute a user |\n| kick | Moderation | Kick a user |\n| rename | Moderation | Rename a user |\n| ban | Moderation | Ban someone |\n| mute | Moderation | Mute someone |\n| massban | Moderation | Massban multiple user ID's from your server |\n| snipe | Moderation | Snipe the last deleted message from the channel |\n| purge | Moderation | Purge messages in a channel |\n| card | Roleplay | A Loli Card Roleplaying Game owo |\n| imgwelcome | IMGWelcome | IMGWelcoming |\n| profile | Economy | Get a users profile or yours |\n| setdesc | Economy | Set your profile description |\n| top | Economy | Show the top users |\n| register | Economy | Register a bank account |\n| coinflip | Economy | Coinflip $$ |\n| rep | Economy | Rep a user |\n| transfer | Economy | Transfer a user $ |\n| blackjack | Economy | Play blackjack |\n| daily | Economy | Get your daily bonus |\n| bank | Economy | Show the total bank value |\n| food | Fun | Get a random food recipe |\n| md5 | Fun | Convert to md5 |\n| owoify | Fun | OwOify text |\n| whowouldwin | Fun | Who would win owO |\n| dedragonic | Fun | Dedragonify text |\n| dragonic | Fun | Dragonify text |\n| butts | Fun | butts |\n| tweet | Fun | Tweet as someone |\n| nichijou | Fun | Nichijou gif generation |\n| toxicity | Fun | Get toxicity levels of text |\n| shitpost | Fun | Get a random shitpost |\n| deepfry | Fun | Deepfry a image |\n| weebify | Fun | Weebify a image **notices bulge** OwO *What's this* |\n| changemymind | Fun | Change my mind generation |\n| meme | Fun | Meme gen |\n| b64 | Fun | base64 converter |\n| isnowillegal | Fun | make stuff illegal |\n| awooify | Fun | AWOOOOOOIfy someone |\n| feed | Fun | Feed a user |\n| lovecalculator | Fun | Love calculator <3 |\n| captcha | Fun | Captcha Image Gen |\n| boom | Fun | Boom reactions |\n| bitconnect | Fun | Bitconnect meme |\n| duck | Fun | Get a random duck |\n| iphonex | Fun | Image in an iphonex |\n| ship | Fun | Ship users OWO |\n| gif | Fun | Search giphy |\n| joke | Fun | Get a joke |\n| jpeg | Fun | Needs More JPEG |\n| lizard | Fun | Get a random lizard pic |\n| cat | Fun | Get a random cat |\n| kannagen | Fun | Kanna generation |\n| fight | Fun | Fight a user |\n| baguette | Fun | Baguette! |\n| clyde | Fun | Clyde image generation |\n| achievement | Fun | Generate an achievement |\n| dog | Fun | Get a random dog |\n| blurpify | Fun | Blurpify an image |\n| rude | Fun | Rude! |\n| bodypillow | Fun | Turn someone into  body pillow |\n| threats | Fun | Get threats OwO |\n| blurplate | Fun | Blurpify + JPEGify a user |\n| owo | Reactions | OwO |\n| deredere | Reactions | Get a deredere image |\n| stare | Reactions | *stares* |\n| blush | Reactions | *blushes* |\n| punch | Reactions | Punch someone |\n| cry | Reactions | Cry |\n| sumfuk | Reactions | sumfuk |\n| discordmeme | Reactions | Get a discord meme |\n| trap | Reactions | Get a trap meme |\n| cuddle | Reactions | Cuddle someone |\n| awoo | Reactions | ***AWOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO*** |\n| banghead | Reactions | bang your head |\n| dab | Reactions | DAB DAB DAB on them haters |\n| pout | Reactions | pout |\n| hug | Reactions | hug someone |\n| foxgirl | Reactions | get a foxgirl |\n| initiald | Reactions | Get an initiald image |\n| megumin | Reactions | get a megumin image |\n| kiss | Reactions | Kiss OwO |\n| nom | Reactions | Nom nom nom |\n| shrug | Reactions | /shrug |\n| thinking | Reactions | thonk |\n| lick | Reactions | Lick lick lick |\n| pat | Reactions | Pat pat pat |\n| confused | Reactions | ??? |\n| poke | Reactions | *poke poke* |\n| wasted | Reactions | Wasted weeb meme |\n| insult | Reactions | Insult someone |\n| sleepy | Reactions | Get some sleep! |\n| greet | Reactions | Greet someone |\n| jojo | Reactions | Get a jojo meme |\n| dance | Reactions | Dance! |\n| neko | Reactions | Get a neko or a l00d neko in an nsfw channel owo |\n| lewd | Reactions | thats lewd! >~< |\n| rem | Reactions | Get a rem image |\n| why | Reactions | WhyyyYYY!? |\n| tickle | Reactions | *tickles* |\n| poi | Reactions | Get a poi image |\n| bang | Reactions | Bang bang |\n| triggered | Reactions | Get a triggered meme |\n| insultwaifu | Reactions | Insult someones waifu |\n| slap | Reactions | ***Slaps*** |\n| bite | Reactions | *bites* |\n| overwatch | Games | Get Overwatch stats |\n| pubg | Games | Get PUBG stats |\n| osu | Games | Get OSU Stats |\n| minecraft | Games | Get Minecraft Stats |\n| pubg | Games | PUBG Stats OWOWOWOWOWO |\n| marry | Marriage | Marry Someone OWO |\n| divorce | Marriage | Divorce ;w; |\n"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1542569433000,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "310039170792030211",
+  "images": {
+    "avatar": "images/310039170792030211/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=310039170792030211&permissions=1043721343&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "n!"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": "https://github.com/rektdevlol/nekobot",
+  "categories": [
+    "other"
+  ]
+}

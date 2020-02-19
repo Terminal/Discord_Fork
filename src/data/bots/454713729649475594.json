@@ -1,0 +1,42 @@
+{
+  "authors": [],
+  "contents": [
+    {
+      "description": "A lot of commands! The best bot that you ever seen, moderation, fun, utility!",
+      "locale": "en-GB",
+      "name": "LxiBot",
+      "page": " A lot of commands! The best bot that you ever seen, moderation, fun, utility!\n With Global Chat, the docs are on https://lxibot.gitbook.io/commands/"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1542569433000,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "454713729649475594",
+  "images": {
+    "avatar": "images/454713729649475594/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=454713729649475594&scope=bot&permissions=8"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "l+"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

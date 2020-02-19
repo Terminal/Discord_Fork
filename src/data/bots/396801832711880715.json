@@ -1,0 +1,45 @@
+{
+  "authors": [
+    "discord:138302166619258880"
+  ],
+  "contents": [
+    {
+      "description": "just a simple bot that does simple stuff",
+      "locale": "en-GB",
+      "name": "Uni ",
+      "page": "this bot does anime related stuff"
+    }
+  ],
+  "created": 1542918030079,
+  "edited": 1542918030079,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "396801832711880715",
+  "images": {
+    "avatar": "images/396801832711880715/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=396801832711880715&scope=bot&permissions=-1"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/rMVju6a",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "uni!"
+    ]
+  },
+  "videos": {},
+  "website": "https://uni.computerfreaker.cf",
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

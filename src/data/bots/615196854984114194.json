@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:104695503358291968"
+  ],
+  "contents": [
+    {
+      "description": "Discord bot for the AI generated inspirational quotes website, inspirobot.me",
+      "locale": "en-GB",
+      "name": "InspiroBot",
+      "page": "This is a discord bot for the artificial intelligence dedicated to generating unlimited amounts of unique inspirational quotes for endless enrichment of pointless human existence, https://inspirobot.me/\r\nTo use this bot simply type .quote and a generated quote will be displayed.\r\nUsed the reload reaction to generate and display a new quote.\r\nThis bot requires no permissions at all, just add it and start browsing stupid quotes that some AI generated"
+    }
+  ],
+  "created": 1566977835155,
+  "edited": 1566977835155,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "615196854984114194",
+  "images": {
+    "avatar": "images/615196854984114194/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=615196854984114194&scope=bot&permissions=281664"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "."
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

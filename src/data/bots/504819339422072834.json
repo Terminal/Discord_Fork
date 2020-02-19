@@ -1,0 +1,50 @@
+{
+  "authors": [
+    "discord:178586069351137280",
+    "github:lepon01"
+  ],
+  "contents": [
+    {
+      "description": "Discord Tags, pulled from GitHub, enhanced by Handlebars",
+      "locale": "en-GB",
+      "name": "GitTags",
+      "page": "# GitTags\r\nGit your Tag from Git\r\n\r\n## How to use\r\n1. Make a GitHub repository and make a folder called `tags` within it\r\n2. The names of the files are the name of the tags\r\n\r\n### Set command\r\n_You need the \"Manage Guild\" role to set a repository_\r\n\r\n- `git<set`\r\n  - Use the default GitHub repository.\r\n- `git<set [owner]`\r\n  - Use the **[owner]/gittag** repository.\r\n- `git<set [owner];[repo]`\r\n  - Use the **[owner]/[repo]** repository.\r\n\r\n### Info command\r\n- `git<info`\r\n  - Get information about where GitTags is currently pointing to\r\n\r\n### Tag command\r\n- `git>[tag]`\r\n  - Obtain text with the tag name\r\n"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1581116615577,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "504819339422072834",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=504819339422072834&permissions=0&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "git>",
+      "git<"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": "https://github.com/lepon01/gittag",
+  "categories": [
+    "utility"
+  ]
+}

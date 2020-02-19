@@ -1,0 +1,45 @@
+{
+  "authors": [
+    "discord:320877637528453120"
+  ],
+  "contents": [
+    {
+      "description": "A cool bot with coommands and replayes",
+      "locale": "he",
+      "name": "Cutecat",
+      "page": "My bot is a very basic bot, but with lots of plugins and commands,\r\nthe bot has the option to form a reception for the staff without a form. With a simple command,\r\nVidar centralizes everything, the bot also has financial inquiries for the staff, you can report a player and it is sent it to the staff.\r\nsay, the botsays what you write, of course there is the music command, and lots more !!!,\r\norder the peanuts to "
+    }
+  ],
+  "created": 1545506274516,
+  "edited": 1545837786406,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "494508556893159440",
+  "images": {
+    "avatar": "images/494508556893159440/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=494508556893159440&scope=bot&permissions=9"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/fWqPYsY",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "."
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "music"
+  ]
+}

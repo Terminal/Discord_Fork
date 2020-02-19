@@ -1,0 +1,49 @@
+{
+  "authors": [
+    "discord:482536364714491926",
+    "discord:639133009739776033"
+  ],
+  "contents": [
+    {
+      "description": "Hill Climb Racing 2 is a racing game.Fingersoft owns this game.I created hcr2 bot for Entertainment.",
+      "locale": "en-GB",
+      "name": "Hill Climb Racing 2",
+      "page": "Hill Climb Racing 2 special commands\r\n1)clans\r\n2)use *PR, *SB, *SN, *X1 ,*SC for invitation links\r\n3) pit crew(returns image of pit crew)\r\n4) Team\r\n5)application (it will show information about how to apply for team)\r\n6) challenge - challenge, it'll give you a random challenge\r\n7)submit (your challenge idea)\r\n8)chalboard, it'll return the stats of Challenge command\r\nEconomy commands\r\n1) work\r\n2) shop\r\n3) bal (balance)\r\n4) gamble\r\n5) ownbal (returns your own balance)\r\n6) Daily\r\n7) Weekly\r\n8) leaderboard\r\n9)addmoney(amount of money) mention user [you need administrative permission]\r\n10) count leaderboard\r\n11) challenge\r\nLottery Commands\r\nUse *lottery to know more about lottery commands.\r\nThere are some awesome commands like *profile,*job,etc.\r\nFun Commands\r\n1)avatar\r\n2)imgtext\r\n3)bestclan\r\n4)rate\r\n5)8ball (ask a question)\r\n6)joke\r\n7)cat\r\n8)dog\r\n9)youtubepage (use it for more information)\r\n10)rep - rep(mention someone)\r\n11)rboard- rboard, it'll return leaderboard of most reputation point members\r\n12)Repoint -Repoint, it'll show how many reputation points you have\r\nBasic Moderation Commands\r\n1)mute\r\n2)unmute\r\n3)ban\r\n4)clear(no.of messages)\r\n5)kick\r\n6)warn\r\nSome other commands\r\n1)serverinfo\r\n2) report( please send username of user with report)\r\n3) Youtuber\r\n4) application (use it for more information)\r\n5) random - random(string length)\r\nit'll generate random codes\r\nfor example *random 5 then it'll generate random code of 5 mix letters and numbers\r\nHelp commands\r\n1)help\r\n2)invite(sends invitation of bot)\r\nUse *help to know more commands\r\n"
+    }
+  ],
+  "created": 1572500679418,
+  "edited": 1572500680144,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "592970472313061376",
+  "images": {
+    "avatar": "images/592970472313061376/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=592970472313061376&scope=bot&permissions=2146958847"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "*"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

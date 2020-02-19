@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:492841068253937684"
+  ],
+  "contents": [
+    {
+      "description": "Relax while baking yourself some cookies.",
+      "locale": "en-GB",
+      "name": "Cookie Baker",
+      "page": "[🍪] Offical Cookie Baker [🍪] Cookie Bakers Prefix: ~ Cookie Baker Is A Family Friendly Discord Bot Made For Users To Enjoy In There Free Time, Make Friends And Build A Community [😁] Commands Display Below [🔗] [#1.] ~profile [user] | Displays a user's profile [#2.] ~bake | Bake Cookies [#3.] ~sell {Cookies} | Sell Cookies [#4.] ~transfer {money/cookies} | Give players money or cookies [#5.] ~shop [name] [ID] | Shop For Items and Upgrades [#6.] ~leaderboard [Cookies/Balance] | Gives you info on whos top. [#7.] ~server | Shows Server Info [#8.] ~oven [oven] | Choose an Oven and look at your Ovens [#9.] ~ranks | Shows The Ranks You Can Earn [#10.] ~repair [code] | Repair your oven when broke"
+    }
+  ],
+  "created": 1552157625074,
+  "edited": 1552157625074,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "551890591311724561",
+  "images": {
+    "avatar": "images/551890591311724561/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=551890591311724561&scope=bot&permissions=363520"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/FX9NVM2",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "~"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "games"
+  ]
+}

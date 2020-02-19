@@ -1,0 +1,46 @@
+{
+  "authors": [
+    "discord:248294452307689473",
+    "github:Nekos-life"
+  ],
+  "contents": [
+    {
+      "description": "Lovely pictures of Catgirls ^^ ",
+      "locale": "en-GB",
+      "name": "Neko",
+      "page": "[![](https://dickswordapp.com/api/guilds/333713662739218433/widget.json)](https://discord.gg/EYGgT5Y) [![](https://dickswordapp.com/api/guilds/334186716770598912/custom.svg)](https://bot.nekos.life) ![](https://cdn.discordapp.com/attachments/377619690513498133/406183455123177481/OpenSauce.svg) ![](https://cdn.discordapp.com/attachments/330777295952543744/478325842188042241/license.svg) ![](https://circleci.com/gh/Nekos-life/neko-bot-jda.svg?style=svg) [![Patreon](https://img.shields.io/badge/patreon-donate-green.svg)](https://www.patreon.com/Nekos_life) [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://paypal.me/boobbot)\r\n# Catgirls are hot\r\n\r\nThis is a cool bot that you should accept.\r\nReasons include:\r\n- Frist bot with >catch\r\n- Being awesome\r\n- Not being un-awesome\r\n- The prefix can be changed to !\r\n"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1542644678080,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "334186716770598912",
+  "images": {
+    "avatar": "images/334186716770598912/avatar.png",
+    "cover": "images/334186716770598912/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://bot.nekos.life"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "~"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": "https://github.com/Nekos-life/neko-bot-jda",
+  "categories": [
+    "other"
+  ]
+}

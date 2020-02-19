@@ -1,0 +1,45 @@
+{
+  "authors": [
+    "discord:476816869140070400"
+  ],
+  "contents": [
+    {
+      "description": "Un bot 100% Français et éfficace!",
+      "locale": "fr",
+      "name": "Beebop",
+      "page": "Le bot propose un système général de modération, de jeux, nsfw, musiques et de commandes socials.\r\nIl est notamment sur 14 serveur et son préfix est b!\r\n\r\nNous faisons tout pour que le bot sois parfait pour que vous l'utilisez h24 !\r\nN'hésitez pas à l'ajouter il est cool. Les nouvelles commandes sont b!ftn et le système musique que vous verrez dans le b!help\r\n\r\nSi vous avez des questiosn rejoignez nous dans le support !"
+    }
+  ],
+  "created": 1543058851350,
+  "edited": 1543071618994,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "512209185581301760",
+  "images": {
+    "avatar": "images/512209185581301760/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=512209185581301760&scope=bot&permissions=1946545215"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/wY5haCv",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "b!"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

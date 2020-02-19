@@ -1,0 +1,49 @@
+{
+  "authors": [
+    "discord:99116871994859520",
+    "github:Malarne"
+  ],
+  "contents": [
+    {
+      "description": "A multi purpose bot, that can play music, games, Leveler, and a lot more !",
+      "locale": "en-GB",
+      "name": "AyRobot",
+      "page": "Prefix: “.\" (Can be changed)\r\nType .help for have all commands of the bot ! ??\r\n\r\nMusic commands (.help music):\r\n• .play <url_or_search>  : Play a URL or Search for a track on YouTube.\r\n\r\n(URL : YouTube. Soundcloud. mp3 streams. even twitch streams and Spotify) (Spotify is slower when adding playlist. but it works. no worries it will be improved in the future)\r\n\r\n• .skip  : Skip to next track.\r\n\r\n• .previous : Play the previous track.\r\n\r\n• .pause : Pause the track.\r\n\r\n• .resume : Resume a track paused.\r\n\r\n• .stop : Stop the player, and disconnect.\r\n\r\n• .shuffle : Toggle shuffling.\r\n\r\n• .repeat : Toggle repeat.\r\n\r\n• .now or .np : Show the track playing now.\r\n\r\nAnd more in the .help Audio command !\r\n\r\nModeration commands : .help AvertSystem\r\n\r\n• .avert <1, 2, 3, 4> <user> <reason> : give a warn, kick, tempban (tempban adds a time units to the command, check out .help avert 3 for more infos), and perm ban to the user, for the given reason, creating some modlog in the configured channel (check out .help avert config for more infos on how to configure the cog)\r\n\r\nGeneral commands:\r\n\r\n• .twitch or .youtube : Check if a Twitch or YouTube channel is live.\r\n\r\n• .bank : Manage your bank account.\r\n\r\n• .leaderboard : Show the global leaderboard.\r\n\r\n• .payday : Get some free currency between 50-120 credits.\r\n\r\n• .slot : Use the slot machine.\r\n\r\n• .blackjack : A simple blackjack game, linked to the central economy system of the bot.\r\n\r\n• .partygames  : Play some party games through discord !\r\n\r\n• .octogone <user1> [user2] : Some french joke, will put the avatar of user1 and user2 (or author of the command if user2 not provided) into an \"octogone\" image. Reference to Booba and Kaaris fighting in french airport.\r\n\r\nImages commands (.help images):\r\n\r\n• .gif <search> : Send the first gif matching the search from giphy.\r\n\r\n• .gifr <search> : Send a random gif matching the search from giphy.\r\n\r\nUtility commands :\r\n\r\n• .avatar : Show your avatar in a large size.\r\n\r\n• .invite : Send the invitation link of the bot.\r\n\r\nInformation commands:\r\n\r\n• .userinfo : Show your user informations.\r\n\r\n• .serverinfo : Show the informations of current server.\r\n\r\n• .info : Show info about the bot.\r\n\r\n• .ping : Make the bot reply \"Pong.\" to your message. Mostly used to see if the bot is lagging.\r\n\r\n• .pingtime : Show a more detailed ping of the bot.\r\n\r\n• .uptime : Show how many time the bot is live.\r\n\r\n• .antiraid : An antiraid cog, there is still some work to do to automate that, so the feature is \"premium\" and the message saying that is in french, don't mind it.\r\n\r\nGuild management tools (still WIP) :\r\n\r\n• .addbypassrole <role> : add a role to bypass the anticaps.\r\n\r\n• .capspercent <percent> : set the percent of caps needed for a message to be deleted.\r\n\r\n• .togglecaps : toggle on or off the anticaps feature.\r\n\r\n• .slowmode [channel] <time> : Allow to put a slowmode into the given or current channel, up to 6 hours (as allowed by discord API)\r\n\r\n• .slowoff [channel] : Turn off slowmode of given or current channel.\r\n\r\nLeveler commands:\r\n\r\nThis cog has an entire doc here: https://discord-cogs.readthedocs.io/en/latest/leveler.html#configuration-commands\r\nJust note that cog is public, but i wrote it, don't be surprised if you see the same cog on any other bot.\r\n\r\nFuture commands (waiting for Red v3.1 to be released):\r\n\r\nLeague of legend cog:\r\nUsing home made API, called Neeko !\r\n\r\n• .setapikey <api_key> : to set your Riot API key, must be set before using any other command, otherwise they won't respond. The api key can also be set using .set api league <api_key>\r\nNote that it is better to use that command in DM, to avoid leaking your api key.\r\n\r\n• .elo <username> : Get the current rank of that username, if it exists.\r\n\r\n• .masteries <username> : Show the top masteries champions of that username, if it exists.\r\n\r\n• .game <username> : Show the bans, picks, and elo of allies and ennemies of the current game, if that username is currently ingame.\r\n\r\n• .history <username> <limit> : Shows last games of that username, if no limit provided, it'll show last 5 games.\r\n\r\nApex cog:\r\nUsing home made api of Tracker Network.\r\nCan only show stats you are tracking ingame, per character.\r\n\r\n• .apex <username> : Show your 3 most played legends'stats.\r\n\r\nContact Malarne#1418 for support\r\nFork of Red-DiscordBot v3.\r\n\r\nCurrently improving and adding features.\r\n\r\nMore commands are coming soon !\r\n\r\nThanks to Red-DiscordBot for base of this nice bot. and all the help to create it."
+    }
+  ],
+  "created": 1555971740029,
+  "edited": 1555971740029,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": true
+  },
+  "hide": false,
+  "id": "353176642543419392",
+  "images": {
+    "avatar": "images/353176642543419392/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=353176642543419392&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "."
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://discord-cogs.readthedocs.io",
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:583623504793174029"
+  ],
+  "contents": [
+    {
+      "description": "BOT STWORZONY DLA POLSKIEJ SPOŁECZNOŚCI, POSIADA DOŚĆ SPORO FUNKCJI",
+      "locale": "pl",
+      "name": "Saffy",
+      "page": "SAFFY\r\n- Moderowanie,\r\n- Komendy muzyczne,\r\n- Profile użytkowników wraz z poziomami,\r\n- Statystyki,\r\n- Komendy for fun,\r\n- Komendy NSFW,\r\n- i wiele więcej."
+    }
+  ],
+  "created": 1565090199569,
+  "edited": 1565090199569,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "584011219103514635",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=584011219103514635&permissions=0&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/vkZDcFS",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "/"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://saffy.pl/",
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

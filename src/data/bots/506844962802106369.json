@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:300577300242759682"
+  ],
+  "contents": [
+    {
+      "description": "Hello comrade, i'm Joseph Stalin and welcome to GULAG",
+      "locale": "en-GB",
+      "name": "Joseph Stalin",
+      "page": "<h1 style=\"color: #5e9ca0;\">Joseph Stalin</h1>\r\n<p>This is not my bot, but OUR BOT.</p>\r\n<h2 style=\"color: #2e6c80;\">Notices:</h2>\r\n<h3>Joseph Stalin must have the following permissions in the server you intend to use it in:</h3>\r\n<ul style=\"list-style-type: square;\">\r\n<li>Read Messages</li>\r\n<li>Send Messages</li>\r\n<li>Manage Messages</li>\r\n<li>Embed Links</li>\r\n<li>Attach Files</li>\r\n<li>Read Message History</li>\r\n<li>Use External Emojis</li>\r\n<li>Add Reaction</li>\r\n<li>Connect</li>\r\n<li>Speak</li>\r\n<li>View Channel</li>\r\n</ul>\r\n<h2 style=\"color: #2e6c80;\">Features:</h2>\r\n<ol style=\"list-style: none; font-size: 14px; line-height: 32px; font-weight: bold;\">\r\n<li style=\"clear: both;\"><img style=\"float: left;\" src=\"https://cdn.discordapp.com/attachments/527845487999582209/530283640597250060/note2.png\" alt=\"html cleaner\" width=\"45\" /> Music</li>\r\n<li style=\"clear: both;\"><img style=\"float: left;\" src=\"https://cdn.discordapp.com/attachments/527845487999582209/530283656829468682/moneybag.png\" alt=\"html cleaner\" width=\"45\" /> Economy</li>\r\n<li style=\"clear: both;\"><img style=\"float: left;\" src=\"https://cdn.discordapp.com/attachments/527845487999582209/530284444536537089/clipboard.png\" alt=\"Word to html\" width=\"45\" /> Moderation</li>\r\n<li style=\"clear: both;\"><img style=\"float: left;\" src=\"https://cdn.discordapp.com/attachments/527845487999582209/530284744454438912/fleur.png\" alt=\"replace text\" width=\"45\" /> Social</li>\r\n<li style=\"clear: both;\"><img style=\"float: left;\" src=\"https://cdn.discordapp.com/attachments/527845487999582209/530284195612721173/cyclone.png\" alt=\"gibberish\" width=\"45\" /> utility</li>\r\n</ol>\r\n<p>&nbsp;</p>\r\n<h2 style=\"color: #2e6c80;\">Big thanks to:</h2>\r\n<p><a title=\"\" href=\"https://discord.gg/fSr9Bsa\">Discordbots Nation™</a></p>\r\n<p><a title=\"\" href=\"https://discord.gg/5kQytxk\">HD Development</a></p>\r\n<p><a title=\"\" href=\"https://discord.gg/pNa6BXb\">RendDevelopment</a></p>\r\n<p><a title=\"\" href=\"https://discord.gg/MrwjvNm\">🚀Space Bots List</a></p>\r\n<p>Note: If the bot suddenly cannot be used, it mean Stalin is sleeping</p>"
+    }
+  ],
+  "created": 1551186227878,
+  "edited": 1553388238351,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "506844962802106369",
+  "images": {
+    "avatar": "images/506844962802106369/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize/?permissions=3533888&scope=bot&client_id=506844962802106369"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/MazwwmM",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "s."
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "music"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:420992584941305859"
+  ],
+  "contents": [
+    {
+      "description": "A fun moderation bot for all!",
+      "locale": "en-GB",
+      "name": "MajesticMod",
+      "page": "Some commands:\r\n!help - Says all commands!\r\n!ping - Ping you\r\n!poll (Poll) - Sets the poll\r\n!kick (user) - Kick pinged user\r\n!mute (user) - mutes pinged user\r\n!warn (user) - Warns the pinged user\r\n!ban (user) - Bans the pinged user\r\n!votekick (user) - starts votekick. THIS DOES NOT COUNT VOTES! THE SERVER OWNER HAS TO KICK MANUALLY!\r\n!welcome - send welcome message\r\n!changeUsername (User) - Changes pinged user name.\r\n!clear (amount) - Clears messages\r\nBased on:\r\nModeration\r\nServers with lots of trollers\r\nServers that need a bot to moderate with\r\nPeople that are spamming\r\nBot stuff:\r\nBot will never swear\r\nAlways PG\r\nNo rude things\r\nVery helpful\r\nGood moderation bot\r\n"
+    }
+  ],
+  "created": 1577898010425,
+  "edited": 1577898010425,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "660853282176237578",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=660853282176237578&scope=bot&permissions=0"
+  },
+  "nsfw": false,
+  "state": "denied",
+  "support": "https://discord.gg/NxRVGW4",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "authors": [
+    "discord:417820274378145803",
+    "discord:338192747754160138"
+  ],
+  "contents": [
+    {
+      "description": "Global Bump - A Bot To Bump Your Sever!",
+      "locale": "en-GB",
+      "name": "Global Bump",
+      "page": "[![Build Status](https://i.postimg.cc/7L5JRYsv/banner.png)](https://discord.gg/3dPUbhv)\r\n\r\n# Global Bump | A Bump Bot For Your Server\r\n\r\n**Global Bump** a bot for your needs! A bump bot made and updated by **Global ADs**, along with a group of **developers** that help to maintain and upgrade the bot! Premium as well as normal features are available within the bot. Have a **feedback** send them in using the commands available in the bot. **Prefix g!, g!help** for all the commands available...\r\n\r\n**Add Me To Your Server!!!**\r\n\r\n---\r\n\r\n# Here Are Some Of Commands Used In The Bot:\r\n\r\ng!info - Bot Information\r\n\r\ng!ping - Bot Latency\r\n\r\ng!uptime - Bot Uptime\r\n\r\ng!feedback - Give A Feedback On The Bot\r\n\r\ng!help - Help Command\r\n\r\ng!listed-servers - Ads Bumped On\r\n\r\n**Much More Commands...**\r\n\r\n---\r\n\r\n# Links:\r\n\r\n🔗 **Social Media** :\r\n[Twitter](https://twitter.com/Advertiser_TM) | \r\n[Twitch](https://www.twitch.tv/global_universe) | \r\n[YouTube](https://www.youtube.com/channel/UCAb4ebu1y_bTPszlHx70sJA)\r\n\r\n🔗 **Bot Invite** : [Click Here](https://discordapp.com/api/oauth2/authorize?client_id=504863690315792386&permissions=2083912913&scope=bot)\r\n\r\n🔗 **Bot Banner** : [Click Here](https://i.postimg.cc/d14WXnyR/Global-Bump-Banner.png)\r\n\r\n🔗 **Bot Website** : [Click Here](https://www.patreon.com/DirectorDiscord)\r\n\r\n---\r\n\r\n> Having Premium Will Allow You To Bump Your Server In The Premium Category & May More Waits..."
+    }
+  ],
+  "created": 1558996574254,
+  "edited": 1565565899349,
+  "flags": {
+    "adverts": true,
+    "inAppPurchases": true
+  },
+  "hide": false,
+  "id": "504863690315792386",
+  "images": {
+    "avatar": "images/504863690315792386/avatar.png",
+    "cover": "images/504863690315792386/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=504863690315792386&scope=bot&permissions=1075182657"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/3dPUbhv",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "g!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://www.patreon.com/DirectorDiscord",
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

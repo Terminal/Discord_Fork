@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:252067755258413056"
+  ],
+  "contents": [
+    {
+      "description": "CatGirl Pics, FoxGirl Pics, 40+ Anime Gifs,Memes/Jokes, Games:DBD,Fortnite,R6,Apex,CSGO/Economy",
+      "locale": "en-GB",
+      "name": "CatGirl Paradise",
+      "page": "General Commands\r\n\r\n??help  \r\n??announcement  \r\n??update   \r\n??uptime  \r\n\r\nUtility Commands:  \r\n\r\n??ap premium (How to buy Premium $3 or more per month)  \r\n??premium (How to buy Premium $2)  \r\n??timer info (How to use Timer Set  \r\n??dm (how to enable your dms)  \r\n??invite (Invite The bot to your server!)  \r\n\r\nEconomy Commands:  \r\n??daily - Gives you 200 coins once per day  \r\n??earn - You can earn a random amount of coins (1-15) every 2 minutes  \r\n??conflip (heads or tails) (the amount you want to bet) - You have 50% of doubeling your coins  \r\n??bal - short for balance  \r\n??balance - Your current balance  \r\n??balance (@mention) - User's Balance  \r\n??eplace (@mention) User's position on the global leaderboard  \r\n??buy list - What you can buy with the coins  \r\n??work *Premium Only* - You can work once every 12 hours and earn 1-600 coins  \r\n??transfer (@mention) (amoung) *Premium Only* - Transfer a specific amount of coins to a specific user  \r\n\r\n\r\nAnime Commands:  \r\n\r\n??CG (CatGirl Picture)  \r\n??FG (FoxGirl Picture)  \r\n??AG (AnimeGirl Picture)  \r\n??AB (AnimeBoy Picture)  \r\n??anime_name (random picture from the anime)  \r\n??info anime_name (Detailed information about the anime: Synopsis,Episodes,Seasons)  \r\n??list 1  \r\n\r\nGames  \r\n\r\n??fortnite drop (Random Fortnite Drop Location)  \r\n??r6 attack (Random R6 Attacker)  \r\n??r6 defend (Random R6 Defender)  \r\n??r6 info <operator> (Information about the r6 operator)  \r\n??dbd killer perk  \r\n??dbd survivor perk  \r\n??dbd info <Perk_name>  \r\n??lol champion pick - Pick a Random Champion  \r\n??lol mode pick - Draft,Ranked,Featured Game Mode  \r\n??lol lane pick - Top/Mid/Bottom/Jungle  \r\n??lol full pick - All of the above in one command  \r\n??apex drop (Random Apex Drop Place!)  \r\n??apex pick (Random Apex Character)  \r\n??csgo competitive - Random CS:GO Map  \r\n??csgo ct pick - Random Items For CT Rounds  \r\n??csgo t pick - Random Items For T Rounds  \r\n??69ball <your message> (Get your answers now!)  \r\n??iq (What's your IQ UwU?)  \r\n??roll (The Most useless command on the world)  \r\n??pass (Dm's You a random 16 character password)  \r\n\r\n\r\nJoke/Meme Commands  \r\n\r\n??ameme (anime meme picture)  \r\n??meme (Well... memes?)  \r\n??joke (The Dumbest Jokes On Earth)  \r\n??dadjoke (Dad Jokes)  \r\n??momjoke (Mom Jokes)  \r\n??knockjoke (Who's There)  \r\n??pickup (The Most Cringiest Pickup Lines)  \r\n??wise (Always Wear a bra at work!)  \r\n??riddle - Who has discord server and is going to add me? Probably not you  \r\n??roast - Roast yourself before someone else does!\r\n??breakup - It's me not you!...well it is actually you  \r\n\r\n\r\nGifs\r\n\r\n??hug/??kiss/??slap/??wakeup/??attack/??spit/??pat/??kick/??lick/??sniff/??wink/??strong_bite??cuddle @mention  \r\n\r\n??crying/??run/??escape/??sleep/wtf/??angry/??bye/??hide/??stayaway/??dab/??blush/??dunno/??bleh/??dodge/??evil_smile/??walk_away/??love/??embarrased  \r\n\r\n\r\nIf You Want To Support my work: https://www.patreon.com/CatGirlParadise"
+    }
+  ],
+  "created": 1557582631152,
+  "edited": 1557633052417,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": true
+  },
+  "hide": false,
+  "id": "556529986883026945",
+  "images": {
+    "avatar": "images/556529986883026945/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=556529986883026945&permissions=1341521142&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discordapp.com/invite/Smhusmk",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "??"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "entertainment"
+  ]
+}

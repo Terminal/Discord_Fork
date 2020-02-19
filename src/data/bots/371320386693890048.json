@@ -1,0 +1,42 @@
+{
+  "authors": [],
+  "contents": [
+    {
+      "description": "The one and only bot you will need",
+      "locale": "en-GB",
+      "name": "Brotat",
+      "page": "# Brotat\nA cool bot made in python which adds everything you want in one bot\n\nBot features:\nmodlogs\nwelcome/leave messages\nimage manipulation\nfortnite commands\nautorole\nchangeable prefix\nanti invites\nMusic\nNSFW (not a big part of the bot)\neconomy\nAnd much much more!\n"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1542569433000,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "371320386693890048",
+  "images": {
+    "avatar": "images/371320386693890048/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=371320386693890048&scope=bot&permissions=8"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "%"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

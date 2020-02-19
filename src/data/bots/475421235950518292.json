@@ -1,0 +1,49 @@
+{
+  "authors": [
+    "discord:218308478580555777",
+    "github:EndBug"
+  ],
+  "contents": [
+    {
+      "description": "A bot that gets in-game stats from your favorite games.",
+      "locale": "en-GB",
+      "name": "Game Tracker",
+      "page": "# Game Tracker\r\n[![Support Guild](https://discordapp.com/api/guilds/475792603867119626/embed.png)](https://discord.gg/ZhnWkqc)\r\n\r\n### What is Game Tracker?\r\nGame Tracker is an open-source Discord bot that is able to fetch stats from your favorite games. It's also able to remember your account, so that you don't need to remember it every time.\r\n\r\n### How can I add Game Tracker to my server?\r\nIt's very simple:  \r\n\r\n 1. Go to [this link](https://discordapp.com/oauth2/authorize?client_id=475421235950518292&scope=bot&permissions=93248)\r\n 2. Select the server you want to add the bot to (you must be owner/admin of the server)\r\n 3. Confirm (the permissions asked are necessary, without  them the bot could not work properly)\r\n\r\nWhen added, the bot will message the server owner to inform them about the bot.\r\n\r\n### What are the available commands?\r\nYou can get a complete list of the commands by using the `help` command.\r\nThe currently supported games are:\r\n\r\n - [Overwatch](https://github.com/EndBug/game-tracker/blob/master/doc/ow/OVERWATCH.md)\r\n \r\nYou can see the preview of each game's commands by looking either at the docs (click the name of the game in the above list) or at the dedicated channel in the \"examples\" category of the [support server](#what-if-i-have-a-problem).  \r\n\r\nMore games are yet to come ;)\r\n\r\n### What if I have a problem?\r\nYou can get an invite for the support server through the `support` command.   \r\nFor a more developer-friendly report, please use the Issues section of this repository.\r\n\r\n### How can I contribute to the bot?\r\nThe first thing you can do to contribute is reporting the bugs you find.  \r\nIf you're a developer, you can also try fixing them/enhancing the bot by yourself: for that, please see the [\"How to contribute\"](https://github.com/EndBug/game-tracker/blob/master/.github/CONTRIBUTING.md) section."
+    }
+  ],
+  "created": 1561144169780,
+  "edited": 1568108475765,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "475421235950518292",
+  "images": {
+    "avatar": "images/475421235950518292/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=475421235950518292&scope=bot&permissions=93248"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/rVUNMwB",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "-"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": "https://github.com/EndBug/game-tracker",
+  "categories": [
+    "games"
+  ]
+}

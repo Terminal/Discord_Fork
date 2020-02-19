@@ -1,0 +1,45 @@
+{
+  "authors": [
+    "discord:529963857544740864"
+  ],
+  "contents": [
+    {
+      "description": "DSA is the best bot to manage your server in best way. No need Dyno and mee6 when you have DSA.",
+      "locale": "en-GB",
+      "name": "DSA    ",
+      "page": "#DiscordSpecialAgent is best bot of discord have all Moderation commands. This server have many moderater commands. If you have this bot no need mee6 and dyno. This bot have commands that make your server neat and good. If you don't find command that you want in discord or bot so just do d/reportbot and provide reason after reportbot. Also you can see more information of bot commands by typing d/help. DSA is stand for Discord Special Agent."
+    }
+  ],
+  "created": 1546703954988,
+  "edited": 1546703954988,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "413689165646135306",
+  "images": {
+    "avatar": "images/413689165646135306/avatar.png",
+    "cover": "images/413689165646135306/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=413689165646135306&permissions=8&redirect_uri=https%3A%2F%2Fdiscord.gg%2FwhukgZS&response_type=code&scope=guilds.join%20bot"
+  },
+  "nsfw": false,
+  "state": "banned",
+  "support": "https://discord.gg/whukgZS",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "d/"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

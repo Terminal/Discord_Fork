@@ -1,0 +1,45 @@
+{
+  "authors": [
+    "discord:322203879208910849"
+  ],
+  "contents": [
+    {
+      "description": "Hi! I'm Spotify Bot and I'm a bot based on music and song search on spotify!",
+      "locale": "en-GB",
+      "name": "Spotify Bot",
+      "page": "<h1>Spotify Bot</h1>\r\n<h1>Main Commands</h1>\r\n<style type=\"text/css\">\r\n.tg  {border-collapse:collapse;border-spacing:0;}\r\n.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}\r\n.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}\r\n.tg .tg-nn2v{font-family:Verdana, Geneva, sans-serif !important;;background-color:#99ff99;border-color:#ffffff;vertical-align:top}\r\n.tg .tg-us36{border-color:inherit;vertical-align:top}\r\n.tg .tg-yw4l{vertical-align:top}\r\n.tg .tg-0paf{background-color:#99ff99;color:#ffffff;border-color:inherit;text-align:center;vertical-align:top}\r\n</style>\r\n<table class=\"tg\">\r\n  <tbody>\r\n    <tr>\r\n      <th class=\"tg-nn2v\"><span style=\"font-weight:bold;color:rgb(255, 255, 255)\">Command</span></th>\r\n      <th class=\"tg-nn2v\"><span style=\"font-weight:bold;color:rgb(255, 255, 255)\">Description</span></th>\r\n    </tr>\r\n    <tr>\r\n      <td class=\"tg-us36\">S/song (Song Name)</td>\r\n      <td class=\"tg-us36\">Search for a song on Spotify.</td>\r\n    </tr>\r\n    <tr>\r\n      <td class=\"tg-yw4l\">S/artists (Artists Name)</td>\r\n      <td class=\"tg-yw4l\">Search for an artist on Spotify.</td>\r\n    </tr>\r\n    <tr>\r\n      <td class=\"tg-yw4l\">S/album</td>\r\n      <td class=\"tg-yw4l\">Search for an album on Spotify.</td>\r\n    </tr>\r\n    <tr>\r\n      <td class=\"tg-yw4l\">S/feedback</td>\r\n      <td class=\"tg-yw4l\">You can give the devs your feedback on the bot! And suggest new things for it! [upvoter only]</td>\r\n    </tr>\r\n    <tr>\r\n      <td class=\"tg-yw4l\">S/donate</td>\r\n      <td class=\"tg-yw4l\">The money donated will go towards paying for a domain so you can make SpotifyBot a website as well as buying a vps from it.</td>\r\n    </tr>\r\n    <tr>\r\n      <td class=\"tg-yw4l\">S/help</td>\r\n      <td class=\"tg-yw4l\">Displays basic information or help for a command!</td>\r\n    </tr>\r\n    <tr>\r\n      <td class=\"tg-0paf\" colspan=\"2\">You can join our support server with S/invite</td>\r\n    </tr>\r\n  </tbody>\r\n</table>"
+    }
+  ],
+  "created": 1543281908963,
+  "edited": 1546553948028,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "367163580400795649",
+  "images": {
+    "avatar": "images/367163580400795649/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=367163580400795649&permissions=0&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "S/"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "music"
+  ]
+}

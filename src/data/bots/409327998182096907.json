@@ -1,0 +1,46 @@
+{
+  "authors": [
+    "discord:115134128717955080",
+    "github:Arraying"
+  ],
+  "contents": [
+    {
+      "description": "A simple high-quality, powerful, easy to use music/audio streaming bot",
+      "locale": "en-GB",
+      "name": "Impulse",
+      "page": "<!--\r\n    Please fill out\r\n-->"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1546458743118,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "409327998182096907",
+  "images": {
+    "avatar": "images/409327998182096907/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=409327998182096907&permissions=3148800&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "i/"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": "https://github.com/Arraying/Impulse",
+  "categories": [
+    "other"
+  ]
+}

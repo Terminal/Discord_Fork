@@ -1,0 +1,49 @@
+{
+  "authors": [
+    "discord:249505827180904450"
+  ],
+  "contents": [
+    {
+      "description": "Moderation, Automation, Auto Roles, Reaction Roles, Search Anything, Memes, Stats, Fun, Giveaways",
+      "locale": "en-GB",
+      "name": "Aki Bot",
+      "page": "Aki is an all round bot to handle everything on your server. With Aki you no longer need 20 different bots in your server for each little function. Aki will have over 300 commands in the future! (Check all the current 105 commands with `aki help`)\r\n\r\nAki's Sections (Some might be WIP. But fear not, Aki is rapidly developing to be the best general purpose bot around)\r\n\r\nFor Moderation & Information:\r\n- Moderation\r\n- Automation (includes auto roles)\r\n- Reaction Roles \r\n- Settings & Permissions (fully customizable)\r\n- Utility\r\n- Leveling\r\n- Statistics & Info\r\n- Polls\r\n- Giveaways\r\n\r\nFor Fun:\r\n- Search (find anything, like anime, manga, definitions, songs etc.)\r\n- Gifs (give people hugs, kisses, headpats etc. and track how many you've given)\r\n- Fun \r\n- Reddit \r\n- Economy\r\n- Gambling\r\n- RPG\r\n- NSFW"
+    }
+  ],
+  "created": 1577950749080,
+  "edited": 1577950749080,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "649604306596528138",
+  "images": {
+    "avatar": "images/649604306596528138/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=649604306596528138&scope=bot&permissions=939846742"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/kJEebZG",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "a!",
+      "aki"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:622710271705743361"
+  ],
+  "contents": [
+    {
+      "description": "Akon, The super duper discord bot, and support many things to make your guild easy for use!",
+      "locale": "en-GB",
+      "name": "Akon",
+      "page": "Akon, the super duper discord bot, bot protect your guild and help you for mange it, we helpful with our users and you can use bot by #ahelp, for add Akon do #ainvite"
+    }
+  ],
+  "created": 1579034141549,
+  "edited": 1579034141549,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "643903136372752404",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=643903136372752404&permissions=2147085745&redirect_uri=https%3A%2F%2Fakon.glitch.me%2Fcallback&scope=bot"
+  },
+  "nsfw": false,
+  "state": "denied",
+  "support": "https://discord.gg/2jzAnna",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "#a"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://akonbot.tk",
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

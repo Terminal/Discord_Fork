@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:205845138868535296"
+  ],
+  "contents": [
+    {
+      "description": "Quotes, greet messages, Stream notifications, timers, dice rolling, NSFW commands, and much more!",
+      "locale": "en-GB",
+      "name": "Accord",
+      "page": "**Accord is a multi-purpose bot that aims to have as many useful features as possible.**\r\n\r\nAccord has commands for:\r\n- Quotes, Preset, and Periodic messages\r\n- Greetings & Goodbye messages\r\n- Dice rolling and simple math\r\n- Unit and currency conversion (so your imperial and metric friends can get along!)\r\n- Twitch/Picarto/Piczel stream online notifications with mentions\r\n- Timer notifications and chronometers\r\n- User, channel and server info\r\n- Polls\r\n- Roll calls\r\n- List shuffling, random user picking\r\n- Anime search\r\n- NSFW commands\r\n- Lookup timezones, osu! stats, Fortnite stats, PUBG stats, xkcd, D&D spells, and other things\r\n- ...many more!\r\n\r\n**See the full list of commands at [Accord's help page.](https://abcric.net/accord/commands)**\r\nAccord's default is prefix is `.` but you can change it to anything that's more convenient. See the help for instructions."
+    }
+  ],
+  "created": 1551755890066,
+  "edited": 1551755890066,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "298827078013288450",
+  "images": {
+    "avatar": "images/298827078013288450/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=298827078013288450&scope=bot&permissions=59392"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/WEGMab4",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "."
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://abcric.net/accord/commands",
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "authors": [
+    "discord:153353572711530496"
+  ],
+  "contents": [
+    {
+      "description": "Music, Moderation and Utility bot for your discord server.",
+      "locale": "en-GB",
+      "name": "Craftxbot",
+      "page": "Craftxbot is a bot for your discord server, it can play music from all your favorite sites, help you moderate your server and more!\r\n\r\n"
+    }
+  ],
+  "created": 1544321053230,
+  "edited": 1544321053230,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "321493510241124363",
+  "images": {
+    "avatar": "images/321493510241124363/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=321493510241124363&scope=bot&permissions=70757577"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/jcYq5ch",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "c;"
+    ]
+  },
+  "videos": {},
+  "website": "https://craftxbot.discord.bot",
+  "source": null,
+  "categories": [
+    "music"
+  ]
+}

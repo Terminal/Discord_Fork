@@ -1,0 +1,49 @@
+{
+  "authors": [
+    "discord:207484517898780672",
+    "github:austinhuang0131"
+  ],
+  "contents": [
+    {
+      "description": "DiscordTel is a realistic telephone bot that lets you call other servers!",
+      "locale": "en-GB",
+      "name": "DiscordTel",
+      "page": "DiscordTel is a functioning telephone bot. It's the best telephone bot you will find on Discord, as our telephone feature beats Yggdrasil.\r\n\r\nWe even have advanced™ technologies such as random dial (`>rdial`, to receive random dials you need to `>dial *411` and set description), call transferring (`>transfer <another number>` during a call), and call holding (`>hold`).\r\n\r\nIt also supports realistic numbers and bills, and you can even [recharge your account using credits from other bots](https://discordtel.readthedocs.io/en/latest/Payment/)! Wow!\r\n\r\nYou can type `>help` to view all the commands.\r\n\r\nSo why wait? Invite the amazing bot to your server right now by clicking the \"Invite\" button. "
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1569804589771,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": true
+  },
+  "hide": false,
+  "id": "377609965554237453",
+  "images": {
+    "avatar": "images/377609965554237453/avatar.png",
+    "cover": "images/377609965554237453/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=377609965554237453&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/RN7pxrB",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      ">"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://discordtel.austinhuang.me",
+  "source": "https://github.com/austinhuang0131/discordtel",
+  "categories": [
+    "fun"
+  ]
+}

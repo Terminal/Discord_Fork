@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:518731387591720961"
+  ],
+  "contents": [
+    {
+      "description": "A bot which can do Moderation, Giveaway, Music, Memes, Images and many more...",
+      "locale": "en-GB",
+      "name": "Amaze",
+      "page": "Amaze | Commands\r\n\r\n⚙️ | Moderation Commands\r\n\r\nkick, ban, mute, unmute, purge, warn, announce\r\n\r\n🎇 | Image Commands\r\n\r\nfire, jail, rip, 3000years, dicatator, distort, glitch, reject, approve, scary, circle, contrast, invert, greyscale, sepia, pixelize, trigger, wasted, wanted\r\n\r\n🎉 | Giveaway Commands\r\n\r\nstart-giveaway, edit, reroll, delete\r\n\r\n🎶 | Music Commands\r\n\r\nplay, skip, stop, np, queue\r\n\r\n🔮 | Random Commands\r\n\r\nping, beep, av, say, info,"
+    }
+  ],
+  "created": 1580630991235,
+  "edited": 1580630991235,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "619580532539260928",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=619580532539260928&permissions=8&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "r!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:438323631433449482"
+  ],
+  "contents": [
+    {
+      "description": "Chat with bot! Mention Chatbot and start chat. e.g: @Chatbot hi!(DM channel allowed)",
+      "locale": "en-GB",
+      "name": "PyramidBot",
+      "page": "Chat with bot! Mention Chatbot and start chat. e.g: @Chatbot hi!(DM channel allowed) ?help İf you are read this message congratulations you used this command 😃 ?botinfo Sends the bot information as a message. ?serverinfo Sends the server information as a message. ?Dog Bot send out random dog photos on your channel. ?cat Bot send out random cat photos on your channel. ?meme Bot send out random meme photos on your channel. ?kiss Bot send out random kiss gif on your channel. ?hug Bot send out random hug gif on your channel. ?play Play audio from YouTube.(url or text) ?search Search's for up to 10 videos from YT. ?skip Skip a song or multi songs with skip [some number]. ?queue Display the current queue. .?pause Pause music playback. ?resume Resume music playback. ?remove Remove a song from the queue by position. ?volume Adjust the playback volume between 1 and 200. ?leave Clears the song queue and leaves the channel. ?clearqueue Clears the song queue. ?np Show the current playing song."
+    }
+  ],
+  "created": 1568038344365,
+  "edited": 1568038344365,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "553677383895351296",
+  "images": {
+    "avatar": "images/553677383895351296/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=553677383895351296&permissions=0&scope=bot"
+  },
+  "nsfw": false,
+  "state": "denied",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "?"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "music"
+  ]
+}

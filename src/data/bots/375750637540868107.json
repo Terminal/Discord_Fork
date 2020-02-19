@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:219067402174988290"
+  ],
+  "contents": [
+    {
+      "description": "Music, anime and more...",
+      "locale": "en-GB",
+      "name": "Kyoko",
+      "page": "<!--\r\n\r\nDescription!\r\n\r\n-->"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1553278936508,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "375750637540868107",
+  "images": {
+    "avatar": "images/375750637540868107/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?&client_id=375750637540868107&scope=bot&permissions=2117598326"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "ky!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

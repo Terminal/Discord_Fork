@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:594852041050816522"
+  ],
+  "contents": [
+    {
+      "description": "Thunderbolt is a multipurpose discord bot including many features.",
+      "locale": "en-GB",
+      "name": "Thunderbolt",
+      "page": "Thunderbolt includes so many commands which helps to power-up the server.\r\n\r\nFeatures\r\n\r\n- Moderation\r\n- Fun\r\n- Meme\r\n- Music\r\n- Leveling\r\n- Economy\r\n- Welcomer\r\n- Logging\r\n- Configurable\r\n\r\nIf you have any problem, please join our support server. Thanks ;)"
+    }
+  ],
+  "created": 1563716271835,
+  "edited": 1563716487108,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "599106118106742785",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=599106118106742785&scope=bot&permissions=2146958847"
+  },
+  "nsfw": true,
+  "state": "denied",
+  "support": "https://discord.gg/KRdhDVj",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "tb!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://thunderbolt.netlify.com",
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "authors": [
+    "discord:285837115206402049"
+  ],
+  "contents": [
+    {
+      "description": "🔞 This Bot is full NSFW and it isn't appropriate for under 18 🔞",
+      "locale": "en-GB",
+      "name": "Lewd",
+      "page": "Lewd is a bot exclusively reserved for the NSFW, it has 80 full NSFW commands. Commands addition is coming soon.\r\n\r\n**★ Client:**\r\n`bot, invite`\r\n\r\n**★ Generic:**\r\n`help`\r\n\r\n**★ Hentai :**\r\n`ahegao, beast, ecchi, femdom, furry, futanari, hentaianal, hentaibondage, hentaicum, hentaiwallpaper, hooked, humiliation, legs, lewd, monstergirl, neko, oppai, petgirls, publichentai, tentacle, trap, vocaloid, yaoi, yuri`\r\n\r\n**★ Real :**\r\n`4k, amateur, anal, arab, asian, ass, bbw, bdsm, blonde, blowjob, bondage, boobs, brunette, bukkake, busty, chubby, college, cosplay, creampie, cuckold, cum, dick, doggystyles, downblouse, ebony, feet, fist, gay, gorgeous, group, handjob, hardcore, japanese, latina, lesbians, masturbation, mature, milf, orgy, pawg, public, pussy, random, redheads, religious, selfie, squirt, straps, tattoo, teen, thigh, threesome, toys, trans, wallpaper, wallpaperphone`"
+    },
+    {
+      "description": "🔞 Ce bot est complètement NSFW et il n'est pas approprié pour les moins de 18 ans 🔞",
+      "locale": "fr",
+      "name": "Lewd",
+      "page": "Lewd est un bot exclusivement réservé au NSFW, il dispose de 80 commandes NSFW. L'ajout de nouvelle commandes arrive bientôt.\r\n\r\n**★ Client:**\r\n`bot, invite`\r\n\r\n**★ Generic:**\r\n`help`\r\n\r\n**★ Hentai :**\r\n`ahegao, beast, ecchi, femdom, furry, futanari, hentaianal, hentaibondage, hentaicum, hentaiwallpaper, hooked, humiliation, legs, lewd, monstergirl, neko, oppai, petgirls, publichentai, tentacle, trap, vocaloid, yaoi, yuri`\r\n\r\n**★ Real :**\r\n`4k, amateur, anal, arab, asian, ass, bbw, bdsm, blonde, blowjob, bondage, boobs, brunette, bukkake, busty, chubby, college, cosplay, creampie, cuckold, cum, dick, doggystyles, downblouse, ebony, feet, fist, gay, gorgeous, group, handjob, hardcore, japanese, latina, lesbians, masturbation, mature, milf, orgy, pawg, public, pussy, random, redheads, religious, selfie, squirt, straps, tattoo, teen, thigh, threesome, toys, trans, wallpaper, wallpaperphone`"
+    }
+  ],
+  "created": 1551460945766,
+  "edited": 1554048938817,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "546457204958560315",
+  "images": {
+    "avatar": "images/546457204958560315/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=546457204958560315&scope=bot&permissions=379968"
+  },
+  "nsfw": true,
+  "state": "approved",
+  "support": "https://discord.gg/BGZsFe7",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "lewd"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "entertainment"
+  ]
+}

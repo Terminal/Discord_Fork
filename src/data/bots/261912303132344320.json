@@ -1,0 +1,47 @@
+{
+  "authors": [
+    "discord:261912303132344320"
+  ],
+  "contents": [
+    {
+      "description": "Oliver is a modbot and a music bot as well ",
+      "locale": "en-GB",
+      "name": "Oliver",
+      "page": "# Oliver\r\n\r\nOliver is a music bot and can be used for a modbot.\r\n\r\nFor moderating your server, you can use modlogs which are logs of actions done by moderators. \r\nYou can add members logs, everytime someone joins your server it will be logged in a channel of your choice. It also logs the number of leaves and joins by members.\r\n\r\n\r\n<!--\r\n  Stan LOONA\r\n  Stan Talent\r\n-->\r\n"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1543069338903,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "261912303132344320",
+  "images": {
+    "avatar": "images/261912303132344320/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://lepeli.fr/invite/discordfork"
+  },
+  "nsfw": false,
+  "state": "denied",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "l?",
+      "L?",
+      "lepeli"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

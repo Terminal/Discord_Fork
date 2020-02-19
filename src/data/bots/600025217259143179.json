@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:531856270341308427"
+  ],
+  "contents": [
+    {
+      "description": "Rex-Bot is a Multipurpose Discord Bot that can do thinks!",
+      "locale": "en-GB",
+      "name": "rex-bot",
+      "page": "Rex-Bot is a Multipurpose Discord Bot that can do thinks!\r\n\r\n• He has got over 130 Commands! • Please Suggest new Commmands at https://discord.gg/gCPFbBM ! Or use rex?suggest\r\n\r\nFeatures! • Moderation • Fun • Music • Utility\r\n\r\nMade with Python! • Build with Love <3 #forYou\r\n\r\nSetup! • Use rex?setup\r\n\r\nSupport! • https://discord.gg/gCPFbBM\r\n\r\nDocs! • https://docs.rex-bot.ga/\r\n\r\nStatus! • All working fine\r\n\r\nTo Do! • Poll Command, GiveWay Command\r\n\r\nCommands! Over 130 use rex?help to see all!\r\n\r\nInvite? https://discordapp.com/oauth2/authorize?client_id=600025217259143179&scope=bot"
+    }
+  ],
+  "created": 1577892517892,
+  "edited": 1577892517892,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "600025217259143179",
+  "images": {
+    "avatar": "images/600025217259143179/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=600025217259143179&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/gCPFbBM",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "rex?"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://rex-bot.ga",
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

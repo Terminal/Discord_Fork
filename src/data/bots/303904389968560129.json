@@ -1,0 +1,45 @@
+{
+  "authors": [
+    "discord:236514700257525772"
+  ],
+  "contents": [
+    {
+      "description": "Play songs and search for song lyrics and info from inside Discord!",
+      "locale": "en-GB",
+      "name": "Spoti-Search",
+      "page": "<!--\r\n    Please fill out\r\n-->"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1546458520062,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "303904389968560129",
+  "images": {
+    "avatar": "images/303904389968560129/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://spotify.larkin.space/invite"
+  },
+  "nsfw": false,
+  "state": "denied",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "s*"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

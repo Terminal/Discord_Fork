@@ -1,0 +1,51 @@
+{
+  "authors": [
+    "discord:140590672657776641"
+  ],
+  "contents": [
+    {
+      "description": "The Automatic Global Banning or Notification System needed to protect your guild!",
+      "locale": "en-GB",
+      "name": "GlobalBanz",
+      "page": "What even is GlobalBanz?\r\nProtect your server with GlobalBanz!\r\n\r\nGlobalBanz automatically bans people upon them joining your guild and sends them a DM with information regarding their ban. GlobalBanz only bans people that are known and have been reported for advertising, spamming, raiding, impersonating, doxxing and people that really don't deserve a Discord Account.\r\n\r\nCommands:\r\nCommand Name\r\n\r\nArgs\r\n\r\nDescription\r\n\r\ngb!help\r\n\r\nShows you these commands but in a nice reaction navigated menu.\r\n\r\ngb!about\r\n\r\nTells you information regarding the bot itself.\r\n\r\ngb!vote\r\n\r\nAllows you to vote for GlobalBanz on the listed websites.\r\n\r\ngb!serverinfo\r\n\r\nTells you information regarding your guild.\r\n\r\ngb!prefix\r\n\r\nAllows you to change the bot's prefix.\r\n\r\ngb!ping\r\n\r\nGives you a nice ms ping response.\r\n\r\ngb!invite\r\n\r\nSends the invitation link for the bot.\r\n\r\ngb!banned\r\n\r\n[@user/user id/none]\r\n\r\nAllows you to check if the user is Globally Banned or not.\r\n\r\ngb!check\r\n\r\nAllows anyone with the 'BAN_MEMBERS' permission to check existing Guild members for their GlobalBan Status.\r\n\r\ngb!mode\r\n\r\n[ban/warn]\r\n\r\nAllows anyone with the 'MANAGE_GUILD' permission to switch modes of GlobalBanz.\r\n\r\ngb!loggingchannel\r\n\r\n[#channel/clear]\r\n\r\nAllows anyone with the 'MANAGE_GUILD' permission to set the logging channel where notifications from GlobalBanz will be sent.\r\n\r\nPart of 'The Bot Family'"
+    }
+  ],
+  "created": 1562529102504,
+  "edited": 1566139541544,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "463733562601111553",
+  "images": {
+    "avatar": "images/463733562601111553/avatar.png",
+    "cover": "images/463733562601111553/background.png",
+    "preview": [
+      "images/463733562601111553/0.png",
+      "images/463733562601111553/1.png"
+    ]
+  },
+  "invite": {
+    "discord": "https://bot.discord.io/globalbanz"
+  },
+  "nsfw": false,
+  "state": "denied",
+  "support": "https://discord.gg/5ZUHWuT",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "gb!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

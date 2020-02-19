@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:370535760757260289"
+  ],
+  "contents": [
+    {
+      "description": "It’s a multipurpose Discord Bot",
+      "locale": "en-GB",
+      "name": "Relms Bot",
+      "page": "# Relms Bot\r\n\r\n## Hello there and welcome to Relms Bot! The one and only bot **YOU** need! This bot currently has over 70 commands with more to come soon!\r\n\r\n*SPOT A BUG? Join the Support Server or DM @Relms#0069 on Discord!*\r\n\r\n### So, what can Relms Bot do? Here are some examples:\r\n1. Global Leveling system with role rewards coming soon!\r\n2. Ticketing System to easily manage any questions your server members have!\r\n3. Suggestions system with voting to show who likes/dislikes suggestions made by the server members \r\n4. Server Stats to track how many members you have!\r\n5. Social commands!\r\n6. Moderation commands to manage all your moderation needs!\r\n7. Customization and configuration!\r\n8. Music Commands!\r\n\r\n### So what’s coming for Relms Bot in the future? Here are some examples (more found on the Website):\r\n1. More configs and customization \r\n2. More functionality to ticketing and suggestions system\r\n3. More server stats\r\n4. More social commands \r\n5. More commands in general\r\n6. Economy system\r\n7. Website Dashboard \r\n\r\nSo why choose Relms Bot you may ask? Well that’s easy! It aims to be the **ONLY** bot you need in your server so that you don’t have to memorize so many prefixes and won’t have the bot cluster!\r\n\r\nImportant Links: \r\n* [Support Server](https://relmsbot.com/support)\r\n* [Website](https://relmsbot.com)\r\n* [Patreon](https://www.patreon.com/relmsbot)\r\n* [Bot Invite Link](https://www.relmsbot.com/invite)\r\n* Ban appeal form (Coming Soon!)\r\n\r\nNotes:\r\n* Please follow all listed rules below\r\n* Make sure to set the Relms Bot Role above all other roles to work properly! \r\n* Please report all bugs you find to @Relms#0069 on Discord. This is not needed but it is much appreciated!\r\n\r\n**Rules:**\r\n1. DO NOT nuke commands. That means spamming the bots commands. I LOG everything to do with the bot like what commands are ran etc. If your caught nuking commands, you **WILL** be banned from using the bot!\r\n2. DO NOT copy the bot! If caught, it will be reported to Discord and your Discord account will be banned!\r\n\r\nSo what are you waiting for? ADD RELMS BOT TODAY!\r\n\r\n###### *Last Updated: 13 Jan 2020*"
+    }
+  ],
+  "created": 1579194967837,
+  "edited": 1579194967837,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": true
+  },
+  "hide": false,
+  "id": "642908629678161921",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=642908629678161921&permissions=0&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/dntmzmr",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://relmsbot.com",
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "authors": [
+    "discord:178535921841471488"
+  ],
+  "contents": [
+    {
+      "description": "Nous livrons de la nourriture, et tout ça très rapidement",
+      "locale": "fr",
+      "name": "Discord eats",
+      "page": "Qu'est ce que Discord eats?\r\n\r\nDiscord eats est un bot qui permet de commander à manger et de se faire livrer directement dans votre serveur\r\n\r\nComment ça marche?\r\n\r\nLorsque tu commandes, tu envoies un message d'appel pou un serveur qui s'occupera de récupérer ta commande.\r\nEnsuite un cuisinier créera ta commande sous format image et ensuite ta commande sera livrée sur ton serveur\r\n\r\n\r\n(Comme les cuisiniers, les serveurs et les livreurus sont des humains, il se peut que tu reçoives aucunue réponse lorsque tu appelles un serveur)"
+    },
+    {
+      "description": "You want to order food on your discord server? Discord eats can help you to do that",
+      "locale": "en-GB",
+      "name": "Discord eats",
+      "page": "What is Discord eats\r\n\r\nDiscord eats is a new bot where you can order food\r\n\r\nHow it works\r\n\r\nThere are 3 roles Server,Cook and Delivery When you start an order, you call a Server. If the server answer, you can send to him what food you want. He will send the order to a Cook and this cook will create your order. Next a delivery receive your answer and he will deliver it directly to your server. People who owns the roles Server,Cook and Delivery are real persons.\r\n\r\nHow to start?\r\n\r\nTo start you can do the command !call but it is recommand to do the command !help to know all the commands\r\n\r\n(People who create your orders are real persons so sometimes, you can receive 0 answer)"
+    }
+  ],
+  "created": 1559218484792,
+  "edited": 1559218484792,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "572093738747166741",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=572093738747166741&permissions=1&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/6cmyfxz",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

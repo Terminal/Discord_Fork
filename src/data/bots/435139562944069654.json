@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:284857002977525760"
+  ],
+  "contents": [
+    {
+      "description": "Gami is a multi-purpose discord bot with over 85 commands that is customizable and fast.",
+      "locale": "en-GB",
+      "name": "Gami",
+      "page": "Gami is a multi-purpose discord bot with over 85 commands that is customizable and fast. It can do things such as Moderation, Customizable Leveling, Seamless Music, Autorole, Logs, Cool Games, Welcome Messages, and much more. To see a list of commands, type ~help (You can also change the prefix if you want using ~prefix). Gami is constantly being updated from ideas that you can submit! So what are you waiting for, invite Gami!\r\n"
+    }
+  ],
+  "created": 1542817705070,
+  "edited": 1548177003722,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "435139562944069654",
+  "images": {
+    "avatar": "images/435139562944069654/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=435139562944069654&permissions=2146958847&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/qRxEbaR",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "-"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://gamisbot.com",
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

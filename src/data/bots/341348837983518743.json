@@ -1,0 +1,49 @@
+{
+  "authors": [
+    "discord:185964290732326912",
+    "github:Kwoth"
+  ],
+  "contents": [
+    {
+      "description": "Replica of Nadeko",
+      "locale": "en-GB",
+      "name": "Jungkook",
+      "page": "Gambling, Games, Levels, and Roles."
+    }
+  ],
+  "created": 1567204197718,
+  "edited": 1567204793477,
+  "flags": {
+    "adverts": true,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "341348837983518743",
+  "images": {
+    "avatar": "images/341348837983518743/avatar.png",
+    "cover": "images/341348837983518743/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=341348837983518743&scope=bot&permissions=66186303"
+  },
+  "nsfw": false,
+  "state": "denied",
+  "support": null,
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "."
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": "https://github.com/Kwoth/nadekobot",
+  "categories": [
+    "fun"
+  ]
+}

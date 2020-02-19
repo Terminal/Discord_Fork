@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:291860794163855360"
+  ],
+  "contents": [
+    {
+      "description": "A multifunctional Discord Bot providing moderation, fun, utilities commands and others..",
+      "locale": "en-GB",
+      "name": "UniX",
+      "page": "# UniX\r\nUniX is a powerful, configurable and multipurpose Discord bot, made using the [discord.js](https://discord.js.org/) library for the Discord API.\r\n\r\n> This bot is available in ENglish, French and Italian. If the bot doesn't responds to the help command please allow him to send embed links, if the problem persist kick him from the server and invite him by this link [click here](https://discordapp.com/oauth2/authorize?client_id=434105937595465748&scope=bot&permissions=37080065)."
+    }
+  ],
+  "created": 1551538846636,
+  "edited": 1557176704994,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "434105937595465748",
+  "images": {
+    "avatar": "images/434105937595465748/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=434105937595465748&scope=bot&permissions=37080065"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/n9grfub",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "u!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://unix.tk/",
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

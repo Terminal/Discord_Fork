@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:190183561788260352"
+  ],
+  "contents": [
+    {
+      "description": "Where you can leveling, pvp, arena, upgrade system, quests, worldboss etc..",
+      "locale": "en-GB",
+      "name": "MMORPG Bot",
+      "page": "-Leveling (Max 50 level)\r\n\r\n-5 different class\r\n\r\n-3v3 Arena\r\n\r\n-Pvp Zone\r\n\r\n-Ranks (Honor, gold,level,gearscore...)\r\n\r\n-Item Systems\r\n\r\n-Item Upgrade System\r\n\r\n-Skill system\r\n\r\n-Skill Upgrade system\r\n\r\n-World Boss\r\n\r\n-Farm mobs\r\n\r\n-Quests\r\n\r\nand more.. $SetBot Configure bot on your server if you didnt do it before\r\n\r\nDocument for all command and system: https://docs.google.com/spreadsheets/d/1f-lSQItuc0jXuzjyrZUOHSpkxB1CJK7Q903XadlX_RQ\r\n\r\nYou can start with choosing your class and nickname 1-)$Chooseclass classname\r\n\r\n(Here classnames: Asas - Archer - Berserker- Mage - Priest - Tank )\r\n\r\n2-)$SetNick 'Nickname'\r\n\r\n3-)$mystats it shows your stats(Hp, atak, def, magic def etc...\r\n\r\n4-)$doquest you can lvling with these missions.your character ll return in 30-60 minutes.(Xp + Gold rewards)\r\n\r\n'$SetBot' Firstly Use this command for Configure bot to your discord, if you haven't done before"
+    }
+  ],
+  "created": 1566934937933,
+  "edited": 1566934937933,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "573130328793939978",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=573130328793939978&permissions=268435472&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/Vj5tTfS",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "$"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "games"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:240508683455299584"
+  ],
+  "contents": [
+    {
+      "description": "Un bot de sécurité pour vos serveurs",
+      "locale": "fr",
+      "name": "Gaelle",
+      "page": "<center>\r\n  <h2>Gaelle</h2>\r\n  <h4>Je sécurise vos serveurs avec mon captcha.</h4>\r\n  <h4>Je vous aide pour la modération.</h4>\r\n  <h4>Je comblerais vos attentes.</h4>\r\n  <h2>Je suis la future protectrice de vos serveurs ! </h2>\r\n\t<iframe src=\"https://gaelle-bot.tk/\"></iframe>\r\n</center>"
+    }
+  ],
+  "created": 1551572409810,
+  "edited": 1551572448333,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "470164974631911435",
+  "images": {
+    "avatar": "images/470164974631911435/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=470164974631911435&scope=bot&permissions=-1"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/eduBrt5",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "&"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://gaelle-bot.tk",
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

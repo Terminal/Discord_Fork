@@ -1,0 +1,41 @@
+{
+  "authors": [],
+  "contents": [
+    {
+      "description": "A bot with many features including music bot, cards against humanity, and text based adventures",
+      "locale": "en-GB",
+      "name": "Strodl Bot",
+      "page": "# Strodl Bot\n\nHello! Strodl Bot is a bot which does all kinds of fun stuff! For example it has free music, cards against humanity, and text based adventures!\nThe bot is very easy to use, for a more exhaustive feature list, invite the bot and run `&help`\n\nIt's super easy to add, just click the button below:\n<button src=\"https://discordapp.com/oauth2/authorize?client_id=247134460024193027&scope=bot&permissions=8\">Invite me!</button>\n<!--\nThis data was imported from ls.terminal.ink\n-->\n"
+    }
+  ],
+  "created": 1527811200000,
+  "edited": 1527811200000,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "247134460024193027",
+  "images": {
+    "avatar": "images/247134460024193027/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=247134460024193027&scope=bot&permissions=8"
+  },
+  "state": "approved",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "&"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

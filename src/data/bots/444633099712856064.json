@@ -1,0 +1,45 @@
+{
+  "authors": [
+    "discord:190916650143318016"
+  ],
+  "contents": [
+    {
+      "description": "An easy-to-use Discord music bot trusted by 2k+ servers",
+      "locale": "en-GB",
+      "name": "Moosic",
+      "page": "Looking for a **free** Discord music bot that's **just** a music bot, that works as soon as you add it; no **paying**, **setup**, or **complexity**? Add Moosic to your server! Moosic is a free music bot for Discord that's just a music bot, with no setup or complicated features!\r\n\r\n\r\n\r\n\r\n# Playing Music\r\nMoosic can play from YouTube, or you can provide a direct video/audio file link.\r\n\r\nPlay types:\r\n- YouTube Search\r\n- YouTube URL\r\n- File URL\r\n\r\nMoosic will automatically detect the type you want to use!\r\n\r\n# Commands\r\n- ▶️ `&play`: Plays music, you can use a file URL, YouTube URL, or song name/search query.\r\n- ⏺️ `&stream`: Stream music from a YT livestream, you can use a YouTube URL or stream name/search query.\r\n- ⏸ `&pause`: Pauses music\r\n- ⏯ `&resume`: Resumes paused music\r\n- ⏹ `&stop`: Stops music and leaves the voice channel"
+    }
+  ],
+  "created": 1544923237126,
+  "edited": 1544923237126,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "444633099712856064",
+  "images": {
+    "avatar": "images/444633099712856064/avatar.png",
+    "cover": "images/444633099712856064/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://moosic.advaith.fun/invite"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/tf85Xhc",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "&"
+    ]
+  },
+  "videos": {},
+  "website": "https://moosic.advaith.fun",
+  "source": null,
+  "categories": [
+    "music"
+  ]
+}

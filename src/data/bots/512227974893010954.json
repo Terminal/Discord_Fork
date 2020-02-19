@@ -1,0 +1,50 @@
+{
+  "authors": [
+    "discord:332980470650372096"
+  ],
+  "contents": [
+    {
+      "description": "Martine is a multifunction bot, can play music, send random images and many more",
+      "locale": "en-GB",
+      "name": "Martine",
+      "page": "# Martine#4245\r\n\r\n### Martine comes with a lot of features for you and your server:\r\n\r\n*   An advanced HD music player\r\n*   Welcoming members with an image or a message\r\n*   A lot of images commands for everyone\r\n*   Also a lot of Nsfw commands and features, autoporn, sendnudes\r\n*   Moderation\r\n*   Reaction roles\r\n*   Customizable prefix per server\r\n*   Giveaway maker\r\n*   An economy, over 1.5k users on leaderboard\r\n*   Rocket League stats\r\n*   And much much more to discover!\r\n\r\nYou want to learn more about Martine? Invite her and use `,help` command to get started, or join our Discord!\r\n\r\n#### Links:\r\n\r\n[Invite Martine](http://bit.ly/MartineBot)  \r\n[Website](https://martinethebot.com)  \r\n[Join our Discord](https://discord.gg/R6puN8Z)  \r\n[  \r\n![Join Martine Discord server](https://discordapp.com/api/guilds/337224005901615104/embed.png?style=banner2)  \r\n](https://discord.gg/R6puN8Z)\r\n\r\n  \r\n  \r\n\r\nFork of Red-DiscordBot v3. Link of the [GitHub](https://github.com/Cog-Creators/Red-DiscordBot \"Red Github\").  \r\nThanks to them for base of this nice bot, and all the help to improve it.\r\n\r\nArtwork made with ♡ by [Babi](https://www.deviantart.com/babi-jini).  \r\nMartine#4245. ♡"
+    }
+  ],
+  "created": 1559496735999,
+  "edited": 1574956941849,
+  "flags": {
+    "adverts": true,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "512227974893010954",
+  "images": {
+    "avatar": "images/512227974893010954/avatar.png",
+    "cover": "images/512227974893010954/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=512227974893010954&scope=bot&permissions=2147347703"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/R6puN8Z",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      ",",
+      "mart",
+      "m!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://martinethebot.com",
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

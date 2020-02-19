@@ -1,0 +1,50 @@
+{
+  "authors": [
+    "discord:229563674375749633",
+    "discord:292684036965662722",
+    "discord:278813825698889728"
+  ],
+  "contents": [
+    {
+      "description": "A remake of my old bot also called lit bot but this time better than before!",
+      "locale": "en-GB",
+      "name": "Lit Bot",
+      "page": "Lit bot was one of my first bot that I made on discord and only had a few commands. \r\nIt got very outdated since I stoped working on it. \r\nBut now I am back with a remake of lit bot, you could call it lit bot 2.0 if you want to! \r\nIt now has over 30 commands and will be getting a lot more every update. \r\nIf you want to know what the bot can do type lb.help in a channel with the bot! \r\nAs for now this is all I can tell you so have fun with lit bot!\r\n\r\nMade by: Gaming Frame, Skyhawk and Arno Keesmand"
+    }
+  ],
+  "created": 1552317784677,
+  "edited": 1552317784677,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "549227236285480991",
+  "images": {
+    "avatar": "images/549227236285480991/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=549227236285480991&scope=bot&permissions=68535361"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/6qtQBpy",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "lb."
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

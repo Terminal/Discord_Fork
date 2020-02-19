@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:469999926861103124"
+  ],
+  "contents": [
+    {
+      "description": "OperaBOT is a multi function moderation bot.",
+      "locale": "en-GB",
+      "name": "English",
+      "page": "OperaBOT is a moderation, fun and a NSFW bot. You can set your own server prefix.\r\nFor a list of commands, type >help"
+    }
+  ],
+  "created": 1565984407762,
+  "edited": 1565984407762,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "481210598437421057",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=481210598437421057&permissions=8&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/RuMFBgj",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      ">"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

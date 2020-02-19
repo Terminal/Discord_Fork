@@ -1,0 +1,42 @@
+{
+  "authors": [],
+  "contents": [
+    {
+      "description": "Big cute weeb shipgirl with simple commands (=^･ω･^=) ",
+      "locale": "en-GB",
+      "name": "Akatsuki",
+      "page": "Akatsuki is a big cutie with very basic commands but has a cute economy system and lots of weeb commands like pats because everyone loves pats >~<\n\nDetailed Command Usage:\n```\n - help, View the very basic help commands\n - daily, Get your daily credits\n - transfer, Transfer your cute credits to other big cuties\n - profile, View a users profile\n - rep, Give users cutie reputation points\n - info, Get the bots current stats\n - server, Get information about the server the command is executed in\n - animepic, Get a cute anime pic (=^･ω･^=)\n - cuddle, Cuddle a cutie >w<\n - hug, Hug another big cutie >~<\n - kiss, Kiss more cuties >///<\n - pat, *pats on the head*\n ```"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1542569433000,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "504194448540958726",
+  "images": {
+    "avatar": "images/504194448540958726/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=504194448540958726&permissions=313344&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "a!"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

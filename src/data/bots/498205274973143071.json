@@ -1,0 +1,49 @@
+{
+  "authors": [
+    "discord:269247101697916939",
+    "discord:322758556946530304"
+  ],
+  "contents": [
+    {
+      "description": "This bot aims to fill in for the missing features that the original Highlight bot doesn't have",
+      "locale": "en-GB",
+      "name": "Highlight",
+      "page": "[Full commands list](https://highlight-bot.000webhostapp.com/commands)\r\n\r\nConfiguration Commands:\r\n\r\n• h!config → Define per-guild settings.\r\n\r\n• h!disable → Disable a command.\r\n\r\n• h!enable → Enable a command.\r\n\r\n• h!prefix → Change the command prefix the bot uses in your server.\r\n\r\n• h!user-config → Define per-user settings.\r\n\r\nDebug Commands:\r\n\r\n• h!stats → Provides some details about the bot and stats.\r\n\r\nBlock Commands:\r\n\r\n• h!block → Manage the items in your block list. Items in your block list won't trigger your highlights.\r\n\r\nGeneral Commands:\r\n\r\n• h!help → Display help for a command.\r\n\r\n• h!invite → Displays the join guild link of the bot.\r\n\r\n• h!ping → Runs a connection test to Discord.\r\n\r\n• h!server-perms → Shows you a list of the bots permissions in the server.\r\n\r\nInfo Commands:\r\n\r\n• h!guild-info → Get information on the current server.\r\n\r\n• h!info → Tells you some information about me!\r\n\r\n• h!role-info → Get information on a role with an id or a mention.\r\n\r\n• h!user-info → Test the member search function.\r\n\r\nMusic Commands:\r\n\r\n• h!lyrics → Fetch lyrics for a given artist and song.\r\n\r\nNotepad Commands:\r\n\r\n• h!notes → Manage the items in your notepad. These can be used for notes.\r\n\r\nSettings Commands:\r\n\r\n• h!enable-devmode → Enable developer mode to allow for using regular expressions.\r\n\r\n• h!guild-language → Set the guilds language.\r\n\r\n• h!toggle-dnd → Toggle Do Not Disturb mode. When activated the bot will not notify you of triggers in any server (global setting).\r\n\r\n• h!toggle-language-override → Toggle overriding a users language. If enabled the bot will use the guild defined language.\r\n\r\n• h!toggle-ocr → Toggle OCR (Image Scanning). When activated the bot scan images for triggers (global setting).\r\n\r\n• h!user-language → Customize the bot's language to your specific language.\r\n\r\nTriggers Commands:\r\n\r\n• h!regexes → Manage the items in your regex list. Regexes are used as an advanced highlight.\r\n\r\n• h!words → Manage the items in your word list. Words are used for simple triggers."
+    }
+  ],
+  "created": 1556438418447,
+  "edited": 1579404202066,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "498205274973143071",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=498205274973143071&permissions=388288&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/Gm5ekvq",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "h!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "notifications"
+  ]
+}

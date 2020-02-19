@@ -1,0 +1,49 @@
+{
+  "authors": [
+    "discord:180093157554388993",
+    "github:Devoxin"
+  ],
+  "contents": [
+    {
+      "description": "High quality music • PornHub & Spotify Support • Bass Boost",
+      "locale": "en-GB",
+      "name": "JukeBot",
+      "page": "SKSKSKSKSKSKSKSKSKSKSKSKSKSKSKSKSKSKSKSK\r\n"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1563314884165,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "249303797371895820",
+  "images": {
+    "avatar": "images/249303797371895820/avatar.png",
+    "cover": "images/249303797371895820/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?permissions=36793345&scope=bot&client_id=249303797371895820"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "$"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": "https://github.com/Devoxin/JukeBot",
+  "categories": [
+    "music"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:97147476531757056"
+  ],
+  "contents": [
+    {
+      "description": "Discord karaoke bot",
+      "locale": "en-GB",
+      "name": "Kariari",
+      "page": "Features:\r\n- Multi Language Support! (see go.kariari.xyz/lang for available languages)\r\n- Keeps tabs on karaoke queues\r\n- Allows people to add themselves and remove themselves from the queue\r\n- Allows for uninterrupted singing by muting people who are not singing at the moment\r\n- People with a certain role that you define can moderate the queue\r\n- Actively updated and quick bot support\r\n\r\nCommands:\r\nAn up to date command list can be found at go.kariari.xyz/commands\r\n\r\nSupport:\r\nFor support you can join the support server here. Documentation can be found at docs.kariari.xyz.\r\n\r\nDefaults:\r\nThe default master role is \"kariarimaster\". The default prefix is \";\". Both of these can be changed at any time."
+    }
+  ],
+  "created": 1579401524402,
+  "edited": 1579401524402,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "480889253165793290",
+  "images": {
+    "avatar": "images/480889253165793290/avatar.png",
+    "cover": "images/480889253165793290/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://kariari.xyz/invite"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      ";"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://kariari.xyz",
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

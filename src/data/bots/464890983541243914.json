@@ -1,0 +1,54 @@
+{
+  "authors": [
+    "discord:289479495444987904"
+  ],
+  "contents": [
+    {
+      "description": "Solidbot is Multi-Bot with 110+ commands, now is in BETA.",
+      "locale": "en-GB",
+      "name": "SolidBot",
+      "page": "# SolidBot is multi-bot that allows you to:\r\n* Download YouTube music\r\n* Play music\r\n* Check TruckersMP Stats\r\n* Send Random doggos/cats\r\n* Welcome new members for you!\r\n###### *Enjoy!*"
+    },
+    {
+      "description": "SolidBot Jest Multi-Botem który posiada 110+ komend, teraz jest w wersji BETA.",
+      "locale": "pl",
+      "name": "SolidBot",
+      "page": "# SolidBot pozwoli ci na:\r\n* Pobieranie muzyki z YouTube\r\n* Odtwarzanie muzyki\r\n* Sprawdzanie statystyk z TruckersMP\r\n* Wysyłanie randomowych zdjęć piesków/kotków\r\n* Automatyczne witanie nowych użytkowników na serwerze\r\n###### *Miłej Zabawy!*"
+    }
+  ],
+  "created": 1546554865109,
+  "edited": 1547252920614,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "464890983541243914",
+  "images": {
+    "avatar": "images/464890983541243914/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=464890983541243914&scope=bot&permissions=8"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/By3bvFc",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "."
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://roki.ovh/sb",
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

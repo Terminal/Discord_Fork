@@ -1,0 +1,49 @@
+{
+  "authors": [
+    "discord:115590097100865541",
+    "github:LMByrne"
+  ],
+  "contents": [
+    {
+      "description": "A simple bot for getting statistics from Last.fm with social integration.",
+      "locale": "en-GB",
+      "name": "Discord.FM",
+      "page": "A simple bot for getting statistics from Last.fm that also comes with some simple voice integrations.\r\n<br>While still in it's early days, Discord.FM includes the following features:</br>\r\n\r\n* Deep Last.fm integration to access details like scrobbles, and track info.\r\n* Self-assingable last.fm accounts\r\n* Youtube and Soundcloud integrations (including experimental voice features)\r\n* Aggressive data caching.\r\n* and more coming."
+    }
+  ],
+  "created": 1557968032448,
+  "edited": 1559547126865,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "560984860634644482",
+  "images": {
+    "avatar": "images/560984860634644482/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=560984860634644482&scope=bot&permissions=104197184"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/jkEXqVd",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "fm."
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": "https://github.com/LMByrne/Discord.FM",
+  "categories": [
+    "music"
+  ]
+}

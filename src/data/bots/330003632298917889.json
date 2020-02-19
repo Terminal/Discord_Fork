@@ -1,0 +1,52 @@
+{
+  "authors": [
+    "discord:190519304972664832",
+    "github:moustacheminer"
+  ],
+  "contents": [
+    {
+      "description": "Recieve emails to your Discord server using the power of webhooks!",
+      "locale": "en-GB",
+      "name": "DiscordMail",
+      "page": "### Recieve E-Mails via a Discord Channel\r\n\r\nDiscordMail allows you to recieve emails from a Discord Channel!\r\nJust invite and type `dmail register`.\r\n\r\n#### Commands\r\n\r\n- `encode`\r\n  - Turn a webhook into an email.\r\n- `decode`\r\n  - Turn an email back into a webhook.\r\n- **`register`**\r\n  - Automatically create a webhook and email\r\n\r\n<!-- Test of parcel -->"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1555282484017,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": true,
+  "id": "330003632298917889",
+  "images": {
+    "avatar": "images/330003632298917889/avatar.png",
+    "cover": "images/330003632298917889/background.png",
+    "preview": [
+      "images/330003632298917889/0.png",
+      "images/330003632298917889/1.png"
+    ]
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=330003632298917889&scope=bot&permissions=0"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "dmail"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": "A4a4aLlBnDc"
+  },
+  "website": "https://discordmail.com/",
+  "source": "https://github.com/moustacheminer/discordmailhooks",
+  "categories": [
+    "notifications"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:108391799185285120"
+  ],
+  "contents": [
+    {
+      "description": "Trixie is an all-in-one Discord Bot for pony lovers",
+      "locale": "en-GB",
+      "name": "Trixie",
+      "page": "She offers a variety of great features, many of which to satisfy the needs of My Little Pony fans and server admins. Trixie's set of commands range from random, simple fun, booru and GIF searching, imageboard commands, great moderation commands, to even a full web dashboard to configure Trixie and watch the growth of your server and so much more!\r\n\r\nTrixie is always being worked on to suit your needs and make her even easier to use!"
+    }
+  ],
+  "created": 1545817114770,
+  "edited": 1545837993364,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "397037692963258368",
+  "images": {
+    "avatar": "images/397037692963258368/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=397037692963258368&permissions=268592214&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://trixie.loneless.org",
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

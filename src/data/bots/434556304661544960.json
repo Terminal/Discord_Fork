@@ -1,0 +1,52 @@
+{
+  "authors": [
+    "discord:190590364871032834"
+  ],
+  "contents": [
+    {
+      "description": "Who needs a girlfriend when you have a waifu? :3 150+ commands with utilities, stats and memes. ",
+      "locale": "en-GB",
+      "name": "Waifu",
+      "page": "![Image](https://img.fluxpoint.dev/med/2532040314454016.png)\r\n\r\n> ### 💓 Image\r\n> > #####  Get images of cute cat girls, fox girls and awesome wallpapers\r\n> `w/alart` `w/baka` | `w/blush` | `w/fox` | `w/holo` | `w/loli` | `w/neko` | `w/nekoavatar` | `w/nekogif` | `w/nekopara` | `w/shrug` | `w/smug` | `w/wallpaper`\r\n> _____\r\n> ![Banner](https://i.imgur.com/YPcuI08.png)\r\n\r\n> ### 💮 Anime\r\n> > #####  Lookup anime and manga information, get azurlane ship stats and claim your waifu\r\n> `w/anime` | `w/azurlane` | `w/genre` | `w/manga` | `w/random` | `w/waifu`\r\n> _____\r\n> ![Banner](https://i.imgur.com/JXq02Xg.png)\r\n\r\n> ### 👉 Action\r\n> > #####  Poke and highfive your cool friends or slap a baka\r\n> `w/bite` | `w/cuddle` | `w/feed` | `w/highfive` | `w/hug` | `w/kiss` | `w/lick` | `w/pat` | `w/poke` | `w/punch` | `w/slap` | `w/tickle` | `w/wasted`\r\n> _____\r\n> ![Banner](https://i.imgur.com/lhdovMI.png)\r\n\r\n> ### 💖 Nsfw\r\n> > #####  43 nsfw commands with hentai and real porn images/gifs\r\n> `w/nsfw`\r\n\r\n> ### 💣 Meme\r\n> > #####  Funny memes and image generation for shitposters\r\n> `w/america` | `w/bongocat` | `w/communism` | `w/dab` | `w/deepfry` | `w/delete` | `w/fedora` | `w/gay` | `w/jail` | `w/rip` | `w/salty` | `w/satan` | `w/trash` | `w/trigger` | `w/wanted` | `w/whodidthis`\r\n> _____\r\n> ![Banner](https://i.imgur.com/mD8yVEi.png)\r\n\r\n> ### 📷 Image Gen\r\n> > #####  Simple image generation, ship two people, baguette a friend or quick edit images with blur/snow/invert/pixel effects\r\n> `w/awoo` | `w/baguette` | `w/blur` | `w/blurple` | `w/bw` | `w/invert` | `w/magik` | `w/pixel` | `w/ship` | `w/snow` | `w/warp`\r\n> _____\r\n> ![Banner](https://i.imgur.com/FwT8H8M.png)\r\n\r\n> ### 📝 Text Gen\r\n> > #####  Text generation features for memes, colorful text and doki doki literature club\r\n> `w/captcha` | `w/change` | `w/clyde` | `w/ddlc` | `w/drake` | `w/owo` | `w/trump`\r\n> _____\r\n> ![Banner](https://i.imgur.com/lHVGq7V.png)\r\n\r\n> ### 🎀 Image Edit (Donators)\r\n> > #####  Donator feature for fast image editing and effects such as resize/flip/rotate/tint and color replacing\r\n> `w/clipboard` | `w/edit` | `w/load` | `w/remove` | `w/undo` | `w/view`\r\n> _____\r\n> ![Banner](https://i.imgur.com/Hx8L7vl.png)\r\n\r\n> ### 🎵 Music\r\n> > #####  High quality music features with no delay and simple to use (Youtube playing is donator-only use w/stream for free)\r\n> `w/album` | `w/bassboost` | `w/clear` | `w/lyrics` | `w/musiclock` | `w/nowplay` | `w/pause` | `w/play` | `w/queue` | `w/resume` | `w/seek` | `w/shuffle` | `w/skip` | `w/stop` | `w/stream` | `w/volume`\r\n> _____\r\n> ![Banner](https://i.imgur.com/GwOpoiM.png)\r\n\r\n> ### 🚪 Server\r\n> > #####  Get server info for users, roles and channels with other misc utilities\r\n> `w/boost` | `w/chan` | `w/chanid` | `w/color` | `w/joined` | `w/joinpos` | `w/mods` | `w/nsfwrole` | `w/offlinebots` | `w/quote` | `w/role` | `w/roleid` | `w/server` | `w/videochat`\r\n> _____\r\n> ![Banner](https://i.imgur.com/Kzxjsh2.png)\r\n\r\n> ### 🔨 Mod\r\n> > #####  Kick those spammers and ban those raiders!\r\n> `w/ban` | `w/copychan` | `w/dehoist` | `w/kick` | `w/prune` | `w/slowmode` | `w/unban`\r\n> _____\r\n> ![Banner](https://i.imgur.com/dMsybId.png)\r\n\r\n> ### 🛠 Config\r\n> > #####  Configure your server to post welcome message, disable specific commands or block those pesky ads and bad links\r\n> `w/adminonly` | `w/autoicon` | `w/block` | `w/config` | `w/disable` | `w/enable` | `w/nsfwcontent` | `w/resetprefix` | `w/setnsfw` | `w/setprefix` | `w/welcome` | `w/whodisabled`\r\n> _____\r\n> ![Banner](https://i.imgur.com/YDs0BKr.png)\r\n\r\n> ### 🔰 User\r\n> > #####  Make new friends, get osu stats or show off your anime list\r\n> `w/avatar` | `w/created` | `w/mal` | `w/mymal` | `w/myosu` | `w/osu` | `w/profile` | `w/set` | `w/steam` | `w/user`\r\n> _____\r\n> ![Banner](https://i.imgur.com/NABnDMP.png)\r\n\r\n> ### 🐶 Real\r\n> > #####  Real life pictures of cute animals\r\n> `w/bird` | `w/cat` | `w/dog` | `w/duck` | `w/lizard` | `w/snake`\r\n> _____\r\n> ![Banner](https://i.imgur.com/LXugi2A.png)\r\n\r\n> ### 🎲 Misc\r\n> > #####  Misc stuff for the bot and some usefull commands like find and discrim\r\n> `w/api` | `w/botinfo` | `w/discord` | `w/facegen` | `w/find` | `w/hex` | `w/police` | `w/rgb` | `w/stats` | `w/upvote`\r\n\r\n> ### 🔷 Core\r\n> > #####  Core commands, info and links for the bot\r\n> `w/donate` | `w/invite` | `w/lib` | `w/ping` | `w/shard` | `w/support` | `w/test` | `w/testerror` | `w/website`\r\n"
+    }
+  ],
+  "created": 1544836379567,
+  "edited": 1580680693562,
+  "flags": {
+    "adverts": true,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "434556304661544960",
+  "images": {
+    "avatar": "images/434556304661544960/avatar.png",
+    "cover": "images/434556304661544960/background.png",
+    "preview": [
+      "images/434556304661544960/0.png",
+      "images/434556304661544960/1.png",
+      "images/434556304661544960/2.png"
+    ]
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=434556304661544960&permissions=439741686&redirect_uri=https%3A%2F%2Ffluxpoint.dev%2Fredirect&response_type=code&scope=identify%20bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/TjF6QDC",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "w/"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://fluxpoint.dev",
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

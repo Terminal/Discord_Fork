@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:220271040658407424"
+  ],
+  "contents": [
+    {
+      "description": "An intuitive music bot",
+      "locale": "en-GB",
+      "name": "TurtleBot",
+      "page": "Visit https://turtle-bot.com/docs to see information on how to use the bot. "
+    }
+  ],
+  "created": 1565380265238,
+  "edited": 1565380280117,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "348205766127124480",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=348205766127124480&scope=bot&permissions=3492864"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "tb! "
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://turtle-bot.com",
+  "source": null,
+  "categories": [
+    "music"
+  ]
+}

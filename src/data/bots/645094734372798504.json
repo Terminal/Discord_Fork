@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:481941149620371462"
+  ],
+  "contents": [
+    {
+      "description": "raftbotsraftbotsraftbotsraftbots",
+      "locale": "en-GB",
+      "name": "raftbots",
+      "page": "raftbotsraftbotsraftbotsraftbotsraftbots"
+    }
+  ],
+  "created": 1575261650236,
+  "edited": 1575261650236,
+  "flags": {
+    "adverts": true,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "645094734372798504",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=645094734372798504&permissions=0&redirect_uri=https%3A%2F%2Fsunrise.trydiscourse.com%2Fauth%2Fdiscord%2Fcallback&scope=bot"
+  },
+  "nsfw": false,
+  "state": "denied",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "education"
+  ]
+}

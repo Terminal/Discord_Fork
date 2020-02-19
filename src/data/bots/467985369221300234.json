@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:351412469283160065"
+  ],
+  "contents": [
+    {
+      "description": "A multipurpose bot to match all your needs with moderation, music, fun, game stats & much more!",
+      "locale": "en-GB",
+      "name": "Reaper",
+      "page": "The bot aims to provide functions that help a server in moderation along with fun, memes, music and more!\r\n\r\nIt was made with the thought of having different categories of commands in one single bot!\r\n\r\nFun, Music, Memes, Troll, Info, Game Statistics and also chat with the bot!\r\n\r\nThe bot has a $chat command that allows a user to chat with the bot\r\n\r\nIt guarantees 99.9% up-time with an exception for maintenance\r\n\r\nSuper Friendly, easy to execute commands!"
+    }
+  ],
+  "created": 1547964567933,
+  "edited": 1548006880509,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "467985369221300234",
+  "images": {
+    "avatar": "images/467985369221300234/avatar.png",
+    "cover": "images/467985369221300234/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=467985369221300234&permissions=1593175295&response_type=code&scope=bot%20identify"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/Jvf7HAR",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "$"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://reaperbot.xyz/",
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:258289468291809282"
+  ],
+  "contents": [
+    {
+      "description": "Merlin - the FIRST AND ONLY public bot with a Klingon dictionary and more!",
+      "locale": "en-GB",
+      "name": "Merlin",
+      "page": "# Merlin\r\nThe **FIRST AND ONLY** provably random bot, and the **ONLY** mainstream public Klingon dictionary bot!\r\n\r\n- Generate **provably fair** numbers - perfect for giveaways!\r\n- Look up words in a **Klingon Dictionary**, and get the Klingon Word of the Day direct in Discord!\r\n- Plus there's more features, and *even more* coming soon!\r\n\r\n&nbsp;{.linebreak}\r\n\r\nIt's easy to get started - just invite the bot and type [[::help]] to get all the commands sent to your DMs! :&#8203;) {.linebreak}\r\n\r\nWe want to make the very best bot for you. Come join [Sorcerertech's Discord Server](https://discord.gg/y9YWH9h), and give us feedback - feature requests, improvements - anything's welcome!"
+    }
+  ],
+  "created": 1560162552785,
+  "edited": 1560162679258,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "568896084999405578",
+  "images": {
+    "avatar": "images/568896084999405578/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=568896084999405578&scope=bot&permissions=1073077441"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/y9YWH9h",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "::"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://stch.tk/merlin",
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

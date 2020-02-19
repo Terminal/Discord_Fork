@@ -1,0 +1,54 @@
+{
+  "authors": [
+    "discord:384228913406017538"
+  ],
+  "contents": [
+    {
+      "description": "Bringing Dating to a Whole New Level.",
+      "locale": "en-GB",
+      "name": "Tincord",
+      "page": "What is Tincord you might ask?\r\nTincord is a Tinder like Discord bot that allows you to make profiles and swipe on people.\r\n\r\nWell how does it work?\r\nAfter making a profile, you can swipe for people who may appeal to you. As the bot grows, there may be more filters you can choose from. When swiping, you can swipe left, right or skip. If you both swipe right on each other, you \"match\" and can strike up a conversation in DM.\r\n\r\nNOTE: We are not responsible for the conversations created after matching or for any unverified false information people submit.  Use at your own risk."
+    }
+  ],
+  "created": 1552436377202,
+  "edited": 1552436377202,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "554115582119641089",
+  "images": {
+    "avatar": "images/554115582119641089/avatar.png",
+    "cover": null,
+    "preview": [
+      "images/554115582119641089/0.png",
+      "images/554115582119641089/1.png",
+      "images/554115582119641089/2.png",
+      "images/554115582119641089/3.png",
+      "images/554115582119641089/4.png"
+    ]
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=554115582119641089&scope=bot&permissions=11328"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/VEh8mw3",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "t"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

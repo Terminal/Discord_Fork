@@ -1,0 +1,41 @@
+{
+  "authors": [],
+  "contents": [
+    {
+      "description": "A fun foxgirl bot with over 100 commands",
+      "locale": "en-GB",
+      "name": "Kitsuchan",
+      "page": "<div class=\"box\">\n    <div class=\"field is-grouped\">\n        <p>\n            <a class=\"button is-primary\" href=\"https://discordapp.com/oauth2/authorize?client_id=296282163152945154&scope=bot\">Minimal invite</a>\n            <a class=\"button is-primary\" href=\"https://discordapp.com/oauth2/authorize?permissions=93190&client_id=296282163152945154&scope=bot\">Invite with permissions</a>\n            <a class=\"button is-primary\" href=\"https://discord.gg/YGdAUvj\">Support server</a>\n            <a class=\"button is-primary\" href=\"https://discord.gg/9ZWREf8\">Secondary support server</a>\n            <a class=\"button is-primary\" href=\"https://github.com/n303p4/kitsuchan-2/\">GitHub</a>\n        </p><br>\n    </div>\n\n    <div class=\"content\">\n        <h2>About</h2>\n        <p>Kitsuchan is here to make your guild more fun! Please check the support server for announcements about changes and new features. Kitsuchan's prefix is kit, or you can mention the bot. Run kit help for a full command listing, or alternatively check the GitHub page.</p>\n        <h2>Features</h2>\n        <ul>\n            <li>Foxgirls</li>\n            <li>A couple different image searches</li>\n            <li>Meme generator</li>\n            <li>Reaction images (kiss, poke, hug, and more)</li>\n            <li>MyAnimeList lookup (anime, manga)</li>\n            <li>Wikipedia search</li>\n            <li>Color command (HLS, RGBA, hex codes, thumbnail)</li>\n            <li>Information commands - Who has what role? What custom emojis are there? Some others, too.</li>\n            <li>Random trivia</li>\n            <li>Tripmines to explode people!</li>\n            <li>Magic 8-ball</li>\n            <li>Dictionary lookup</li>\n            <li>...and much more!</li>\n        </ul>\n        <h2>Disclaimers and privacy statement</h2>\n        <ul>\n            <li>Kitsuchan is not finished yet and may have bugs; stay tuned for new features and changes.</li>\n            <li>Kitsuchan may automatically leave bot collection servers.</li>\n            <li>Kitsuchan <b>may</b> do some anonymous logging information for debugging purposes. By using her, you implicitly agree to this logging. No personally-identifying information will be collected. If any personally-identifying information is collected for whatever reason, it will not be distributed to anyone else.</li>\\nr\n        </ul>\n    </div>\n</div>\n<!--\nThis data was imported from ls.terminal.ink\n-->\n"
+    }
+  ],
+  "created": 1527811200000,
+  "edited": 1527811200000,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "296282163152945154",
+  "images": {
+    "avatar": "images/296282163152945154/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?permissions=93190&client_id=296282163152945154&scope=bot"
+  },
+  "state": "approved",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "kit"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

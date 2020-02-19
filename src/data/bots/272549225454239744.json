@@ -1,0 +1,40 @@
+{
+  "authors": [],
+  "contents": [
+    {
+      "description": "(Mostly) multi purpose bot.",
+      "locale": "en-GB",
+      "name": "lolbot",
+      "page": "<marquee>YEET</marquee>\n"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1542569433000,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "272549225454239744",
+  "images": {
+    "avatar": "images/272549225454239744/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://lolbot.lmao.tf/invite"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": []
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

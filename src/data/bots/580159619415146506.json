@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:190590364871032834"
+  ],
+  "contents": [
+    {
+      "description": "A fun bot to generate and create emojis using different parts and access to a library of emotes.",
+      "locale": "en-GB",
+      "name": "Emoji Generator",
+      "page": "![Banner](https://gallery.fluxpoint.dev/2019/08/02/27c0aa7b.jpg)\r\n\r\n# How to use\r\n>\r\n## To generate an emoji use \"e/list\" to get a list of parts to use (bases, eyes, mouths and extras)\r\n## Then use the generate command to create it \"e/gen 24 26 14 17\"\r\n>\r\n### You can create different kinds of emojis to share with other users or add it to your server emotes to use it.\r\n\r\n![Image](https://i.imgur.com/QO7hHW6.png)\r\n\r\n# Todo\r\n>\r\n###  The bot is brand new and is being update to include a lot more features\r\n>\r\n- #### Library of thousands of emotes\r\n- #### Ability to save and add emotes to your own server\r\n- #### Support for Discord Emoji for the latest emotes\r\n- #### Add support for eye brows/mustaches maybe hats\r\n- #### Random emoji command\r\n- #### Redo the list of parts to look better\r\n- #### Clone existing Emojis to edit or steal :p\r\n- #### Allow you to tint parts using 1(blue) 5(green)\r\n- #### Set the background of created emojis"
+    }
+  ],
+  "created": 1558582394742,
+  "edited": 1577788512393,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "580159619415146506",
+  "images": {
+    "avatar": "images/580159619415146506/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=580159619415146506&permissions=0&redirect_uri=https%3A%2F%2Ffluxpoint.dev%2Fredirect&response_type=code&scope=identify%20bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/TjF6QDC",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "e/"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://fluxpoint.dev",
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:66166172835385344"
+  ],
+  "contents": [
+    {
+      "description": " Nitrole can give your users Nitro and Hypesquad roles, simply by having them click a link! Invite ",
+      "locale": "en-GB",
+      "name": "Nitrole",
+      "page": "Nitrole is a one of a kind bot that allows server owners to accurately and without moderator input assign roles for users with Nitro and Hypesquad.\r\n\r\nSimply invite the bot, select the server you want to use it in and choose the roles you want to give it. Nitrole can give roles for Nitro (Full), Nitro Classic (Old Nitro), Hypesquad Events, Hypesquad Brilliance, Hypesquad Balance and Hypesquad Bravery!\r\n\r\nWhen you are done, type n>sendmessage in a channel that is visible to your users.\r\n"
+    }
+  ],
+  "created": 1545835159871,
+  "edited": 1555250937035,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "526514448383606784",
+  "images": {
+    "avatar": "images/526514448383606784/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://nitrole.xyz/invite"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/BP2SV3J",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "n>"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://nitrole.xyz",
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

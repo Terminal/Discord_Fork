@@ -1,0 +1,42 @@
+{
+  "authors": [],
+  "contents": [
+    {
+      "description": "Dragon Loli is a discord bot with fun tools!",
+      "locale": "en-GB",
+      "name": "Dragon Loli",
+      "page": "This bot is open to requests and changes. To add the commands you always wanted, join our <a href=\"https://discord.gg/zGAFbU9\">discord server</a>.<br>\n<br>\n<b>Commands:</b>\n<br>\n<b>FUN:</b><br>\n<br>\n<b>!r urban &lt;word></b> searches the definition of a word<br>\n<b>!r coinflip</b> flips a coin<br>\n<b>!r rolldice</b> rolls a dice<br>\n<b>!r pat</b> posts an image of a pat<br>\n<b>!r avatar &lt;mention></b> posts the profile picture of the mentioned users (max 3)<br>\n<b>!r lewd</b> Sends lewd pics<br>\n<b>!r sleep</b> Sends picture of Kanna sleeping<br>\n<br>\n<b>Mod:</b><br>\n<br>\n<b>!r clean</b> removes my latest messages and user-made bot messages<br>\n-- requires Dragon Mod role --<br>\n<b>!r kick notinside &lt;role></b> kicks all members that are not inside that role<br>\n<br>\n<b>Information:</b><br>\n<br>\n<b>!r help</b> for help<br>\n<b>!r changelog</b> to see new changes<br>\n<b>!r invitebot</b> for the invite link<br>\n<b>!r support</b> for the bot server link<br>\n"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1542569433000,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "388823187246546948",
+  "images": {
+    "avatar": "images/388823187246546948/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=388823187246546948&scope=bot&permissions=8"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "!r"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

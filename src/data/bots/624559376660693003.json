@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:357765920116047874"
+  ],
+  "contents": [
+    {
+      "description": "A multipurpose bot made specifically to suit your needs (or wants)!",
+      "locale": "en-GB",
+      "name": "Ayanami",
+      "page": "Ayanami has many different features!:\r\n\r\n- Anime Themed Commands (I mean, who *doesn't* like anime?)\r\n- Levelling System (Level up!)\r\n- Currency System (I can finally be rich!)\r\n- Animal Commands (Don't you *love* animals?)\r\n- Fun Games (Such as rock paper scissors!)\r\n- Extra *Dank* Memes (Dank Memer would be proud)\r\n- A Polite Attitude! (The most important part!)\r\n\r\n... and many more different commands that haven't been listed here!"
+    }
+  ],
+  "created": 1575445513732,
+  "edited": 1577842797690,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "624559376660693003",
+  "images": {
+    "avatar": "images/624559376660693003/avatar.png",
+    "cover": "images/624559376660693003/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=624559376660693003&scope=bot&permissions=2083908726"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "aya."
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

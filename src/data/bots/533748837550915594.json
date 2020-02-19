@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:485915627530485760"
+  ],
+  "contents": [
+    {
+      "description": "A Simple bot that displays the status of Discord.",
+      "locale": "en-GB",
+      "name": "Discord Status",
+      "page": "Discord Status is just a simple discord.js bot made by ItsWolfiePlaysMC#4417 to display the status of discord. (Main Command: s!status)"
+    }
+  ],
+  "created": 1548565074092,
+  "edited": 1548565074092,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "533748837550915594",
+  "images": {
+    "avatar": "images/533748837550915594/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=533748837550915594&permissions=18432&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/zzeHNvu",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "s!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

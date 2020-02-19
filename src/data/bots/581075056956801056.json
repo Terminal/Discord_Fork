@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:510078946604220417"
+  ],
+  "contents": [
+    {
+      "description": "Special for you",
+      "locale": "en-GB",
+      "name": "AshBot",
+      "page": "**ASH Commands List PREFİX: ash**\r\nTo check the command usage, type ash help -commands-\r\n  \r\n|Admin:\r\nban, kick, logging, mute, purge, slowmode, unmute.\r\n\r\n| Economy:\r\nbackground, balance, blackjack, dailies, fish, gamble, leaderboard, level, profile, rep, roulette, setinfo, slots, transfer, work.\r\n\r\n| Fun:\r\n8ball, changemymind, coffee, food, gah, kemonomimi, mcachievement, meme, neko, nekoholo, owo, rem, ship, trump, wrap.\r\n\r\n| General:\r\navatar, calculate, cat, coolresim, instagram, noel, npm, serveravatar, shortlink, steamgame, twitch, weather.\r\n\r\n| Utility:\r\nafk, bugreport, help, invite, permission, ping, stats, userstats.\r\n\r\nAND MORE"
+    }
+  ],
+  "created": 1580003598136,
+  "edited": 1580003761767,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "581075056956801056",
+  "images": {
+    "avatar": "images/581075056956801056/avatar.png",
+    "cover": "images/581075056956801056/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=581075056956801056&scope=bot&permissions=2146958847"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/uS5hDev",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "ash "
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://twitter.com/platinbae",
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:325079232588021770"
+  ],
+  "contents": [
+    {
+      "description": "~ One can never have enough music bots",
+      "locale": "en-GB",
+      "name": "Box 🎧",
+      "page": "\r\nBreak the limits.\r\n\r\nPlay 1 hour videos without any problems.\r\n\r\n---\r\n\r\nEasy to use.\r\n\r\nJust add Box ?? to your server and start playing your favorite music.\r\n\r\n---\r\n\r\n+99% Uptime.\r\n\r\nWith an uptime of 99.6% Box ?? is almost always online.\r\n\r\n> Data taken from botlist.space.\r\n\r\n---\r\n\r\n24/7 support.\r\n\r\nOur staff is here to help!\r\n\r\n---\r\n\r\nSimple to understand.\r\n\r\nYou don’t need to memorize a ton of commands, with just one command you’re good to go.\r\n\r\n---\r\n###### © zSnails 2019"
+    }
+  ],
+  "created": 1566668186104,
+  "edited": 1567892995607,
+  "flags": {
+    "adverts": true,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "543876982216196108",
+  "images": {
+    "avatar": "images/543876982216196108/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=543876982216196108&permissions=45157632&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/D6vjYyn",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "bx."
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "music"
+  ]
+}

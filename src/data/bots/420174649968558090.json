@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:290910533794791424"
+  ],
+  "contents": [
+    {
+      "description": "A cleverbot-like conversational bot.",
+      "locale": "en-GB",
+      "name": "Eve.",
+      "page": "Here is a list of available commands for Eve. If there is an X next to a command, it signifies that the command is administrator only. If you require help or wish to discuss anything, come talk to us at https://discord.gg/Yb8Adhf\r\n--help\r\nSummons this menu, explaining all of EVE's commamnds.\r\n--server\r\nInvites you to EVE's server, where you can have discussions, or inquire personally.\r\n--servers\r\nThis command will tell you the amount of servers that currently use EVE!\r\n--invite\r\nReturns a link that you can use to invite EVE into another server, such as your own.\r\n--say <TEXT>\r\nAllows you to converse with EVE in any channel, instead of having to assign her to a certain channel beforehand.\r\n--recognise\r\nEve will attempt to guess whatever the image is that you've attached with your message.\r\n--avatar <USERID | MENTION>\r\nA little bit self explanatory, but EVE will return the avatar source of which user the ID belongs to. The specified user doesn't require to be in any mutual servers. USERID can also be a mention.\r\n--avatarlink <USERID | MENTION>\r\nThe same command as above but instead of returning an embed, returns the link of the source instead.\r\n--calc <NUMBERSTUFF>\r\nWorks like a calculator. Answers questions and that jazz. Also accepts --ca and --c.\r\n--ping\r\nPong!\r\n--count [USER]\r\nThis will tell you how many messages this user has sent to EVE. If [USER] is left blank, it will tell you how many messages you've sent. [USER] can either be blank, a username, or a mention.\r\n--leaderboard\r\nThis command brings up the global leaderboard for Eve's highest counts. This also shows the total messages sent to Eve.\r\n(X) --prefix <PREFIX>\r\nThis allows you to change Eve's prefix for the server you're currently in. If you don't specify one with the command, it will return the current prefix.\r\n(X) --purge <NUMBER>\r\nPurges the specified amount of messages.\r\n(X) --assign <#CHANNEL>\r\nAssigns EVE to any mentioned channel. (Ensure she has access to speak in the channel.)\r\n(X) --unassign\r\nUnassigns EVE from any previously assigned channel."
+    }
+  ],
+  "created": 1580768086732,
+  "edited": 1580768086732,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "420174649968558090",
+  "images": {
+    "avatar": null,
+    "cover": "images/420174649968558090/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=420174649968558090&permissions=8&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/Yb8Adhf",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "--"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

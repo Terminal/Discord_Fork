@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:242969117479403520"
+  ],
+  "contents": [
+    {
+      "description": "I am Narberal Gamma, one of the battle maids, who swore loyalty to the overlor.",
+      "locale": "en-GB",
+      "name": "Naberal Gamma",
+      "page": "I am Narberal Gamma, one of the battle maids, who swore loyalty to the overlord of the Great Tomb of Nazarick, the supreme being Ainz Ooal Gown. You lower life forms should be honored to battle with me\r\n\r\n● Version: 0.0.1-Beta\r\n\r\n● 95% Uptime 24/7\r\n\r\n● Development Stage\r\n\r\n● If BOT Offline Pls Contact Developer\r\n\r\n●<a href=\"https://discordapp.com/oauth2/authorize?client_id=480644131782131732&scope=bot&permissions=808460350\">Invite me to your Server</a>"
+    }
+  ],
+  "created": 1552649300144,
+  "edited": 1552649343314,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "480644131782131732",
+  "images": {
+    "avatar": "images/480644131782131732/avatar.png",
+    "cover": "images/480644131782131732/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=480644131782131732&scope=bot&permissions=808460350"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "n!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

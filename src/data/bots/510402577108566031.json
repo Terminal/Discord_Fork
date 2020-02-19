@@ -1,0 +1,52 @@
+{
+  "authors": [
+    "discord:421700628734148609"
+  ],
+  "contents": [
+    {
+      "description": "noam bot informat:",
+      "locale": "en-GB",
+      "name": "noam bot",
+      "page": "hey, this is noam bot noam bot can do mutch commands if you send n!help so is send you all the catagories in the help. for inivte the bot so send n!invite if you need help so you can mention the bot and is send you the informat so invite the bot"
+    }
+  ],
+  "created": 1549376928847,
+  "edited": 1549697137875,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "510402577108566031",
+  "images": {
+    "avatar": "images/510402577108566031/avatar.png",
+    "cover": "images/510402577108566031/background.png",
+    "preview": [
+      "images/510402577108566031/0.png",
+      "images/510402577108566031/1.png",
+      "images/510402577108566031/2.png"
+    ]
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=510402577108566031&permissions=8&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/hYZ7znr",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "n!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://noam-commands.glitch.me",
+  "source": null,
+  "categories": [
+    "fun"
+  ]
+}

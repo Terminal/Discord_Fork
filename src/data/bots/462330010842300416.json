@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:255297974928801793"
+  ],
+  "contents": [
+    {
+      "description": "The Moderator For Discord | QBot features an AutoMod and QRaid™ - Raid Prevention System.",
+      "locale": "en-GB",
+      "name": "QBot",
+      "page": "# QBot\r\n#### The Moderator For Discord\r\n\r\n> QBot is an advanced moderation bot with plenty of features brought into your server, featuring the most precocious AutoMod, in-Discord dashboard, Query™ Virtual Assistant, server backups & BanSync™, and QRaid™ - Raid Prevention System.\r\n\r\n### Core Features\r\n* **AutoMod** A precocious automated moderation arrangement, custom written for QBot. the AutoMod includes basic modules, extended logging, AutoMod+ implementation, Strict Mode™ for large servers, and QRaid™ - Raid Prevention System.\r\n* **Dashboard** QBot highlights a detailed Discord virtual dashboard to customise the bot with. Access the dashboard with the `QDashboard` command.\r\n* **Support** Do you have a question, bug, or a suggestion to mention? Or are you having trouble with QBot? Feel free to join our [development server](https://qbot.eu/discord) and our Support Team will do their best to help you.\r\n\r\n### Helpful Links\r\n* [QBot Homepage](https://qbot.eu/)\r\n* [Support Server](https://qbot.eu/discord)\r\n* [QBot Documentations](https://qbot.eu/docs)\r\n* [QBot Invite](https://qbot.eu/invite)\r\n\r\n### Highlights\r\n* **Query** • A Virtual Assistant\r\nQuery is a unique module that integrates personal requests into your server or DMs. Search, calculate, or perform commands with Query. It's all possible.\r\n* **QRaid** • Raid Prevention System\r\nQRaid is the most advanced, accurate, and professional raid prevention module that has ever been built. The QRaid element offers to protect the guild at all times and will deploy security identification when it senses a raid, while still maintaining the server's security.\r\n* **AutoMod**\r\nRetain your server using the most precocious AutoMod known to Discord. Offering a wide variety of elements, the AutoMod contributes to protect your guild with even the most subtle offences."
+    }
+  ],
+  "created": 1569135395711,
+  "edited": 1569135395711,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "462330010842300416",
+  "images": {
+    "avatar": "images/462330010842300416/avatar.png",
+    "cover": "images/462330010842300416/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://qbot.eu/invite"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/Ur49wDP",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "Q"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": "KXGKJRFbJ6w"
+  },
+  "website": "https://qbot.eu/",
+  "source": null,
+  "categories": [
+    "moderation"
+  ]
+}

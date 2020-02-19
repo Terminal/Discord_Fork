@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:273216249021071360"
+  ],
+  "contents": [
+    {
+      "description": "Checks if other Discord bots have their tokens on Github",
+      "locale": "en-GB",
+      "name": "Tokenizer",
+      "page": "Usage:<br>\r\ntoken check (id)<br>\r\n<br>\r\nThere's literally nothing else."
+    }
+  ],
+  "created": 1547666231378,
+  "edited": 1547666231378,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "505903347065421845",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=505903347065421845&scope=bot&permissions=0"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "token "
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": null,
+  "categories": [
+    "utility"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "authors": [],
+  "contents": [
+    {
+      "description": "A powerful bot to Moderate your discord server!",
+      "locale": "en-GB",
+      "name": "Moderation Bot",
+      "page": ""
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1542569433000,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "322726055028719619",
+  "images": {
+    "avatar": "images/322726055028719619/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=322726055028719619&scope=bot&permissions=8"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": []
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

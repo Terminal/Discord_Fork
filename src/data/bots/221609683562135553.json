@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:210898009242861568",
+    "github:MitchellAW"
+  ],
+  "contents": [
+    {
+      "description": "Provides commands surrounding The Simpsons, Futurama and Rick and Morty. 24/7 Uptime! ",
+      "locale": "en-GB",
+      "name": "FlandersBOT",
+      "page": "# FlandersBOT\r\n## A bot for sharing your favourite references! \r\n\r\nA discord bot with commands surrounding The Simpsons, Futurama and Rick and Morty *with 24/7 uptime!.*\r\n\r\nFlandersBOT provides commands for The Simpsons, Futurama and Rick and Morty quoting/searching/content. FlandersBOT uses Frinkiac, Morbotron and Master of All Science to provide commands for both random and searchable Simpsons, Futurama and Rick and Morty images/gifs with their appropriate quotes embedded.\r\nThis means that you're always just one message away from sharing your favourite moments!\r\n\r\n## Add FlandersBOT to your Discord Server\r\nTo invite FlandersBOT to your own discord server and start using it now, click the invite button above!\r\n\r\n## Usage\r\nThe bot commands can be executed using several different methods/prefixes, to minimise clashing with other discord bots. Any command can be prefixed with an @mention, ned or diddly/doodly when you really want to flaunt those Flanders-isms.\r\n\r\nIf you're not a fan of any of these prefixes, you can add a new prefix to your server using the setprefix command.\r\n\r\n### Usage Examples:\r\n\r\n@FlandersBOT#0680 info\r\n\r\nned info   \r\n\r\ndiddly info   \r\n\r\ndoodly info   \r\n\r\ndiddly-info    \r\n\r\ndoodly-info   \r\n  \r\n*All examples above are valid methods of executing any command below.*\r\n\r\n## Commands\r\n*All commands must start with one of the command prefixes or @FlandersBOT#0680*\r\n\r\n### General\r\n\r\n**help** - Will send this list of commands.  \r\n\r\n**info** - Will send a personal message with more information about me.  \r\n\r\n**prefix** - Will post the prefixes I respond to on your server.  \r\n\r\n**setprefix** [prefix] - Sets a prefix I will respond to on your server. \r\n\r\n**feedback** [message] - Send a feedback message or suggestions.  \r\n\r\n**invite** - Will post an invite link for me to join your server.  \r\n\r\n**vote** - Will post the benefits of voting for me and a link to vote.  \r\n\r\n**update** - Will post the highlights of my last major update.  \r\n\r\n**stats** - Will post some of my statist-diddly-istics.  \r\n\r\n\r\n### TV Shows\r\n\r\n**simpsons** - Will post a random Simpsons gif with caption.  \r\n\r\n**simpsons [quote]** - Searches for a Simpsons gif using the quote.  \r\n\r\n**simpsonstrivia** - Starts a game of trivia using 100+ Simpsons questions.  \r\n\r\n\r\n**futurama** - Will post a random Futurama gif with caption.  \r\n\r\n**futurama [quote]** - Searches for a Futurama gif using the quote.  \r\n\r\n**futuramatrivia** - Starts a game of trivia using 100+ Futurama questions.  \r\n\r\n\r\n**rickandmorty** - Will post a random Rick and Morty gif with caption.  \r\n\r\n**rickandmorty** [quote] - Searches for a Rick and Morty gif using the quote.  \r\n\r\n\r\n**epinfo** - Will post episode information on the last post made in the channel.  \r\n\r\nFor Example: ned info, diddly help, doodly-simpsons\r\n\r\n## Support Server\r\n\r\nIf you need any help with FlandersBOT, would like to provide feedback, suggestions or have any other questions regarding FlandersBOT, join the FlandersBOT Support Server on discord using the \r\nlink above!"
+    }
+  ],
+  "created": 1544532891709,
+  "edited": 1544701675543,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "221609683562135553",
+  "images": {
+    "avatar": "images/221609683562135553/avatar.png",
+    "cover": "images/221609683562135553/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=221609683562135553&scope=bot&permissions=19456"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/xMmxMYg",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "Ned",
+      "diddly",
+      "doodly"
+    ]
+  },
+  "videos": {},
+  "website": "https://github.com/MitchellAW/FlandersBOT",
+  "source": "https://github.com/MitchellAW/FlandersBOT",
+  "categories": [
+    "fun"
+  ]
+}

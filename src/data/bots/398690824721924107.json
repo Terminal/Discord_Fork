@@ -1,0 +1,51 @@
+{
+  "authors": [
+    "discord:190916650143318016",
+    "github:AdvaithBot"
+  ],
+  "contents": [
+    {
+      "description": "A cool multipurpose bot with commands for fun, animals, searching, utility, text, emoji, and more.",
+      "locale": "en-GB",
+      "name": "AdvaithBot",
+      "page": "AdvaithBot is a multipurpose Discord bot.\r\n\r\n\r\n# Commands\r\nThe prefix for all commands is `!!` by default. Set a custom server prefix with the `prefix` command!\r\n\r\n## 🖥️ System Commands\r\n\r\nCommand | Aliases | Description | Arguments | Example\r\n---|---|---|---|---\r\n`help` | `h` | Sends the command list or info for a specific command | Command or module name (Optional) | `!!help`, `!!help fun`, `!!help 8ball`\r\n`info` | none | Some info about the bot | none | `!!info`\r\n`invite` | none | Sends the link to add the bot | none | `!!invite`\r\n`mutuals ` | none | Your mutual servers with AdvaithBot | none | `!!mutuals`\r\n`ping` | none | 🏓 Checks how fast the bot is responding | none | `!!ping`\r\n`prefix` | none | Change the server prefix | New prefix (optional) | `!!prefix -`\r\n`support` | none | Sends the link to the AdvaithBot server | none | `!!support`\r\n\r\n## 🤣 Fun Commands\r\n\r\nCommand | Aliases | Description | Arguments | Example\r\n---|---|---|---|---\r\n`8ball` |  `eightball`  | 🎱 Ask the 8ball a question! | Your question (Required) | `!!8ball is AdvaithBot awesome?`\r\n`acronym` | none | Generates an acronym meaning for a word | Word or words to make a meaning for (Required) | `acronym dab`\r\n`cleverbot` | `cb` | Talk to Cleverbot! | What you want to say (Required) | `!!cleverbot how are you?`\r\n`reverse` | none | Reverses provided text | Text to reverse (Required) | `!!reverse hello`\r\n`flip` | none | Flip a coin! | none | `!!flip`\r\n`trbmb` | none |  That really \\_\\_\\_\\_\\_ my \\_\\_\\_\\_\\_ | none | `!!trbmb`\r\n\r\n## 🐱 Animal Commands\r\n\r\nCommand | Aliases | Description | Arguments | Example\r\n---|---|---|---|---\r\n`bird` |  none  | Sends a random bird pic | none | `!!bird`\r\n`cat` |  none  | Sends a random cat pic | none | `!!cat`\r\n`dog` |  none  | Sends a random dog pic | none | `!!dog`\r\n`duck` |  none  | Sends a random duck pic or gif | none | `!!duck`\r\n`duck gif` |  none  | Sends a random duck pic | none | `!!duck gif`\r\n`duck pic` | none |  Sends a random non-animated duck pic | none | `!!duck pic`\r\n`rabbit` | none | Sends a random rabbit pic | none | `!rabbit`\r\n\r\n## 🔍 Search Commands\r\n\r\nCommand | Aliases | Description | Arguments | Example\r\n---|---|---|---|---\r\n`ddg` | `duckduckgo` | Searches DuckDuckGo | Search query (Required) | `!!ddg advaithbot`\r\n`google` | `g` | Searches Google | Search query (Required) | `!!google advaithbot`\r\n`urban` | `u` | Searches Urban Dictionary | Search query (Required) | `!!urban no u`\r\n`yt` | `youtube` | Searches YouTube | Search query (Required) | `!yt @someone`\r\n\r\n## ⚙️ Utility Commands\r\n\r\nCommand | Aliases | Description | Arguments | Example\r\n---|---|---|---|---\r\n`discrim` | none | Find users with a certain discriminator (#XXXX) | Discriminator to search for (Optional, defaults to yours) | `!!discrim`, `!!discrim 0001`\r\n`embed` | none | Says what you want in an embed | What you want it to say (Required) | `!!embed hi everyone!`\r\n`haste` | `hastebin` | Uploads code to hastebin | Code to upload (Required) | `!!haste hello`\r\n`hook` | none | Sends your message as a webhook | What you want it to say (Required) | `!!hook hey everyone check out [AdvaithBot](https://advaithbot.com)`\r\n`portmanteaus` | none | Make portmanteaus with a provided word | Word to make portmanteaus with (Required) | `!!portmanteaus hello`\r\n`react` | none | Add a reaction to a message | Message ID (Required), Emoji to react with (Required) | `!!react 412350313450831874 :smiley:`\r\n`rhymes` | none | Get rhymes for a provided word | Word to get rhymes for (Required) | `!!rhymes hello`\r\n`say` | none | Makes the bot say something | What you want it to say (Required) | `!!say hi everyone!`\r\n`splash` | none | Shows the server's invite splash screen. | none | `!!splash`\r\n`imgur` | none | Upload an image to Imgur | URL to image, or attach image (Required) | `!!imgur <attach image>`\r\n`translate` | none | Translate text to any language using Google Translate | Language name or 2-letter code to translate to (Required), text to translate (Required) | `!!translate spanish I am using Google Translate`\r\n`upload` | none | Uploads a file using BiSoga | URL to image, or attach image (Required) | `!!upload <attach image>`\r\n\r\n## 📝 Text Commands\r\nFor all text commands, the argument is the text to manipulate.\r\n\r\nCommand | Aliases | Description\r\n---|---|---|---|---\r\n`bend` | none | ʍąҟҽʂ աҽìɾժ էҽ×է Ӏìҟҽ էհìʂ\r\n`bubbles` | none | ⓟⓤⓣⓢ ⓣⓔⓧⓣ ⓘⓝ ⓑⓤⓑⓑⓛⓔⓢ\r\n`fliptext` | none | uʍop ǝpısdn ʇxǝʇ sdılɟ\r\n`mirror` | none | ƚxɘƚ ꙅɿoɿɿim\r\n`tiny` | `tinycaps` | ᴍᴀᴋᴇꜱ ᴛᴇxᴛ ɪɴᴛᴏ ᴛɪɴʏ ᴄᴀᴘꜱ\r\n`zalgo` | `creepify` | m̷̳͌a̴̱͛k̷͇̐ë̵̥́s̶̰̀ ̴̨̇z̶̙̆a̵̝̓l̴͇̀ǧ̸̯o̸̞̅ ̶́͜ť̵̤ë̸̼́x̸̯̊t̷̬͒\r\n\r\n## ℹ️ Info Commands\r\n\r\nCommand | Aliases | Description | Arguments | Example\r\n---|---|---|---|---\r\n`botinfo` | none | Shows some information about a provided bot. | Bot mention or ID (required) | `!!botinfo @AdvaithBot#2249`\r\n`serverinfo` | `server` | Shows some information about the server. | none | `!!serverinfo`\r\n`userinfo` | `user`, `uinfo` | Information about a user or yourself | User mention or ID (optional) | `!!user @advaith#9121`\r\n\r\n\r\n## 🔨 Moderation Commands\r\n\r\nCommand | Aliases | Description | Arguments | Example | Required Permission\r\n---|---|---|---|---|---\r\n`ban` | `b`, `bean`, `banne`, `banhammer`| Swings the almighty ban hammer on a user 🔨 | User (Required), Reason (optional) | `!!ban @advaith#9121 spamming` | Ban Members\r\n`freeze` | none | Blocks everyone from sending messages | None | `!!freeze` | Manage Roles\r\n`kick` | `k` | Kicks a user | User (Required), Reason (optional) | `!!kick @advaith#9121 bye` | Kick Members\r\n`purge` | `p`, `clear`, `prune` | Deletes a specified amount of chat messages. | Amount of messages (Required) | `!!purge 2` | Manage Messages\r\n`role` | none | Adds a role to or removes a role from a user | [add \\| remove] (Required), User (Required), Role (Required) | `!!role add @advaith#9121 Awesome People` | Manage Roles\r\n`unban` | `unbanne`, `unbean`, `unbanhammer`| Unbans a user | User (Required), Reason (optional) | `!!unban @advaith#9121 is gud` | Ban Members\r\n`unfreeze` | none | Unfreezes your server | none | `!!unfreeze` | Manage Roles\r\n\r\n## 🔗 URL Shortener Commands\r\nFor all URL Shortener commands, the argument is the URL to shorten.\r\n\r\nCommand | Aliases | Description\r\n---|---|---\r\n`bisoga` | `shorten` | Shortens a URL using BiSoga\r\n`isgd` | none | Shortens a URL using is.gd\r\n`sketchify` | none | Makes a URL look sketchy with verylegit.link\r\n`tinyurl` | none | Shortens a URL using TinyURL\r\n`vgd` | none | Shortens a URL using v.gd\r\n\r\n## 😀 Emoji Management Commands\r\nAll Emoji Management commands require the Manage Emojis permission.\r\n\r\nCommand | Aliases | Description | Arguments | Example\r\n---|---|---|---|---\r\n`deleteemoji` | none | Deletes a custom emoji | Emoji (Required) | `!!deleteemoji :thonking:`\r\n`emoji` | `uploademoji` | Creates a custom emoji | Emoji name (Required), Image URL or attach image (Required) | `!!emoji Thonk <attach file>`\r\n`renameemoji` | none | Renames a custom emoji | Emoji (Required), New name (Required) | `!!renameemoji :Thonk: thonking`\r\n\r\n## Android Clyde Commands\r\nThese commands replicate Clyde's functionality on Discord for Android, which does not support Clyde commands.  \r\nAll these commands use the prefix `/`. \r\n\r\nCommand | Description | Example\r\n---|---|---\r\n`/nick` | Changes your nickname | `/nick new nickname`\r\n`/me` | Sends your text as italicized | `/me eats cookies`\r\n`/shrug` | Appends ¯\\\\\\_(ツ)\\_/¯ to your message | `/shrug`\r\n`/tableflip` | Appends (╯°□°）╯︵ ┻━┻ to your message | `/tableflip`\r\n`/unflip` | Appends ┬─┬ ノ( ゜-゜ノ) to your message | `/unflip`"
+    }
+  ],
+  "created": 1544920512410,
+  "edited": 1544920735187,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "398690824721924107",
+  "images": {
+    "avatar": "images/398690824721924107/avatar.png",
+    "cover": "images/398690824721924107/background.png",
+    "preview": [
+      "images/398690824721924107/0.png"
+    ]
+  },
+  "invite": {
+    "discord": "https://add.advaithbot.com"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/SztAXAh",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "!!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://advaithbot.com",
+  "source": "https://github.com/AdvaithBot/advaithbot",
+  "categories": [
+    "utility"
+  ]
+}

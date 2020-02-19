@@ -1,0 +1,49 @@
+{
+  "authors": [
+    "discord:176457857431109632",
+    "github:SwitchbladeBot"
+  ],
+  "contents": [
+    {
+      "description": "Multi purpose Discord Bot made using discord.js, focused on quality, organization and enjoyability.",
+      "locale": "en-GB",
+      "name": "Switchblade",
+      "page": "Switchblade is a free and open source solution to all of your server managing problems, built from scratch with code organization and quality in mind. Want some music for your server? We've got you covered. We've got you covered. How about economy? Well, we've go you covered too.\r\n\r\n"
+    }
+  ],
+  "created": 1554644877324,
+  "edited": 1555257302556,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "445277324175474689",
+  "images": {
+    "avatar": "images/445277324175474689/avatar.png",
+    "cover": "images/445277324175474689/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=445277324175474689&permissions=0&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discordapp.com/invite/2FB8wDG",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "s!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://switchblade.xyz",
+  "source": "https://github.com/SwitchbladeBot/switchblade",
+  "categories": [
+    "other"
+  ]
+}

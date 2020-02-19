@@ -1,0 +1,45 @@
+{
+  "authors": [
+    "discord:193060889111298048"
+  ],
+  "contents": [
+    {
+      "description": "A meme to prove Discord wrong, bots can tell if a user has Nitro.",
+      "locale": "en-GB",
+      "name": "NitroBot",
+      "page": "# [NitroBot](https://botz.mattcowley.co.uk/nitrobot/)\r\n\r\n>> A meme to prove Discord wrong, bots can tell if a user has Nitro. It does work if you fancy trying it out. <<\r\n\r\n### Links\r\n\r\n  [Invite NitroBot](https://botz.mattcowley.co.uk/nitrobot/invite) |\r\n  [NitroBot website](https://botz.mattcowley.co.uk/nitrobot/) |\r\n  [NitroBot support](https://botz.mattcowley.co.uk/nitrobot/support)\r\n"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1544549673576,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "359774600982167557",
+  "images": {
+    "avatar": "images/359774600982167557/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://botz.mattcowley.co.uk/nitrobot/invite"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "n!"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

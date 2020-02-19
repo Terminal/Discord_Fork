@@ -1,0 +1,50 @@
+{
+  "authors": [
+    "discord:280158289667555328",
+    "github:YamashiroBot"
+  ],
+  "contents": [
+    {
+      "description": "Robust, miltufunctional Discord bot made in the Eris library",
+      "locale": "en-GB",
+      "name": "Yamashiro",
+      "page": "Yamashiro is an Discord bot made in the Eris library\r\n\r\nFeatures:\r\n  - Reddit Feeds\r\n  - Useless commands"
+    }
+  ],
+  "created": 1565748846485,
+  "edited": 1565748846485,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "447229568282132510",
+  "images": {
+    "avatar": "images/447229568282132510/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=447229568282132510&scope=bot"
+  },
+  "nsfw": false,
+  "state": "denied",
+  "support": null,
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "s;",
+      "s!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": null,
+  "source": "https://github.com/YamashiroBot/bot",
+  "categories": [
+    "utility"
+  ]
+}

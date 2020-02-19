@@ -1,0 +1,45 @@
+{
+  "authors": [
+    "discord:102845358677176320"
+  ],
+  "contents": [
+    {
+      "description": "I am the perfect bot for DnD and RP servers.",
+      "locale": "en-GB",
+      "name": "Roleplayer",
+      "page": "Roleplayer\r\n==========\r\n\r\n###### This bot uses an array of features and commands for one purpose: to make Roleplaying fun.\r\n\r\nCommand Categories\r\n------------------\r\n\r\nThe following are simply some commands for you to get started when inviting the bot.\r\n\r\n### General Commands\r\n\r\n`r>help` Lists out all of the command categories and the ways to access their documentation.\r\n\r\n`r>invite` Sends an invite to the chat in order for others to invite the bot.\r\n\r\n`r>vote` Vote for the bot here!\r\n\r\n### Economy Commands\r\n\r\n`r>balance` Checks your balance.\r\n\r\n`r>daily` Gives you your daily coins!\r\n\r\n`r>shop` A shop for you to buy cosmetic items, as well as extra profile slots.\r\n\r\n### Fun Commands\r\n\r\n`r>rollDice` Rolls some dice for you!\r\n\r\n`r>fortune` Gives you a fortune you would normally find in a fortune cookie.\r\n\r\n`r>say` Once you have created a profile, you are able to use this command to put words in the mouth of your character!\r\n\r\n##### Emotes\r\n\r\nSend cute GIF's to the chat! Available emotes: `smile`, `happy`, `sad`, `cry`, `laugh`, `scared`, `angry`, `blush`.\r\n\r\nSimply type `r>name_here` Eg. `r>smile`\r\n\r\n### Marriage\r\n\r\n`r>propose @user` Sends a proposal to the specified user!\r\n\r\n`r>acceptProposal @user` Get hitched! The person that was proposed to must run this command to seal the deal.\r\n\r\n`r>divorce @user` It wasn't love at first sight? Run this command and divorce your partner.\r\n\r\n### Profile\r\n\r\n`r>createProfile` Creates your profile. There must be at least an age, a name, and a short description given.\r\n\r\n`r>profile` Show off your profile! This command sends the full profile to the chat."
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1544107735768,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "460545687592108032",
+  "images": {
+    "avatar": "images/460545687592108032/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=460545687592108032&permissions=268758080&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": null,
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "r>"
+    ]
+  },
+  "videos": {},
+  "website": null,
+  "source": null,
+  "categories": [
+    "other"
+  ]
+}

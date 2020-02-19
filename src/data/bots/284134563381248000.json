@@ -1,0 +1,49 @@
+{
+  "authors": [
+    "discord:158049329150427136",
+    "github:Snazzah"
+  ],
+  "contents": [
+    {
+      "description": "A bot that manipulates photos",
+      "locale": "en-GB",
+      "name": "PhotoBox",
+      "page": "# PhotoBox\r\n### The best memegen ever\r\nPhotoBox is a bot that's sole purpose is to serve you high-quality memes on a teal platter.\r\n\r\n***You can have images like this:***\r\n\r\n![durv](https://cdn.discordapp.com/attachments/132632676225122304/430201338253541377/durv.png)\r\n\r\n***Or this:*** \r\n\r\n![respects](https://cdn.discordapp.com/attachments/132632676225122304/430201352883273729/respects.png)\r\n\r\n***Or even this:*** \r\n\r\n![changemymind](https://cdn.discordapp.com/attachments/132632676225122304/430202005915697162/changemymind.png)"
+    }
+  ],
+  "created": 1542569433000,
+  "edited": 1580681291539,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "284134563381248000",
+  "images": {
+    "avatar": "images/284134563381248000/avatar.png",
+    "cover": "images/284134563381248000/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://invite.snaz.in/photobox"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/uAqtMwQ",
+  "trigger": {
+    "customisable": false,
+    "mentionable": true,
+    "prefix": [
+      "📷"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://photobox.pw",
+  "source": "https://github.com/Snazzah/PhotoBox",
+  "categories": [
+    "image"
+  ]
+}

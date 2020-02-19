@@ -1,0 +1,49 @@
+{
+  "authors": [
+    "discord:255750690784149504",
+    "github:HasanBrandsXD"
+  ],
+  "contents": [
+    {
+      "description": "Galaxy, a fun filled Discord bot for your needs. Entertainment, music, and much more! ",
+      "locale": "en-GB",
+      "name": "Galaxy",
+      "page": "# Galaxy\r\n# Galaxy, a fun filled Discord bot for your needs. Entertainment, music, and much more! Check it out now. \r\n\r\n* Fun commands\r\n* moderation commands, \r\n* weather commands, \r\n* google, \r\n* shorten links, \r\n* gamestats, \r\n* setting greet/farewell messages, \r\n* image manipulation\r\n* stable music \r\n\r\n\r\nGalaxy has no downtime. Galaxy has a fast ping and fast reply for her best performance! Also keep in mind ping & uptime is our highest priority!"
+    }
+  ],
+  "created": 1559553045054,
+  "edited": 1559553045054,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "290048236658622464",
+  "images": {
+    "avatar": null,
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=290048236658622464&scope=bot&permissions=2081946751"
+  },
+  "nsfw": false,
+  "state": "denied",
+  "support": "https://discord.gg/QUtAds4",
+  "trigger": {
+    "customisable": false,
+    "mentionable": false,
+    "prefix": [
+      "&"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://hasanbrandsxd.github.io/galaxy/",
+  "source": "https://github.com/HasanBrandsXD/GalaxyBOT",
+  "categories": [
+    "entertainment"
+  ]
+}

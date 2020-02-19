@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:286713468285878272"
+  ],
+  "contents": [
+    {
+      "description": "A bot that has moderation, music, and fun commands that you can use forever.",
+      "locale": "en-GB",
+      "name": "Fallenthetaco",
+      "page": "### This is Fallenthetaco. The bot who has fallen and needs help. This bot was programmed to help people in the server using moderation, music, and some fun commands. If anyone has fallen, add this bot. This bot will help your life. To use this bot, you must use !help to get started.\r\n\r\n#### To get a list of commands, please use **!help**\r\n\r\n- !help - Shows all of the available commands that you can use\r\n- !ping - Ping/pong basically\r\n- !asciify - Shows a nice name/word\r\n- !avatar - Shows your/others profile picture\r\n- !listemoji - Lists all emoji from the server\r\n- !music - Shows music commands\r\n- !prefix - Shows my current prefix\r\n- !setprefix - (**Administrator Only**) Sets my prefix to be anything you want\r\n- !userinfo - Gets information about a mention or id\r\n- !serverinfo - Shows the servers information\r\n- Moderation commands which you should already know, !ban, !kick, !lock, !giverole, !removerole, etc.\r\n- Also, there is economy commands, so all you need to do is **!start** to start gaining some money. More economy commands are **!daily**, **!balance**.\r\n- Plus, the bot has slots command which you can just do **!slots (amount)**.\r\n  \r\n  - **NOTE:** The economy money is worldwide which means you can't change the balance. You have to earn the money legit by **!upvote**, and **!daily**."
+    }
+  ],
+  "created": 1545118544125,
+  "edited": 1547096640867,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "436047056394649600",
+  "images": {
+    "avatar": "images/436047056394649600/avatar.png",
+    "cover": null,
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/api/oauth2/authorize?client_id=436047056394649600&permissions=268695734&scope=bot"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/53D2WKY",
+  "trigger": {
+    "customisable": true,
+    "mentionable": false,
+    "prefix": [
+      "!"
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://fallenthetaco.glitch.me/",
+  "source": null,
+  "categories": [
+    "music"
+  ]
+}

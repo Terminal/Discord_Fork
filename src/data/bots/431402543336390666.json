@@ -1,0 +1,48 @@
+{
+  "authors": [
+    "discord:191691438415675392"
+  ],
+  "contents": [
+    {
+      "description": "A feature rich Minecraft focused Discord bot.",
+      "locale": "en-GB",
+      "name": "Crafty",
+      "page": "\r\n## Crafty bot information\r\n\r\nCrafty is a feature rich Minecraft Discord bot built to provide quality information and fun. Using Crafty you can:\r\n> View player's usernames, UUID's. skins and username history.\r\n> \r\n> View information about any Minecraft Java and Bedrock edition server.\r\n> \r\n> Render player's skins it different ways.\r\n> \r\n> Keep up to date with the latest Minecraft news and releases using automatic posting features.\r\n> \r\n> Get information about Hypixel, HiveMC and WynnCraft players.\r\n> \r\n> Play Minecraft trivia with other people.\r\n> \r\n> Customize the prefix and blacklist commands.\r\n> \r\n> Link a Minecraft username to your Discord account.\r\n> \r\n>  Link a Minecraft server to your Discord server. \r\n>  \r\n>  Check Minecraft's server statuses.\r\n\r\n[Website](https://craftybot.glitch.me/) **|** [Invite Link](https://discordapp.com/oauth2/authorize?client_id=431402543336390666&scope=bot&permissions=537259072) **|**  [Support Server](https://discord.gg/zB6fEQW)\r\n\r\n**Commands**\r\n\r\nBellow is a list of all usable commands, to get more information about Crafty's commands you can use the `/help` command when you have invited Crafty to a Discord server.\r\n\r\n##### Informational \r\n\r\n>The `Informational ` category contains commands that provide information, statistics and news.\r\n\r\n\r\n`colorcodes`, `mcseen`, `news`, `checkname`, `latest`, `namehistory`, `profile`, `server`, `serverpe`, `status`, `uuid`, `version`\r\n\r\n##### Servers \r\n>The `Servers` category contains commands for various Minecraft server such as Hypixel, WynnCraft and HiveMC.\r\n\r\n`hive`, `boosters`, `hypixelstats`, `hypixel`, `hypixelwds`, `wynncraft`\r\n\r\n##### Images \r\n>The `Images` category contains commands that provide images for Minecraft skins, achievements and colours.\r\n\r\n`achievement`, `rcolour`, `render`, `avatar`, `skin`, `skull`\r\n\r\n##### Fun \r\n>The `Fun` category contains commands that provide entertainment, trivia and mini games.\r\n\r\n`tntsweeper`, `fact`, `kill`, `pvp`, `quiz`, `rps`\r\n\r\n##### Miscellaneous \r\n>The `Miscellaneous` category contains commands that provide information about Crafty and how to use Crafty.\r\n\r\n`aliases`, `credits`, `feedback`, `help`, `invite`, `ping`, `stats`, `tutorial`, `vote`, `whatsnew`\r\n\r\n##### Configurable \r\n>The `Configurable ` category contains commands that provide a level customization for Crafty, options for various automated features and linking for Minecraft usernames and servers.\r\n\r\n`account`, `autopost`, `blacklist`, `configuration`, `prefix`, `setserver`\r\n\r\n\r\n© 2019 Crafty Bot. All rights reserved."
+    }
+  ],
+  "created": 1547976679109,
+  "edited": 1561022257130,
+  "flags": {
+    "adverts": false,
+    "inAppPurchases": false
+  },
+  "hide": false,
+  "id": "431402543336390666",
+  "images": {
+    "avatar": "images/431402543336390666/avatar.png",
+    "cover": "images/431402543336390666/background.png",
+    "preview": []
+  },
+  "invite": {
+    "discord": "https://discordapp.com/oauth2/authorize?client_id=431402543336390666&scope=bot&permissions=537259072"
+  },
+  "nsfw": false,
+  "state": "approved",
+  "support": "https://discord.gg/zB6fEQW",
+  "trigger": {
+    "customisable": true,
+    "mentionable": true,
+    "prefix": [
+      "/ "
+    ]
+  },
+  "videos": {
+    "youku": null,
+    "youtube": null
+  },
+  "website": "https://craftybot.glitch.me",
+  "source": null,
+  "categories": [
+    "games"
+  ]
+}
