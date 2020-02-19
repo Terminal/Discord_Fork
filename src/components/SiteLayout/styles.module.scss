@@ -1,0 +1,12 @@
+@use 'settings';
+
+.layout {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+}
+
+.gap {
+  gap: 1em;
+  grid-gap: 1em;
+}

@@ -1,14 +1,15 @@
 import React from 'react'
 import SiteHeader from "../SiteHeader"
 import SiteFooter from '../SiteFooter'
+import styles from './styles.module.scss'
 
-const SiteLayout = ({ children, data }) => {
+const SiteLayout = ({ children, data, gap = true }) => {
   return (
-    <>
+    <div className={`${styles.layout} ${gap && styles.gap}`}>
       <SiteHeader />
       <main>{children}</main>
       <SiteFooter />
-    </>
+    </div>
   )
 }
 
