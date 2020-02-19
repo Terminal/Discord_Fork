@@ -6,16 +6,17 @@
 }
 
 .green {
-  background-color: green;
-  color: yellow;
+  @include settings.primary-road
 }
 
 .brown {
-  background-color: rgb(121, 68, 0);
-  color: white;
+  @include settings.attraction;
 }
 
 .white {
-  background-color: white;
-  color: black;
+  @include settings.non-primary-road;
+}
+
+.blue {
+  @include settings.motorway;
 }

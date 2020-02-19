@@ -2,8 +2,7 @@
 
 .links {
   display: inline-grid;
-  color: white;
-  background-color: rgb(0, 121, 193);
+  @include settings.motorway;
   flex-direction: column;
   padding: 1em;
   border-radius: 0.7em;
