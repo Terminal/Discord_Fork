@@ -3,12 +3,31 @@ import styles from './styles.module.scss'
 import SitePadSides from '../SitePadSides'
 
 const places = [
-  {label: 'Shopmobility', style: styles.white},
-  {label: 'Top Secret Bunker', style: styles.brown},
-  {label: 'Chessington World of Adventures', style: styles.brown},
-  {label: 'Tower of London', style: styles.brown},
-  {label: 'Stockport Transporter Bridge', style: styles.brown},
-  {label: 'LOTTE World', style: styles.brown},
+  {
+    label: 'Shopmobility',
+    style: styles.white,
+    link: null
+  },{
+    label: 'Top Secret Bunker',
+    style: styles.brown,
+    link: null
+  },{
+    label: 'Chessington World of Adventures',
+    style: styles.brown,
+    link: 'https://www.chessington.com/'
+  },{
+    label: 'Tower of London',
+    style: styles.brown,
+    link: 'https://www.hrp.org.uk/tower-of-london/'
+  },{
+    label: 'Newport Transporter Bridge',
+    style: styles.brown,
+    link: 'http://www.newport.gov.uk/heritage/Transporter-Bridge/Transporter-Bridge.aspx'
+  },{
+    label: 'LOTTE World',
+    style: styles.brown,
+    link: 'http://www.lotteworld.com'
+  }
 ]
 
 class SiteFooter extends Component {
@@ -40,7 +59,9 @@ class SiteFooter extends Component {
             <a href="https://github.com/terminal/discord_fork">Source Code <span className={styles.green}>github.com</span> →</a>
             <a href="https://discord.gg/H9FhrwU">Discord Server <span className={styles.green}>discordapp.com</span> →</a>
             {this.state.label &&
-              <span className={this.state.style}>← {this.state.label}</span>
+              this.state.link ?
+                <a href={this.state.link}><span className={this.state.style}>← {this.state.label}</span></a> :
+                <span className={this.state.style}>← {this.state.label}</span>
             }
           </div>
         </SitePadSides>
