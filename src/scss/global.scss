@@ -1,3 +1,5 @@
+@use 'settings';
+
 @font-face {
   font-family: 'Transport New';
   src: url('https://fonts.leondrolio.com/TransportNew-Medium.woff');
@@ -38,4 +40,5 @@
 body {
   margin: 0;
   font-size: 1.3em;
+  font-family: settings.$main-font;
 }

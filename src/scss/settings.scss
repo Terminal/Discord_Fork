@@ -1,7 +1,8 @@
-@import 'global';
-
 $primary: #eeeeee;
 $user-font: 'Arial', sans-serif;
+
+// DO NOT USE `$main-font` FOR USER GENERATED CONTENT
+// The licence for this font does not allow for this.
 $main-font: 'Transport New', #{$user-font};
 
 @function colourDepth($colour, $depth) {
