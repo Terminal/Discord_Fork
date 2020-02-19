@@ -27,9 +27,9 @@ const places = [
     style: 'tourist',
     link: 'http://www.newport.gov.uk/heritage/Transporter-Bridge/Transporter-Bridge.aspx'
   },{
-    label: 'LOTTE World',
+    label: 'Queen Elizabeth Olympic Park',
     style: 'tourist',
-    link: 'http://www.lotteworld.com'
+    link: 'https://www.queenelizabetholympicpark.co.uk'
   }
 ]
 
