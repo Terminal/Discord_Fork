@@ -1,9 +1,28 @@
 @use 'settings';
 
 .header {
-  padding-top: 20px;
-  padding-bottom: 10px;
   background-color: settings.primaryDepth(1);
+}
+
+.title, .links {
   font-family: settings.$main-font;
-  font-size: 3em;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5em;
+}
+
+.title {
+  padding-top: 0.75em;
+  padding-bottom: 0.5em;
+  font-size: 2em;
+  display: block;
 }
