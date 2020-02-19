@@ -1,31 +1,34 @@
 import React, { Component } from 'react'
 import styles from './styles.module.scss'
 import SitePadSides from '../SitePadSides'
+import TransportSign from '../TransportSign';
+import TransportSignTitle from '../TransportSignTitle';
+import TransportSignBadge from '../TransportSignBadge';
 
 const places = [
   {
     label: 'Shopmobility',
-    style: styles.white,
+    style: 'white',
     link: null
   },{
     label: 'Top Secret Bunker',
-    style: styles.brown,
+    style: 'tourist',
     link: null
   },{
     label: 'Chessington World of Adventures',
-    style: styles.brown,
+    style: 'tourist',
     link: 'https://www.chessington.com/'
   },{
     label: 'Tower of London',
-    style: styles.brown,
+    style: 'tourist',
     link: 'https://www.hrp.org.uk/tower-of-london/'
   },{
     label: 'Newport Transporter Bridge',
-    style: styles.brown,
+    style: 'tourist',
     link: 'http://www.newport.gov.uk/heritage/Transporter-Bridge/Transporter-Bridge.aspx'
   },{
     label: 'LOTTE World',
-    style: styles.brown,
+    style: 'tourist',
     link: 'http://www.lotteworld.com'
   }
 ]
@@ -54,16 +57,16 @@ class SiteFooter extends Component {
             Copyright (c) 2015 - 2020 Leondro Lio<br />
             Made in Britain
           </p>
-          <div className={styles.links}>
-            <span className={styles.header}>Links</span>
-            <a href="https://github.com/terminal/discord_fork">Source Code <span className={styles.green}>github.com</span> →</a>
-            <a href="https://discord.gg/H9FhrwU">Discord Server <span className={styles.green}>discordapp.com</span> →</a>
+          <TransportSign>
+            <TransportSignTitle>Links</TransportSignTitle>
+            <a href="https://github.com/terminal/discord_fork">Source Code <TransportSignBadge type="a">github.com</TransportSignBadge> →</a>
+            <a href="https://discord.gg/H9FhrwU">Discord Server <TransportSignBadge type="a">discordapp.com</TransportSignBadge> →</a>
             {this.state.label &&
               this.state.link ?
-                <a href={this.state.link}><span className={this.state.style}>← {this.state.label}</span></a> :
-                <span className={this.state.style}>← {this.state.label}</span>
+                <a href={this.state.link}><TransportSignBadge type={this.state.style}>← {this.state.label}</TransportSignBadge></a> :
+                <TransportSignBadge type={this.state.style}>← {this.state.label}</TransportSignBadge>
             }
-          </div>
+          </TransportSign>
         </SitePadSides>
       </footer>
     )
