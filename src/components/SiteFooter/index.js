@@ -4,6 +4,7 @@ import SitePadSides from '../SitePadSides'
 import TransportSign from '../TransportSign';
 import TransportSignTitle from '../TransportSignTitle';
 import TransportSignBadge from '../TransportSignBadge';
+import { Link } from 'gatsby';
 
 const places = [
   {
@@ -59,6 +60,7 @@ class SiteFooter extends Component {
           </p>
           <TransportSign>
             <TransportSignTitle>Links</TransportSignTitle>
+            <Link to="/terms">Terms →</Link>
             <a href="https://github.com/terminal/discord_fork">Source Code <TransportSignBadge type="a">github.com</TransportSignBadge> →</a>
             <a href="https://discord.gg/H9FhrwU">Discord Server <TransportSignBadge type="a">discordapp.com</TransportSignBadge> →</a>
             {this.state.label &&
