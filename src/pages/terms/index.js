@@ -1,8 +1,7 @@
 import React from 'react';
-import BotCards from "../../components/BotCards";
 import SiteLayout from "../../components/SiteLayout";
-import SiteSEO from "../../components/SiteSEO";
 import SitePadSides from "../../components/SitePadSides";
+import SiteSEO from "../../components/SiteSEO";
 
 const TermsPage = () => {
   return (

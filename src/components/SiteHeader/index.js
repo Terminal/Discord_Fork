@@ -10,7 +10,7 @@ const SiteHeader = () => {
         <span className={styles.title}>DiscordFork</span>
         <div className={styles.links}>
           <Link to="/">Home</Link>
-          <a href="#noop">🔍 Search</a>
+          <a href="#noop"><span role="img" aria-label="Magnifying Glass Emoji">🔍</span> Search</a>
           <a href="#noop">Login</a>
         </div>
       </SitePadSides>
