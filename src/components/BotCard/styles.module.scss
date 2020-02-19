@@ -1,0 +1,28 @@
+@use 'settings';
+
+$width: 128px;
+
+.container {
+  background-color: settings.primaryDepth(0);
+  width: $width;
+  font-family: settings.$user-font;
+}
+
+.avatar, .missingAvatar {
+  width: $width;
+  height: $width;
+}
+
+.missingAvatar {
+  background-color: lightpink;
+}
+
+.bottom {
+  height: calc(2em + 30px);
+  padding: 5px;
+
+  .name {
+    display: block;
+    word-wrap: break-word;
+  }
+}

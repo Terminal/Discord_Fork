@@ -1,0 +1,13 @@
+@import 'global';
+
+$primary: #eeeeee;
+$user-font: 'Arial', sans-serif;
+$main-font: 'Transport New', #{$user-font};
+
+@function colourDepth($colour, $depth) {
+  @return darken($colour, ($depth * 5%));
+}
+
+@function primaryDepth($depth) {
+  @return colourDepth($primary, $depth)
+}

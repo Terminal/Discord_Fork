@@ -1,0 +1,9 @@
+@use 'settings';
+
+.header {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-color: settings.primaryDepth(1);
+  font-family: settings.$main-font;
+  font-size: 3em;
+}
