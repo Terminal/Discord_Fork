@@ -1,22 +1,21 @@
 @use 'settings';
 
+.white, .brown, .green {
+  padding: 0.2em;
+  border-radius: 0.2em;
+}
+
 .green {
   background-color: green;
   color: yellow;
-  padding: 10px 5px 5px 5px;
-  border-radius: 5px;
 }
 
 .brown {
   background-color: rgb(121, 68, 0);
   color: white;
-  padding: 10px 5px 5px 5px;
-  border-radius: 5px;
 }
 
 .white {
   background-color: white;
   color: black;
-  padding: 10px 5px 5px 5px;
-  border-radius: 5px;
 }

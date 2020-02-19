@@ -8,6 +8,7 @@
   padding: 1em;
   border-radius: 0.7em;
   gap: 0.5em;
+  grid-gap: 0.5em;
   font-family: settings.$main-font;
 
   box-shadow:
@@ -17,6 +18,5 @@
   a {
     text-decoration: none;
     color: white;
-    line-height: 1.5em;
   }
 }
