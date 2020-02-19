@@ -13,23 +13,23 @@ const places = [
     link: null
   },{
     label: 'Top Secret Bunker',
-    style: 'tourist',
+    style: 'attraction',
     link: null
   },{
     label: 'Chessington World of Adventures',
-    style: 'tourist',
+    style: 'attraction',
     link: 'https://www.chessington.com/'
   },{
     label: 'Tower of London',
-    style: 'tourist',
+    style: 'attraction',
     link: 'https://www.hrp.org.uk/tower-of-london/'
   },{
     label: 'Newport Transporter Bridge',
-    style: 'tourist',
-    link: 'http://www.newport.gov.uk/heritage/Transporter-Bridge/Transporter-Bridge.aspx'
+    style: 'attraction',
+    link: 'https://www.newport.gov.uk/heritage/Transporter-Bridge/Transporter-Bridge.aspx'
   },{
     label: 'Queen Elizabeth Olympic Park',
-    style: 'tourist',
+    style: 'attraction',
     link: 'https://www.queenelizabetholympicpark.co.uk'
   }
 ]

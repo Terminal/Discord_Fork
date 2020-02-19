@@ -5,7 +5,7 @@ const mapping = Object.assign(styles, {
   a: styles.green,
   m: styles.blue,
   b: styles.white,
-  tourist: styles.brown
+  attraction: styles.brown
 })
 
 const TransportSignBadge = ({ children, type }) => {
