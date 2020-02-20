@@ -1,6 +1,7 @@
 @use 'settings';
 
 .links {
+  position: relative;
   display: inline-grid;
   @include settings.motorway;
   flex-direction: column;

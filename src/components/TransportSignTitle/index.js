@@ -3,9 +3,9 @@ import styles from './styles.module.scss'
 
 const TransportSignTitle = ({ children }) => {
   return (
-    <span className={styles.header}>
+    <div className={styles.header}>
       {children}
-    </span>
+    </div>
   )
 }
 
